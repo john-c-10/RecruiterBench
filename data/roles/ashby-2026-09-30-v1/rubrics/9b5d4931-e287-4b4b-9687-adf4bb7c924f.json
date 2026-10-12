@@ -3,10 +3,10 @@
   "role_id": "9b5d4931-e287-4b4b-9687-adf4bb7c924f",
   "snapshot_sha256": "2c8558ba105cde913818520fb1ebba255b391d097ccb27e9164cfafacf618896",
   "input_sha256": "c4a067ea5a82449be27fc9ed85ed6bae0ad5315eb8a924d5e4b3f483b7058c69",
-  "rubric_sha256": "48cab25724ed55debbeefb86f6e485d2471fe7b3a2f1cafabadd44ec40d86dcc",
+  "rubric_sha256": "544d73df190b2eb017f31cbec172eba915be976ecfd980c72a53df5b89ceba30",
   "rubric": {
     "role_summary": "Lead state and regional energy regulatory policy advocacy for residential batteries, including engagement with regulators and industry stakeholders and support for market-entry decisions.",
-    "search_query": "Find candidates for this role:\nLead state and regional energy regulatory policy advocacy for residential batteries, including engagement with regulators and industry stakeholders and support for market-entry decisions.\nMandatory professional qualifications:\n- 5+ years of experience in the energy sector.\n- Experience in policy or regulatory affairs work.\nPreferred, not mandatory:\n- Policy outcomes influenced were in the energy, utilities, or technology sectors.\n- Track record of influencing policy outcomes.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nLead state and regional energy regulatory policy advocacy for residential batteries, including engagement with regulators and industry stakeholders and support for market-entry decisions.\nMandatory professional qualifications:\n- 5+ years of experience in the energy sector.\n- Experience in policy or regulatory affairs work.\nPreferred, not mandatory:\n- Policy outcomes influenced were in the energy, utilities, or technology sectors.\n- Track record of influencing policy outcomes.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -106,75 +106,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "bc8d8c12772659a8e2b8ffa865f628e72811d2b709b06d6177fb7ff60e31b601",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "In-person work in Austin, Texas; current residence in Austin is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin, TX",
-        "OnSite",
-        "We work in-person."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience in the energy sector.",
-        "effective_requirement": "5+ years of experience in the energy sector.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Track record of influencing policy outcomes.",
+        "effective_requirement": "Experience in policy or regulatory affairs work.",
+        "reason": "Policy role is observable; influencing outcomes is a performance claim."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "24af39a24bdc84c368e5bfdd79569396c1ad57d9f3f26cf39e9dc27e75ad9e5a",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "24af39a24bdc84c368e5bfdd79569396c1ad57d9f3f26cf39e9dc27e75ad9e5a",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Track record of influencing policy outcomes.",
-          "after": "Experience in policy or regulatory affairs work.",
-          "reason": "Policy role is observable; influencing outcomes is a performance claim."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "dc5f96b70c2e4ae0e5e89514f8a32192ad992adac31c4b4b8f7a0ca0c5a611bd",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "dfbe01425fbf25c133c6e008e90df6828ec0d26b4d331d2fa981dcda7b760817",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

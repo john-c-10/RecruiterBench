@@ -3,10 +3,10 @@
   "role_id": "8efcc88b-48eb-486a-bf63-ff9143af7250",
   "snapshot_sha256": "3284d89629b58a5c193bde097f57a404dbad2cf64033468d14812d5ab1c02990",
   "input_sha256": "34da86db984d2c401c84463eb424e11a55e49627f52b2dd9b8d92ecd203e16d7",
-  "rubric_sha256": "a98aacf775e124b209d1688ed78416157164704041a9405a72326d4cddef5dda",
+  "rubric_sha256": "bfddc623343fd8279ee969451165f1b7fa8c24612687161a3c5f71405c5cc776",
   "rubric": {
     "role_summary": "Partner marketing manager in growth marketing, owning joint go-to-market plans, co-marketing campaigns, partner enablement, and performance measurement with strategic technology and financial-services partners.",
-    "search_query": "Find candidates for this role:\nPartner marketing manager in growth marketing, owning joint go-to-market plans, co-marketing campaigns, partner enablement, and performance measurement with strategic technology and financial-services partners.\nMandatory professional qualifications:\n- 6+ years of relevant B2B marketing experience, including partner- or channel-marketing roles.\n- Experience working closely with technology OR consulting partners to build joint marketing plans that drive customer acquisition and pipeline generation; AI-specific partner experience is not a separate mandatory condition.\nPreferred, not mandatory:\n- Experience at a high-growth technology company.\n- Experience in payments, financial technology, Credit, Lending, or Banking.\n- Background in partner enablement, revenue enablement, or sales enablement.\n- Experience with marketing automation platforms such as Marketo or HubSpot, or CRM such as Salesforce.\n- Experience with learning management systems and employee enablement intranet platforms.\n- Ability to use AI tools and technologies to improve efficiency, automate workflows, and scale impact.\n- Ability to influence partner marketing leadership teams and align on joint objectives and priorities.\n- Experience shaping joint messaging with partners and translating product positioning into partner-ready content.\n- Demonstrated ability to measure and improve marketing-investment ROI through an indirect or partner business model.\n- Deep understanding of the partner channel funnel, sales cycle, and product lifecycle.\n- Cross-functional experience aligning stakeholders across partnerships, product marketing, product, and communications.\n- Experience engaging enterprise-level stakeholders and presenting to senior audiences.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nPartner marketing manager in growth marketing, owning joint go-to-market plans, co-marketing campaigns, partner enablement, and performance measurement with strategic technology and financial-services partners.\nMandatory professional qualifications:\n- 6+ years of relevant B2B marketing experience, including partner- or channel-marketing roles.\n- Experience working closely with technology OR consulting partners to build joint marketing plans that drive customer acquisition and pipeline generation; AI-specific partner experience is not a separate mandatory condition.\nPreferred, not mandatory:\n- Experience at a high-growth technology company.\n- Experience in payments, financial technology, Credit, Lending, or Banking.\n- Background in partner enablement, revenue enablement, or sales enablement.\n- Experience with marketing automation platforms such as Marketo or HubSpot, or CRM such as Salesforce.\n- Experience with learning management systems and employee enablement intranet platforms.\n- Ability to use AI tools and technologies to improve efficiency, automate workflows, and scale impact.\n- Ability to influence partner marketing leadership teams and align on joint objectives and priorities.\n- Experience shaping joint messaging with partners and translating product positioning into partner-ready content.\n- Demonstrated ability to measure and improve marketing-investment ROI through an indirect or partner business model.\n- Deep understanding of the partner channel funnel, sales cycle, and product lifecycle.\n- Cross-functional experience aligning stakeholders across partnerships, product marketing, product, and communications.\n- Experience engaging enterprise-level stakeholders and presenting to senior audiences.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -163,125 +163,56 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "bf1151c30c1916e389d2be8597ec705921dca790330eba276a3155669bc2e8e2",
-    "resolved_ambiguities": [
-      "The technology-partner qualification contains two concatenated versions: one specifically includes AI and emerging-technology companies; the other allows technology and/or consulting partners. The intended scope of the requirement needs clarification."
-    ],
-    "resolution": "Accept technology OR consulting partners; the narrower AI-specific wording does not become an additional gate.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role with San Francisco HQ and New York City office listed as work-location alternatives; present residence in either city is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco HQ",
-        "New York City Office"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco HQ",
-        "New York City Office",
-        "Hybrid"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "6–8+ years of relevant B2B marketing experience, including roles focused on partner or channel marketing",
-        "effective_requirement": "6+ years of relevant B2B marketing experience, including partner- or channel-marketing roles.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "38e2bada4df22e357e9617c57db4d9163d21dd4e882bfb13b31b5bc06de33b19",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "38e2bada4df22e357e9617c57db4d9163d21dd4e882bfb13b31b5bc06de33b19",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to influence partner marketing leadership teams and align on joint objectives and priorities.",
-          "source_quote": "Proven ability to influence partner marketing leadership teams and align on joint objectives and priorities",
-          "verification": "profile",
-          "reason": "Influence is a soft skill."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience shaping joint messaging with partners and translating product positioning into partner-ready content.",
-          "source_quote": "Experience shaping joint messaging with partners and translating product positioning into partner-ready content",
-          "verification": "profile",
-          "reason": "Joint messaging practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Demonstrated ability to measure and improve marketing-investment ROI through an indirect or partner business model.",
-          "source_quote": "Demonstrated ability to measure and improve ROI of marketing investments through an indirect/partner business model",
-          "verification": "profile",
-          "reason": "ROI improvement is a quantified outcome rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Deep understanding of the partner channel funnel, sales cycle, and product lifecycle.",
-          "source_quote": "Deep understanding of the partner channel funnel, sales cycle, and product lifecycle",
-          "verification": "profile",
-          "reason": "Conceptual understanding largely implied by M1 and rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Cross-functional experience aligning stakeholders across partnerships, product marketing, product, and communications.",
-          "source_quote": "Strong cross-functional skills with the ability to align stakeholders across partnerships, product marketing, product, and communications",
-          "verification": "profile",
-          "reason": "Cross-functional alignment is a soft skill."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Experience engaging enterprise-level stakeholders and presenting to senior audiences.",
-          "source_quote": "Comfortable engaging with enterprise-level stakeholders and presenting to senior audiences",
-          "verification": "profile",
-          "reason": "Senior stakeholder engagement is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P7",
-        "M4": "P8",
-        "M5": "P9",
-        "M6": "P10",
-        "M7": "P11",
-        "M8": "P12"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "2cfb735af0a8848115d866f7c046bce372373a9e0adeac12c0fde230334485a9",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "6c0e807670574c7c557c49200ca333436e8de968d47b0e5cef9007fdb67f2086",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to influence partner marketing leadership teams and align on joint objectives and priorities.",
+        "source_quote": "Proven ability to influence partner marketing leadership teams and align on joint objectives and priorities",
+        "verification": "profile",
+        "reason": "Influence is a soft skill."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience shaping joint messaging with partners and translating product positioning into partner-ready content.",
+        "source_quote": "Experience shaping joint messaging with partners and translating product positioning into partner-ready content",
+        "verification": "profile",
+        "reason": "Joint messaging practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated ability to measure and improve marketing-investment ROI through an indirect or partner business model.",
+        "source_quote": "Demonstrated ability to measure and improve ROI of marketing investments through an indirect/partner business model",
+        "verification": "profile",
+        "reason": "ROI improvement is a quantified outcome rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Deep understanding of the partner channel funnel, sales cycle, and product lifecycle.",
+        "source_quote": "Deep understanding of the partner channel funnel, sales cycle, and product lifecycle",
+        "verification": "profile",
+        "reason": "Conceptual understanding largely implied by M1 and rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Cross-functional experience aligning stakeholders across partnerships, product marketing, product, and communications.",
+        "source_quote": "Strong cross-functional skills with the ability to align stakeholders across partnerships, product marketing, product, and communications",
+        "verification": "profile",
+        "reason": "Cross-functional alignment is a soft skill."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience engaging enterprise-level stakeholders and presenting to senior audiences.",
+        "source_quote": "Comfortable engaging with enterprise-level stakeholders and presenting to senior audiences",
+        "verification": "profile",
+        "reason": "Senior stakeholder engagement is rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

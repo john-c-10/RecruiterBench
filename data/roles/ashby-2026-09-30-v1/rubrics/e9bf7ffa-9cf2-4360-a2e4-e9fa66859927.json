@@ -3,10 +3,10 @@
   "role_id": "e9bf7ffa-9cf2-4360-a2e4-e9fa66859927",
   "snapshot_sha256": "a06f3a2158aaefb41c01f44cdb83ddf5b49eb5792d565b82ead4f9462da85932",
   "input_sha256": "5f93f0fb757a678cb6fed0f351ec081b8595dccead2ac0a9fea6a72517ddb6dd",
-  "rubric_sha256": "b23d2d768b9f205a6c7f9311c33dfb73e9d0ecc368df280028f744c7c8eb6ea2",
+  "rubric_sha256": "500dcbe05c840fc6792b1e505709a5cdf3e3586018b13166ed8a4db9d2c192a1",
   "rubric": {
     "role_summary": "Hands-on technical leader for a data-platform team building and operating large-scale batch and streaming infrastructure. The role sets multi-quarter direction, develops engineers and technical leaders, and leads work across data-lake, distributed-compute, governance, and reliability systems.",
-    "search_query": "Find candidates for this role:\nHands-on technical leader for a data-platform team building and operating large-scale batch and streaming infrastructure. The role sets multi-quarter direction, develops engineers and technical leaders, and leads work across data-lake, distributed-compute, governance, and reliability systems.\nMandatory professional qualifications:\n- Experience designing and operating large-scale batch and streaming data systems.\n- Experience leading a Data Platform or infrastructure team.\nPreferred, not mandatory:\n- Experience designing and operating large-scale batch and streaming systems, with expertise spanning storage, compute, ingestion, orchestration, serving, governance, and production operations.\n- Experience leading a Data Platform or infrastructure team through multi-quarter work, including strategy, execution sequencing, and consequential technical decisions.\n- Experience attracting engineers, developing people across career stages, and developing technical leaders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nHands-on technical leader for a data-platform team building and operating large-scale batch and streaming infrastructure. The role sets multi-quarter direction, develops engineers and technical leaders, and leads work across data-lake, distributed-compute, governance, and reliability systems.\nMandatory professional qualifications:\n- Experience designing and operating large-scale batch and streaming data systems.\n- Experience leading a Data Platform or infrastructure team.\nPreferred, not mandatory:\n- Experience designing and operating large-scale batch and streaming systems, with expertise spanning storage, compute, ingestion, orchestration, serving, governance, and production operations.\n- Experience leading a Data Platform or infrastructure team through multi-quarter work, including strategy, execution sequencing, and consequential technical decisions.\n- Experience attracting engineers, developing people across career stages, and developing technical leaders.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -112,88 +112,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "47a4a24f972bc57043d887e9ebe59c4e9459c8aa21ee256508a0c07604913ea8",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Based in either San Francisco or New York City, working from the office on Mondays, Tuesdays, and Thursdays. Present residence and relocation policy are not specified.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, California",
-        "New York City, New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco, California",
-        "Hybrid",
-        "This role can be based in either San Francisco or New York City. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "bf814f71902ef676c753da2c0e85f879825ae8a5cc681552374ebcfcfd5351b2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "bf814f71902ef676c753da2c0e85f879825ae8a5cc681552374ebcfcfd5351b2",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience attracting engineers, developing people across career stages, and developing technical leaders.",
-          "source_quote": "You have attracted strong engineers, grown people across career stages, developed technical leaders, and created clarity when expectations or performance needed to change.",
-          "verification": "profile",
-          "reason": "Recruiting and developing people/technical leaders is rarely stated; leadership core is covered by M2."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Experience designing and operating large-scale batch and streaming systems, with expertise spanning storage, compute, ingestion, orchestration, serving, governance, and production operations.",
-          "after": "Experience designing and operating large-scale batch and streaming data systems.",
-          "reason": "Batch/streaming data systems experience is observable; the full list of expertise areas is unrealistic to require."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience leading a Data Platform or infrastructure team through multi-quarter work, including strategy, execution sequencing, and consequential technical decisions.",
-          "after": "Experience leading a Data Platform or infrastructure team.",
-          "reason": "Team leadership is observable from titles; strategy and sequencing details are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2",
-        "M3": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e8ddc73167b68de6f57b62d0bd6a517d8e8136248e8105d2fb93e18de5ee3571",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "74615f2d6b5e1531c4a8e7dca53dd1a69fe0d93bbc0ba8f2fbf1372dc183c5fa",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience designing and operating large-scale batch and streaming systems, with expertise spanning storage, compute, ingestion, orchestration, serving, governance, and production operations.",
+        "effective_requirement": "Experience designing and operating large-scale batch and streaming data systems.",
+        "reason": "Batch/streaming data systems experience is observable; the full list of expertise areas is unrealistic to require."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience leading a Data Platform or infrastructure team through multi-quarter work, including strategy, execution sequencing, and consequential technical decisions.",
+        "effective_requirement": "Experience leading a Data Platform or infrastructure team.",
+        "reason": "Team leadership is observable from titles; strategy and sequencing details are not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience attracting engineers, developing people across career stages, and developing technical leaders.",
+        "source_quote": "You have attracted strong engineers, grown people across career stages, developed technical leaders, and created clarity when expectations or performance needed to change.",
+        "verification": "profile",
+        "reason": "Recruiting and developing people/technical leaders is rarely stated; leadership core is covered by M2."
+      }
+    ]
   },
   "experience_context": []
 }

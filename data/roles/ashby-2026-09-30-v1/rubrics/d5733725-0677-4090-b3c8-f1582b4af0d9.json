@@ -3,10 +3,10 @@
   "role_id": "d5733725-0677-4090-b3c8-f1582b4af0d9",
   "snapshot_sha256": "9055c154a745bcf9d852ba105dc7ef3ee7830b6d40cb80cddc50be43f9e6310d",
   "input_sha256": "16fa739e503ca3ccf37406214cb1bd2ad7b8bf78ec5f3ffa23615b4e68e7d3c3",
-  "rubric_sha256": "8cd1fceecb01ef17f1c82ae37e644f33135c4de46ee526a17e00ff73af4dbbae",
+  "rubric_sha256": "5062cbf0b5bb94b7c652d6ed6b95af76aa2c1de7d334849b150d39d3232afebe",
   "rubric": {
     "role_summary": "Electrical engineer owning avionics, power distribution, communications, and electrical integration for high-power electric VTOL aircraft, from design through assembly and ground and flight testing.",
-    "search_query": "Find candidates for this role:\nElectrical engineer owning avionics, power distribution, communications, and electrical integration for high-power electric VTOL aircraft, from design through assembly and ground and flight testing.\nMandatory professional qualifications:\n- Bachelor’s degree in electrical engineering, computer engineering, mechatronics, or a related field.\n- Experience designing and integrating electrical or avionics systems.\n- Understanding of power electronics or embedded systems.\n- Ability to create and review schematics, wiring diagrams, pinout tables, and engineering drawings.\n- Experience using oscilloscopes, multimeters, logic analyzers, power supplies, electronic loads, and other laboratory equipment.\n- Experience troubleshooting complex electrical systems at the component and system levels.\n- Hands-on hardware integration experience.\nPreferred, not mandatory:\n- Experience with electric aircraft, drones, robotics, automotive systems, spacecraft, or other safety-critical hardware.\n- Experience with high-voltage and high-current lithium battery systems.\n- Experience integrating motors, ESCs, battery-management systems, contactors, and power-distribution units.\n- Experience with CAN, DroneCAN, UART, SPI, I²C, Ethernet, RS-232, or RS-485.\n- Experience with PX4, ArduPilot, CubePilot, or similar autopilot ecosystems.\n- Experience designing PCBs in Altium, KiCad, OrCAD, or a similar platform.\n- Familiarity with EMI/EMC testing and aerospace grounding and shielding practices.\n- Familiarity with environmental qualification, electrical derating, FMEA, and fault-tolerant design.\n- Understanding of aviation development standards such as DO-160, DO-254, or SAE aerospace practices.\n- Experience taking an electrical system from prototype through low-rate production.\n- Understanding of power electronics, embedded systems, digital communications, and electrical protection.\n- Ability to work directly with hardware and support hands-on aircraft integration.\n- Technical documentation and configuration-management skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Oregon. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nElectrical engineer owning avionics, power distribution, communications, and electrical integration for high-power electric VTOL aircraft, from design through assembly and ground and flight testing.\nMandatory professional qualifications:\n- Bachelor’s degree in electrical engineering, computer engineering, mechatronics, or a related field.\n- Experience designing and integrating electrical or avionics systems.\n- Understanding of power electronics or embedded systems.\n- Ability to create and review schematics, wiring diagrams, pinout tables, and engineering drawings.\n- Experience using oscilloscopes, multimeters, logic analyzers, power supplies, electronic loads, and other laboratory equipment.\n- Experience troubleshooting complex electrical systems at the component and system levels.\n- Hands-on hardware integration experience.\nPreferred, not mandatory:\n- Experience with electric aircraft, drones, robotics, automotive systems, spacecraft, or other safety-critical hardware.\n- Experience with high-voltage and high-current lithium battery systems.\n- Experience integrating motors, ESCs, battery-management systems, contactors, and power-distribution units.\n- Experience with CAN, DroneCAN, UART, SPI, I²C, Ethernet, RS-232, or RS-485.\n- Experience with PX4, ArduPilot, CubePilot, or similar autopilot ecosystems.\n- Experience designing PCBs in Altium, KiCad, OrCAD, or a similar platform.\n- Familiarity with EMI/EMC testing and aerospace grounding and shielding practices.\n- Familiarity with environmental qualification, electrical derating, FMEA, and fault-tolerant design.\n- Understanding of aviation development standards such as DO-160, DO-254, or SAE aerospace practices.\n- Experience taking an electrical system from prototype through low-rate production.\n- Understanding of power electronics, embedded systems, digital communications, and electrical protection.\n- Ability to work directly with hardware and support hands-on aircraft integration.\n- Technical documentation and configuration-management skills.\nWork location and geographic eligibility:\nLocation: Oregon. This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -199,85 +199,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f3ac497a1ab685b6b81339a0a6898b6bcd0642c7b6a4565285221c966d6bce1e",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Oregon; the posting does not require current Oregon residence.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Oregon"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Oregon",
-        "OnSite"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "8edcce2f2bb5e7d9233b010894cddae54cd9102c65f938d31bf2435065a47523",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8edcce2f2bb5e7d9233b010894cddae54cd9102c65f938d31bf2435065a47523",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Technical documentation and configuration-management skills.",
-          "source_quote": "Strong technical documentation and configuration-management habits",
-          "verification": "profile",
-          "reason": "Documentation/config-management skills are rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Understanding of power electronics, embedded systems, digital communications, and electrical protection.",
-          "after": "Understanding of power electronics or embedded systems.",
-          "reason": "Core EE areas are observable; full conjunctive list is unrealistic."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "before": "Ability to work directly with hardware and support hands-on aircraft integration.",
-          "after": "Hands-on hardware integration experience.",
-          "reason": "Hands-on integration is observable; aircraft-specific integration often is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P11",
-        "M7": "P12",
-        "M8": "P13"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e3b4705bc656c2b7fb90d2495ee9ed48659637fb0f2e45ad0178d5b4f2031f11",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "5d0b29f05e79f06027aebc156a1d020dcaddd3a326c945e1e2eec98b8c930c73",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Oregon"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Oregon. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Understanding of power electronics, embedded systems, digital communications, and electrical protection.",
+        "effective_requirement": "Understanding of power electronics or embedded systems.",
+        "reason": "Core EE areas are observable; full conjunctive list is unrealistic."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Ability to work directly with hardware and support hands-on aircraft integration.",
+        "effective_requirement": "Hands-on hardware integration experience.",
+        "reason": "Hands-on integration is observable; aircraft-specific integration often is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Technical documentation and configuration-management skills.",
+        "source_quote": "Strong technical documentation and configuration-management habits",
+        "verification": "profile",
+        "reason": "Documentation/config-management skills are rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

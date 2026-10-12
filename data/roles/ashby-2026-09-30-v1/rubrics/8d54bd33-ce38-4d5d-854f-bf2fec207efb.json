@@ -3,10 +3,10 @@
   "role_id": "8d54bd33-ce38-4d5d-854f-bf2fec207efb",
   "snapshot_sha256": "b05ef150f9cc3de60a78511cec63c790dc7a5b5892cfebeef90ab70007ec73ed",
   "input_sha256": "f2541460b03dbb6ba5aad23aef93d4bf90907b3844ba636f0d0f3b2e1421eab2",
-  "rubric_sha256": "8c906b50124f1173765d64a43a324f8445001b69fe1c8cb2a52b6133a7b7b575",
+  "rubric_sha256": "2c701217d7214cfabbf89c5a6d4647e73ffa53fc9f40b4821282aae9e00ed055",
   "rubric": {
     "role_summary": "Senior battery systems engineering role owning battery architecture and requirements for an electric mobility platform, including cell and pack modeling, operating strategy, and integration with BMS and controls teams.",
-    "search_query": "Find candidates for this role:\nSenior battery systems engineering role owning battery architecture and requirements for an electric mobility platform, including cell and pack modeling, operating strategy, and integration with BMS and controls teams.\nMandatory professional qualifications:\n- Experience in battery systems engineering on a shipped product.\n- Understanding of lithium-ion cell electrochemical behavior, thermal characteristics, and degradation mechanisms, and their implications for duty cycles and pack design.\n- Experience building battery simulation models (equivalent-circuit, thermal, degradation, or pack-level).\n- Experience with EV or electrified-powertrain battery systems.\n- Experience defining BMS hardware or firmware requirements.\n- BS or MS in electrical engineering, mechanical engineering, or a related field.\nPreferred, not mandatory:\n- Cell characterization experience and familiarity with BMS state-estimation algorithms and their controls interfaces.\n- Experience with advanced simulation tools and fast-charge protocol development and optimization.\n- Background in small EVs, two-wheelers, or light electric mobility platforms; familiarity with requirements-management tools; and business acumen in framing engineering tradeoffs.\n- Experience in battery systems engineering, with ownership of battery architecture and requirements on a shipped product rather than program support or analysis alone.\n- Hands-on expertise building equivalent-circuit, thermal-network, degradation, and pack-level simulation models from scratch, not merely running models.\n- Experience developing or validating EV or electrified-powertrain duty cycles and translating mission profiles into battery requirements and operating limits.\n- Experience working directly with embedded teams to translate cell and pack behavior into BMS hardware and firmware requirements, including protection thresholds, contactor and fuse sizing, parallel-cell current balance, and fault-detection logic.\n- Technical fluency in controls and embedded systems sufficient to participate in BMS and controls design reviews.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior battery systems engineering role owning battery architecture and requirements for an electric mobility platform, including cell and pack modeling, operating strategy, and integration with BMS and controls teams.\nMandatory professional qualifications:\n- Experience in battery systems engineering on a shipped product.\n- Understanding of lithium-ion cell electrochemical behavior, thermal characteristics, and degradation mechanisms, and their implications for duty cycles and pack design.\n- Experience building battery simulation models (equivalent-circuit, thermal, degradation, or pack-level).\n- Experience with EV or electrified-powertrain battery systems.\n- Experience defining BMS hardware or firmware requirements.\n- BS or MS in electrical engineering, mechanical engineering, or a related field.\nPreferred, not mandatory:\n- Cell characterization experience and familiarity with BMS state-estimation algorithms and their controls interfaces.\n- Experience with advanced simulation tools and fast-charge protocol development and optimization.\n- Background in small EVs, two-wheelers, or light electric mobility platforms; familiarity with requirements-management tools; and business acumen in framing engineering tradeoffs.\n- Experience in battery systems engineering, with ownership of battery architecture and requirements on a shipped product rather than program support or analysis alone.\n- Hands-on expertise building equivalent-circuit, thermal-network, degradation, and pack-level simulation models from scratch, not merely running models.\n- Experience developing or validating EV or electrified-powertrain duty cycles and translating mission profiles into battery requirements and operating limits.\n- Experience working directly with embedded teams to translate cell and pack behavior into BMS hardware and firmware requirements, including protection thresholds, contactor and fuse sizing, parallel-cell current balance, and fault-detection logic.\n- Technical fluency in controls and embedded systems sufficient to participate in BMS and controls design reviews.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -162,105 +162,46 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "c81aaff30b2ce4df822783d7fbf452359f4be740ac4835645e64388ff8082158",
-    "resolved_ambiguities": [
-      "The description says the role is available “at all levels,” while the qualifications specify “8+ years in battery systems engineering”; whether the threshold applies to every level needs clarification."
-    ],
-    "resolution": "The less restrictive 'all levels' interpretation removes the conflicting eight-year floor; the substantive battery architecture/ownership requirements remain.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Palo Alto; the posting does not require current residence there or specify a relocation policy.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Palo Alto"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Palo Alto",
-        "OnSite"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "3d06610586611c25d6cb97bc9fe52785a53fdc6bd98a652103ca1a2398dc26cc",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "3d06610586611c25d6cb97bc9fe52785a53fdc6bd98a652103ca1a2398dc26cc",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Technical fluency in controls and embedded systems sufficient to participate in BMS and controls design reviews.",
-          "source_quote": "Fluent enough in controls and embedded systems to be technically credible and drive alignment at BMS and controls design reviews",
-          "verification": "profile",
-          "reason": "Fluency sufficient for design reviews is unobservable."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Experience in battery systems engineering, with ownership of battery architecture and requirements on a shipped product rather than program support or analysis alone.",
-          "after": "Experience in battery systems engineering on a shipped product.",
-          "reason": "Battery systems role is observable; ownership-vs-support distinction is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Hands-on expertise building equivalent-circuit, thermal-network, degradation, and pack-level simulation models from scratch, not merely running models.",
-          "after": "Experience building battery simulation models (equivalent-circuit, thermal, degradation, or pack-level).",
-          "reason": "Battery modeling is observable; requiring all model types built from scratch is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience developing or validating EV or electrified-powertrain duty cycles and translating mission profiles into battery requirements and operating limits.",
-          "after": "Experience with EV or electrified-powertrain battery systems.",
-          "reason": "EV battery domain is observable; duty-cycle development practice is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Experience working directly with embedded teams to translate cell and pack behavior into BMS hardware and firmware requirements, including protection thresholds, contactor and fuse sizing, parallel-cell current balance, and fault-detection logic.",
-          "after": "Experience defining BMS hardware or firmware requirements.",
-          "reason": "BMS involvement is observable; the detailed list of items is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M7": "M6"
-      },
-      "demoted_preference_ids": {
-        "M1": "P4",
-        "M3": "P5",
-        "M4": "P6",
-        "M5": "P7",
-        "M6": "P8"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "466e6ffb523030b50db6e4447f2f2fdd5220f6bffee35af99a6ed43b5dd87a00",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "adeaf1c1d30779797371f4ff74ef9093efda7e63a335113776d3be6ed289bcca",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience in battery systems engineering, with ownership of battery architecture and requirements on a shipped product rather than program support or analysis alone.",
+        "effective_requirement": "Experience in battery systems engineering on a shipped product.",
+        "reason": "Battery systems role is observable; ownership-vs-support distinction is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on expertise building equivalent-circuit, thermal-network, degradation, and pack-level simulation models from scratch, not merely running models.",
+        "effective_requirement": "Experience building battery simulation models (equivalent-circuit, thermal, degradation, or pack-level).",
+        "reason": "Battery modeling is observable; requiring all model types built from scratch is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience developing or validating EV or electrified-powertrain duty cycles and translating mission profiles into battery requirements and operating limits.",
+        "effective_requirement": "Experience with EV or electrified-powertrain battery systems.",
+        "reason": "EV battery domain is observable; duty-cycle development practice is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience working directly with embedded teams to translate cell and pack behavior into BMS hardware and firmware requirements, including protection thresholds, contactor and fuse sizing, parallel-cell current balance, and fault-detection logic.",
+        "effective_requirement": "Experience defining BMS hardware or firmware requirements.",
+        "reason": "BMS involvement is observable; the detailed list of items is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Technical fluency in controls and embedded systems sufficient to participate in BMS and controls design reviews.",
+        "source_quote": "Fluent enough in controls and embedded systems to be technically credible and drive alignment at BMS and controls design reviews",
+        "verification": "profile",
+        "reason": "Fluency sufficient for design reviews is unobservable."
+      }
+    ]
   },
   "experience_context": []
 }

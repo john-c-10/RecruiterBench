@@ -3,10 +3,10 @@
   "role_id": "7e3cdfbc-9a72-49e4-8fb6-e8f59364af6d",
   "snapshot_sha256": "25101fdefaf566121d118c0237c1f2617662b3b2e87da68d463791e53b078135",
   "input_sha256": "11617fbdb1a7deca162b7952fe3c67982dc97d266d72b7f5045d1f88c2ca0e1b",
-  "rubric_sha256": "32107358a02c3863519881f383321eabd2416d4b2564bdc89cd5d382908363a5",
+  "rubric_sha256": "f58e0061563fe63b93ccb969869a4e9a940c3afbc66fcd9a7d22085d54316700",
   "rubric": {
     "role_summary": "VP leading Customer Success and Support and building a Professional Services function for a SaaS compliance and security platform, with responsibility for services delivery, retention, support quality, and services financial performance.",
-    "search_query": "Find candidates for this role:\nVP leading Customer Success and Support and building a Professional Services function for a SaaS compliance and security platform, with responsibility for services delivery, retention, support quality, and services financial performance.\nMandatory professional qualifications:\n- 10+ years in SaaS Professional Services, Customer Success, and/or Support, including 5+ years in senior leadership at a high-growth software and/or AI company.\n- Experience leading a Professional Services or consulting organization.\nPreferred, not mandatory:\n- Experience hiring, structuring, and developing a Professional Services or consulting organization from scratch.\n- Experience taking over an established Customer Success and/or Support organization and driving measurable improvements in retention, efficiency, or quality.\n- Track record of owning services revenue and scoping, pricing, and selling professional services engagements, including SOWs, change orders, and renewals.\n- Experience using AI tools for team productivity and delivery quality, and experimenting with or building AI-enabled workflows in a services or customer-facing context.\n- Experience building processes, implementing tools, and using data to drive decisions.\n- Familiarity with compliance and security frameworks and ability to translate them into customer-facing delivery strategies; SOC 2, ISO 27001, and HIPAA are examples, not individually required.\n- Familiarity with key platforms in the compliance and security ecosystem; the named platforms are examples, not an all-platforms requirement.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nVP leading Customer Success and Support and building a Professional Services function for a SaaS compliance and security platform, with responsibility for services delivery, retention, support quality, and services financial performance.\nMandatory professional qualifications:\n- 10+ years in SaaS Professional Services, Customer Success, and/or Support, including 5+ years in senior leadership at a high-growth software and/or AI company.\n- Experience leading a Professional Services or consulting organization.\nPreferred, not mandatory:\n- Experience hiring, structuring, and developing a Professional Services or consulting organization from scratch.\n- Experience taking over an established Customer Success and/or Support organization and driving measurable improvements in retention, efficiency, or quality.\n- Track record of owning services revenue and scoping, pricing, and selling professional services engagements, including SOWs, change orders, and renewals.\n- Experience using AI tools for team productivity and delivery quality, and experimenting with or building AI-enabled workflows in a services or customer-facing context.\n- Experience building processes, implementing tools, and using data to drive decisions.\n- Familiarity with compliance and security frameworks and ability to translate them into customer-facing delivery strategies; SOC 2, ISO 27001, and HIPAA are examples, not individually required.\n- Familiarity with key platforms in the compliance and security ecosystem; the named platforms are examples, not an all-platforms requirement.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -134,129 +134,63 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "831cd888367439a1501779d58dda4d96fb10839a4e9221264d6626bd39607275",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote U.S. work location; the posting does not explicitly require current U.S. residence.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote U.S.",
-        "Remote"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "10+ years in SaaS Professional Services, Customer Success, and/or Support, with 5+ years in a senior leadership role at a high-growth software and/or AI company.",
-        "effective_requirement": "10+ years in SaaS Professional Services, Customer Success, and/or Support, including 5+ years in senior leadership at a high-growth software and/or AI company.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience hiring, structuring, and developing a Professional Services or consulting organization from scratch.",
+        "effective_requirement": "Experience leading a Professional Services or consulting organization.",
+        "reason": "PS leadership is observable; building from scratch is not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "0a081d50a9eca7860f684c4f6722a5006ea6374111d7c66649dd912e16498998",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "0a081d50a9eca7860f684c4f6722a5006ea6374111d7c66649dd912e16498998",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience taking over an established Customer Success and/or Support organization and driving measurable improvements in retention, efficiency, or quality.",
-          "source_quote": "experience taking over an existing team and driving measurable improvements in retention, efficiency, or quality.",
-          "verification": "profile",
-          "reason": "Measurable improvement outcome is rarely stated; leadership covered by M1."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Track record of owning services revenue and scoping, pricing, and selling professional services engagements, including SOWs, change orders, and renewals.",
-          "source_quote": "Track record of owning services revenue, with experience scoping, pricing, and selling professional services engagements including SOWs, change orders, and renewals.",
-          "verification": "profile",
-          "reason": "Services revenue/SOW practices are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience using AI tools for team productivity and delivery quality, and experimenting with or building AI-enabled workflows in a services or customer-facing context.",
-          "source_quote": "you actively use AI tools to drive team productivity and delivery quality, and you've experimented with (or built) AI-enabled workflows in a services or customer-facing context.",
-          "verification": "profile",
-          "reason": "AI tool usage practice is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Experience building processes, implementing tools, and using data to drive decisions.",
-          "source_quote": "you build processes, implement tools, and use data to drive decisions.",
-          "verification": "profile",
-          "reason": "Process/tooling/data practices are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Familiarity with compliance and security frameworks and ability to translate them into customer-facing delivery strategies; SOC 2, ISO 27001, and HIPAA are examples, not individually required.",
-          "source_quote": "Familiarity with compliance and security frameworks (SOC 2, ISO 27001, HIPAA, etc.) and the ability to translate them into customer-facing delivery strategies.",
-          "verification": "profile",
-          "reason": "Compliance framework familiarity is rarely stated by CS/services leaders."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Familiarity with key platforms in the compliance and security ecosystem; the named platforms are examples, not an all-platforms requirement.",
-          "source_quote": "Familiarity with key platforms in the compliance and security ecosystem (AWS, Okta, Azure/EntraID, GCP, Jira, etc.).",
-          "verification": "profile",
-          "reason": "Platform familiarity is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience hiring, structuring, and developing a Professional Services or consulting organization from scratch.",
-          "after": "Experience leading a Professional Services or consulting organization.",
-          "reason": "PS leadership is observable; building from scratch is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M3": "P2",
-        "M4": "P3",
-        "M5": "P4",
-        "M6": "P5",
-        "M7": "P6",
-        "M8": "P7"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience taking over an established Customer Success and/or Support organization and driving measurable improvements in retention, efficiency, or quality.",
+        "source_quote": "experience taking over an existing team and driving measurable improvements in retention, efficiency, or quality.",
+        "verification": "profile",
+        "reason": "Measurable improvement outcome is rarely stated; leadership covered by M1."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Track record of owning services revenue and scoping, pricing, and selling professional services engagements, including SOWs, change orders, and renewals.",
+        "source_quote": "Track record of owning services revenue, with experience scoping, pricing, and selling professional services engagements including SOWs, change orders, and renewals.",
+        "verification": "profile",
+        "reason": "Services revenue/SOW practices are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience using AI tools for team productivity and delivery quality, and experimenting with or building AI-enabled workflows in a services or customer-facing context.",
+        "source_quote": "you actively use AI tools to drive team productivity and delivery quality, and you've experimented with (or built) AI-enabled workflows in a services or customer-facing context.",
+        "verification": "profile",
+        "reason": "AI tool usage practice is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience building processes, implementing tools, and using data to drive decisions.",
+        "source_quote": "you build processes, implement tools, and use data to drive decisions.",
+        "verification": "profile",
+        "reason": "Process/tooling/data practices are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with compliance and security frameworks and ability to translate them into customer-facing delivery strategies; SOC 2, ISO 27001, and HIPAA are examples, not individually required.",
+        "source_quote": "Familiarity with compliance and security frameworks (SOC 2, ISO 27001, HIPAA, etc.) and the ability to translate them into customer-facing delivery strategies.",
+        "verification": "profile",
+        "reason": "Compliance framework familiarity is rarely stated by CS/services leaders."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with key platforms in the compliance and security ecosystem; the named platforms are examples, not an all-platforms requirement.",
+        "source_quote": "Familiarity with key platforms in the compliance and security ecosystem (AWS, Okta, Azure/EntraID, GCP, Jira, etc.).",
+        "verification": "profile",
+        "reason": "Platform familiarity is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "07a8134b9f9e473ee4927f8c0819fd3f73d461746c5accd48389ea4d04e97ff7",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "cda18247299a4e3a1604dd6a52cc30672ba1de7a75f8406a8ac9d30a16de4dc6",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

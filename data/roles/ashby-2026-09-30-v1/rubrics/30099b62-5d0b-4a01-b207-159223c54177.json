@@ -3,10 +3,10 @@
   "role_id": "30099b62-5d0b-4a01-b207-159223c54177",
   "snapshot_sha256": "393b790ba5d0cc5ebe469204808a49eae33a4be0096cad378f7ca812b903533f",
   "input_sha256": "933a933c272fd87db792b1700fbfb540942abcf58162f9860fb24a107eec4b3a",
-  "rubric_sha256": "1d863d3a33c060afe1047aa8d4e57a20b81c06f108bfb140218a62641655dbe1",
+  "rubric_sha256": "8d1ecee0972b171565f886dd8a0c666db392b69918e7c6d8b8b306686722658b",
   "rubric": {
     "role_summary": "U.S. agritech product specialist working with ranchers, commercial teams, and product and engineering teams to improve cattle-collar and virtual-fencing products and lead product-development projects.",
-    "search_query": "Find candidates for this role:\nU.S. agritech product specialist working with ranchers, commercial teams, and product and engineering teams to improve cattle-collar and virtual-fencing products and lead product-development projects.\nMandatory professional qualifications:\n- Ranching experience.\nPreferred, not mandatory:\n- Experience leading cross-functional projects or running research trials.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Boulder, CO area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nU.S. agritech product specialist working with ranchers, commercial teams, and product and engineering teams to improve cattle-collar and virtual-fencing products and lead product-development projects.\nMandatory professional qualifications:\n- Ranching experience.\nPreferred, not mandatory:\n- Experience leading cross-functional projects or running research trials.\nWork location and geographic eligibility:\nLocation: Greater Boulder, CO area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -93,77 +93,29 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1eb75638f318bad2f624c57b1b7c07f71aac1b1cecdc91ffebdb2bb3fef034ea",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work location: Boulder, Colorado. Current residence in Boulder is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Boulder, CO"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Boulder, CO",
-        "OnSite"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "ae97ec91e1c2251b2ca400939052ca48cf5a367546f13669121251adac257709",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Willingness to travel for work domestically and internationally, including on weekends.",
-          "source_quote": "Willing to travel for work (domestic and international) as well as weekends",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c5727d4ce935ada25845353ffb77815a20ed044b3ad3aba531bee68415a7f107",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience leading cross-functional projects or running research trials.",
-          "source_quote": "Experience in leading cross-functional projects or running research trials.",
-          "verification": "profile",
-          "reason": "Cross-functional projects or trials are rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P1"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "de8efc82b83e85f06685cf89b3bc99fd0139dcf08e2089a66de47bf017f04801",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "66e216ff23efe12cb00f36037764b53aa4298923a2d309456225d79536483ca8",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Boulder, CO area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Boulder, CO area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Willingness to travel for work domestically and internationally, including on weekends.",
+        "source_quote": "Willing to travel for work (domestic and international) as well as weekends",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience leading cross-functional projects or running research trials.",
+        "source_quote": "Experience in leading cross-functional projects or running research trials.",
+        "verification": "profile",
+        "reason": "Cross-functional projects or trials are rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

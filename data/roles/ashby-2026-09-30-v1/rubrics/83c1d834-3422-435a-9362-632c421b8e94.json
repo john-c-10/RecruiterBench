@@ -3,10 +3,10 @@
   "role_id": "83c1d834-3422-435a-9362-632c421b8e94",
   "snapshot_sha256": "040404a20861bcd900e64d6358a53864a8ce1f5ca79ae1168e2a3399d5917e1a",
   "input_sha256": "0b5526c39992ca4f85693d0d6d929cb524cf2d16cbe74bfda6f08e1a11a5d6c4",
-  "rubric_sha256": "77fed2cf6978c1196b0cdfc0e9239804661154c46594828091f011dfc05b8126",
+  "rubric_sha256": "76100c2df8cdfd8d80ec0b0ebe1472d8780bb26a985b1409d57df2433dc62dc4",
   "rubric": {
     "role_summary": "On-site experimental physicist in Palo Alto working with entropy sources and superconducting hardware, responsible for tracing measured outputs to their physical origins.",
-    "search_query": "Find candidates for this role:\nOn-site experimental physicist in Palo Alto working with entropy sources and superconducting hardware, responsible for tracing measured outputs to their physical origins.\nMandatory professional qualifications:\n- A Master's degree or an equivalent experimental record in experimental physics, quantum optics, or precision measurement.\n- Experimental experience in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.\nPreferred, not mandatory:\n- PhD.\n- ML on measurement streams.\n- Optical bench experience with lasers, photodetectors, fiber, and their noise physics.\n- Hands-on superconducting qubit measurement, including coherence measurements, dispersive readout, and microwave control.\n- Microwave signal-chain fluency in IQ mixing, heterodyne readout, and pulse shaping.\n- Depth in TLS physics, flux noise, readout crosstalk, or amplifier-chain characterization.\n- A record of tracing measurement-chain noise to its physical origins in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.\n- Time-series and spectral analysis covering periodicities, non-stationarity, and correlations.\n- Knowledge of analog front-end and data-acquisition artifacts, including photodetector and amplifier noise, ADC and clock behavior, grounding, and EMI.\n- Experience characterizing or validating entropy sources or randomness generation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nOn-site experimental physicist in Palo Alto working with entropy sources and superconducting hardware, responsible for tracing measured outputs to their physical origins.\nMandatory professional qualifications:\n- A Master's degree or an equivalent experimental record in experimental physics, quantum optics, or precision measurement.\n- Experimental experience in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.\nPreferred, not mandatory:\n- PhD.\n- ML on measurement streams.\n- Optical bench experience with lasers, photodetectors, fiber, and their noise physics.\n- Hands-on superconducting qubit measurement, including coherence measurements, dispersive readout, and microwave control.\n- Microwave signal-chain fluency in IQ mixing, heterodyne readout, and pulse shaping.\n- Depth in TLS physics, flux noise, readout crosstalk, or amplifier-chain characterization.\n- A record of tracing measurement-chain noise to its physical origins in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.\n- Time-series and spectral analysis covering periodicities, non-stationarity, and correlations.\n- Knowledge of analog front-end and data-acquisition artifacts, including photodetector and amplifier noise, ADC and clock behavior, grounding, and EMI.\n- Experience characterizing or validating entropy sources or randomness generation.\nWork location and geographic eligibility:\nLocation: United States. The role is onsite in Palo Alto, California, and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -149,113 +149,57 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "dc79f3957b238b882cd382ebae4d66766c5d7f4075b1ea47e18b14c404c169bd",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "On-site work in Palo Alto, California, at Stanford Research Park, with occasional travel to the Chicago lab. Relocation support is available if needed; current Palo Alto residence is not required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Palo Alto, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Superlinear Computing · Palo Alto, CA (on-site, Stanford Research Park) · Full-time",
-        "Occasional travel to our Chicago lab at the Illinois Quantum & Microelectronics Park.",
-        "Relocation support if needed."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "c2ef2ed65734c335191f9e340e5cff8508064b5d69510a1082c296f617a62f62",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Have tested a hypothesis their field considered closed and be able to show the result.",
-          "source_quote": "You have tested a hypothesis your field considered closed, and can show the result.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Available for occasional travel to the Chicago lab.",
-          "source_quote": "Occasional travel to our Chicago lab at the Illinois Quantum & Microelectronics Park.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "63a5d637637c832e8906d08d1cadb88e8ec931b2d5be8b1c9e68b22b025ad11c",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Time-series and spectral analysis covering periodicities, non-stationarity, and correlations.",
-          "source_quote": "Time-series and spectral analysis: periodicities, non-stationarity, correlations.",
-          "verification": "profile",
-          "reason": "Specific analysis techniques rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Knowledge of analog front-end and data-acquisition artifacts, including photodetector and amplifier noise, ADC and clock behavior, grounding, and EMI.",
-          "source_quote": "Analog front-end and data-acquisition artifacts: photodetector and amplifier noise, ADC and clock behavior, grounding and EMI.",
-          "verification": "profile",
-          "reason": "Detailed instrumentation knowledge rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience characterizing or validating entropy sources or randomness generation.",
-          "source_quote": "Experience characterizing or validating entropy sources or randomness generation.",
-          "verification": "profile",
-          "reason": "Niche entropy-source experience rarely stated even for qualified physicists."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "A record of tracing measurement-chain noise to its physical origins in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.",
-          "after": "Experimental experience in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.",
-          "reason": "Field is observable; specific noise-tracing record is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P7",
-        "M3": "P8",
-        "M4": "P9",
-        "M5": "P10"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d631098d69c5b28e73b4ebb08027756052ae64aa1213d6e1eb8ea9b52a01db76",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "2a8f33a8c329d48b9a9a2545ab6f388a47011a715877317d4efa207d58a0cd3e",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "country",
-      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Have tested a hypothesis their field considered closed and be able to show the result.",
+        "source_quote": "You have tested a hypothesis your field considered closed, and can show the result.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Available for occasional travel to the Chicago lab.",
+        "source_quote": "Occasional travel to our Chicago lab at the Illinois Quantum & Microelectronics Park.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "A record of tracing measurement-chain noise to its physical origins in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.",
+        "effective_requirement": "Experimental experience in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.",
+        "reason": "Field is observable; specific noise-tracing record is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Time-series and spectral analysis covering periodicities, non-stationarity, and correlations.",
+        "source_quote": "Time-series and spectral analysis: periodicities, non-stationarity, correlations.",
+        "verification": "profile",
+        "reason": "Specific analysis techniques rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Knowledge of analog front-end and data-acquisition artifacts, including photodetector and amplifier noise, ADC and clock behavior, grounding, and EMI.",
+        "source_quote": "Analog front-end and data-acquisition artifacts: photodetector and amplifier noise, ADC and clock behavior, grounding and EMI.",
+        "verification": "profile",
+        "reason": "Detailed instrumentation knowledge rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience characterizing or validating entropy sources or randomness generation.",
+        "source_quote": "Experience characterizing or validating entropy sources or randomness generation.",
+        "verification": "profile",
+        "reason": "Niche entropy-source experience rarely stated even for qualified physicists."
+      }
+    ]
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "fb8fee4b-dfe3-4078-aadf-d183c42be9a3",
   "snapshot_sha256": "8731c35b33dc39de292c4aaaaed7df0d895b65d9d83fd35611a73214364ba62f",
   "input_sha256": "8b1118e2cee110d48d0644dddcfefbe17983d4d523284921645ebe902e2c965f",
-  "rubric_sha256": "5743a82266c4da2ef4d818c9df41f5b1af1211dd041039407ab939aca307f0b5",
+  "rubric_sha256": "17e3472b397cc5b5377efdb815fd8e1fd8c8998374eb6b31e09688b4a0b65886",
   "rubric": {
     "role_summary": "Field-based sales and marketing role promoting electric motorbikes in Kenya through lead generation, product demonstrations, customer relationships, and local market outreach.",
-    "search_query": "Find candidates for this role:\nField-based sales and marketing role promoting electric motorbikes in Kenya through lead generation, product demonstrations, customer relationships, and local market outreach.\nMandatory professional qualifications:\n- Diploma or degree in Sales, Marketing, or a related field.\n- 2+ years of experience in sales, marketing, or a related field.\n- Experience in direct-to-consumer sales.\nPreferred, not mandatory:\n- Direct-to-consumer sales experience in the automotive industry.\n- Proficiency with Excel and mobile sales tools.\n- Proven track record of meeting and exceeding sales targets.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Nairobi, Kenya area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nField-based sales and marketing role promoting electric motorbikes in Kenya through lead generation, product demonstrations, customer relationships, and local market outreach.\nMandatory professional qualifications:\n- Diploma or degree in Sales, Marketing, or a related field.\n- 2+ years of experience in sales, marketing, or a related field.\n- Experience in direct-to-consumer sales.\nPreferred, not mandatory:\n- Direct-to-consumer sales experience in the automotive industry.\n- Proficiency with Excel and mobile sales tools.\n- Proven track record of meeting and exceeding sales targets.\nWork location and geographic eligibility:\nLocation: Greater Nairobi, Kenya area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,91 +115,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ffb0f484866423b124839798ec83f495f1dcf368c78bf6fa273c8bdc45bd92db",
-    "resolved_ambiguities": [
-      "The description specifies working from Nairobi offices, while the location metadata also lists Kitengela and Thika. Confirm whether those secondary locations are available on-site work bases."
-    ],
-    "resolution": "Text wins: Nairobi general-area worksite; Kitengela/Thika are not separate office alternatives.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "On-site role associated with Nairobi, Kitengela, and Thika; the description specifically says work is from the Nairobi offices.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Nairobi, Kenya",
-        "Kitengela, Kenya",
-        "Thika, Kenya"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Nairobi",
-        "Kitengela",
-        "Thika",
-        "OnSite",
-        "This is an on-site role, you would be working from our offices in Nairobi"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "2+ year of experience in sales, marketing, or related field",
-        "effective_requirement": "2+ years of experience in sales, marketing, or a related field.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "ba9db55a9becc76dac67f791b2811cd8ceabda48ba2612e82b519de0b09a90f4",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ba9db55a9becc76dac67f791b2811cd8ceabda48ba2612e82b519de0b09a90f4",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Proficiency with Excel and mobile sales tools.",
-          "source_quote": "Proficiency with Excel and mobile sales tools",
-          "verification": "profile",
-          "reason": "Excel and mobile sales tool proficiency is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Proven track record of meeting and exceeding sales targets.",
-          "source_quote": "Proven track record of meeting and exceeding sales targets",
-          "verification": "profile",
-          "reason": "Exceeding sales targets is a quantified performance claim."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P2",
-        "M5": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5e3145800537455dd8f8524d020fdd900ee9f24968dbd80ff21e1401826f81b0",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "fa2fe6789195ba08747bd158100540fb3b1719ab7acb57aacced58302efa8e95",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Nairobi, Kenya area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Nairobi, Kenya area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Proficiency with Excel and mobile sales tools.",
+        "source_quote": "Proficiency with Excel and mobile sales tools",
+        "verification": "profile",
+        "reason": "Excel and mobile sales tool proficiency is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Proven track record of meeting and exceeding sales targets.",
+        "source_quote": "Proven track record of meeting and exceeding sales targets",
+        "verification": "profile",
+        "reason": "Exceeding sales targets is a quantified performance claim."
+      }
+    ]
   },
   "experience_context": [
     {

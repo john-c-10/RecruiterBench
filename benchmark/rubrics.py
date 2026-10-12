@@ -38,8 +38,8 @@ def extract(dataset: Path, private_root: Path, *, limit: int | None = None, work
         target = dataset / role["rubric_path"]
         if target.exists():
             saved = read_json(target)
-            # Frozen rubrics keep the model that produced them (historically
-            # gpt-6-sol); only the job, prompt, schema, and effort must still match.
+            # Frozen rubrics keep the model that produced them; only the job,
+            # prompt, schema, and effort must still match.
             recorded = {key: saved["extraction"].get(key) for key in inputs}
             if (saved["input_sha256"] != digest(recorded) or saved["rubric_sha256"] != digest(saved["rubric"])
                     or any(recorded[key] != inputs[key] for key in inputs if key != "model")):

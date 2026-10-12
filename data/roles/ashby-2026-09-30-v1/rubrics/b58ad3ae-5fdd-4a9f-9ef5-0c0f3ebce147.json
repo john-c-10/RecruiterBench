@@ -3,10 +3,10 @@
   "role_id": "b58ad3ae-5fdd-4a9f-9ef5-0c0f3ebce147",
   "snapshot_sha256": "d34c88b1364dcfc17ff1a95968b602f79dcf7978cc429bfa43ab70067a9e50c0",
   "input_sha256": "b01102c87b23c319706ca7e4089dd467dfab45facf4350608301dbc8a57f5785",
-  "rubric_sha256": "b6661ed209aa083cefb41da08160ecdbe4b3fb1a1bd2ccba5c153858c77360c8",
+  "rubric_sha256": "b7f467c317aaee1d5f044014874ac50fa980e92291952b3cb20cd0d066501621",
   "rubric": {
     "role_summary": "Product Marketing Manager driving launches, feature awareness and adoption for a collaborative AI workspace, while partnering with Product and go-to-market teams.",
-    "search_query": "Find candidates for this role:\nProduct Marketing Manager driving launches, feature awareness and adoption for a collaborative AI workspace, while partnering with Product and go-to-market teams.\nMandatory professional qualifications:\n- Experience running product launches and adoption programs.\nPreferred, not mandatory:\n- Experience at a fast-moving product or technology company.\n- Already uses Notion and is familiar with its product and community.\n- Experience building and using agents inside Notion and beyond.\n- Product marketing manager experience at a larger company.\n- Cross-functional coordination skills involving Product, Design, Engineering, Sales, and Marketing.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nProduct Marketing Manager driving launches, feature awareness and adoption for a collaborative AI workspace, while partnering with Product and go-to-market teams.\nMandatory professional qualifications:\n- Experience running product launches and adoption programs.\nPreferred, not mandatory:\n- Experience at a fast-moving product or technology company.\n- Already uses Notion and is familiar with its product and community.\n- Experience building and using agents inside Notion and beyond.\n- Product marketing manager experience at a larger company.\n- Cross-functional coordination skills involving Product, Design, Engineering, Sales, and Marketing.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -118,70 +118,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "8f12077f28f9d123a44e46b0ade09ffa75ef4b2cb6d1cc9cd2e8ae8e3782bdba",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Based in San Francisco or New York City, working from the office on Mondays, Tuesdays, and Thursdays. Present residence in either city is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, California",
-        "New York City, New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "This role can be based in either San Francisco or New York City.",
-        "We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days)"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "b2c51a2f7c6e91a5f442d70d198170b5615b8cfba2e848a3203ef7f14c095eaa",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "b2c51a2f7c6e91a5f442d70d198170b5615b8cfba2e848a3203ef7f14c095eaa",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Cross-functional coordination skills involving Product, Design, Engineering, Sales, and Marketing.",
-          "source_quote": "Strong cross-functional skills — comfortable coordinating Product, Design, Engineering, Sales, and Marketing toward one outcome.",
-          "verification": "profile",
-          "reason": "Cross-functional coordination is a soft skill."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e7551cb3d672f1aadb607ac59267f773b4346a0954bdaf576203c86b7096bac6",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "7d128b1d937b6927ad59f3d6600ee0c8c7c7545e40b223cb9fb028e10fe1fbc3",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Cross-functional coordination skills involving Product, Design, Engineering, Sales, and Marketing.",
+        "source_quote": "Strong cross-functional skills — comfortable coordinating Product, Design, Engineering, Sales, and Marketing toward one outcome.",
+        "verification": "profile",
+        "reason": "Cross-functional coordination is a soft skill."
+      }
+    ]
   },
   "experience_context": []
 }

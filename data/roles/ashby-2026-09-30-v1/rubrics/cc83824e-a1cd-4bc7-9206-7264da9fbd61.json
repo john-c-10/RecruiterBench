@@ -3,10 +3,10 @@
   "role_id": "cc83824e-a1cd-4bc7-9206-7264da9fbd61",
   "snapshot_sha256": "e6fdf4e20d0d3f0e46e65f5b702ea249fc0e357fe82cf9e01d11f368c847bea4",
   "input_sha256": "734fac1037dd2d68dca66074096a124d8857ecfb08b6a7905d6c1c5094eda063",
-  "rubric_sha256": "1739e04f030c5b2147d1ba2a39105132b8667f9f39d51a82fdbf5649889fc0d1",
+  "rubric_sha256": "4ce06114a8ac6e70649c57da24de9e490ee69ebc4e1a050e4c28c06d1d1ecde9",
   "rubric": {
     "role_summary": "Deep learning engineer developing and deploying computer vision and multimodal models for autonomous drones, using visual and sensor data and optimizing models for embedded hardware.",
-    "search_query": "Find candidates for this role:\nDeep learning engineer developing and deploying computer vision and multimodal models for autonomous drones, using visual and sensor data and optimizing models for embedded hardware.\nMandatory professional qualifications:\n- M.S. or Ph.D. in computer science, electrical engineering, or a related discipline.\n- Hands-on experience designing, training, and deploying deep learning models.\n- Proficiency in Python/PyTorch.\nPreferred, not mandatory:\n- C++ coding ability.\n- Ability to deliver well-architected code using Python/PyTorch.\n- Ability to apply academic papers and literature to engineering work.\n- Ability to work and deliver within a complex codebase.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nDeep learning engineer developing and deploying computer vision and multimodal models for autonomous drones, using visual and sensor data and optimizing models for embedded hardware.\nMandatory professional qualifications:\n- M.S. or Ph.D. in computer science, electrical engineering, or a related discipline.\n- Hands-on experience designing, training, and deploying deep learning models.\n- Proficiency in Python/PyTorch.\nPreferred, not mandatory:\n- C++ coding ability.\n- Ability to deliver well-architected code using Python/PyTorch.\n- Ability to apply academic papers and literature to engineering work.\n- Ability to work and deliver within a complex codebase.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -123,89 +123,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "4205eaa90d1b75f04d181c031e6f9d9e3c869a25b7f21a9d965b4eee1b008fc4",
-    "resolved_ambiguities": [
-      "FAA Part 107 certification is required for certain positions, but the posting does not say whether this position is one of them."
-    ],
-    "resolution": "Conditional post-hire FAA certification is not a current-certificate hard gate for this role.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in San Mateo, California, United States. Present residence in San Mateo is not expressly required; relocation assistance is not guaranteed for this role.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Mateo, California, United States"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Mateo, California, United States",
-        "Hybrid",
-        "Relocation assistance may also be provided for eligible roles."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "9e6aeb484121c2de7e03e0e2b1a3c7d5e7598f8bbf6a79e455150e5579170d25",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "9e6aeb484121c2de7e03e0e2b1a3c7d5e7598f8bbf6a79e455150e5579170d25",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to apply academic papers and literature to engineering work.",
-          "source_quote": "Leverage state-of-the-art academic papers and literature for fast iteration",
-          "verification": "profile",
-          "reason": "Ability to apply literature is unobservable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to work and deliver within a complex codebase.",
-          "source_quote": "Comfortable navigating and delivering within a complex codebase",
-          "verification": "profile",
-          "reason": "Work-ability claim is unobservable."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Ability to deliver well-architected code using Python/PyTorch.",
-          "after": "Proficiency in Python/PyTorch.",
-          "reason": "Languages are commonly listed; \"well-architected\" quality is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M4": "P3",
-        "M5": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "4f8c410e6dedefa6eb5c3f15e6762d48553b9affb34e9db9dd7f7198095e0bc3",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "37392ddcbc4e28f2983a156d6090dd486ac303e12228d84e48be52e30a506449",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Ability to deliver well-architected code using Python/PyTorch.",
+        "effective_requirement": "Proficiency in Python/PyTorch.",
+        "reason": "Languages are commonly listed; \"well-architected\" quality is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to apply academic papers and literature to engineering work.",
+        "source_quote": "Leverage state-of-the-art academic papers and literature for fast iteration",
+        "verification": "profile",
+        "reason": "Ability to apply literature is unobservable."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to work and deliver within a complex codebase.",
+        "source_quote": "Comfortable navigating and delivering within a complex codebase",
+        "verification": "profile",
+        "reason": "Work-ability claim is unobservable."
+      }
+    ]
   },
   "experience_context": []
 }

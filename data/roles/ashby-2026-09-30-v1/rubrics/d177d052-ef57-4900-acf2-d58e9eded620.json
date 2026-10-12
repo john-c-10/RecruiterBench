@@ -3,10 +3,10 @@
   "role_id": "d177d052-ef57-4900-acf2-d58e9eded620",
   "snapshot_sha256": "928414fbbc0e66e0bcaf9bc28e9e64ce0e60efbd85c0d946f8afb4d0ad2c4cb8",
   "input_sha256": "01519fbbbfb6bb9811c3fd565c616ac34960681176fed478b21b50a5a1b23c21",
-  "rubric_sha256": "703d2731946290eda022d8959e983246e998e4e26a1fc98718ecf461cc9fa546",
+  "rubric_sha256": "085b98d8280d20c1997128848734588801467a8877df42130b565e0511c17e0d",
   "rubric": {
     "role_summary": "Product designer with 5+ years of experience, independently taking product design projects from concept through UX and interface execution. The role involves collaborating with engineers and other teams on a collaborative workspace product.",
-    "search_query": "Find candidates for this role:\nProduct designer with 5+ years of experience, independently taking product design projects from concept through UX and interface execution. The role involves collaborating with engineers and other teams on a collaborative workspace product.\nMandatory professional qualifications:\n- 5+ years of working experience.\n- Experience creating human interfaces.\nPreferred, not mandatory:\n- Experience designing and building tools with small teams.\n- Ability to code as a designer.\n- 5+ years of working experience and well-rounded skills and experience to run projects independently end to end.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nProduct designer with 5+ years of experience, independently taking product design projects from concept through UX and interface execution. The role involves collaborating with engineers and other teams on a collaborative workspace product.\nMandatory professional qualifications:\n- 5+ years of working experience.\n- Experience creating human interfaces.\nPreferred, not mandatory:\n- Experience designing and building tools with small teams.\n- Ability to code as a designer.\n- 5+ years of working experience and well-rounded skills and experience to run projects independently end to end.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -114,76 +114,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "a80cf45fcf92980558e1311b5191e8aafa424a29d11a01641f66d44d82ff5286",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in either San Francisco or New York City, working from the office on Mondays, Tuesdays, and Thursdays. Present residence in either city is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, California",
-        "New York City, New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "This role can be based in either San Francisco or New York City. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person. We’re looking for someone who’s excited to work alongside the team during those days.",
-        "Hybrid"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "You have well-rounded skills and experience to run projects independently end to end. 5+ years of working experience.",
-        "effective_requirement": "5+ years of working experience and well-rounded skills and experience to run projects independently end to end.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "5+ years of working experience and well-rounded skills and experience to run projects independently end to end.",
+        "effective_requirement": "5+ years of working experience.",
+        "reason": "Years are observable; well-rounded skills to run projects independently are not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "bed953bc2a41ca58a3844fb34787244fbc66e8ea7ef408a7b3248c5fc78a464c",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "bed953bc2a41ca58a3844fb34787244fbc66e8ea7ef408a7b3248c5fc78a464c",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "5+ years of working experience and well-rounded skills and experience to run projects independently end to end.",
-          "after": "5+ years of working experience.",
-          "reason": "Years are observable; well-rounded skills to run projects independently are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "35f1ff40dbb289214bb2476b12ad744f1b8fae3a04568afbfab434fdb65bc9f5",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "9dad755ada1e99e8e9ca0ff051d3d8b98026159f5623ede1eb775a08a6609907",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

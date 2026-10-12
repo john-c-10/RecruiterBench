@@ -3,10 +3,10 @@
   "role_id": "c6140da2-a8ed-418f-9dde-2db79f4b368d",
   "snapshot_sha256": "9e8e3da707c1f5720ce9d4945c95e579ce2719bf567a54c61696cb7315e58903",
   "input_sha256": "2fe1c947e4b3dd12bbf5ff3a6a4df7f82f75e84209600f7e0d27547f05fe2e68",
-  "rubric_sha256": "caa294e111ae441961f01ab058dc81ba4eeafab42d08849de12b6dff225ac022",
+  "rubric_sha256": "d699e2265d276a118166e33c43919ba67fdc2db9e018d50d71b0d0ce735fd3d2",
   "rubric": {
     "role_summary": "Founder-in-residence role developing, prototyping, and launching a new AI company with partners and portfolio founders.",
-    "search_query": "Find candidates for this role:\nFounder-in-residence role developing, prototyping, and launching a new AI company with partners and portfolio founders.\nMandatory professional qualifications:\n- Experience as a founder, product manager, designer, engineer, or growth hacker.\nPreferred, not mandatory:\n- Experience exploring LLM-based systems, agents, or AI developer tools.\n- Previous startup founding or early technical leadership experience is a bonus, not an additional requirement for the founder alternative.\n- Experienced founder or PM, designer, engineer, or growth hacker with a track record of building products end-to-end.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; San Francisco Bay Area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nFounder-in-residence role developing, prototyping, and launching a new AI company with partners and portfolio founders.\nMandatory professional qualifications:\n- Experience as a founder, product manager, designer, engineer, or growth hacker.\nPreferred, not mandatory:\n- Experience exploring LLM-based systems, agents, or AI developer tools.\n- Previous startup founding or early technical leadership experience is a bonus, not an additional requirement for the founder alternative.\n- Experienced founder or PM, designer, engineer, or growth hacker with a track record of building products end-to-end.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -106,71 +106,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "d54693e82d42fec860c73537298099a8905822b758d0a2aae4209143df2d2823",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work in Palo Alto, with in-person work part of the week in the San Francisco Bay Area; current residence is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Palo Alto, CA",
-        "San Francisco Bay Area"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Palo Alto, CA",
-        "Hybrid",
-        "Comfortable working in-person part of the week in San Francisco Bay Area.",
-        "Location: Hybrid, Palo ALo"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "8f77758ec6d6749dc9d74441ba50d111ffda306bd1ed8f606571d5d759d1fc9d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8f77758ec6d6749dc9d74441ba50d111ffda306bd1ed8f606571d5d759d1fc9d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Experienced founder or PM, designer, engineer, or growth hacker with a track record of building products end-to-end.",
-          "after": "Experience as a founder, product manager, designer, engineer, or growth hacker.",
-          "reason": "Role background is observable; end-to-end building track record is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "eba281d457a1d41790740c9bd99f77b43b101ed92e5dd58aa603ecc803f31670",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "0fd1bcd78ac2402485070f05b77f72496a221797909b5be48433b4f4dc5f585b",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Duplicate labels for the same Bay Area location.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "San Francisco Bay Area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; San Francisco Bay Area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Duplicate labels for the same Bay Area location."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experienced founder or PM, designer, engineer, or growth hacker with a track record of building products end-to-end.",
+        "effective_requirement": "Experience as a founder, product manager, designer, engineer, or growth hacker.",
+        "reason": "Role background is observable; end-to-end building track record is not."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

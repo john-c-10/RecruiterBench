@@ -3,10 +3,10 @@
   "role_id": "0aae94c4-9fe6-4275-be3c-6c397345f7f4",
   "snapshot_sha256": "e9633cd705ce1a51434687327ac8666b2c98dff85caeb7e266694dae7411e9e4",
   "input_sha256": "0f522420dce734791007ea3f9507009e3848a150b94af1c523820c5455262aa3",
-  "rubric_sha256": "65e0bb5829208756ec02e8da8da82a8fc7d9b73e5b06c55cd506884bca877c7c",
+  "rubric_sha256": "2d83ea5da4467ecd81c8f9bd8b2c72c32ec4555dc169267733efd75cfb10fb40",
   "rubric": {
     "role_summary": "Staff-level, hands-on engineering role optimizing large language model inference for production customer deployments, including serving architecture, profiling, kernel-level performance analysis, and latency, throughput, and cost improvements.",
-    "search_query": "Find candidates for this role:\nStaff-level, hands-on engineering role optimizing large language model inference for production customer deployments, including serving architecture, profiling, kernel-level performance analysis, and latency, throughput, and cost improvements.\nMandatory professional qualifications:\n- A Bachelor's, Master's, or Ph.D. in Computer Science, Engineering, Mathematics, or a related field.\n- Hands-on experience shipping production code in one or more general-purpose languages.\n- Familiarity with methods for optimizing LLM inference for high throughput and low latency.\n- Experience with modern LLM serving frameworks such as vLLM or SGLang.\n- Knowledge of GPU architecture and behavior.\n- Hands-on experience with large language models.\n- Working knowledge of AI/ML pipelines and the full process of developing and deploying ML models.\nPreferred, not mandatory:\n- Python experience is strongly preferred among general-purpose languages.\n- Track record of improving software-system performance, especially for LLMs.\n- Experience with CUDA or comparable technologies.\n- Record of building and shipping AI/ML inference systems.\n- Experience with Docker and Kubernetes.\n- Prior experience building or tuning AI/ML projects, particularly in customer-facing work.\n- Experience with modern LLM serving frameworks and profiling and analyzing performance down to the kernel level; vLLM and SGLang are examples, not both required.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nStaff-level, hands-on engineering role optimizing large language model inference for production customer deployments, including serving architecture, profiling, kernel-level performance analysis, and latency, throughput, and cost improvements.\nMandatory professional qualifications:\n- A Bachelor's, Master's, or Ph.D. in Computer Science, Engineering, Mathematics, or a related field.\n- Hands-on experience shipping production code in one or more general-purpose languages.\n- Familiarity with methods for optimizing LLM inference for high throughput and low latency.\n- Experience with modern LLM serving frameworks such as vLLM or SGLang.\n- Knowledge of GPU architecture and behavior.\n- Hands-on experience with large language models.\n- Working knowledge of AI/ML pipelines and the full process of developing and deploying ML models.\nPreferred, not mandatory:\n- Python experience is strongly preferred among general-purpose languages.\n- Track record of improving software-system performance, especially for LLMs.\n- Experience with CUDA or comparable technologies.\n- Record of building and shipping AI/ML inference systems.\n- Experience with Docker and Kubernetes.\n- Prior experience building or tuning AI/ML projects, particularly in customer-facing work.\n- Experience with modern LLM serving frameworks and profiling and analyzing performance down to the kernel level; vLLM and SGLang are examples, not both required.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -163,67 +163,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "78402edaa3ce4346ac33a9f9d88093e41c10c6ee941dc2c96f8a1a7c3e20dc5f",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role in San Francisco, California, US; present residence in the area is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "San Francisco, CA - US"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco, CA - US",
-        "OnSite"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "c4f76130a1e0a229e4e46aacb23f2c746afd65fe7b0fc43ed3fb55a717e4bbbb",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c4f76130a1e0a229e4e46aacb23f2c746afd65fe7b0fc43ed3fb55a717e4bbbb",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience with modern LLM serving frameworks and profiling and analyzing performance down to the kernel level; vLLM and SGLang are examples, not both required.",
-          "after": "Experience with modern LLM serving frameworks such as vLLM or SGLang.",
-          "reason": "Serving frameworks are commonly listed; kernel-level profiling is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e705a52f7b9720f534c06d91866ebfec3cff48aa6b8a773e57d5798f6dbaccea",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "0b006d5415972a765b33412c2de2a7b8f1599de56d2b0ab31c449f9a1734fb88",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience with modern LLM serving frameworks and profiling and analyzing performance down to the kernel level; vLLM and SGLang are examples, not both required.",
+        "effective_requirement": "Experience with modern LLM serving frameworks such as vLLM or SGLang.",
+        "reason": "Serving frameworks are commonly listed; kernel-level profiling is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

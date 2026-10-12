@@ -3,10 +3,10 @@
   "role_id": "32fc2a1c-775b-4118-94bb-0700dc034f01",
   "snapshot_sha256": "e6e00fdd1d29a16433f1c91fcdd3a4ad953a490ab28e1cd92265779ca034aed3",
   "input_sha256": "a8391b89437f6d4b64473756552b75176698b00645b06527b9a6ec899d2fe16f",
-  "rubric_sha256": "e4c2f6bb5fc4e18c036c157fe3631c8a4638ee2ec93c383a1b6fd75a0221fe8c",
+  "rubric_sha256": "9d3a50f54bc463c38b03890e27aad0e258b6ae51cc1c6780bf3f68b0510b9b4c",
   "rubric": {
     "role_summary": "Scientific proposal writer for an applied AI research organization, collaborating with researchers on grant proposals, project specifications, and technical communications for varied audiences. Full-time or part-time employment is accepted.",
-    "search_query": "Find candidates for this role:\nScientific proposal writer for an applied AI research organization, collaborating with researchers on grant proposals, project specifications, and technical communications for varied audiences. Full-time or part-time employment is accepted.\nMandatory professional qualifications:\n- At least three years of grant writing and editing experience.\n- PhD or equivalent experience in a technical area.\nPreferred, not mandatory:\n- Experience writing successful scientific grants, particularly for NSF, DARPA, and/or NIH.\n- A solid foundation in technical or mathematical concepts.\n- Ability to synthesize complex information for various audiences and adapt writing style to different modes.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; Greater Boston area, Massachusetts. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nScientific proposal writer for an applied AI research organization, collaborating with researchers on grant proposals, project specifications, and technical communications for varied audiences. Full-time or part-time employment is accepted.\nMandatory professional qualifications:\n- At least three years of grant writing and editing experience.\n- PhD or equivalent experience in a technical area.\nPreferred, not mandatory:\n- Experience writing successful scientific grants, particularly for NSF, DARPA, and/or NIH.\n- A solid foundation in technical or mathematical concepts.\n- Ability to synthesize complex information for various audiences and adapt writing style to different modes.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -112,105 +112,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1ec5ae561866010d8c3b43ae7363671a48d2ff80ea6df238643bd3cb751ca80d",
-    "resolved_ambiguities": [
-      "The employmentType metadata says FullTime, while the role details say the position is potentially full-time or part-time."
-    ],
-    "resolution": "Allow full-time or part-time; remote candidates must be in the NYC or Boston general area.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Ideally in person in New York City or Boston; hybrid and remote candidates will also be considered. The posting does not specify a geographic boundary for remote candidates.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "New York City, New York",
-        "Boston area, Massachusetts",
-        "Hybrid candidates",
-        "Remote candidates"
-      ],
-      "remote_scope": "Not specified",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York Office",
-        "Cambridge Office",
-        "This role is ideally in-person in either New York City or Boston, but we will consider hybrid/remote candidates."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "Grant writing and editing experience of at least three years.",
-        "effective_requirement": "At least three years of grant writing and editing experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "dropped_location_options": [
-      "Hybrid candidates",
-      "Remote candidates"
-    ],
-    "dropped_location_note": "Dropped non-geographic location options: Hybrid candidates; Remote candidates. Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
-    "observability": {
-      "parent_rubric_sha256": "6655913296b228460f01863d0e6bf030db9ba8e335ac61f84fdfb94a9180b9be",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Availability during certain set times each week for meetings and willingness to attend multi-day in-person events.",
-          "source_quote": "Expect to be available during certain set times each week for meetings, and be prepared to attend multi-day Basis-wide in-person events.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c3b2ca4cec078313bd6ad4acf63e01bcd4c3582ae8aa28a2593029e3cc1403cf",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "A solid foundation in technical or mathematical concepts.",
-          "source_quote": "A solid foundation in technical or mathematical concepts",
-          "verification": "profile",
-          "reason": "Vague foundation qualifier largely covered by M2."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to synthesize complex information for various audiences and adapt writing style to different modes.",
-          "source_quote": "Skilled in synthesizing complex information for various audiences. Able to adapt writing style to suit different modes – from rapid, urgent communication to methodical, long-term projects.",
-          "verification": "profile",
-          "reason": "Writing adaptability is a soft skill rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M4": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5fdeb24f37d46a79982c0312af420f386aba9039e6712689696ced17f88585aa",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "c96ec7f956262fb1a0cd4ea0e466232a4a7ebbe944e880b41443407f23a65f9f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office. Remote is only considered, not offered.",
-      "previous_allowed_locations": [
-        "New York metropolitan area",
-        "Greater Boston area, Massachusetts"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; Greater Boston area, Massachusetts. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office. Remote is only considered, not offered."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Availability during certain set times each week for meetings and willingness to attend multi-day in-person events.",
+        "source_quote": "Expect to be available during certain set times each week for meetings, and be prepared to attend multi-day Basis-wide in-person events.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "A solid foundation in technical or mathematical concepts.",
+        "source_quote": "A solid foundation in technical or mathematical concepts",
+        "verification": "profile",
+        "reason": "Vague foundation qualifier largely covered by M2."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to synthesize complex information for various audiences and adapt writing style to different modes.",
+        "source_quote": "Skilled in synthesizing complex information for various audiences. Able to adapt writing style to suit different modes – from rapid, urgent communication to methodical, long-term projects.",
+        "verification": "profile",
+        "reason": "Writing adaptability is a soft skill rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

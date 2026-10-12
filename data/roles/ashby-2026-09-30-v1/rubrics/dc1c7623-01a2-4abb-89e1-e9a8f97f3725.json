@@ -3,10 +3,10 @@
   "role_id": "dc1c7623-01a2-4abb-89e1-e9a8f97f3725",
   "snapshot_sha256": "ae2072b1e9087a9341c116d18715b18ad60faa9bbe83d1512764ad3d50466257",
   "input_sha256": "863508aa89838b740e2c92e70efe99002114f23fcba3eb094ba5056413e35120",
-  "rubric_sha256": "cd49b2e1965030d30414fc8a94106ab35106fbce0a38a095af3ad5f2d36a9b67",
+  "rubric_sha256": "0b3e4b58e58bdfdd39e51fbce8bf69012bb77876c402ad2687ee49f4c32faf51",
   "rubric": {
     "role_summary": "Finance lead for a direct air capture company, responsible for corporate finance, accounting oversight, financial planning, and progressively taking ownership of project models, financing, fundraising support, and investor relations.",
-    "search_query": "Find candidates for this role:\nFinance lead for a direct air capture company, responsible for corporate finance, accounting oversight, financial planning, and progressively taking ownership of project models, financing, fundraising support, and investor relations.\nMandatory professional qualifications:\n- Either a STEM background with experience in finance, or a business background with experience in a technical environment.\n- Minimum of 2 years of working experience.\nPreferred, not mandatory:\n- Prior exposure to private equity, top-tier consulting, or a fast-paced startup setting.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Ismaning, Germany (onsite; Munich area). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nFinance lead for a direct air capture company, responsible for corporate finance, accounting oversight, financial planning, and progressively taking ownership of project models, financing, fundraising support, and investor relations.\nMandatory professional qualifications:\n- Either a STEM background with experience in finance, or a business background with experience in a technical environment.\n- Minimum of 2 years of working experience.\nPreferred, not mandatory:\n- Prior exposure to private equity, top-tier consulting, or a fast-paced startup setting.\nWork location and geographic eligibility:\nLocation: Germany. The role is onsite in Ismaning, near Munich, and relocation is provided, so candidates anywhere in Germany qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -101,65 +101,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "3b7a9c7d85611ed3c2ab5849dca43a4e4dbfb4ebff205e6f1a2f41789c90c1a3",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Fully onsite in Ismaning, Germany; the location metadata lists München. Relocation support to Munich is offered, and current residence there is not required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Ismaning, Germany (onsite; Munich area)"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "München",
-        "We work fully onsite in Ismaning, Germany.",
-        "Relocation support to Munich"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "Minimum of 2 years working experience",
-        "effective_requirement": "Minimum of 2 years of working experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "8b32662531c4c078fab431701be8cc59779077b86a2ab44d7ee00342751fff25",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8b32662531c4c078fab431701be8cc59779077b86a2ab44d7ee00342751fff25",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "8b32662531c4c078fab431701be8cc59779077b86a2ab44d7ee00342751fff25",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "ba7f56ad2067168f9aa8df9ed80aad67feda5d23ec9e87ddf8ecbf6de10c2396",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "country",
-      "reason": "Relocation support to Munich is offered, so a hire from anywhere in Germany is realistic.",
-      "previous_allowed_locations": [
-        "Ismaning, Germany (onsite; Munich area)"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Ismaning, Germany (onsite; Munich area). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+      "reason": "Relocation support to Munich is offered, so a hire from anywhere in Germany is realistic."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "c8a6a57a-13cc-44a7-90cf-39c95fa4a4b7",
   "snapshot_sha256": "811fbb0e1de1314bb729294a2ce862fba270f4599b1a44b6b9cb62e107e39cb3",
   "input_sha256": "93050653be347990d55ce7fc2fe07445c5f5f9f005f33b47317b3009e1b26917",
-  "rubric_sha256": "96f68f4e753c9f4af4ddae6a19454cea83582cb021eaec273cd18f0698194f3d",
+  "rubric_sha256": "0df8d71a6e84a5e5b573fcd7da6f3fa82661c95e466cb570f711015d2f157ff0",
   "rubric": {
     "role_summary": "Senior talent partner advising private-equity portfolio companies on executive hiring and assessment, organizational design, and go-to-market leadership.",
-    "search_query": "Find candidates for this role:\nSenior talent partner advising private-equity portfolio companies on executive hiring and assessment, organizational design, and go-to-market leadership.\nMandatory professional qualifications:\n- 10+ years of experience, with meaningful depth in People, Talent, or Organizational Effectiveness.\n- Experience in executive search, leadership assessment, or organizational design.\nPreferred, not mandatory:\n- Significant exposure to GTM and sales organizations.\n- Exposure to commercial environments with fluency in comp plan design, quota-setting, territory structure, and coverage modeling.\n- Prior experience as a Talent Partner, Operating Partner, or VP Talent at a PE or VC firm, or equivalent experience conducting executive assessments in a high-stakes, time-pressured context.\n- Expertise in executive search best practices, leadership assessment, and organizational design.\n- Ability to assess executive leadership and make recommendations on leadership fit within 30–60 days of engagement.\n- History of working closely alongside a CHRO or CPO.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior talent partner advising private-equity portfolio companies on executive hiring and assessment, organizational design, and go-to-market leadership.\nMandatory professional qualifications:\n- 10+ years of experience, with meaningful depth in People, Talent, or Organizational Effectiveness.\n- Experience in executive search, leadership assessment, or organizational design.\nPreferred, not mandatory:\n- Significant exposure to GTM and sales organizations.\n- Exposure to commercial environments with fluency in comp plan design, quota-setting, territory structure, and coverage modeling.\n- Prior experience as a Talent Partner, Operating Partner, or VP Talent at a PE or VC firm, or equivalent experience conducting executive assessments in a high-stakes, time-pressured context.\n- Expertise in executive search best practices, leadership assessment, and organizational design.\n- Ability to assess executive leadership and make recommendations on leadership fit within 30–60 days of engagement.\n- History of working closely alongside a CHRO or CPO.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -130,94 +130,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "b346ef8c0c0df49d34c5658ab5a244f63151c50f7c6d91c5a4d15bd6b81b7c81",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in San Francisco; current San Francisco residence is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco, CA",
-        "Hybrid",
-        "San Francisco, hybrid work model"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "10+ years of experience, with meaningful depth in People, Talent, or Organizational Effectiveness",
-        "effective_requirement": "10+ years of experience, with meaningful depth in People, Talent, or Organizational Effectiveness.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Expertise in executive search best practices, leadership assessment, and organizational design.",
+        "effective_requirement": "Experience in executive search, leadership assessment, or organizational design.",
+        "reason": "These functions are visible from titles; requiring expertise in all three is overly conjunctive."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "7135f4352565be229145abb8454777562b5fccb623bef55b7beb65d9e0af6f79",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "7135f4352565be229145abb8454777562b5fccb623bef55b7beb65d9e0af6f79",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to assess executive leadership and make recommendations on leadership fit within 30–60 days of engagement.",
-          "source_quote": "Ability to assess executive leadership with rigor: making clear, defensible recommendations on leadership fit within 30-60 days of engagement.",
-          "verification": "profile",
-          "reason": "Assessment within a fixed timeframe is an ability not stated on profiles."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "History of working closely alongside a CHRO or CPO.",
-          "source_quote": "History of working closely alongside a CHRO or CPO, with proven ability to influence without authority across complex org change initiatives.",
-          "verification": "profile",
-          "reason": "Working alongside a CHRO/CPO is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Expertise in executive search best practices, leadership assessment, and organizational design.",
-          "after": "Experience in executive search, leadership assessment, or organizational design.",
-          "reason": "These functions are visible from titles; requiring expertise in all three is overly conjunctive."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5",
-        "M4": "P6"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to assess executive leadership and make recommendations on leadership fit within 30–60 days of engagement.",
+        "source_quote": "Ability to assess executive leadership with rigor: making clear, defensible recommendations on leadership fit within 30-60 days of engagement.",
+        "verification": "profile",
+        "reason": "Assessment within a fixed timeframe is an ability not stated on profiles."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "History of working closely alongside a CHRO or CPO.",
+        "source_quote": "History of working closely alongside a CHRO or CPO, with proven ability to influence without authority across complex org change initiatives.",
+        "verification": "profile",
+        "reason": "Working alongside a CHRO/CPO is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "3ab33c0da4aa5d6542e5cf651e3469a40d388e2f79e9a462884c9449b6842c2e",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d9bfe4fec4880ab8e2051653dd52782853bad25d0354b3131921aaab31cb88de",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

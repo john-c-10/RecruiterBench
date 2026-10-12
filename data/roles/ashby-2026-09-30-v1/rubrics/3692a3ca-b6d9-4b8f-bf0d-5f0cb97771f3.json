@@ -3,10 +3,10 @@
   "role_id": "3692a3ca-b6d9-4b8f-bf0d-5f0cb97771f3",
   "snapshot_sha256": "000ca85a0b514b3b848f0c646d554eacb675ffbce1de9d76d621de05a2a6e125",
   "input_sha256": "041f50f4f67beed882544fda1e2906ba30f96d091e6a71286825799d9bac6e6b",
-  "rubric_sha256": "a646aa341e993c1b1ba90847f55d3fccd7c3a7df07470d9567cafda8246db164",
+  "rubric_sha256": "781972bce5e5e020f7f5db50776a4f0485173687142f1bbe25e23f29af74c63c",
   "rubric": {
     "role_summary": "Procurement Manager leading sourcing and contracts for construction, infrastructure, utilities, and site development for a stellarator demonstrator in Munich.",
-    "search_query": "Find candidates for this role:\nProcurement Manager leading sourcing and contracts for construction, infrastructure, utilities, and site development for a stellarator demonstrator in Munich.\nMandatory professional qualifications:\n- Around 8+ years of procurement, sourcing or commercial experience.\n- Hands-on experience negotiating construction, engineering services, EPC/EPCM, or equipment supply contracts.\n- Strong negotiation and contract management skills.\n- Degree in Engineering, Supply Chain, Construction Management, Business or a related field.\nPreferred, not mandatory:\n- Experience in energy, nuclear, fusion, aerospace, infrastructure, industrial facilities or other highly regulated technical industries.\n- Experience with German construction markets, contractor networks, permitting interfaces, HSE requirements or industrial site development.\n- Experience in scale-up, project-driven, or first-of-a-kind technical settings.\n- Hands-on experience reviewing and negotiating construction, engineering services, EPC/EPCM and equipment supply contracts, including the specified contract provisions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Munich area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nProcurement Manager leading sourcing and contracts for construction, infrastructure, utilities, and site development for a stellarator demonstrator in Munich.\nMandatory professional qualifications:\n- Around 8+ years of procurement, sourcing or commercial experience.\n- Hands-on experience negotiating construction, engineering services, EPC/EPCM, or equipment supply contracts.\n- Strong negotiation and contract management skills.\n- Degree in Engineering, Supply Chain, Construction Management, Business or a related field.\nPreferred, not mandatory:\n- Experience in energy, nuclear, fusion, aerospace, infrastructure, industrial facilities or other highly regulated technical industries.\n- Experience with German construction markets, contractor networks, permitting interfaces, HSE requirements or industrial site development.\n- Experience in scale-up, project-driven, or first-of-a-kind technical settings.\n- Hands-on experience reviewing and negotiating construction, engineering services, EPC/EPCM and equipment supply contracts, including the specified contract provisions.\nWork location and geographic eligibility:\nLocation: Greater Munich area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -129,88 +129,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1cc02c58937b73953b01eeebc3632409a391582d9b2ac39798b9488795bdedbf",
-    "resolved_ambiguities": [
-      "The final preferred-experience bullet is truncated or corrupted after “first-of-a-kind technical,” so its intended full scope is unclear."
-    ],
-    "resolution": "Retain only the intelligible optional preference; invent no missing ending or hard condition.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role in Munich; current residence in Munich is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Munich"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Munich",
-        "OnSite",
-        "Proxima Fusion is hiring a Procurement Manager for Siting and Infrastructure in Munich"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "Around 8+ years of procurement, sourcing or commercial experience.",
-        "effective_requirement": "Around 8+ years of procurement, sourcing or commercial experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "81bf990c4b95431e1d4ce0fb0af8f40e92a0f39fc9d5da5a891e3aec78ba41b8",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Fluent in German and English.",
-          "source_quote": "Fluent in German and English.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M5": "M4"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "abd521ecc1dd28d64d81da338df9d142373d3f9be2f6ba0a16e8ca061f075ba7",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Hands-on experience reviewing and negotiating construction, engineering services, EPC/EPCM and equipment supply contracts, including the specified contract provisions.",
-          "after": "Hands-on experience negotiating construction, engineering services, EPC/EPCM, or equipment supply contracts.",
-          "reason": "Contract negotiation in these categories is visible from roles/employers; specific provisions are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "118fc3a95e304def7c4a9f5b3cc0e5e6892b0616bf844fff1539278cdb8b21c4",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "0e92f3e4fdc94e25591786caa102918f01325b6ac4462fdcaf7cdb5984e10af6",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Munich area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Munich area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Fluent in German and English.",
+        "source_quote": "Fluent in German and English.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience reviewing and negotiating construction, engineering services, EPC/EPCM and equipment supply contracts, including the specified contract provisions.",
+        "effective_requirement": "Hands-on experience negotiating construction, engineering services, EPC/EPCM, or equipment supply contracts.",
+        "reason": "Contract negotiation in these categories is visible from roles/employers; specific provisions are not."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

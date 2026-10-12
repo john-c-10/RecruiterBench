@@ -3,10 +3,10 @@
   "role_id": "59104d2e-52d4-458c-be62-42b16fa2a01c",
   "snapshot_sha256": "331aaad6da6b92410acee0f20dc68ed665a99ed4b719e9f4aa1ef656d8f20286",
   "input_sha256": "eeb5fb7bd1be39ab176db24cdb3704f9bb0f81c279c1e6fc92fc73b1edcc9b65",
-  "rubric_sha256": "58d5b2f66a044d8357a63a008ad6abf94ca99523db0b5f1e6bd469abc289b20d",
+  "rubric_sha256": "97bb9ff7befdb438fe94803f2a1dbfa81377e9f87a0a5f84d4d876e19d626cce",
   "rubric": {
     "role_summary": "Senior cryogenic systems engineering role developing compact millikelvin cryocooler systems from concept through design, assembly, testing, certification, and delivery, including low-temperature system integration.",
-    "search_query": "Find candidates for this role:\nSenior cryogenic systems engineering role developing compact millikelvin cryocooler systems from concept through design, assembly, testing, certification, and delivery, including low-temperature system integration.\nMandatory professional qualifications:\n- 10+ years’ experience in cryogenic system design.\n- Experience with cryostat design or low-temperature system integration.\n- Experience with GM, pulse tube, and/or Joule-Thomson cryocoolers.\n- CFD and/or thermal modelling experience.\n- Knowledge of CAD systems, including basic 3D CAD for component design.\n- Practical understanding of vacuum systems, helium systems, assembly methodologies, and temperature control.\nPreferred, not mandatory:\n- Experience with turbo pumps and/or cryogenic turbocompressor design.\n- Experience with CTE analysis and cooling cycle design.\n- Experience supporting certification of complex technical equipment.\n- Experience with sub-4K cryostat design and low-temperature system integration.\n- Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior cryogenic systems engineering role developing compact millikelvin cryocooler systems from concept through design, assembly, testing, certification, and delivery, including low-temperature system integration.\nMandatory professional qualifications:\n- 10+ years’ experience in cryogenic system design.\n- Experience with cryostat design or low-temperature system integration.\n- Experience with GM, pulse tube, and/or Joule-Thomson cryocoolers.\n- CFD and/or thermal modelling experience.\n- Knowledge of CAD systems, including basic 3D CAD for component design.\n- Practical understanding of vacuum systems, helium systems, assembly methodologies, and temperature control.\nPreferred, not mandatory:\n- Experience with turbo pumps and/or cryogenic turbocompressor design.\n- Experience with CTE analysis and cooling cycle design.\n- Experience supporting certification of complex technical equipment.\n- Experience with sub-4K cryostat design and low-temperature system integration.\n- Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.\nWork location and geographic eligibility:\nLocation: California. This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -144,88 +144,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "e940b7cb34f162eb19c46fdfa75f98c80193c74ebd7e0f454b8dc0d6eac9e758",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in California; current California residence is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "California"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "California",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "10+ years’ experience in cryogenic system design.",
-        "effective_requirement": "10+ years’ experience in cryogenic system design.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience with sub-4K cryostat design and low-temperature system integration.",
+        "effective_requirement": "Experience with cryostat design or low-temperature system integration.",
+        "reason": "Cryostat work is observable; the sub-4K specifics are often unstated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "d697aaed0bc614e142a05eb8150606c5f8e9cdb5bb17e66fe236b2fc3f04d9ae",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "d697aaed0bc614e142a05eb8150606c5f8e9cdb5bb17e66fe236b2fc3f04d9ae",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.",
-          "source_quote": "Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.",
-          "verification": "profile",
-          "reason": "Theoretical knowledge rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience with sub-4K cryostat design and low-temperature system integration.",
-          "after": "Experience with cryostat design or low-temperature system integration.",
-          "reason": "Cryostat work is observable; the sub-4K specifics are often unstated."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M4",
-        "M6": "M5",
-        "M7": "M6"
-      },
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M4": "P5"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.",
+        "source_quote": "Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.",
+        "verification": "profile",
+        "reason": "Theoretical knowledge rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "fb4f632db90bef9dcbbeffc03d702f792869e95257bb8157a8d513f37a7c6932",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "1865b148895f5d92d778fe15e0cd2828ef0fe6bab15b09dbb939b9e8beab6668",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

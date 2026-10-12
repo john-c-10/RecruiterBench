@@ -3,10 +3,10 @@
   "role_id": "751768c6-8d97-4e91-a57d-6b85ce4b5a37",
   "snapshot_sha256": "07329fcd46e298e95859cfbff3b6d2b158262483901ea4aa88e58a16a726d4c1",
   "input_sha256": "d94242fbbbebe19951078a32b2ab934ddcaf4b77387689b01d37919aefb2ab3a",
-  "rubric_sha256": "e51fab86409028cbd3a62ea6714fe07bfd8ef9ecfb1d69c4a8646938d44bf06d",
+  "rubric_sha256": "0c4c3c7f228a3122d728da552e7407ac5db5f8e9703e2d91ae86f4b15383d2f6",
   "rubric": {
     "role_summary": "Senior product engineer building talent acquisition and HR software, owning substantial product areas and delivering features end-to-end across the stack.",
-    "search_query": "Find candidates for this role:\nSenior product engineer building talent acquisition and HR software, owning substantial product areas and delivering features end-to-end across the stack.\nMandatory professional qualifications:\n- Has previously led or taken ownership of projects.\nPreferred, not mandatory:\n- Enjoys working with typed languages.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior product engineer building talent acquisition and HR software, owning substantial product areas and delivering features end-to-end across the stack.\nMandatory professional qualifications:\n- Has previously led or taken ownership of projects.\nPreferred, not mandatory:\n- Enjoys working with typed languages.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -93,90 +93,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "01b7a7eb3d25e77572d72151714b709718b29a29e676537207b7e97e6ad558f2",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role labeled US; the posting also lists US cities as secondary locations. It does not require current residence in a particular city.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "US",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote - US",
-        "Remote"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "32aa1cf774e14b383ca83f8a163d9fd8a442911be500fe6dad706724c9d79c91",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Wants a tech lead, staff, or principal engineering role spent mostly on project management or architecture reviews rather than building.",
-          "source_quote": "To you, a tech lead, staff, or principal engineer is someone who spends most of their time project managing or doing architecture reviews.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D2",
-          "requirement": "Needs company-driven process and structure to complete projects.",
-          "source_quote": "You need company-driven process and structure to get your projects across the finish line.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D3",
-          "requirement": "Only wants to do exciting work.",
-          "source_quote": "You only want to do exciting work.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D4",
-          "requirement": "Wants a role centered on mentoring earlier-career engineers.",
-          "source_quote": "You want to mentor earlier-career engineers.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c253fb093d4257d208e25167f022a1949a4a21dcda2e734a897d24e29fe568aa",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "c253fb093d4257d208e25167f022a1949a4a21dcda2e734a897d24e29fe568aa",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "b2c6799eb013004fc8fcf1bfa4fa5f60ec6bfe4dfda0ebb2eac3e8d863d2f2d5",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "red_flags",
+        "requirement": "Wants a tech lead, staff, or principal engineering role spent mostly on project management or architecture reviews rather than building.",
+        "source_quote": "To you, a tech lead, staff, or principal engineer is someone who spends most of their time project managing or doing architecture reviews.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Needs company-driven process and structure to complete projects.",
+        "source_quote": "You need company-driven process and structure to get your projects across the finish line.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Only wants to do exciting work.",
+        "source_quote": "You only want to do exciting work.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Wants a role centered on mentoring earlier-career engineers.",
+        "source_quote": "You want to mentor earlier-career engineers.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "745ccd9d-5f8a-4b13-8b1c-ee6c1128c361",
   "snapshot_sha256": "49f7c89e32b50bf6d82ebb25804a5567b3185114a11ec9501079751e5a4105b4",
   "input_sha256": "5808f86b35f8006776afdf12d172e1f2352fd2452461aa6037d4d1c8ece53a57",
-  "rubric_sha256": "0baa8682d397bdb2d0c7abe0f7b42ccdc05445a6c6c3a78d3b93e8d8998fdb16",
+  "rubric_sha256": "13a316dec214df2ff484105d87560bafab45166bc9cb81b145bc61f610f09927",
   "rubric": {
     "role_summary": "Broadcast engineering role supporting live studio operations and designing on-premises, hybrid, and cloud production systems, including control-room workflows and live broadcasts.",
-    "search_query": "Find candidates for this role:\nBroadcast engineering role supporting live studio operations and designing on-premises, hybrid, and cloud production systems, including control-room workflows and live broadcasts.\nMandatory professional qualifications:\n- Bachelor’s degree in Electrical Engineering, Computer Engineering, Communications Technology, or similar, OR an equivalent mix of education and hands-on experience.\n- Experience supporting live studio environments.\n- Technical knowledge of broadcast studio production workflows.\n- Knowledge of broadcast signal flow and networking.\nPreferred, not mandatory:\n- IP networking and SMPTE 2110 experience.\n- Team collaboration and leadership experience.\n- Background in automated or non-automated material handling systems.\n- Technical knowledge of studio production and IP-driven broadcast workflows.\n- Project and site management knowledge.\n- Knowledge of signal flow, network architecture, and cloud IT infrastructure.\n- Ability to craft and interpret technical documentation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nBroadcast engineering role supporting live studio operations and designing on-premises, hybrid, and cloud production systems, including control-room workflows and live broadcasts.\nMandatory professional qualifications:\n- Bachelor’s degree in Electrical Engineering, Computer Engineering, Communications Technology, or similar, OR an equivalent mix of education and hands-on experience.\n- Experience supporting live studio environments.\n- Technical knowledge of broadcast studio production workflows.\n- Knowledge of broadcast signal flow and networking.\nPreferred, not mandatory:\n- IP networking and SMPTE 2110 experience.\n- Team collaboration and leadership experience.\n- Background in automated or non-automated material handling systems.\n- Technical knowledge of studio production and IP-driven broadcast workflows.\n- Project and site management knowledge.\n- Knowledge of signal flow, network architecture, and cloud IT infrastructure.\n- Ability to craft and interpret technical documentation.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -149,105 +149,49 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "48e5c635b723e3b9cedd0a672acf38ffa25c77d85ee5c780a60b13bd9b3b8d30",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Full-time onsite work in New York, NY; current residence there is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "New York, NY"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York, NY",
-        "Full-time, On-site"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "c749fff0747ef0d6374b5e447d42c15c3a1bb0ded8d1581ff16e4d43425b52f4",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Availability for occasional early or late starts and occasional weekends.",
-          "source_quote": "Call times are typically standard business hours for streams, with occasional early or late starts; occasional weekends",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "44e32d6ccbb11859019e842ca2a21af243cd5704d2d2b7881dab4a8578b90f21",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Project and site management knowledge.",
-          "source_quote": "Strong grasp of project and site management",
-          "verification": "profile",
-          "reason": "Project/site management knowledge rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability to craft and interpret technical documentation.",
-          "source_quote": "Ability to craft and interpret technical documentation",
-          "verification": "profile",
-          "reason": "Documentation ability is unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Technical knowledge of studio production and IP-driven broadcast workflows.",
-          "after": "Technical knowledge of broadcast studio production workflows.",
-          "reason": "Broadcast studio work is observable; IP-workflow specifics often unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Knowledge of signal flow, network architecture, and cloud IT infrastructure.",
-          "after": "Knowledge of broadcast signal flow and networking.",
-          "reason": "Implied by broadcast engineering; cloud IT infrastructure is often unstated."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M4"
-      },
-      "demoted_preference_ids": {
-        "M3": "P4",
-        "M4": "P5",
-        "M5": "P6",
-        "M6": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "50dc01bb291c75c6b7354301b9161a76efc2e64aab152f754e5071ea436ef7ce",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "366fa1aea682348f20f4a19f0b787e8bf7db5c705c2f506f3743e8785ec4d5ce",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Availability for occasional early or late starts and occasional weekends.",
+        "source_quote": "Call times are typically standard business hours for streams, with occasional early or late starts; occasional weekends",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Technical knowledge of studio production and IP-driven broadcast workflows.",
+        "effective_requirement": "Technical knowledge of broadcast studio production workflows.",
+        "reason": "Broadcast studio work is observable; IP-workflow specifics often unstated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Knowledge of signal flow, network architecture, and cloud IT infrastructure.",
+        "effective_requirement": "Knowledge of broadcast signal flow and networking.",
+        "reason": "Implied by broadcast engineering; cloud IT infrastructure is often unstated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Project and site management knowledge.",
+        "source_quote": "Strong grasp of project and site management",
+        "verification": "profile",
+        "reason": "Project/site management knowledge rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to craft and interpret technical documentation.",
+        "source_quote": "Ability to craft and interpret technical documentation",
+        "verification": "profile",
+        "reason": "Documentation ability is unstated."
+      }
+    ]
   },
   "experience_context": []
 }

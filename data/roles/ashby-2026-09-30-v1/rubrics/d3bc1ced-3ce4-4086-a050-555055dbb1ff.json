@@ -3,10 +3,10 @@
   "role_id": "d3bc1ced-3ce4-4086-a050-555055dbb1ff",
   "snapshot_sha256": "d72dab29ed8d054a207a3d0e96cf346cf69f23c8f856fd7855ee4790aa211d28",
   "input_sha256": "a1e05478adabc218a8ce2b42b907042b6d8e279665ef64a50b7e9dd7711aebe6",
-  "rubric_sha256": "025096832534a3a457d3e85036dd91ac7e3e982ceb704fe75c3f13f812399792",
+  "rubric_sha256": "7092e4639994fe33c4f676f5287bdfc673cb50b65e59348228883e9ab983ab32",
   "rubric": {
     "role_summary": "Senior/Staff full-stack engineer building customer-facing product features across the UI, API, and backend, with work on real-time collaboration, synchronization, and performance.",
-    "search_query": "Find candidates for this role:\nSenior/Staff full-stack engineer building customer-facing product features across the UI, API, and backend, with work on real-time collaboration, synchronization, and performance.\nMandatory professional qualifications:\n- 5+ years of experience building customer-facing products.\n- Strong JavaScript fundamentals and a background working with React and TypeScript.\n- Experience across the full stack; the parenthetical technologies are examples, not an all-technologies requirement.\nPreferred, not mandatory:\n- Track record of driving complex, end-to-end features, rather than only incremental improvements or refactors, with visible product impact.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): North America; Europe. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior/Staff full-stack engineer building customer-facing product features across the UI, API, and backend, with work on real-time collaboration, synchronization, and performance.\nMandatory professional qualifications:\n- 5+ years of experience building customer-facing products.\n- Strong JavaScript fundamentals and a background working with React and TypeScript.\n- Experience across the full stack; the parenthetical technologies are examples, not an all-technologies requirement.\nPreferred, not mandatory:\n- Track record of driving complex, end-to-end features, rather than only incremental improvements or refactors, with visible product impact.\nWork location and geographic eligibility:\nLocation: North America or Europe (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -109,79 +109,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "24981905ba9c6d262e973527f81ca54e8f0c7f6eb176f8d2cbafddd779de72a4",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Candidates must be based in North America or Europe. The role is remote-first, with optional co-working offices in San Francisco, New York, and London; most time zones within the eligible regions are supported.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "North America",
-        "Europe"
-      ],
-      "remote_scope": "Most time zones within North America and Europe",
-      "relocation": "unspecified",
-      "current_residence_required": true,
-      "source_quotes": [
-        "Europe",
-        "Remote",
-        "This role is open to candidates based in North America and Europe. You can work from most timezones within these regions.",
-        "Linear is a remote-first company, with optional co-working offices in San Francisco, New York, and London."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience building customer-facing products at a high-quality software company",
-        "effective_requirement": "5+ years of experience building customer-facing products.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "304af26dc12d7838456a70628e5f8d73e2d56f2be70d85310d4648c074a846cb",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "304af26dc12d7838456a70628e5f8d73e2d56f2be70d85310d4648c074a846cb",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Track record of driving complex, end-to-end features, rather than only incremental improvements or refactors, with visible product impact.",
-          "source_quote": "Track record of driving complex, end-to-end features (not just incremental improvements and refactors) with visible impact on the product",
-          "verification": "profile",
-          "reason": "Track record of complex end-to-end features with visible impact is an outcome claim profiles rarely state."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P1"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "528e4be7d6d29f9bb1b8fca6aa3a7e7ab8aac42b5aff565c60bcbdb29687df51",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "ebc063ce48a90058856a28bec914849b6df5cc52490197486415b27efd3799ba",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Remote-first; the posting opens it to North America and Europe; co-working offices are optional.",
-      "previous_allowed_locations": [
-        "North America",
-        "Europe"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): North America; Europe. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Remote-first; the posting opens it to North America and Europe; co-working offices are optional."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Track record of driving complex, end-to-end features, rather than only incremental improvements or refactors, with visible product impact.",
+        "source_quote": "Track record of driving complex, end-to-end features (not just incremental improvements and refactors) with visible impact on the product",
+        "verification": "profile",
+        "reason": "Track record of complex end-to-end features with visible impact is an outcome claim profiles rarely state."
+      }
+    ]
   },
   "experience_context": [
     {

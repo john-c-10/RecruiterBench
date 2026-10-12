@@ -3,10 +3,10 @@
   "role_id": "6466c2e0-a644-4cba-8773-b33295080a1c",
   "snapshot_sha256": "9558ceabf550d34b88575a60d91547266dd81a0bdc42db23fdb15bac449bc3ae",
   "input_sha256": "773b1781e3cac0efa621fa2d3886759f1c8ceb445e7c8092aa1486e774bd85fa",
-  "rubric_sha256": "2b9d8c1b7bad5fddf675167df6b6ef65f0303cac90d326e59c050ba118f55c4a",
+  "rubric_sha256": "3803d64fd01c5e62de84ba8f9c6b12bba3c85692f248fc10a3718fac47f926fe",
   "rubric": {
     "role_summary": "Founder and CEO to build a US senior-living robotics venture, taking a night-patrol robot from concept through operator pilots, commercialization, fundraising, and company formation.",
-    "search_query": "Find candidates for this role:\nFounder and CEO to build a US senior-living robotics venture, taking a night-patrol robot from concept through operator pilots, commercialization, fundraising, and company formation.\nExplicit disqualifiers:\n- A profile limited to traditional senior-living executive experience or pure robotics research is not sought.\nPreferred, not mandatory:\n- Deep familiarity with at least one of US senior-living or CCRC operators, eldercare, or enterprise facilities operations.\n- Experience navigating multi-site operator sales cycles and turning pilots into fleet rollouts.\n- Experience integrating hardware or robotics products into healthcare and/or medical care.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States; New York metropolitan area; Greater Chicago, Illinois area; Greater Austin, Texas area; Greater Houston, Texas area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nFounder and CEO to build a US senior-living robotics venture, taking a night-patrol robot from concept through operator pilots, commercialization, fundraising, and company formation.\nExplicit disqualifiers:\n- A profile limited to traditional senior-living executive experience or pure robotics research is not sought.\nPreferred, not mandatory:\n- Deep familiarity with at least one of US senior-living or CCRC operators, eldercare, or enterprise facilities operations.\n- Experience navigating multi-site operator sales cycles and turning pilots into fleet rollouts.\n- Experience integrating hardware or robotics products into healthcare and/or medical care.\nWork location and geographic eligibility:\nLocation: United States. This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [],
     "red_flags": [
       {
@@ -109,69 +109,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "3be968a5a681624234ce58832c2866aef61420672f1dd158b2f318644e248613",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "United States work location; the role is labeled hybrid, with New York, Chicago, Austin, and Houston listed. The posting does not require current residence in any listed city or specify remote eligibility.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "United States",
-        "New York",
-        "Chicago, Illinois",
-        "Austin, Texas",
-        "Houston, Texas"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Location: United States",
-        "New York",
-        "Chicago",
-        "Austin",
-        "Houston",
-        "Hybrid"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "da5b32e92a05ab15fa978119f70c1bbf5969ac6486bb1fb3ba0aa01a3cd22155",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "da5b32e92a05ab15fa978119f70c1bbf5969ac6486bb1fb3ba0aa01a3cd22155",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "da5b32e92a05ab15fa978119f70c1bbf5969ac6486bb1fb3ba0aa01a3cd22155",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "3066394c44bf5a3bda011d208f4446d7c4ce7901d0151d3f7105259f4c3c90a1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Location: United States; the cities are hubs inside it.",
-      "previous_allowed_locations": [
-        "United States",
-        "New York metropolitan area",
-        "Greater Chicago, Illinois area",
-        "Greater Austin, Texas area",
-        "Greater Houston, Texas area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States; New York metropolitan area; Greater Chicago, Illinois area; Greater Austin, Texas area; Greater Houston, Texas area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Location: United States; the cities are hubs inside it."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

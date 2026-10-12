@@ -3,10 +3,10 @@
   "role_id": "65a6d268-2bf4-40e8-a990-bb9172a5fe12",
   "snapshot_sha256": "d184479679e73b707571710f63d467251fbd0b31c9dc53682e9419a0f6fb637d",
   "input_sha256": "ef9930a04a78dea8bcf9bc9085c6b43c9a83066b334af67f9d8fc0a5c2331bae",
-  "rubric_sha256": "c9f7090ab5a550acfcd90b84fecec69b9809ffabfade4769a988641912c56c46",
+  "rubric_sha256": "920adebb0d3718e19f2e06b60ec765092419be58bd3c74d2622431d586828b09",
   "rubric": {
     "role_summary": "Senior packaging engineering role for refrigerated and frozen foods, leading packaging strategy, qualification, commercialization, and sustainability initiatives.",
-    "search_query": "Find candidates for this role:\nSenior packaging engineering role for refrigerated and frozen foods, leading packaging strategy, qualification, commercialization, and sustainability initiatives.\nMandatory professional qualifications:\n- Bachelor's degree in Packaging Engineering, Mechanical Engineering, Materials Science, Chemical Engineering, or a related technical field.\n- 7+ years of progressive experience in packaging engineering, packaging development, or packaging commercialization.\n- Experience within food, beverage, refrigerated, frozen, protein, meal-kit, or consumer packaged goods industries.\n- Experience leading packaging projects from concept through commercialization.\n- Technical expertise in packaging materials, structures, converting processes, and manufacturing systems.\n- Knowledge of food industry regulations or food safety standards (FDA, USDA, SQF, HACCP, or GMP).\nPreferred, not mandatory:\n- Advanced degree in Packaging, Engineering, Materials Science, or related discipline.\n- Experience leading packaging sustainability initiatives.\n- Experience with Extended Producer Responsibility (EPR) programs and packaging regulations.\n- Knowledge of recyclability assessments, PCR content strategies, and circular packaging design principles.\n- Exposure to packaging automation, equipment integration, and manufacturing optimization initiatives.\n- Lean Six Sigma certification or equivalent continuous improvement experience.\n- Experience developing and executing packaging qualification and validation programs.\n- Knowledge of food industry regulations and standards, including FDA, USDA, SQF, HACCP, and GMP requirements.\n- Experience leading cross-functional projects involving stakeholders across multiple functions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Stockton, California, United States area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior packaging engineering role for refrigerated and frozen foods, leading packaging strategy, qualification, commercialization, and sustainability initiatives.\nMandatory professional qualifications:\n- Bachelor's degree in Packaging Engineering, Mechanical Engineering, Materials Science, Chemical Engineering, or a related technical field.\n- 7+ years of progressive experience in packaging engineering, packaging development, or packaging commercialization.\n- Experience within food, beverage, refrigerated, frozen, protein, meal-kit, or consumer packaged goods industries.\n- Experience leading packaging projects from concept through commercialization.\n- Technical expertise in packaging materials, structures, converting processes, and manufacturing systems.\n- Knowledge of food industry regulations or food safety standards (FDA, USDA, SQF, HACCP, or GMP).\nPreferred, not mandatory:\n- Advanced degree in Packaging, Engineering, Materials Science, or related discipline.\n- Experience leading packaging sustainability initiatives.\n- Experience with Extended Producer Responsibility (EPR) programs and packaging regulations.\n- Knowledge of recyclability assessments, PCR content strategies, and circular packaging design principles.\n- Exposure to packaging automation, equipment integration, and manufacturing optimization initiatives.\n- Lean Six Sigma certification or equivalent continuous improvement experience.\n- Experience developing and executing packaging qualification and validation programs.\n- Knowledge of food industry regulations and standards, including FDA, USDA, SQF, HACCP, and GMP requirements.\n- Experience leading cross-functional projects involving stakeholders across multiple functions.\nWork location and geographic eligibility:\nLocation: Greater Stockton, California, United States area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -172,104 +172,43 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "805b80eb2da023bd6c99068ebeb7630ad85d022e441cd747ba87a5002a1629b5",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work associated with the Imperial Manufacturing Facility & HQ; no present-residence requirement or relocation policy is stated.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Imperial Manufacturing Facility & HQ"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Imperial Manufacturing Facility & HQ",
-        "Hybrid"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "7+ years of progressive experience in packaging engineering, packaging development, or packaging commercialization.",
-        "effective_requirement": "7+ years of progressive experience in packaging engineering, packaging development, or packaging commercialization.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Willingness to travel up to 20-30% for supplier engagement, testing, and plant support.",
+        "source_quote": "Willingness to travel up to 20-30% for supplier engagement, testing, and plant support.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "1a0e6be039bc7ccef8cec4cd33b7c268cced0a84921b17b438f7dcf4edbd2134",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Willingness to travel up to 20-30% for supplier engagement, testing, and plant support.",
-          "source_quote": "Willingness to travel up to 20-30% for supplier engagement, testing, and plant support.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "56d14756d21e109d45355d478399ec5f5c1e8c63027ead0bbabf53cf90744a6c",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Experience developing and executing packaging qualification and validation programs.",
-          "source_quote": "Experience developing and executing packaging qualification and validation programs.",
-          "verification": "profile",
-          "reason": "Specific qualification/validation programs are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Experience leading cross-functional projects involving stakeholders across multiple functions.",
-          "source_quote": "Proven ability to lead cross-functional projects and influence stakeholders across multiple functions.",
-          "verification": "profile",
-          "reason": "Cross-functional leadership is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "before": "Knowledge of food industry regulations and standards, including FDA, USDA, SQF, HACCP, and GMP requirements.",
-          "after": "Knowledge of food industry regulations or food safety standards (FDA, USDA, SQF, HACCP, or GMP).",
-          "reason": "Implied by food packaging work; requiring every standard is unrealistic."
-        }
-      ],
-      "criterion_id_map": {
-        "M7": "M6"
-      },
-      "demoted_preference_ids": {
-        "M6": "P7",
-        "M7": "P8",
-        "M8": "P9"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Knowledge of food industry regulations and standards, including FDA, USDA, SQF, HACCP, and GMP requirements.",
+        "effective_requirement": "Knowledge of food industry regulations or food safety standards (FDA, USDA, SQF, HACCP, or GMP).",
+        "reason": "Implied by food packaging work; requiring every standard is unrealistic."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "def1bc16819a9103b1754d1a203f13aef411e19546b32ed3790d9edd3239c42f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "21cd183f380c3489cb74d24b82a63aea8fba7654f49950041c510682b95c5ab4",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Stockton, California, United States area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Stockton, California, United States area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience developing and executing packaging qualification and validation programs.",
+        "source_quote": "Experience developing and executing packaging qualification and validation programs.",
+        "verification": "profile",
+        "reason": "Specific qualification/validation programs are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience leading cross-functional projects involving stakeholders across multiple functions.",
+        "source_quote": "Proven ability to lead cross-functional projects and influence stakeholders across multiple functions.",
+        "verification": "profile",
+        "reason": "Cross-functional leadership is rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

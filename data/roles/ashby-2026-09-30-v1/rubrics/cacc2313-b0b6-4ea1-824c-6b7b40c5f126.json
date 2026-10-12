@@ -3,10 +3,10 @@
   "role_id": "cacc2313-b0b6-4ea1-824c-6b7b40c5f126",
   "snapshot_sha256": "33780ab568dce393d06d3a748851d22391cf59d9a8c77a4f4d1c3796f6a10fd3",
   "input_sha256": "2ab0d93f9475ccc34bc8d357a895b58b15e2db51ab8a41b4e00d254bd3f4fabb",
-  "rubric_sha256": "0341342aec6d3a15aa41fcb8b5ce8283e5262a986383cc37587cbc9a8a6dd699",
+  "rubric_sha256": "56b66022b74bc6f074084b33770074532d114afb85891093d854452de32cf0a9",
   "rubric": {
     "role_summary": "FPGA engineering for low-latency control and signal processing in quantum computers, including RTL design and verification, hardware-in-the-loop validation, and optimization of designs for production use.",
-    "search_query": "Find candidates for this role:\nFPGA engineering for low-latency control and signal processing in quantum computers, including RTL design and verification, hardware-in-the-loop validation, and optimization of designs for production use.\nMandatory professional qualifications:\n- Experience with digital logic design or verification for FPGAs or ASICs.\nPreferred, not mandatory:\n- Experience with high-throughput design across multiple clock domains.\n- Familiarity with Xilinx/AMD RFSoC platforms.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Princeton, NJ area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nFPGA engineering for low-latency control and signal processing in quantum computers, including RTL design and verification, hardware-in-the-loop validation, and optimization of designs for production use.\nMandatory professional qualifications:\n- Experience with digital logic design or verification for FPGAs or ASICs.\nPreferred, not mandatory:\n- Experience with high-throughput design across multiple clock domains.\n- Familiarity with Xilinx/AMD RFSoC platforms.\nWork location and geographic eligibility:\nLocation: Greater Princeton, NJ area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -94,57 +94,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "d5e97dc89501c2fc69b6a8c5623490e14ecfe7496656dc876a9d65d24882d0eb",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Princeton, NJ; current residence in Princeton is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Princeton, NJ"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Princeton, NJ",
-        "OnSite"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "696be2dbc9b028fbf5eaf8042439261ecbc3b27c857da9f717d7b4ec25a37d38",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "696be2dbc9b028fbf5eaf8042439261ecbc3b27c857da9f717d7b4ec25a37d38",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "696be2dbc9b028fbf5eaf8042439261ecbc3b27c857da9f717d7b4ec25a37d38",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "4e83ee86011509b0f46e372e0d4b65e0ef7ee46bc5add0e44869ef428f4a4727",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Princeton, NJ area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Princeton, NJ area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

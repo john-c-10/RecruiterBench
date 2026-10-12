@@ -3,10 +3,10 @@
   "role_id": "8684211a-b9cb-4b3a-9c88-85b192b299c7",
   "snapshot_sha256": "e582c2778da0be26eb61c4507dcf84d26941f86d72f0f6bb464a8bf55353050a",
   "input_sha256": "dc5f0f243603d4ed0f623e2fb23ed1f8c3d0b729c145fd272115e10019eefd32",
-  "rubric_sha256": "912e6e58b699871acebca6002702f383384b4b625156cb373fa47fae6a774333",
+  "rubric_sha256": "1be405a8d8b62287077825cf534e60659b624b94c03ff3a129c7bcb5505e4949",
   "rubric": {
     "role_summary": "Senior sales leadership role for quantum processors, leading a small sales team, driving global revenue growth, and managing complex sales to research and academic institutions.",
-    "search_query": "Find candidates for this role:\nSenior sales leadership role for quantum processors, leading a small sales team, driving global revenue growth, and managing complex sales to research and academic institutions.\nMandatory professional qualifications:\n- 5+ years of sales experience in a technical or deep-tech industry.\n- 3+ years of experience building, leading, and scaling sales teams.\n- Experience selling through channel partners such as VARs, systems integrators, or distributors.\n- Bachelor’s degree.\nPreferred, not mandatory:\n- Degree in Electrical Engineering, Applied Physics, Computer Science, or a related technical discipline.\n- Experience working with a diverse partner ecosystem, including VARs, systems integrators, distributors, and other strategic channel partners.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Delft area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior sales leadership role for quantum processors, leading a small sales team, driving global revenue growth, and managing complex sales to research and academic institutions.\nMandatory professional qualifications:\n- 5+ years of sales experience in a technical or deep-tech industry.\n- 3+ years of experience building, leading, and scaling sales teams.\n- Experience selling through channel partners such as VARs, systems integrators, or distributors.\n- Bachelor’s degree.\nPreferred, not mandatory:\n- Degree in Electrical Engineering, Applied Physics, Computer Science, or a related technical discipline.\n- Experience working with a diverse partner ecosystem, including VARs, systems integrators, distributors, and other strategic channel partners.\nWork location and geographic eligibility:\nLocation: Greater Delft area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,83 +115,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "559b5144ced9c65d5aa5624c2e22fb5baac6c3946c6a551fbb45540a2e012dfa",
-    "resolved_ambiguities": [
-      "The workplaceType metadata says “OnSite,” but the benefits section says “Work flexibly, in a hybrid setup.” Clarify whether this role permits hybrid work and its office-attendance expectations."
-    ],
-    "resolution": "Use the text's hybrid arrangement in the Delft general area, with no invented weekly attendance count.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The listed work location is Delft. Metadata labels the role onsite, while the description describes a hybrid setup; the precise office-attendance expectation needs clarification.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Delft"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Delft",
-        "OnSite",
-        "Work flexibly, in a hybrid setup"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of sales experience in a technical or deep-tech industry.",
-        "effective_requirement": "5+ years of sales experience in a technical or deep-tech industry.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "M2",
-        "source_quote": "3+ years of experience building, leading, and scaling high-performing sales teams.",
-        "effective_requirement": "3+ years of experience building, leading, and scaling sales teams.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "ba5186405791f96e75f86cdc29aa405a8a8e1250efda52fe02a8d98e683074df",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ba5186405791f96e75f86cdc29aa405a8a8e1250efda52fe02a8d98e683074df",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience working with a diverse partner ecosystem, including VARs, systems integrators, distributors, and other strategic channel partners.",
-          "after": "Experience selling through channel partners such as VARs, systems integrators, or distributors.",
-          "reason": "Channel sales is observable; \"diverse ecosystem\" of all partner types is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f04658c8710d28e1f69136da2270f70b3b1b55f55f723ad91814a3ea183ec47c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "280a0696ece745b765f2b88633596b4010fbe44e231bce63dbebb3515552b931",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Delft area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Delft area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience working with a diverse partner ecosystem, including VARs, systems integrators, distributors, and other strategic channel partners.",
+        "effective_requirement": "Experience selling through channel partners such as VARs, systems integrators, or distributors.",
+        "reason": "Channel sales is observable; \"diverse ecosystem\" of all partner types is not."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

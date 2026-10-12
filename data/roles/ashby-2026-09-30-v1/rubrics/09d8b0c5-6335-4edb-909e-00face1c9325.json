@@ -3,10 +3,10 @@
   "role_id": "09d8b0c5-6335-4edb-909e-00face1c9325",
   "snapshot_sha256": "30dd45999ca9f61e2e489565f7cbd089c9ee5dcdb0cad853fe3c396164662fe9",
   "input_sha256": "fcda6254d7fa041030ba55b35c481384ea3e9a5a9e4c360e9ef2bb903060295b",
-  "rubric_sha256": "c35127a30b2a07925122caf94a5a708638d86a582f022c1eccc45ad5966fadb8",
+  "rubric_sha256": "4b8fd52d1860d1c24facff0f2b3bef769811a36507df94b9dcf928c91effe5c0",
   "rubric": {
     "role_summary": "Senior engineering leader for a software supply-chain security product, responsible for scaling an engineering organization, its operating processes, cross-team delivery, and technical direction while remaining hands-on.",
-    "search_query": "Find candidates for this role:\nSenior engineering leader for a software supply-chain security product, responsible for scaling an engineering organization, its operating processes, cross-team delivery, and technical direction while remaining hands-on.\nMandatory professional qualifications:\n- Experience leading and growing an engineering organization.\n- Hands-on software engineering background.\nPreferred, not mandatory:\n- Experience with security or supply-chain security, including shipping security features or working on infrastructure security.\n- Experience scaling an engineering organization up to 100 people.\n- Experience building and executing operating systems for large organizations, including planning, dependency management, sprint cycles, and surfacing risks.\n- Regular hands-on coding and technical depth in architecture, distributed systems, and technical trade-offs.\n- Experience managing complex cross-functional programs coordinating 4+ teams on major initiatives.\n- A track record of shipping substantial work, including work shipped in the last year.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior engineering leader for a software supply-chain security product, responsible for scaling an engineering organization, its operating processes, cross-team delivery, and technical direction while remaining hands-on.\nMandatory professional qualifications:\n- Experience leading and growing an engineering organization.\n- Hands-on software engineering background.\nPreferred, not mandatory:\n- Experience with security or supply-chain security, including shipping security features or working on infrastructure security.\n- Experience scaling an engineering organization up to 100 people.\n- Experience building and executing operating systems for large organizations, including planning, dependency management, sprint cycles, and surfacing risks.\n- Regular hands-on coding and technical depth in architecture, distributed systems, and technical trade-offs.\n- Experience managing complex cross-functional programs coordinating 4+ teams on major initiatives.\n- A track record of shipping substantial work, including work shipped in the last year.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -130,113 +130,48 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ef24eba449daf6cc3f005816d9c3ab92301157452f1b78317de44b9fe5397bf7",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": false,
-      "requirement_text": "San Francisco is the listed location, but the posting describes the role as remote-first and states no geographic eligibility boundary or current-residence requirement.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "San Francisco"
-      ],
-      "remote_scope": "Remote-first; eligible remote locations are unspecified.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco",
-        "Remote",
-        "Remote-first, with quarterly team off-sites"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M5",
-        "source_quote": "A track record of moving fast and shipping. You can point to the biggest things you've shipped in the last year: how long they took, how many people, what the impact was.",
-        "effective_requirement": "A track record of shipping substantial work, including work shipped in the last year.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience scaling an engineering organization up to 100 people.",
+        "effective_requirement": "Experience leading and growing an engineering organization.",
+        "reason": "Engineering leadership is observable; the 100-person scale is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Regular hands-on coding and technical depth in architecture, distributed systems, and technical trade-offs.",
+        "effective_requirement": "Hands-on software engineering background.",
+        "reason": "Engineering background is observable; current regular coding is not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "0c98712ff566fb3822e2df75ebdb1c600718531e17f96d0890482f223d1d6f1b",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "0c98712ff566fb3822e2df75ebdb1c600718531e17f96d0890482f223d1d6f1b",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience building and executing operating systems for large organizations, including planning, dependency management, sprint cycles, and surfacing risks.",
-          "source_quote": "You've built and executed operating systems for large organizations. You can walk through your planning process, how you manage dependencies, your sprint cycle, and how you surface risks.",
-          "verification": "profile",
-          "reason": "Operating-system practices are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience managing complex cross-functional programs coordinating 4+ teams on major initiatives.",
-          "source_quote": "You've managed complex cross-functional programs. You have concrete examples of coordinating 4+ teams on major initiatives.",
-          "verification": "profile",
-          "reason": "Multi-team program coordination is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "A track record of shipping substantial work, including work shipped in the last year.",
-          "source_quote": "A track record of moving fast and shipping. You can point to the biggest things you've shipped in the last year: how long they took, how many people, what the impact was.",
-          "verification": "profile",
-          "reason": "Recent shipping track record is an outcome rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Experience scaling an engineering organization up to 100 people.",
-          "after": "Experience leading and growing an engineering organization.",
-          "reason": "Engineering leadership is observable; the 100-person scale is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Regular hands-on coding and technical depth in architecture, distributed systems, and technical trade-offs.",
-          "after": "Hands-on software engineering background.",
-          "reason": "Engineering background is observable; current regular coding is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M3": "M2"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience building and executing operating systems for large organizations, including planning, dependency management, sprint cycles, and surfacing risks.",
+        "source_quote": "You've built and executed operating systems for large organizations. You can walk through your planning process, how you manage dependencies, your sprint cycle, and how you surface risks.",
+        "verification": "profile",
+        "reason": "Operating-system practices are rarely stated."
       },
-      "demoted_preference_ids": {
-        "M1": "P2",
-        "M2": "P3",
-        "M3": "P4",
-        "M4": "P5",
-        "M5": "P6"
+      {
+        "field": "must_haves",
+        "requirement": "Experience managing complex cross-functional programs coordinating 4+ teams on major initiatives.",
+        "source_quote": "You've managed complex cross-functional programs. You have concrete examples of coordinating 4+ teams on major initiatives.",
+        "verification": "profile",
+        "reason": "Multi-team program coordination is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "A track record of shipping substantial work, including work shipped in the last year.",
+        "source_quote": "A track record of moving fast and shipping. You can point to the biggest things you've shipped in the last year: how long they took, how many people, what the impact was.",
+        "verification": "profile",
+        "reason": "Recent shipping track record is an outcome rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "11a699627facf889ced03956a7cbbd1062ae8ec95c2995c7b9d0843d4bc60942",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "40a030515a8c5a9255d8f05459801b6e37cd53a3662fe4bd7af4c09e0ef230f7",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

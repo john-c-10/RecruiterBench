@@ -3,10 +3,10 @@
   "role_id": "6bd192fd-6a04-464b-8c57-91f8949aa860",
   "snapshot_sha256": "961d5f5e345a2dd21ddcca2b34e32f5372a3e54937b5f02f1bbb25ef40920766",
   "input_sha256": "87d32d947f6f36ffba67a84dbc751a2a1893e35f1ae35a0ae26f0ae0f4de11ba",
-  "rubric_sha256": "3cff42274a8cbba90d893c87239805176c5d9e6ceee9e5012c37775f0e98ae8f",
+  "rubric_sha256": "9492492c8cb02e5e6c23c515a3b00e84140691bf4eb9059c0e1cdf6de0bcb1aa",
   "rubric": {
     "role_summary": "Revenue Operations Manager owning Salesforce data, go-to-market systems, forecasting, reporting, and scalable revenue processes across Business Development, Operations, and Finance.",
-    "search_query": "Find candidates for this role:\nRevenue Operations Manager owning Salesforce data, go-to-market systems, forecasting, reporting, and scalable revenue processes across Business Development, Operations, and Finance.\nMandatory professional qualifications:\n- 4+ years of experience in Revenue Operations, Sales Operations, GTM Systems, or a closely related role.\n- Hands-on Salesforce experience.\n- Experience with SQL, Excel/Sheets, or BI tools.\n- Experience owning or heavily supporting a forecasting cadence and pipeline reporting.\nPreferred, not mandatory:\n- Experience in B2B SaaS or defense tech.\n- Salesforce certification.\n- Hands-on Salesforce experience in administration, reporting, and data model design.\n- Analytical skills working with SQL, Excel/Sheets, and BI tools.\n- Familiarity with the broader revenue tech stack, including marketing automation, sales engagement, CPQ, BI, and data warehouse tools.\n- A track record of turning ambiguous problems into documented, scalable processes.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nRevenue Operations Manager owning Salesforce data, go-to-market systems, forecasting, reporting, and scalable revenue processes across Business Development, Operations, and Finance.\nMandatory professional qualifications:\n- 4+ years of experience in Revenue Operations, Sales Operations, GTM Systems, or a closely related role.\n- Hands-on Salesforce experience.\n- Experience with SQL, Excel/Sheets, or BI tools.\n- Experience owning or heavily supporting a forecasting cadence and pipeline reporting.\nPreferred, not mandatory:\n- Experience in B2B SaaS or defense tech.\n- Salesforce certification.\n- Hands-on Salesforce experience in administration, reporting, and data model design.\n- Analytical skills working with SQL, Excel/Sheets, and BI tools.\n- Familiarity with the broader revenue tech stack, including marketing automation, sales engagement, CPQ, BI, and data warehouse tools.\n- A track record of turning ambiguous problems into documented, scalable processes.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -139,101 +139,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "09321383160b0c4ecb9e99da77b351d44a4817445f1a503b4fa3dedcaccfe4ca",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role in New York, NY; present residence in New York is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "New York, NY"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York, NY",
-        "Hybrid"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "4+ years of experience in Revenue Operations, Sales Operations, GTM Systems, or a closely related role",
-        "effective_requirement": "4+ years of experience in Revenue Operations, Sales Operations, GTM Systems, or a closely related role.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on Salesforce experience in administration, reporting, and data model design.",
+        "effective_requirement": "Hands-on Salesforce experience.",
+        "reason": "Salesforce commonly listed; admin/data model specifics are not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Analytical skills working with SQL, Excel/Sheets, and BI tools.",
+        "effective_requirement": "Experience with SQL, Excel/Sheets, or BI tools.",
+        "reason": "Tools are commonly listed; requiring all of them is unrealistic."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "53d4bd763d3d46441fe0fcc011e40e0b4f93d1bc141a725503a7f2eaa6dfd76a",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "53d4bd763d3d46441fe0fcc011e40e0b4f93d1bc141a725503a7f2eaa6dfd76a",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Familiarity with the broader revenue tech stack, including marketing automation, sales engagement, CPQ, BI, and data warehouse tools.",
-          "source_quote": "Familiarity with the broader revenue tech stack (marketing automation, sales engagement, CPQ, BI, and data warehouse tools).",
-          "verification": "profile",
-          "reason": "Broad tech-stack familiarity is rarely stated (0.98 strict fail)."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "A track record of turning ambiguous problems into documented, scalable processes.",
-          "source_quote": "A track record of turning ambiguous, messy problems into documented, scalable processes.",
-          "verification": "profile",
-          "reason": "Process-building track record is unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Hands-on Salesforce experience in administration, reporting, and data model design.",
-          "after": "Hands-on Salesforce experience.",
-          "reason": "Salesforce commonly listed; admin/data model specifics are not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Analytical skills working with SQL, Excel/Sheets, and BI tools.",
-          "after": "Experience with SQL, Excel/Sheets, or BI tools.",
-          "reason": "Tools are commonly listed; requiring all of them is unrealistic."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P3",
-        "M3": "P4",
-        "M5": "P5",
-        "M6": "P6"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with the broader revenue tech stack, including marketing automation, sales engagement, CPQ, BI, and data warehouse tools.",
+        "source_quote": "Familiarity with the broader revenue tech stack (marketing automation, sales engagement, CPQ, BI, and data warehouse tools).",
+        "verification": "profile",
+        "reason": "Broad tech-stack familiarity is rarely stated (0.98 strict fail)."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "A track record of turning ambiguous problems into documented, scalable processes.",
+        "source_quote": "A track record of turning ambiguous, messy problems into documented, scalable processes.",
+        "verification": "profile",
+        "reason": "Process-building track record is unstated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "51b0c7b6d9dc89dad84595e4d6d7e372b8afe020e3d2dbf93199d3d6b242a5ec",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "2c28e339c0974f8b73ec66ccd9e375b302fb9036187664d2da7d13a6f0d547fd",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

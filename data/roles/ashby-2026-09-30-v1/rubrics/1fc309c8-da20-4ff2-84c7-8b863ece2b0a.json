@@ -3,10 +3,10 @@
   "role_id": "1fc309c8-da20-4ff2-84c7-8b863ece2b0a",
   "snapshot_sha256": "e6314f88d8f09796e8fea9b277abd774173e66e8da66d3efbeae3711373a2837",
   "input_sha256": "9e9b7ed4b18986304a3098940f29d3b975981c28ae5935fbed13f5f77f9839c1",
-  "rubric_sha256": "da0144d796ab59f734b085af216edef8134b58f43e879f2ee9615cbfc846a556",
+  "rubric_sha256": "66dc328276138b95f4d4f73f13c0a39733737c2a5d321ccca0e62a9a49ac0728",
   "rubric": {
     "role_summary": "Software engineer building developer-platform tools, APIs, and integration infrastructure, including internal platform capabilities and customer-facing functionality.",
-    "search_query": "Find candidates for this role:\nSoftware engineer building developer-platform tools, APIs, and integration infrastructure, including internal platform capabilities and customer-facing functionality.\nMandatory professional qualifications:\n- 7+ years of experience shipping production software.\n- Experience with TypeScript.\nPreferred, not mandatory:\n- Experience building developer tools like APIs and SDKs.\n- Experience driving teams toward shared goals while balancing business priorities with individuals’ strengths, interests, and career development goals.\n- Familiarity with AI/agent tooling, evals, or LLM-driven product experiences.\n- 7+ years of experience shipping production software, with a strong track record of owning features end-to-end.\n- Fluency with TypeScript across both backend and frontend.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSoftware engineer building developer-platform tools, APIs, and integration infrastructure, including internal platform capabilities and customer-facing functionality.\nMandatory professional qualifications:\n- 7+ years of experience shipping production software.\n- Experience with TypeScript.\nPreferred, not mandatory:\n- Experience building developer tools like APIs and SDKs.\n- Experience driving teams toward shared goals while balancing business priorities with individuals’ strengths, interests, and career development goals.\n- Familiarity with AI/agent tooling, evals, or LLM-driven product experiences.\n- 7+ years of experience shipping production software, with a strong track record of owning features end-to-end.\n- Fluency with TypeScript across both backend and frontend.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -121,84 +121,26 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "82f3f15eb2b8d5f1941937e6737ad322c0f49d70e722a12f7668c02b026b8577",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in either San Francisco or New York City, with office attendance on Mondays, Tuesdays, and Thursdays. Present residence in either city is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, California",
-        "New York City, New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "This role can be based in either San Francisco or New York City.",
-        "We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days)"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "7+ years of experience shipping production software, with a strong track record of owning features end-to-end",
-        "effective_requirement": "7+ years of experience shipping production software, with a strong track record of owning features end-to-end.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "7+ years of experience shipping production software, with a strong track record of owning features end-to-end.",
+        "effective_requirement": "7+ years of experience shipping production software.",
+        "reason": "Years of software experience is observable; end-to-end ownership track record is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Fluency with TypeScript across both backend and frontend.",
+        "effective_requirement": "Experience with TypeScript.",
+        "reason": "TypeScript is commonly listed; fluency across both backend and frontend is rarely spelled out."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "e241270e71f2bee101d1228b3d8432fea8e683209eb46a7dec26c4c17d45f7bc",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "e241270e71f2bee101d1228b3d8432fea8e683209eb46a7dec26c4c17d45f7bc",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "7+ years of experience shipping production software, with a strong track record of owning features end-to-end.",
-          "after": "7+ years of experience shipping production software.",
-          "reason": "Years of software experience is observable; end-to-end ownership track record is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Fluency with TypeScript across both backend and frontend.",
-          "after": "Experience with TypeScript.",
-          "reason": "TypeScript is commonly listed; fluency across both backend and frontend is rarely spelled out."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P4",
-        "M2": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "c36f7a73276348df99ac71b2353bcb225c33efffe75cae9dac69ca6cc457cbf0",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d6b8acfa5ebd8a338d74672b4d560ddc8b061a249462ba63db43b5bcf6c574db",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "af17da5e-23ca-4802-854d-5f0546e1ed32",
   "snapshot_sha256": "c0f9fc901a3e0d357c0191a9edeb40d9b173ed2ef23a885862e5cfeed510f49e",
   "input_sha256": "85e6ddde5aa22db71f3f7b1d197eef077219cf3d7ffd3cba88794667506bcbf6",
-  "rubric_sha256": "f1df81aeb33475e493cea60c0ad724e19b3493259b038ff31f86b0b6bd8b7e1e",
+  "rubric_sha256": "65c78b17fe80405fb8aa4a494265fbcfb1f3e60b7c40ef67f1d8eef148c81036",
   "rubric": {
     "role_summary": "Engineering role focused on improving ML system performance at scale, including the throughput and latency of language and diffusion models and the container runtime.",
-    "search_query": "Find candidates for this role:\nEngineering role focused on improving ML system performance at scale, including the throughput and latency of language and diffusion models and the container runtime.\nMandatory professional qualifications:\n- 5+ years of experience writing high-performance code.\n- Experience working with PyTorch or ML inference engines such as vLLM or TensorRT.\n- Familiarity with Nvidia GPU architecture and CUDA.\n- Experience with ML performance engineering, including improving GPU performance.\nPreferred, not mandatory:\n- Familiarity with low-level operating system foundations, such as the Linux kernel, file systems, or containers.\n- Experience working with torch, high-level ML frameworks, and inference engines (vLLM or TensorRT).\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nEngineering role focused on improving ML system performance at scale, including the throughput and latency of language and diffusion models and the container runtime.\nMandatory professional qualifications:\n- 5+ years of experience writing high-performance code.\n- Experience working with PyTorch or ML inference engines such as vLLM or TensorRT.\n- Familiarity with Nvidia GPU architecture and CUDA.\n- Experience with ML performance engineering, including improving GPU performance.\nPreferred, not mandatory:\n- Familiarity with low-level operating system foundations, such as the Linux kernel, file systems, or containers.\n- Experience working with torch, high-level ML frameworks, and inference engines (vLLM or TensorRT).\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -114,76 +114,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "4f3f641839f7e0a40303d4010055b7cc541cf83f1804723acc91bb47bc59fd7a",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "New York or San Francisco are listed as work locations; the posting does not specify an onsite, hybrid, or remote arrangement or require current residence.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "New York",
-        "San Francisco, California, USA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York",
-        "San Francisco"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience writing high-quality, high-performance code.",
-        "effective_requirement": "5+ years of experience writing high-performance code.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience working with torch, high-level ML frameworks, and inference engines (vLLM or TensorRT).",
+        "effective_requirement": "Experience working with PyTorch or ML inference engines such as vLLM or TensorRT.",
+        "reason": "ML framework/inference engine experience is observable; requiring every named category is unrealistic (0.75 strict fail)."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "b584ee765a071ff67bef3ce00b1ddd4ef46e18d4e58c46eda3f807f478873fe5",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "b584ee765a071ff67bef3ce00b1ddd4ef46e18d4e58c46eda3f807f478873fe5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience working with torch, high-level ML frameworks, and inference engines (vLLM or TensorRT).",
-          "after": "Experience working with PyTorch or ML inference engines such as vLLM or TensorRT.",
-          "reason": "ML framework/inference engine experience is observable; requiring every named category is unrealistic (0.75 strict fail)."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "103fa9e26de6fbc4f963a5ffd8cd0b094ffd46c5ecc0303902c2ee2e7759e425",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "c2f2c90baafefaa453f104c3b9f9693bb190f5c75d1e2160e35f60185872c6bb",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "New York metropolitan area",
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

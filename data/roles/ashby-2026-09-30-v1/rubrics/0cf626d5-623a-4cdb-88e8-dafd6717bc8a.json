@@ -3,10 +3,10 @@
   "role_id": "0cf626d5-623a-4cdb-88e8-dafd6717bc8a",
   "snapshot_sha256": "e00dc99bbcc62038cf0158c2bea6f07ac56dbd67ca170afccbfbac1bc5b292fd",
   "input_sha256": "e5d9d709ab312ace0682448696cfbebecae632f0fe720cfac0de4e4f167688ea",
-  "rubric_sha256": "a755c1e3946eac312889ec47ec848c66b338e3f7cbe31c8c787b6d46041dc94b",
+  "rubric_sha256": "6dd89dc88ca500afd856a5f123deaf29329cc9104de6148dcb8cd30ae1f18b38",
   "rubric": {
     "role_summary": "Full-cycle Account Executive selling fund administration and software solutions to private equity real estate and real assets investment managers, with responsibility for new business and account growth.",
-    "search_query": "Find candidates for this role:\nFull-cycle Account Executive selling fund administration and software solutions to private equity real estate and real assets investment managers, with responsibility for new business and account growth.\nMandatory professional qualifications:\n- 5+ years of B2B, full-cycle, quota-carrying sales experience.\n- Experience selling fund administration services, FinTech solutions, SaaS products, or comparable offerings.\nPreferred, not mandatory:\n- Knowledge of or experience within the CRE ecosystem.\n- Proficiency with sales tools; Salesforce, Outreach, and Gong are examples, not individually required tools.\n- Project management skills involving leading and coordinating across multiple stakeholders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; USA; Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nFull-cycle Account Executive selling fund administration and software solutions to private equity real estate and real assets investment managers, with responsibility for new business and account growth.\nMandatory professional qualifications:\n- 5+ years of B2B, full-cycle, quota-carrying sales experience.\n- Experience selling fund administration services, FinTech solutions, SaaS products, or comparable offerings.\nPreferred, not mandatory:\n- Knowledge of or experience within the CRE ecosystem.\n- Proficiency with sales tools; Salesforce, Outreach, and Gong are examples, not individually required tools.\n- Project management skills involving leading and coordinating across multiple stakeholders.\nWork location and geographic eligibility:\nLocation: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -114,90 +114,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "9ad856523a14aeeedfd34f7e1d47fa2150146bd354fc76cdc0f030c8bf6ee649",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The posting lists San Francisco and the USA or Canada as locations. Remote work is offered, as is working in an office; it does not explicitly require candidates to currently reside in a particular place.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "San Francisco",
-        "USA",
-        "Canada"
-      ],
-      "remote_scope": "USA or Canada, based on the role's listed locations; the broader company remote-work description does not establish worldwide eligibility for this role.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco",
-        "Americas (USA or Canada)",
-        "Juniper Square offers employees a variety of ways to work, ranging from a fully remote experience to working full-time in one of our physical offices.",
-        "We also have physical offices in San Francisco, New York City, Mumbai and Bangalore for employees who prefer to work in an office some or all of the time."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of B2B, full-cycle, quota-carrying sales experience.",
-        "effective_requirement": "5+ years of B2B, full-cycle, quota-carrying sales experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "6dd95bf136b25d17bfe239bf61d3764b2d0f122d535fecd0b2567d78f1345bca",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "6dd95bf136b25d17bfe239bf61d3764b2d0f122d535fecd0b2567d78f1345bca",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Proficiency with sales tools; Salesforce, Outreach, and Gong are examples, not individually required tools.",
-          "source_quote": "Proficiency with sales tools such as Salesforce, Outreach, and Gong.",
-          "verification": "profile",
-          "reason": "Generic sales-tool proficiency is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Project management skills involving leading and coordinating across multiple stakeholders.",
-          "source_quote": "Strong project management skills with the ability to lead and coordinate across multiple stakeholders.",
-          "verification": "profile",
-          "reason": "Project management skills are largely unstated for AEs."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M4": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "1d552c8a7d9786bde8206160bd43d62a2d2f02f6e4aef7834536a04339ff28a3",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "831b88f1c95db492e2313d3dc4c5861da1ca27a71e6d3c68086272333a3014d1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Fully remote within the USA or Canada is offered.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "USA",
-        "Canada"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; USA; Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Fully remote within the USA or Canada is offered."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Proficiency with sales tools; Salesforce, Outreach, and Gong are examples, not individually required tools.",
+        "source_quote": "Proficiency with sales tools such as Salesforce, Outreach, and Gong.",
+        "verification": "profile",
+        "reason": "Generic sales-tool proficiency is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Project management skills involving leading and coordinating across multiple stakeholders.",
+        "source_quote": "Strong project management skills with the ability to lead and coordinate across multiple stakeholders.",
+        "verification": "profile",
+        "reason": "Project management skills are largely unstated for AEs."
+      }
+    ]
   },
   "experience_context": [
     {

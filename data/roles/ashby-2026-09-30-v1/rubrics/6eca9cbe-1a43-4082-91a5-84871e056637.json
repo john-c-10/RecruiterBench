@@ -3,10 +3,10 @@
   "role_id": "6eca9cbe-1a43-4082-91a5-84871e056637",
   "snapshot_sha256": "ec06f405256b5fb9b28d5c4ffc028ab47322716d226b40e0703df09f9efb50fe",
   "input_sha256": "6be4e5c142f8e5ecc1932ed2c3621206c18a1ccf008c7b94da3e8015bbdfa3d8",
-  "rubric_sha256": "b701d94abaa2f21ed12f662d83bdf3c7f99bbfcc0a867e9415f57479c119ce68",
+  "rubric_sha256": "f69bc4a9f61e667ccd5937d0bbdd0a46287a0d4236f70d3d1f389cef8705a8d9",
   "rubric": {
     "role_summary": "Perception and tracking engineering for real-time, 3D computer-vision-based multi-object tracking in robotic and autonomous systems. The role spans associate, engineer, and senior levels and involves production software and deployment on resource-constrained hardware.",
-    "search_query": "Find candidates for this role:\nPerception and tracking engineering for real-time, 3D computer-vision-based multi-object tracking in robotic and autonomous systems. The role spans associate, engineer, and senior levels and involves production software and deployment on resource-constrained hardware.\nMandatory professional qualifications:\n- 2+ years of experience working with perception algorithms, robotics, or machine learning.\n- Bachelor's or master's degree in Computer Science, Aerospace Engineering, Applied Math, or a related field.\n- Experience developing vision-based tracking algorithms for real-time applications.\n- Experience implementing object detection or tracking algorithms.\n- Experience with Kalman filtering or optimal estimation.\n- Experience with image preprocessing, feature extraction, and other classical computer-vision pipelines.\n- Programming skills in both Python and C++.\nPreferred, not mandatory:\n- Production experience integrating real-time tracking algorithms into robotic perception systems on edge or embedded hardware.\n- Experience with multi-sensor fusion and integrating heterogeneous sensor data into tracking pipelines.\n- Ability to implement or significantly customize core tracking logic beyond library usage.\n- Familiarity with practical tracking challenges and mitigations, including latency, update rates, coordinate transformations, fusion, maneuver modeling, and conflicting measurements.\n- Experience working on robotics systems or embedded vision platforms.\n- Experience optimizing vision workloads using CUDA or GPU acceleration.\n- 2+ years of experience working with perception algorithms, robotics, or machine learning, and comfortable in a role specializing in 3D computer-vision-based tracking.\n- Experience implementing both object detection and classical or deep-learning-based tracking algorithms; the named algorithms are examples, not individually required.\n- Applied math foundation in linear algebra, probability, statistics, and optimal estimation, including Kalman filtering and variants.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nPerception and tracking engineering for real-time, 3D computer-vision-based multi-object tracking in robotic and autonomous systems. The role spans associate, engineer, and senior levels and involves production software and deployment on resource-constrained hardware.\nMandatory professional qualifications:\n- 2+ years of experience working with perception algorithms, robotics, or machine learning.\n- Bachelor's or master's degree in Computer Science, Aerospace Engineering, Applied Math, or a related field.\n- Experience developing vision-based tracking algorithms for real-time applications.\n- Experience implementing object detection or tracking algorithms.\n- Experience with Kalman filtering or optimal estimation.\n- Experience with image preprocessing, feature extraction, and other classical computer-vision pipelines.\n- Programming skills in both Python and C++.\nPreferred, not mandatory:\n- Production experience integrating real-time tracking algorithms into robotic perception systems on edge or embedded hardware.\n- Experience with multi-sensor fusion and integrating heterogeneous sensor data into tracking pipelines.\n- Ability to implement or significantly customize core tracking logic beyond library usage.\n- Familiarity with practical tracking challenges and mitigations, including latency, update rates, coordinate transformations, fusion, maneuver modeling, and conflicting measurements.\n- Experience working on robotics systems or embedded vision platforms.\n- Experience optimizing vision workloads using CUDA or GPU acceleration.\n- 2+ years of experience working with perception algorithms, robotics, or machine learning, and comfortable in a role specializing in 3D computer-vision-based tracking.\n- Experience implementing both object detection and classical or deep-learning-based tracking algorithms; the named algorithms are examples, not individually required.\n- Applied math foundation in linear algebra, probability, statistics, and optimal estimation, including Kalman filtering and variants.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -171,91 +171,32 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "365c30e098af3509b25ee94b3fdab99c2d772516f4cddef36ea53062c575bf07",
-    "resolved_ambiguities": [
-      "The posting hires across associate, engineer, and senior levels but gives a single required range of 2–3 years of experience; it does not clarify whether that range applies to every level."
-    ],
-    "resolution": "Two relevant years is the lower-bound gate; exceeding three years is not itself a rejection.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The role is listed in Austin, TX. The posting does not specify a remote option, an onsite schedule, or a requirement to currently reside in Austin.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin, TX"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "2-3 years of experience working with perception algorithms, robotics, or machine learning and comfortable in a role that specializes in 3D Computer Vision based tracking",
-        "effective_requirement": "2+ years of experience working with perception algorithms, robotics, or machine learning, and comfortable in a role specializing in 3D computer-vision-based tracking.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "8a79fac69f38d4fd412fe2169fb6efff8c34638065814c00a4c9a6cd7d0ecea9",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8a79fac69f38d4fd412fe2169fb6efff8c34638065814c00a4c9a6cd7d0ecea9",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "2+ years of experience working with perception algorithms, robotics, or machine learning, and comfortable in a role specializing in 3D computer-vision-based tracking.",
-          "after": "2+ years of experience working with perception algorithms, robotics, or machine learning.",
-          "reason": "Years in domain are observable; comfort/specialization is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience implementing both object detection and classical or deep-learning-based tracking algorithms; the named algorithms are examples, not individually required.",
-          "after": "Experience implementing object detection or tracking algorithms.",
-          "reason": "Detection/tracking work is observable; requiring both is unrealistic."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Applied math foundation in linear algebra, probability, statistics, and optimal estimation, including Kalman filtering and variants.",
-          "after": "Experience with Kalman filtering or optimal estimation.",
-          "reason": "Kalman filtering is commonly listed; generic math foundations are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P7",
-        "M4": "P8",
-        "M5": "P9"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6f9224fea702cbf9626928f3c04f66876071c35141ce988bdd8912252318ce6c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "63f9d1b1c3541d2bd0a1c6ad1e4be5962cebb113882ca896bd8c2f5dc3acb322",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "2+ years of experience working with perception algorithms, robotics, or machine learning, and comfortable in a role specializing in 3D computer-vision-based tracking.",
+        "effective_requirement": "2+ years of experience working with perception algorithms, robotics, or machine learning.",
+        "reason": "Years in domain are observable; comfort/specialization is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience implementing both object detection and classical or deep-learning-based tracking algorithms; the named algorithms are examples, not individually required.",
+        "effective_requirement": "Experience implementing object detection or tracking algorithms.",
+        "reason": "Detection/tracking work is observable; requiring both is unrealistic."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Applied math foundation in linear algebra, probability, statistics, and optimal estimation, including Kalman filtering and variants.",
+        "effective_requirement": "Experience with Kalman filtering or optimal estimation.",
+        "reason": "Kalman filtering is commonly listed; generic math foundations are not."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

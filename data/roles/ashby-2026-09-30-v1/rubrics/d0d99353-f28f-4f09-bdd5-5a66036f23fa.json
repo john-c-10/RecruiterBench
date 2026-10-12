@@ -3,10 +3,10 @@
   "role_id": "d0d99353-f28f-4f09-bdd5-5a66036f23fa",
   "snapshot_sha256": "1739bcd0a6bc617ca228a139341ba35d7f3f4c9427e32609b2d6dc92b89b0902",
   "input_sha256": "c9e1f68c3d590f974e1867f761742f6c615aa710afc25cec6660e5ed34ff9a59",
-  "rubric_sha256": "a5efab08eec6ddc97bcbc536a082ad4bb8433d289de910ea036db9680ccab28e",
+  "rubric_sha256": "be67d3f93f7cebc08a930752b65dffdbaed761f426ca6841ba5060e1e1574fc2",
   "rubric": {
     "role_summary": "Senior channel solution engineer supporting partners’ enterprise software sales cycles in Latin America through technical solution design, demonstrations, proofs of concept, and proposals.",
-    "search_query": "Find candidates for this role:\nSenior channel solution engineer supporting partners’ enterprise software sales cycles in Latin America through technical solution design, demonstrations, proofs of concept, and proposals.\nMandatory professional qualifications:\n- Experience combining technical elements with clients’ business needs and requirements.\n- Experience delivering software demonstrations.\n- Understanding of digital marketing technologies.\n- Experience conducting business across LATAM, with understanding of regional business practices, cultures, and market dynamics.\nPreferred, not mandatory:\n- Experience and understanding of one or more web content management, e-commerce, or digital asset management systems.\n- Understanding of the MarTech landscape and trends, including SaaS and headless content solutions.\n- Experience demonstrating software using a value-based approach.\n- Ability to resolve complex technical issues and integrate multiple products to create solutions.\n- Understanding of cross-channel digital marketing technologies.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior channel solution engineer supporting partners’ enterprise software sales cycles in Latin America through technical solution design, demonstrations, proofs of concept, and proposals.\nMandatory professional qualifications:\n- Experience combining technical elements with clients’ business needs and requirements.\n- Experience delivering software demonstrations.\n- Understanding of digital marketing technologies.\n- Experience conducting business across LATAM, with understanding of regional business practices, cultures, and market dynamics.\nPreferred, not mandatory:\n- Experience and understanding of one or more web content management, e-commerce, or digital asset management systems.\n- Understanding of the MarTech landscape and trends, including SaaS and headless content solutions.\n- Experience demonstrating software using a value-based approach.\n- Ability to resolve complex technical issues and integrate multiple products to create solutions.\n- Understanding of cross-channel digital marketing technologies.\nWork location and geographic eligibility:\nLocation: USA (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -135,89 +135,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "8cca5ed9d29c186fed180817407c17195cdf41c3b52b3839ea0dfc49cbc5c64e",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role located in the USA; supports partners in LATAM. Current USA residence is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "USA"
-      ],
-      "remote_scope": "USA",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote (USA)",
-        "Remote",
-        "throughout the entire sales cycles for our partners in Latin America (LATAM)"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "6cbd2e549c634750193a4b64e555b88b9af7f5d94040c93bf1e729129f345ed0",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "6cbd2e549c634750193a4b64e555b88b9af7f5d94040c93bf1e729129f345ed0",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to resolve complex technical issues and integrate multiple products to create solutions.",
-          "source_quote": "Demonstrate the ability to resolve more complex technical issues and integration of multiple products to create solutions",
-          "verification": "profile",
-          "reason": "Problem-solving ability is unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience demonstrating software using a value-based approach.",
-          "after": "Experience delivering software demonstrations.",
-          "reason": "Demos implied by solution engineering; value-based approach is unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Understanding of cross-channel digital marketing technologies.",
-          "after": "Understanding of digital marketing technologies.",
-          "reason": "Martech domain observable from employers; cross-channel nuance is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M5": "M4"
-      },
-      "demoted_preference_ids": {
-        "M2": "P3",
-        "M3": "P4",
-        "M4": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "0da7b5445865961b6e9870414ec84ade3056ee6756af82844f728a5d1b30ea59",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "5d587b080a7afc75a0797c0ee113936feeb8742f1e948bf3783aa8b810a8ce5b",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "USA"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience demonstrating software using a value-based approach.",
+        "effective_requirement": "Experience delivering software demonstrations.",
+        "reason": "Demos implied by solution engineering; value-based approach is unstated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Understanding of cross-channel digital marketing technologies.",
+        "effective_requirement": "Understanding of digital marketing technologies.",
+        "reason": "Martech domain observable from employers; cross-channel nuance is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to resolve complex technical issues and integrate multiple products to create solutions.",
+        "source_quote": "Demonstrate the ability to resolve more complex technical issues and integration of multiple products to create solutions",
+        "verification": "profile",
+        "reason": "Problem-solving ability is unstated."
+      }
+    ]
   },
   "experience_context": []
 }

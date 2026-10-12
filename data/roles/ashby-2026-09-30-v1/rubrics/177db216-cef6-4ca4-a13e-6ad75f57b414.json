@@ -3,10 +3,10 @@
   "role_id": "177db216-cef6-4ca4-a13e-6ad75f57b414",
   "snapshot_sha256": "5ce455a0a496cdb4dfcaaa766a2f181b33db544a9750fcb2568e384ba6908edc",
   "input_sha256": "9b0ff3015a042b6e0320a1405fdd5b1b8d7cd41e0b6fdfca8bb54b5e2f668d6a",
-  "rubric_sha256": "1e2a08a49137a9d6e8d888b77385b0c25c7ca40a0df7044e285dbcb83348f37d",
+  "rubric_sha256": "f64414584c17e6fda26f44cc86f82d40f757250418eab61c0a429d954e83c2bf",
   "rubric": {
     "role_summary": "Materials scientist owning perovskite solar-cell chemistry and processes for space solar power, from precursor formulation and deposition through device performance, stability, and manufacturing integration.",
-    "search_query": "Find candidates for this role:\nMaterials scientist owning perovskite solar-cell chemistry and processes for space solar power, from precursor formulation and deposition through device performance, stability, and manufacturing integration.\nMandatory professional qualifications:\n- Master's or PhD in chemistry, materials science, chemical engineering, applied physics, or a related discipline.\n- Graduate research experience with perovskite, thin-film photovoltaic, or related optoelectronic materials.\nPreferred, not mandatory:\n- PhD in a relevant discipline with a research focus on perovskite photovoltaics.\n- Direct experience with solution-processed deposition methods, such as spin coating, blade coating, slot-die coating, or vapor-assisted deposition.\n- Hands-on experience with precursor formulation, solvent engineering, and additive optimization.\n- Familiarity with charge transport materials, interface passivation, and contact stack engineering.\n- Experience scaling perovskite chemistry from research scale to larger-area or pilot manufacturing.\n- Knowledge of perovskite degradation mechanisms and stability strategies involving moisture, oxygen, thermal, UV, or radiation exposure.\n- Familiarity with glovebox and cleanroom operations, chemical safety, and contamination control.\n- Exposure to aerospace, space, or other high-reliability hardware environments.\n- Demonstrated ability to connect materials chemistry to device performance through characterization and analysis.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nMaterials scientist owning perovskite solar-cell chemistry and processes for space solar power, from precursor formulation and deposition through device performance, stability, and manufacturing integration.\nMandatory professional qualifications:\n- Master's or PhD in chemistry, materials science, chemical engineering, applied physics, or a related discipline.\n- Graduate research experience with perovskite, thin-film photovoltaic, or related optoelectronic materials.\nPreferred, not mandatory:\n- PhD in a relevant discipline with a research focus on perovskite photovoltaics.\n- Direct experience with solution-processed deposition methods, such as spin coating, blade coating, slot-die coating, or vapor-assisted deposition.\n- Hands-on experience with precursor formulation, solvent engineering, and additive optimization.\n- Familiarity with charge transport materials, interface passivation, and contact stack engineering.\n- Experience scaling perovskite chemistry from research scale to larger-area or pilot manufacturing.\n- Knowledge of perovskite degradation mechanisms and stability strategies involving moisture, oxygen, thermal, UV, or radiation exposure.\n- Familiarity with glovebox and cleanroom operations, chemical safety, and contamination control.\n- Exposure to aerospace, space, or other high-reliability hardware environments.\n- Demonstrated ability to connect materials chemistry to device performance through characterization and analysis.\nWork location and geographic eligibility:\nLocation: Greater Los Angeles area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -142,77 +142,29 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "bef6ff21220fd7dd42125463a873c40a774a9a22f67c857188187fb7fddaaf50",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work location is Los Angeles (Hawthorne), California; onsite, hybrid, and remote arrangements are not specified. Current residence there is not explicitly required.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "Hawthorne, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Hawthorne, CA",
-        "Location: Los Angeles (Hawthorne), CA"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "2b9572a36941589d5813f900b7a7fae2a4bda6129c21a84c31cdf4c785617e47",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Must be a U.S. citizen or national, U.S. lawful permanent resident, refugee under 8 U.S.C. § 1157, asylee under 8 U.S.C. § 1158, or eligible to obtain the required authorizations from the U.S. Department of State.",
-          "source_quote": "To conform to U.S. Government export regulations, you must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ad45ccc05f5a1db23a51eca1b184e412e9ee52faf5c0e40392b2ce2098249a9c",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Demonstrated ability to connect materials chemistry to device performance through characterization and analysis.",
-          "source_quote": "Demonstrated ability to connect materials chemistry to device performance through characterization and analysis",
-          "verification": "profile",
-          "reason": "Connecting chemistry to device performance is a demonstrated ability rarely stated explicitly."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P9"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d048f4ae0b3bca9469d899f5f78ee642c75fc247d47ee18e629ac88ca421655d",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "ad77b887ea7a52065f57f881522c9549124baac72d11d908af292c0a6b2e7dcf",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Los Angeles area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Must be a U.S. citizen or national, U.S. lawful permanent resident, refugee under 8 U.S.C. § 1157, asylee under 8 U.S.C. § 1158, or eligible to obtain the required authorizations from the U.S. Department of State.",
+        "source_quote": "To conform to U.S. Government export regulations, you must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated ability to connect materials chemistry to device performance through characterization and analysis.",
+        "source_quote": "Demonstrated ability to connect materials chemistry to device performance through characterization and analysis",
+        "verification": "profile",
+        "reason": "Connecting chemistry to device performance is a demonstrated ability rarely stated explicitly."
+      }
+    ]
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "91c82978-c07a-4513-80d8-da1c091b2816",
   "snapshot_sha256": "b1565b674642e9e0b7637f2dc7ff5417c2446f067d566fc1e9848ea8447a0360",
   "input_sha256": "21349e0de4e5cb8bcd81b5705fce66f8167a13b0c9499c8b2424aa4fefbae866",
-  "rubric_sha256": "0a06f349a1dbdd870a262463b1f8e04617ad50914a099db05938d21d886a3f0c",
+  "rubric_sha256": "320d100e769b66f1d69b2f222d7a8c77e7d380ed218148e2ede42da512725eab",
   "rubric": {
     "role_summary": "Senior aerospace procurement and category-management role shaping suppliers and commercial agreements for an aircraft programme moving through development, certification and industrialisation.",
-    "search_query": "Find candidates for this role:\nSenior aerospace procurement and category-management role shaping suppliers and commercial agreements for an aircraft programme moving through development, certification and industrialisation.\nMandatory professional qualifications:\n- Significant procurement/category management experience within aerospace.\n- Expertise in at least one of airframe, propellers, powertrain and energy storage, or mechanical systems.\n- Experience with long aerospace development cycles, extended supplier lead times and complex qualification/certification requirements.\n- Experience negotiating commercial agreements with aerospace suppliers.\n- Degree-level qualification in a relevant discipline and/or relevant CIPS qualification.\nPreferred, not mandatory:\n- Experience across complex aircraft or aerospace product-development programmes is ideal.\n- Deep understanding of the aerospace product lifecycle, including development, design maturity, qualification, certification, industrialisation and production ramp-up.\n- Understanding of global aerospace supply chains and strategic-supplier capability, capacity, financial and operational risks.\n- Experience leading complex, high-value negotiations and commercial agreements with aerospace suppliers.\n- Experience working cross-functionally with Engineering, Quality, Manufacturing, Programme, Certification and Operations teams.\n- Experience developing strategic supplier relationships rather than only managing transactional procurement.\n- Experience managing suppliers through change, development challenges and evolving product requirements.\n- Experience managing suppliers and stakeholders across different markets and cultures.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Bristol area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior aerospace procurement and category-management role shaping suppliers and commercial agreements for an aircraft programme moving through development, certification and industrialisation.\nMandatory professional qualifications:\n- Significant procurement/category management experience within aerospace.\n- Expertise in at least one of airframe, propellers, powertrain and energy storage, or mechanical systems.\n- Experience with long aerospace development cycles, extended supplier lead times and complex qualification/certification requirements.\n- Experience negotiating commercial agreements with aerospace suppliers.\n- Degree-level qualification in a relevant discipline and/or relevant CIPS qualification.\nPreferred, not mandatory:\n- Experience across complex aircraft or aerospace product-development programmes is ideal.\n- Deep understanding of the aerospace product lifecycle, including development, design maturity, qualification, certification, industrialisation and production ramp-up.\n- Understanding of global aerospace supply chains and strategic-supplier capability, capacity, financial and operational risks.\n- Experience leading complex, high-value negotiations and commercial agreements with aerospace suppliers.\n- Experience working cross-functionally with Engineering, Quality, Manufacturing, Programme, Certification and Operations teams.\n- Experience developing strategic supplier relationships rather than only managing transactional procurement.\n- Experience managing suppliers through change, development challenges and evolving product requirements.\n- Experience managing suppliers and stakeholders across different markets and cultures.\nWork location and geographic eligibility:\nLocation: Greater Bristol area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -159,125 +159,63 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "43b3d63c9ec678068a7368862dab193c663d6d6d998e3f4ce1bcf3a78ab9ae69",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Bristol office is the stated work location; no present-residence requirement or relocation policy is specified.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Bristol Office"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Bristol Office"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "1434ee58b351dfc19a57bf95eee4dbd850579db53b5e3bf7b3455c7070c80597",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "1434ee58b351dfc19a57bf95eee4dbd850579db53b5e3bf7b3455c7070c80597",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Deep understanding of the aerospace product lifecycle, including development, design maturity, qualification, certification, industrialisation and production ramp-up.",
-          "source_quote": "A deep understanding of the aerospace product lifecycle, including development, design maturity, qualification, certification, industrialisation and production ramp-up.",
-          "verification": "profile",
-          "reason": "Deep lifecycle understanding across a long list is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Understanding of global aerospace supply chains and strategic-supplier capability, capacity, financial and operational risks.",
-          "source_quote": "Strong understanding of global aerospace supply chains, including the capability, capacity, financial and operational risks associated with strategic suppliers.",
-          "verification": "profile",
-          "reason": "Supply-chain risk understanding is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience working cross-functionally with Engineering, Quality, Manufacturing, Programme, Certification and Operations teams.",
-          "source_quote": "Experience working cross-functionally with Engineering, Quality, Manufacturing, Programme, Certification and Operations teams.",
-          "verification": "profile",
-          "reason": "Cross-functional working is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Experience developing strategic supplier relationships rather than only managing transactional procurement.",
-          "source_quote": "Experience developing strategic supplier relationships rather than simply managing transactional procurement.",
-          "verification": "profile",
-          "reason": "Strategic vs transactional distinction is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Experience managing suppliers through change, development challenges and evolving product requirements.",
-          "source_quote": "Experience managing suppliers through change, development challenges and evolving product requirements.",
-          "verification": "profile",
-          "reason": "Specific supplier-management practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M10",
-          "requirement": "Experience managing suppliers and stakeholders across different markets and cultures.",
-          "source_quote": "experience managing suppliers and stakeholders across different markets and cultures.",
-          "verification": "profile",
-          "reason": "Cross-cultural experience is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Experience leading complex, high-value negotiations and commercial agreements with aerospace suppliers.",
-          "after": "Experience negotiating commercial agreements with aerospace suppliers.",
-          "reason": "Supplier negotiation is implied by procurement roles; \"complex, high-value\" qualifier is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M6": "M4",
-        "M11": "M5"
-      },
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M5": "P3",
-        "M6": "P4",
-        "M7": "P5",
-        "M8": "P6",
-        "M9": "P7",
-        "M10": "P8"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "397e541160b4322c855bdeb90d2c7bae46b10ab72f58b78028c14f8266dd3b3e",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d00e8a3476a04b4ab3b91b9849a4a732b3c109d28cb1c247c1c4e2e97042c7c1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Bristol area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Bristol area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience leading complex, high-value negotiations and commercial agreements with aerospace suppliers.",
+        "effective_requirement": "Experience negotiating commercial agreements with aerospace suppliers.",
+        "reason": "Supplier negotiation is implied by procurement roles; \"complex, high-value\" qualifier is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Deep understanding of the aerospace product lifecycle, including development, design maturity, qualification, certification, industrialisation and production ramp-up.",
+        "source_quote": "A deep understanding of the aerospace product lifecycle, including development, design maturity, qualification, certification, industrialisation and production ramp-up.",
+        "verification": "profile",
+        "reason": "Deep lifecycle understanding across a long list is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of global aerospace supply chains and strategic-supplier capability, capacity, financial and operational risks.",
+        "source_quote": "Strong understanding of global aerospace supply chains, including the capability, capacity, financial and operational risks associated with strategic suppliers.",
+        "verification": "profile",
+        "reason": "Supply-chain risk understanding is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience working cross-functionally with Engineering, Quality, Manufacturing, Programme, Certification and Operations teams.",
+        "source_quote": "Experience working cross-functionally with Engineering, Quality, Manufacturing, Programme, Certification and Operations teams.",
+        "verification": "profile",
+        "reason": "Cross-functional working is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience developing strategic supplier relationships rather than only managing transactional procurement.",
+        "source_quote": "Experience developing strategic supplier relationships rather than simply managing transactional procurement.",
+        "verification": "profile",
+        "reason": "Strategic vs transactional distinction is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience managing suppliers through change, development challenges and evolving product requirements.",
+        "source_quote": "Experience managing suppliers through change, development challenges and evolving product requirements.",
+        "verification": "profile",
+        "reason": "Specific supplier-management practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience managing suppliers and stakeholders across different markets and cultures.",
+        "source_quote": "experience managing suppliers and stakeholders across different markets and cultures.",
+        "verification": "profile",
+        "reason": "Cross-cultural experience is rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

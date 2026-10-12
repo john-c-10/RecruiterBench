@@ -3,10 +3,10 @@
   "role_id": "c54749e3-1755-41c2-a5fa-6d81e5656de3",
   "snapshot_sha256": "8db6c050d36c84977492f1261e368eadbdc60703359a88bb77b7ce41f304f173",
   "input_sha256": "eaf10bc58de05c4b59dcc04a8190291c7c97db373d2158492193c596491a246e",
-  "rubric_sha256": "0c784f6759a8436a211e9cdb704eede7195451c98fca7e795a3bfae0f84744b9",
+  "rubric_sha256": "691de57d0cf3d8bdd830da8c8f4784cd5fa711c0e10eb06e24f58dff8b036c28",
   "rubric": {
     "role_summary": "Senior, hands-on brand art direction role for a consumer beverage business, spanning packaging production, retail and ecommerce creative, photography direction, and design-team leadership.",
-    "search_query": "Find candidates for this role:\nSenior, hands-on brand art direction role for a consumer beverage business, spanning packaging production, retail and ecommerce creative, photography direction, and design-team leadership.\nMandatory professional qualifications:\n- 7+ years of professional design experience.\n- 2+ years of experience providing art direction or leading designers.\n- Hands-on packaging and print design experience.\n- Experience with ecommerce or digital design.\n- Proficiency in Adobe Creative Suite.\nPreferred, not mandatory:\n- Design experience in CPG, food and beverage, beauty, wellness, lifestyle, or another highly visual consumer category.\n- Deep packaging and print design experience encompassing dielines, production artwork, prepress, proofing, and work with production partners.\n- Experience designing for retail environments, including point-of-sale materials, displays, shippers, endcaps, and signage.\n- Understanding of ecommerce and digital design, including PDPs, campaign assets, and omnichannel launches.\n- Expert proficiency in Adobe Creative Suite and Figma.\n- Experience directing photography and external creative partners.\n- Project management skills for managing multiple launches across functions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior, hands-on brand art direction role for a consumer beverage business, spanning packaging production, retail and ecommerce creative, photography direction, and design-team leadership.\nMandatory professional qualifications:\n- 7+ years of professional design experience.\n- 2+ years of experience providing art direction or leading designers.\n- Hands-on packaging and print design experience.\n- Experience with ecommerce or digital design.\n- Proficiency in Adobe Creative Suite.\nPreferred, not mandatory:\n- Design experience in CPG, food and beverage, beauty, wellness, lifestyle, or another highly visual consumer category.\n- Deep packaging and print design experience encompassing dielines, production artwork, prepress, proofing, and work with production partners.\n- Experience designing for retail environments, including point-of-sale materials, displays, shippers, endcaps, and signage.\n- Understanding of ecommerce and digital design, including PDPs, campaign assets, and omnichannel launches.\n- Expert proficiency in Adobe Creative Suite and Figma.\n- Experience directing photography and external creative partners.\n- Project management skills for managing multiple launches across functions.\nWork location and geographic eligibility:\nLocation: USA (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -154,143 +154,62 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "2498478c963998f7e558db11ac2c8f3586ddf8fa84309f742d78bab3dbb042e4",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role limited to the USA; present residence is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "USA"
-      ],
-      "remote_scope": "USA",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote - USA",
-        "Remote"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "7+ years of professional design experience",
-        "effective_requirement": "7+ years of professional design experience.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "M2",
-        "source_quote": "2+ years of experience providing art direction or leading designers.",
-        "effective_requirement": "2+ years of experience providing art direction or leading designers.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "A portfolio demonstrating conceptual thinking and hands-on design execution.",
+        "source_quote": "An exceptional portfolio demonstrating both strong conceptual thinking and hands-on execution.",
+        "verification": "profile",
+        "reason": "Requires a portfolio, which is not among the judged profile fields."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "0e66556c9e2ce1521dd36dc80fc763b673d535e20880985e41d31e927cadf3e6",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "A portfolio demonstrating conceptual thinking and hands-on design execution.",
-          "source_quote": "An exceptional portfolio demonstrating both strong conceptual thinking and hands-on execution.",
-          "verification": "profile",
-          "reason": "Requires a portfolio, which is not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M5": "M4",
-        "M6": "M5",
-        "M7": "M6",
-        "M8": "M7",
-        "M9": "M8"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "f322dae66f5cbfc09970f6932776e19071b4d197b919735e2478ac52fd79c9e5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience designing for retail environments, including point-of-sale materials, displays, shippers, endcaps, and signage.",
-          "source_quote": "Experience designing for retail environments, including POS, displays, shippers, endcaps, and signage.",
-          "verification": "profile",
-          "reason": "Retail POS/display specifics are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience directing photography and external creative partners.",
-          "source_quote": "Experience directing photography and external creative partners.",
-          "verification": "profile",
-          "reason": "Directing photography/partners is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Project management skills for managing multiple launches across functions.",
-          "source_quote": "Strong project management and communication skills with the ability to manage multiple launches and collaborate across functions.",
-          "verification": "profile",
-          "reason": "Generic project-management skill is unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Deep packaging and print design experience encompassing dielines, production artwork, prepress, proofing, and work with production partners.",
-          "after": "Hands-on packaging and print design experience.",
-          "reason": "Packaging design is observable; prepress/proofing details rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Understanding of ecommerce and digital design, including PDPs, campaign assets, and omnichannel launches.",
-          "after": "Experience with ecommerce or digital design.",
-          "reason": "Digital design is observable; specific asset types are not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Expert proficiency in Adobe Creative Suite and Figma.",
-          "after": "Proficiency in Adobe Creative Suite.",
-          "reason": "Adobe tools commonly listed; \"expert\" qualifier and Figma for packaging designers often unstated."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M4",
-        "M6": "M5"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep packaging and print design experience encompassing dielines, production artwork, prepress, proofing, and work with production partners.",
+        "effective_requirement": "Hands-on packaging and print design experience.",
+        "reason": "Packaging design is observable; prepress/proofing details rarely stated."
       },
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M4": "P3",
-        "M5": "P4",
-        "M6": "P5",
-        "M7": "P6",
-        "M8": "P7"
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Understanding of ecommerce and digital design, including PDPs, campaign assets, and omnichannel launches.",
+        "effective_requirement": "Experience with ecommerce or digital design.",
+        "reason": "Digital design is observable; specific asset types are not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Expert proficiency in Adobe Creative Suite and Figma.",
+        "effective_requirement": "Proficiency in Adobe Creative Suite.",
+        "reason": "Adobe tools commonly listed; \"expert\" qualifier and Figma for packaging designers often unstated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "aa5eb2d0ac23f8ab5cc6e3905da1de5bf1bc7b6d8dbbdad236b88b248b6dd788",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "64c83656b64ff0cc943c5d0c1001fadd4e03bd959a853ea98ddffc360697bd59",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "USA"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience designing for retail environments, including point-of-sale materials, displays, shippers, endcaps, and signage.",
+        "source_quote": "Experience designing for retail environments, including POS, displays, shippers, endcaps, and signage.",
+        "verification": "profile",
+        "reason": "Retail POS/display specifics are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience directing photography and external creative partners.",
+        "source_quote": "Experience directing photography and external creative partners.",
+        "verification": "profile",
+        "reason": "Directing photography/partners is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Project management skills for managing multiple launches across functions.",
+        "source_quote": "Strong project management and communication skills with the ability to manage multiple launches and collaborate across functions.",
+        "verification": "profile",
+        "reason": "Generic project-management skill is unstated."
+      }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "357b1b23-0712-489e-b336-1462f186cba7",
   "snapshot_sha256": "e450f6f04054f0cd1e0e5d2a4e373924aa9aa5a26d094bf0c9282c6dec6fac85",
   "input_sha256": "9706e1e46a1a38e6373d2c963cd2ac3b2576c6a096b6791f6c8d15da16e4c0bc",
-  "rubric_sha256": "c6f5491e3261e161a744e393de9dbcb7dcfe579453fd693e199322c1eb3b34c5",
+  "rubric_sha256": "2e287a77e04cb92d7ca6879f7205e3e18862704a0b9cbc711a37d055577dd9b8",
   "rubric": {
     "role_summary": "Research scientist developing embodied-AI models for physical robots, with end-to-end ownership from data and training through deployment and evaluation in customer environments.",
-    "search_query": "Find candidates for this role:\nResearch scientist developing embodied-AI models for physical robots, with end-to-end ownership from data and training through deployment and evaluation in customer environments.\nMandatory professional qualifications:\n- Master’s or PhD in CS or Robotics.\n- 5+ years of AI and robotics research experience.\n- Hands-on experience with VLA models, video generation, or large-scale transformer architectures.\n- Mastery of Python and either PyTorch or JAX.\n- Familiarity with simulation stacks such as MuJoCo, Isaac, or Drake.\nPreferred, not mandatory:\n- PhD preferred over a Master’s.\n- Experience with founding-stage startups or leading small research teams.\n- Deep understanding of classical robotics, including controls and state estimation.\n- Experience profiling and optimizing foundation models for low-latency inference on edge devices.\n- 5+ years of AI and robotics research experience, specifically deploying deep learning models onto physical robots, not just in simulation.\n- Ability to write maintainable, production-ready research code that scales across GPU clusters.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nResearch scientist developing embodied-AI models for physical robots, with end-to-end ownership from data and training through deployment and evaluation in customer environments.\nMandatory professional qualifications:\n- Master’s or PhD in CS or Robotics.\n- 5+ years of AI and robotics research experience.\n- Hands-on experience with VLA models, video generation, or large-scale transformer architectures.\n- Mastery of Python and either PyTorch or JAX.\n- Familiarity with simulation stacks such as MuJoCo, Isaac, or Drake.\nPreferred, not mandatory:\n- PhD preferred over a Master’s.\n- Experience with founding-stage startups or leading small research teams.\n- Deep understanding of classical robotics, including controls and state estimation.\n- Experience profiling and optimizing foundation models for low-latency inference on edge devices.\n- 5+ years of AI and robotics research experience, specifically deploying deep learning models onto physical robots, not just in simulation.\n- Ability to write maintainable, production-ready research code that scales across GPU clusters.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -126,17 +126,6 @@
     "attempt_count": 1,
     "review_status": "machine_extracted_source_quotes_validated_with_documented_correction"
   },
-  "curation": {
-    "corrected_at": "2026-10-01T00:05:19.427405+00:00",
-    "original_rubric_sha256": "d3d569953af8fbf6c7eb5170c6c14954c958dc69bdabe1fe5c4e7d530d5765c7",
-    "criterion_id": "M1",
-    "original_requirement": "Master’s or PhD in CS or Robotics, with a significant publication record in top-tier conferences.",
-    "fields": [
-      "must_haves.M1.requirement",
-      "soft_requirements"
-    ],
-    "reason": "Applied the frozen extraction policy: separate subjective prestige/quality language from objective conditions, and keep reviewer instructions out of search query text. Original source quotation retained."
-  },
   "interpretation": {
     "policy": {
       "version": "role-interpretation-v1",
@@ -155,92 +144,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "31bf1ab914c6b60b51b9ffef68622b55c8e53940cbe305d691e9e3fb615ab2fa",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Redwood City, CA; the posting does not require current residence there or state a relocation policy.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Redwood City, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Redwood City, CA",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "5+ Years of Mastery: Deep experience in AI and robotics research, specifically in deploying deep learning models onto physical robots (not just simulation).",
-        "effective_requirement": "5+ years of AI and robotics research experience, specifically deploying deep learning models onto physical robots, not just in simulation.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Master’s or PhD in CS or Robotics, with a publication record in relevant research conferences such as RSS, CoRL, ICRA, NeurIPS, CVPR, or ICLR.",
+        "effective_requirement": "Master’s or PhD in CS or Robotics.",
+        "reason": "Requires a publication record, which is not among the judged profile fields."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "5+ years of AI and robotics research experience, specifically deploying deep learning models onto physical robots, not just in simulation.",
+        "effective_requirement": "5+ years of AI and robotics research experience.",
+        "reason": "Years of robotics research are observable; real-robot vs simulation deployment is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "5e876c5c07935a4d23814d52fb5bf1b66e836487bcb4f53a56df4cef2402afe5",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Master’s or PhD in CS or Robotics, with a publication record in relevant research conferences such as RSS, CoRL, ICRA, NeurIPS, CVPR, or ICLR.",
-          "after": "Master’s or PhD in CS or Robotics.",
-          "reason": "Requires a publication record, which is not among the judged profile fields."
-        }
-      ],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "f8a1a04e7ba37f3a2428f979661fbab636964ce72604aafbca37c76424ac791d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability to write maintainable, production-ready research code that scales across GPU clusters.",
-          "source_quote": "The ability to write maintainable, production-ready research code that scales across GPU clusters.",
-          "verification": "profile",
-          "reason": "Code quality and scaling ability is not observable on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "5+ years of AI and robotics research experience, specifically deploying deep learning models onto physical robots, not just in simulation.",
-          "after": "5+ years of AI and robotics research experience.",
-          "reason": "Years of robotics research are observable; real-robot vs simulation deployment is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P5",
-        "M6": "P6"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to write maintainable, production-ready research code that scales across GPU clusters.",
+        "source_quote": "The ability to write maintainable, production-ready research code that scales across GPU clusters.",
+        "verification": "profile",
+        "reason": "Code quality and scaling ability is not observable on profiles."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "258769adb6111aa27a56ba34c4136a84bafe20f7e7a2a77b3a45959ee99c5168",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d4ebc8ce0d73d59d127ec25c8c5bcb244ec814574c7a9a719b7798f74e52311b",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "83b6755d-7785-4186-9050-5ef3ad127941",
   "snapshot_sha256": "581fec822f51f5a66ebd385d381d37f3605916cf2b0c177a05c8fb5a43c7e637",
   "input_sha256": "8ba7ea55241c1f3f6a52ff8c04dad373a755df7a90813c3d86061c4049d93525",
-  "rubric_sha256": "cb86d9e9ad12243ac8c8f5708478258dcb9609d6e3d964a9d7e25271461b0681",
+  "rubric_sha256": "4f16f9751c93d5f5ce72f98edc45806ef0b446428cd885ac9d2758b2ff31d153",
   "rubric": {
     "role_summary": "Software engineer optimizing large AI model inference for high-volume, low-latency production and research environments, including distributed-system performance, reliability, and GPU utilization.",
-    "search_query": "Find candidates for this role:\nSoftware engineer optimizing large AI model inference for high-volume, low-latency production and research environments, including distributed-system performance, reliability, and GPU utilization.\nMandatory professional qualifications:\n- At least 5 years of professional software engineering experience.\n- Understanding of modern ML architectures and how to optimize their performance, particularly for inference.\n- Experience architecting, building, observing, and debugging production distributed systems.\nPreferred, not mandatory:\n- Experience with performance-critical distributed systems.\n- Experience rebuilding or substantially refactoring production systems several times because of rapidly increasing scale.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nSoftware engineer optimizing large AI model inference for high-volume, low-latency production and research environments, including distributed-system performance, reliability, and GPU utilization.\nMandatory professional qualifications:\n- At least 5 years of professional software engineering experience.\n- Understanding of modern ML architectures and how to optimize their performance, particularly for inference.\n- Experience architecting, building, observing, and debugging production distributed systems.\nPreferred, not mandatory:\n- Experience with performance-critical distributed systems.\n- Experience rebuilding or substantially refactoring production systems several times because of rapidly increasing scale.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -110,74 +110,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "8a79ec163730fba63d1596f83e538327b96777bfaf123f358df748448dd3ddba",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work location is listed as San Francisco; the posting does not require candidates to currently reside there or specify a remote or relocation policy.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "San Francisco"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "Have at least 5 years of professional software engineering experience.",
-        "effective_requirement": "At least 5 years of professional software engineering experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "bcc1d386abc13957ee038af79eb0b1f221a6627eff960ec3d681ad58b1acd5a1",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "bcc1d386abc13957ee038af79eb0b1f221a6627eff960ec3d681ad58b1acd5a1",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience rebuilding or substantially refactoring production systems several times because of rapidly increasing scale.",
-          "source_quote": "Have needed to rebuild or substantially refactor production systems several times over due to rapidly increasing scale.",
-          "verification": "profile",
-          "reason": "Repeatedly rebuilding systems due to scale is a specific history profiles rarely state."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f53ec00d01ee41499eca5eefd3836e72b733bc7211856f0f84533251f6c86175",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "f25e3f77e0cc95b614106ce6ad5fc65133a3ec626127256ee99b71549ba61de2",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience rebuilding or substantially refactoring production systems several times because of rapidly increasing scale.",
+        "source_quote": "Have needed to rebuild or substantially refactor production systems several times over due to rapidly increasing scale.",
+        "verification": "profile",
+        "reason": "Repeatedly rebuilding systems due to scale is a specific history profiles rarely state."
+      }
+    ]
   },
   "experience_context": [
     {

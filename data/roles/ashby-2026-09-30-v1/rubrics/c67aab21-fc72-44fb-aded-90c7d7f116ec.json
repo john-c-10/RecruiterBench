@@ -3,10 +3,10 @@
   "role_id": "c67aab21-fc72-44fb-aded-90c7d7f116ec",
   "snapshot_sha256": "f5f99c7c59377811fb2a6d6c304c166feadcec58587cb3d707a20cf7cf6d9d08",
   "input_sha256": "f697d431517a04e5eac104f28e0113ed37737662fd562ea176206d9b7dd4ee0e",
-  "rubric_sha256": "44bb158fddae64a9b6a3578c721c96248184f3dfa0e3e26de6172e7841649ff4",
+  "rubric_sha256": "3198530729a8db900eaed4733887ace6ba0540720af18291fcc45d84a29e1b6e",
   "rubric": {
     "role_summary": "Senior medical-device system verification engineer responsible for verification strategy, test methods, requirements traceability, and regulatory evidence for instruments and applicable medical electrical systems through release and controlled updates.",
-    "search_query": "Find candidates for this role:\nSenior medical-device system verification engineer responsible for verification strategy, test methods, requirements traceability, and regulatory evidence for instruments and applicable medical electrical systems through release and controlled updates.\nMandatory professional qualifications:\n- 5+ years in system verification of medical devices.\n- Work experience testing and verifying complex embedded systems involving electronics, firmware, software, or integrated sensors.\n- Bachelor's or Master's degree in engineering or a related technical field.\n- Ability to produce verification protocols and reports.\nPreferred, not mandatory:\n- Familiarity with regulatory frameworks such as FDA and MDR.\n- Experience developing automated tests.\n- Experience designing test rigs for reliable and repeatable testing.\n- 5+ years in system verification of medical devices, including devices governed by the IEC 60601-1 series.\n- Experience designing verification test methods from scratch and defining test setups and acceptance criteria, especially when no standard method covers the requirement.\n- Experience contributing to risk assessment under ISO 14971 throughout product development.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Stockholm area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior medical-device system verification engineer responsible for verification strategy, test methods, requirements traceability, and regulatory evidence for instruments and applicable medical electrical systems through release and controlled updates.\nMandatory professional qualifications:\n- 5+ years in system verification of medical devices.\n- Work experience testing and verifying complex embedded systems involving electronics, firmware, software, or integrated sensors.\n- Bachelor's or Master's degree in engineering or a related technical field.\n- Ability to produce verification protocols and reports.\nPreferred, not mandatory:\n- Familiarity with regulatory frameworks such as FDA and MDR.\n- Experience developing automated tests.\n- Experience designing test rigs for reliable and repeatable testing.\n- 5+ years in system verification of medical devices, including devices governed by the IEC 60601-1 series.\n- Experience designing verification test methods from scratch and defining test setups and acceptance criteria, especially when no standard method covers the requirement.\n- Experience contributing to risk assessment under ISO 14971 throughout product development.\nWork location and geographic eligibility:\nLocation: Greater Stockholm area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -140,105 +140,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "5ddb5e1f98597d3b8387d53b0d2c9e686fb25859347f88a62ff967ae5530e5ec",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in Stockholm; the posting does not require candidates to currently reside there or state a relocation policy.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Stockholm"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Stockholm",
-        "Hybrid",
-        "in one Stockholm office"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years in system verification of medical devices, including devices governed by the IEC 60601-1 series (for example IEC 60601-1-2 EMC)",
-        "effective_requirement": "5+ years in system verification of medical devices, including devices governed by the IEC 60601-1 series.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Ability to produce verification protocols and reports, and professional English.",
+        "effective_requirement": "Ability to produce verification protocols and reports.",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "5+ years in system verification of medical devices, including devices governed by the IEC 60601-1 series.",
+        "effective_requirement": "5+ years in system verification of medical devices.",
+        "reason": "Medical device verification years are visible; specific IEC 60601 coverage is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "b74c5a1ad941032dd5b819cb1f0bac8dbfa2a4bf3b130681edd13a823ff4f9fa",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Ability to produce verification protocols and reports, and professional English.",
-          "after": "Ability to produce verification protocols and reports.",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "0d4cde52ab143a2d97adaccb879656c02863e96345c761547837c7881d392c57",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience designing verification test methods from scratch and defining test setups and acceptance criteria, especially when no standard method covers the requirement.",
-          "source_quote": "Track record designing verification test methods from scratch, defining test setups and acceptance criteria, especially where no existing standard method covers the requirement",
-          "verification": "profile",
-          "reason": "Designing test methods from scratch is a specific practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience contributing to risk assessment under ISO 14971 throughout product development.",
-          "source_quote": "Experience contributing to risk assessment under ISO 14971 as a continuous part of product development",
-          "verification": "profile",
-          "reason": "ISO 14971 risk-assessment contribution is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "5+ years in system verification of medical devices, including devices governed by the IEC 60601-1 series.",
-          "after": "5+ years in system verification of medical devices.",
-          "reason": "Medical device verification years are visible; specific IEC 60601 coverage is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M3",
-        "M6": "M4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience designing verification test methods from scratch and defining test setups and acceptance criteria, especially when no standard method covers the requirement.",
+        "source_quote": "Track record designing verification test methods from scratch, defining test setups and acceptance criteria, especially where no existing standard method covers the requirement",
+        "verification": "profile",
+        "reason": "Designing test methods from scratch is a specific practice rarely stated."
       },
-      "demoted_preference_ids": {
-        "M1": "P4",
-        "M3": "P5",
-        "M4": "P6"
+      {
+        "field": "must_haves",
+        "requirement": "Experience contributing to risk assessment under ISO 14971 throughout product development.",
+        "source_quote": "Experience contributing to risk assessment under ISO 14971 as a continuous part of product development",
+        "verification": "profile",
+        "reason": "ISO 14971 risk-assessment contribution is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ab0e7afb3adcc61c34280076f2c4f3f7914318862d1dec6ee1ec04aacb129f4a",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "0230b5993efd5a4ae0a9c77666f0726ef9c7cdbe3e8de04376fc45a1108429f1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Stockholm area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Stockholm area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "bf93710a-4882-49b8-8c99-5b5d43ae13dd",
   "snapshot_sha256": "9edcc48a873a27ec76bbd48bee9cf7a974bf62639d6457100c9c0805b779d93d",
   "input_sha256": "3f27d278d93604d352857eff62dcac220a3e97c4b76b9ece4d2167a9c4c8e492",
-  "rubric_sha256": "538e12affc3fba463f58996e26b6a86b9be4d61af06e9e3b648f86883de16565",
+  "rubric_sha256": "73c3dd9951e91051eb945a7c0d41015044bcebf3a2526a63d7d864f9775461d4",
   "rubric": {
     "role_summary": "Electrical engineer owning an LFP battery pack and battery management system for a power-storage product, from cell selection and design through integration, testing, and safety protection.",
-    "search_query": "Find candidates for this role:\nElectrical engineer owning an LFP battery pack and battery management system for a power-storage product, from cell selection and design through integration, testing, and safety protection.\nMandatory professional qualifications:\n- Experience with large-format or stationary storage, EV packs, or microgrids.\nPreferred, not mandatory:\n- Familiarity with UN 38.3, UL 1973 or UL 9540, or maritime battery standards.\n- A background in cell sourcing and vendor qualification.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nElectrical engineer owning an LFP battery pack and battery management system for a power-storage product, from cell selection and design through integration, testing, and safety protection.\nMandatory professional qualifications:\n- Experience with large-format or stationary storage, EV packs, or microgrids.\nPreferred, not mandatory:\n- Familiarity with UN 38.3, UL 1973 or UL 9540, or maritime battery standards.\n- A background in cell sourcing and vendor qualification.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -93,93 +93,43 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "bb322d79cd2b965b87a421871509c0174d3b47638a5f7a905112624d7df69476",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "On-site in Austin, TX; present residence in Austin is not specified.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "On-site · Austin, TX"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "faea04f13559ce216efb664ee0f5d4cde7fca9ad87fe998c4d8bc9def466ea59",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Must be a U.S. citizen, lawful permanent resident, or protected individual as defined by 8 U.S.C. 1324b(a)(3).",
-          "source_quote": "applicants must be a U.S. citizen, lawful permanent resident, or protected individual as defined by 8 U.S.C. 1324b(a)(3).",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Must be eligible to obtain and maintain a U.S. security clearance; active clearance not required.",
-          "source_quote": "Candidates must be eligible to obtain and maintain a U.S. security clearance; active clearance not required.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "e9c52938f321c0cfb578c7f2df34eb8fb50692b63fcad2ca8ea5aff30ea6f758",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Familiarity with UN 38.3, UL 1973 or UL 9540, or maritime battery standards.",
-          "source_quote": "Familiarity with UN 38.3, UL 1973 or UL 9540, or maritime battery standards.",
-          "verification": "profile",
-          "reason": "Familiarity with specific battery certification standards is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "A background in cell sourcing and vendor qualification.",
-          "source_quote": "A background in cell sourcing and vendor qualification.",
-          "verification": "profile",
-          "reason": "Cell sourcing and vendor qualification are rarely stated for electrical engineers."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M3": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f1819b8897f384057edfa84855b1598ee8a0842a8d1af9233ed22347309c293f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "33f378deccd69ff950e8b5ee279cf08d4d8d22fa8dbe831c5b1aa88d979a5644",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Must be a U.S. citizen, lawful permanent resident, or protected individual as defined by 8 U.S.C. 1324b(a)(3).",
+        "source_quote": "applicants must be a U.S. citizen, lawful permanent resident, or protected individual as defined by 8 U.S.C. 1324b(a)(3).",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Must be eligible to obtain and maintain a U.S. security clearance; active clearance not required.",
+        "source_quote": "Candidates must be eligible to obtain and maintain a U.S. security clearance; active clearance not required.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with UN 38.3, UL 1973 or UL 9540, or maritime battery standards.",
+        "source_quote": "Familiarity with UN 38.3, UL 1973 or UL 9540, or maritime battery standards.",
+        "verification": "profile",
+        "reason": "Familiarity with specific battery certification standards is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "A background in cell sourcing and vendor qualification.",
+        "source_quote": "A background in cell sourcing and vendor qualification.",
+        "verification": "profile",
+        "reason": "Cell sourcing and vendor qualification are rarely stated for electrical engineers."
+      }
+    ]
   },
   "experience_context": []
 }

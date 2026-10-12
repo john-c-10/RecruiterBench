@@ -38,7 +38,7 @@ def make_plan(dataset: Path, *, base_url: str | None = None, mode: str, provider
         raise ValueError(f"Mode for {provider} must be one of: " + ", ".join(source.MODES))
     validate_scoring(unknown_policy, top1_definition)
     if read_json(dataset / "manifest.json").get("interpretation_policy") != POLICY:
-        raise ValueError("Dataset does not use the current interpretation policy; select the derived dataset version")
+        raise ValueError("Dataset does not use the current interpretation policy")
     if type(repeats) is not int or not 1 <= repeats <= 20:
         raise ValueError("Repetitions must be 1 through 20")
     suite = None

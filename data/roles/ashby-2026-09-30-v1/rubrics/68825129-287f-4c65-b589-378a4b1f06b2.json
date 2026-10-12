@@ -3,10 +3,10 @@
   "role_id": "68825129-287f-4c65-b589-378a4b1f06b2",
   "snapshot_sha256": "154acbf8e7cf5a6eff22ea6bd609cc188b0446d43fbf0e5cd65229f5f35576e4",
   "input_sha256": "5a804f92dcbd9779a53f831923dc672c9865032bd915aff7c553c3c1b0b5ebf8",
-  "rubric_sha256": "3948d327751ad82b934a510bd3e2e913953ced57d594733b5ae5bf9dd3669ff6",
+  "rubric_sha256": "9394c66c4b26c75312e063e6a4f343c6acc931e713a91fd2b42e22abdd445cfa",
   "rubric": {
     "role_summary": "Product Manager for a restaurant-technology hardware portfolio, managing product lifecycles, business cases, requirements, roadmaps, and cross-functional launches.",
-    "search_query": "Find candidates for this role:\nProduct Manager for a restaurant-technology hardware portfolio, managing product lifecycles, business cases, requirements, roadmaps, and cross-functional launches.\nMandatory professional qualifications:\n- 3+ years of Product Management experience in hardware, technology, retail technology, hospitality technology, or related industries.\n- Experience managing products through the full product lifecycle.\n- Experience building business cases and product requirements.\n- Bachelor's degree in Business, Engineering, Computer Science, or related field.\nPreferred, not mandatory:\n- Experience with POS systems, restaurant technology, kiosks, mobility solutions, payments hardware, or enterprise hardware products.\n- Experience with IOT products.\n- Knowledge of manufacturing, supply chain, hardware development lifecycles, and quality processes.\n- Experience working with ODM/OEM partners.\n- Familiarity with financial modeling, pricing strategies, and product P&L management.\n- MBA or advanced degree.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York State; Texas; Greater Philadelphia, Pennsylvania area; Florida; North Carolina; Minnesota; Colorado; Georgia; Illinois. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nProduct Manager for a restaurant-technology hardware portfolio, managing product lifecycles, business cases, requirements, roadmaps, and cross-functional launches.\nMandatory professional qualifications:\n- 3+ years of Product Management experience in hardware, technology, retail technology, hospitality technology, or related industries.\n- Experience managing products through the full product lifecycle.\n- Experience building business cases and product requirements.\n- Bachelor's degree in Business, Engineering, Computer Science, or related field.\nPreferred, not mandatory:\n- Experience with POS systems, restaurant technology, kiosks, mobility solutions, payments hardware, or enterprise hardware products.\n- Experience with IOT products.\n- Knowledge of manufacturing, supply chain, hardware development lifecycles, and quality processes.\n- Experience working with ODM/OEM partners.\n- Familiarity with financial modeling, pricing strategies, and product P&L management.\n- MBA or advanced degree.\nWork location and geographic eligibility:\nLocation: any of these: New York State; Texas; Greater Philadelphia, Pennsylvania area; Florida; North Carolina; Minnesota; Colorado; Georgia; Illinois (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -156,100 +156,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "e98ed50353c4b91a1952b50ac0a92412372386db7d573f1ff1aef670600221d3",
-    "resolved_ambiguities": [
-      "The description lists remote Philadelphia, while the location metadata lists remote Pennsylvania; clarify whether eligibility extends throughout Pennsylvania."
-    ],
-    "resolution": "Text wins: Philadelphia's general area, not all Pennsylvania, plus the other states explicitly listed in the description.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed for New York, Texas, Philadelphia, Florida, North Carolina, Minnesota, Colorado, Georgia, and Illinois; Pennsylvania is also listed in the location metadata.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "New York",
-        "Texas",
-        "Philadelphia, Pennsylvania",
-        "Pennsylvania",
-        "Florida",
-        "North Carolina",
-        "Minnesota",
-        "Colorado",
-        "Georgia",
-        "Illinois"
-      ],
-      "remote_scope": "Listed U.S. states and Philadelphia; not worldwide remote.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote - Texas",
-        "Remote - Colorado",
-        "Remote - Georgia",
-        "Remote - North Carolina",
-        "Remote - Minnesota",
-        "Remote - Pennsylvania",
-        "Remote - New York",
-        "Remote - Illinois",
-        "Remote - Florida",
-        "Remote - New York, Texas, Philadelphia, Florida, North Carolina, Minnesota, Colorado, Georgia, Illinois"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote within the listed states; keeps the earlier Greater Philadelphia decision."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "3-7 years of Product Management experience in hardware, technology, retail technology, hospitality technology, or related industries.",
-        "effective_requirement": "3+ years of Product Management experience in hardware, technology, retail technology, hospitality technology, or related industries.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Ability to travel 5-15%.",
+        "source_quote": "Ability to travel 5-15%",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "3ae858cd3812c6d7aa422df0c2df3a1018deca66a25f26683d6c5f9a43101ad3",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to travel 5-15%.",
-          "source_quote": "Ability to travel 5-15%",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "11f46642c311ca4218d0aeb5af77c155afa3a33b5d8150b862a4f9747af75d94",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "11f46642c311ca4218d0aeb5af77c155afa3a33b5d8150b862a4f9747af75d94",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "9d42806061b4172b657272ff3c95aedfaed5fcc8b750e0e4ddc99a94e198367e",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote within the listed states; keeps the earlier Greater Philadelphia decision.",
-      "previous_allowed_locations": [
-        "New York State",
-        "Texas",
-        "Greater Philadelphia, Pennsylvania area",
-        "Florida",
-        "North Carolina",
-        "Minnesota",
-        "Colorado",
-        "Georgia",
-        "Illinois"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York State; Texas; Greater Philadelphia, Pennsylvania area; Florida; North Carolina; Minnesota; Colorado; Georgia; Illinois. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

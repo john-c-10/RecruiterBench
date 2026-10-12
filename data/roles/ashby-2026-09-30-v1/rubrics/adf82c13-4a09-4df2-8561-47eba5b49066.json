@@ -3,10 +3,10 @@
   "role_id": "adf82c13-4a09-4df2-8561-47eba5b49066",
   "snapshot_sha256": "2e6ca13b106b54c2d4c1019756413a0b18e0c7ccd884ef158410d2b23d9dd682",
   "input_sha256": "d2ce76c4a75f2f90d81db6af81fd6aa5f56f36db43990188e44accb4fd34dc81",
-  "rubric_sha256": "80b8572e608ec650b972a2f8976df377f537039cbea60b769255637744447107",
+  "rubric_sha256": "d04814c9e19567fc66689a15835ca61d0dcbf4ffc45713a2d36615565f43e393",
   "rubric": {
     "role_summary": "Project Manager overseeing schedules, budgets, and delivery of concurrent energy project deployments from sales through commercial operation, while improving project-management processes.",
-    "search_query": "Find candidates for this role:\nProject Manager overseeing schedules, budgets, and delivery of concurrent energy project deployments from sales through commercial operation, while improving project-management processes.\nMandatory professional qualifications:\n- Experience managing and delivering complex projects.\n- Background in commercial energy, infrastructure, or construction.\n- Ownership of technical and/or construction-related scopes in electrical construction, general construction, EV charging infrastructure, energy generation, data centers, or similarly regulated physical work.\n- Experience creating and managing project schedules.\nPreferred, not mandatory:\n- Prior use of construction or PM tracking software, such as Procore, Smartsheet, Sitetracker, or Buildertrend.\n- Direct experience with C&I solar, BESS, EV charging, or utility interconnection.\n- PMP, CAPM, or equivalent.\n- Experience in a startup without implemented PM software or procedures.\n- Experience delivering complex projects on time and within budget.\n- Experience tracking budget and schedule variance in a spreadsheet or PM tool and translating it into customer or leadership updates.\n- Ability to read electrical single-line diagrams and use them in field constructability discussions.\n- Experience creating and managing Gantt-style schedules with dependency logic and adapting plans when field conditions change.\n- Experience working in a lean team, such as a startup, small company, or sole proprietorship.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nProject Manager overseeing schedules, budgets, and delivery of concurrent energy project deployments from sales through commercial operation, while improving project-management processes.\nMandatory professional qualifications:\n- Experience managing and delivering complex projects.\n- Background in commercial energy, infrastructure, or construction.\n- Ownership of technical and/or construction-related scopes in electrical construction, general construction, EV charging infrastructure, energy generation, data centers, or similarly regulated physical work.\n- Experience creating and managing project schedules.\nPreferred, not mandatory:\n- Prior use of construction or PM tracking software, such as Procore, Smartsheet, Sitetracker, or Buildertrend.\n- Direct experience with C&I solar, BESS, EV charging, or utility interconnection.\n- PMP, CAPM, or equivalent.\n- Experience in a startup without implemented PM software or procedures.\n- Experience delivering complex projects on time and within budget.\n- Experience tracking budget and schedule variance in a spreadsheet or PM tool and translating it into customer or leadership updates.\n- Ability to read electrical single-line diagrams and use them in field constructability discussions.\n- Experience creating and managing Gantt-style schedules with dependency logic and adapting plans when field conditions change.\n- Experience working in a lean team, such as a startup, small company, or sole proprietorship.\nWork location and geographic eligibility:\nLocation: Greater Los Angeles area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -160,115 +160,56 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "58b076fc8e4920d2c9b003ece6c7a79891693911eef03652ee35a06d394b0728",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "In-person or hybrid work in Torrance, California; current residence in Torrance is not explicitly required.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Torrance, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Torrance (Hybrid)",
-        "Critical Loop  |  Full-Time | Torrance, CA | In-person or Hybrid"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "735fea0404eb257176f726e2a13485b133695b864f73925be9b54bdbb3b9963d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Will not need immigration support now or in the future; visa sponsorship is unavailable for this role.",
-          "source_quote": "Work Authorization: Critical Loop does not provide visa sponsorship for this role. Please do not apply for this role if at any time (now or in the future) you will need immigration support (i.e H-1B, TN, STEM OPT training plans etc.).",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c2975ae0224d23a7554f194bef9f00b956a92686a8df921da3903c8841d75f3d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience tracking budget and schedule variance in a spreadsheet or PM tool and translating it into customer or leadership updates.",
-          "source_quote": "Comfortable working with numbers day to day, tracking budget/schedule variance in a spreadsheet or PM tool and translating it into a clear customer or leadership update",
-          "verification": "profile",
-          "reason": "Specific variance-tracking and reporting practice is rarely mentioned."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to read electrical single-line diagrams and use them in field constructability discussions.",
-          "source_quote": "Ability to read electrical single-line diagrams and translate them into actual constructability discussions in the field",
-          "verification": "profile",
-          "reason": "Reading single-line diagrams is a specific skill rarely stated on profiles."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience working in a lean team, such as a startup, small company, or sole proprietorship.",
-          "source_quote": "Has worked inside, and thrived in, a lean team (startup, small company, sole proprietorship) and is passionate about building and maintaining processes to increase efficiency and quality",
-          "verification": "profile",
-          "reason": "Team size and lean environment are not reliably observable from profile fields."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Experience delivering complex projects on time and within budget.",
-          "after": "Experience managing and delivering complex projects.",
-          "reason": "Project delivery is visible from PM titles; on-time/on-budget outcomes are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Experience creating and managing Gantt-style schedules with dependency logic and adapting plans when field conditions change.",
-          "after": "Experience creating and managing project schedules.",
-          "reason": "Scheduling is implied by PM roles; Gantt dependency logic and adapting to field conditions are rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M6": "M4"
-      },
-      "demoted_preference_ids": {
-        "M1": "P5",
-        "M3": "P6",
-        "M5": "P7",
-        "M6": "P8",
-        "M7": "P9"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "230c25a2f52c19d15b63a01828df685100942f5d98331fb2451625dffe560ffc",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "093f0488d7d7bc497061e8fd356a5c4151be4ad3c45d84cf126b433c6736d65c",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Torrance, in-person or hybrid.",
-      "previous_allowed_locations": [
-        "Greater Los Angeles area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Torrance, in-person or hybrid."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Will not need immigration support now or in the future; visa sponsorship is unavailable for this role.",
+        "source_quote": "Work Authorization: Critical Loop does not provide visa sponsorship for this role. Please do not apply for this role if at any time (now or in the future) you will need immigration support (i.e H-1B, TN, STEM OPT training plans etc.).",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience delivering complex projects on time and within budget.",
+        "effective_requirement": "Experience managing and delivering complex projects.",
+        "reason": "Project delivery is visible from PM titles; on-time/on-budget outcomes are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience creating and managing Gantt-style schedules with dependency logic and adapting plans when field conditions change.",
+        "effective_requirement": "Experience creating and managing project schedules.",
+        "reason": "Scheduling is implied by PM roles; Gantt dependency logic and adapting to field conditions are rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience tracking budget and schedule variance in a spreadsheet or PM tool and translating it into customer or leadership updates.",
+        "source_quote": "Comfortable working with numbers day to day, tracking budget/schedule variance in a spreadsheet or PM tool and translating it into a clear customer or leadership update",
+        "verification": "profile",
+        "reason": "Specific variance-tracking and reporting practice is rarely mentioned."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to read electrical single-line diagrams and use them in field constructability discussions.",
+        "source_quote": "Ability to read electrical single-line diagrams and translate them into actual constructability discussions in the field",
+        "verification": "profile",
+        "reason": "Reading single-line diagrams is a specific skill rarely stated on profiles."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience working in a lean team, such as a startup, small company, or sole proprietorship.",
+        "source_quote": "Has worked inside, and thrived in, a lean team (startup, small company, sole proprietorship) and is passionate about building and maintaining processes to increase efficiency and quality",
+        "verification": "profile",
+        "reason": "Team size and lean environment are not reliably observable from profile fields."
+      }
+    ]
   },
   "experience_context": []
 }

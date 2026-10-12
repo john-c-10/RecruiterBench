@@ -3,10 +3,10 @@
   "role_id": "1c1dc1e5-0fba-429e-baca-7017c3eec9fe",
   "snapshot_sha256": "72cde83dea68d20f0ef34c0bb294162d0e6d2dac06e604ba5c29ea8bd3231a24",
   "input_sha256": "c29ccc6f00b42d96eb92e949fcf68f2694f7ee310faf7943c01294927c966d42",
-  "rubric_sha256": "dcfe013c4242bc9e4f14488baff292896e82ed275fb325db105e252e2ba64494",
+  "rubric_sha256": "f7a20aa37db6d4e1eb79825aaabf51943f3e2567b3e0ba197024a683843443f9",
   "rubric": {
     "role_summary": "Onsite electrical build technician assembling and testing battery packs and distributed battery storage systems on a manufacturing production line in Austin.",
-    "search_query": "Find candidates for this role:\nOnsite electrical build technician assembling and testing battery packs and distributed battery storage systems on a manufacturing production line in Austin.\nMandatory professional qualifications:\n- 1+ years of professional experience in a related field with electronics or mechanical assembly.\n- Hands-on experience building, debugging, testing, and validating electrical systems using oscilloscopes, multimeters, and similar tools.\n- Experience with common hand and power tools.\nPreferred, not mandatory:\n- Prior experience in manufacturing, assembly, construction, or a warehouse environment.\n- Familiarity with solar arrays as input power sources.\n- Familiarity with lithium-ion battery handling, safety, and usage.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nOnsite electrical build technician assembling and testing battery packs and distributed battery storage systems on a manufacturing production line in Austin.\nMandatory professional qualifications:\n- 1+ years of professional experience in a related field with electronics or mechanical assembly.\n- Hands-on experience building, debugging, testing, and validating electrical systems using oscilloscopes, multimeters, and similar tools.\n- Experience with common hand and power tools.\nPreferred, not mandatory:\n- Prior experience in manufacturing, assembly, construction, or a warehouse environment.\n- Familiarity with solar arrays as input power sources.\n- Familiarity with lithium-ion battery handling, safety, and usage.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,97 +115,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "3935a193c28694ee4bfff0d183f13763bef716e7446ecc13cf415259863f039c",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Austin, Texas; current residence in Austin is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin, TX",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "1+ years of professional experience in a related field with electronics or mechanical assembly.",
-        "effective_requirement": "1+ years of professional experience in a related field with electronics or mechanical assembly.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Ability to stand or walk for the duration of a shift and lift 50 lbs.",
+        "source_quote": "Ability to stand or walk for the duration of a shift and lift 50 lbs.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to follow written and verbal instructions in English.",
+        "source_quote": "the ability to follow written and verbal instructions in English.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Upon hire, verify identity and eligibility to work in the United States and complete the required employment eligibility verification form.",
+        "source_quote": "ALL PERSONS HIRED WILL BE REQUIRED TO VERIFY IDENTITY AND ELIGIBILITY TO WORK IN THE UNITED STATES AND TO COMPLETE THE REQUIRED EMPLOYMENT ELIGIBILITY VERIFICATION FORM UPON HIRE.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Requires employment visa sponsorship, which the company cannot provide at this time.",
+        "source_quote": "THE COMPANY IS UNABLE TO SPONSOR EMPLOYMENT VISAS AT THIS TIME.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "af2cfe0bddbb8b3830a2342963ac2db3c7a0e4bdfaf86d9aef3c4361f28b557d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to stand or walk for the duration of a shift and lift 50 lbs.",
-          "source_quote": "Ability to stand or walk for the duration of a shift and lift 50 lbs.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to follow written and verbal instructions in English.",
-          "source_quote": "the ability to follow written and verbal instructions in English.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Upon hire, verify identity and eligibility to work in the United States and complete the required employment eligibility verification form.",
-          "source_quote": "ALL PERSONS HIRED WILL BE REQUIRED TO VERIFY IDENTITY AND ELIGIBILITY TO WORK IN THE UNITED STATES AND TO COMPLETE THE REQUIRED EMPLOYMENT ELIGIBILITY VERIFICATION FORM UPON HIRE.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Requires employment visa sponsorship, which the company cannot provide at this time.",
-          "source_quote": "THE COMPANY IS UNABLE TO SPONSOR EMPLOYMENT VISAS AT THIS TIME.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "5bdbfad30157ec559b780ecc85ec8746de88ee3750fc1ab091a25273071558f6",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5bdbfad30157ec559b780ecc85ec8746de88ee3750fc1ab091a25273071558f6",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "432a25590297271638d0d12298f27c9c015ae431c61c76e9f548425e6a9c3d56",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

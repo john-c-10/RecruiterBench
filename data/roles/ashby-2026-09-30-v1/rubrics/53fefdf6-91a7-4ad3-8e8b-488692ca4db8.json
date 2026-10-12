@@ -3,10 +3,10 @@
   "role_id": "53fefdf6-91a7-4ad3-8e8b-488692ca4db8",
   "snapshot_sha256": "32d14e9d512ef9c6b0e8a3e60f1cf4d524a0de4897b59800982f2732b5bf9510",
   "input_sha256": "da8db63549d641f3e5a35cd91f5b5c3ce4a62f3cc6dba8dbeb60c86a9756dd82",
-  "rubric_sha256": "acd276e4425ff808fb6ccf9ecd4172460d57ec54f31870a78cccf698f3097a80",
+  "rubric_sha256": "47497024f5bddc95aa58184ec6fbb28479cca2caa92f6d0441d31bf607c123a6",
   "rubric": {
     "role_summary": "Strategic sourcing manager for a nuclear microreactor program, leading supplier discovery, qualification, onboarding, and new-part sourcing through the transition to production.",
-    "search_query": "Find candidates for this role:\nStrategic sourcing manager for a nuclear microreactor program, leading supplier discovery, qualification, onboarding, and new-part sourcing through the transition to production.\nMandatory professional qualifications:\n- Bachelor's degree in Supply Chain Management, Engineering, Business Administration, or a related field.\n- 3+ years of experience in strategic sourcing, supplier development, or new product introduction.\n- Experience identifying and qualifying new suppliers.\n- Experience with ERP/MRP systems.\nPreferred, not mandatory:\n- Experience within manufacturing, aerospace, defense, or energy sectors.\n- Experience in nuclear energy, aerospace, or defense, or working with the listed nuclear codes and standards.\n- Familiarity with additive manufacturing, precision machining, forming, or specialty material processing.\n- Experience conducting supplier audits, facility assessments, or first article inspections.\n- Familiarity with quality management systems such as ISO 9001 or AS9100 and their role in supplier qualification.\n- Understanding of DFARS/ITAR-relevant sourcing constraints for regulated industries.\n- Ability to read and interpret engineering drawings and technical specifications.\n- Track record of identifying and qualifying new suppliers, particularly for complex or low-volume/high-mix components.\n- Proficiency with ERP/MRP systems and standard office software.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nStrategic sourcing manager for a nuclear microreactor program, leading supplier discovery, qualification, onboarding, and new-part sourcing through the transition to production.\nMandatory professional qualifications:\n- Bachelor's degree in Supply Chain Management, Engineering, Business Administration, or a related field.\n- 3+ years of experience in strategic sourcing, supplier development, or new product introduction.\n- Experience identifying and qualifying new suppliers.\n- Experience with ERP/MRP systems.\nPreferred, not mandatory:\n- Experience within manufacturing, aerospace, defense, or energy sectors.\n- Experience in nuclear energy, aerospace, or defense, or working with the listed nuclear codes and standards.\n- Familiarity with additive manufacturing, precision machining, forming, or specialty material processing.\n- Experience conducting supplier audits, facility assessments, or first article inspections.\n- Familiarity with quality management systems such as ISO 9001 or AS9100 and their role in supplier qualification.\n- Understanding of DFARS/ITAR-relevant sourcing constraints for regulated industries.\n- Ability to read and interpret engineering drawings and technical specifications.\n- Track record of identifying and qualifying new suppliers, particularly for complex or low-volume/high-mix components.\n- Proficiency with ERP/MRP systems and standard office software.\nWork location and geographic eligibility:\nLocation: Greater Los Angeles area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -158,120 +158,56 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f53f75bc5ca491bd98ac7833a624d6ff12759286c417833c03dfba19381d541e",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Must work 100% onsite at the El Segundo, California headquarters; present residence in El Segundo is not specified.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "El Segundo, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "El Segundo, CA",
-        "Must work 100% onsite at El Segundo HQ."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "3–8 years of experience in strategic sourcing, supplier development, or new product introduction, preferably within manufacturing, aerospace, defense, or energy sectors.",
-        "effective_requirement": "3+ years of experience in strategic sourcing, supplier development, or new product introduction.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Ability and willingness to travel to supplier locations for capability assessments and audits, up to 20%–40% depending on program phases.",
+        "source_quote": "Ability and willingness to travel to supplier locations for capability assessments and audits (up to 20%–40% depending on program phases).",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Willingness to work extended hours and weekends as necessary.",
+        "source_quote": "Must be willing to work extended hours and weekends as necessary to accomplish our mission.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Capacity to serve in compliance with U.S. export controls; any offer is contingent on this capacity.",
+        "source_quote": "Any job offer made will be contingent upon the applicant’s capacity to serve in compliance with U.S. export controls.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "0c5c52054e954babe3b9d0af1a7d750415a92ca8168433e4427fb8f0f864b5e6",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability and willingness to travel to supplier locations for capability assessments and audits, up to 20%–40% depending on program phases.",
-          "source_quote": "Ability and willingness to travel to supplier locations for capability assessments and audits (up to 20%–40% depending on program phases).",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Willingness to work extended hours and weekends as necessary.",
-          "source_quote": "Must be willing to work extended hours and weekends as necessary to accomplish our mission.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Capacity to serve in compliance with U.S. export controls; any offer is contingent on this capacity.",
-          "source_quote": "Any job offer made will be contingent upon the applicant’s capacity to serve in compliance with U.S. export controls.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "49876edae259b4349a1434d96055085c46f07053fa3a6a24928130c409809a3a",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to read and interpret engineering drawings and technical specifications.",
-          "source_quote": "Demonstrated ability to read and interpret engineering drawings and technical specifications.",
-          "verification": "profile",
-          "reason": "Reading engineering drawings is rarely stated and not reliably implied by sourcing titles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Track record of identifying and qualifying new suppliers, particularly for complex or low-volume/high-mix components.",
-          "after": "Experience identifying and qualifying new suppliers.",
-          "reason": "Supplier qualification is implied by sourcing titles; the complex/low-volume component track record is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Proficiency with ERP/MRP systems and standard office software.",
-          "after": "Experience with ERP/MRP systems.",
-          "reason": "ERP/MRP systems are commonly listed or implied for sourcing roles; office software is trivial."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M5": "M4"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Track record of identifying and qualifying new suppliers, particularly for complex or low-volume/high-mix components.",
+        "effective_requirement": "Experience identifying and qualifying new suppliers.",
+        "reason": "Supplier qualification is implied by sourcing titles; the complex/low-volume component track record is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M3": "P7",
-        "M4": "P8",
-        "M5": "P9"
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Proficiency with ERP/MRP systems and standard office software.",
+        "effective_requirement": "Experience with ERP/MRP systems.",
+        "reason": "ERP/MRP systems are commonly listed or implied for sourcing roles; office software is trivial."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "30728a86629464531f47b9775f5de3cead47672bf814657e553bd916f77c72e9",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "23690e664583c07aab9213b16d259fac710a3a5c1fa5be1c3b68517bebcb05fc",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Los Angeles area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to read and interpret engineering drawings and technical specifications.",
+        "source_quote": "Demonstrated ability to read and interpret engineering drawings and technical specifications.",
+        "verification": "profile",
+        "reason": "Reading engineering drawings is rarely stated and not reliably implied by sourcing titles."
+      }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "dbaa3750-54c7-4d0e-8ce6-57772117059d",
   "snapshot_sha256": "5a8f1ae454681aafbe9983d024272e9c806584920f7c5a2d863543d3b7ebb824",
   "input_sha256": "bdd5cfea94c596e9b44b7f732dda46aa7fb395b0157316e8ef8b47d84452b982",
-  "rubric_sha256": "a82061ada61493dc8773d6ed0328974c47e222ffeca5f0d6d2b202e6befeaeed",
+  "rubric_sha256": "edc5b1c64c6e7fce769e516bbea05635ac6d84d852986d8a1c91b6c419376aaf",
   "rubric": {
     "role_summary": "Product designer for a tenant-screening and applicant-verification product, owning web and mobile design work from user flows and prototypes through implementation with engineers.",
-    "search_query": "Find candidates for this role:\nProduct designer for a tenant-screening and applicant-verification product, owning web and mobile design work from user flows and prototypes through implementation with engineers.\nMandatory professional qualifications:\n- 2+ years of experience in product/UX design.\n- Strong proficiency with Figma.\n- Grounding in user flows, wireframing, prototyping, and usability feedback.\n- Experience working directly with engineers to take designs from concept to shipped product.\n- Understanding of design systems and how to design within and extend a component library.\nPreferred, not mandatory:\n- Experience on digital products with both web and mobile surfaces.\n- Experience at an early-stage startup.\n- Experience designing for fintech, proptech, or other regulated products.\n- Basic technical fluency discussing APIs and frontend/backend constraints with engineers.\n- Experience contributing to or maintaining a design system.\n- Familiarity with tools like Jira and PostHog.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, Texas area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nProduct designer for a tenant-screening and applicant-verification product, owning web and mobile design work from user flows and prototypes through implementation with engineers.\nMandatory professional qualifications:\n- 2+ years of experience in product/UX design.\n- Strong proficiency with Figma.\n- Grounding in user flows, wireframing, prototyping, and usability feedback.\n- Experience working directly with engineers to take designs from concept to shipped product.\n- Understanding of design systems and how to design within and extend a component library.\nPreferred, not mandatory:\n- Experience on digital products with both web and mobile surfaces.\n- Experience at an early-stage startup.\n- Experience designing for fintech, proptech, or other regulated products.\n- Basic technical fluency discussing APIs and frontend/backend constraints with engineers.\n- Experience contributing to or maintaining a design system.\n- Familiarity with tools like Jira and PostHog.\nWork location and geographic eligibility:\nLocation: Greater Austin, Texas area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -147,65 +147,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "0d6982784929365610b23952313ef23e77563ebcd677bbcd30773a6cab8dbf9c",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role based in Austin, Texas; present residence in Austin is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, Texas"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin Texas",
-        "OnSite",
-        "This role is based in Austin alongside our product, design, and engineering team."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "2+ years of experience in product/UX design, ideally on digital products with both web and mobile surfaces",
-        "effective_requirement": "2+ years of experience in product/UX design.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "43ee934b0210075ead22747cb75a6c397f4cc3d2a9e7562a0597d10ef310454f",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "43ee934b0210075ead22747cb75a6c397f4cc3d2a9e7562a0597d10ef310454f",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "43ee934b0210075ead22747cb75a6c397f4cc3d2a9e7562a0597d10ef310454f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "aaf5f0e0e8dac9f6d862c0d2737df6b8bac14849a8d9ff7d171a557a18dc9193",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, Texas area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, Texas area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "fa815eef-e2f8-4631-91c4-6231e5273b90",
   "snapshot_sha256": "977760b0a5943a2fd7b9e415c41d029ec677a76811c2b3e18b3e9d5b61081f8a",
   "input_sha256": "0a58f37b6a60435a9e1aa2429111fe9bcdedcba72b239edf6ec824dddafb2d29",
-  "rubric_sha256": "a2855fe38ce840812f24398d0099e2704c29ca3bba6363f2ded10f5ddf393d47",
+  "rubric_sha256": "0e0406a9e8fbbd5298d1172b3350172c873815239d606ef3562bd5287717b91a",
   "rubric": {
     "role_summary": "Infrastructure platform team lead combining hands-on software development with people leadership. The role builds and operates cloud infrastructure for an on-demand transit platform, with responsibility for reliability, security, and cloud cost efficiency.",
-    "search_query": "Find candidates for this role:\nInfrastructure platform team lead combining hands-on software development with people leadership. The role builds and operates cloud infrastructure for an on-demand transit platform, with responsibility for reliability, security, and cloud cost efficiency.\nMandatory professional qualifications:\n- 7+ years of software development experience, including at least 2+ years in a people leadership role.\n- Backend technology expertise and strong distributed systems experience.\n- Experience operating systems at scale.\n- Experience with GCP and Kubernetes.\n- Experience with infrastructure-as-code and configuration management tooling, specifically Terraform.\n- Success managing a team of software developers, including team and individual performance.\nPreferred, not mandatory:\n- Experience in transit or another real-time, safety-critical domain.\n- Experience building internal developer platforms and golden-path tooling.\n- Experience applying AI/LLM tooling to SRE or infrastructure operations.\n- Experience with CI/CD systems at scale, including test sharding and build performance.\n- Experience operating and maintaining PostgreSQL and Redis in production.\n- Demonstrated proficiency with AI-assisted and agentic development workflows, including AI coding agents and automation of engineering and operational tasks.\n- Experience running or managing an SRE on-call rotation, including incident response and post-mortems.\n- Deep experience with GCP cloud infrastructure and Kubernetes container orchestration.\n- Experience driving cloud cost optimization and FinOps initiatives, including right-sizing, spend visibility, and measurable savings.\n- Understanding of security best practices, especially internal access control and container security.\n- Demonstrated experience mentoring developers and providing technical leadership.\n- Problem-solving, debugging, and system design skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Vancouver, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nInfrastructure platform team lead combining hands-on software development with people leadership. The role builds and operates cloud infrastructure for an on-demand transit platform, with responsibility for reliability, security, and cloud cost efficiency.\nMandatory professional qualifications:\n- 7+ years of software development experience, including at least 2+ years in a people leadership role.\n- Backend technology expertise and strong distributed systems experience.\n- Experience operating systems at scale.\n- Experience with GCP and Kubernetes.\n- Experience with infrastructure-as-code and configuration management tooling, specifically Terraform.\n- Success managing a team of software developers, including team and individual performance.\nPreferred, not mandatory:\n- Experience in transit or another real-time, safety-critical domain.\n- Experience building internal developer platforms and golden-path tooling.\n- Experience applying AI/LLM tooling to SRE or infrastructure operations.\n- Experience with CI/CD systems at scale, including test sharding and build performance.\n- Experience operating and maintaining PostgreSQL and Redis in production.\n- Demonstrated proficiency with AI-assisted and agentic development workflows, including AI coding agents and automation of engineering and operational tasks.\n- Experience running or managing an SRE on-call rotation, including incident response and post-mortems.\n- Deep experience with GCP cloud infrastructure and Kubernetes container orchestration.\n- Experience driving cloud cost optimization and FinOps initiatives, including right-sizing, spend visibility, and measurable savings.\n- Understanding of security best practices, especially internal access control and container security.\n- Demonstrated experience mentoring developers and providing technical leadership.\n- Problem-solving, debugging, and system design skills.\nWork location and geographic eligibility:\nLocation: Greater Vancouver, Canada area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -191,150 +191,71 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f047b59dd05e49a38a8544a54ef6cbd264c4c8c7ffefec07c3a52fa14941fea5",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work location in Vancouver, Canada; participation in biannual hackathons in Vancouver. Present residence in Vancouver is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Vancouver, Canada"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Vancouver, Canada",
-        "Hybrid",
-        "plus participation in our biannual software development hackathons in Vancouver."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "7+ years of software development experience, with at least 2+ years in a people leadership role",
-        "effective_requirement": "7+ years of software development experience, including at least 2+ years in a people leadership role.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "M13",
+        "field": "must_haves",
+        "requirement": "Ability to undertake up to four customer site visits per year and participate in biannual software development hackathons in Vancouver.",
         "source_quote": "The role includes some travel as part of the job responsibilities – specifically, up to four customer site visits per year to gain firsthand insights, plus participation in our biannual software development hackathons in Vancouver.",
-        "effective_requirement": "Ability to undertake up to four customer site visits per year and participate in biannual software development hackathons in Vancouver.",
-        "kind": "mandatory"
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "3c751fb5d135161a2aee97d431cf9f9cca86ba07881ef197022b74639e29d3c2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M13",
-          "requirement": "Ability to undertake up to four customer site visits per year and participate in biannual software development hackathons in Vancouver.",
-          "source_quote": "The role includes some travel as part of the job responsibilities – specifically, up to four customer site visits per year to gain firsthand insights, plus participation in our biannual software development hackathons in Vancouver.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "3ef97afe1f65e3887b77af4b5242d26263b15a5529878ef66f6bc1e5df6126e8",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Demonstrated proficiency with AI-assisted and agentic development workflows, including AI coding agents and automation of engineering and operational tasks.",
-          "source_quote": "Demonstrated proficiency with AI-assisted and agentic development workflows (AI coding agents, automation of engineering and operational tasks)",
-          "verification": "profile",
-          "reason": "AI-assisted/agentic development workflows are largely unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience running or managing an SRE on-call rotation, including incident response and post-mortems.",
-          "source_quote": "Experience running or managing an SRE on-call rotation, including incident response and post-mortem culture",
-          "verification": "profile",
-          "reason": "Running on-call rotations and post-mortems is a practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience driving cloud cost optimization and FinOps initiatives, including right-sizing, spend visibility, and measurable savings.",
-          "source_quote": "Experience driving cloud cost optimization and FinOps initiatives — right-sizing, spend visibility, and measurable cost savings",
-          "verification": "profile",
-          "reason": "FinOps initiatives with measurable savings are outcome claims rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Understanding of security best practices, especially internal access control and container security.",
-          "source_quote": "Understanding of security best practices, especially around internal access control and container security",
-          "verification": "profile",
-          "reason": "Security best-practice understanding is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M11",
-          "requirement": "Demonstrated experience mentoring developers and providing technical leadership.",
-          "source_quote": "Demonstrated ability to mentor other developers and provide technical leadership",
-          "verification": "profile",
-          "reason": "Consistency review: mentoring and generic problem-solving skills are soft skills that profiles largely leave unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M12",
-          "requirement": "Problem-solving, debugging, and system design skills.",
-          "source_quote": "Strong problem-solving, debugging, and system design skills",
-          "verification": "profile",
-          "reason": "Consistency review: mentoring and generic problem-solving skills are soft skills that profiles largely leave unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Deep experience with GCP cloud infrastructure and Kubernetes container orchestration.",
-          "after": "Experience with GCP and Kubernetes.",
-          "reason": "GCP and Kubernetes are central and commonly listed; depth is unobservable."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M6": "M4",
-        "M8": "M5",
-        "M10": "M6"
-      },
-      "demoted_preference_ids": {
-        "M3": "P6",
-        "M5": "P7",
-        "M6": "P8",
-        "M7": "P9",
-        "M9": "P10",
-        "M11": "P11",
-        "M12": "P12"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep experience with GCP cloud infrastructure and Kubernetes container orchestration.",
+        "effective_requirement": "Experience with GCP and Kubernetes.",
+        "reason": "GCP and Kubernetes are central and commonly listed; depth is unobservable."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "57a0f60ae656b8fe6cb94c0894689fe978aab1ac4fc1d11d5eb73fd0507e2d6e",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "b86cbfc0ef42188865639afc1146149bed34b092fcbfe1800bcfe60e354a1f8c",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Vancouver, Canada area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Vancouver, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated proficiency with AI-assisted and agentic development workflows, including AI coding agents and automation of engineering and operational tasks.",
+        "source_quote": "Demonstrated proficiency with AI-assisted and agentic development workflows (AI coding agents, automation of engineering and operational tasks)",
+        "verification": "profile",
+        "reason": "AI-assisted/agentic development workflows are largely unstated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience running or managing an SRE on-call rotation, including incident response and post-mortems.",
+        "source_quote": "Experience running or managing an SRE on-call rotation, including incident response and post-mortem culture",
+        "verification": "profile",
+        "reason": "Running on-call rotations and post-mortems is a practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience driving cloud cost optimization and FinOps initiatives, including right-sizing, spend visibility, and measurable savings.",
+        "source_quote": "Experience driving cloud cost optimization and FinOps initiatives — right-sizing, spend visibility, and measurable cost savings",
+        "verification": "profile",
+        "reason": "FinOps initiatives with measurable savings are outcome claims rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of security best practices, especially internal access control and container security.",
+        "source_quote": "Understanding of security best practices, especially around internal access control and container security",
+        "verification": "profile",
+        "reason": "Security best-practice understanding is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated experience mentoring developers and providing technical leadership.",
+        "source_quote": "Demonstrated ability to mentor other developers and provide technical leadership",
+        "verification": "profile",
+        "reason": "Consistency review: mentoring and generic problem-solving skills are soft skills that profiles largely leave unstated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Problem-solving, debugging, and system design skills.",
+        "source_quote": "Strong problem-solving, debugging, and system design skills",
+        "verification": "profile",
+        "reason": "Consistency review: mentoring and generic problem-solving skills are soft skills that profiles largely leave unstated."
+      }
+    ]
   },
   "experience_context": [
     {

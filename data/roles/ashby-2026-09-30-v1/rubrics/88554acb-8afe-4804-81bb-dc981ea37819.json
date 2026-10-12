@@ -3,10 +3,10 @@
   "role_id": "88554acb-8afe-4804-81bb-dc981ea37819",
   "snapshot_sha256": "914d461b0116c950b82ff42e020699b6b5ea72c3cc596936534e82fbea63eac8",
   "input_sha256": "5f4311d37a898baa1dd2e05484cde08f0079a35ba823ce519b61a10ab2080d5b",
-  "rubric_sha256": "61b932bf0d74cdf00ce0e09d45cac4c6c616ad4c2c87f8eec9702923ab6870c8",
+  "rubric_sha256": "efe2a7703cb30f98996bca325af84897ed26e87e12cb4b624bd7fb55cf0f12c3",
   "rubric": {
     "role_summary": "Remote permit operations lead overseeing construction permit applications, customer updates, compliance, process improvements, and junior team members.",
-    "search_query": "Find candidates for this role:\nRemote permit operations lead overseeing construction permit applications, customer updates, compliance, process improvements, and junior team members.\nMandatory professional qualifications:\n- 3+ years of relevant experience in construction permitting, project management, or a similar role.\n- Hands-on experience in construction or construction permitting.\n- Background in customer success, customer experience, or sales.\n- People-management experience.\nPreferred, not mandatory:\n- Experience in a SaaS or tech-driven environment.\n- Experience managing permitting projects across multiple states or regions.\n- 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.\n- Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.\n- Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.\n- Project management ability to balance multiple projects and deadlines.\n- Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): USA; Greater Toronto, Ontario, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nRemote permit operations lead overseeing construction permit applications, customer updates, compliance, process improvements, and junior team members.\nMandatory professional qualifications:\n- 3+ years of relevant experience in construction permitting, project management, or a similar role.\n- Hands-on experience in construction or construction permitting.\n- Background in customer success, customer experience, or sales.\n- People-management experience.\nPreferred, not mandatory:\n- Experience in a SaaS or tech-driven environment.\n- Experience managing permitting projects across multiple states or regions.\n- 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.\n- Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.\n- Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.\n- Project management ability to balance multiple projects and deadlines.\n- Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.\nWork location and geographic eligibility:\nLocation: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -154,116 +154,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1faae208e67f5a8a30a44b43de02a70c2a98f7b3e5ae9aa4e4f07e17c0264719",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Fully remote role listed for the USA or Toronto, Ontario, Canada. Present residence is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "USA",
-        "Toronto, Ontario, Canada"
-      ],
-      "remote_scope": "Listed remote locations: USA and Toronto, Ontario, Canada.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Permit Operations Lead (Fully Remote)",
-        "USA",
-        "Toronto",
-        "Ontario",
-        "Canada",
-        "Remote"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Fully remote in the USA or Canada."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "3-5+ years of relevant experience: Proven track record in construction permitting, project management, or a similar role—ideally within a SaaS or tech-driven environment.",
-        "effective_requirement": "3+ years of relevant experience in construction permitting, project management, or a similar role.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.",
+        "effective_requirement": "Hands-on experience in construction or construction permitting.",
+        "reason": "Construction/permitting background is visible; regulatory depth and full lifecycle are rarely stated."
       },
       {
-        "criterion_id": "P3",
-        "source_quote": "Preferred 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
-        "effective_requirement": "2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
-        "kind": "preferred_not_a_gate"
+        "field": "must_haves",
+        "extracted_requirement": "Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.",
+        "effective_requirement": "People-management experience.",
+        "reason": "Team management is visible from titles; specific coaching practices are not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "5d0d3f303b6fda993874a1a7303285dc0355d9fac3e6209f495237ca28ce571b",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "5d0d3f303b6fda993874a1a7303285dc0355d9fac3e6209f495237ca28ce571b",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.",
-          "source_quote": "Strong understanding of permitting processes, regulations, and compliance standards, with awareness of jurisdictional differences.",
-          "verification": "profile",
-          "reason": "Jurisdictional permitting knowledge is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Project management ability to balance multiple projects and deadlines.",
-          "source_quote": "Ability to balance multiple projects and deadlines without sacrificing attention to detail.",
-          "verification": "profile",
-          "reason": "Juggling multiple projects is a work-style claim."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.",
-          "after": "Hands-on experience in construction or construction permitting.",
-          "reason": "Construction/permitting background is visible; regulatory depth and full lifecycle are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.",
-          "after": "People-management experience.",
-          "reason": "Team management is visible from titles; specific coaching practices are not."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M3",
-        "M6": "M4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.",
+        "source_quote": "Strong understanding of permitting processes, regulations, and compliance standards, with awareness of jurisdictional differences.",
+        "verification": "profile",
+        "reason": "Jurisdictional permitting knowledge is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5",
-        "M4": "P6",
-        "M6": "P7"
+      {
+        "field": "must_haves",
+        "requirement": "Project management ability to balance multiple projects and deadlines.",
+        "source_quote": "Ability to balance multiple projects and deadlines without sacrificing attention to detail.",
+        "verification": "profile",
+        "reason": "Juggling multiple projects is a work-style claim."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f5d41d9436710850248236c4bcf2d7f26aa018864ced2a0ba2e767d97fe5d95c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "5996cb6a05692c109ae2f7b621312afe161dc0295694c991da28d25c353fa29f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Fully remote in the USA or Canada.",
-      "previous_allowed_locations": [
-        "USA",
-        "Greater Toronto, Ontario, Canada area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): USA; Greater Toronto, Ontario, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

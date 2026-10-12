@@ -3,10 +3,10 @@
   "role_id": "9e4d708a-b599-4d26-97f5-a66ab5c6ea64",
   "snapshot_sha256": "5b686d302e23e886524b3a8a3adb1d8ddc2523db5fa37cee33426d40f3153dbc",
   "input_sha256": "9de5eb5c1528626d0be366b4b8f70539a304f7a82069c2867a94fde9955558d0",
-  "rubric_sha256": "88d30d6c24bb486629788b8006779c048f34c564d850353e372267de0a9d0c0c",
+  "rubric_sha256": "c5b288edd273a1e9e59a84e214818e03fad6f4631676c0b4ba343ba05cef26f5",
   "rubric": {
     "role_summary": "Quantitative researcher developing and evaluating automated trading strategies, signals, backtesting, and trading systems for crypto markets.",
-    "search_query": "Find candidates for this role:\nQuantitative researcher developing and evaluating automated trading strategies, signals, backtesting, and trading systems for crypto markets.\nMandatory professional qualifications:\n- M.S. or Ph.D. in Mathematics, Physics, Statistics, Computer Science, or a related quantitative field.\n- 3+ years of quantitative research/analysis or development experience.\n- Experience in HFT development.\n- Foundation in probability, statistics, time-series modeling, and quantitative methods.\n- Proficiency in Python and in C++ or Rust.\n- Experience with statistical analysis, backtesting methodologies, and strategy development.\n- Understanding of financial markets, trading concepts, and risk-management principles.\nPreferred, not mandatory:\n- Based in New York or willing to relocate.\n- Experience with machine-learning frameworks and distributed or parallel computing.\n- Familiarity with Linux development environments and modern DevOps practices.\n- Understanding of cryptocurrency markets, DeFi protocols, and on-chain analytics.\n- Experience with real-time trading systems, low-latency applications, and exchange integrations.\n- Knowledge of blockchain technology, smart-contract fundamentals, and MEV-aware strategies.\n- Professional certifications such as CFA or FRM, prior quantitative trading or fintech experience, and/or relevant publications.\n- Expert-level Python for research and production, and proficiency in C++ or Rust for performance-critical components.\n- Knowledge of data structures, algorithms, software engineering principles, and version control.\n- Ability to use algorithms to investigate large datasets and resolve data or logic errors.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; US. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nQuantitative researcher developing and evaluating automated trading strategies, signals, backtesting, and trading systems for crypto markets.\nMandatory professional qualifications:\n- M.S. or Ph.D. in Mathematics, Physics, Statistics, Computer Science, or a related quantitative field.\n- 3+ years of quantitative research/analysis or development experience.\n- Experience in HFT development.\n- Foundation in probability, statistics, time-series modeling, and quantitative methods.\n- Proficiency in Python and in C++ or Rust.\n- Experience with statistical analysis, backtesting methodologies, and strategy development.\n- Understanding of financial markets, trading concepts, and risk-management principles.\nPreferred, not mandatory:\n- Based in New York or willing to relocate.\n- Experience with machine-learning frameworks and distributed or parallel computing.\n- Familiarity with Linux development environments and modern DevOps practices.\n- Understanding of cryptocurrency markets, DeFi protocols, and on-chain analytics.\n- Experience with real-time trading systems, low-latency applications, and exchange integrations.\n- Knowledge of blockchain technology, smart-contract fundamentals, and MEV-aware strategies.\n- Professional certifications such as CFA or FRM, prior quantitative trading or fintech experience, and/or relevant publications.\n- Expert-level Python for research and production, and proficiency in C++ or Rust for performance-critical components.\n- Knowledge of data structures, algorithms, software engineering principles, and version control.\n- Ability to use algorithms to investigate large datasets and resolve data or logic errors.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -182,99 +182,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ec7577879f1f460ea1f170dd27eaefea2ce6a778083de11167385909448163d2",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work in New York or remote work within the US. New York residence or willingness to relocate is described as ideal, not mandatory.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "New York",
-        "Remote (US)"
-      ],
-      "remote_scope": "US",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York or Remote (US)",
-        "Hybrid",
-        "Ideally based in New York or willing to relocate."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "New York or Remote (US)."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "3–5 years of quantitative research/analysis or development experience.",
-        "effective_requirement": "3+ years of quantitative research/analysis or development experience.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Expert-level Python for research and production, and proficiency in C++ or Rust for performance-critical components.",
+        "effective_requirement": "Proficiency in Python and in C++ or Rust.",
+        "reason": "Languages are commonly listed; 'expert-level' is an unobservable qualifier."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "6667e05ab1ea16dde14ac564e3cb1d621125d3a8ccbabe5fb0cbca209a0a3f89",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "6667e05ab1ea16dde14ac564e3cb1d621125d3a8ccbabe5fb0cbca209a0a3f89",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Knowledge of data structures, algorithms, software engineering principles, and version control.",
-          "source_quote": "Solid grasp of data structures, algorithms, software engineering principles, and version control.",
-          "verification": "profile",
-          "reason": "General software fundamentals and version control are rarely stated and redundant with core experience."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Ability to use algorithms to investigate large datasets and resolve data or logic errors.",
-          "source_quote": "Ability to create and use algorithms to investigate large datasets and resolve data/logic errors with rigor.",
-          "verification": "profile",
-          "reason": "Investigating large datasets and resolving errors is a vague practice rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Expert-level Python for research and production, and proficiency in C++ or Rust for performance-critical components.",
-          "after": "Proficiency in Python and in C++ or Rust.",
-          "reason": "Languages are commonly listed; 'expert-level' is an unobservable qualifier."
-        }
-      ],
-      "criterion_id_map": {
-        "M7": "M6",
-        "M9": "M7"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Knowledge of data structures, algorithms, software engineering principles, and version control.",
+        "source_quote": "Solid grasp of data structures, algorithms, software engineering principles, and version control.",
+        "verification": "profile",
+        "reason": "General software fundamentals and version control are rarely stated and redundant with core experience."
       },
-      "demoted_preference_ids": {
-        "M5": "P8",
-        "M6": "P9",
-        "M8": "P10"
+      {
+        "field": "must_haves",
+        "requirement": "Ability to use algorithms to investigate large datasets and resolve data or logic errors.",
+        "source_quote": "Ability to create and use algorithms to investigate large datasets and resolve data/logic errors with rigor.",
+        "verification": "profile",
+        "reason": "Investigating large datasets and resolving errors is a vague practice rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "70afb1cdcea71892d25549ef76f5477175d3bd1de0a1269e594946f5f8b595a1",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "f87bccededd17b4eb35424dc2ad66547357a53e212bd02277fc11541b161fa53",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "New York or Remote (US).",
-      "previous_allowed_locations": [
-        "New York metropolitan area",
-        "US"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; US. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

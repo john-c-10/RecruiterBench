@@ -3,10 +3,10 @@
   "role_id": "ca7a795a-f93b-4ee1-a444-1124df4af3fa",
   "snapshot_sha256": "af3922dddddc21695724bfc8a38c0b98da8efdc630553c5561b603029090e947",
   "input_sha256": "8f3105f1841d37f7d0e5aa99f833801635d78bb232ec1e3c2a8d8f7a6439aeb9",
-  "rubric_sha256": "f8558cf5b8e1c3ccdc5cc41b134004bb091e5bb6376933f06f509af13baf31a0",
+  "rubric_sha256": "7df163cddd2291bdb88d4772d1114eb81e5d7648ae7f917b460f2d06cbbc22c4",
   "rubric": {
     "role_summary": "Mid-level Professional Services role designing and configuring low-code business applications for government customers, including data models, workflow automation, integrations, and limited scripting.",
-    "search_query": "Find candidates for this role:\nMid-level Professional Services role designing and configuring low-code business applications for government customers, including data models, workflow automation, integrations, and limited scripting.\nMandatory professional qualifications:\n- 3+ years of total work experience, including 3+ years in low-code/no-code platforms or enterprise application configuration roles.\n- Understanding of data modeling.\n- Experience implementing business workflow automation.\n- Working knowledge of JavaScript or a similar scripting language for implementing business rules.\n- Experience with integrations using REST APIs, file-based transfers, event-based workflows, or batch processes.\nPreferred, not mandatory:\n- Experience in GovTech or public-sector workflows.\n- Background in Professional Services, consulting, or customer-facing implementation.\n- Familiarity with role-based access control and data governance practices.\n- Understanding of data modeling, including entity relationships, referential integrity, normalization, and denormalization.\n- Experience designing and implementing business workflows and approval automation.\n- Ability to translate complex business processes into structured, configurable application logic.\n- Experience integrating third-party APIs and embedding their outputs into larger application workflows.\n- Understanding of security standards and API documentation tools.\n- Experience working in fast-paced, iterative environments with cross-functional stakeholders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Pune, India area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nMid-level Professional Services role designing and configuring low-code business applications for government customers, including data models, workflow automation, integrations, and limited scripting.\nMandatory professional qualifications:\n- 3+ years of total work experience, including 3+ years in low-code/no-code platforms or enterprise application configuration roles.\n- Understanding of data modeling.\n- Experience implementing business workflow automation.\n- Working knowledge of JavaScript or a similar scripting language for implementing business rules.\n- Experience with integrations using REST APIs, file-based transfers, event-based workflows, or batch processes.\nPreferred, not mandatory:\n- Experience in GovTech or public-sector workflows.\n- Background in Professional Services, consulting, or customer-facing implementation.\n- Familiarity with role-based access control and data governance practices.\n- Understanding of data modeling, including entity relationships, referential integrity, normalization, and denormalization.\n- Experience designing and implementing business workflows and approval automation.\n- Ability to translate complex business processes into structured, configurable application logic.\n- Experience integrating third-party APIs and embedding their outputs into larger application workflows.\n- Understanding of security standards and API documentation tools.\n- Experience working in fast-paced, iterative environments with cross-functional stakeholders.\nWork location and geographic eligibility:\nLocation: Greater Pune, India area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -163,121 +163,55 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1d756f05eb592bcddfce6a393b494d47c5e7a343f266722d47936d4aa8cc7261",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role in Pune, India; present residence in Pune is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Pune, India"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "India | Pune",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "Total 3 to 9 years of work experience, including 3+ years of experience in low-code/no-code platforms (e.g., Appian, Microsoft Power Apps, Mendix, ServiceNow, etc.) or enterprise application configuration roles.",
-        "effective_requirement": "3+ years of total work experience, including 3+ years in low-code/no-code platforms or enterprise application configuration roles.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Understanding of data modeling, including entity relationships, referential integrity, normalization, and denormalization.",
+        "effective_requirement": "Understanding of data modeling.",
+        "reason": "Data modeling is implied by configuration roles, but the specific concepts list is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience designing and implementing business workflows and approval automation.",
+        "effective_requirement": "Experience implementing business workflow automation.",
+        "reason": "Workflow automation is implied by low-code roles; approval-automation detail is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "93488bfb12d37c33d67aa9d3d2589a096ed44919b05bd84ca3aaa39ca7e32f6d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "93488bfb12d37c33d67aa9d3d2589a096ed44919b05bd84ca3aaa39ca7e32f6d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to translate complex business processes into structured, configurable application logic.",
-          "source_quote": "Ability to translate complex business processes into structured, configurable application logic.",
-          "verification": "profile",
-          "reason": "Ability-style requirement rarely stated on profiles."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience integrating third-party APIs and embedding their outputs into larger application workflows.",
-          "source_quote": "Experience integrating third-party APIs and embedding outputs into larger application workflows.",
-          "verification": "profile",
-          "reason": "Specific practice largely redundant with M6 and rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Understanding of security standards and API documentation tools.",
-          "source_quote": "Strong understanding of security standards (e.g., OAuth 2.0, JWT), and API documentation tools (e.g., Swagger/OpenAPI).",
-          "verification": "profile",
-          "reason": "Security standards and API doc tools are rarely listed."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Experience working in fast-paced, iterative environments with cross-functional stakeholders.",
-          "source_quote": "Proven success working in fast-paced, iterative environments with cross-functional stakeholders.",
-          "verification": "profile",
-          "reason": "Work-environment/soft-skill requirement."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Understanding of data modeling, including entity relationships, referential integrity, normalization, and denormalization.",
-          "after": "Understanding of data modeling.",
-          "reason": "Data modeling is implied by configuration roles, but the specific concepts list is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience designing and implementing business workflows and approval automation.",
-          "after": "Experience implementing business workflow automation.",
-          "reason": "Workflow automation is implied by low-code roles; approval-automation detail is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M5"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to translate complex business processes into structured, configurable application logic.",
+        "source_quote": "Ability to translate complex business processes into structured, configurable application logic.",
+        "verification": "profile",
+        "reason": "Ability-style requirement rarely stated on profiles."
       },
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5",
-        "M5": "P6",
-        "M7": "P7",
-        "M8": "P8",
-        "M9": "P9"
+      {
+        "field": "must_haves",
+        "requirement": "Experience integrating third-party APIs and embedding their outputs into larger application workflows.",
+        "source_quote": "Experience integrating third-party APIs and embedding outputs into larger application workflows.",
+        "verification": "profile",
+        "reason": "Specific practice largely redundant with M6 and rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of security standards and API documentation tools.",
+        "source_quote": "Strong understanding of security standards (e.g., OAuth 2.0, JWT), and API documentation tools (e.g., Swagger/OpenAPI).",
+        "verification": "profile",
+        "reason": "Security standards and API doc tools are rarely listed."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience working in fast-paced, iterative environments with cross-functional stakeholders.",
+        "source_quote": "Proven success working in fast-paced, iterative environments with cross-functional stakeholders.",
+        "verification": "profile",
+        "reason": "Work-environment/soft-skill requirement."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e39b3986b07959d9e7b69c2c126acfdaee9be1106d9885f7cef9d3c095c40e3f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "39b17bc13c5c7877aacffba63716621b4ead0a9f6ddf2e6a5214c3039660ed1d",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Pune, India area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Pune, India area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

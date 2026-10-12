@@ -3,10 +3,10 @@
   "role_id": "4a7be83c-5d32-46b7-9d30-cf6759922237",
   "snapshot_sha256": "e170e7ad7e1ee18b0d7aca6e2b814c0333cdaf0f6a4e4624c8efb70db733f24f",
   "input_sha256": "ff2a98475a5254348eaa3dfe61a1119bafe258b95b65b1c1ad79480d46c716ae",
-  "rubric_sha256": "00f3ce3693cf7af563aa3cc220e2e73853e892b033682e41f02f48f20ce99396",
+  "rubric_sha256": "1dcaa622ade2b70dfe5742920e9d92a99064ce181827a33dbc2243f4a353209c",
   "rubric": {
     "role_summary": "Senior ASIC front-end design role developing and integrating high-performance RTL for AI hardware, from microarchitecture and synthesis through design closure and silicon bring-up.",
-    "search_query": "Find candidates for this role:\nSenior ASIC front-end design role developing and integrating high-performance RTL for AI hardware, from microarchitecture and synthesis through design closure and silicon bring-up.\nMandatory professional qualifications:\n- Master’s degree in Computer Science, Electrical Engineering, or equivalent.\n- 8+ years of RTL design experience.\n- Experience in high-performance computing, GPU/CPU designs, machine learning, or related fields.\n- Experience with networking protocols such as Ethernet, TCP/IP, or RDMA.\n- Knowledge of high-speed interfaces such as PCIe or SerDes.\nPreferred, not mandatory:\n- Experience with the FPGA development toolchain, including place and route, floor planning, and timing analysis.\n- Experience managing an external ASIC vendor through a product development cycle.\n- 8+ years of experience delivering complex, high-performance RTL designs.\n- Experience with front-end chip integration and third-party IP integration.\n- Track record of multiple successful silicon projects.\n- Experience collaborating with external vendors.\n- Networking stack experience including TCP/IP, RDMA, and Ethernet.\n- Knowledge of PCIe, CPU interfaces, and SerDes technology.\n- Working knowledge of Python and TCL scripting tools.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior ASIC front-end design role developing and integrating high-performance RTL for AI hardware, from microarchitecture and synthesis through design closure and silicon bring-up.\nMandatory professional qualifications:\n- Master’s degree in Computer Science, Electrical Engineering, or equivalent.\n- 8+ years of RTL design experience.\n- Experience in high-performance computing, GPU/CPU designs, machine learning, or related fields.\n- Experience with networking protocols such as Ethernet, TCP/IP, or RDMA.\n- Knowledge of high-speed interfaces such as PCIe or SerDes.\nPreferred, not mandatory:\n- Experience with the FPGA development toolchain, including place and route, floor planning, and timing analysis.\n- Experience managing an external ASIC vendor through a product development cycle.\n- 8+ years of experience delivering complex, high-performance RTL designs.\n- Experience with front-end chip integration and third-party IP integration.\n- Track record of multiple successful silicon projects.\n- Experience collaborating with external vendors.\n- Networking stack experience including TCP/IP, RDMA, and Ethernet.\n- Knowledge of PCIe, CPU interfaces, and SerDes technology.\n- Working knowledge of Python and TCL scripting tools.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -162,158 +162,69 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "3b86491f2f587eca656c22bc8ad8b2e27ce9718a3e76570fe971a928dc2549ed",
-    "resolved_ambiguities": [
-      "The requirements say the candidate must be able to work in a hybrid environment, while the role-specific location says it is open to remote. Clarify whether remote hires are exempt from hybrid attendance and where remote hires may be located."
-    ],
-    "resolution": "Remote is an allowed alternative to hybrid, constrained to the Sunnyvale/Bay Area geography.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Sunnyvale, CA hybrid work or remote work; the posting does not specify the geographic scope of remote eligibility.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Sunnyvale, CA",
-        "Remote (geographic scope unspecified)"
-      ],
-      "remote_scope": "Open to remote; eligible regions or countries are not specified.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Sunnyvale, CA",
-        "Hybrid",
-        "Can work in a hybrid work environment.",
-        "Location: Sunnyvale, CA (Open to Remote)"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M3",
-        "source_quote": "8+ years of experience in delivering complex, high performance high quality RTL designs.",
-        "effective_requirement": "8+ years of experience delivering complex, high-performance RTL designs.",
-        "kind": "mandatory"
-      }
-    ],
-    "dropped_location_options": [
-      "Remote (geographic scope unspecified)"
-    ],
-    "dropped_location_note": "Dropped non-geographic location options: Remote (geographic scope unspecified). Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
-    "observability": {
-      "parent_rubric_sha256": "79003613648852b974dea76264cc7043a56b0cee427e66f0f1a554bab3f0ff11",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Can work in a hybrid work environment.",
-          "source_quote": "Can work in a hybrid work environment.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M3": "M2",
-        "M4": "M3",
-        "M5": "M4",
-        "M6": "M5",
-        "M7": "M6",
-        "M8": "M7",
-        "M9": "M8",
-        "M10": "M9"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ee6aee813a8efe275a3747ad374d802a12845f5dc50ec72a646c0cee2233cb9e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience with front-end chip integration and third-party IP integration.",
-          "source_quote": "Experience with Front End Chip integration and third-party IP integration.",
-          "verification": "profile",
-          "reason": "Specific integration practice rarely stated and not inferable from title."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Track record of multiple successful silicon projects.",
-          "source_quote": "Proven track record of multiple silicon success.",
-          "verification": "profile",
-          "reason": "Outcome/track-record claim rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Experience collaborating with external vendors.",
-          "source_quote": "Experience collaborating with external vendors.",
-          "verification": "profile",
-          "reason": "Vendor collaboration is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Working knowledge of Python and TCL scripting tools.",
-          "source_quote": "Working knowledge of scripting tools : Python, TCL.",
-          "verification": "profile",
-          "reason": "Scripting languages are not central and often unlisted."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "8+ years of experience delivering complex, high-performance RTL designs.",
-          "after": "8+ years of RTL design experience.",
-          "reason": "Years of RTL design is observable; complexity/performance qualifier is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "before": "Networking stack experience including TCP/IP, RDMA, and Ethernet.",
-          "after": "Experience with networking protocols such as Ethernet, TCP/IP, or RDMA.",
-          "reason": "Networking-ASIC experience is observable but requiring all three protocols is unrealistic."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "before": "Knowledge of PCIe, CPU interfaces, and SerDes technology.",
-          "after": "Knowledge of high-speed interfaces such as PCIe or SerDes.",
-          "reason": "Interface experience is observable but full conjunctive list is unrealistic."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M7": "M4",
-        "M8": "M5"
-      },
-      "demoted_preference_ids": {
-        "M2": "P3",
-        "M3": "P4",
-        "M5": "P5",
-        "M6": "P6",
-        "M7": "P7",
-        "M8": "P8",
-        "M9": "P9"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d71fe51b3cbf1bb0acdb9a3841832c99ee0e6fe50623428f5389acd0cb52cde5",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "b81206a37f855f90244ec47e55017142d741d1a09eed1aec129804f29849f0d4",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "The location line says Sunnyvale, CA (Open to Remote).",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "The location line says Sunnyvale, CA (Open to Remote)."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Can work in a hybrid work environment.",
+        "source_quote": "Can work in a hybrid work environment.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "8+ years of experience delivering complex, high-performance RTL designs.",
+        "effective_requirement": "8+ years of RTL design experience.",
+        "reason": "Years of RTL design is observable; complexity/performance qualifier is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Networking stack experience including TCP/IP, RDMA, and Ethernet.",
+        "effective_requirement": "Experience with networking protocols such as Ethernet, TCP/IP, or RDMA.",
+        "reason": "Networking-ASIC experience is observable but requiring all three protocols is unrealistic."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Knowledge of PCIe, CPU interfaces, and SerDes technology.",
+        "effective_requirement": "Knowledge of high-speed interfaces such as PCIe or SerDes.",
+        "reason": "Interface experience is observable but full conjunctive list is unrealistic."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience with front-end chip integration and third-party IP integration.",
+        "source_quote": "Experience with Front End Chip integration and third-party IP integration.",
+        "verification": "profile",
+        "reason": "Specific integration practice rarely stated and not inferable from title."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Track record of multiple successful silicon projects.",
+        "source_quote": "Proven track record of multiple silicon success.",
+        "verification": "profile",
+        "reason": "Outcome/track-record claim rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience collaborating with external vendors.",
+        "source_quote": "Experience collaborating with external vendors.",
+        "verification": "profile",
+        "reason": "Vendor collaboration is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Working knowledge of Python and TCL scripting tools.",
+        "source_quote": "Working knowledge of scripting tools : Python, TCL.",
+        "verification": "profile",
+        "reason": "Scripting languages are not central and often unlisted."
+      }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "71d2bbf9-7506-4527-b424-3ae554f62e95",
   "snapshot_sha256": "a4480e86f20cd7063975fdd27b1faee2214cdb0fb90dbbfc53ed3fcb7c4a0a98",
   "input_sha256": "b05afcc8630eefc725e6783a8b35149114ff183e9e5857b071746eb00da27980",
-  "rubric_sha256": "1b05b4c072f7b3c1a873986111e6ca3fbc05312d2779d323c02019ff1c8b528c",
+  "rubric_sha256": "f0fbfe83847f7014a93f68c936c500613ce7e0017034e817854769f846595429",
   "rubric": {
     "role_summary": "Data Analyst for a wealth-management fintech, building analytics pipelines, data models, dashboards, and reporting to support decisions across Product, Finance, and Operations.",
-    "search_query": "Find candidates for this role:\nData Analyst for a wealth-management fintech, building analytics pipelines, data models, dashboards, and reporting to support decisions across Product, Finance, and Operations.\nMandatory professional qualifications:\n- Background in a startup, fintech, or similarly fast-paced, high-growth environment.\n- Strong SQL proficiency.\n- Experience designing and maintaining ETL workflows connecting multiple data sources and ensuring data integrity.\n- Scripting experience, such as Python or SQL scripts.\nPreferred, not mandatory:\n- Experience analyzing and visualizing finance and accounting data.\n- Strong SQL proficiency, including data modeling, query optimization, and performance tuning in Redshift.\n- Experience working with NoSQL data and integrating it into analytics pipelines.\n- Familiarity with AWS ecosystem services and data storage, transformation, and access best practices.\n- Scripting experience and familiarity with version control; Python, SQL scripts, and Git are examples, not individually required tools.\n- Experience working with cross-functional teams to identify business opportunities and deliver measurable impact.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nData Analyst for a wealth-management fintech, building analytics pipelines, data models, dashboards, and reporting to support decisions across Product, Finance, and Operations.\nMandatory professional qualifications:\n- Background in a startup, fintech, or similarly fast-paced, high-growth environment.\n- Strong SQL proficiency.\n- Experience designing and maintaining ETL workflows connecting multiple data sources and ensuring data integrity.\n- Scripting experience, such as Python or SQL scripts.\nPreferred, not mandatory:\n- Experience analyzing and visualizing finance and accounting data.\n- Strong SQL proficiency, including data modeling, query optimization, and performance tuning in Redshift.\n- Experience working with NoSQL data and integrating it into analytics pipelines.\n- Familiarity with AWS ecosystem services and data storage, transformation, and access best practices.\n- Scripting experience and familiarity with version control; Python, SQL scripts, and Git are examples, not individually required tools.\n- Experience working with cross-functional teams to identify business opportunities and deliver measurable impact.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -138,105 +138,48 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "5a9e0b8471e59fee405a09f67e1b7ff455e49a5dc684e4098b2c77ca0377378a",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "New York is the listed work location. The posting describes an in-person working culture but does not specify a role-specific onsite schedule or require current residence.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York ",
-        "Built in person, in the trenches. We're a high-touch, high-tempo group that works side by side."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "ce670ff8fbb0cb4a5b202e5127b74ce2c6f590d67fdd341735513d0d9a2cbc41",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ce670ff8fbb0cb4a5b202e5127b74ce2c6f590d67fdd341735513d0d9a2cbc41",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience working with NoSQL data and integrating it into analytics pipelines.",
-          "source_quote": "Comfortable working with NoSQL data and integrating it into analytics pipelines.",
-          "verification": "profile",
-          "reason": "NoSQL integration is a secondary technology rarely listed by analysts."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Familiarity with AWS ecosystem services and data storage, transformation, and access best practices.",
-          "source_quote": "Familiarity with AWS ecosystem services and best practices for data storage, transformation, and access.",
-          "verification": "profile",
-          "reason": "AWS best-practice familiarity is secondary and often unstated for analysts."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience working with cross-functional teams to identify business opportunities and deliver measurable impact.",
-          "source_quote": "Skilled at working with cross-functional teams to identify business opportunities and deliver measurable impact.",
-          "verification": "profile",
-          "reason": "Cross-functional impact is an outcome/soft-skill claim."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Strong SQL proficiency, including data modeling, query optimization, and performance tuning in Redshift.",
-          "after": "Strong SQL proficiency.",
-          "reason": "SQL is commonly listed; optimization/tuning in Redshift specifically is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Scripting experience and familiarity with version control; Python, SQL scripts, and Git are examples, not individually required tools.",
-          "after": "Scripting experience, such as Python or SQL scripts.",
-          "reason": "Scripting languages are commonly listed; version control is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M4"
-      },
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M4": "P3",
-        "M5": "P4",
-        "M6": "P5",
-        "M7": "P6"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "c164b344f66a38a519944362de56d4e0a9307c680bd0b599ce2ca0df8b51f889",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "629d76be43cc2b251e83682df2618b5dd0190a0cf198de6f47603af3e695a332",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Strong SQL proficiency, including data modeling, query optimization, and performance tuning in Redshift.",
+        "effective_requirement": "Strong SQL proficiency.",
+        "reason": "SQL is commonly listed; optimization/tuning in Redshift specifically is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Scripting experience and familiarity with version control; Python, SQL scripts, and Git are examples, not individually required tools.",
+        "effective_requirement": "Scripting experience, such as Python or SQL scripts.",
+        "reason": "Scripting languages are commonly listed; version control is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience working with NoSQL data and integrating it into analytics pipelines.",
+        "source_quote": "Comfortable working with NoSQL data and integrating it into analytics pipelines.",
+        "verification": "profile",
+        "reason": "NoSQL integration is a secondary technology rarely listed by analysts."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with AWS ecosystem services and data storage, transformation, and access best practices.",
+        "source_quote": "Familiarity with AWS ecosystem services and best practices for data storage, transformation, and access.",
+        "verification": "profile",
+        "reason": "AWS best-practice familiarity is secondary and often unstated for analysts."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience working with cross-functional teams to identify business opportunities and deliver measurable impact.",
+        "source_quote": "Skilled at working with cross-functional teams to identify business opportunities and deliver measurable impact.",
+        "verification": "profile",
+        "reason": "Cross-functional impact is an outcome/soft-skill claim."
+      }
+    ]
   },
   "experience_context": []
 }

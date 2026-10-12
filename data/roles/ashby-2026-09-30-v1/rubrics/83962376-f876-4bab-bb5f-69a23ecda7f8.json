@@ -3,10 +3,10 @@
   "role_id": "83962376-f876-4bab-bb5f-69a23ecda7f8",
   "snapshot_sha256": "4b71c306ba738867395d9a323dd46c35649c36ebc700c95562f06ab6460d7aca",
   "input_sha256": "86f16cda68df77f75831d2e72bea31db9714a387b08815fefe2e0b99f84a3468",
-  "rubric_sha256": "2a966d74bf863fa4339cd794d6ecc59a2a2aad4850c10dfd9be57c2c1a03bd97",
+  "rubric_sha256": "d1bad0f2f9dedf932056c353a42b15ff52858fa665e9279f3dfe13a3f135503c",
   "rubric": {
     "role_summary": "Senior IMS core engineer responsible for integrating, operating, maintaining and troubleshooting IMS/VoLTE mobile-network nodes and services.",
-    "search_query": "Find candidates for this role:\nSenior IMS core engineer responsible for integrating, operating, maintaining and troubleshooting IMS/VoLTE mobile-network nodes and services.\nMandatory professional qualifications:\n- BSc in Telecommunication or Computer Science and at least 10 years of core telecommunications network experience in mobile networks.\n- Working knowledge of 2G, 2.5G, 3G and LTE telecom networks, including the listed core-network elements.\n- Understanding of IMS evolution, subsystems, functionalities, services and call flows.\n- Knowledge of IMS network topology, interfaces, core parameters and features.\n- Experience working on IMS core nodes.\n- Experience with the specified signaling and protocols in configuration changes for IMS-based services.\n- IMS platform operations and maintenance experience.\n- Preparation and implementation of IMS-node configuration changes and node integration.\n- Hands-on use of Wireshark or protocol analysis tools.\n- Hands-on ability with Linux/Unix systems and a Linux shell.\n- VoLTE troubleshooting and call-trace analysis.\nPreferred, not mandatory:\n- Post-graduate studies.\n- At least 2 years of scripting experience, such as Python or Bash.\n- Experience working on core nodes, including CSFB and IMS nodes.\n- IMS platform operations and maintenance, including alarm and fault handling, trace analysis, troubleshooting, backup/restore, preventive maintenance and node upgrades.\n- Hands-on use of sniffers, Wireshark and testing tools in advanced mode.\n- Understanding of 3GPP, ITU-T and ANSI standards.\n- Understanding of roaming agreements and IR.21, including IREG testing.\n- Writing and documentation skills for developing reports.",
+    "search_query": "Find candidates for this role:\nSenior IMS core engineer responsible for integrating, operating, maintaining and troubleshooting IMS/VoLTE mobile-network nodes and services.\nMandatory professional qualifications:\n- BSc in Telecommunication or Computer Science and at least 10 years of core telecommunications network experience in mobile networks.\n- Working knowledge of 2G, 2.5G, 3G and LTE telecom networks, including the listed core-network elements.\n- Understanding of IMS evolution, subsystems, functionalities, services and call flows.\n- Knowledge of IMS network topology, interfaces, core parameters and features.\n- Experience working on IMS core nodes.\n- Experience with the specified signaling and protocols in configuration changes for IMS-based services.\n- IMS platform operations and maintenance experience.\n- Preparation and implementation of IMS-node configuration changes and node integration.\n- Hands-on use of Wireshark or protocol analysis tools.\n- Hands-on ability with Linux/Unix systems and a Linux shell.\n- VoLTE troubleshooting and call-trace analysis.\nPreferred, not mandatory:\n- Post-graduate studies.\n- At least 2 years of scripting experience, such as Python or Bash.\n- Experience working on core nodes, including CSFB and IMS nodes.\n- IMS platform operations and maintenance, including alarm and fault handling, trace analysis, troubleshooting, backup/restore, preventive maintenance and node upgrades.\n- Hands-on use of sniffers, Wireshark and testing tools in advanced mode.\n- Understanding of 3GPP, ITU-T and ANSI standards.\n- Understanding of roaming agreements and IR.21, including IREG testing.\n- Writing and documentation skills for developing reports.\nWork location and geographic eligibility:\nNo geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
     "must_haves": [
       {
         "id": "M1",
@@ -191,138 +191,69 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "a64e2e8e32bdc2f41bc46fe41d1a95a8903281a5766ca51f5ff9eb19612ae9d8",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote work location; geographic eligibility and remote scope are not specified.",
-      "workplace_type": "remote",
-      "allowed_locations": [],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote"
-      ]
+    "location": {
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "Holding a BSc degree in Telecommunication or Computer Science (post-graduate studies are a bonus) and 10+ years core telecommunications network experience.",
-        "effective_requirement": "BSc in Telecommunication or Computer Science and at least 10 years of core telecommunications network experience in mobile networks.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Fluency in written and spoken English.",
+        "source_quote": "You are fluent in English (written and spoken).",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
       },
       {
-        "criterion_id": "P2",
-        "source_quote": "2+ years scripting experience (Python, Bash, etc.)",
-        "effective_requirement": "At least 2 years of scripting experience, such as Python or Bash.",
-        "kind": "preferred_not_a_gate"
+        "field": "must_haves",
+        "requirement": "Availability to work morning and afternoon shifts.",
+        "source_quote": "Ready to work on morning/afternoon shifts.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "eaeb155b557abc8da0516127c0d4b9e1dea08b4e16909654126358fd5b8e0b79",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M15",
-          "requirement": "Fluency in written and spoken English.",
-          "source_quote": "You are fluent in English (written and spoken).",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        },
-        {
-          "field": "must_haves",
-          "id": "M16",
-          "requirement": "Availability to work morning and afternoon shifts.",
-          "source_quote": "Ready to work on morning/afternoon shifts.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "e5b9a5553781a84bd0c22b493fb4417e49818db3e2d4cfde54d8c2dacdab5140",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M11",
-          "requirement": "Understanding of 3GPP, ITU-T and ANSI standards.",
-          "source_quote": "Understanding of 3GPP, ITU-T and ANSI standards.",
-          "verification": "profile",
-          "reason": "Standards understanding is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M12",
-          "requirement": "Understanding of roaming agreements and IR.21, including IREG testing.",
-          "source_quote": "Understanding of roaming agreements and IR.21, including IREG testing.",
-          "verification": "profile",
-          "reason": "Roaming/IR.21/IREG specifics rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M14",
-          "requirement": "Writing and documentation skills for developing reports.",
-          "source_quote": "Strong writing and documentation skills are needed to develop reports.",
-          "verification": "profile",
-          "reason": "Writing/documentation skills are unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Experience working on core nodes, including CSFB and IMS nodes.",
-          "after": "Experience working on IMS core nodes.",
-          "reason": "IMS node work observable; CSFB specifics are not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "before": "IMS platform operations and maintenance, including alarm and fault handling, trace analysis, troubleshooting, backup/restore, preventive maintenance and node upgrades.",
-          "after": "IMS platform operations and maintenance experience.",
-          "reason": "IMS O&M observable; the full task list is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "before": "Hands-on use of sniffers, Wireshark and testing tools in advanced mode.",
-          "after": "Hands-on use of Wireshark or protocol analysis tools.",
-          "reason": "Wireshark commonly listed; \"advanced mode\" is unstated."
-        }
-      ],
-      "criterion_id_map": {
-        "M13": "M11"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience working on core nodes, including CSFB and IMS nodes.",
+        "effective_requirement": "Experience working on IMS core nodes.",
+        "reason": "IMS node work observable; CSFB specifics are not."
       },
-      "demoted_preference_ids": {
-        "M5": "P3",
-        "M7": "P4",
-        "M9": "P5",
-        "M11": "P6",
-        "M12": "P7",
-        "M14": "P8"
+      {
+        "field": "must_haves",
+        "extracted_requirement": "IMS platform operations and maintenance, including alarm and fault handling, trace analysis, troubleshooting, backup/restore, preventive maintenance and node upgrades.",
+        "effective_requirement": "IMS platform operations and maintenance experience.",
+        "reason": "IMS O&M observable; the full task list is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on use of sniffers, Wireshark and testing tools in advanced mode.",
+        "effective_requirement": "Hands-on use of Wireshark or protocol analysis tools.",
+        "reason": "Wireshark commonly listed; \"advanced mode\" is unstated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "2a966d74bf863fa4339cd794d6ecc59a2a2aad4850c10dfd9be57c2c1a03bd97",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": false
-    },
-    "single_location": {
-      "parent_rubric_sha256": "2a966d74bf863fa4339cd794d6ecc59a2a2aad4850c10dfd9be57c2c1a03bd97",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "no_filter",
-      "reason": "No geographic filter; unchanged.",
-      "previous_allowed_locations": [],
-      "previous_requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
-      "location_requirement_changed": false
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of 3GPP, ITU-T and ANSI standards.",
+        "source_quote": "Understanding of 3GPP, ITU-T and ANSI standards.",
+        "verification": "profile",
+        "reason": "Standards understanding is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of roaming agreements and IR.21, including IREG testing.",
+        "source_quote": "Understanding of roaming agreements and IR.21, including IREG testing.",
+        "verification": "profile",
+        "reason": "Roaming/IR.21/IREG specifics rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Writing and documentation skills for developing reports.",
+        "source_quote": "Strong writing and documentation skills are needed to develop reports.",
+        "verification": "profile",
+        "reason": "Writing/documentation skills are unstated."
+      }
+    ]
   },
   "experience_context": [
     {

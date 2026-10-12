@@ -3,10 +3,10 @@
   "role_id": "fb6c261a-dd58-4d36-856d-aa957f72f176",
   "snapshot_sha256": "5e7bc19292cdc37fb63c548375e7139d5e5830513e4f80ce7f9819c23364c46e",
   "input_sha256": "818697440239efd91f3ab9a479dad5dee6b6f5e10d45c9a276c3eb40bff2585f",
-  "rubric_sha256": "03052f128336d44c429d39da0a8294d140f6edc0e20db21935bf389e4f3d9636",
+  "rubric_sha256": "31897b849af65670f0ce06bad266a84eb982ebc2b0fa10ec0a0c6d03512b2b1f",
   "rubric": {
     "role_summary": "Regulatory systems engineering role supporting NRC licensing for a portable nuclear microreactor. Own license-application deliverables, coordinate engineering inputs and regulator interactions, and integrate analysis and test results into regulatory submissions.",
-    "search_query": "Find candidates for this role:\nRegulatory systems engineering role supporting NRC licensing for a portable nuclear microreactor. Own license-application deliverables, coordinate engineering inputs and regulator interactions, and integrate analysis and test results into regulatory submissions.\nMandatory professional qualifications:\n- Bachelor’s degree from an accredited institution in nuclear engineering, mechanical engineering, electrical engineering, computer science, or a similar technical field.\n- 2+ years of experience certifying, regulating, qualifying, or auditing hardware that was manufactured, deployed, and iteratively improved.\n- Applied understanding of requirements derivation, negotiation, and verification OR experience with the product-design process, especially defining systems, interfaces, and specifications.\nPreferred, not mandatory:\n- 5+ years of experience working in a manufacturing environment with strict regulatory oversight.\n- Experience working on a nuclear project with DOE or NRC regulation.\n- Experience tailoring or implementing NQA-1, ISO9001, AS9100, or other industrial standards.\n- Experience owning, designing, building, or testing hardware that has seen production.\n- Ability to apply fundamental engineering principles to regulatory efforts.\n- Project management experience driving schedules forward.\n- Ability to write technical documentation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nRegulatory systems engineering role supporting NRC licensing for a portable nuclear microreactor. Own license-application deliverables, coordinate engineering inputs and regulator interactions, and integrate analysis and test results into regulatory submissions.\nMandatory professional qualifications:\n- Bachelor’s degree from an accredited institution in nuclear engineering, mechanical engineering, electrical engineering, computer science, or a similar technical field.\n- 2+ years of experience certifying, regulating, qualifying, or auditing hardware that was manufactured, deployed, and iteratively improved.\n- Applied understanding of requirements derivation, negotiation, and verification OR experience with the product-design process, especially defining systems, interfaces, and specifications.\nPreferred, not mandatory:\n- 5+ years of experience working in a manufacturing environment with strict regulatory oversight.\n- Experience working on a nuclear project with DOE or NRC regulation.\n- Experience tailoring or implementing NQA-1, ISO9001, AS9100, or other industrial standards.\n- Experience owning, designing, building, or testing hardware that has seen production.\n- Ability to apply fundamental engineering principles to regulatory efforts.\n- Project management experience driving schedules forward.\n- Ability to write technical documentation.\nWork location and geographic eligibility:\nLocation: Greater Los Angeles area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -140,98 +140,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "c73ad526d5ece93070bbb86b76ff1983de2183ff91e02ee0d8b5fcbad0033bd8",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Must work 100% onsite at the El Segundo, CA headquarters; present residence in El Segundo is not specified.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "El Segundo, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "El Segundo, CA",
-        "Must work 100% onsite at El Segundo HQ."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "2+ years of experience certifying, regulating, qualifying or auditing hardware that was manufactured, deployed, and iteratively improved.",
-        "effective_requirement": "2+ years of experience certifying, regulating, qualifying, or auditing hardware that was manufactured, deployed, and iteratively improved.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Willingness to work extended hours and weekends as necessary.",
+        "source_quote": "Must be willing to work extended hours and weekends as necessary to accomplish our mission",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       },
       {
-        "criterion_id": "P1",
-        "source_quote": "5+ years of experience working in a manufacturing environment with strict regulatory oversight.",
-        "effective_requirement": "5+ years of experience working in a manufacturing environment with strict regulatory oversight.",
-        "kind": "preferred_not_a_gate"
+        "field": "must_haves",
+        "requirement": "Capacity to serve in compliance with U.S. export controls; any job offer is contingent on this capacity.",
+        "source_quote": "Any job offer made will be contingent upon the applicant’s capacity to serve in compliance with U.S. export controls.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "989f6cfebcf0859ba527e1d2e28ecd90ca381815931c02832f0035eea82a9a79",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Willingness to work extended hours and weekends as necessary.",
-          "source_quote": "Must be willing to work extended hours and weekends as necessary to accomplish our mission",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Capacity to serve in compliance with U.S. export controls; any job offer is contingent on this capacity.",
-          "source_quote": "Any job offer made will be contingent upon the applicant’s capacity to serve in compliance with U.S. export controls.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "51c3c5956ed7d55a0106f6764e9e10930ee873f1c60a614707070eaffeaa9800",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to write technical documentation.",
-          "source_quote": "ability to navigate regulatory conversations effectively and write technical documentation.",
-          "verification": "profile",
-          "reason": "Technical writing ability is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P7"
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to write technical documentation.",
+        "source_quote": "ability to navigate regulatory conversations effectively and write technical documentation.",
+        "verification": "profile",
+        "reason": "Technical writing ability is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "1662ff23601211b27b90f6231e11a2192c3d01aff3f8e89e4477a95d01b1d265",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "c7eab73b52276cb9e051e97e90ff0706febd8b9142694666788fc2281cf4d778",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Los Angeles area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

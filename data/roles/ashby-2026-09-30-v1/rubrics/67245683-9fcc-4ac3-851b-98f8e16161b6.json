@@ -3,10 +3,10 @@
   "role_id": "67245683-9fcc-4ac3-851b-98f8e16161b6",
   "snapshot_sha256": "908712df429d0b3209daacba9bd01f949d5642b85229936d05fa39ec04581542",
   "input_sha256": "4774d7e0fc1f67173c77f6c5973afd306a8954e41d58656fecc7d85a2126ee35",
-  "rubric_sha256": "5ff026fb8460e89fe13143a2f8ab1ed3de2ea329baa1caaba532ebc150641a2f",
+  "rubric_sha256": "c69d355e7dc8e62255d65e7c2302bda87060c5b94d5ceabb55a0254d81ff1014",
   "rubric": {
     "role_summary": "Senior capital formation role at a venture capital firm, covering institutional investor relationships and fundraising while supporting co-investment syndication and deal execution.",
-    "search_query": "Find candidates for this role:\nSenior capital formation role at a venture capital firm, covering institutional investor relationships and fundraising while supporting co-investment syndication and deal execution.\nMandatory professional qualifications:\n- 5+ years of experience in investment banking, a placement agent firm, management consulting, or a dedicated investor relations/business development role within private equity.\n- Proficiency in Excel/Google Sheets for financial modeling and PowerPoint/Google Slides.\n- Bachelor’s degree in finance, economics, commerce, or a related field.\nPreferred, not mandatory:\n- High proficiency using AI productivity tools to streamline workflows and accelerate content development.\n- Experience with HubSpot, Deal Cloud, or similar CRM workflows for pipeline tracking.\n- High proficiency in Excel/Google Sheets for financial modeling and metrics and PowerPoint/Google Slides, supported by strong technical experience managing and interpreting large data sets, data analysis, data mining, and pattern recognition.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Toronto, Ontario, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior capital formation role at a venture capital firm, covering institutional investor relationships and fundraising while supporting co-investment syndication and deal execution.\nMandatory professional qualifications:\n- 5+ years of experience in investment banking, a placement agent firm, management consulting, or a dedicated investor relations/business development role within private equity.\n- Proficiency in Excel/Google Sheets for financial modeling and PowerPoint/Google Slides.\n- Bachelor’s degree in finance, economics, commerce, or a related field.\nPreferred, not mandatory:\n- High proficiency using AI productivity tools to streamline workflows and accelerate content development.\n- Experience with HubSpot, Deal Cloud, or similar CRM workflows for pipeline tracking.\n- High proficiency in Excel/Google Sheets for financial modeling and metrics and PowerPoint/Google Slides, supported by strong technical experience managing and interpreting large data sets, data analysis, data mining, and pattern recognition.\nWork location and geographic eligibility:\nLocation: Greater Toronto, Ontario, Canada area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -101,17 +101,6 @@
     "attempt_count": 1,
     "review_status": "machine_extracted_source_quotes_validated_with_documented_correction"
   },
-  "curation": {
-    "corrected_at": "2026-10-01T00:05:19.436018+00:00",
-    "original_rubric_sha256": "445f6d3656d86adb9bed84ae2478b9c5f2d5800df0eb191c77e77478542f22f5",
-    "criterion_id": "M1",
-    "original_requirement": "5+ years of experience in investment banking, a top-tier placement agent firm, management consulting, or a dedicated investor relations/business development role within private equity.",
-    "fields": [
-      "must_haves.M1.requirement",
-      "soft_requirements"
-    ],
-    "reason": "Applied the frozen extraction policy: separate subjective prestige/quality language from objective conditions, and keep reviewer instructions out of search query text. Original source quotation retained."
-  },
   "interpretation": {
     "policy": {
       "version": "role-interpretation-v1",
@@ -130,84 +119,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "fe691d0bc7eb938d36d741ca8c6f1f370ead6e9985efb6ed4009e2294b6dd84a",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based at the Toronto head office, combining remote work with in-office collaboration. Present residence in Toronto is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Toronto, Ontario, Canada"
-      ],
-      "remote_scope": "Remote work is part of the Toronto-based hybrid arrangement; no broader remote eligibility is specified.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Toronto Headquarters",
-        "Hybrid",
-        "This role is hybrid, but the head office is based in Toronto. Georgian’s hybrid work model balances focused remote work with high-impact in-office collaboration."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience in investment banking, a top-tier placement agent firm, management consulting, or a dedicated investor relations/business development role within private equity.",
-        "effective_requirement": "5+ years of experience in investment banking, a placement agent firm, management consulting, or a dedicated investor relations/business development role within private equity.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Willingness to travel globally, estimated at up to 50–60% of the time.",
+        "source_quote": "This position requires a strong willingness to travel globally (estimated to be up to 50-60% time commitment) to support investor meetings and industry conferences.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "1468a2e372c74a6ba619fb65581bdc887e8bf74563ecfb001cf8dd72c0b91b75",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Willingness to travel globally, estimated at up to 50–60% of the time.",
-          "source_quote": "This position requires a strong willingness to travel globally (estimated to be up to 50-60% time commitment) to support investor meetings and industry conferences.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8aa33eedc58d38df2f09420033aafb7d08d9dc778dd4940f2c233a950c6c2133",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "High proficiency in Excel/Google Sheets for financial modeling and metrics and PowerPoint/Google Slides, supported by strong technical experience managing and interpreting large data sets, data analysis, data mining, and pattern recognition.",
-          "after": "Proficiency in Excel/Google Sheets for financial modeling and PowerPoint/Google Slides.",
-          "reason": "Spreadsheet modeling and slides are implied by the qualifying roles; data-mining specifics are rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P3"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "High proficiency in Excel/Google Sheets for financial modeling and metrics and PowerPoint/Google Slides, supported by strong technical experience managing and interpreting large data sets, data analysis, data mining, and pattern recognition.",
+        "effective_requirement": "Proficiency in Excel/Google Sheets for financial modeling and PowerPoint/Google Slides.",
+        "reason": "Spreadsheet modeling and slides are implied by the qualifying roles; data-mining specifics are rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "7175ba2d05414720f6305bdca8f341317988ec54a5740afd4d31ac96cee2cbb6",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "752b0393e8bde115042addd0f96b99f9c5e95b0c9875aeaf61111245f5895f34",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Toronto, Ontario, Canada area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Toronto, Ontario, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

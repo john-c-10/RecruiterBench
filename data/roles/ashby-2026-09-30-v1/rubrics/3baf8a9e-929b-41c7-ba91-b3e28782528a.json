@@ -3,10 +3,10 @@
   "role_id": "3baf8a9e-929b-41c7-ba91-b3e28782528a",
   "snapshot_sha256": "5e5c41857b0a8441787a32cd15d63e9b744a9cb970d9ea0798f885eabc1e9152",
   "input_sha256": "fa5b283cbe9540e28cee5434412d3e0fa6258f155746e58c9952c8fec9ba069c",
-  "rubric_sha256": "d7f53c32b8104c7e75ef17bcdbcbb551eeb4e8c327a3f663fdf12a1715d66de7",
+  "rubric_sha256": "c0a0290c7d89bf480d383d45460040ab7097281bdeed9a7b7290686005a75e1c",
   "rubric": {
     "role_summary": "Clinical trial operations role independently leading Phase II–III global studies from startup through closeout, including CRO and site oversight, regulatory compliance, and operational risk management.",
-    "search_query": "Find candidates for this role:\nClinical trial operations role independently leading Phase II–III global studies from startup through closeout, including CRO and site oversight, regulatory compliance, and operational risk management.\nMandatory professional qualifications:\n- Relevant life-sciences/pharmacology preparation through a bachelor’s degree OR a combination of education and professional experience.\n- Direct clinical-trial-management preparation in pharmaceuticals, biotechnology, or a CRO, demonstrated by five years of experience OR a relevant combination of education and experience; the alternative has no fixed five-year floor.\n- Clinical trial management experience in an industry sponsor setting.\n- Good working knowledge of GCP, FDA regulations, ICH guidelines, and other clinical-research regulatory requirements.\nPreferred, not mandatory:\n- Advanced degree in life sciences, pharmacology, or a related field.\n- 2+ years of experience in women’s health, pain, immunology, and/or dermatology studies.\n- Experience configuring, implementing, and managing eCOA systems, including compliance verification and data quality oversight.\n- Familiarity with clinical trial regulatory filing requirements across major regions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nClinical trial operations role independently leading Phase II–III global studies from startup through closeout, including CRO and site oversight, regulatory compliance, and operational risk management.\nMandatory professional qualifications:\n- Relevant life-sciences/pharmacology preparation through a bachelor’s degree OR a combination of education and professional experience.\n- Direct clinical-trial-management preparation in pharmaceuticals, biotechnology, or a CRO, demonstrated by five years of experience OR a relevant combination of education and experience; the alternative has no fixed five-year floor.\n- Clinical trial management experience in an industry sponsor setting.\n- Good working knowledge of GCP, FDA regulations, ICH guidelines, and other clinical-research regulatory requirements.\nPreferred, not mandatory:\n- Advanced degree in life sciences, pharmacology, or a related field.\n- 2+ years of experience in women’s health, pain, immunology, and/or dermatology studies.\n- Experience configuring, implementing, and managing eCOA systems, including compliance verification and data quality oversight.\n- Familiarity with clinical trial regulatory filing requirements across major regions.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -129,120 +129,50 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "87f615b8d4fd46c46fc6d06d1d05f0181d639067c162c30bfe492476d2132838",
-    "resolved_ambiguities": [
-      "The posting requests a bachelor’s degree and 5 years of experience but also says a combination of education and experience will be considered; it does not define which substitutions qualify."
-    ],
-    "resolution": "Accept the stated education/experience alternative without imposing both a bachelor's and five years as absolute floors; invent no fixed degree-to-years conversion.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "United States–remote role; travel to investigator sites, vendor meetings, and conferences may be needed.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "United States - Remote",
-        "Remote",
-        "Ability to travel up to 20% per month as needed to oversee clinical trials at investigator sites, onsite meetings with vendors, and conferences."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "5 years of direct experience in clinical trial management within the pharmaceutical, biotechnology, or CRO industry. A combination of education and experience will be considered.",
-        "effective_requirement": "Direct clinical-trial-management preparation in pharmaceuticals, biotechnology, or a CRO, demonstrated by five years of experience OR a relevant combination of education and experience; the alternative has no fixed five-year floor.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "P2",
-        "source_quote": "2-3 years of experience in women’s health, pain, immunology, and/or dermatology studies being a plus.",
-        "effective_requirement": "2+ years of experience in women’s health, pain, immunology, and/or dermatology studies.",
-        "kind": "preferred_not_a_gate"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "8c26e9f74a17b40b3cf0840e033a22d92ccb93baa989f1066e192ec5cc3886f6",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Ability to travel up to 20% per month as needed.",
-          "source_quote": "Ability to travel up to 20% per month as needed to oversee clinical trials at investigator sites, onsite meetings with vendors, and conferences.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Legal authorization to work in the U.S.",
-          "source_quote": "Legal authorization to work in the U.S. is required.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Requires employment visa sponsorship for this job.",
-          "source_quote": "We are not able to sponsor individuals for employment visas for this job.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ae74489bde63c13d54a6df14e56a420e1694426d1a0c718eb9a428f81f502226",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience configuring, implementing, and managing eCOA systems, including compliance verification and data quality oversight.",
-          "source_quote": "Experience configuring, implementing, and managing electronic patient-reported outcomes (eCOA) systems, including compliance verification and data quality oversight.",
-          "verification": "profile",
-          "reason": "eCOA configuration is a specific system practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Familiarity with clinical trial regulatory filing requirements across major regions.",
-          "source_quote": "Familiarity with clinical trial regulatory filing requirements across major regions (US, EU, UK, etc.)",
-          "verification": "profile",
-          "reason": "Multi-region regulatory filing familiarity is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M5": "M4"
-      },
-      "demoted_preference_ids": {
-        "M4": "P3",
-        "M6": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "9be417779f7554ddd836bae6080be89c367d28d5d7a724be30a495da1a29ea7c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "a5ec5706fda9e7838865610de52f541cb7a91002866282d9a73ca8bb3891ed7b",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to travel up to 20% per month as needed.",
+        "source_quote": "Ability to travel up to 20% per month as needed to oversee clinical trials at investigator sites, onsite meetings with vendors, and conferences.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Legal authorization to work in the U.S.",
+        "source_quote": "Legal authorization to work in the U.S. is required.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Requires employment visa sponsorship for this job.",
+        "source_quote": "We are not able to sponsor individuals for employment visas for this job.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience configuring, implementing, and managing eCOA systems, including compliance verification and data quality oversight.",
+        "source_quote": "Experience configuring, implementing, and managing electronic patient-reported outcomes (eCOA) systems, including compliance verification and data quality oversight.",
+        "verification": "profile",
+        "reason": "eCOA configuration is a specific system practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with clinical trial regulatory filing requirements across major regions.",
+        "source_quote": "Familiarity with clinical trial regulatory filing requirements across major regions (US, EU, UK, etc.)",
+        "verification": "profile",
+        "reason": "Multi-region regulatory filing familiarity is rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

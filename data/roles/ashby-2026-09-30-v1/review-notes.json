@@ -5,8 +5,8 @@
   "must_haves": 884,
   "red_flags": 3,
   "required_locations": 277,
-  "joined_roles_sha256": "57e68aef148ea2da67cdeb2b135be942a7ea466daf191447ad63e6afa71f713f",
+  "joined_roles_sha256": "f1a660e38793fb9df3ca05acb51ee7736cb16e813092f4dbb8f5b6503cb877ab",
   "roles_with_ambiguities": [],
   "confirmation_requirements": [],
-  "review_status": "User-directed interpretation applied; source quotes, IDs and hashes validated. Original sources preserved; not a human-labeled gold standard."
+  "review_status": "Benchmark interpretation applied; source quotes, IDs and hashes validated. Original sources preserved; not a human-labeled gold standard."
 }

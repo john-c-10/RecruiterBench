@@ -3,10 +3,10 @@
   "role_id": "7e054e4b-40a4-409c-a027-c72e8b6e9c32",
   "snapshot_sha256": "ef6db2d0e42bb5f1c6c17267ee03bdb6e75bd163223ab177fd3d1936dc876704",
   "input_sha256": "7e79df0accc7650d3e6c728bbe00d9a5ca8ad2c9ed31b4e57e835f8ad00287e2",
-  "rubric_sha256": "8a4ceb7ec9eff048ca7dbd1588a12fc0234bb9afb7da1b15314a5ac04118d04c",
+  "rubric_sha256": "25b842060720d102291488427d03194b1b751103ee51178a6754dccd3fed5b1b",
   "rubric": {
     "role_summary": "On-site field solutions technician for industrial robot automation, programming and testing solutions in Munich and commissioning, integrating, and supporting them at customer sites across Germany.",
-    "search_query": "Find candidates for this role:\nOn-site field solutions technician for industrial robot automation, programming and testing solutions in Munich and commissioning, integrating, and supporting them at customer sites across Germany.\nMandatory professional qualifications:\n- Training in automation technology, such as mechatronics technician, electronics technician, or mechatronics engineer training, or a comparable qualification.\n- Initial experience commissioning automation solutions or similar technologies.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Munich, Germany area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nOn-site field solutions technician for industrial robot automation, programming and testing solutions in Munich and commissioning, integrating, and supporting them at customer sites across Germany.\nMandatory professional qualifications:\n- Training in automation technology, such as mechatronics technician, electronics technician, or mechatronics engineer training, or a comparable qualification.\n- Initial experience commissioning automation solutions or similar technologies.\nWork location and geographic eligibility:\nLocation: Greater Munich, Germany area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -95,85 +95,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "e950342644051a244ab71a4d100507b28501738b219dffd9f6a0f0cead948b6d",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "On-site role based at the Munich HQ, with commissioning and other work at customer sites across Germany. Present residence in Munich is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Munich, Germany"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Munich",
-        "OnSite",
-        "You will be programming, testing, and troubleshooting RoBCo solutions at our HQ prior to deploying and commissioning at the customer site",
-        "In our modern robotics laboratory in Munich",
-        "You have a driving licence and enjoy travelling, Germany-wide"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "239b3852163ff4672d0f80e8fc3f7189794707207d4069c1d7b7ac6595f2279d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "A driving licence.",
-          "source_quote": "You have a driving licence",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to travel across Germany for customer-site work.",
-          "source_quote": "You have a driving licence and enjoy travelling, Germany-wide",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Fluency in German and English.",
-          "source_quote": "Fluency in German and English.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "34c95cea893039d4604c3f8b6b77a1064391c9815d9a5c68bdbfd106b40e48a6",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "34c95cea893039d4604c3f8b6b77a1064391c9815d9a5c68bdbfd106b40e48a6",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "bdd6543d6194984a071926a93e822989852dd01c9c190cd49204b2c1f0557d1a",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Munich, Germany area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Munich, Germany area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "A driving licence.",
+        "source_quote": "You have a driving licence",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to travel across Germany for customer-site work.",
+        "source_quote": "You have a driving licence and enjoy travelling, Germany-wide",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Fluency in German and English.",
+        "source_quote": "Fluency in German and English.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

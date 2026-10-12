@@ -3,10 +3,10 @@
   "role_id": "36df1986-8af2-4cc4-a96a-4f307d493ac0",
   "snapshot_sha256": "2fed8d6c5c7c0e8cad64f704f280a9c3a7e1f1cf9e3e17d2aa1dde632d578272",
   "input_sha256": "f41d62475b2509ffc21d8fe9d022f974d98862fd3364e298e0e72fe9a444bdf0",
-  "rubric_sha256": "d80366fd474804405e62210182c65f325faa427d1b946276e6d2a70cd11414bd",
+  "rubric_sha256": "67822650ae566cf05a9b59c4c8367d7f518d54de138d703d55c1b2cebe4d7602",
   "rubric": {
     "role_summary": "Enterprise SaaS sales role focused on winning new accounts in Eastern and Central time zones, managing the full sales cycle from pipeline generation to close, and handling limited expansion and upsell.",
-    "search_query": "Find candidates for this role:\nEnterprise SaaS sales role focused on winning new accounts in Eastern and Central time zones, managing the full sales cycle from pipeline generation to close, and handling limited expansion and upsell.\nMandatory professional qualifications:\n- Multi-year experience selling complex SaaS technologies to large organizations.\nExplicit disqualifiers:\n- Focuses on selling into the existing customer base rather than new business.\nPreferred, not mandatory:\n- Familiarity with Talent Acquisition and HR tools and workflows.\n- A network that includes Heads of Talent.\n- Willingness to travel for company events, customer meetups, and on-sites.\n- Multi-year track record of exceeding $1M+ quotas while selling complex SaaS technologies to large organizations.\n- Experience closing many $100K+ ARR sales requiring consensus building and executive engagement.\n- Demonstrated experience winning highly competitive opportunities by identifying pain and business impacts and connecting them to leadership-team strategic initiatives.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): US; Canada; Greater Austin, Texas, USA area; Greater Atlanta, Georgia, USA area; Greater Waterloo, Ontario, Canada area; Greater Boston area, Massachusetts; New York metropolitan area; Greater Montreal, Quebec, Canada area; Greater Ann Arbor, Michigan, USA area; Greater Toronto, Ontario, Canada area; Greater Chicago, Illinois, USA area; Greater Raleigh, North Carolina, USA area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nEnterprise SaaS sales role focused on winning new accounts in Eastern and Central time zones, managing the full sales cycle from pipeline generation to close, and handling limited expansion and upsell.\nMandatory professional qualifications:\n- Multi-year experience selling complex SaaS technologies to large organizations.\nExplicit disqualifiers:\n- Focuses on selling into the existing customer base rather than new business.\nPreferred, not mandatory:\n- Familiarity with Talent Acquisition and HR tools and workflows.\n- A network that includes Heads of Talent.\n- Willingness to travel for company events, customer meetups, and on-sites.\n- Multi-year track record of exceeding $1M+ quotas while selling complex SaaS technologies to large organizations.\n- Experience closing many $100K+ ARR sales requiring consensus building and executive engagement.\n- Demonstrated experience winning highly competitive opportunities by identifying pain and business impacts and connecting them to leadership-team strategic initiatives.\nWork location and geographic eligibility:\nLocation: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -144,153 +144,57 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1eccec774ce245118a7aa3088fc9a1ff3902f5911fb534b0c8d30ffc7b288e6e",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote work is listed for the US and Canada, with additional listed office locations in both countries. The role serves Enterprise accounts in Eastern and Central time zones. No current-residence requirement or relocation policy is stated.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "Remote - US",
-        "Remote - Canada",
-        "Austin, Texas, USA",
-        "Atlanta, Georgia, USA",
-        "Waterloo, Ontario, Canada",
-        "Boston, Massachusetts, USA",
-        "New York, New York, USA",
-        "Montreal, Quebec, Canada",
-        "Ann Arbor, Michigan, USA",
-        "Toronto, Ontario, Canada",
-        "Chicago, Illinois, USA",
-        "Raleigh, North Carolina, USA"
-      ],
-      "remote_scope": "US or Canada",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote - US",
-        "Remote - Canada",
-        "Austin",
-        "Atlanta",
-        "Waterloo",
-        "Boston",
-        "New York",
-        "Montreal",
-        "Ann Arbor",
-        "Toronto",
-        "Chicago",
-        "Raleigh",
-        "You will help us win Enterprise accounts in Eastern and Central time zones"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote - US or Remote - Canada; the cities are hubs inside that region."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "You have a multi-year track record of exceeding $1M+ quotas, selling complex SaaS technologies to large organizations",
-        "effective_requirement": "Multi-year track record of exceeding $1M+ quotas while selling complex SaaS technologies to large organizations.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Comfortable self-sourcing a majority of their own sales pipeline.",
+        "source_quote": "You are a hunter at heart and are comfortable self-sourcing a majority of your own pipeline",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Prefers to leave product demos to others.",
+        "source_quote": "You prefer to leave demos \"to the experts.\"",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Prefers to pursue new business alone rather than through team selling.",
+        "source_quote": "You prefer to go it alone in your pursuit of new business. We believe in a team-selling sales model.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "75bc8afa1620af211923113f231af19cfad0711af94a9788f29086129532bfa2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Comfortable self-sourcing a majority of their own sales pipeline.",
-          "source_quote": "You are a hunter at heart and are comfortable self-sourcing a majority of your own pipeline",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Prefers to leave product demos to others.",
-          "source_quote": "You prefer to leave demos \"to the experts.\"",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D3",
-          "requirement": "Prefers to pursue new business alone rather than through team selling.",
-          "source_quote": "You prefer to go it alone in your pursuit of new business. We believe in a team-selling sales model.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "D2": "D1"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Multi-year track record of exceeding $1M+ quotas while selling complex SaaS technologies to large organizations.",
+        "effective_requirement": "Multi-year experience selling complex SaaS technologies to large organizations.",
+        "reason": "Enterprise SaaS sales is implied by AE titles; quota attainment is a quantified claim."
       }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "5262a0db37881c72bf5ace55835207798331b216accdf9a68df8812f460b8151",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience closing many $100K+ ARR sales requiring consensus building and executive engagement.",
-          "source_quote": "You have closed many $100K+ ARR sales which require consensus building and executive engagement.",
-          "verification": "profile",
-          "reason": "Number and size of deals closed is a quantified claim rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Demonstrated experience winning highly competitive opportunities by identifying pain and business impacts and connecting them to leadership-team strategic initiatives.",
-          "source_quote": "You have a demonstrated ability to win highly competitive opportunities by identifying pain and business impacts and connecting those to strategic initiatives of the leadership team",
-          "verification": "profile",
-          "reason": "Connecting pain to leadership initiatives is a practice rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Multi-year track record of exceeding $1M+ quotas while selling complex SaaS technologies to large organizations.",
-          "after": "Multi-year experience selling complex SaaS technologies to large organizations.",
-          "reason": "Enterprise SaaS sales is implied by AE titles; quota attainment is a quantified claim."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P4",
-        "M2": "P5",
-        "M3": "P6"
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience closing many $100K+ ARR sales requiring consensus building and executive engagement.",
+        "source_quote": "You have closed many $100K+ ARR sales which require consensus building and executive engagement.",
+        "verification": "profile",
+        "reason": "Number and size of deals closed is a quantified claim rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated experience winning highly competitive opportunities by identifying pain and business impacts and connecting them to leadership-team strategic initiatives.",
+        "source_quote": "You have a demonstrated ability to win highly competitive opportunities by identifying pain and business impacts and connecting those to strategic initiatives of the leadership team",
+        "verification": "profile",
+        "reason": "Connecting pain to leadership initiatives is a practice rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ad98cc34da857d2c4c4187227a0275512e85a96c43fb8a3194364af8196dddea",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "56cfa9e3b3b98deb6f9b7e60c1a42d7d68737f133304f60fe9c3712a7e3a9391",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote - US or Remote - Canada; the cities are hubs inside that region.",
-      "previous_allowed_locations": [
-        "US",
-        "Canada",
-        "Greater Austin, Texas, USA area",
-        "Greater Atlanta, Georgia, USA area",
-        "Greater Waterloo, Ontario, Canada area",
-        "Greater Boston area, Massachusetts",
-        "New York metropolitan area",
-        "Greater Montreal, Quebec, Canada area",
-        "Greater Ann Arbor, Michigan, USA area",
-        "Greater Toronto, Ontario, Canada area",
-        "Greater Chicago, Illinois, USA area",
-        "Greater Raleigh, North Carolina, USA area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): US; Canada; Greater Austin, Texas, USA area; Greater Atlanta, Georgia, USA area; Greater Waterloo, Ontario, Canada area; Greater Boston area, Massachusetts; New York metropolitan area; Greater Montreal, Quebec, Canada area; Greater Ann Arbor, Michigan, USA area; Greater Toronto, Ontario, Canada area; Greater Chicago, Illinois, USA area; Greater Raleigh, North Carolina, USA area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

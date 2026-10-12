@@ -3,10 +3,10 @@
   "role_id": "f036efe2-1edf-4452-bad0-113eb584184c",
   "snapshot_sha256": "a26022ce9ed543a7f2ef8326198b40ef51496f56611af16c5a9804bbd94a98e4",
   "input_sha256": "1f36ae7c928fde41dddc04ba7dd788aa1a54fd29de519a1948b721614480630f",
-  "rubric_sha256": "f9f4851041ded209da2b30494087976a9fc2407c718283d74e9328ee262e2584",
+  "rubric_sha256": "458913b10a6d03ac84694e17895651864ad4ea276f48847ac75624ad1a406723",
   "rubric": {
     "role_summary": "Associate Scientist III supporting iPSC-derived cardiomyocyte models for cardiovascular disease research and drug discovery, including differentiation, genetic disease modeling, functional assays, and experimental data generation.",
-    "search_query": "Find candidates for this role:\nAssociate Scientist III supporting iPSC-derived cardiomyocyte models for cardiovascular disease research and drug discovery, including differentiation, genetic disease modeling, functional assays, and experimental data generation.\nMandatory professional qualifications:\n- Bachelor’s or master’s degree in biology, biochemistry, or a related discipline, with at least 2 years of relevant biotech/biopharma industry experience.\n- Hands-on experience with iPSC culture and iPSC-derived cardiomyocyte models.\n- Hands-on molecular assay expertise; the listed assays are examples, not a requirement to have used every assay.\nPreferred, not mandatory:\n- Experience with 3D or engineered heart tissue platforms or organoids.\n- Background in cardiomyocyte biology and/or cardiovascular disease.\n- Exposure to and experience with high-throughput platforms and/or automated systems.\n- Deep hands-on experience in iPSC culture, cardiac directed differentiation, and characterization of iPSC-CM models in 2D monolayer format.\n- Experience developing genetic iPSC-CM disease models to study cardiovascular mechanisms; patient-derived lines and CRISPR-edited isogenic pairs are cited examples.\n- Experience with functional assays relevant to cardiomyocyte biology; the listed assay types are examples, not a requirement to have used every type.\n- Track record of executing rigorous experiments and communicating findings through publications, presentations, or internal reports.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Based in South San Francisco, this position reports directly to Senior Scientist, Cardiometabolic Disease - Translational Genetics and requires you to be onsite at our South San Francisco office 5 days per week.",
+    "search_query": "Find candidates for this role:\nAssociate Scientist III supporting iPSC-derived cardiomyocyte models for cardiovascular disease research and drug discovery, including differentiation, genetic disease modeling, functional assays, and experimental data generation.\nMandatory professional qualifications:\n- Bachelor’s or master’s degree in biology, biochemistry, or a related discipline, with at least 2 years of relevant biotech/biopharma industry experience.\n- Hands-on experience with iPSC culture and iPSC-derived cardiomyocyte models.\n- Hands-on molecular assay expertise; the listed assays are examples, not a requirement to have used every assay.\nPreferred, not mandatory:\n- Experience with 3D or engineered heart tissue platforms or organoids.\n- Background in cardiomyocyte biology and/or cardiovascular disease.\n- Exposure to and experience with high-throughput platforms and/or automated systems.\n- Deep hands-on experience in iPSC culture, cardiac directed differentiation, and characterization of iPSC-CM models in 2D monolayer format.\n- Experience developing genetic iPSC-CM disease models to study cardiovascular mechanisms; patient-derived lines and CRISPR-edited isogenic pairs are cited examples.\n- Experience with functional assays relevant to cardiomyocyte biology; the listed assay types are examples, not a requirement to have used every type.\n- Track record of executing rigorous experiments and communicating findings through publications, presentations, or internal reports.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -142,106 +142,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "0e8536c9b5b6c204a3dd092c75572bbbb66f6d3e627143a294b9918b4cd9cdaa",
-    "resolved_ambiguities": [
-      "The description explicitly requires onsite work 5 days per week, but the posting also includes the tag “#LI-Hybrid”; confirm which workplace classification is intended."
-    ],
-    "resolution": "Text wins: five days onsite in South San Francisco; sourcing geography broadens to the Bay Area.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work onsite at the South San Francisco office 5 days per week; present residence in the area is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "South San Francisco, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "South San Francisco, CA",
-        "Based in South San Francisco, this position reports directly to Senior Scientist, Cardiometabolic Disease - Translational Genetics and requires you to be onsite at our South San Francisco office 5 days per week."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "A bachelor’s or master’s degree in biology, biochemistry, or related discipline with at least 2 years of relevant experience in the biotech/biopharma industry",
-        "effective_requirement": "Bachelor’s or master’s degree in biology, biochemistry, or a related discipline, with at least 2 years of relevant biotech/biopharma industry experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "d4e87dafe53f54a9cbc5d834965c089d7a46cd4c8cd28722b215bc76490b4785",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "d4e87dafe53f54a9cbc5d834965c089d7a46cd4c8cd28722b215bc76490b4785",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience developing genetic iPSC-CM disease models to study cardiovascular mechanisms; patient-derived lines and CRISPR-edited isogenic pairs are cited examples.",
-          "source_quote": "Previous experience developing genetic iPSC-CM disease models — patient-derived lines, CRISPR-edited isogenic pairs — to study cardiovascular mechanisms",
-          "verification": "profile",
-          "reason": "Genetic disease-model development is a specific practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience with functional assays relevant to cardiomyocyte biology; the listed assay types are examples, not a requirement to have used every type.",
-          "source_quote": "Experience with functional assays relevant to cardiomyocyte biology (contractility, calcium, electrophysiology, imaging, stress responses).",
-          "verification": "profile",
-          "reason": "Specific functional cardiomyocyte assays are rarely itemized."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Track record of executing rigorous experiments and communicating findings through publications, presentations, or internal reports.",
-          "source_quote": "Track record of executing rigorous experiments and communicating findings clearly in publications, presentations or internal reports",
-          "verification": "profile",
-          "reason": "Rigor and communicating findings are qualities not observable on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Deep hands-on experience in iPSC culture, cardiac directed differentiation, and characterization of iPSC-CM models in 2D monolayer format.",
-          "after": "Hands-on experience with iPSC culture and iPSC-derived cardiomyocyte models.",
-          "reason": "iPSC-CM work is core and observable; the full 2D characterization specifics are rarely itemized."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M3"
-      },
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5",
-        "M4": "P6",
-        "M6": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "cf7728317c01148f576de72606e176b26e1bb43b88131e931f2763de41262206",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "ad2f142723aff022f178ffeb2ca404108eab09e05c6a2da51b77a6db3e262912",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Based in South San Francisco, this position reports directly to Senior Scientist, Cardiometabolic Disease - Translational Genetics and requires you to be onsite at our South San Francisco office 5 days per week.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep hands-on experience in iPSC culture, cardiac directed differentiation, and characterization of iPSC-CM models in 2D monolayer format.",
+        "effective_requirement": "Hands-on experience with iPSC culture and iPSC-derived cardiomyocyte models.",
+        "reason": "iPSC-CM work is core and observable; the full 2D characterization specifics are rarely itemized."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience developing genetic iPSC-CM disease models to study cardiovascular mechanisms; patient-derived lines and CRISPR-edited isogenic pairs are cited examples.",
+        "source_quote": "Previous experience developing genetic iPSC-CM disease models — patient-derived lines, CRISPR-edited isogenic pairs — to study cardiovascular mechanisms",
+        "verification": "profile",
+        "reason": "Genetic disease-model development is a specific practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience with functional assays relevant to cardiomyocyte biology; the listed assay types are examples, not a requirement to have used every type.",
+        "source_quote": "Experience with functional assays relevant to cardiomyocyte biology (contractility, calcium, electrophysiology, imaging, stress responses).",
+        "verification": "profile",
+        "reason": "Specific functional cardiomyocyte assays are rarely itemized."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Track record of executing rigorous experiments and communicating findings through publications, presentations, or internal reports.",
+        "source_quote": "Track record of executing rigorous experiments and communicating findings clearly in publications, presentations or internal reports",
+        "verification": "profile",
+        "reason": "Rigor and communicating findings are qualities not observable on profiles."
+      }
+    ]
   },
   "experience_context": [
     {

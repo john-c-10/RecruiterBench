@@ -3,10 +3,10 @@
   "role_id": "b002c32a-ac62-44e5-a07f-8cbf9b618c92",
   "snapshot_sha256": "676a1dc65b8c37d8bc73f94819d367f2f968cb2c5824092aa4638dcc62ab5eca",
   "input_sha256": "e0a26da21ea267e8d1f5424ecb018013730e1404ac8f527765b3b00a7313de9c",
-  "rubric_sha256": "4c27316c7c49e351d1dfb17b2973807abe4268409bfcfab2525f17c890c02da4",
+  "rubric_sha256": "4f10f9d43882e58a8d607b84979f161fe1efa5c2322eaf9ba3f52f47126756db",
   "rubric": {
     "role_summary": "Senior thermal analyst responsible for thermal modeling, validation, and design trades for a space nuclear vehicle, including reactor, spacecraft, and heat rejection systems.",
-    "search_query": "Find candidates for this role:\nSenior thermal analyst responsible for thermal modeling, validation, and design trades for a space nuclear vehicle, including reactor, spacecraft, and heat rejection systems.\nMandatory professional qualifications:\n- Bachelor’s degree in Mechanical Engineering, Aerospace Engineering, Nuclear Engineering, Thermal Sciences, or a related technical discipline.\n- 5+ years of experience in thermal engineering, thermal analysis, heat transfer, spacecraft thermal systems, nuclear systems, high-temperature systems, or closely related hardware development.\n- Fundamentals in conduction, convection, radiation, transient heat transfer, thermal-fluid systems, and system-level thermal modeling.\n- Experience building thermal models.\nPreferred, not mandatory:\n- Master’s degree or higher in Mechanical Engineering, Aerospace Engineering, Nuclear Engineering, Thermal Sciences, or a related field.\n- Experience with spacecraft thermal control systems, radiators, heat pipes, thermal straps, louvers, MLI, coatings, spacecraft environmental interfaces, or orbital thermal analysis.\n- Experience with high-temperature thermal systems, nuclear thermal systems, reactor heat transport, Brayton/Rankine/Stirling-adjacent thermal architectures, pumped loops, liquid metal coolants, gas coolants, or refractory materials.\n- Experience developing or analyzing heat rejection systems for space, nuclear, defense, aerospace, or high-reliability energy systems.\n- Familiarity with Python and Git-controlled code repositories.\n- Familiarity with thermal modeling and simulation tools such as Thermal Desktop, SINDA/FLUINT, OpenTD, ANSYS, COMSOL, STAR-CCM+, or Fluent.\n- Experience developing reduced-order models, sizing tools, parametric trade tools, or integrated system models for thermal architecture studies.\n- Experience designing, executing, or interpreting thermal vacuum, component-level, coolant-loop, heat pipe, radiator, or high-temperature heat-transfer tests.\n- Understanding of radiator performance drivers, including view factors, emissivity, absorptivity, fin efficiency, thermal spreading, panel thermalization, degradation, and environmental effects.\n- Experience with coolant loop architecture, pump/valve/heat exchanger integration, pressure drop, flow stability, startup/shutdown transients, or two-phase/single-phase thermal-fluid systems.\n- Experience integrating thermal hardware into aerospace or nuclear systems, including structural interfaces, thermal expansion, manufacturability, inspection, reliability, and operations constraints.\n- Experience building and validating thermal models using test data, experimental data, or flight/hardware data.\n- Experience performing thermal design trades and communicating model assumptions, uncertainty, margins, and design implications to cross-functional engineering teams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Torrance, CA (Los Angeles area). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nSenior thermal analyst responsible for thermal modeling, validation, and design trades for a space nuclear vehicle, including reactor, spacecraft, and heat rejection systems.\nMandatory professional qualifications:\n- Bachelor’s degree in Mechanical Engineering, Aerospace Engineering, Nuclear Engineering, Thermal Sciences, or a related technical discipline.\n- 5+ years of experience in thermal engineering, thermal analysis, heat transfer, spacecraft thermal systems, nuclear systems, high-temperature systems, or closely related hardware development.\n- Fundamentals in conduction, convection, radiation, transient heat transfer, thermal-fluid systems, and system-level thermal modeling.\n- Experience building thermal models.\nPreferred, not mandatory:\n- Master’s degree or higher in Mechanical Engineering, Aerospace Engineering, Nuclear Engineering, Thermal Sciences, or a related field.\n- Experience with spacecraft thermal control systems, radiators, heat pipes, thermal straps, louvers, MLI, coatings, spacecraft environmental interfaces, or orbital thermal analysis.\n- Experience with high-temperature thermal systems, nuclear thermal systems, reactor heat transport, Brayton/Rankine/Stirling-adjacent thermal architectures, pumped loops, liquid metal coolants, gas coolants, or refractory materials.\n- Experience developing or analyzing heat rejection systems for space, nuclear, defense, aerospace, or high-reliability energy systems.\n- Familiarity with Python and Git-controlled code repositories.\n- Familiarity with thermal modeling and simulation tools such as Thermal Desktop, SINDA/FLUINT, OpenTD, ANSYS, COMSOL, STAR-CCM+, or Fluent.\n- Experience developing reduced-order models, sizing tools, parametric trade tools, or integrated system models for thermal architecture studies.\n- Experience designing, executing, or interpreting thermal vacuum, component-level, coolant-loop, heat pipe, radiator, or high-temperature heat-transfer tests.\n- Understanding of radiator performance drivers, including view factors, emissivity, absorptivity, fin efficiency, thermal spreading, panel thermalization, degradation, and environmental effects.\n- Experience with coolant loop architecture, pump/valve/heat exchanger integration, pressure drop, flow stability, startup/shutdown transients, or two-phase/single-phase thermal-fluid systems.\n- Experience integrating thermal hardware into aerospace or nuclear systems, including structural interfaces, thermal expansion, manufacturability, inspection, reliability, and operations constraints.\n- Experience building and validating thermal models using test data, experimental data, or flight/hardware data.\n- Experience performing thermal design trades and communicating model assumptions, uncertainty, margins, and design implications to cross-functional engineering teams.\nWork location and geographic eligibility:\nLocation: Torrance, CA (Los Angeles area). Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -182,93 +182,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f6ce95d2f1f537b8b262b73f98f5395b7a16e775941418e85c3e3343495041aa",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The role lists Los Angeles as its location and identifies the employer’s facility in Torrance, CA. It does not explicitly require current residence, specify a remote or hybrid arrangement, or state a relocation policy.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "Torrance, CA (Los Angeles area)"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Los Angeles",
-        "We are located in Torrance, CA in a 322,000 square foot, brand new facility featuring large open spaces for team collaboration, R&D, and production, as well as easy access to the 405, 105, and 110 freeways."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "5+ years of experience in thermal engineering, thermal analysis, heat transfer, spacecraft thermal systems, nuclear systems, high-temperature systems, or closely related hardware development.",
-        "effective_requirement": "5+ years of experience in thermal engineering, thermal analysis, heat transfer, spacecraft thermal systems, nuclear systems, high-temperature systems, or closely related hardware development.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Must be a U.S. citizen or national, U.S. lawful permanent resident, qualifying refugee, qualifying asylee, or eligible to obtain the required authorizations from the U.S. Department of State.",
+        "source_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "9d05f41b3b6337f91d4b01f1c9a314ea4651cc1a98c64632283e66a888c80c20",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Must be a U.S. citizen or national, U.S. lawful permanent resident, qualifying refugee, qualifying asylee, or eligible to obtain the required authorizations from the U.S. Department of State.",
-          "source_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ee4ac4b393bda8e03246c4b267069779a17be26122222b4516d2aa6b99280567",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience performing thermal design trades and communicating model assumptions, uncertainty, margins, and design implications to cross-functional engineering teams.",
-          "source_quote": "Experience performing thermal design trades and communicating model assumptions, uncertainty, margins, and design implications to cross-functional engineering teams.",
-          "verification": "profile",
-          "reason": "Trade studies and communication practices are rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience building and validating thermal models using test data, experimental data, or flight/hardware data.",
-          "after": "Experience building thermal models.",
-          "reason": "Thermal modeling is implied by thermal analyst roles; validation-against-test practice is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P12",
-        "M5": "P13"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience building and validating thermal models using test data, experimental data, or flight/hardware data.",
+        "effective_requirement": "Experience building thermal models.",
+        "reason": "Thermal modeling is implied by thermal analyst roles; validation-against-test practice is not."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "47fda38d8c49a7b056f28e0ea8d159f244a0318f0f449508f4aaa7488de57b65",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "ffc839826e149e37dad455df356889c4a0362083ce3ed275f14dce5b9297f5a1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Torrance, CA (Los Angeles area)"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Torrance, CA (Los Angeles area). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience performing thermal design trades and communicating model assumptions, uncertainty, margins, and design implications to cross-functional engineering teams.",
+        "source_quote": "Experience performing thermal design trades and communicating model assumptions, uncertainty, margins, and design implications to cross-functional engineering teams.",
+        "verification": "profile",
+        "reason": "Trade studies and communication practices are rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

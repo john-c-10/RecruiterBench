@@ -3,10 +3,10 @@
   "role_id": "aa354084-dd15-4234-9242-5bb92bd780a5",
   "snapshot_sha256": "b937387302b4e5d0f84d5a02c437bb40e53a26138b440bdaa49f3b524cbcf6d6",
   "input_sha256": "eeb7ceded17e5f177ac4447b3b399b88fc5b41629ec955d2bfffea939b56c1f2",
-  "rubric_sha256": "7268ed937c950ff0310c06ea1ccf2c68331d6f44e59821b302566f084359dcda",
+  "rubric_sha256": "23b8070df42117a07bc07e3fdd3f5b1bd94bd6c850615778f43d5e488308e16d",
   "rubric": {
     "role_summary": "Remote US travel support role handling booking changes, air ticketing and refunds, and customer inquiries by email, phone, and chat.",
-    "search_query": "Find candidates for this role:\nRemote US travel support role handling booking changes, air ticketing and refunds, and customer inquiries by email, phone, and chat.\nMandatory professional qualifications:\n- At least 3 years of experience using a GDS.\n- Strong knowledge of air fares, ticketing, re-issues and refunds.\nPreferred, not mandatory:\n- Travelport/Galileo or Sabre GDS experience preferred.\n- Experience with NDC systems such as Farelogix SPRK or IAG TAP strongly preferred.\n- Experience using Zendesk for customer support queries preferred.\n- Previous experience with BSP Link or knowledge of ARC preferred.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nRemote US travel support role handling booking changes, air ticketing and refunds, and customer inquiries by email, phone, and chat.\nMandatory professional qualifications:\n- At least 3 years of experience using a GDS.\n- Strong knowledge of air fares, ticketing, re-issues and refunds.\nPreferred, not mandatory:\n- Travelport/Galileo or Sabre GDS experience preferred.\n- Experience with NDC systems such as Farelogix SPRK or IAG TAP strongly preferred.\n- Experience using Zendesk for customer support queries preferred.\n- Previous experience with BSP Link or knowledge of ARC preferred.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,78 +115,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "0f4bdfa86e40c8ab91fa915f104cf350066d00e41aa85ea05203156e41ec46a7",
-    "resolved_ambiguities": [
-      "The opening says candidates must be able to work Eastern or Pacific Time business hours, while the qualifications bullet says they must be able to work Pacific Time business hours. Clarify whether Eastern Time hours alone qualify."
-    ],
-    "resolution": "Accept either Eastern or Pacific business hours under the less restrictive text interpretation.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed in the United States; the posting does not explicitly require current US residence.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "United States",
-        "Remote"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "At least 3 years worth of experience using a GDS (Travelport/Galileo or Sabre preferred)",
-        "effective_requirement": "At least 3 years of experience using a GDS.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "0bcc5bc0de538c2f4cfb7372c3316e6534c57cae0755c6472234b7dcf657d07c",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "requirement": "Able to work Eastern OR Pacific Time business hours, with some flexibility on shift patterns.",
-          "source_quote": "The candidate must be able to work Eastern or Pacific Time business hours, with some flexibility on shift patterns.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M2": "M1",
-        "M3": "M2"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "0dd92b2987a3fe24fdf818fe692584c8f5cf5a958f103b6326f90dec018df1bd",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "0dd92b2987a3fe24fdf818fe692584c8f5cf5a958f103b6326f90dec018df1bd",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "e2b5b8eeff1346e05c33ceef93c5adc00a4aae26d2028539174d4693c8641de2",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Able to work Eastern OR Pacific Time business hours, with some flexibility on shift patterns.",
+        "source_quote": "The candidate must be able to work Eastern or Pacific Time business hours, with some flexibility on shift patterns.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

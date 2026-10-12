@@ -3,10 +3,10 @@
   "role_id": "b06ef00c-d377-4b83-b875-94f49a03bff2",
   "snapshot_sha256": "d8d958ad8f6099721a7460a76cf46db8d02c7f43124e1f69aa4d0bfa5824f1fc",
   "input_sha256": "3471a1593785df04b0036a8f9a4052303e5ceba871164ef00186fabd08468c98",
-  "rubric_sha256": "d0c102e2538b15562d74cbee40bace841835decc8a20b9e51c8c2415373693c8",
+  "rubric_sha256": "06a2276f16d94c29064ef1a9ccfa362696cbf0b26246e62570a718519703a8b6",
   "rubric": {
     "role_summary": "First dedicated recruiting and people operations hire, responsible for full-cycle technical and operations recruiting and building onboarding, HR systems, benefits, and other people processes as the company scales.",
-    "search_query": "Find candidates for this role:\nFirst dedicated recruiting and people operations hire, responsible for full-cycle technical and operations recruiting and building onboarding, HR systems, benefits, and other people processes as the company scales.\nMandatory professional qualifications:\n- 3+ years of recruiting experience.\n- Experience recruiting technical talent.\n- Hands-on people operations experience.\nPreferred, not mandatory:\n- 3+ years of recruiting experience, with real ownership in a fast-growing startup or high-performance environment.\n- Track record of personally recruiting and closing technical talent.\n- Experience helping an organization scale from 10's of employees to 100+.\n- Ability to source candidates who are not actively applying.\n- Hands-on experience with HRIS, benefits, onboarding, and other core people operations.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Full-time role, five days a week at our San Francisco office.",
+    "search_query": "Find candidates for this role:\nFirst dedicated recruiting and people operations hire, responsible for full-cycle technical and operations recruiting and building onboarding, HR systems, benefits, and other people processes as the company scales.\nMandatory professional qualifications:\n- 3+ years of recruiting experience.\n- Experience recruiting technical talent.\n- Hands-on people operations experience.\nPreferred, not mandatory:\n- 3+ years of recruiting experience, with real ownership in a fast-growing startup or high-performance environment.\n- Track record of personally recruiting and closing technical talent.\n- Experience helping an organization scale from 10's of employees to 100+.\n- Ability to source candidates who are not actively applying.\n- Hands-on experience with HRIS, benefits, onboarding, and other core people operations.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -130,111 +130,47 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f28e6b69e0a75175ac5c0d8350585a01716c836212a3bd7f902cc90b4d6601c0",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Full-time, five days a week at the San Francisco office; present residence in San Francisco is not specified.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "San Francisco office"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco",
-        "Full-time role, five days a week at our San Francisco office."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "3-7+ years of experience recruiting, with real ownership in a fast-growing startup or high-performance environment.",
-        "effective_requirement": "3+ years of recruiting experience, with real ownership in a fast-growing startup or high-performance environment.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "3+ years of recruiting experience, with real ownership in a fast-growing startup or high-performance environment.",
+        "effective_requirement": "3+ years of recruiting experience.",
+        "reason": "Recruiting years are observable; real ownership qualifier is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Track record of personally recruiting and closing technical talent.",
+        "effective_requirement": "Experience recruiting technical talent.",
+        "reason": "Technical recruiting is observable from titles; personal closing is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience with HRIS, benefits, onboarding, and other core people operations.",
+        "effective_requirement": "Hands-on people operations experience.",
+        "reason": "People ops experience is observable; every sub-area listed is not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "ff51eaacf4faaf1e8becdfb3d773798120ad046b92ffa585e1ae03277af48f54",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ff51eaacf4faaf1e8becdfb3d773798120ad046b92ffa585e1ae03277af48f54",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience helping an organization scale from 10's of employees to 100+.",
-          "source_quote": "Experience helping an organization scale from 10's of employees to 100+.",
-          "verification": "profile",
-          "reason": "Scaling outcome is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to source candidates who are not actively applying.",
-          "source_quote": "Strong sourcing instincts and the creativity to reach candidates who are not actively applying.",
-          "verification": "profile",
-          "reason": "Sourcing passive candidates is a practice rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "3+ years of recruiting experience, with real ownership in a fast-growing startup or high-performance environment.",
-          "after": "3+ years of recruiting experience.",
-          "reason": "Recruiting years are observable; real ownership qualifier is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Track record of personally recruiting and closing technical talent.",
-          "after": "Experience recruiting technical talent.",
-          "reason": "Technical recruiting is observable from titles; personal closing is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Hands-on experience with HRIS, benefits, onboarding, and other core people operations.",
-          "after": "Hands-on people operations experience.",
-          "reason": "People ops experience is observable; every sub-area listed is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M3"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience helping an organization scale from 10's of employees to 100+.",
+        "source_quote": "Experience helping an organization scale from 10's of employees to 100+.",
+        "verification": "profile",
+        "reason": "Scaling outcome is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4",
-        "M5": "P5"
+      {
+        "field": "must_haves",
+        "requirement": "Ability to source candidates who are not actively applying.",
+        "source_quote": "Strong sourcing instincts and the creativity to reach candidates who are not actively applying.",
+        "verification": "profile",
+        "reason": "Sourcing passive candidates is a practice rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "c20acc29e1a93a6c9d5aaccd2ec3677b2fe76625d778c4175b5b49195c8db0d9",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "f28866a6b9c4ae248dd202b9d473794898bc71e84ca4a3e737f57b0de4b90b3f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Full-time role, five days a week at our San Francisco office.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

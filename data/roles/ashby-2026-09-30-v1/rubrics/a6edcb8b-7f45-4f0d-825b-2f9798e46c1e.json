@@ -3,10 +3,10 @@
   "role_id": "a6edcb8b-7f45-4f0d-825b-2f9798e46c1e",
   "snapshot_sha256": "cb6189aae7ac695459dd3c539ac80eaa4d1bcb8bbb5135db5933e538446c35cb",
   "input_sha256": "42da00cde397c127bbd80557e6dacc8a9f39d3e1b5774d613001ca7c528c7c23",
-  "rubric_sha256": "b54f8dc29d8d0139027af3cfb40cd789d644ba3d3509a1947a51153101253bb5",
+  "rubric_sha256": "4a821845484e939e43bb53682ef7f150e5a107b245e69cf6780828e7c9764e51",
   "rubric": {
     "role_summary": "Senior food and beverage leadership role overseeing hotel service operations, budgets, staff development, and culinary and beverage delivery across daily service and events.",
-    "search_query": "Find candidates for this role:\nSenior food and beverage leadership role overseeing hotel service operations, budgets, staff development, and culinary and beverage delivery across daily service and events.\nMandatory professional qualifications:\n- Proven F&B management experience within hospitality or luxury settings.\n- WSET Level 2 or equivalent beverage knowledge.\nPreferred, not mandatory:\n- Strong knowledge of CRM and POS systems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Bridport, Dorset, United Kingdom area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior food and beverage leadership role overseeing hotel service operations, budgets, staff development, and culinary and beverage delivery across daily service and events.\nMandatory professional qualifications:\n- Proven F&B management experience within hospitality or luxury settings.\n- WSET Level 2 or equivalent beverage knowledge.\nPreferred, not mandatory:\n- Strong knowledge of CRM and POS systems.\nWork location and geographic eligibility:\nLocation: Greater Bridport, Dorset, United Kingdom area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -97,89 +97,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f0ab9317cb4d51b51fdae00906a8578f44b57c3b29590ecd6240fa7d3abcf62a",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work at Louma Country Hotel; the posting does not specify a city or region or require current residence nearby.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Louma Country Hotel"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Louma Country Hotel",
-        "OnSite"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "45f0809bf60bbaa08fc042b966963acaf6b1202e03f3cb7d0d4f1f8c24f6d11e",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Personal Alcohol License and Level 3 Food Hygiene certification.",
-          "source_quote": "Personal Alcohol License and Level 3 Food Hygiene certification.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "HACCP, First Aid at Work, Fire Marshall, and Manual Handling certifications.",
-          "source_quote": "HACCP, First Aid at Work, Fire Marshall, Manual Handling certifications.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M5": "M3"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "6aea8c02543ddfff05b8a9333e90ea430c4fcb071a23e530711eac376c20efed",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Strong knowledge of CRM and POS systems.",
-          "source_quote": "Strong knowledge of CRM and POS systems.",
-          "verification": "profile",
-          "reason": "CRM/POS tool knowledge is rarely listed even by qualified F&B leaders."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M3": "M2"
-      },
-      "demoted_preference_ids": {
-        "M2": "P1"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6d2b5c0f3c159b3195ae7e6915cc69a50d85ad66d8243595d03c23da674d0502",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d1ae4cb87e5055c6c4a6fbe85de1448a7fc9967fabbbd48feafc041e410f7cbe",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Bridport, Dorset, United Kingdom area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Bridport, Dorset, United Kingdom area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Personal Alcohol License and Level 3 Food Hygiene certification.",
+        "source_quote": "Personal Alcohol License and Level 3 Food Hygiene certification.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "HACCP, First Aid at Work, Fire Marshall, and Manual Handling certifications.",
+        "source_quote": "HACCP, First Aid at Work, Fire Marshall, Manual Handling certifications.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Strong knowledge of CRM and POS systems.",
+        "source_quote": "Strong knowledge of CRM and POS systems.",
+        "verification": "profile",
+        "reason": "CRM/POS tool knowledge is rarely listed even by qualified F&B leaders."
+      }
+    ]
   },
   "experience_context": []
 }

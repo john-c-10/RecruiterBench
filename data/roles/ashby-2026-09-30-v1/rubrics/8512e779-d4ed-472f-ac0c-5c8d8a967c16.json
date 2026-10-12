@@ -3,10 +3,10 @@
   "role_id": "8512e779-d4ed-472f-ac0c-5c8d8a967c16",
   "snapshot_sha256": "94b157a78ffca93ac5987f86a51882988312c8a214575d8dffa7555f725e768f",
   "input_sha256": "a3ff318fb3d9fd374aeda2fd7c2ee3712cf61579c34c226bf8d53c3631273080",
-  "rubric_sha256": "7a49d618679d57079125bc7aa8464f2f9ec1eed646eaf7bb0735f4a720d2827b",
+  "rubric_sha256": "3e216761affc878a614b12bf1c8336f730ad010f1554b17003d959f3f6004b8a",
   "rubric": {
     "role_summary": "Onsite Singapore quantitative trader for crypto delta-one trading, owning multi-venue positions, PnL and risk while operating automated trading systems and improving execution.",
-    "search_query": "Find candidates for this role:\nOnsite Singapore quantitative trader for crypto delta-one trading, owning multi-venue positions, PnL and risk while operating automated trading systems and improving execution.\nMandatory professional qualifications:\n- 3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment.\n- Hands-on experience monitoring, tuning, and intervening in automated and semi-automated trading systems under live conditions.\n- Knowledge of market microstructure.\n- Proficiency in Python for analysis, tooling, and interaction with trading systems.\nPreferred, not mandatory:\n- Exposure to systematic HFT and MFT strategies, ideally in crypto D1 markets.\n- 3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment, with demonstrated PnL responsibility on linear (D1) products across multiple venues.\n- Ability to analyze fills and quotes to identify concrete execution improvements.\n- Knowledge of market microstructure and ability to explain why a strategy works.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Singapore. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nOnsite Singapore quantitative trader for crypto delta-one trading, owning multi-venue positions, PnL and risk while operating automated trading systems and improving execution.\nMandatory professional qualifications:\n- 3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment.\n- Hands-on experience monitoring, tuning, and intervening in automated and semi-automated trading systems under live conditions.\n- Knowledge of market microstructure.\n- Proficiency in Python for analysis, tooling, and interaction with trading systems.\nPreferred, not mandatory:\n- Exposure to systematic HFT and MFT strategies, ideally in crypto D1 markets.\n- 3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment, with demonstrated PnL responsibility on linear (D1) products across multiple venues.\n- Ability to analyze fills and quotes to identify concrete execution improvements.\n- Knowledge of market microstructure and ability to explain why a strategy works.\nWork location and geographic eligibility:\nNo geographic filter: the role is onsite in Singapore, and relocation is provided for hires from any location.",
     "must_haves": [
       {
         "id": "M1",
@@ -129,97 +129,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "abc9ce7560a21a44016de6fe6eac4ed983f7c1ecdcbb60c0136b52a6722a0c3b",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite trading-floor role in Singapore; an all-in relocation package is offered for international candidates. Present residence in Singapore is not specified as required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Singapore"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Singapore",
-        "OnSite",
-        "As a Quantitative Trader on our Singapore trading floor",
-        "For internationals: All-in relocation package"
-      ]
+    "location": {
+      "decision": "global",
+      "reason": "Relocation is offered to international hires, so the role realistically hires from any location."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "3+ years of experience as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment, with demonstrated PnL responsibility on linear (D1) products across multiple venues",
-        "effective_requirement": "3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment, with demonstrated PnL responsibility on linear (D1) products across multiple venues.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment, with demonstrated PnL responsibility on linear (D1) products across multiple venues.",
+        "effective_requirement": "3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment.",
+        "reason": "Role and years are visible; demonstrated PnL on delta-one products across venues is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Knowledge of market microstructure and ability to explain why a strategy works.",
+        "effective_requirement": "Knowledge of market microstructure.",
+        "reason": "Microstructure knowledge is implied by quant trading roles; explaining strategies is unobservable."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "bbb136d4e8bd40693466a8a6d4d30e2ccb2aa36314dfa18e654bc0705c69ae5e",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "bbb136d4e8bd40693466a8a6d4d30e2ccb2aa36314dfa18e654bc0705c69ae5e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to analyze fills and quotes to identify concrete execution improvements.",
-          "source_quote": "you can take a messy dataset of fills and quotes and turn it into a concrete execution improvement",
-          "verification": "profile",
-          "reason": "Fill/quote analysis for execution improvements is a specific practice rarely mentioned."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment, with demonstrated PnL responsibility on linear (D1) products across multiple venues.",
-          "after": "3+ years as a Quantitative Trader and/or Quantitative Researcher in a professional trading environment.",
-          "reason": "Role and years are visible; demonstrated PnL on delta-one products across venues is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Knowledge of market microstructure and ability to explain why a strategy works.",
-          "after": "Knowledge of market microstructure.",
-          "reason": "Microstructure knowledge is implied by quant trading roles; explaining strategies is unobservable."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M5": "M4"
-      },
-      "demoted_preference_ids": {
-        "M1": "P2",
-        "M3": "P3",
-        "M4": "P4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to analyze fills and quotes to identify concrete execution improvements.",
+        "source_quote": "you can take a messy dataset of fills and quotes and turn it into a concrete execution improvement",
+        "verification": "profile",
+        "reason": "Fill/quote analysis for execution improvements is a specific practice rarely mentioned."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "3086212e119b048d7dda1279ca02951f702a062c2c8161f7245426df005fd44d",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "cdacfc56bb17507084d820906cd80652d88dc6c10b5ca7b48659044bb4f5a306",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "global",
-      "reason": "Relocation is offered to international hires, so the role realistically hires from any location.",
-      "previous_allowed_locations": [
-        "Singapore"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Singapore. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

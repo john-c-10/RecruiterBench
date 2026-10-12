@@ -3,10 +3,10 @@
   "role_id": "5f0c6579-0bfb-4a06-8a43-1dd371499e10",
   "snapshot_sha256": "e1345776dc937dcc8aff6edc96e2934940ef12202b6d55964578cfd5f6491498",
   "input_sha256": "588bfd28b836a10c271647dab94c6b4e20a516a54762030ba58de1a6bb0a4c72",
-  "rubric_sha256": "116b21fc340532a27cc5fd6769855056fdcc4f0b042ca3e366d252183a5af715",
+  "rubric_sha256": "8e6c2fdea3d86527ec0e68c53fe30bb38057b62f6aaf23a13a3c4e0090abf285",
   "rubric": {
     "role_summary": "Research Scientist developing machine learning techniques and advancing a research agenda through independent, long-running projects and collaboration across research teams.",
-    "search_query": "Find candidates for this role:\nResearch Scientist developing machine learning techniques and advancing a research agenda through independent, long-running projects and collaboration across research teams.\nMandatory professional qualifications:\n- Track record of developing new machine learning ideas or improving existing ones, demonstrated by accomplishments such as first-author publications or projects.\nPreferred, not mandatory:\n- Past experience creating high-performance implementations of deep learning algorithms.\n- Ability to own and pursue a research agenda, including choosing research problems and autonomously carrying out long-running projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nResearch Scientist developing machine learning techniques and advancing a research agenda through independent, long-running projects and collaboration across research teams.\nMandatory professional qualifications:\n- Track record of developing new machine learning ideas or improving existing ones, demonstrated by accomplishments such as first-author publications or projects.\nPreferred, not mandatory:\n- Past experience creating high-performance implementations of deep learning algorithms.\n- Ability to own and pursue a research agenda, including choosing research problems and autonomously carrying out long-running projects.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -96,67 +96,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ec3bcba2b7c390a60e987801e25e94b11901633fba764307a17c1c4b2dce81f6",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work location is San Francisco; the posting does not specify a remote option, a current-residence requirement, or a relocation policy.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "San Francisco"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "fbe9dd5025e01df3d2ad4c2ef92c692a48d9964a808343f08d0105f7838579b8",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "fbe9dd5025e01df3d2ad4c2ef92c692a48d9964a808343f08d0105f7838579b8",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Ability to own and pursue a research agenda, including choosing research problems and autonomously carrying out long-running projects.",
-          "source_quote": "Possess the ability to own and pursue a research agenda, including choosing impactful research problems and autonomously carrying out long-running projects",
-          "verification": "profile",
-          "reason": "Ability to own a research agenda autonomously is a work-style trait rarely stated (0.73 strict fail)."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f5f6dd526a51d60833d41d35107103f6f4fa03f9a6c86e209e894782819f55a4",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "49785bc8ffd3087c7b3ff4a3b309b372d2e3d4b5d97df5139d4a5fbb323e9f33",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to own and pursue a research agenda, including choosing research problems and autonomously carrying out long-running projects.",
+        "source_quote": "Possess the ability to own and pursue a research agenda, including choosing impactful research problems and autonomously carrying out long-running projects",
+        "verification": "profile",
+        "reason": "Ability to own a research agenda autonomously is a work-style trait rarely stated (0.73 strict fail)."
+      }
+    ]
   },
   "experience_context": []
 }

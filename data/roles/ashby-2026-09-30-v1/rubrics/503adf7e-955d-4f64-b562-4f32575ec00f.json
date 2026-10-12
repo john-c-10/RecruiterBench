@@ -3,10 +3,10 @@
   "role_id": "503adf7e-955d-4f64-b562-4f32575ec00f",
   "snapshot_sha256": "068aae9ba46330847a6ebe4e52d764b70cfcfd609b2ba8fc51ff4bf4d1f897b2",
   "input_sha256": "7fec0450fa87a113bfa0141ef3ee327734876e54f31a2a84fa98772f54f228da",
-  "rubric_sha256": "f8d0f3bb6647e7d1806245c68dda8bfeac4d1ba865cb59a46b0e3cf19a274f65",
+  "rubric_sha256": "08b5a4d1334a409e1890c26ad4b9aef5caf8a75e53d3ba786a81414166188c5f",
   "rubric": {
     "role_summary": "Electrical hardware developer working on smart-transportation products, including PCB design, hardware validation, in-life product updates, and manufacturing test fixtures.",
-    "search_query": "Find candidates for this role:\nElectrical hardware developer working on smart-transportation products, including PCB design, hardware validation, in-life product updates, and manufacturing test fixtures.\nMandatory professional qualifications:\n- Experience designing electronics using modern CAD tools; no particular named CAD tool is required.\n- Experience debugging and validating PCBs with standard lab equipment.\nPreferred, not mandatory:\n- Experience designing multilayer circuit boards, high-speed digital interfaces, switch-mode power supplies, or microprocessor-based products.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Kitchener area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nElectrical hardware developer working on smart-transportation products, including PCB design, hardware validation, in-life product updates, and manufacturing test fixtures.\nMandatory professional qualifications:\n- Experience designing electronics using modern CAD tools; no particular named CAD tool is required.\n- Experience debugging and validating PCBs with standard lab equipment.\nPreferred, not mandatory:\n- Experience designing multilayer circuit boards, high-speed digital interfaces, switch-mode power supplies, or microprocessor-based products.\nWork location and geographic eligibility:\nLocation: Greater Kitchener area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -98,57 +98,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "a42a15c4693019b1b5a51124a1ea791e57cc76f2c5015dfb46d5dc0ca8f37b26",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work associated with Kitchener; present residence in Kitchener is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Kitchener"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Kitchener",
-        "Hybrid"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "0c3cf0b31f77cd8722f289791d7f1d9933235bbc45b5076973b6dcf671339c9d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "0c3cf0b31f77cd8722f289791d7f1d9933235bbc45b5076973b6dcf671339c9d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "0c3cf0b31f77cd8722f289791d7f1d9933235bbc45b5076973b6dcf671339c9d",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "328941185dab89168c93a0083c28338eac2ebe713715a120f17d09679c3c2dc7",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Kitchener area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Kitchener area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

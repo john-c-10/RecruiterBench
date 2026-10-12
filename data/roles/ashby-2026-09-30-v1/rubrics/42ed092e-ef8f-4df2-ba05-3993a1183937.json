@@ -3,10 +3,10 @@
   "role_id": "42ed092e-ef8f-4df2-ba05-3993a1183937",
   "snapshot_sha256": "4564c0177d068122b982a60b3aa50a91d5e0a30d246451078e30be2b6c116e8d",
   "input_sha256": "bdef99cee628829b1c3225a96c7bc036fa090d159384e3f50fab2e5a164e0d8c",
-  "rubric_sha256": "7528cb31bfe5864e9ac4f76b57b640b53b349bce1bdcb0297e21f9428dd09291",
+  "rubric_sha256": "163cfd9ebd8e30b823c07712f00b06f34d8dced946ef4f5bdc71cc376cff5b2d",
   "rubric": {
     "role_summary": "Mid-career M&A investment banker focused on lower-middle-market, founder-led businesses, with responsibility for transaction execution, sector coverage, and deal origination.",
-    "search_query": "Find candidates for this role:\nMid-career M&A investment banker focused on lower-middle-market, founder-led businesses, with responsibility for transaction execution, sector coverage, and deal origination.\nMandatory professional qualifications:\n- 5+ years of experience.\n- Experience in deal execution.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nMid-career M&A investment banker focused on lower-middle-market, founder-led businesses, with responsibility for transaction execution, sector coverage, and deal origination.\nMandatory professional qualifications:\n- 5+ years of experience.\n- Experience in deal execution.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -91,64 +91,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "3cb7ace22c699c3758433655c89087e994e10b1f5102e565d3121abcdab2bd8f",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role in New York; the posting does not require candidates to currently reside there.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York",
-        "OnSite"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5–8 years of experience.",
-        "effective_requirement": "5+ years of experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "95203b3d77be05d15768a9a47cd328649a2e1e7417dd7edaea4cbdc8fcb663c0",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "95203b3d77be05d15768a9a47cd328649a2e1e7417dd7edaea4cbdc8fcb663c0",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "95203b3d77be05d15768a9a47cd328649a2e1e7417dd7edaea4cbdc8fcb663c0",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "84015e83f25bf5db277bf63d31cf15647bfdca89a87b29081df91ee32858a756",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

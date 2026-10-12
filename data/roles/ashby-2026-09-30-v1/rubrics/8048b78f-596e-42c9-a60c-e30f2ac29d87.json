@@ -3,10 +3,10 @@
   "role_id": "8048b78f-596e-42c9-a60c-e30f2ac29d87",
   "snapshot_sha256": "84cc871f383d96c49e48d37407a2fc7d100c9d799253023cad6e80d3e371fc12",
   "input_sha256": "a78db2f82ffb7941047ed39e2700130c105528ddfca435e7f59e82875eca05f0",
-  "rubric_sha256": "4b2d40d7356f146981ab850baca6a88f2c5b08bcafe5779b7f51cdc01e560881",
+  "rubric_sha256": "1d13bd9c12550c605f403e3cbc2b92ddefb6ecf6f9ec6cabc3308ee795da14f2",
   "rubric": {
     "role_summary": "On-site Berlin CFO role leading financial architecture, capital structure, financing, M&A, controls, modeling, and the finance organization for a growing industrial-materials trading and distribution business.",
-    "search_query": "Find candidates for this role:\nOn-site Berlin CFO role leading financial architecture, capital structure, financing, M&A, controls, modeling, and the finance organization for a growing industrial-materials trading and distribution business.\nMandatory professional qualifications:\n- Strong background in accounting firms, investment banking, or private equity.\n- Hands-on company-building or scale-up experience.\n- Experience with equity, debt, or M&A transactions.\n- Accounting and financial controls expertise.\n- Financial modeling skills.\n- Professional background from Germany, France, or the UK.\nPreferred, not mandatory:\n- Transaction services background within accounting firms.\n- Private equity background in growth equity, infrastructure, or industrials.\n- Experience in working-capital-intensive or transaction-heavy businesses.\n- Hands-on company-building or scale-up experience with exposure to acquisitions.\n- Proven track record across equity, debt, and M&A transactions.\n- Ability to design and evolve capital structures.\n- Deep understanding of accounting, controls, and risk frameworks.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nOn-site Berlin CFO role leading financial architecture, capital structure, financing, M&A, controls, modeling, and the finance organization for a growing industrial-materials trading and distribution business.\nMandatory professional qualifications:\n- Strong background in accounting firms, investment banking, or private equity.\n- Hands-on company-building or scale-up experience.\n- Experience with equity, debt, or M&A transactions.\n- Accounting and financial controls expertise.\n- Financial modeling skills.\n- Professional background from Germany, France, or the UK.\nPreferred, not mandatory:\n- Transaction services background within accounting firms.\n- Private equity background in growth equity, infrastructure, or industrials.\n- Experience in working-capital-intensive or transaction-heavy businesses.\n- Hands-on company-building or scale-up experience with exposure to acquisitions.\n- Proven track record across equity, debt, and M&A transactions.\n- Ability to design and evolve capital structures.\n- Deep understanding of accounting, controls, and risk frameworks.\nWork location and geographic eligibility:\nLocation: Greater Berlin area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -159,114 +159,55 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "c932f0e8b9ca70be580c486a04d612e3ae473beedddd3e7dacd0909e0b783269",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The position is on-site in Berlin; current residence in Berlin is not specified.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Berlin"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Berlin",
-        "The position is on-site in Berlin."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "3c544aef99f084caacc00a587b41bf25c76cd69676f78b994b925659f5b4a8f7",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Fluent in English.",
-          "source_quote": "Fluent in English.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Fluent in German or French at native or near-native level.",
-          "source_quote": "Fluent in German or French at native or near-native level.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "781e0077d59242bafc8eabba17693eb3cccfe60522938288041e0fd220dd3a6f",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to design and evolve capital structures.",
-          "source_quote": "Demonstrated ability to design and evolve capital structures.",
-          "verification": "profile",
-          "reason": "Capital structure design ability is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Hands-on company-building or scale-up experience with exposure to acquisitions.",
-          "after": "Hands-on company-building or scale-up experience.",
-          "reason": "Scale-up experience is observable; acquisition exposure is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Proven track record across equity, debt, and M&A transactions.",
-          "after": "Experience with equity, debt, or M&A transactions.",
-          "reason": "Transaction experience is implied by IB/PE/CFO roles; all three types are not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Deep understanding of accounting, controls, and risk frameworks.",
-          "after": "Accounting and financial controls expertise.",
-          "reason": "Accounting/controls is implied by finance roles; risk frameworks depth is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M4",
-        "M6": "M5",
-        "M7": "M6"
-      },
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5",
-        "M4": "P6",
-        "M5": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "498beb32added24e3a7a9cb782657ebbc331e514f9ef1ba590c6c9b4b4d07059",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "08038ee82f59f3f874bf7446e24721c87919eea60ca1cead5b0ba3ee58a9bf98",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Berlin area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Fluent in English.",
+        "source_quote": "Fluent in English.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Fluent in German or French at native or near-native level.",
+        "source_quote": "Fluent in German or French at native or near-native level.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on company-building or scale-up experience with exposure to acquisitions.",
+        "effective_requirement": "Hands-on company-building or scale-up experience.",
+        "reason": "Scale-up experience is observable; acquisition exposure is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Proven track record across equity, debt, and M&A transactions.",
+        "effective_requirement": "Experience with equity, debt, or M&A transactions.",
+        "reason": "Transaction experience is implied by IB/PE/CFO roles; all three types are not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep understanding of accounting, controls, and risk frameworks.",
+        "effective_requirement": "Accounting and financial controls expertise.",
+        "reason": "Accounting/controls is implied by finance roles; risk frameworks depth is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to design and evolve capital structures.",
+        "source_quote": "Demonstrated ability to design and evolve capital structures.",
+        "verification": "profile",
+        "reason": "Capital structure design ability is rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

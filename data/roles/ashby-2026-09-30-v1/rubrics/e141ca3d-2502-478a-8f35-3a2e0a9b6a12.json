@@ -3,10 +3,10 @@
   "role_id": "e141ca3d-2502-478a-8f35-3a2e0a9b6a12",
   "snapshot_sha256": "459025e8f3c8b6bbedbd075de94006bc477058722c967d540487ebc14642242e",
   "input_sha256": "bcc4ec8d55ed99ae17ff4b2a104da9f8b21a163f15b98b76b0b8e978f3c0bb69",
-  "rubric_sha256": "ad802e3bae7930f9c5ad27241f1e68b95bd489579d81e43da8afc788e8045d2f",
+  "rubric_sha256": "f4c2bc6ecf317a731cd7e39aa407d4c9d387b40c021ae3d6df1380274561eaf5",
   "rubric": {
     "role_summary": "Early full-stack product engineering role building AI-powered media monitoring and analytics tools, with responsibility for architecture, production delivery, and technical direction.",
-    "search_query": "Find candidates for this role:\nEarly full-stack product engineering role building AI-powered media monitoring and analytics tools, with responsibility for architecture, production delivery, and technical direction.\nMandatory professional qualifications:\n- 2+ years of relevant engineering experience at tech and product-driven companies.\n- Proficiency with web technologies; the named technologies are examples, not an all-technologies requirement.\n- Deep knowledge and practical experience with cloud-based services, containerization, and API development.\nExplicit disqualifiers:\n- Background primarily in firmware, embedded systems, hardware engineering, networking, or infrastructure/DevOps is described as probably not the right fit.\nPreferred, not mandatory:\n- Experience with LLM fine-tuning, RAG, RLHF, or eval pipelines.\n- Computer vision or multimodal model experience involving audio, video, or image.\n- Experience with semantic search, vector databases, or meaning-aware retrieval.\n- Familiarity with web scraping frameworks and different types of API integrations.\n- Comfort with asynchronous workflows, rate-limiting, and distributed systems.\n- Startup founder or early-stage experience.\n- Experience taking systems from zero to production and owning their full lifecycle.\n- Experience optimizing data architectures for performance and cost.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nEarly full-stack product engineering role building AI-powered media monitoring and analytics tools, with responsibility for architecture, production delivery, and technical direction.\nMandatory professional qualifications:\n- 2+ years of relevant engineering experience at tech and product-driven companies.\n- Proficiency with web technologies; the named technologies are examples, not an all-technologies requirement.\n- Deep knowledge and practical experience with cloud-based services, containerization, and API development.\nExplicit disqualifiers:\n- Background primarily in firmware, embedded systems, hardware engineering, networking, or infrastructure/DevOps is described as probably not the right fit.\nPreferred, not mandatory:\n- Experience with LLM fine-tuning, RAG, RLHF, or eval pipelines.\n- Computer vision or multimodal model experience involving audio, video, or image.\n- Experience with semantic search, vector databases, or meaning-aware retrieval.\n- Familiarity with web scraping frameworks and different types of API integrations.\n- Comfort with asynchronous workflows, rate-limiting, and distributed systems.\n- Startup founder or early-stage experience.\n- Experience taking systems from zero to production and owning their full lifecycle.\n- Experience optimizing data architectures for performance and cost.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -155,87 +155,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "878ffed296cad58fb42948f7f0446963e625fbdb5ff15ef82537983618b6d8cc",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed for the United States; the posting does not require current US residence or state a relocation policy.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "United States",
-        "Remote"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "2–10+ years of relevant engineering experience at tech and product-driven companies.",
-        "effective_requirement": "2+ years of relevant engineering experience at tech and product-driven companies.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "1c58cf739f3ff84f00f9308d8956f25469fd47d11ed53c16ba1d6817b6489998",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "1c58cf739f3ff84f00f9308d8956f25469fd47d11ed53c16ba1d6817b6489998",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience taking systems from zero to production and owning their full lifecycle.",
-          "source_quote": "You've taken systems from zero to production and owned the full lifecycle.",
-          "verification": "profile",
-          "reason": "Zero-to-production lifecycle ownership is a practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience optimizing data architectures for performance and cost.",
-          "source_quote": "Experience optimizing data architectures for performance and cost.",
-          "verification": "profile",
-          "reason": "Optimization outcome rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M3": "M2",
-        "M4": "M3"
-      },
-      "demoted_preference_ids": {
-        "M2": "P7",
-        "M5": "P8"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "7ca5ed55bf8bb79dcde07be60cb1208f347c399712bec36e877f24c829a676e4",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "8e72b07b2a705ab334117f9fa731e9231c9666a7a1aa1d8fabb7988dcddc212f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience taking systems from zero to production and owning their full lifecycle.",
+        "source_quote": "You've taken systems from zero to production and owned the full lifecycle.",
+        "verification": "profile",
+        "reason": "Zero-to-production lifecycle ownership is a practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience optimizing data architectures for performance and cost.",
+        "source_quote": "Experience optimizing data architectures for performance and cost.",
+        "verification": "profile",
+        "reason": "Optimization outcome rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

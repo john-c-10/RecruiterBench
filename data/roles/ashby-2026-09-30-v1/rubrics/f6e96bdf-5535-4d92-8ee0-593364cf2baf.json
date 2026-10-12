@@ -3,10 +3,10 @@
   "role_id": "f6e96bdf-5535-4d92-8ee0-593364cf2baf",
   "snapshot_sha256": "b6a5d19901fcd3833f86249b0e59ffff47d1b7430fd62456a15b310e757fcf20",
   "input_sha256": "d024388d2f7c24df12b19970a5d4a135b6f4b232b52ae81dd51d89bbaf8a68c1",
-  "rubric_sha256": "7c5d8276a0ebde4b1f9bb9aabb8944c02f990e744b5037292aaad6bc95891332",
+  "rubric_sha256": "a3995f7f9bfb1a18f17dc3f46fbcc45ca43b1627ca21956ac055d795c57eeeae",
   "rubric": {
     "role_summary": "Senior individual-contributor analyst investigating ransomware through blockchain tracing, cyber threat intelligence, and cryptocurrency attribution; produces intelligence and leads for investigations and asset recovery.",
-    "search_query": "Find candidates for this role:\nSenior individual-contributor analyst investigating ransomware through blockchain tracing, cyber threat intelligence, and cryptocurrency attribution; produces intelligence and leads for investigations and asset recovery.\nMandatory professional qualifications:\n- 5+ years of professional experience in blockchain intelligence, crypto investigations, cybercrime analysis, threat intelligence, financial crime investigations, or a comparable senior analytical role.\n- Hands-on experience tracing cryptocurrency funds across blockchains.\n- Ransomware domain expertise.\nPreferred, not mandatory:\n- Experience in government, national security, law enforcement, incident response, or mature private-sector investigative or threat intelligence programs.\n- Familiarity with OSINT, cybercrime infrastructure research, and cross-domain analysis combining on-chain and off-chain signals.\n- Comfort with modern investigative tooling, including AI and structured-data platforms.\n- Experience conducting HUMINT collection and engaging threat actors through dark web forums and encrypted messaging platforms.\n- Experience mentoring peers, shaping analytical standards, or improving investigative workflows without formal people management.\n- Advanced practitioner-level knowledge of crypto forensics concepts.\n- Subject-matter depth and a track record of shaping investigative methodology or strategy beyond individual cases.\n- Deep hands-on experience tracing funds across multiple blockchains and through laundering or obfuscation techniques.\n- Demonstrated ability to independently run complex investigations and synthesize findings into written intelligence products.\n- Ransomware domain expertise, including understanding of the broader cybercrime ecosystem and relationships among its participants.\n- Experience using AI tools and LLMs to support research and analytical workflows, including critically evaluating their outputs.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States; United Kingdom. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior individual-contributor analyst investigating ransomware through blockchain tracing, cyber threat intelligence, and cryptocurrency attribution; produces intelligence and leads for investigations and asset recovery.\nMandatory professional qualifications:\n- 5+ years of professional experience in blockchain intelligence, crypto investigations, cybercrime analysis, threat intelligence, financial crime investigations, or a comparable senior analytical role.\n- Hands-on experience tracing cryptocurrency funds across blockchains.\n- Ransomware domain expertise.\nPreferred, not mandatory:\n- Experience in government, national security, law enforcement, incident response, or mature private-sector investigative or threat intelligence programs.\n- Familiarity with OSINT, cybercrime infrastructure research, and cross-domain analysis combining on-chain and off-chain signals.\n- Comfort with modern investigative tooling, including AI and structured-data platforms.\n- Experience conducting HUMINT collection and engaging threat actors through dark web forums and encrypted messaging platforms.\n- Experience mentoring peers, shaping analytical standards, or improving investigative workflows without formal people management.\n- Advanced practitioner-level knowledge of crypto forensics concepts.\n- Subject-matter depth and a track record of shaping investigative methodology or strategy beyond individual cases.\n- Deep hands-on experience tracing funds across multiple blockchains and through laundering or obfuscation techniques.\n- Demonstrated ability to independently run complex investigations and synthesize findings into written intelligence products.\n- Ransomware domain expertise, including understanding of the broader cybercrime ecosystem and relationships among its participants.\n- Experience using AI tools and LLMs to support research and analytical workflows, including critically evaluating their outputs.\nWork location and geographic eligibility:\nLocation: United States or United Kingdom (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -167,116 +167,49 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "19268ad707f7738650f2d92b7d937399f6ba921913b3200193a707e924a19169",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed for the United States or United Kingdom; primary team time-zone overlap is US Eastern / Central. No present-residence requirement or relocation policy is stated.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States",
-        "United Kingdom"
-      ],
-      "remote_scope": "United States or United Kingdom",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "United States",
-        "United Kingdom",
-        "Remote",
-        "Primary time zone overlap: US Eastern / Central"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote in the United States or the United Kingdom."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5-8+ years of professional experience in blockchain intelligence, crypto investigations, cybercrime analysis, threat intelligence, financial crime investigations, or a comparable senior analytical role.",
-        "effective_requirement": "5+ years of professional experience in blockchain intelligence, crypto investigations, cybercrime analysis, threat intelligence, financial crime investigations, or a comparable senior analytical role.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Availability during time-sensitive disruption windows.",
+        "source_quote": "Surge availability expected during time-sensitive disruption windows",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "902ed63e38cce3a976be3602ebec6eda13583c77e70e6a2b21bdcc2f2d890ecf",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Availability during time-sensitive disruption windows.",
-          "source_quote": "Surge availability expected during time-sensitive disruption windows",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "a1719593cd17e25529d5c87e6701bd009caedd6ba547dbf8a7b9bc694b0798b6",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Demonstrated ability to independently run complex investigations and synthesize findings into written intelligence products.",
-          "source_quote": "Demonstrated ability to independently run complex investigations and synthesize findings into clear written intelligence products, including investigative assessments, lead packages, fund-flow analysis, and attribution reporting.",
-          "verification": "profile",
-          "reason": "Independent investigation and writing quality are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience using AI tools and LLMs to support research and analytical workflows, including critically evaluating their outputs.",
-          "source_quote": "Experience leveraging AI tools and large language models (LLMs) to accelerate research, surface insights, and augment analytical workflows, with the ability to critically evaluate AI-generated outputs for accuracy and relevance.",
-          "verification": "profile",
-          "reason": "AI-tool usage in research is largely unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Deep hands-on experience tracing funds across multiple blockchains and through laundering or obfuscation techniques.",
-          "after": "Hands-on experience tracing cryptocurrency funds across blockchains.",
-          "reason": "Fund tracing is implied by crypto-investigation roles; laundering-technique depth is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Ransomware domain expertise, including understanding of the broader cybercrime ecosystem and relationships among its participants.",
-          "after": "Ransomware domain expertise.",
-          "reason": "Ransomware focus is often visible in threat-intel roles; ecosystem-relationship understanding is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep hands-on experience tracing funds across multiple blockchains and through laundering or obfuscation techniques.",
+        "effective_requirement": "Hands-on experience tracing cryptocurrency funds across blockchains.",
+        "reason": "Fund tracing is implied by crypto-investigation roles; laundering-technique depth is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M2": "P8",
-        "M3": "P9",
-        "M4": "P10",
-        "M5": "P11"
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Ransomware domain expertise, including understanding of the broader cybercrime ecosystem and relationships among its participants.",
+        "effective_requirement": "Ransomware domain expertise.",
+        "reason": "Ransomware focus is often visible in threat-intel roles; ecosystem-relationship understanding is not."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ab8aa7a2c8203443332c56a323521bcdf2070a8e6141d5d6d161a6ed8fcb791c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "23063524b342fcc063daf4036e73756eaf59a9c0a027ce3145fcff97ab68d382",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote in the United States or the United Kingdom.",
-      "previous_allowed_locations": [
-        "United States",
-        "United Kingdom"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States; United Kingdom. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated ability to independently run complex investigations and synthesize findings into written intelligence products.",
+        "source_quote": "Demonstrated ability to independently run complex investigations and synthesize findings into clear written intelligence products, including investigative assessments, lead packages, fund-flow analysis, and attribution reporting.",
+        "verification": "profile",
+        "reason": "Independent investigation and writing quality are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience using AI tools and LLMs to support research and analytical workflows, including critically evaluating their outputs.",
+        "source_quote": "Experience leveraging AI tools and large language models (LLMs) to accelerate research, surface insights, and augment analytical workflows, with the ability to critically evaluate AI-generated outputs for accuracy and relevance.",
+        "verification": "profile",
+        "reason": "AI-tool usage in research is largely unstated."
+      }
+    ]
   },
   "experience_context": [
     {

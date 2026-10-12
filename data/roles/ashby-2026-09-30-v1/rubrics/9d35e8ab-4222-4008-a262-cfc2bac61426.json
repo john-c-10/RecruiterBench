@@ -3,10 +3,10 @@
   "role_id": "9d35e8ab-4222-4008-a262-cfc2bac61426",
   "snapshot_sha256": "04a29f1bfb0aaf0f356dcd4e1170e64a3f46571f3d7914fd97d7271ba8aa4db1",
   "input_sha256": "a2173e01e5894246c675a00422946707f62745f58a21fa6afd24db20ceb2a7d5",
-  "rubric_sha256": "dfa3ca53492e42f41221d21323d5c7d211fc60e27d2ea5c29f12aa01ed417e88",
+  "rubric_sha256": "21be5e0055b9a834a9575f2a78f7c4b07b1a57dce6f4aa93e14185b2e10b1e2f",
   "rubric": {
     "role_summary": "Embedded, interim founding GTM role supporting 3–5 early-stage portfolio companies at once. Builds and iterates outbound sales motions, from ICP and prospect lists through campaigns, meeting generation, reporting, and handoff to a company's first sales hire.",
-    "search_query": "Find candidates for this role:\nEmbedded, interim founding GTM role supporting 3–5 early-stage portfolio companies at once. Builds and iterates outbound sales motions, from ICP and prospect lists through campaigns, meeting generation, reporting, and handoff to a company's first sales hire.\nMandatory professional qualifications:\n- 1+ years successfully doing outbound/BDR motions at a startup.\nPreferred, not mandatory:\n- Founding or early BDR experience building a pipeline engine.\n- Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.\n- Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site.",
+    "search_query": "Find candidates for this role:\nEmbedded, interim founding GTM role supporting 3–5 early-stage portfolio companies at once. Builds and iterates outbound sales motions, from ICP and prospect lists through campaigns, meeting generation, reporting, and handoff to a company's first sales hire.\nMandatory professional qualifications:\n- 1+ years successfully doing outbound/BDR motions at a startup.\nPreferred, not mandatory:\n- Founding or early BDR experience building a pipeline engine.\n- Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.\n- Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -109,88 +109,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "88ef6c9db10afcc7c849f51048ddeadc228d2149926e0de8ace3f01fa1500990",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in either the San Francisco or New York office, with 3 days per week on-site. Present residence in either city is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, CA",
-        "New York, NY"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco, CA",
-        "New York, NY",
-        "Hybrid",
-        "This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "Have 1–3 years in a high performance environment successfully doing outbound/BDR motions at a startup",
-        "effective_requirement": "1+ years successfully doing outbound/BDR motions at a startup.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "681b76d3d360550ab731a71440b8bd6781021b59ead2d9be80c89644349c7b76",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "681b76d3d360550ab731a71440b8bd6781021b59ead2d9be80c89644349c7b76",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.",
-          "source_quote": "Deep fluency in AI-native prospecting — signal/intent-based targeting, enrichment waterfalls, and using LLMs to research an account or persona in minutes, not hours.",
-          "verification": "profile",
-          "reason": "Specific AI-native prospecting techniques are rarely listed and not implied by a BDR title."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.",
-          "source_quote": "Fluency in all modern outreach tools and approaches including Claude, Clay, LinkedIn Sales Navigator, Instantly/Lemlist/Apollo, Ploy.ai http://Ploy.ai, HubSpot/Salesforce or similar CRM).",
-          "verification": "profile",
-          "reason": "Generic tooling fluency is largely unstated and adds little beyond the BDR requirement."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d232f4900f399a733a68a25fe018de8b6792f0be2f188767a0cd4a031c2ed555",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "8320d15375bb9762a2bd88e84a43eeb56270566122a2944431c4b58e591dc9d0",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.",
+        "source_quote": "Deep fluency in AI-native prospecting — signal/intent-based targeting, enrichment waterfalls, and using LLMs to research an account or persona in minutes, not hours.",
+        "verification": "profile",
+        "reason": "Specific AI-native prospecting techniques are rarely listed and not implied by a BDR title."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.",
+        "source_quote": "Fluency in all modern outreach tools and approaches including Claude, Clay, LinkedIn Sales Navigator, Instantly/Lemlist/Apollo, Ploy.ai http://Ploy.ai, HubSpot/Salesforce or similar CRM).",
+        "verification": "profile",
+        "reason": "Generic tooling fluency is largely unstated and adds little beyond the BDR requirement."
+      }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "da27d5b5-a58a-40b3-84e7-b1da189ac6dd",
   "snapshot_sha256": "263e3935903cd5a8ad74d3ce8d0a779107c4b14439a08edec01f6f8d23590ad3",
   "input_sha256": "b684ab1f7cde2a9fc31432fd0f8caa65eaa20b5e0e38106c84db056a7cbbc99b",
-  "rubric_sha256": "6740d60e8ffd7ed65092d83e0a96e495a97d12b94d6105b4630ffb05a6e31b88",
+  "rubric_sha256": "c04442f4aea32c4c6cddb52b91dc254a9a52b6951332b0afd2d676d041251e0b",
   "rubric": {
     "role_summary": "Experienced, full-cycle accountant for an AI safety nonprofit, responsible for accounting operations and close processes as its first in-house accountant.",
-    "search_query": "Find candidates for this role:\nExperienced, full-cycle accountant for an AI safety nonprofit, responsible for accounting operations and close processes as its first in-house accountant.\nMandatory professional qualifications:\n- 5+ years of hands-on accounting experience with demonstrated ownership of full-cycle accounting responsibilities.\n- Experience working with spreadsheets and accounting/financial software.\nPreferred, not mandatory:\n- Experience with nonprofit accounting, including fund accounting, grant reporting, and 990 preparation.\n- Familiarity with multi-entity or multi-currency accounting.\n- Experience supporting or coordinating external audits.\n- Experience developing or improving financial controls.\n- Experience implementing or improving systems.\n- Experience in a startup-like environment.\n- Ability to work across spreadsheets and financial systems, including Google Sheets, Quickbooks Online, Ramp, Mercury, and Airtable.\n- Track record of working independently with minimal oversight.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; United States (remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nExperienced, full-cycle accountant for an AI safety nonprofit, responsible for accounting operations and close processes as its first in-house accountant.\nMandatory professional qualifications:\n- 5+ years of hands-on accounting experience with demonstrated ownership of full-cycle accounting responsibilities.\n- Experience working with spreadsheets and accounting/financial software.\nPreferred, not mandatory:\n- Experience with nonprofit accounting, including fund accounting, grant reporting, and 990 preparation.\n- Familiarity with multi-entity or multi-currency accounting.\n- Experience supporting or coordinating external audits.\n- Experience developing or improving financial controls.\n- Experience implementing or improving systems.\n- Experience in a startup-like environment.\n- Ability to work across spreadsheets and financial systems, including Google Sheets, Quickbooks Online, Ramp, Mercury, and Airtable.\n- Track record of working independently with minimal oversight.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -140,97 +140,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "b84bf8b32a8da8b998032121ab9e9c9aa925dab158d2293e01369d94f02c8db7",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Berkeley, CA onsite/hybrid, or remote based in the US. Present residence in Berkeley is not specified.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Berkeley, CA",
-        "United States (remote)"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Location: Berkeley, CA (onsite/hybrid) or Remote, based in the US."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Berkeley or remote based in the US."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of hands-on accounting experience, with demonstrated ownership of full-cycle accounting responsibilities",
-        "effective_requirement": "5+ years of hands-on accounting experience with demonstrated ownership of full-cycle accounting responsibilities.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "CPA license or active progress toward CPA.",
+        "source_quote": "CPA license or active progress toward CPA",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "1641e263c553562496a37aad77d84248cb41c25e083b944d351aa32c796affa3",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "CPA license or active progress toward CPA.",
-          "source_quote": "CPA license or active progress toward CPA",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M3": "M2",
-        "M4": "M3"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Ability to work across spreadsheets and financial systems, including Google Sheets, Quickbooks Online, Ramp, Mercury, and Airtable.",
+        "effective_requirement": "Experience working with spreadsheets and accounting/financial software.",
+        "reason": "Requiring every named tool is unrealistic; general accounting software use is implied."
       }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "cc40508531426afc921cacd0ae73cdaafb26b31a03a70272290e42b6d7dd8cca",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Track record of working independently with minimal oversight.",
-          "source_quote": "Track record of working independently with minimal oversight",
-          "verification": "profile",
-          "reason": "Work-style trait not observable."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Ability to work across spreadsheets and financial systems, including Google Sheets, Quickbooks Online, Ramp, Mercury, and Airtable.",
-          "after": "Experience working with spreadsheets and accounting/financial software.",
-          "reason": "Requiring every named tool is unrealistic; general accounting software use is implied."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P7",
-        "M3": "P8"
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Track record of working independently with minimal oversight.",
+        "source_quote": "Track record of working independently with minimal oversight",
+        "verification": "profile",
+        "reason": "Work-style trait not observable."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6f7d03cf5b56e4be7f61f04deb29dc544c26f6f85e953f2446499233a167141b",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "125565b2d8c4e5eaa016d131d24f14bd7776c6eab994f0fd0f557ae7fd618bda",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Berkeley or remote based in the US.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "United States (remote)"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; United States (remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

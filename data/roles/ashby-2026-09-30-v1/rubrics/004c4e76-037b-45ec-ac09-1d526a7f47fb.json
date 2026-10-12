@@ -3,10 +3,10 @@
   "role_id": "004c4e76-037b-45ec-ac09-1d526a7f47fb",
   "snapshot_sha256": "54827411425618a84a7b2e227c47e76ea555ab2b280bdca65ad697dd594e3780",
   "input_sha256": "3a65d9f3f5aa5d9f99e5561ed33e3d8e95a448c5b796cd7bd0b46074a682f306",
-  "rubric_sha256": "b61830b4ccccf817d2e16b95225a72cf42ad230280d21412422ec62b63085a62",
+  "rubric_sha256": "74ad994f6cec9adb220cef3b7a37c06d1f2fa740325e848dae44800b5ef809a2",
   "rubric": {
     "role_summary": "Customer-facing security Solutions Engineer leading technical discovery, demos, and evaluations for prospects while improving sales-engineering workflows through automation and reusable tools.",
-    "search_query": "Find candidates for this role:\nCustomer-facing security Solutions Engineer leading technical discovery, demos, and evaluations for prospects while improving sales-engineering workflows through automation and reusable tools.\nMandatory professional qualifications:\n- Experience in a customer-facing security role, such as Solutions Engineer, Sales Engineer, Solutions Architect, or Security Consultant.\n- Hands-on experience with cybersecurity products and real environments.\n- Discovery, demo, and evaluation skills.\nPreferred, not mandatory:\n- Experience using AI-assisted software development tools.\n- Experience supporting SMB or MSP buyers.\n- Experience with email security, post-breach response, or adjacent security categories.\n- Experience creating reusable demo environments, evaluation tooling, or internal workflow automation.\n- Experience working in an early-stage or fast-moving startup environment.\n- Experience using APIs, scripts, spreadsheets, no-code tools, or AI-assisted workflows to remove manual work.\n- A track record of building something useful for teammates, customers, or internal operators.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nCustomer-facing security Solutions Engineer leading technical discovery, demos, and evaluations for prospects while improving sales-engineering workflows through automation and reusable tools.\nMandatory professional qualifications:\n- Experience in a customer-facing security role, such as Solutions Engineer, Sales Engineer, Solutions Architect, or Security Consultant.\n- Hands-on experience with cybersecurity products and real environments.\n- Discovery, demo, and evaluation skills.\nPreferred, not mandatory:\n- Experience using AI-assisted software development tools.\n- Experience supporting SMB or MSP buyers.\n- Experience with email security, post-breach response, or adjacent security categories.\n- Experience creating reusable demo environments, evaluation tooling, or internal workflow automation.\n- Experience working in an early-stage or fast-moving startup environment.\n- Experience using APIs, scripts, spreadsheets, no-code tools, or AI-assisted workflows to remove manual work.\n- A track record of building something useful for teammates, customers, or internal operators.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -141,75 +141,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "2e8876540007e15d3540ad59e1e9867624b174b73bd7a009497b7d9450993e31",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": false,
-      "requirement_text": "Remote-first role with an office in San Francisco, California; no geographic eligibility boundary or current-residence requirement is specified.",
-      "workplace_type": "remote",
-      "allowed_locations": [],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote",
-        "Material Security is a remote-first workplace with an office in San Francisco, California."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "38f58ab6b1433e7e0fdbcefcd94216b077fb1c9ab2c052272e66884c3b4b1b2e",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "38f58ab6b1433e7e0fdbcefcd94216b077fb1c9ab2c052272e66884c3b4b1b2e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience using APIs, scripts, spreadsheets, no-code tools, or AI-assisted workflows to remove manual work.",
-          "source_quote": "Comfort using APIs, scripts, spreadsheets, no-code tools, or AI-assisted workflows to remove manual work.",
-          "verification": "profile",
-          "reason": "Automating manual work with scripts/no-code is a specific practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "A track record of building something useful for teammates, customers, or internal operators.",
-          "source_quote": "A track record of building something useful for teammates, customers, or internal operators.",
-          "verification": "profile",
-          "reason": "Building something useful for others is a vague outcome claim not observable."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P6",
-        "M5": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "16739414a08e367c0435999e11afcd89d235ad8e638c11b249154655d2fc893c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "12c680ce1b8691fabb2a489182544e3abb85d166decffdd9b86d1623f6decd0c",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience using APIs, scripts, spreadsheets, no-code tools, or AI-assisted workflows to remove manual work.",
+        "source_quote": "Comfort using APIs, scripts, spreadsheets, no-code tools, or AI-assisted workflows to remove manual work.",
+        "verification": "profile",
+        "reason": "Automating manual work with scripts/no-code is a specific practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "A track record of building something useful for teammates, customers, or internal operators.",
+        "source_quote": "A track record of building something useful for teammates, customers, or internal operators.",
+        "verification": "profile",
+        "reason": "Building something useful for others is a vague outcome claim not observable."
+      }
+    ]
   },
   "experience_context": []
 }

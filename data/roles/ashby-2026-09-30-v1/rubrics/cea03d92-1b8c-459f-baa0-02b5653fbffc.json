@@ -3,10 +3,10 @@
   "role_id": "cea03d92-1b8c-459f-baa0-02b5653fbffc",
   "snapshot_sha256": "311270f7ba1258bb9c6a137b4d86f0a712b1ee682caec30417e889344c61f504",
   "input_sha256": "45317daa3ccefbc37b38f69735a0b15867ec4cf6d6f32641352d80beb4778201",
-  "rubric_sha256": "71d32e942ac8569666b08ed7b11a50b9b9b8a4076f78befa1861b5c93f14fb26",
+  "rubric_sha256": "087321d48821a922133bd69750ae88a037e3c88cfb528df086487e315eeb8b71",
   "rubric": {
     "role_summary": "Lead risk management for a retail electricity business, including power-market exposure, hedging, pricing risk, and use of distributed capacity.",
-    "search_query": "Find candidates for this role:\nLead risk management for a retail electricity business, including power-market exposure, hedging, pricing risk, and use of distributed capacity.\nMandatory professional qualifications:\n- 8+ years of experience in retail energy, energy trading, or energy risk management.\n- Working knowledge of energy markets, such as NYISO, ERCOT, PJM, or ISO-NE\n- Data analytics skills\nPreferred, not mandatory:\n- Bachelor’s degree in a quantitative field\n- Proficiency in SQL\n- 8+ years of work experience in retail energy, energy trading, and energy risk management\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nLead risk management for a retail electricity business, including power-market exposure, hedging, pricing risk, and use of distributed capacity.\nMandatory professional qualifications:\n- 8+ years of experience in retail energy, energy trading, or energy risk management.\n- Working knowledge of energy markets, such as NYISO, ERCOT, PJM, or ISO-NE\n- Data analytics skills\nPreferred, not mandatory:\n- Bachelor’s degree in a quantitative field\n- Proficiency in SQL\n- 8+ years of work experience in retail energy, energy trading, and energy risk management\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -116,79 +116,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "aa9646fd30507c6b24517defd285fc6a808d305f0d75ecc9e5cd404796984357",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "New York City office; hybrid office culture includes team members working remotely. Remote geographic eligibility and any required office attendance are not specified.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "New York City office",
-        "Remote (geographic scope unspecified)"
-      ],
-      "remote_scope": "Unspecified",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York City",
-        "Hybrid office culture, with team members remote and working from our office in New York City"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "8+ years of work experience in retail energy, energy trading, and energy risk management",
-        "effective_requirement": "8+ years of work experience in retail energy, energy trading, and energy risk management",
-        "kind": "mandatory"
-      }
-    ],
-    "dropped_location_options": [
-      "Remote (geographic scope unspecified)"
-    ],
-    "dropped_location_note": "Dropped non-geographic location options: Remote (geographic scope unspecified). Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
-    "observability": {
-      "parent_rubric_sha256": "238d7f623f1402aa51cf8148b99955e361fc767d7b118464f2995464552d8fa8",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "238d7f623f1402aa51cf8148b99955e361fc767d7b118464f2995464552d8fa8",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "8+ years of work experience in retail energy, energy trading, and energy risk management",
-          "after": "8+ years of experience in retail energy, energy trading, or energy risk management.",
-          "reason": "Energy industry years are observable; requiring all three areas is unrealistic."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "0447beaca5fe176d43ce4e4321ecd43934ec70c69724a0859ef3e41212ec592a",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "94f3922e20a50eb20319d61621142311e4c0edb6858022dcc00ca45bd100dbfd",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Remote team members exist, but the role is not offered as remote.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Remote team members exist, but the role is not offered as remote."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "8+ years of work experience in retail energy, energy trading, and energy risk management",
+        "effective_requirement": "8+ years of experience in retail energy, energy trading, or energy risk management.",
+        "reason": "Energy industry years are observable; requiring all three areas is unrealistic."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

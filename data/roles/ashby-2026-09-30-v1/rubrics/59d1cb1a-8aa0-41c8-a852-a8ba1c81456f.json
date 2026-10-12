@@ -3,10 +3,10 @@
   "role_id": "59d1cb1a-8aa0-41c8-a852-a8ba1c81456f",
   "snapshot_sha256": "0b63ca57f9b3916b5cb948cb465574dd9612162af911584b48346abe7fa4908e",
   "input_sha256": "da0876d627d75853f2cf69c7e5f60ca963de7e523116b73bd350d0df1b9f3c6f",
-  "rubric_sha256": "792d140b768e793d155407a50edfad81132a06c09ebc626d7dea48c1ee90bdcd",
+  "rubric_sha256": "ee3f7c4019f45e90429d7758dbacdb7b0ab16a84323ac19ac702f4cb8364fe07",
   "rubric": {
     "role_summary": "Client-facing, pre-sales hospitality solutions consultant supporting mid-market and enterprise hotel sales opportunities in North America through discovery, demonstrations, and hotel operations, revenue, and distribution expertise.",
-    "search_query": "Find candidates for this role:\nClient-facing, pre-sales hospitality solutions consultant supporting mid-market and enterprise hotel sales opportunities in North America through discovery, demonstrations, and hotel operations, revenue, and distribution expertise.\nMandatory professional qualifications:\n- Extensive experience in one or more of hotel operations, revenue management, or hospitality technology.\n- Understanding of hotel systems such as PMS, channel managers, or booking engines.\n- Experience supporting or participating in complex B2B SaaS sales cycles in a pre-sales or consultative role.\n- Experience delivering product demonstrations or solution presentations in a client-facing environment.\nPreferred, not mandatory:\n- Strong understanding of hotel systems and the ecosystem, including PMS, channel managers, booking engines, CRS, and distribution platforms.\n- Strong understanding of hospitality distribution and revenue management concepts.\n- Familiarity with integration ecosystems across PMS, RMS, CRS, and booking engines.\n- Experience working cross-functionally with Sales, Product, and Marketing teams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Irving, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nClient-facing, pre-sales hospitality solutions consultant supporting mid-market and enterprise hotel sales opportunities in North America through discovery, demonstrations, and hotel operations, revenue, and distribution expertise.\nMandatory professional qualifications:\n- Extensive experience in one or more of hotel operations, revenue management, or hospitality technology.\n- Understanding of hotel systems such as PMS, channel managers, or booking engines.\n- Experience supporting or participating in complex B2B SaaS sales cycles in a pre-sales or consultative role.\n- Experience delivering product demonstrations or solution presentations in a client-facing environment.\nPreferred, not mandatory:\n- Strong understanding of hotel systems and the ecosystem, including PMS, channel managers, booking engines, CRS, and distribution platforms.\n- Strong understanding of hospitality distribution and revenue management concepts.\n- Familiarity with integration ecosystems across PMS, RMS, CRS, and booking engines.\n- Experience working cross-functionally with Sales, Product, and Marketing teams.\nWork location and geographic eligibility:\nLocation: Greater Irving, TX area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -131,97 +131,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "98a97dd2ff9c01edc8a9f374b57e8ffbf2b9f7445b47c935116fe31da0908f1f",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in Irving, TX (Dallas–Fort Worth); the metadata lists Dallas. Present residence is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Irving, TX (Dallas–Fort Worth)"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Dallas",
-        "Hybrid",
-        "We are looking for a high-performing Hospitality Solutions Consultant to join our North America team in Irving, Texas.",
-        "Irving, TX (Dallas-Fort Worth) - Hybrid"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "187d0441adcb3e3a4bd4256c7fbe01264bb1a613a19c439c006885d0ce5c227e",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "187d0441adcb3e3a4bd4256c7fbe01264bb1a613a19c439c006885d0ce5c227e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Strong understanding of hospitality distribution and revenue management concepts.",
-          "source_quote": "Strong understanding of hospitality distribution and revenue management concepts (mandatory).",
-          "verification": "profile",
-          "reason": "Conceptual knowledge largely overlapping M1 and rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Familiarity with integration ecosystems across PMS, RMS, CRS, and booking engines.",
-          "source_quote": "Familiarity with integration ecosystems across PMS, RMS, CRS, and booking engines (mandatory).",
-          "verification": "profile",
-          "reason": "Integration ecosystem familiarity is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience working cross-functionally with Sales, Product, and Marketing teams.",
-          "source_quote": "Experience working cross-functionally with Sales, Product, and Marketing teams.",
-          "verification": "profile",
-          "reason": "Cross-functional collaboration is a soft skill."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Strong understanding of hotel systems and the ecosystem, including PMS, channel managers, booking engines, CRS, and distribution platforms.",
-          "after": "Understanding of hotel systems such as PMS, channel managers, or booking engines.",
-          "reason": "Hotel systems knowledge is implied by hospitality tech/ops roles; the full ecosystem list is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M5": "P2",
-        "M6": "P3",
-        "M7": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6330e22a3cddcc14b84a585ba013b8b1c798a632a26592afc78989790448454f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "6bbeda73cffc88c5b6910b349db0a634e9eb4775a211aed1fed4e007648d69d8",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Irving, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Irving, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Strong understanding of hotel systems and the ecosystem, including PMS, channel managers, booking engines, CRS, and distribution platforms.",
+        "effective_requirement": "Understanding of hotel systems such as PMS, channel managers, or booking engines.",
+        "reason": "Hotel systems knowledge is implied by hospitality tech/ops roles; the full ecosystem list is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Strong understanding of hospitality distribution and revenue management concepts.",
+        "source_quote": "Strong understanding of hospitality distribution and revenue management concepts (mandatory).",
+        "verification": "profile",
+        "reason": "Conceptual knowledge largely overlapping M1 and rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with integration ecosystems across PMS, RMS, CRS, and booking engines.",
+        "source_quote": "Familiarity with integration ecosystems across PMS, RMS, CRS, and booking engines (mandatory).",
+        "verification": "profile",
+        "reason": "Integration ecosystem familiarity is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience working cross-functionally with Sales, Product, and Marketing teams.",
+        "source_quote": "Experience working cross-functionally with Sales, Product, and Marketing teams.",
+        "verification": "profile",
+        "reason": "Cross-functional collaboration is a soft skill."
+      }
+    ]
   },
   "experience_context": []
 }

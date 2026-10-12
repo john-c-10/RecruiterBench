@@ -3,10 +3,10 @@
   "role_id": "169d3dde-b8e7-4545-a5a4-cd5cc882c101",
   "snapshot_sha256": "d6a9ae9095fcac424a6ed1b1c8a330871bebda8fa31f51ae752473caf2a4fe9d",
   "input_sha256": "73f64a420c2b3184b253e7f1ac118f6ea4f431daf04639bdcbc96c23c4c2ade2",
-  "rubric_sha256": "114eda0f67fdd827c5df86e4774d0fa10f1d54c0b3045d22288a1618c249696d",
+  "rubric_sha256": "bfbc07b6edcd35c51375fc70f7d877432b646886201a1ffeca083558823c12a5",
   "rubric": {
     "role_summary": "Senior/Staff offensive security software engineer developing web application penetration-testing content for an autonomous pentesting platform, including testing customer applications and translating findings into product improvements.",
-    "search_query": "Find candidates for this role:\nSenior/Staff offensive security software engineer developing web application penetration-testing content for an autonomous pentesting platform, including testing customer applications and translating findings into product improvements.\nMandatory professional qualifications:\n- Senior/Staff-level experience combining extensive web application penetration testing with software development.\n- Experience conducting web application penetration tests.\n- Experience with web proxy tools such as Burp Suite.\n- Proficiency in object-oriented programming.\n- Familiarity with relational databases such as Postgres.\nPreferred, not mandatory:\n- Experience developing software and automation for web application pentesting.\n- Background in large-scale software development projects.\n- Experience fine-tuning language models or implementing RAG for security applications.\n- Experience with AI/LLM tools for agentic workflows and contextual-data integration; named tools and protocols are examples.\n- Demonstrated use of AI to enhance or automate exploit development.\n- OSCP certification.\n- Experience conducting full-scope web application penetration tests.\n- Experience with proxy tools such as Burp and with browser developer tools.\n- Proficiency in object-oriented programming and test-driven development.\n- Experience applying AI-assisted development tools to security research and automation tasks.\n- Skill in designing and evaluating technical solutions across systems, APIs, algorithms, and data structures.\n- Familiarity with relational and graph databases; Postgres and Neo4j are highlighted examples, not individually required.\n- Recognized security research, including documented CVE discoveries and responsible disclosure.\n- Track record of successful bug bounty contributions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): US. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior/Staff offensive security software engineer developing web application penetration-testing content for an autonomous pentesting platform, including testing customer applications and translating findings into product improvements.\nMandatory professional qualifications:\n- Senior/Staff-level experience combining extensive web application penetration testing with software development.\n- Experience conducting web application penetration tests.\n- Experience with web proxy tools such as Burp Suite.\n- Proficiency in object-oriented programming.\n- Familiarity with relational databases such as Postgres.\nPreferred, not mandatory:\n- Experience developing software and automation for web application pentesting.\n- Background in large-scale software development projects.\n- Experience fine-tuning language models or implementing RAG for security applications.\n- Experience with AI/LLM tools for agentic workflows and contextual-data integration; named tools and protocols are examples.\n- Demonstrated use of AI to enhance or automate exploit development.\n- OSCP certification.\n- Experience conducting full-scope web application penetration tests.\n- Experience with proxy tools such as Burp and with browser developer tools.\n- Proficiency in object-oriented programming and test-driven development.\n- Experience applying AI-assisted development tools to security research and automation tasks.\n- Skill in designing and evaluating technical solutions across systems, APIs, algorithms, and data structures.\n- Familiarity with relational and graph databases; Postgres and Neo4j are highlighted examples, not individually required.\n- Recognized security research, including documented CVE discoveries and responsible disclosure.\n- Track record of successful bug bounty contributions.\nWork location and geographic eligibility:\nLocation: US (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -196,130 +196,67 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "412b3915fdc1019bbab4bf00c1d928778a65dc9e8a5d65df169f877bf22ec11c",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "US remote position; no present-residence requirement or relocation policy is stated.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "US"
-      ],
-      "remote_scope": "US",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "US, Remote",
-        "Remote"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "ba4d0ccfb1335f6da6555f3a8bf3aed8bdf963d16dede8b88b0ef96ac59c4dc5",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ba4d0ccfb1335f6da6555f3a8bf3aed8bdf963d16dede8b88b0ef96ac59c4dc5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience applying AI-assisted development tools to security research and automation tasks.",
-          "source_quote": "Experience applying AI-assisted development tools to security research and automation tasks",
-          "verification": "profile",
-          "reason": "Using AI-assisted tools for security research is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Skill in designing and evaluating technical solutions across systems, APIs, algorithms, and data structures.",
-          "source_quote": "Skilled in designing, evaluating, and communicating technical solutions across systems, APIs, algorithms, and data structures.",
-          "verification": "profile",
-          "reason": "Generic design/evaluation skill is not observable beyond general engineering experience."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Recognized security research, including documented CVE discoveries and responsible disclosure.",
-          "source_quote": "History of recognized security research, including documented CVE discoveries and responsible disclosure",
-          "verification": "profile",
-          "reason": "CVE discoveries are an accomplishment many qualified pentesters lack or do not list."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Track record of successful bug bounty contributions.",
-          "source_quote": "Track record of successful bug bounty contributions",
-          "verification": "profile",
-          "reason": "Bug bounty track record is an accomplishment rarely stated on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience conducting full-scope web application penetration tests.",
-          "after": "Experience conducting web application penetration tests.",
-          "reason": "Web app pentesting is observable; full-scope qualifier is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience with proxy tools such as Burp and with browser developer tools.",
-          "after": "Experience with web proxy tools such as Burp Suite.",
-          "reason": "Burp is commonly listed; browser dev tools are never listed."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Proficiency in object-oriented programming and test-driven development.",
-          "after": "Proficiency in object-oriented programming.",
-          "reason": "OOP is implied by software development experience; TDD is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "before": "Familiarity with relational and graph databases; Postgres and Neo4j are highlighted examples, not individually required.",
-          "after": "Familiarity with relational databases such as Postgres.",
-          "reason": "Relational DBs are commonly listed; graph databases are niche and rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M7": "M5"
-      },
-      "demoted_preference_ids": {
-        "M2": "P7",
-        "M3": "P8",
-        "M4": "P9",
-        "M5": "P10",
-        "M6": "P11",
-        "M7": "P12",
-        "M8": "P13",
-        "M9": "P14"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "eec9be1ca3269f4149aa7fa74587c704fa3028fe832606df9b03fc6491a41794",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "365088098cdbe9b472e30cf2c1f9e78a69578004003a2f600f47c14dddb48031",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "US"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): US. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience conducting full-scope web application penetration tests.",
+        "effective_requirement": "Experience conducting web application penetration tests.",
+        "reason": "Web app pentesting is observable; full-scope qualifier is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience with proxy tools such as Burp and with browser developer tools.",
+        "effective_requirement": "Experience with web proxy tools such as Burp Suite.",
+        "reason": "Burp is commonly listed; browser dev tools are never listed."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Proficiency in object-oriented programming and test-driven development.",
+        "effective_requirement": "Proficiency in object-oriented programming.",
+        "reason": "OOP is implied by software development experience; TDD is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Familiarity with relational and graph databases; Postgres and Neo4j are highlighted examples, not individually required.",
+        "effective_requirement": "Familiarity with relational databases such as Postgres.",
+        "reason": "Relational DBs are commonly listed; graph databases are niche and rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience applying AI-assisted development tools to security research and automation tasks.",
+        "source_quote": "Experience applying AI-assisted development tools to security research and automation tasks",
+        "verification": "profile",
+        "reason": "Using AI-assisted tools for security research is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Skill in designing and evaluating technical solutions across systems, APIs, algorithms, and data structures.",
+        "source_quote": "Skilled in designing, evaluating, and communicating technical solutions across systems, APIs, algorithms, and data structures.",
+        "verification": "profile",
+        "reason": "Generic design/evaluation skill is not observable beyond general engineering experience."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Recognized security research, including documented CVE discoveries and responsible disclosure.",
+        "source_quote": "History of recognized security research, including documented CVE discoveries and responsible disclosure",
+        "verification": "profile",
+        "reason": "CVE discoveries are an accomplishment many qualified pentesters lack or do not list."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Track record of successful bug bounty contributions.",
+        "source_quote": "Track record of successful bug bounty contributions",
+        "verification": "profile",
+        "reason": "Bug bounty track record is an accomplishment rarely stated on profiles."
+      }
+    ]
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "23151982-6b94-400d-80c0-2aca66b68552",
   "snapshot_sha256": "cbf2d84d8a2f9da403a28a47f20854271b7d8978680cce61f21cfce5ccab80aa",
   "input_sha256": "14b279d117e094cb0ca4b961aa81ca1aae1ce702976e378bfffcd451a8aaad18",
-  "rubric_sha256": "f46e84b268eb312197fd3f2ddf21b3c06bb16440137a1c922a454a591068753f",
+  "rubric_sha256": "e9c14f0a8fe549bd62caaa933a7231ecb50c41d2bafb433a561b61f6efacdba2",
   "rubric": {
     "role_summary": "Chief of Staff partnering with the CEO on strategic projects, executive alignment, cross-functional execution, and confidential communications at a construction-focused AI company.",
-    "search_query": "Find candidates for this role:\nChief of Staff partnering with the CEO on strategic projects, executive alignment, cross-functional execution, and confidential communications at a construction-focused AI company.\nMandatory professional qualifications:\n- 4+ years of aggregate experience spanning both management consulting or financial services (private equity, investment banking, or venture capital) AND strategy and operations at a high-growth startup.\n- Proficiency with Excel and other data tools.\nPreferred, not mandatory:\n- Experience developing operational strategy, improving efficiency, and driving growth.\n- Experience implementing and executing key initiatives in fast-paced, ambiguous environments.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Our HQ is in New York City with a hybrid schedule (3 in-office days per week). We prefer NYC-based candidates or those open to relocation.",
+    "search_query": "Find candidates for this role:\nChief of Staff partnering with the CEO on strategic projects, executive alignment, cross-functional execution, and confidential communications at a construction-focused AI company.\nMandatory professional qualifications:\n- 4+ years of aggregate experience spanning both management consulting or financial services (private equity, investment banking, or venture capital) AND strategy and operations at a high-growth startup.\n- Proficiency with Excel and other data tools.\nPreferred, not mandatory:\n- Experience developing operational strategy, improving efficiency, and driving growth.\n- Experience implementing and executing key initiatives in fast-paced, ambiguous environments.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -107,88 +107,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "90a162256a6d4d3ed4b9d6ff3a3ee8103879bd4ac8a5dd4777deab479b92d502",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid at the Manhattan office Monday, Wednesday, and Friday. NYC-based candidates are preferred; candidates open to relocation are also considered.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "New York City, NY"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York City, NY",
-        "Hybrid",
-        "Our HQ is in New York City with a hybrid schedule (3 in-office days per week). We prefer NYC-based candidates or those open to relocation.",
-        "Hybrid in NYC: in office Monday, Wednesday, and Friday in our Manhattan office."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "Dual-track background: 4+ years of aggregate experience across top-tier management consulting or financial services (private equity, investment banking, or venture capital) and strategy and operations at a high-growth startup. Both legs are required.",
-        "effective_requirement": "4+ years of aggregate experience spanning both management consulting or financial services (private equity, investment banking, or venture capital) AND strategy and operations at a high-growth startup.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "c86bdc64e518bece0d6f9b120e90164a0b8a747194fb938ef30d406177fdcb98",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c86bdc64e518bece0d6f9b120e90164a0b8a747194fb938ef30d406177fdcb98",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience developing operational strategy, improving efficiency, and driving growth.",
-          "source_quote": "Strategic operator: proven experience in operational strategy development, with a track record of improving efficiency and driving growth.",
-          "verification": "profile",
-          "reason": "Outcome-oriented practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience implementing and executing key initiatives in fast-paced, ambiguous environments.",
-          "source_quote": "Execution-oriented: proven experience implementing and executing key initiatives in fast-paced, ambiguous environments.",
-          "verification": "profile",
-          "reason": "Work-environment requirement."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M2"
-      },
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M3": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "8b8ec9c73141ce9a4181f40b9f3eff0c6da2fb67dc98be200403a12ba775c0ce",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "0c84258e5257e6ae3edaadf69959b06265b9205c0b6989070835c53e501aceb8",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Our HQ is in New York City with a hybrid schedule (3 in-office days per week). We prefer NYC-based candidates or those open to relocation.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience developing operational strategy, improving efficiency, and driving growth.",
+        "source_quote": "Strategic operator: proven experience in operational strategy development, with a track record of improving efficiency and driving growth.",
+        "verification": "profile",
+        "reason": "Outcome-oriented practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience implementing and executing key initiatives in fast-paced, ambiguous environments.",
+        "source_quote": "Execution-oriented: proven experience implementing and executing key initiatives in fast-paced, ambiguous environments.",
+        "verification": "profile",
+        "reason": "Work-environment requirement."
+      }
+    ]
   },
   "experience_context": [
     {

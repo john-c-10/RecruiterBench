@@ -3,10 +3,10 @@
   "role_id": "0e154a57-fc33-4cf7-95cc-0aa30e0bde90",
   "snapshot_sha256": "e673266fbfc8e85cbbbe0a6412c1e16f1d4d0a7e4404126aeda8d9c3d195f73d",
   "input_sha256": "0fe573175f59c17cac601389b745f060b7dcc88acd0ae95fa9a342e67c1d044d",
-  "rubric_sha256": "976e0a6fc348c9b67a6237441c2603c3702635ba6d1ce64cc28db838e4b8cd9f",
+  "rubric_sha256": "ab285e52ea9848114c9ab7f989ced37709d33fea6b1420c21e63c5d90df241dd",
   "rubric": {
     "role_summary": "Senior product designer shaping AI-agent experiences and customer workflows for security and compliance teams, including human oversight of automated work.",
-    "search_query": "Find candidates for this role:\nSenior product designer shaping AI-agent experiences and customer workflows for security and compliance teams, including human oversight of automated work.\nMandatory professional qualifications:\n- 7+ years of product design experience, with depth in B2B SaaS, complex workflows, or other sophisticated software products.\n- Experience designing AI-powered products, automation, or systems with dynamic or uncertain behavior.\nPreferred, not mandatory:\n- Ability to design agent experiences beyond chat, including systems involving agents, skills, tools, memory, and multi-step workflows.\n- Experience designing products requiring human judgment, including when and how to involve a person in an automated workflow.\n- Experience designing across surfaces a product team may not fully control, such as Slack, terminal environments, or other third-party interfaces.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): U.S.. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior product designer shaping AI-agent experiences and customer workflows for security and compliance teams, including human oversight of automated work.\nMandatory professional qualifications:\n- 7+ years of product design experience, with depth in B2B SaaS, complex workflows, or other sophisticated software products.\n- Experience designing AI-powered products, automation, or systems with dynamic or uncertain behavior.\nPreferred, not mandatory:\n- Ability to design agent experiences beyond chat, including systems involving agents, skills, tools, memory, and multi-step workflows.\n- Experience designing products requiring human judgment, including when and how to involve a person in an automated workflow.\n- Experience designing across surfaces a product team may not fully control, such as Slack, terminal environments, or other third-party interfaces.\nWork location and geographic eligibility:\nLocation: U.S. (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -113,102 +113,43 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "344595f0d703247977760e1fa22507fdf9bfa9eddd9f654a26665bdf7f943b7e",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote U.S. role; the posting does not require current U.S. residence or specify a relocation policy.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "U.S."
-      ],
-      "remote_scope": "U.S.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote U.S.",
-        "Remote"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "7+ years of product design experience, with depth in B2B SaaS, complex workflows, or other sophisticated software products.",
-        "effective_requirement": "7+ years of product design experience, with depth in B2B SaaS, complex workflows, or other sophisticated software products.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "A portfolio demonstrating shipped work, complex workflows, meaningful tradeoffs, and learning from customers or users.",
+        "source_quote": "A portfolio that demonstrates shipped work, complex workflows, meaningful tradeoffs, and learning from customers or users.",
+        "verification": "profile",
+        "reason": "Requires a portfolio, which is not among the judged profile fields."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "3f34d720e4146b491733fd4f4efc8813991efcd9807b43ee7cf4344c14ca3f62",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "A portfolio demonstrating shipped work, complex workflows, meaningful tradeoffs, and learning from customers or users.",
-          "source_quote": "A portfolio that demonstrates shipped work, complex workflows, meaningful tradeoffs, and learning from customers or users.",
-          "verification": "profile",
-          "reason": "Requires a portfolio, which is not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "d311af1aea24db34853669dffa5e6264cc934d542f9aba2192d15f4505246eee",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to design agent experiences beyond chat, including systems involving agents, skills, tools, memory, and multi-step workflows.",
-          "source_quote": "Ability to design agent experiences beyond chat, including systems involving agents, skills, tools, memory, and multi-step workflows.",
-          "verification": "profile",
-          "reason": "Agent experience design beyond chat is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience designing products requiring human judgment, including when and how to involve a person in an automated workflow.",
-          "source_quote": "Experience designing products that require human judgment, including deciding when and how to bring a person into an automated workflow.",
-          "verification": "profile",
-          "reason": "Human-in-the-loop design practice is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience designing across surfaces a product team may not fully control, such as Slack, terminal environments, or other third-party interfaces.",
-          "source_quote": "Experience designing across surfaces that a product team may not fully control, such as Slack, terminal environments, or other third-party interfaces.",
-          "verification": "profile",
-          "reason": "Third-party surface design is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P1",
-        "M4": "P2",
-        "M5": "P3"
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to design agent experiences beyond chat, including systems involving agents, skills, tools, memory, and multi-step workflows.",
+        "source_quote": "Ability to design agent experiences beyond chat, including systems involving agents, skills, tools, memory, and multi-step workflows.",
+        "verification": "profile",
+        "reason": "Agent experience design beyond chat is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience designing products requiring human judgment, including when and how to involve a person in an automated workflow.",
+        "source_quote": "Experience designing products that require human judgment, including deciding when and how to bring a person into an automated workflow.",
+        "verification": "profile",
+        "reason": "Human-in-the-loop design practice is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience designing across surfaces a product team may not fully control, such as Slack, terminal environments, or other third-party interfaces.",
+        "source_quote": "Experience designing across surfaces that a product team may not fully control, such as Slack, terminal environments, or other third-party interfaces.",
+        "verification": "profile",
+        "reason": "Third-party surface design is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "87429a2eeee4f2c25cbc38e01b1128791d10738e91da70ca97187a039a563d28",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "443de1ae1fe4b26ccd896c06c162b2df06b8f99c760540970a0e6dcd8325a1ea",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "U.S."
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): U.S.. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

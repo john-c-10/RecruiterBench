@@ -3,10 +3,10 @@
   "role_id": "f1465314-5f6c-4c28-89f1-55a4ae6e11c0",
   "snapshot_sha256": "c2eb1498c81137602c58be70ba54df71d326af0d14e51580fef0bf6404f3aeba",
   "input_sha256": "8fff2a5629a2e81620d3fdfc1350c5545e309f7fc707e4a60dc92c2c79c78878",
-  "rubric_sha256": "5b1684bdd2280822195d11d2042b2235b764598c4e3661e8431f38dc33a190ce",
+  "rubric_sha256": "b6c838be5d0bb142e60e2637316115860da53284caf20d1280c2eb73b2d0be2f",
   "rubric": {
     "role_summary": "Lead GPU and CPU capacity planning and procurement for an AI infrastructure provider, including supplier sourcing, supply evaluation, and contract negotiation.",
-    "search_query": "Find candidates for this role:\nLead GPU and CPU capacity planning and procurement for an AI infrastructure provider, including supplier sourcing, supply evaluation, and contract negotiation.\nMandatory professional qualifications:\n- Experience in the AI infrastructure landscape, such as hyperscalers, neoclouds, or the GPU supply market.\n- Experience structuring and closing deals.\nPreferred, not mandatory:\n- Fluency in the AI infrastructure landscape, including hyperscalers, neoclouds, and the broader GPU supply market.\n- Technical understanding of GPU architectures, networking, and SLA structures; the named hardware and networking technologies are examples, not separate requirements.\n- Ability to find deal leverage, structure deals, and close them.\n- Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nLead GPU and CPU capacity planning and procurement for an AI infrastructure provider, including supplier sourcing, supply evaluation, and contract negotiation.\nMandatory professional qualifications:\n- Experience in the AI infrastructure landscape, such as hyperscalers, neoclouds, or the GPU supply market.\n- Experience structuring and closing deals.\nPreferred, not mandatory:\n- Fluency in the AI infrastructure landscape, including hyperscalers, neoclouds, and the broader GPU supply market.\n- Technical understanding of GPU architectures, networking, and SLA structures; the named hardware and networking technologies are examples, not separate requirements.\n- Ability to find deal leverage, structure deals, and close them.\n- Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -113,95 +113,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "4cb36f0abb4c0e3364081101c8a32c80c1302048406e833b662a12b2a2ba8644",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work location is listed as New York; the posting does not specify onsite, hybrid, or remote arrangements or require current residence there.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "7d69c09b48847a1e2b15f1a7d825934e5e3dcbcef422c0cdb1e96d1154a78b1d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "7d69c09b48847a1e2b15f1a7d825934e5e3dcbcef422c0cdb1e96d1154a78b1d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Technical understanding of GPU architectures, networking, and SLA structures; the named hardware and networking technologies are examples, not separate requirements.",
-          "source_quote": "Technical understanding of what you're buying: GPU architectures (NVIDIA H100/H200/B200, etc.), networking (InfiniBand vs. RoCE, fabric topology), and SLA structures",
-          "verification": "profile",
-          "reason": "Technical GPU/SLA understanding is rarely stated by commercial candidates."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements.",
-          "source_quote": "Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements",
-          "verification": "profile",
-          "reason": "Cross-functional collaboration is a soft skill."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Fluency in the AI infrastructure landscape, including hyperscalers, neoclouds, and the broader GPU supply market.",
-          "after": "Experience in the AI infrastructure landscape, such as hyperscalers, neoclouds, or the GPU supply market.",
-          "reason": "AI infra market experience is observable from employers; fluency is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Ability to find deal leverage, structure deals, and close them.",
-          "after": "Experience structuring and closing deals.",
-          "reason": "Deal-making is implied by procurement/BD titles; finding leverage is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M3": "M2"
-      },
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "85a0bceb0887e72c4b46371929d4174a30868640e39f14208eb742e32ae36785",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "b8ff779e9801ecb422a692f189c45ea9ff2863a1785e4ee3c90ab9238c0fbde1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Fluency in the AI infrastructure landscape, including hyperscalers, neoclouds, and the broader GPU supply market.",
+        "effective_requirement": "Experience in the AI infrastructure landscape, such as hyperscalers, neoclouds, or the GPU supply market.",
+        "reason": "AI infra market experience is observable from employers; fluency is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Ability to find deal leverage, structure deals, and close them.",
+        "effective_requirement": "Experience structuring and closing deals.",
+        "reason": "Deal-making is implied by procurement/BD titles; finding leverage is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Technical understanding of GPU architectures, networking, and SLA structures; the named hardware and networking technologies are examples, not separate requirements.",
+        "source_quote": "Technical understanding of what you're buying: GPU architectures (NVIDIA H100/H200/B200, etc.), networking (InfiniBand vs. RoCE, fabric topology), and SLA structures",
+        "verification": "profile",
+        "reason": "Technical GPU/SLA understanding is rarely stated by commercial candidates."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements.",
+        "source_quote": "Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements",
+        "verification": "profile",
+        "reason": "Cross-functional collaboration is a soft skill."
+      }
+    ]
   },
   "experience_context": []
 }

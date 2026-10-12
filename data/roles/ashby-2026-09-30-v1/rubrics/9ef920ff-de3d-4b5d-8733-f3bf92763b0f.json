@@ -3,10 +3,10 @@
   "role_id": "9ef920ff-de3d-4b5d-8733-f3bf92763b0f",
   "snapshot_sha256": "23d7bdd2594ecb6547710d5476e11ffcc3c96343d40f92406b3257620801e8b0",
   "input_sha256": "5802ee6ff8ff89c601972846089cb42bd7805daac74045b43474a5f0774b237c",
-  "rubric_sha256": "1fc955a1d7a98085c158520d60bebf3bd775ed6c9ee3e6a14e3a5a19f59b41ea",
+  "rubric_sha256": "365fe324458d9da21be1cf267827ff40308689c676bdb2a7b19d1fc7b9c53f43",
   "rubric": {
     "role_summary": "Data Engineer owning database architecture, data pipelines, integrations, telemetry, and business reporting for an applied AI software-agent company, with openings across GTM, Core Product, and Finance.",
-    "search_query": "Find candidates for this role:\nData Engineer owning database architecture, data pipelines, integrations, telemetry, and business reporting for an applied AI software-agent company, with openings across GTM, Core Product, and Finance.\nMandatory professional qualifications:\n- 4+ years in a data engineering, data science, or full-stack data role.\n- SQL and Python skills.\n- Experience with data modeling and data warehousing.\n- Hands-on experience with ETL/ELT tools, such as dbt, Airflow, or Dagster; the named tools are examples, not individually required.\n- Experience building or maintaining BI reporting.\n- Experience developing scalable backend-heavy applications.\nPreferred, not mandatory:\n- Metabase experience is a plus.\n- Expert SQL and Python skills.\n- Experience with data modeling, warehouse architecture, and BI-oriented schema design.\n- Strong knowledge of statistics and experimentation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nData Engineer owning database architecture, data pipelines, integrations, telemetry, and business reporting for an applied AI software-agent company, with openings across GTM, Core Product, and Finance.\nMandatory professional qualifications:\n- 4+ years in a data engineering, data science, or full-stack data role.\n- SQL and Python skills.\n- Experience with data modeling and data warehousing.\n- Hands-on experience with ETL/ELT tools, such as dbt, Airflow, or Dagster; the named tools are examples, not individually required.\n- Experience building or maintaining BI reporting.\n- Experience developing scalable backend-heavy applications.\nPreferred, not mandatory:\n- Metabase experience is a plus.\n- Expert SQL and Python skills.\n- Experience with data modeling, warehouse architecture, and BI-oriented schema design.\n- Strong knowledge of statistics and experimentation.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -137,95 +137,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "0791c8360d4279290b53db54fee67de216cfc2729b4308c4616c7bf524fe2213",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role listed in San Francisco; the description requires candidates to be based in SF or NYC.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "San Francisco, California",
-        "New York City, New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": true,
-      "source_quotes": [
-        "San Francisco",
-        "OnSite",
-        "Based in SF or NYC"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "4+ years in a data engineering, data science, or full-stack data role",
-        "effective_requirement": "4+ years in a data engineering, data science, or full-stack data role.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Expert SQL and Python skills.",
+        "effective_requirement": "SQL and Python skills.",
+        "reason": "SQL and Python are commonly listed; the \"expert\" qualifier is not observable."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience with data modeling, warehouse architecture, and BI-oriented schema design.",
+        "effective_requirement": "Experience with data modeling and data warehousing.",
+        "reason": "Data modeling/warehousing is implied by data engineering; BI-oriented schema design detail is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "7748250434d3a88e16984195b0bf3ff6243fbb47525ed79d2312e4e1851b3d55",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "7748250434d3a88e16984195b0bf3ff6243fbb47525ed79d2312e4e1851b3d55",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Strong knowledge of statistics and experimentation.",
-          "source_quote": "Strong knowledge of statistics and experimentation",
-          "verification": "profile",
-          "reason": "Statistics/experimentation knowledge is rarely stated for data engineers."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Expert SQL and Python skills.",
-          "after": "SQL and Python skills.",
-          "reason": "SQL and Python are commonly listed; the \"expert\" qualifier is not observable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience with data modeling, warehouse architecture, and BI-oriented schema design.",
-          "after": "Experience with data modeling and data warehousing.",
-          "reason": "Data modeling/warehousing is implied by data engineering; BI-oriented schema design detail is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3",
-        "M7": "P4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Strong knowledge of statistics and experimentation.",
+        "source_quote": "Strong knowledge of statistics and experimentation",
+        "verification": "profile",
+        "reason": "Statistics/experimentation knowledge is rarely stated for data engineers."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ff973ed5226f6ce73aecc7c94e5f0d8dafad3cc4239a441374d7f98ec8d466c3",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "bccb30fccd39c876d86c9e385dbeee1bddc6b4aa0a4e59c5e9ccee120b92af2b",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

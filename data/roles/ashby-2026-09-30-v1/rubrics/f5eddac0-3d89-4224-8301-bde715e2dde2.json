@@ -3,10 +3,10 @@
   "role_id": "f5eddac0-3d89-4224-8301-bde715e2dde2",
   "snapshot_sha256": "f92702287a9c8505fcfa2fbbaecb6fe63cb4f587c7012d5d706bc158afb6b1de",
   "input_sha256": "ef80af3b01a11e7e2012a462b4f03de1de557cc458ac0b9478e2f828b89f18ed",
-  "rubric_sha256": "a3e55958edaa1440b5a370e56048f002a8e1c865c6a9e535cd1b12dd1035e8b4",
+  "rubric_sha256": "e4085889d00085645d46af49d553627cb7ca2094e338c7d98831ddd3118cf090",
   "rubric": {
     "role_summary": "Senior art-direction role for Clash of Clans, setting visual direction across the game and wider IP, leading artists, and overseeing external art partners and production pipelines.",
-    "search_query": "Find candidates for this role:\nSenior art-direction role for Clash of Clans, setting visual direction across the game and wider IP, leading artists, and overseeing external art partners and production pipelines.\nMandatory professional qualifications:\n- Track record leading art direction on games.\n- Experience leading art teams.\nPreferred, not mandatory:\n- Mobile or live-service game experience.\n- Experience with cosmetics economies or large seasonal content pipelines.\n- Experience connecting game art strategy with marketing or user acquisition, such as key art, trailers, or social content.\n- Familiarity with Clash through play or prior work.\n- Track record leading art direction on stylised games.\n- Experience defining IP and brand frameworks that enable a team to make consistent brand decisions.\n- Experience leading collaborative senior art teams, including setting vision and developing artists.\n- Strategic experience managing outsourcing pipelines and external partners at scale within live-game timeline and budget constraints.\n- Has used AI in day-to-day work.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Helsinki, Finland area; Greater London, United Kingdom area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nSenior art-direction role for Clash of Clans, setting visual direction across the game and wider IP, leading artists, and overseeing external art partners and production pipelines.\nMandatory professional qualifications:\n- Track record leading art direction on games.\n- Experience leading art teams.\nPreferred, not mandatory:\n- Mobile or live-service game experience.\n- Experience with cosmetics economies or large seasonal content pipelines.\n- Experience connecting game art strategy with marketing or user acquisition, such as key art, trailers, or social content.\n- Familiarity with Clash through play or prior work.\n- Track record leading art direction on stylised games.\n- Experience defining IP and brand frameworks that enable a team to make consistent brand decisions.\n- Experience leading collaborative senior art teams, including setting vision and developing artists.\n- Strategic experience managing outsourcing pipelines and external partners at scale within live-game timeline and budget constraints.\n- Has used AI in day-to-day work.\nWork location and geographic eligibility:\nNo geographic filter: the role is hybrid in Helsinki, Finland (or London), and relocation is provided for hires from any location.",
     "must_haves": [
       {
         "id": "M1",
@@ -147,118 +147,56 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1d44a16c14e38610d7cd797e5c6174013b715db811b2dd680bcf3c132d66818a",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in either Helsinki or London. Regular travel is expected, especially for someone based in London. Relocation support is offered; current residence in either city is not required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Helsinki, Finland",
-        "London, United Kingdom"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "This role can be based either in Helsinki or London.",
-        "To be successful, you'll be expected to travel regularly in this role especially if based out of London.",
-        "RELOCATION? YES!",
-        "No matter where you’re moving from, our dedicated mobility team and partners will support you throughout your move."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "ba1f2c09dc3702be9d8d2e6c2d62d5a3e6ab0af068780f10bcc6aadd58a33fd2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Able to travel regularly for the role, particularly if based in London.",
-          "source_quote": "To be successful, you'll be expected to travel regularly in this role especially if based out of London.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "700fa68692dcc86dd13bce6d77e51f7e8c2e1de932d8fb2e964a73734b256e9d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience defining IP and brand frameworks that enable a team to make consistent brand decisions.",
-          "source_quote": "the ability to define what's on-brand vs off and build the frameworks that help a whole team make that call consistently.",
-          "verification": "profile",
-          "reason": "Defining IP/brand frameworks is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Strategic experience managing outsourcing pipelines and external partners at scale within live-game timeline and budget constraints.",
-          "source_quote": "Strategic experience managing outsourcing pipelines and external partners at scale, balancing quality ambitions with the realities of live-game timelines and budgets.",
-          "verification": "profile",
-          "reason": "Outsourcing pipeline management at scale is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Has used AI in day-to-day work.",
-          "source_quote": "You've found ways to use it in your day-to-day work",
-          "verification": "profile",
-          "reason": "Day-to-day AI use is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Track record leading art direction on stylised games.",
-          "after": "Track record leading art direction on games.",
-          "reason": "Game art direction is observable; \"stylised\" is often unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience leading collaborative senior art teams, including setting vision and developing artists.",
-          "after": "Experience leading art teams.",
-          "reason": "Art team leadership observable from titles; vision-setting/development are not."
-        }
-      ],
-      "criterion_id_map": {
-        "M3": "M2"
-      },
-      "demoted_preference_ids": {
-        "M1": "P5",
-        "M2": "P6",
-        "M3": "P7",
-        "M4": "P8",
-        "M5": "P9"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d3cb7ac71257884a66f845aff48567fa3f2b8d1a9e6728642377fa5ac3c8489e",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "aeadd4814dcd85a8e3ab9fe049434cd99824a48603981a6c8ae5550edfdbf435",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "global",
-      "reason": "Relocation is offered to international hires, so the role realistically hires from any location.",
-      "previous_allowed_locations": [
-        "Greater Helsinki, Finland area",
-        "Greater London, United Kingdom area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Helsinki, Finland area; Greater London, United Kingdom area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+      "reason": "Relocation is offered to international hires, so the role realistically hires from any location."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Able to travel regularly for the role, particularly if based in London.",
+        "source_quote": "To be successful, you'll be expected to travel regularly in this role especially if based out of London.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Track record leading art direction on stylised games.",
+        "effective_requirement": "Track record leading art direction on games.",
+        "reason": "Game art direction is observable; \"stylised\" is often unstated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience leading collaborative senior art teams, including setting vision and developing artists.",
+        "effective_requirement": "Experience leading art teams.",
+        "reason": "Art team leadership observable from titles; vision-setting/development are not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience defining IP and brand frameworks that enable a team to make consistent brand decisions.",
+        "source_quote": "the ability to define what's on-brand vs off and build the frameworks that help a whole team make that call consistently.",
+        "verification": "profile",
+        "reason": "Defining IP/brand frameworks is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Strategic experience managing outsourcing pipelines and external partners at scale within live-game timeline and budget constraints.",
+        "source_quote": "Strategic experience managing outsourcing pipelines and external partners at scale, balancing quality ambitions with the realities of live-game timelines and budgets.",
+        "verification": "profile",
+        "reason": "Outsourcing pipeline management at scale is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Has used AI in day-to-day work.",
+        "source_quote": "You've found ways to use it in your day-to-day work",
+        "verification": "profile",
+        "reason": "Day-to-day AI use is rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

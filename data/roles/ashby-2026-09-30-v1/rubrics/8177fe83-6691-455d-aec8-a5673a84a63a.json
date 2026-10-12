@@ -3,10 +3,10 @@
   "role_id": "8177fe83-6691-455d-aec8-a5673a84a63a",
   "snapshot_sha256": "d8d6f504ce8a7b71083a97c96fe4e57031df5930699c6e211c97731487708e97",
   "input_sha256": "489ca251e4f6a512ab89fc1f665728f6b6772d7eb99b05952fd0091190f9e508",
-  "rubric_sha256": "248d023672340261ff887c0c1ea9e621d6d746bba11ec74c000d88ecd94e34d9",
+  "rubric_sha256": "1fe9af8db4e14f0158c489529f5d545ad846e4998981ac6fe856cd55ff795c30",
   "rubric": {
     "role_summary": "Senior brand experience role owning online and offline customer journeys, unboxing and product experience, customer insights, segmentation, and brand consistency for a skincare brand.",
-    "search_query": "Find candidates for this role:\nSenior brand experience role owning online and offline customer journeys, unboxing and product experience, customer insights, segmentation, and brand consistency for a skincare brand.\nMandatory professional qualifications:\n- 5+ years of experience in CX, brand marketing, or customer insights.\n- Experience with customer segmentation, journey mapping, or CX reporting.\nPreferred, not mandatory:\n- Experience within beauty, lifestyle, or consumer brands.\n- Additional European languages, such as German, French, Spanish, or Italian.\n- Experience working closely with packaging design and production teams.\n- Ability to translate data and customer feedback into actionable strategy and measurable outcomes.\n- Experience managing cross-functional projects across marketing, product, creative, and operations.\n- Experience owning segmentation, journey mapping, and CX reporting end-to-end.\n- Some experience coaching or mentoring junior team members.\n- Project management skills across parallel workstreams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Berlin, Germany area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior brand experience role owning online and offline customer journeys, unboxing and product experience, customer insights, segmentation, and brand consistency for a skincare brand.\nMandatory professional qualifications:\n- 5+ years of experience in CX, brand marketing, or customer insights.\n- Experience with customer segmentation, journey mapping, or CX reporting.\nPreferred, not mandatory:\n- Experience within beauty, lifestyle, or consumer brands.\n- Additional European languages, such as German, French, Spanish, or Italian.\n- Experience working closely with packaging design and production teams.\n- Ability to translate data and customer feedback into actionable strategy and measurable outcomes.\n- Experience managing cross-functional projects across marketing, product, creative, and operations.\n- Experience owning segmentation, journey mapping, and CX reporting end-to-end.\n- Some experience coaching or mentoring junior team members.\n- Project management skills across parallel workstreams.\nWork location and geographic eligibility:\nLocation: Greater Berlin, Germany area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -140,125 +140,57 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "e83a76d646cbf69cc9448b0c3698ab1ba4b65101198702a6b54dd56b827d8e72",
-    "resolved_ambiguities": [
-      "The qualification says ‘5+ experience’ without specifying a unit, such as years."
-    ],
-    "resolution": "Read the incomplete '5+ experience' unit as years in the ordinary experience requirement.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work associated with the Berlin office; current residence in Berlin is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Berlin, Germany"
-      ],
-      "remote_scope": "Work from home is available as part of hybrid working; no broader remote eligibility is stated.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Berlin",
-        "Inspiring Workspace: Located in the heart of Berlin's Prenzlauer Berg, a dog-friendly office, with free drinks and snacks.",
-        "Hybrid Working: We understand that sometimes you get more stuff done from home and need a change of scenery."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5+ experience in CX, brand marketing, or customer insights, ideally within beauty, lifestyle, or consumer brands.",
-        "effective_requirement": "5+ years of experience in CX, brand marketing, or customer insights.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "4fc18493db8f98c5490d304a95939c0110840ec2dd160fefbd759f3985c347bd",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Fluent in English.",
-          "source_quote": "Fluent in English; additional European languages (e.g. German, French, Spanish, or Italian) are a plus.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "1b83a499e6e078b620649790a5ae98ebdbf1bb6f94bb48adf3ab03b96d89491b",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Ability to translate data and customer feedback into actionable strategy and measurable outcomes.",
-          "source_quote": "Proven ability to translate data and customer feedback into actionable strategy and measurable outcomes.",
-          "verification": "profile",
-          "reason": "Ability to translate data into strategy is unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience managing cross-functional projects across marketing, product, creative, and operations.",
-          "source_quote": "Experience managing cross-functional projects across marketing, product, creative, and operations.",
-          "verification": "profile",
-          "reason": "Cross-functional project management is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Some experience coaching or mentoring junior team members.",
-          "source_quote": "Some experience coaching or mentoring junior team members.",
-          "verification": "profile",
-          "reason": "Mentoring juniors is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Project management skills across parallel workstreams.",
-          "source_quote": "strong project management skills across parallel workstreams.",
-          "verification": "profile",
-          "reason": "Generic project-management skill is unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience owning segmentation, journey mapping, and CX reporting end-to-end.",
-          "after": "Experience with customer segmentation, journey mapping, or CX reporting.",
-          "reason": "CX practices can be stated; end-to-end ownership of all three is unrealistic."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M2"
-      },
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5",
-        "M4": "P6",
-        "M5": "P7",
-        "M6": "P8"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f98ff35cc81badd3d34321d3bf3afaf2e7cede052d1fc90446e2010ccaa93542",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "1b311c84885901cc8a69f0cc615b46d5ebf8897ae4ea51765b8e1fcc676336bd",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Berlin, Germany area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Berlin, Germany area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Fluent in English.",
+        "source_quote": "Fluent in English; additional European languages (e.g. German, French, Spanish, or Italian) are a plus.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience owning segmentation, journey mapping, and CX reporting end-to-end.",
+        "effective_requirement": "Experience with customer segmentation, journey mapping, or CX reporting.",
+        "reason": "CX practices can be stated; end-to-end ownership of all three is unrealistic."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to translate data and customer feedback into actionable strategy and measurable outcomes.",
+        "source_quote": "Proven ability to translate data and customer feedback into actionable strategy and measurable outcomes.",
+        "verification": "profile",
+        "reason": "Ability to translate data into strategy is unstated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience managing cross-functional projects across marketing, product, creative, and operations.",
+        "source_quote": "Experience managing cross-functional projects across marketing, product, creative, and operations.",
+        "verification": "profile",
+        "reason": "Cross-functional project management is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Some experience coaching or mentoring junior team members.",
+        "source_quote": "Some experience coaching or mentoring junior team members.",
+        "verification": "profile",
+        "reason": "Mentoring juniors is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Project management skills across parallel workstreams.",
+        "source_quote": "strong project management skills across parallel workstreams.",
+        "verification": "profile",
+        "reason": "Generic project-management skill is unstated."
+      }
+    ]
   },
   "experience_context": [
     {

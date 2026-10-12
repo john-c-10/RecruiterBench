@@ -3,10 +3,10 @@
   "role_id": "40f80a35-39d7-4272-aceb-7ad91edabf4a",
   "snapshot_sha256": "2f3a092a11a8ef931dab1d450c74b761ba40ac3dfda0f2a6f51f5457bbb11566",
   "input_sha256": "ade87b6bbb18580888d0c6f413efeaa27f7a3cf04e7196252526eb3be70851f5",
-  "rubric_sha256": "5628b5c8ab082af61be831e38e9d331e1b18ae9bfb6c33c247a54377bd165e41",
+  "rubric_sha256": "7f3d1a00332479e65f5b941faf2d0f44e460818b1c999f7b34779301750ee6c6",
   "rubric": {
     "role_summary": "Senior security operations manager leading a security operations team, incident response, detection and response strategy, and security program improvements in a SaaS and cloud environment.",
-    "search_query": "Find candidates for this role:\nSenior security operations manager leading a security operations team, incident response, detection and response strategy, and security program improvements in a SaaS and cloud environment.\nMandatory professional qualifications:\n- Leadership or management experience in security.\n- Security operations experience in SaaS or cloud environments.\n- Experience with security detection and monitoring.\n- Familiarity with relevant industry regulations and standards, and experience ensuring compliance; the named standards are examples.\n- Security incident response experience.\nPreferred, not mandatory:\n- Leadership experience in security, including the ability to lead a global team.\n- Security operations experience implementing security controls in a SaaS and cloud environment.\n- Experience crafting detection and observability strategies for security events.\n- Experience leveraging AI to improve security processes.\n- Incident response experience, including acting as incident commander for security incidents.\n- Ability to assess security risks based on business and technical impact and prioritize remediation in light of business goals.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior security operations manager leading a security operations team, incident response, detection and response strategy, and security program improvements in a SaaS and cloud environment.\nMandatory professional qualifications:\n- Leadership or management experience in security.\n- Security operations experience in SaaS or cloud environments.\n- Experience with security detection and monitoring.\n- Familiarity with relevant industry regulations and standards, and experience ensuring compliance; the named standards are examples.\n- Security incident response experience.\nPreferred, not mandatory:\n- Leadership experience in security, including the ability to lead a global team.\n- Security operations experience implementing security controls in a SaaS and cloud environment.\n- Experience crafting detection and observability strategies for security events.\n- Experience leveraging AI to improve security processes.\n- Incident response experience, including acting as incident commander for security incidents.\n- Ability to assess security risks based on business and technical impact and prioritize remediation in light of business goals.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -146,112 +146,53 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "68ced17340781de0dce5d3f92bc88379b7c7f11d1e5202550320311c3dea6c49",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote U.S. role; the posting does not explicitly require current U.S. residence or address relocation.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "U.S.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote U.S.",
-        "Remote"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "853884bab88bb0ba4a91bbb2a72617961409f10929fcc82580248c057cf9e340",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "853884bab88bb0ba4a91bbb2a72617961409f10929fcc82580248c057cf9e340",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience leveraging AI to improve security processes.",
-          "source_quote": "Experience with leveraging AI to improve security processes.",
-          "verification": "profile",
-          "reason": "Using AI to improve security processes is rarely stated (0.8 strict fail)."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Ability to assess security risks based on business and technical impact and prioritize remediation in light of business goals.",
-          "source_quote": "Ability to assess and analyze security risks comprehensively, considering both business impact and technical impact; Ability to prioritize risk remediation with consideration to business goals and objectives.",
-          "verification": "profile",
-          "reason": "Risk-based prioritization ability is a judgment skill not observable on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Leadership experience in security, including the ability to lead a global team.",
-          "after": "Leadership or management experience in security.",
-          "reason": "Security leadership is observable from titles; leading a global team is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Security operations experience implementing security controls in a SaaS and cloud environment.",
-          "after": "Security operations experience in SaaS or cloud environments.",
-          "reason": "SecOps in SaaS/cloud is implied by title and employer; implementing controls detail is rarely stated (0.81 strict fail)."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience crafting detection and observability strategies for security events.",
-          "after": "Experience with security detection and monitoring.",
-          "reason": "Detection/monitoring is implied by SecOps roles; crafting strategies is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "before": "Incident response experience, including acting as incident commander for security incidents.",
-          "after": "Security incident response experience.",
-          "reason": "Incident response is observable; incident-commander role is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M5"
-      },
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2",
-        "M3": "P3",
-        "M5": "P4",
-        "M6": "P5",
-        "M7": "P6"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "1099e0d7a35dacd34ca69630ad8e9c6a4f15e8421f2bc8c26b828ed8c17d1420",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "aee8d46b7340d49d7739595bd7a399179434e61351003c67251b700d594055aa",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Leadership experience in security, including the ability to lead a global team.",
+        "effective_requirement": "Leadership or management experience in security.",
+        "reason": "Security leadership is observable from titles; leading a global team is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Security operations experience implementing security controls in a SaaS and cloud environment.",
+        "effective_requirement": "Security operations experience in SaaS or cloud environments.",
+        "reason": "SecOps in SaaS/cloud is implied by title and employer; implementing controls detail is rarely stated (0.81 strict fail)."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience crafting detection and observability strategies for security events.",
+        "effective_requirement": "Experience with security detection and monitoring.",
+        "reason": "Detection/monitoring is implied by SecOps roles; crafting strategies is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Incident response experience, including acting as incident commander for security incidents.",
+        "effective_requirement": "Security incident response experience.",
+        "reason": "Incident response is observable; incident-commander role is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience leveraging AI to improve security processes.",
+        "source_quote": "Experience with leveraging AI to improve security processes.",
+        "verification": "profile",
+        "reason": "Using AI to improve security processes is rarely stated (0.8 strict fail)."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to assess security risks based on business and technical impact and prioritize remediation in light of business goals.",
+        "source_quote": "Ability to assess and analyze security risks comprehensively, considering both business impact and technical impact; Ability to prioritize risk remediation with consideration to business goals and objectives.",
+        "verification": "profile",
+        "reason": "Risk-based prioritization ability is a judgment skill not observable on profiles."
+      }
+    ]
   },
   "experience_context": []
 }

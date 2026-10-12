@@ -3,10 +3,10 @@
   "role_id": "5f54f2de-dc07-4428-aeb4-5652fac7a2f6",
   "snapshot_sha256": "ae0f9e1e4a54024e85f42fc180d59c7947a78ee8e2e5908454c215a6107f88f7",
   "input_sha256": "99bad6f3984b0cf39c62e7e9038470aedfa0017e342a06678ecd06794a0a442e",
-  "rubric_sha256": "ed34c4a74e5ceb090004265029dbf251b73f5616389c7b2b3f6af17e63dfd092",
+  "rubric_sha256": "8c856c7e95aea390cf41bec1266741f06082dc648607bcae7da5fc4d9a148794",
   "rubric": {
     "role_summary": "Growth marketing role leading paid customer acquisition for haircare and skincare across Meta and AppLovin, developing Pinterest and TikTok, directing measurement and testing, and managing a Paid Social Associate.",
-    "search_query": "Find candidates for this role:\nGrowth marketing role leading paid customer acquisition for haircare and skincare across Meta and AppLovin, developing Pinterest and TikTok, directing measurement and testing, and managing a Paid Social Associate.\nMandatory professional qualifications:\n- 4+ years of hands-on experience in paid acquisition or growth marketing.\n- Hands-on Meta Ads experience.\n- Experience running app or programmatic (DSP) acquisition channels.\nPreferred, not mandatory:\n- Experience at a DTC or subscription brand.\n- Direct hands-on experience operating AppLovin.\n- Pinterest and TikTok experience.\n- Experience with analytics and reporting tools such as Looker or similar.\n- Experience with Haus and Northbeam.\n- Deep, hands-on Meta Ads Manager experience sufficient to set strategy and account structure, including experience with purchase- and value-optimized campaigns.\n- Experience owning acquisition strategy for an app or programmatic channel, such as AppLovin or a similar DSP.\n- Analytical skills in owning measurement, interpreting performance data, and translating it into spend decisions and reporting.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week.",
+    "search_query": "Find candidates for this role:\nGrowth marketing role leading paid customer acquisition for haircare and skincare across Meta and AppLovin, developing Pinterest and TikTok, directing measurement and testing, and managing a Paid Social Associate.\nMandatory professional qualifications:\n- 4+ years of hands-on experience in paid acquisition or growth marketing.\n- Hands-on Meta Ads experience.\n- Experience running app or programmatic (DSP) acquisition channels.\nPreferred, not mandatory:\n- Experience at a DTC or subscription brand.\n- Direct hands-on experience operating AppLovin.\n- Pinterest and TikTok experience.\n- Experience with analytics and reporting tools such as Looker or similar.\n- Experience with Haus and Northbeam.\n- Deep, hands-on Meta Ads Manager experience sufficient to set strategy and account structure, including experience with purchase- and value-optimized campaigns.\n- Experience owning acquisition strategy for an app or programmatic channel, such as AppLovin or a similar DSP.\n- Analytical skills in owning measurement, interpreting performance data, and translating it into spend decisions and reporting.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -144,100 +144,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "578d0af1c4f056035b679c6a98ec7390a6df1a38dc9824e368516021359f620f",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based at the Williamsburg office in New York, with an expectation of 3 days per week in the office. Present residence is not specified.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Williamsburg, New York office"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "4+ years of hands-on experience in paid acquisition or growth marketing",
-        "effective_requirement": "4+ years of hands-on experience in paid acquisition or growth marketing.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Active, daily use of AI tools in the current workflow for analysis, reporting, research, or creative thinking.",
+        "source_quote": "Active, daily use of AI tools in your current workflow — for analysis, reporting, research, or creative thinking.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "fd8970749432e9b336d0f1218feaa1326131a56f52637ff309afd6a8fe8e88ab",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Active, daily use of AI tools in the current workflow for analysis, reporting, research, or creative thinking.",
-          "source_quote": "Active, daily use of AI tools in your current workflow — for analysis, reporting, research, or creative thinking.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "697d48128f365b773a341f9a57c466c2c7bcea2696692fa732972ee71bfabea4",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Analytical skills in owning measurement, interpreting performance data, and translating it into spend decisions and reporting.",
-          "source_quote": "Strong analytical skills — comfortable owning measurement, interpreting performance data, and translating it into spend decisions and clear reporting.",
-          "verification": "profile",
-          "reason": "Analytical/measurement skill is largely unstated and implied by the core role anyway."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Deep, hands-on Meta Ads Manager experience sufficient to set strategy and account structure, including experience with purchase- and value-optimized campaigns.",
-          "after": "Hands-on Meta Ads experience.",
-          "reason": "Meta Ads is observable; depth and specific campaign types are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience owning acquisition strategy for an app or programmatic channel, such as AppLovin or a similar DSP.",
-          "after": "Experience running app or programmatic (DSP) acquisition channels.",
-          "reason": "Channel type can be stated; ownership of strategy is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P6",
-        "M3": "P7",
-        "M4": "P8"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep, hands-on Meta Ads Manager experience sufficient to set strategy and account structure, including experience with purchase- and value-optimized campaigns.",
+        "effective_requirement": "Hands-on Meta Ads experience.",
+        "reason": "Meta Ads is observable; depth and specific campaign types are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience owning acquisition strategy for an app or programmatic channel, such as AppLovin or a similar DSP.",
+        "effective_requirement": "Experience running app or programmatic (DSP) acquisition channels.",
+        "reason": "Channel type can be stated; ownership of strategy is not."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "3d835069ece7f8535132f3d5b571fa867f515e97f816f1f656e1f78b61fc46cd",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d2fe340b9adf068cda3c0e1df6759281f36d33eed56e97e6917ec5fe77154fd0",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Analytical skills in owning measurement, interpreting performance data, and translating it into spend decisions and reporting.",
+        "source_quote": "Strong analytical skills — comfortable owning measurement, interpreting performance data, and translating it into spend decisions and clear reporting.",
+        "verification": "profile",
+        "reason": "Analytical/measurement skill is largely unstated and implied by the core role anyway."
+      }
+    ]
   },
   "experience_context": [
     {

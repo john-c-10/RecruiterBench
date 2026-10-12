@@ -3,10 +3,10 @@
   "role_id": "cc8e9fa2-18f5-4447-b796-5db51610465f",
   "snapshot_sha256": "d8dd937127a5c67feefd079798ea0051fb13162fcba60f51860ef35cbf12e8e1",
   "input_sha256": "894d3b2ef6249300291effe0b69fdc5fe5b5e8b793d0ee56fc1fb7f9d7811983",
-  "rubric_sha256": "31f026e493e9207f80137f52c28059b0ba9f2117133cbd080cc5c6f751cdbfef",
+  "rubric_sha256": "9cc231fa2b146640dee15a3d362fbb0c1f81cab48bbdd345105c0d4a429a6cfa",
   "rubric": {
     "role_summary": "Senior global sourcing role for electronics commodities in home robotics, covering supplier strategy, procurement, contract manufacturing partnerships, cost, and production ramp-up.",
-    "search_query": "Find candidates for this role:\nSenior global sourcing role for electronics commodities in home robotics, covering supplier strategy, procurement, contract manufacturing partnerships, cost, and production ramp-up.\nMandatory professional qualifications:\n- BS in Engineering, Supply Chain Management, Business Administration, or a related field.\n- 5+ years of global sourcing experience focused on electronics.\n- Experience developing and implementing sourcing strategies that save costs and improve supplier performance.\n- Supplier negotiation and relationship-management skills.\nPreferred, not mandatory:\n- At least 5 years of global sourcing experience focused on electronics commodities, including cameras and contract manufacturing.\n- Experience with data analysis and reporting.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior global sourcing role for electronics commodities in home robotics, covering supplier strategy, procurement, contract manufacturing partnerships, cost, and production ramp-up.\nMandatory professional qualifications:\n- BS in Engineering, Supply Chain Management, Business Administration, or a related field.\n- 5+ years of global sourcing experience focused on electronics.\n- Experience developing and implementing sourcing strategies that save costs and improve supplier performance.\n- Supplier negotiation and relationship-management skills.\nPreferred, not mandatory:\n- At least 5 years of global sourcing experience focused on electronics commodities, including cameras and contract manufacturing.\n- Experience with data analysis and reporting.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -116,84 +116,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "3dcdc2521b2e8b5249def3962e9732537c4da02952f646e41eebd5f394c2c131",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Menlo Park, CA; current residence in Menlo Park is not specified as a requirement.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Menlo Park, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Menlo Park, CA",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "At least 5 years of experience in global sourcing, with a focus on electronics commodities, including cameras and contract manufacturing.",
-        "effective_requirement": "At least 5 years of global sourcing experience focused on electronics commodities, including cameras and contract manufacturing.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "At least 5 years of global sourcing experience focused on electronics commodities, including cameras and contract manufacturing.",
+        "effective_requirement": "5+ years of global sourcing experience focused on electronics.",
+        "reason": "Electronics sourcing years are observable; cameras/CM specifics are rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "70f078a40169a891f1623202b191a4aa62b00053023f5a8d7393b08f6aa4b4f2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "70f078a40169a891f1623202b191a4aa62b00053023f5a8d7393b08f6aa4b4f2",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience with data analysis and reporting.",
-          "source_quote": "Strong analytical skills and experience with data analysis and reporting.",
-          "verification": "profile",
-          "reason": "Generic data analysis/reporting is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "At least 5 years of global sourcing experience focused on electronics commodities, including cameras and contract manufacturing.",
-          "after": "5+ years of global sourcing experience focused on electronics.",
-          "reason": "Electronics sourcing years are observable; cameras/CM specifics are rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M5": "P2"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience with data analysis and reporting.",
+        "source_quote": "Strong analytical skills and experience with data analysis and reporting.",
+        "verification": "profile",
+        "reason": "Generic data analysis/reporting is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "359b38ba40e838e1d812f30b563f1e5763e730f5516e09a2b3834972f0c385aa",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "1dd902567b5b598c9fd2cabe710a9475db20b916f908a54e88cad0c735f39b98",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

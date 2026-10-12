@@ -3,10 +3,10 @@
   "role_id": "ef3fa58b-1782-4ee2-b917-c8b075bdd9be",
   "snapshot_sha256": "673d169fe4725a8805028efab4507588c2149884aadc28e5ef9961241cefb2ad",
   "input_sha256": "08ec5e3021c2eaffe1ea57da2dcbbc337784d358ec3de5b2b4f212770735922a",
-  "rubric_sha256": "80f3de25b9f0f6c1292897611bc8e08f66c6482ffa632e3922749b77289f5ff6",
+  "rubric_sha256": "2c60446798fe0fa65e6faba7ff0c7ce6f168b545576e7e8656577fe572703ce6",
   "rubric": {
     "role_summary": "Founding VP of Regulatory Affairs to build a regulatory function and lead global strategy and submissions for therapeutics and diagnostic biomarkers across neurology, metabolic disease, and ophthalmology.",
-    "search_query": "Find candidates for this role:\nFounding VP of Regulatory Affairs to build a regulatory function and lead global strategy and submissions for therapeutics and diagnostic biomarkers across neurology, metabolic disease, and ophthalmology.\nMandatory professional qualifications:\n- 10+ years of regulatory affairs experience in biotechnology and/or pharmaceuticals, including direct experience as a regulatory lead and in a leadership role.\n- Advanced degree in life sciences, technology, chemistry, or a related discipline.\nPreferred, not mandatory:\n- Exposure to regulatory approvals involving computationally enabled tools or biomarkers, ideally including AI methods.\n- Experience taking therapeutics and diagnostic biomarkers from first-in-human through proof-of-concept to NDA/BLA submission in metabolic disease, neurology/neurodegeneration, or oncology.\n- Advanced degree in life sciences, technology, chemistry, or a related discipline, with either a specialized degree in regulatory science or equivalent practical experience.\n- Demonstrated command of regulations and guidelines governing drug, diagnostic, and device development, including good clinical practice, clinical trial design and execution, clinical pharmacology, biostatistics, and clinical operations.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role can be either onsite three days per week in our South San Francisco office or hybrid at roughly one week per month, with additional travel to medical and regulatory science conferences and health authority engagements.",
+    "search_query": "Find candidates for this role:\nFounding VP of Regulatory Affairs to build a regulatory function and lead global strategy and submissions for therapeutics and diagnostic biomarkers across neurology, metabolic disease, and ophthalmology.\nMandatory professional qualifications:\n- 10+ years of regulatory affairs experience in biotechnology and/or pharmaceuticals, including direct experience as a regulatory lead and in a leadership role.\n- Advanced degree in life sciences, technology, chemistry, or a related discipline.\nPreferred, not mandatory:\n- Exposure to regulatory approvals involving computationally enabled tools or biomarkers, ideally including AI methods.\n- Experience taking therapeutics and diagnostic biomarkers from first-in-human through proof-of-concept to NDA/BLA submission in metabolic disease, neurology/neurodegeneration, or oncology.\n- Advanced degree in life sciences, technology, chemistry, or a related discipline, with either a specialized degree in regulatory science or equivalent practical experience.\n- Demonstrated command of regulations and guidelines governing drug, diagnostic, and device development, including good clinical practice, clinical trial design and execution, clinical pharmacology, biostatistics, and clinical operations.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -116,95 +116,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "e4f067d27c10c52f267ce8d94b1829b55c2437705272cb1b785b3ab75f93e191",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work from the South San Francisco office either onsite three days per week or on a hybrid schedule of roughly one week per month, with additional travel to medical and regulatory science conferences and health authority engagements. Current residence is not specified.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "South San Francisco, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "South San Francisco, CA",
-        "This role can be either onsite three days per week in our South San Francisco office or hybrid at roughly one week per month, with additional travel to medical and regulatory science conferences and health authority engagements."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "10+ years of experience in regulatory affairs in the biotechnology and/or pharmaceutical industries, including time directly as a regulatory lead and in a leadership role",
-        "effective_requirement": "10+ years of regulatory affairs experience in biotechnology and/or pharmaceuticals, including direct experience as a regulatory lead and in a leadership role.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Advanced degree in life sciences, technology, chemistry, or a related discipline, with either a specialized degree in regulatory science or equivalent practical experience.",
+        "effective_requirement": "Advanced degree in life sciences, technology, chemistry, or a related discipline.",
+        "reason": "Advanced degree is visible; the regulatory-science alternative is covered by experience."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "f320d4d58cef65c0cd20701bf0446e1b86992cc1ab2f872b224a1ec3619f5e27",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "f320d4d58cef65c0cd20701bf0446e1b86992cc1ab2f872b224a1ec3619f5e27",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience taking therapeutics and diagnostic biomarkers from first-in-human through proof-of-concept to NDA/BLA submission in metabolic disease, neurology/neurodegeneration, or oncology.",
-          "source_quote": "Experience taking therapeutics and diagnostic biomarkers from first-in-human through proof-of-concept to NDA/BLA submission in metabolic disease, neurology/neurodegeneration, or oncology",
-          "verification": "profile",
-          "reason": "The full FIH-to-NDA/BLA progression in specific therapeutic areas is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Demonstrated command of regulations and guidelines governing drug, diagnostic, and device development, including good clinical practice, clinical trial design and execution, clinical pharmacology, biostatistics, and clinical operations.",
-          "source_quote": "Demonstrated command of the regulations and guidelines governing drug, diagnostic, and device development, including good clinical practice, clinical trial design and execution, clinical pharmacology, biostatistics, and clinical operations",
-          "verification": "profile",
-          "reason": "Command of a long list of regulations and clinical disciplines is rarely itemized."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Advanced degree in life sciences, technology, chemistry, or a related discipline, with either a specialized degree in regulatory science or equivalent practical experience.",
-          "after": "Advanced degree in life sciences, technology, chemistry, or a related discipline.",
-          "reason": "Advanced degree is visible; the regulatory-science alternative is covered by experience."
-        }
-      ],
-      "criterion_id_map": {
-        "M3": "M2"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience taking therapeutics and diagnostic biomarkers from first-in-human through proof-of-concept to NDA/BLA submission in metabolic disease, neurology/neurodegeneration, or oncology.",
+        "source_quote": "Experience taking therapeutics and diagnostic biomarkers from first-in-human through proof-of-concept to NDA/BLA submission in metabolic disease, neurology/neurodegeneration, or oncology",
+        "verification": "profile",
+        "reason": "The full FIH-to-NDA/BLA progression in specific therapeutic areas is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4"
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated command of regulations and guidelines governing drug, diagnostic, and device development, including good clinical practice, clinical trial design and execution, clinical pharmacology, biostatistics, and clinical operations.",
+        "source_quote": "Demonstrated command of the regulations and guidelines governing drug, diagnostic, and device development, including good clinical practice, clinical trial design and execution, clinical pharmacology, biostatistics, and clinical operations",
+        "verification": "profile",
+        "reason": "Command of a long list of regulations and clinical disciplines is rarely itemized."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "a1d52e35c49f7b6b98a823e73c438eb149857f5d373624ca42ddcfe690bd15cb",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d2a133a9e5395a54fbb71fcdf5f354803e6be2407ab4cb289767f6fd24bc8bd4",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role can be either onsite three days per week in our South San Francisco office or hybrid at roughly one week per month, with additional travel to medical and regulatory science conferences and health authority engagements.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

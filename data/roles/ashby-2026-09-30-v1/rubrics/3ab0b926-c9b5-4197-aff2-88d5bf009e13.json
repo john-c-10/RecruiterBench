@@ -3,10 +3,10 @@
   "role_id": "3ab0b926-c9b5-4197-aff2-88d5bf009e13",
   "snapshot_sha256": "753022f52a541dcf2ed67b7a7cf37ca04b531519bc860d1f139c222116f6aa7a",
   "input_sha256": "275a1f03456918a8150d86b62d91ab0617ed880d606e183e2a033996dbbedfd5",
-  "rubric_sha256": "995a54d71678bc73f48c06b47245ced67b72e59c2c88d6cbe061a20a3413bfff",
+  "rubric_sha256": "b4e15f29f3f7134c4f1092e0bb5c0537db57f58ed7cc9146ba53886a71447632",
   "rubric": {
     "role_summary": "Experienced backend or systems engineer building and operating globally distributed Edge Functions, including a Rust-based Deno runtime, observability, reliability, and developer tooling.",
-    "search_query": "Find candidates for this role:\nExperienced backend or systems engineer building and operating globally distributed Edge Functions, including a Rust-based Deno runtime, observability, reliability, and developer tooling.\nMandatory professional qualifications:\n- At least 5 years of backend or systems engineering experience, with strong fluency in Rust and TypeScript.\n- Experience with V8 Isolates, Deno, or other JavaScript runtimes.\n- Experience operating infrastructure at scale using Kubernetes, AWS, Cloudflare Workers, Redis, or comparable systems.\nPreferred, not mandatory:\n- Experience building developer-facing CLIs or front-end tooling that sits on top of an infrastructure product.\n- Experience with V8 Isolates, Deno, and JavaScript runtimes in general.",
+    "search_query": "Find candidates for this role:\nExperienced backend or systems engineer building and operating globally distributed Edge Functions, including a Rust-based Deno runtime, observability, reliability, and developer tooling.\nMandatory professional qualifications:\n- At least 5 years of backend or systems engineering experience, with strong fluency in Rust and TypeScript.\n- Experience with V8 Isolates, Deno, or other JavaScript runtimes.\n- Experience operating infrastructure at scale using Kubernetes, AWS, Cloudflare Workers, Redis, or comparable systems.\nPreferred, not mandatory:\n- Experience building developer-facing CLIs or front-end tooling that sits on top of an infrastructure product.\n- Experience with V8 Isolates, Deno, and JavaScript runtimes in general.\nWork location and geographic eligibility:\nNo geographic filter: the role explicitly allows global remote work.",
     "must_haves": [
       {
         "id": "M1",
@@ -108,74 +108,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "0b8f3dbe971f9753b277c8978a9b59c27bd83597f9864e6071de753e8af1875b",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Fully remote; hiring globally, with no office-based work location.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "Global"
-      ],
-      "remote_scope": "Global",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote, Global",
-        "We hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world."
-      ]
+    "location": {
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "At least 5 years of backend or systems engineering experience, with strong fluency in Rust and TypeScript.",
-        "effective_requirement": "At least 5 years of backend or systems engineering experience, with strong fluency in Rust and TypeScript.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience with V8 Isolates, Deno, and JavaScript runtimes in general.",
+        "effective_requirement": "Experience with V8 Isolates, Deno, or other JavaScript runtimes.",
+        "reason": "JS runtime experience is observable; requiring all of them conjunctively is unrealistic."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "ac635e6f23ceccd0d99cd605d1ad816c696896aae991f555143c5a87d23b84c2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ac635e6f23ceccd0d99cd605d1ad816c696896aae991f555143c5a87d23b84c2",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience with V8 Isolates, Deno, and JavaScript runtimes in general.",
-          "after": "Experience with V8 Isolates, Deno, or other JavaScript runtimes.",
-          "reason": "JS runtime experience is observable; requiring all of them conjunctively is unrealistic."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "995a54d71678bc73f48c06b47245ced67b72e59c2c88d6cbe061a20a3413bfff",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": false
-    },
-    "single_location": {
-      "parent_rubric_sha256": "995a54d71678bc73f48c06b47245ced67b72e59c2c88d6cbe061a20a3413bfff",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "no_filter",
-      "reason": "No geographic filter; unchanged.",
-      "previous_allowed_locations": [
-        "Global"
-      ],
-      "previous_requirement_text": "No geographic filter: the role explicitly allows global remote work.",
-      "location_requirement_changed": false
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

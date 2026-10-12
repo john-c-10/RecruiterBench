@@ -3,10 +3,10 @@
   "role_id": "30842400-3778-4eee-8bb5-6d7dd7602b14",
   "snapshot_sha256": "65dcc2197deb815b3611f97a243253656f651b90297785aae8457ac5d9f79087",
   "input_sha256": "48049503c1c1eb6b2b595627d79090108845d8f22e2bb653619d6fff55e42433",
-  "rubric_sha256": "efae1ad9aaebf61822cd0c827a7f4f059bbeb809fa53c34b8557bd06dace69ad",
+  "rubric_sha256": "353c8090b8319c667f4cc931a2da6c15205860556aabd7e6766f494ae592c494",
   "rubric": {
     "role_summary": "Senior process engineering role developing and scaling CVD deposition and thermal processes for a solar cell fab, with responsibility for process performance, yield, and throughput.",
-    "search_query": "Find candidates for this role:\nSenior process engineering role developing and scaling CVD deposition and thermal processes for a solar cell fab, with responsibility for process performance, yield, and throughput.\nMandatory professional qualifications:\n- Bachelor's degree or higher in Chemical Engineering, Materials Science, Electrical Engineering, Physics, or a related field.\n- 5+ years of process engineering experience in semiconductor, photovoltaic, or advanced manufacturing environments.\n- Hands-on experience with PECVD or LPCVD toolsets.\n- Working knowledge of vapor deposition processes and thermal tools and processes.\n- Experience with process characterization, DOE methodology, and statistical process control (SPC).\n- Proficiency with data analysis tools for process monitoring and optimization; Python, JMP, and Excel are examples, not a requirement to know all three.\nPreferred, not mandatory:\n- Familiarity with solar cell fabrication processes and device physics.\n- Hands-on experience with both PECVD and LPCVD toolsets.\n- Experience writing SOPs, process specifications, and engineering reports.\n- Knowledge of thermodynamics, crystal lattice chemistry, diffusion principles, and chemical kinetics.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior process engineering role developing and scaling CVD deposition and thermal processes for a solar cell fab, with responsibility for process performance, yield, and throughput.\nMandatory professional qualifications:\n- Bachelor's degree or higher in Chemical Engineering, Materials Science, Electrical Engineering, Physics, or a related field.\n- 5+ years of process engineering experience in semiconductor, photovoltaic, or advanced manufacturing environments.\n- Hands-on experience with PECVD or LPCVD toolsets.\n- Working knowledge of vapor deposition processes and thermal tools and processes.\n- Experience with process characterization, DOE methodology, and statistical process control (SPC).\n- Proficiency with data analysis tools for process monitoring and optimization; Python, JMP, and Excel are examples, not a requirement to know all three.\nPreferred, not mandatory:\n- Familiarity with solar cell fabrication processes and device physics.\n- Hands-on experience with both PECVD and LPCVD toolsets.\n- Experience writing SOPs, process specifications, and engineering reports.\n- Knowledge of thermodynamics, crystal lattice chemistry, diffusion principles, and chemical kinetics.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -145,107 +145,43 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "03a6a275fdb7ee0a7d8d6fbd0a7db44db862b9e6a98dac908d2260887a6aac0c",
-    "resolved_ambiguities": [
-      "The job title says \"Senior Deposition Process Engineer,\" while the description says T1 Energy is hiring a \"Thermal Process Engineer\"; the duties cover both deposition and thermal processes."
-    ],
-    "resolution": "Use the combined deposition and thermal duties described in the text, without exact-title matching.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role in Austin, TX, with occasional travel to the G2 facility as needed. The posting does not require current residence in Austin or state a relocation policy.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin, TX",
-        "OnSite",
-        "Ability to support a fab environment, including occasional travel to the G2 facility as needed."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "5+ years of process engineering experience in semiconductor, photovoltaic, or advanced manufacturing environments.",
-        "effective_requirement": "5+ years of process engineering experience in semiconductor, photovoltaic, or advanced manufacturing environments.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "3d5cc7a6322a22807ee8caf485de2dff5eb7d2898635ae1b7cb7bf5245476b64",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Ability to support a fab environment, including occasional travel to the G2 facility as needed.",
-          "source_quote": "Ability to support a fab environment, including occasional travel to the G2 facility as needed.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M9": "M8"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "7551d2b33df6250d3169b4935e08e39e4d97d29f69a8603cbde08e3d73cee757",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Experience writing SOPs, process specifications, and engineering reports.",
-          "source_quote": "Strong documentation skills and experience writing SOPs, process specs, and engineering reports.",
-          "verification": "profile",
-          "reason": "Documentation practices rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Knowledge of thermodynamics, crystal lattice chemistry, diffusion principles, and chemical kinetics.",
-          "source_quote": "Well versed in thermodynamics, crystal lattice chemistry, principles of diffusion and chemical kinetics, and extreme prescience in quantum chemistry.",
-          "verification": "profile",
-          "reason": "Theoretical science knowledge list rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Hands-on experience with both PECVD and LPCVD toolsets.",
-          "after": "Hands-on experience with PECVD or LPCVD toolsets.",
-          "reason": "CVD tool experience is observable; requiring both is unrealistic."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M7": "P3",
-        "M8": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "bec6ebdde6c9a02588209d07ac73f8fbdf70893c80ec9c6aac41e2132632b7de",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "60bd439b73f867f8bddb335b5f488f107b815e6e4473eeaa701c798465fb34fd",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to support a fab environment, including occasional travel to the G2 facility as needed.",
+        "source_quote": "Ability to support a fab environment, including occasional travel to the G2 facility as needed.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience with both PECVD and LPCVD toolsets.",
+        "effective_requirement": "Hands-on experience with PECVD or LPCVD toolsets.",
+        "reason": "CVD tool experience is observable; requiring both is unrealistic."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience writing SOPs, process specifications, and engineering reports.",
+        "source_quote": "Strong documentation skills and experience writing SOPs, process specs, and engineering reports.",
+        "verification": "profile",
+        "reason": "Documentation practices rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Knowledge of thermodynamics, crystal lattice chemistry, diffusion principles, and chemical kinetics.",
+        "source_quote": "Well versed in thermodynamics, crystal lattice chemistry, principles of diffusion and chemical kinetics, and extreme prescience in quantum chemistry.",
+        "verification": "profile",
+        "reason": "Theoretical science knowledge list rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

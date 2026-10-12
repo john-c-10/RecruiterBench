@@ -3,10 +3,10 @@
   "role_id": "15d042b3-077c-49aa-b3fc-77993ab865f3",
   "snapshot_sha256": "68e5faaa5281ae3f8073694df9f5986fc73166e7de3a0bcb88b3fc1b6a824e37",
   "input_sha256": "74686bd47245813c0429835972e49f78bba93bd176d31d6798f230b8a7ce4b91",
-  "rubric_sha256": "289f1233184d4a699d61661b3585b33989ba12305dcead00aae4e46c7eae72f0",
+  "rubric_sha256": "fe3ede74254962a483d0cc2a9d38fd888344ccf40e6bfb55a83d42e51f22718b",
   "rubric": {
     "role_summary": "Onsite quantitative developer in Amsterdam building Python-based infrastructure to move research models into production crypto trading systems, including deployment, monitoring, and production reliability.",
-    "search_query": "Find candidates for this role:\nOnsite quantitative developer in Amsterdam building Python-based infrastructure to move research models into production crypto trading systems, including deployment, monitoring, and production reliability.\nMandatory professional qualifications:\n- 2+ years of software engineering experience with a track record of shipping production-grade systems.\n- Academic foundation in a STEM discipline such as computer science, mathematics, physics, engineering, or similar; no specific degree is stated.\n- Strong Python programming skills.\nPreferred, not mandatory:\n- Rust and/or C++ programming skills.\n- Experience building or maintaining trading, backtesting, or data infrastructure.\n- Familiarity with market microstructure or interest in learning how trading systems work end-to-end.\n- Software engineering fundamentals covering clean, testable, maintainable code, version control, testing, and CI/CD.\n- Ability to translate research code into production systems while collaborating with researchers and traders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Amsterdam, Netherlands area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nOnsite quantitative developer in Amsterdam building Python-based infrastructure to move research models into production crypto trading systems, including deployment, monitoring, and production reliability.\nMandatory professional qualifications:\n- 2+ years of software engineering experience with a track record of shipping production-grade systems.\n- Academic foundation in a STEM discipline such as computer science, mathematics, physics, engineering, or similar; no specific degree is stated.\n- Strong Python programming skills.\nPreferred, not mandatory:\n- Rust and/or C++ programming skills.\n- Experience building or maintaining trading, backtesting, or data infrastructure.\n- Familiarity with market microstructure or interest in learning how trading systems work end-to-end.\n- Software engineering fundamentals covering clean, testable, maintainable code, version control, testing, and CI/CD.\n- Ability to translate research code into production systems while collaborating with researchers and traders.\nWork location and geographic eligibility:\nNo geographic filter: the role is onsite in Amsterdam, Netherlands, and relocation is provided for hires from any location.",
     "must_haves": [
       {
         "id": "M1",
@@ -128,95 +128,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "f8967bcb7855626c000357bf1126cce9785af2fbd91086928b641c8f8957b000",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Amsterdam; relocation package offered for internationals. Current Amsterdam residence is not required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Amsterdam, Netherlands"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Amsterdam",
-        "OnSite",
-        "This is a hands-on  engineering seat on our trading floor.",
-        "For internationals: an all-in relocation package and Dutch classes"
-      ]
+    "location": {
+      "decision": "global",
+      "reason": "Relocation is offered to international hires, so the role realistically hires from any location."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "2+ years of software engineering experience, with a track record of shipping production-grade systems",
-        "effective_requirement": "2+ years of software engineering experience with a track record of shipping production-grade systems.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Written and spoken English.",
+        "source_quote": "Clear written and verbal English",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "54320fc7dbf2be16f2f8958ed010494e81019bdc60497fa7a7cbe706bcf8402f",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Written and spoken English.",
-          "source_quote": "Clear written and verbal English",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "869770c3245fe3eeb34edffa1100a50d83fd9b53244ee1fcd80b259cd2ccbfa3",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Software engineering fundamentals covering clean, testable, maintainable code, version control, testing, and CI/CD.",
-          "source_quote": "Solid software engineering fundamentals: clean, testable, maintainable code, version control, testing, and CI/CD",
-          "verification": "profile",
-          "reason": "Specific engineering practices (testing, CI/CD, clean code) are rarely stated and redundant with M1."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to translate research code into production systems while collaborating with researchers and traders.",
-          "source_quote": "The ability to collaborate with researchers and traders and translate research code into production systems",
-          "verification": "profile",
-          "reason": "Collaboration with researchers and translating research code is a practice rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M4": "P4",
-        "M5": "P5"
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Software engineering fundamentals covering clean, testable, maintainable code, version control, testing, and CI/CD.",
+        "source_quote": "Solid software engineering fundamentals: clean, testable, maintainable code, version control, testing, and CI/CD",
+        "verification": "profile",
+        "reason": "Specific engineering practices (testing, CI/CD, clean code) are rarely stated and redundant with M1."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to translate research code into production systems while collaborating with researchers and traders.",
+        "source_quote": "The ability to collaborate with researchers and traders and translate research code into production systems",
+        "verification": "profile",
+        "reason": "Collaboration with researchers and translating research code is a practice rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ac724f19170f89f21a40d86ca6edca9d39af0019aea44d699b6253fe19c52c5e",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "27214925667713f3e002f60995652ca7e9284364a4982b834abf0e599d58ede1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "global",
-      "reason": "Relocation is offered to international hires, so the role realistically hires from any location.",
-      "previous_allowed_locations": [
-        "Greater Amsterdam, Netherlands area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Amsterdam, Netherlands area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

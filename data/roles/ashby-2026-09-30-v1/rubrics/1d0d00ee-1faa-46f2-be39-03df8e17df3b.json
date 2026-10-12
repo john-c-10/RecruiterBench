@@ -3,10 +3,10 @@
   "role_id": "1d0d00ee-1faa-46f2-be39-03df8e17df3b",
   "snapshot_sha256": "1555679b857812929592a08a34fc08e07b0b508eca504b2b89e0abc6e87d9ddf",
   "input_sha256": "79d017f898b4366f689d1b6292953a7376a13faabfafb95a0f947172a1fdccac",
-  "rubric_sha256": "a6deed8ce2fa37a012723fbd0494853394844f62f077e0a5debcc11fe23fe159",
+  "rubric_sha256": "19bd09895dce6ad1f13d02c7e4fbae9511c6bbb01b0a1640b3ddd584c8524a37",
   "rubric": {
     "role_summary": "Medical Operations role supporting adoption of a clinical AI assistant across Sweden through clinician onboarding, training, workflow integration, product feedback, demonstrations, and clinical safety operations.",
-    "search_query": "Find candidates for this role:\nMedical Operations role supporting adoption of a clinical AI assistant across Sweden through clinician onboarding, training, workflow integration, product feedback, demonstrations, and clinical safety operations.\nMandatory professional qualifications:\n- Clinical experience in a healthcare setting.\n- Some experience in a consulting, corporate, or startup environment.\nPreferred, not mandatory:\n- Familiarity with prompting and large language models (LLMs).\n- Experience working in a healthtech or SaaS company.\n- Exposure to EU regulatory standards, such as clinical safety or digital health compliance.\n- Experience running implementation projects or customer-facing rollouts.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Stockholm, Sweden area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nMedical Operations role supporting adoption of a clinical AI assistant across Sweden through clinician onboarding, training, workflow integration, product feedback, demonstrations, and clinical safety operations.\nMandatory professional qualifications:\n- Clinical experience in a healthcare setting.\n- Some experience in a consulting, corporate, or startup environment.\nPreferred, not mandatory:\n- Familiarity with prompting and large language models (LLMs).\n- Experience working in a healthtech or SaaS company.\n- Exposure to EU regulatory standards, such as clinical safety or digital health compliance.\n- Experience running implementation projects or customer-facing rollouts.\nWork location and geographic eligibility:\nLocation: Greater Stockholm, Sweden area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -120,75 +120,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "314e03992a35203bc9b9e11fcebb9a4e33c0b8eb64cf362741d753329f1ca62f",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Based at the Stockholm HQ, working primarily from the office; no present-residence requirement or relocation policy is stated.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Stockholm, Sweden"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Stockholm",
-        "OnSite",
-        "This role is based in our vibrant HQ in the Epicenter building in the heart of Stockholm where you will work primarily from our office to collaborate, connect, and build our culture."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "b694d6741d8905d3655b2759f779a511ac086782a215f047607bb817a3af76ef",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Fluency in Swedish.",
-          "source_quote": "Fluency in Swedish, with the ability to engage confidently with local stakeholders",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Willingness to work flexibly and travel as needed.",
-          "source_quote": "Willingness to work flexibly, travel as needed, and step up during critical moments.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "b2ed3c4c26aa6573c3805fdd36dd5ded3c1ac4b4c7184675ae25c43ae369da16",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "b2ed3c4c26aa6573c3805fdd36dd5ded3c1ac4b4c7184675ae25c43ae369da16",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "10628caa998463a1d8309dc58bc74ec9b441ea5d8ba38843a1fc1749f732792d",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Stockholm, Sweden area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Stockholm, Sweden area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Fluency in Swedish.",
+        "source_quote": "Fluency in Swedish, with the ability to engage confidently with local stakeholders",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Willingness to work flexibly and travel as needed.",
+        "source_quote": "Willingness to work flexibly, travel as needed, and step up during critical moments.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

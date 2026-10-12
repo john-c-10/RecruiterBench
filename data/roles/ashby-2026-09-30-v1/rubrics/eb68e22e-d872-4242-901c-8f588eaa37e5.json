@@ -3,10 +3,10 @@
   "role_id": "eb68e22e-d872-4242-901c-8f588eaa37e5",
   "snapshot_sha256": "d607627471e592b8a2de4df6b99db843d9634d66f9769cb644539c3fc2550fc6",
   "input_sha256": "ac576d1418a4cf4712948bbdf4600dca17d1d19ead539dfe6367cdbdab04e5b1",
-  "rubric_sha256": "fdafbf6b7c7344e2b7edf8ba6a02c9d36c652f7aec66f919923baa26d1e68ba8",
+  "rubric_sha256": "d603424171e1806f2f07a4722cbbc4ddd4d3d4fb84acd7358d19bba49a8bfccb",
   "rubric": {
     "role_summary": "Senior individual-contributor mechanical engineer designing and delivering complex subsystems from R&D through production and deployment for carbon-removal technology, with technical leadership and a focus on reliability and manufacturability.",
-    "search_query": "Find candidates for this role:\nSenior individual-contributor mechanical engineer designing and delivering complex subsystems from R&D through production and deployment for carbon-removal technology, with technical leadership and a focus on reliability and manufacturability.\nMandatory professional qualifications:\n- 5+ years of experience designing and delivering products through the full lifecycle, from concept to production.\n- Experience with engineering analyses such as reliability modeling, tolerance analysis, FEA, fatigue analysis, and root cause analysis; the examples are not separate all-required gates.\n- Experience producing drawings and specifications suitable for manufacturing and inspection.\nPreferred, not mandatory:\n- Hands-on experience designing sheet metal, weldments, and plastic parts.\n- Background in random vibration and fatigue testing, metallurgy, and material and test standards.\n- Experience managing development in a product lifecycle management system (PLM).\n- Experience operating in both fast-paced R&D environments and structured NPI execution.\n- Experience using NX in a production or industrial context.\n- Ability to apply engineering first principles, modeling, and data to real-world design decisions.\n- Experience applying Design for Reliability principles, including failure mode identification, reliability modeling, accelerated life and stress testing, and using test results to improve designs.\n- Demonstrated ability to lead technically complex projects or subsystems with minimal supervision.\n- Track record of working cross-functionally to balance competing requirements and constraints.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior individual-contributor mechanical engineer designing and delivering complex subsystems from R&D through production and deployment for carbon-removal technology, with technical leadership and a focus on reliability and manufacturability.\nMandatory professional qualifications:\n- 5+ years of experience designing and delivering products through the full lifecycle, from concept to production.\n- Experience with engineering analyses such as reliability modeling, tolerance analysis, FEA, fatigue analysis, and root cause analysis; the examples are not separate all-required gates.\n- Experience producing drawings and specifications suitable for manufacturing and inspection.\nPreferred, not mandatory:\n- Hands-on experience designing sheet metal, weldments, and plastic parts.\n- Background in random vibration and fatigue testing, metallurgy, and material and test standards.\n- Experience managing development in a product lifecycle management system (PLM).\n- Experience operating in both fast-paced R&D environments and structured NPI execution.\n- Experience using NX in a production or industrial context.\n- Ability to apply engineering first principles, modeling, and data to real-world design decisions.\n- Experience applying Design for Reliability principles, including failure mode identification, reliability modeling, accelerated life and stress testing, and using test results to improve designs.\n- Demonstrated ability to lead technically complex projects or subsystems with minimal supervision.\n- Track record of working cross-functionally to balance competing requirements and constraints.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -151,105 +151,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "46e7dcb109bffb1a1c3e4c4d1fe788104a85f093adde195579f372ebbbc144fd",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Brisbane, California; current residence there is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Brisbane, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Brisbane, CA",
-        "OnSite"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience designing and delivering products through the full lifecycle, from concept to production",
-        "effective_requirement": "5+ years of experience designing and delivering products through the full lifecycle, from concept to production.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "2deea522e448a8f9bf389f55c4f2c48eecf7858bbcd984fe60992bd6f8f1208f",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "2deea522e448a8f9bf389f55c4f2c48eecf7858bbcd984fe60992bd6f8f1208f",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Ability to apply engineering first principles, modeling, and data to real-world design decisions.",
-          "source_quote": "Excellent engineering fundamentals, with the ability to apply first principles, modeling, and data to real-world design decisions",
-          "verification": "profile",
-          "reason": "First-principles thinking is a work style that profiles rarely state."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience applying Design for Reliability principles, including failure mode identification, reliability modeling, accelerated life and stress testing, and using test results to improve designs.",
-          "source_quote": "Experience applying Design for Reliability (DfR) principles, including failure mode identification, reliability modeling, accelerated life and stress testing, and translating test results into durable design improvements",
-          "verification": "profile",
-          "reason": "Design for Reliability practices are a specific methodology profiles rarely mention."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Demonstrated ability to lead technically complex projects or subsystems with minimal supervision.",
-          "source_quote": "Demonstrated ability to lead technically complex projects or subsystems with minimal supervision",
-          "verification": "profile",
-          "reason": "Leading with minimal supervision is a work-style claim beyond what seniority already captures."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Track record of working cross-functionally to balance competing requirements and constraints.",
-          "source_quote": "Proven track record of working cross-functionally to balance competing requirements and constraints",
-          "verification": "profile",
-          "reason": "Cross-functional collaboration is a soft skill rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M2",
-        "M7": "M3"
-      },
-      "demoted_preference_ids": {
-        "M2": "P6",
-        "M3": "P7",
-        "M5": "P8",
-        "M6": "P9"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5218b29133570d89b2c0c2149544fa7dacedee45c12a3e4f3bf3142c8be92377",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "fca62fe075d35d26bbd9d52cd00ac106bfee6d8cda3d8f8374e02c613f918dc2",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to apply engineering first principles, modeling, and data to real-world design decisions.",
+        "source_quote": "Excellent engineering fundamentals, with the ability to apply first principles, modeling, and data to real-world design decisions",
+        "verification": "profile",
+        "reason": "First-principles thinking is a work style that profiles rarely state."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience applying Design for Reliability principles, including failure mode identification, reliability modeling, accelerated life and stress testing, and using test results to improve designs.",
+        "source_quote": "Experience applying Design for Reliability (DfR) principles, including failure mode identification, reliability modeling, accelerated life and stress testing, and translating test results into durable design improvements",
+        "verification": "profile",
+        "reason": "Design for Reliability practices are a specific methodology profiles rarely mention."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated ability to lead technically complex projects or subsystems with minimal supervision.",
+        "source_quote": "Demonstrated ability to lead technically complex projects or subsystems with minimal supervision",
+        "verification": "profile",
+        "reason": "Leading with minimal supervision is a work-style claim beyond what seniority already captures."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Track record of working cross-functionally to balance competing requirements and constraints.",
+        "source_quote": "Proven track record of working cross-functionally to balance competing requirements and constraints",
+        "verification": "profile",
+        "reason": "Cross-functional collaboration is a soft skill rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

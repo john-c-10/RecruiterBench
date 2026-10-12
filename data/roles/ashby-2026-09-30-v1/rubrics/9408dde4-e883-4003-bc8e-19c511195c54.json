@@ -3,10 +3,10 @@
   "role_id": "9408dde4-e883-4003-bc8e-19c511195c54",
   "snapshot_sha256": "cbc8c5d554196c4b1b0f83e94e67cd41a436d6399031e464756dc7f520782d2c",
   "input_sha256": "f860f362e1f615c247afc42921d1ce652d28e7278411cfcb317201e01e0a894e",
-  "rubric_sha256": "57f8da114da490f214f4e73e830c311efcfe05888557a253126fff682842669a",
+  "rubric_sha256": "848531be80878285a43132f631288b81f967187ff51f0a7631ac6f7701bc43de",
   "rubric": {
     "role_summary": "Director-level clinical pharmacology role supporting drug discovery and development programmes. Leads quantitative clinical pharmacology and model-informed drug development across nonclinical and clinical stages, including translation of PK/PD data, trial design and dose selection.",
-    "search_query": "Find candidates for this role:\nDirector-level clinical pharmacology role supporting drug discovery and development programmes. Leads quantitative clinical pharmacology and model-informed drug development across nonclinical and clinical stages, including translation of PK/PD data, trial design and dose selection.\nMandatory professional qualifications:\n- A PhD, PharmD or MD specialised in DMPK, Pharmacometrics, in vivo/Clinical Pharmacology or a related scientific discipline, OR equivalent industry experience in a lead Quantitative Clinical Pharmacology position.\n- Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology.\n- Experience applying quantitative pharmacometric modelling.\nPreferred, not mandatory:\n- Experience across therapeutic modalities, including small molecules, biologics and novel platforms.\n- Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology spanning all stages of development, with understanding of drug discovery and non-clinical and clinical development and a proven MIDD track record.\n- A foundation in in vivo and clinical pharmacology and quantitative drug development, with experience applying advanced quantitative modelling and proficiency in core pharmacometric software, alongside data analytics and emerging AI-enabled approaches. The named software packages are examples, not a requirement to know all of them.\n- Understanding of the regulatory landscape and how to integrate nonclinical, translational and clinical data for development.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater London area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nDirector-level clinical pharmacology role supporting drug discovery and development programmes. Leads quantitative clinical pharmacology and model-informed drug development across nonclinical and clinical stages, including translation of PK/PD data, trial design and dose selection.\nMandatory professional qualifications:\n- A PhD, PharmD or MD specialised in DMPK, Pharmacometrics, in vivo/Clinical Pharmacology or a related scientific discipline, OR equivalent industry experience in a lead Quantitative Clinical Pharmacology position.\n- Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology.\n- Experience applying quantitative pharmacometric modelling.\nPreferred, not mandatory:\n- Experience across therapeutic modalities, including small molecules, biologics and novel platforms.\n- Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology spanning all stages of development, with understanding of drug discovery and non-clinical and clinical development and a proven MIDD track record.\n- A foundation in in vivo and clinical pharmacology and quantitative drug development, with experience applying advanced quantitative modelling and proficiency in core pharmacometric software, alongside data analytics and emerging AI-enabled approaches. The named software packages are examples, not a requirement to know all of them.\n- Understanding of the regulatory landscape and how to integrate nonclinical, translational and clinical data for development.\nWork location and geographic eligibility:\nLocation: Greater London area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -124,85 +124,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "6982e35e0855771bf0a91ab51942789f0b602d63141f929baac1555dacd79b3c",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based at the employer's London facility; present residence in London is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "London"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "London",
-        "The role is a hybrid role based at our state-of-the-art facility in the heart of London."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "f8cd6db563a4a4aee3078807533cfb0393d594346a1488cd9839202bbf489631",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "f8cd6db563a4a4aee3078807533cfb0393d594346a1488cd9839202bbf489631",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Understanding of the regulatory landscape and how to integrate nonclinical, translational and clinical data for development.",
-          "source_quote": "You understand the regulatory landscape and how to integrate diverse data (nonclinical, translational and clinical) for efficient development.",
-          "verification": "profile",
-          "reason": "Regulatory understanding and data integration are rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology spanning all stages of development, with understanding of drug discovery and non-clinical and clinical development and a proven MIDD track record.",
-          "after": "Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology.",
-          "reason": "Industry clin pharm experience is visible; all-stage span and MIDD track record are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "A foundation in in vivo and clinical pharmacology and quantitative drug development, with experience applying advanced quantitative modelling and proficiency in core pharmacometric software, alongside data analytics and emerging AI-enabled approaches. The named software packages are examples, not a requirement to know all of them.",
-          "after": "Experience applying quantitative pharmacometric modelling.",
-          "reason": "Pharmacometric modelling is observable; AI/data analytics and software specifics are rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5a7e114b724a4e1633ee4b0a4d8a83c9e71561485771a6e503c54dad74ec9f26",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "1edbe0b99388f945d2edbb9d677587c9c1f2d79cecff383e44454d1e119a6bcb",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater London area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater London area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology spanning all stages of development, with understanding of drug discovery and non-clinical and clinical development and a proven MIDD track record.",
+        "effective_requirement": "Significant pharmaceutical or biotech industry experience in Quantitative Clinical Pharmacology.",
+        "reason": "Industry clin pharm experience is visible; all-stage span and MIDD track record are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "A foundation in in vivo and clinical pharmacology and quantitative drug development, with experience applying advanced quantitative modelling and proficiency in core pharmacometric software, alongside data analytics and emerging AI-enabled approaches. The named software packages are examples, not a requirement to know all of them.",
+        "effective_requirement": "Experience applying quantitative pharmacometric modelling.",
+        "reason": "Pharmacometric modelling is observable; AI/data analytics and software specifics are rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of the regulatory landscape and how to integrate nonclinical, translational and clinical data for development.",
+        "source_quote": "You understand the regulatory landscape and how to integrate diverse data (nonclinical, translational and clinical) for efficient development.",
+        "verification": "profile",
+        "reason": "Regulatory understanding and data integration are rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "b22132d7-00bf-47ec-b320-552d23183e56",
   "snapshot_sha256": "a8dcdc378cb2822a8cc136e4e0d26f008fb143717b7ffd9c132cfc1e0c1c8da8",
   "input_sha256": "a35ddb7ec7a51f096286379bdcbe5f6a54e21f3003fae5198f65e57fea67dbe4",
-  "rubric_sha256": "75b9bfee154a64d78e4718bfb3019f739e60c5a2ebf26d0900bb1b1fd7071f31",
+  "rubric_sha256": "2ef808e46c05835a20195f060ed438c7dc699c0ba5b8bb33aef5193d1a7c0ddb",
   "rubric": {
     "role_summary": "Senior individual-contributor product designer leading hands-on design of agentic AI experiences for retail merchants, contributing across the Retail product portfolio and supporting mobile point-of-sale strategy.",
-    "search_query": "Find candidates for this role:\nSenior individual-contributor product designer leading hands-on design of agentic AI experiences for retail merchants, contributing across the Retail product portfolio and supporting mobile point-of-sale strategy.\nMandatory professional qualifications:\n- 12+ years of product design experience.\n- Hands-on work across UX, interaction, and visual design.\nPreferred, not mandatory:\n- Toronto location preferred.\n- Experience leading large, ambiguous initiatives across multiple teams and delivering measurable outcomes without formal authority.\n- Active use of LLMs and AI prototyping tools in a design workflow.\n- Technical understanding sufficient to build prototypes that communicate ideas and to reason about engineering constraints.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Toronto, Ontario area; Other locations in Ontario; Quebec; Eastern Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior individual-contributor product designer leading hands-on design of agentic AI experiences for retail merchants, contributing across the Retail product portfolio and supporting mobile point-of-sale strategy.\nMandatory professional qualifications:\n- 12+ years of product design experience.\n- Hands-on work across UX, interaction, and visual design.\nPreferred, not mandatory:\n- Toronto location preferred.\n- Experience leading large, ambiguous initiatives across multiple teams and delivering measurable outcomes without formal authority.\n- Active use of LLMs and AI prototyping tools in a design workflow.\n- Technical understanding sufficient to build prototypes that communicate ideas and to reason about engineering constraints.\nWork location and geographic eligibility:\nLocation: Eastern Canada (Ontario, Quebec, New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland and Labrador) (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -119,108 +119,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "417d92c17c6fc8fba545bd83a5b327b13205060e34aa50935a49e74bed0ca7b8",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote-labeled role open to Toronto and other locations in Ontario, Quebec and Eastern Canada; Toronto preferred. Present residence is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "Toronto, Ontario",
-        "Other locations in Ontario",
-        "Quebec",
-        "Eastern Canada"
-      ],
-      "remote_scope": "Ontario, Quebec and Eastern Canada",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote",
-        "Montreal",
-        "Location: Toronto preferred; open to other locations in Ontario, Quebec and Eastern Canada."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote; Toronto preferred, open to Ontario, Quebec and Eastern Canada."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "12+ years of product design experience with a maker's mindset — moving fluidly between strategic thinking and detailed, polished execution.",
-        "effective_requirement": "12+ years of product design experience.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "A portfolio demonstrating hands-on work across UX, interaction and visual design.",
+        "effective_requirement": "Hands-on work across UX, interaction, and visual design.",
+        "reason": "Requires a portfolio, which is not among the judged profile fields."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "271059d05cc6a30286210314d50268d5e516869846cdf55ed66cf77b2e762544",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "A portfolio demonstrating hands-on work across UX, interaction and visual design.",
-          "after": "Hands-on work across UX, interaction, and visual design.",
-          "reason": "Requires a portfolio, which is not among the judged profile fields."
-        }
-      ],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "5d1f8cfc6948c38621f086579af7bf2505c67a5af1abc6f624a37da7b8882bf3",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience leading large, ambiguous initiatives across multiple teams and delivering measurable outcomes without formal authority.",
-          "source_quote": "Experience leading large, ambiguous initiatives across multiple teams and delivering measurable outcomes — without formal authority.",
-          "verification": "profile",
-          "reason": "Leading ambiguous initiatives with measurable outcomes without authority is an outcome/soft-skill claim."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Active use of LLMs and AI prototyping tools in a design workflow.",
-          "source_quote": "Genuine fluency with AI: active use of LLMs and AI prototyping tools in your workflow, and a strong point of view on designing AI-powered products.",
-          "verification": "profile",
-          "reason": "Active LLM/AI prototyping use is largely unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Technical understanding sufficient to build prototypes that communicate ideas and to reason about engineering constraints.",
-          "source_quote": "Enough technical understanding to be a real partner to engineers — you can build prototypes to communicate ideas and reason about constraints.",
-          "verification": "profile",
-          "reason": "Technical prototyping understanding is rarely stated for designers."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M4": "P3",
-        "M5": "P4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience leading large, ambiguous initiatives across multiple teams and delivering measurable outcomes without formal authority.",
+        "source_quote": "Experience leading large, ambiguous initiatives across multiple teams and delivering measurable outcomes — without formal authority.",
+        "verification": "profile",
+        "reason": "Leading ambiguous initiatives with measurable outcomes without authority is an outcome/soft-skill claim."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Active use of LLMs and AI prototyping tools in a design workflow.",
+        "source_quote": "Genuine fluency with AI: active use of LLMs and AI prototyping tools in your workflow, and a strong point of view on designing AI-powered products.",
+        "verification": "profile",
+        "reason": "Active LLM/AI prototyping use is largely unstated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Technical understanding sufficient to build prototypes that communicate ideas and to reason about engineering constraints.",
+        "source_quote": "Enough technical understanding to be a real partner to engineers — you can build prototypes to communicate ideas and reason about constraints.",
+        "verification": "profile",
+        "reason": "Technical prototyping understanding is rarely stated for designers."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f6347aa575434220e8a3ebf42c9357aa91ce802269aeef47e1335cdd5c5410e0",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "306e5604cff45473a6906045f7a46825ff89c7d002b5b7690a6517ac524ba052",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote; Toronto preferred, open to Ontario, Quebec and Eastern Canada.",
-      "previous_allowed_locations": [
-        "Greater Toronto, Ontario area",
-        "Other locations in Ontario",
-        "Quebec",
-        "Eastern Canada"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Toronto, Ontario area; Other locations in Ontario; Quebec; Eastern Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

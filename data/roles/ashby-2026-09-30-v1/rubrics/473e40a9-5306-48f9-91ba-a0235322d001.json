@@ -3,10 +3,10 @@
   "role_id": "473e40a9-5306-48f9-91ba-a0235322d001",
   "snapshot_sha256": "d822c1b451826ecba38c8d00292cf27bfde3221061629620baa29adf8b10ee86",
   "input_sha256": "d5539505bc51a195715f758fc2cf797f55b0ef0eedeb3ba6098afe73a1f8451e",
-  "rubric_sha256": "489d53d3e5277f26571cb1167b51fc60affc97a554229a063d08ae901a0261cf",
+  "rubric_sha256": "ed3d93d3a221f0fa2302d09191540c040144e52449c5c5cd96dfdbec18b9e8b4",
   "rubric": {
     "role_summary": "Investment associate helping build a San Francisco compute investing practice by sourcing opportunities, conducting diligence, developing investment theses, and supporting portfolio companies across compute hardware and software.",
-    "search_query": "Find candidates for this role:\nInvestment associate helping build a San Francisco compute investing practice by sourcing opportunities, conducting diligence, developing investment theses, and supporting portfolio companies across compute hardware and software.\nMandatory professional qualifications:\n- 2+ years of experience, including at least 1+ years in a production engineering role at a leading tech company, AI lab, or high-growth startup.\n- Computer Science degree or equivalent experience.\n- Experience working inside startups.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nInvestment associate helping build a San Francisco compute investing practice by sourcing opportunities, conducting diligence, developing investment theses, and supporting portfolio companies across compute hardware and software.\nMandatory professional qualifications:\n- 2+ years of experience, including at least 1+ years in a production engineering role at a leading tech company, AI lab, or high-growth startup.\n- Computer Science degree or equivalent experience.\n- Experience working inside startups.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -100,75 +100,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "85a77844efc9b124601f36bde9ae379788f62e6790a5d58b30cf9b04193142a2",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Work full-time in San Francisco, hybrid in office three times per week, with periodic travel to NYC. Present residence in San Francisco is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco, CA",
-        "Hybrid",
-        "Based in San Francisco, Hybrid in-office 3x/week",
-        "Must be available to work full-time in SF with periodic travel to NYC"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "2-4 years of experience with at least 1-2 years of experience in a production engineering role at a leading tech company, AI lab, or high-growth startup",
-        "effective_requirement": "2+ years of experience, including at least 1+ years in a production engineering role at a leading tech company, AI lab, or high-growth startup.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Available to work full-time in San Francisco with periodic travel to NYC.",
+        "source_quote": "Must be available to work full-time in SF with periodic travel to NYC",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "ff8df57a12b184b7b1ea9349e701d164a50228641026ad463a2122a22f6e1ba3",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Available to work full-time in San Francisco with periodic travel to NYC.",
-          "source_quote": "Must be available to work full-time in SF with periodic travel to NYC",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "9d5f86396fb96198573d9e4070a8a57b33eb5480cb3385cc80db1c7f489cc819",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "9d5f86396fb96198573d9e4070a8a57b33eb5480cb3385cc80db1c7f489cc819",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "a0f1d30477e9228646e0426fee878b6d2d34d822a3505135b69f4afe386aed97",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

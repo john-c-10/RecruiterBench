@@ -3,10 +3,10 @@
   "role_id": "7d066e64-82be-4faf-9dc1-180d1a290ef5",
   "snapshot_sha256": "c05e74530f32b78def3c65d3c34de878af2989e25756ea6cb7c0ab2607fa7af3",
   "input_sha256": "771f87d1e657dd0695d301e50c4ca6676243f40c0d39d27b0d3f7d908d7ddd22",
-  "rubric_sha256": "a6bb18d18983c9950c244a6b3a37c842f8408cc6bd21a07848f2ba2f1c60dc1d",
+  "rubric_sha256": "960cfebceac7658fd9c2e49ee82e71e512b31ed64668d2aa5cb25bf1397044c1",
   "rubric": {
     "role_summary": "Senior finance analyst focused on FP&A and treasury strategy for a banking infrastructure platform, including bank balance sheet modeling, capital allocation, regulatory ratios, forecasting, and financial reporting.",
-    "search_query": "Find candidates for this role:\nSenior finance analyst focused on FP&A and treasury strategy for a banking infrastructure platform, including bank balance sheet modeling, capital allocation, regulatory ratios, forecasting, and financial reporting.\nMandatory professional qualifications:\n- 4+ years of experience in FP&A, Corporate Treasury, or Asset-Liability Management (ALM).\n- Experience with bank balance sheet modeling, such as interest rate risk or capital planning.\n- Bachelor’s degree in Finance, Accounting, or a related field.\n- Experience building and maintaining financial models.\n- Proficient in Microsoft Excel.\nPreferred, not mandatory:\n- Experience within a Corporate Treasury division at a major financial institution or a high-growth Fintech.\n- Skills in FP&A software like Vena and use of AI software.\n- Deep proficiency in balance sheet modeling, including interest rate risk (IRRBB), capital planning, and bank regulatory frameworks.\n- Skilled at analyzing financial data to identify trends, patterns, and key insights.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior finance analyst focused on FP&A and treasury strategy for a banking infrastructure platform, including bank balance sheet modeling, capital allocation, regulatory ratios, forecasting, and financial reporting.\nMandatory professional qualifications:\n- 4+ years of experience in FP&A, Corporate Treasury, or Asset-Liability Management (ALM).\n- Experience with bank balance sheet modeling, such as interest rate risk or capital planning.\n- Bachelor’s degree in Finance, Accounting, or a related field.\n- Experience building and maintaining financial models.\n- Proficient in Microsoft Excel.\nPreferred, not mandatory:\n- Experience within a Corporate Treasury division at a major financial institution or a high-growth Fintech.\n- Skills in FP&A software like Vena and use of AI software.\n- Deep proficiency in balance sheet modeling, including interest rate risk (IRRBB), capital planning, and bank regulatory frameworks.\n- Skilled at analyzing financial data to identify trends, patterns, and key insights.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -134,86 +134,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "a3a39c548f2bce65a6a3ac7b84e99855ba64081e88cfac52c3454cfa917005e1",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role in New York, NY; current residence is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "New York, NY"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York, NY (Hybrid)",
-        "Hybrid"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "4-6+ years of experience in FP&A, Corporate Treasury, or Asset-Liability Management (ALM)",
-        "effective_requirement": "4+ years of experience in FP&A, Corporate Treasury, or Asset-Liability Management (ALM).",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Deep proficiency in balance sheet modeling, including interest rate risk (IRRBB), capital planning, and bank regulatory frameworks.",
+        "effective_requirement": "Experience with bank balance sheet modeling, such as interest rate risk or capital planning.",
+        "reason": "Bank ALM/treasury modeling is implied by titles; the full deep conjunctive list is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "621cb6f8e3c4ef8b336c0b3b874094ee8feedd9fd8faeaa63d1d117207f277dc",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "621cb6f8e3c4ef8b336c0b3b874094ee8feedd9fd8faeaa63d1d117207f277dc",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Skilled at analyzing financial data to identify trends, patterns, and key insights.",
-          "source_quote": "Skilled at analyzing financial data to identify trends, patterns, and key insights",
-          "verification": "profile",
-          "reason": "Generic analytical skill is a quality qualifier rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Deep proficiency in balance sheet modeling, including interest rate risk (IRRBB), capital planning, and bank regulatory frameworks.",
-          "after": "Experience with bank balance sheet modeling, such as interest rate risk or capital planning.",
-          "reason": "Bank ALM/treasury modeling is implied by titles; the full deep conjunctive list is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M5"
-      },
-      "demoted_preference_ids": {
-        "M2": "P3",
-        "M5": "P4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Skilled at analyzing financial data to identify trends, patterns, and key insights.",
+        "source_quote": "Skilled at analyzing financial data to identify trends, patterns, and key insights",
+        "verification": "profile",
+        "reason": "Generic analytical skill is a quality qualifier rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "b8cd0a752c1e744443aff45ddec26111372dcd2e305255ec91f95d1d0cb03842",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "e1baf1fcd35c892902292d4527040d46c5d72da3a061b26aa94eec743a0b4b68",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

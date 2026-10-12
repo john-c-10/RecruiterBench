@@ -3,10 +3,10 @@
   "role_id": "830c613b-d4bf-4673-ab33-46ccc12cc415",
   "snapshot_sha256": "1b561f60dfb73f2bcdea37bec18ab70769f86acc8e9ea4b8f931605240d02082",
   "input_sha256": "9e002c8cebb226e9f17164d4eb12ca14e4aedb9aaa2e3a2ae825215e26c038c3",
-  "rubric_sha256": "f290b14459cef257053913e1d363a6f71ae43ede285844f4cc1fa981172f3876",
+  "rubric_sha256": "29448fd22c4df0b56c77eb739d69c7aab26744dc4640c5294b87677efdf3ee32",
   "rubric": {
     "role_summary": "Senior research scientist developing benchmarks, evaluation methods, and infrastructure to measure large language model capabilities and performance.",
-    "search_query": "Find candidates for this role:\nSenior research scientist developing benchmarks, evaluation methods, and infrastructure to measure large language model capabilities and performance.\nMandatory professional qualifications:\n- Developed resources to measure LLM capabilities.\n- Software engineering experience.\nPreferred, not mandatory:\n- Spent dozens of hours reviewing complex data and LLM outputs to ensure high data quality.\n- Strong software engineering skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Toronto, Canada area; San Francisco Bay Area, California; Greater Seattle area, Washington; Greater London, United Kingdom area; New York metropolitan area; Greater Montreal, Canada area; Greater Paris, France area; Greater Berlin, Germany area; Greater Seoul, South Korea area; Canada; United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior research scientist developing benchmarks, evaluation methods, and infrastructure to measure large language model capabilities and performance.\nMandatory professional qualifications:\n- Developed resources to measure LLM capabilities.\n- Software engineering experience.\nPreferred, not mandatory:\n- Spent dozens of hours reviewing complex data and LLM outputs to ensure high data quality.\n- Strong software engineering skills.\nWork location and geographic eligibility:\nLocation: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -112,107 +112,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "0264f68653ad99819db869c0a985dd7a1e756ee906110e0c29a44cc47dcae5fc",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote work or work from a listed office location is available, with no minimum in-office requirement. Listed locations provide guidance for expected core time-zone or working-hours alignment; the posting does not explicitly limit remote eligibility to those countries.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Toronto, Canada",
-        "San Francisco, United States",
-        "Seattle, United States",
-        "London, United Kingdom",
-        "New York City, United States",
-        "Montreal, Canada",
-        "Paris, France",
-        "Berlin, Germany",
-        "Seoul, South Korea",
-        "Canada",
-        "United States"
-      ],
-      "remote_scope": "Remote eligibility is stated without an explicit country boundary; listed posting locations guide expected core time-zone or working-hours alignment.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Toronto",
-        "San Francisco",
-        "Canada",
-        "Seattle",
-        "London",
-        "United States",
-        "New York",
-        "Hybrid",
-        "This role can be based remotely or from one of our office locations listed on the job description - there is no minimum in-office qualification requirement. We care most about hiring exceptional people regardless of locations, though please check the location listed on the posting for guidance around the core time zone or working hours alignment expected for the role.",
-        "We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "13bf94f49c361ea4d75d249fa79893f82dcd577954ec40e2c79824450b2672ac",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "13bf94f49c361ea4d75d249fa79893f82dcd577954ec40e2c79824450b2672ac",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Spent dozens of hours reviewing complex data and LLM outputs to ensure high data quality.",
-          "source_quote": "You have spent dozens of hours reviewing complex data and LLM outputs to ensure high data quality.",
-          "verification": "profile",
-          "reason": "Hours spent reviewing data is a specific practice profiles never state."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Strong software engineering skills.",
-          "after": "Software engineering experience.",
-          "reason": "Software engineering experience is observable; the strength qualifier is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M3": "M2"
-      },
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M3": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "a7a0abfb823f8086048cb805d4f4bceb61593be2fb1aec4fdf41bdaeb60c9426",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "5701d0521ed5532a562f77e92702f8b161182e39970d3d8bb83f3c36e4f2544e",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Remote or any office with no in-office minimum; the listed remote countries are the United States and Canada.",
-      "previous_allowed_locations": [
-        "Greater Toronto, Canada area",
-        "San Francisco Bay Area, California",
-        "Greater Seattle area, Washington",
-        "Greater London, United Kingdom area",
-        "New York metropolitan area",
-        "Greater Montreal, Canada area",
-        "Greater Paris, France area",
-        "Greater Berlin, Germany area",
-        "Greater Seoul, South Korea area",
-        "Canada",
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Toronto, Canada area; San Francisco Bay Area, California; Greater Seattle area, Washington; Greater London, United Kingdom area; New York metropolitan area; Greater Montreal, Canada area; Greater Paris, France area; Greater Berlin, Germany area; Greater Seoul, South Korea area; Canada; United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Remote or any office with no in-office minimum; the listed remote countries are the United States and Canada."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Strong software engineering skills.",
+        "effective_requirement": "Software engineering experience.",
+        "reason": "Software engineering experience is observable; the strength qualifier is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Spent dozens of hours reviewing complex data and LLM outputs to ensure high data quality.",
+        "source_quote": "You have spent dozens of hours reviewing complex data and LLM outputs to ensure high data quality.",
+        "verification": "profile",
+        "reason": "Hours spent reviewing data is a specific practice profiles never state."
+      }
+    ]
   },
   "experience_context": []
 }

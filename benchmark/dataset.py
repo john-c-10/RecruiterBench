@@ -14,7 +14,7 @@ def joined_roles(dataset: Path) -> list[dict]:
         snapshot = read_json(dataset / role["snapshot_path"])
         output.append({**role, "source": snapshot["source"], "description_plain": snapshot["job"]["descriptionPlain"],
                        "rubric": record["rubric"], "rubric_sha256": record["rubric_sha256"],
-                       "extraction": record["extraction"], "curation": record.get("curation"),
+                       "extraction": record["extraction"],
                        **({"interpretation": record["interpretation"], "experience_context": record.get("experience_context", [])} if "interpretation" in record else {}),
                        "benchmark_query": build_query(record["rubric"])})
     return output
@@ -43,5 +43,5 @@ def validate_dataset(dataset: Path) -> dict:
             "confirmation_requirements": [{"role_id": row["role_id"], "criterion_id": item["id"], "requirement": item["requirement"]}
                                           for row in rows for field in ("must_haves", "red_flags") for item in row["rubric"][field]
                                           if item["verification"] == "candidate_confirmation"],
-            "review_status": ("User-directed interpretation applied; source quotes, IDs and hashes validated. Original sources preserved; not a human-labeled gold standard."
+            "review_status": ("Benchmark interpretation applied; source quotes, IDs and hashes validated. Original sources preserved; not a human-labeled gold standard."
                               if manifest.get("interpretation_policy") else "Machine-extracted; schema, source quotes, IDs and hashes validated. Ambiguities retained for review; not a human-labeled gold standard.")}

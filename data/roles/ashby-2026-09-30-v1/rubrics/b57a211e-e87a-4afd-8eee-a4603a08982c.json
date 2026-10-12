@@ -3,10 +3,10 @@
   "role_id": "b57a211e-e87a-4afd-8eee-a4603a08982c",
   "snapshot_sha256": "e9e13fe3477d437d0e3cc40bdcf09abb2054264e06efa443f1076dae858b1313",
   "input_sha256": "59a759ccba5c45c27cf2496aa67facd166e388cc9bd7aaa666a46dc49a4f31c7",
-  "rubric_sha256": "2299001ad0a79a739cdfa6af357102b2865f708d405849f60b420e9fb511bce7",
+  "rubric_sha256": "2756c0b166106c0ef55822f8e47e00ea0728b942a9d0262b6d5e4760d3254878",
   "rubric": {
     "role_summary": "Manager responsible for pricing and risk strategy for state-level homeowners, auto, and related insurance products, including P&L performance, rate and product changes, and regulatory filings.",
-    "search_query": "Find candidates for this role:\nManager responsible for pricing and risk strategy for state-level homeowners, auto, and related insurance products, including P&L performance, rate and product changes, and regulatory filings.\nMandatory professional qualifications:\n- 3+ years of insurance product experience AND 4+ years of relevant functional experience.\n- Bachelor’s degree in business management, mathematics, finance, actuarial science, accounting, economics, engineering, or another quantitative discipline.\n- Direct insurance product management experience.\n- Experience with rate-making, forecasting, or modeling.\nPreferred, not mandatory:\n- State management experience in hurricane-exposed states.\n- Comprehensive understanding of reinsurance structures and key concepts.\n- Advanced statistical and analytical expertise to optimize risk portfolios and maximize risk-adjusted returns.\n- Direct insurance product management experience with a strong understanding of state-level P&Ls, insurance regulations, and product requirements.\n- Experience with rate-making, forecasting, modeling, competitive analysis, and risk portfolio management.\n- Project management skills spanning strategy through execution.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): AL; AR; AZ; CA (exempt only); CO; CT; FL; GA; ID; IL; IN; IA; KS; KY; LA; MA; ME; MD; MI; MN; MO; MT; NC; NE; NJ; NM; NV; NY; OH; OK; OR; PA; SC; SD; TN; TX; UT; VT; VA; WA; WI. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nManager responsible for pricing and risk strategy for state-level homeowners, auto, and related insurance products, including P&L performance, rate and product changes, and regulatory filings.\nMandatory professional qualifications:\n- 3+ years of insurance product experience AND 4+ years of relevant functional experience.\n- Bachelor’s degree in business management, mathematics, finance, actuarial science, accounting, economics, engineering, or another quantitative discipline.\n- Direct insurance product management experience.\n- Experience with rate-making, forecasting, or modeling.\nPreferred, not mandatory:\n- State management experience in hurricane-exposed states.\n- Comprehensive understanding of reinsurance structures and key concepts.\n- Advanced statistical and analytical expertise to optimize risk portfolios and maximize risk-adjusted returns.\n- Direct insurance product management experience with a strong understanding of state-level P&Ls, insurance regulations, and product requirements.\n- Experience with rate-making, forecasting, modeling, competitive analysis, and risk portfolio management.\n- Project management skills spanning strategy through execution.\nWork location and geographic eligibility:\nLocation: any of these: AL; AR; AZ; CA (exempt only); CO; CT; FL; GA; ID; IL; IN; IA; KS; KY; LA; MA; ME; MD; MI; MN; MO; MT; NC; NE; NJ; NM; NV; NY; OH; OK; OR; PA; SC; SD; TN; TX; UT; VT; VA; WA; WI (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -179,172 +179,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "087dce24298be7597ffe7e3a9f6791935953102bf9f1b75c938f436404e8fec0",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role; must be able to live and work full-time in one of the 41 listed U.S. states. California is eligible for exempt positions only. Present residence in an eligible state is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "AL",
-        "AR",
-        "AZ",
-        "CA (exempt only)",
-        "CO",
-        "CT",
-        "FL",
-        "GA",
-        "ID",
-        "IL",
-        "IN",
-        "IA",
-        "KS",
-        "KY",
-        "LA",
-        "MA",
-        "ME",
-        "MD",
-        "MI",
-        "MN",
-        "MO",
-        "MT",
-        "NC",
-        "NE",
-        "NJ",
-        "NM",
-        "NV",
-        "NY",
-        "OH",
-        "OK",
-        "OR",
-        "PA",
-        "SC",
-        "SD",
-        "TN",
-        "TX",
-        "UT",
-        "VT",
-        "VA",
-        "WA",
-        "WI"
-      ],
-      "remote_scope": "Listed U.S. states only; California exempt positions only.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote (United States)",
-        "For all other positions, these roles can sit in any of the following 41 states: AL, AR, AZ, CA (exempt only), CO, CT, FL, GA, ID, IL, IN, IA, KS, KY, LA, MA, ME, MD, MI, MN, MO, MT, NC, NE, NJ, NM, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, UT, VT, VA, WA, and WI. Please only apply if you are able to live and work full-time in one of the states listed above."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote within the 41 listed states."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "3+ years of insurance product experience and 4+ years of relevant functional experience.",
-        "effective_requirement": "3+ years of insurance product experience AND 4+ years of relevant functional experience.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Direct insurance product management experience with a strong understanding of state-level P&Ls, insurance regulations, and product requirements.",
+        "effective_requirement": "Direct insurance product management experience.",
+        "reason": "Insurance PM roles are visible; state-level P&L and regulatory depth are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience with rate-making, forecasting, modeling, competitive analysis, and risk portfolio management.",
+        "effective_requirement": "Experience with rate-making, forecasting, or modeling.",
+        "reason": "Requiring every listed activity is unrealistic; pricing/modeling work is commonly visible from titles."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "814c4fd67b2eb37082bed9757cc6992a6d05b5b4ea05e19c276620979e7a9ff5",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "814c4fd67b2eb37082bed9757cc6992a6d05b5b4ea05e19c276620979e7a9ff5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Project management skills spanning strategy through execution.",
-          "source_quote": "Strong project management skills with the ability to drive initiatives from strategy through execution.",
-          "verification": "profile",
-          "reason": "Project management skill is largely unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Direct insurance product management experience with a strong understanding of state-level P&Ls, insurance regulations, and product requirements.",
-          "after": "Direct insurance product management experience.",
-          "reason": "Insurance PM roles are visible; state-level P&L and regulatory depth are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience with rate-making, forecasting, modeling, competitive analysis, and risk portfolio management.",
-          "after": "Experience with rate-making, forecasting, or modeling.",
-          "reason": "Requiring every listed activity is unrealistic; pricing/modeling work is commonly visible from titles."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P4",
-        "M4": "P5",
-        "M5": "P6"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Project management skills spanning strategy through execution.",
+        "source_quote": "Strong project management skills with the ability to drive initiatives from strategy through execution.",
+        "verification": "profile",
+        "reason": "Project management skill is largely unstated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "b3b3e344db7137f726a43d677c57f41a205174cb230911b13b8cc01072cbe86d",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "f4275f561aed369f07a5fd9c5276e9b7b5b4dd2fe918b7f147357a31ab960be0",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote within the 41 listed states.",
-      "previous_allowed_locations": [
-        "AL",
-        "AR",
-        "AZ",
-        "CA (exempt only)",
-        "CO",
-        "CT",
-        "FL",
-        "GA",
-        "ID",
-        "IL",
-        "IN",
-        "IA",
-        "KS",
-        "KY",
-        "LA",
-        "MA",
-        "ME",
-        "MD",
-        "MI",
-        "MN",
-        "MO",
-        "MT",
-        "NC",
-        "NE",
-        "NJ",
-        "NM",
-        "NV",
-        "NY",
-        "OH",
-        "OK",
-        "OR",
-        "PA",
-        "SC",
-        "SD",
-        "TN",
-        "TX",
-        "UT",
-        "VT",
-        "VA",
-        "WA",
-        "WI"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): AL; AR; AZ; CA (exempt only); CO; CT; FL; GA; ID; IL; IN; IA; KS; KY; LA; MA; ME; MD; MI; MN; MO; MT; NC; NE; NJ; NM; NV; NY; OH; OK; OR; PA; SC; SD; TN; TX; UT; VT; VA; WA; WI. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

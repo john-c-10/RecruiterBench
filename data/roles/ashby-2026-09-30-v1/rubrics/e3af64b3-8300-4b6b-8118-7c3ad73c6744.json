@@ -3,10 +3,10 @@
   "role_id": "e3af64b3-8300-4b6b-8118-7c3ad73c6744",
   "snapshot_sha256": "75a9094f3b8fa1632c00638d6d3bbc602ed180a3a046985ca8e6b1482e78f3ae",
   "input_sha256": "7a57979dc8e00cd702fe61faef033b53bcef91ef0c9489b7fd4a05e7c85916e7",
-  "rubric_sha256": "1fb222048a426cfd4682ddfd857b04d22d9db05f2c626ae1836be8d5a551fc83",
+  "rubric_sha256": "7b38144c4b6a4a0f30ddcffc83b5f0eab9c8b4f5cec6e6737cd772b1501b88c9",
   "rubric": {
     "role_summary": "Fleet sales account manager responsible for consultative, end-to-end sales of configurable electric vehicles to organizational customers, including proposals, negotiation, delivery relationships, and repeat business.",
-    "search_query": "Find candidates for this role:\nFleet sales account manager responsible for consultative, end-to-end sales of configurable electric vehicles to organizational customers, including proposals, negotiation, delivery relationships, and repeat business.\nMandatory professional qualifications:\n- 5+ years in B2B sales or account management.\n- Experience in a quota-carrying role owning deals end to end.\n- Experience selling technical products.\nPreferred, not mandatory:\n- Experience selling considered, higher-ACV products.\n- Experience selling to fleets, enterprises, or the public sector.\n- Experience selling vehicles, capital equipment, or fleet/commercial products.\n- Familiarity with HubSpot.\n- Interest in EVs and specialty vehicles.\n- Track record owning deals end to end and hitting quota.\n- Consultative selling skills, including comfort with technical products and multi-stakeholder deals.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Detroit, MI area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nFleet sales account manager responsible for consultative, end-to-end sales of configurable electric vehicles to organizational customers, including proposals, negotiation, delivery relationships, and repeat business.\nMandatory professional qualifications:\n- 5+ years in B2B sales or account management.\n- Experience in a quota-carrying role owning deals end to end.\n- Experience selling technical products.\nPreferred, not mandatory:\n- Experience selling considered, higher-ACV products.\n- Experience selling to fleets, enterprises, or the public sector.\n- Experience selling vehicles, capital equipment, or fleet/commercial products.\n- Familiarity with HubSpot.\n- Interest in EVs and specialty vehicles.\n- Track record owning deals end to end and hitting quota.\n- Consultative selling skills, including comfort with technical products and multi-stakeholder deals.\nWork location and geographic eligibility:\nLocation: Greater Detroit, MI area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -139,82 +139,26 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "2a562e68107d874d4b5b098394443745b8be8322edd68e50f710a9d451ddd3da",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "In-person role in Detroit, Michigan; current Detroit residence is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Detroit, MI"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Detroit Factory HQ",
-        "Detroit, MI (in-person)"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years in B2B sales / account management",
-        "effective_requirement": "5+ years in B2B sales or account management.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Track record owning deals end to end and hitting quota.",
+        "effective_requirement": "Experience in a quota-carrying role owning deals end to end.",
+        "reason": "Quota-carrying role is implied by AE titles; quota attainment is a performance claim."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Consultative selling skills, including comfort with technical products and multi-stakeholder deals.",
+        "effective_requirement": "Experience selling technical products.",
+        "reason": "Technical product sales is observable; consultative skills are not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "3cccdbafe805b3a8c6ac570f2f19503d40888a1e6d2223fe237f6a4a17cbc2c2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "3cccdbafe805b3a8c6ac570f2f19503d40888a1e6d2223fe237f6a4a17cbc2c2",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Track record owning deals end to end and hitting quota.",
-          "after": "Experience in a quota-carrying role owning deals end to end.",
-          "reason": "Quota-carrying role is implied by AE titles; quota attainment is a performance claim."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Consultative selling skills, including comfort with technical products and multi-stakeholder deals.",
-          "after": "Experience selling technical products.",
-          "reason": "Technical product sales is observable; consultative skills are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P6",
-        "M3": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "043ebb4fcc52b78eb1586083601a40983638f7268ec5ba63460104af75d15fba",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "43425c3a523a70e96091194f619cf49d32a153aea5855674e34f5a4804ef01f1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Detroit, MI area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Detroit, MI area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

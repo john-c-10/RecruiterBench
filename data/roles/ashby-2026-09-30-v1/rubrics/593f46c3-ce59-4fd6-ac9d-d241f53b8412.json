@@ -3,10 +3,10 @@
   "role_id": "593f46c3-ce59-4fd6-ac9d-d241f53b8412",
   "snapshot_sha256": "8d77d891fdc4317a4da252124dd16ed07b47cb5bf699b995eb4f0395114264fe",
   "input_sha256": "4997fa778182ca1e09975531c2f88985b3203bb883d7e76477267e4d47d65a3d",
-  "rubric_sha256": "d286917ac9314fbca37222ae3b4594069565f0147598ee67fe134821278b1b36",
+  "rubric_sha256": "c388cf2bd798c3eaab4bc367812477570fdb0fe9b89a26a34891ecdd7395366f",
   "rubric": {
     "role_summary": "Strategic operations role supporting a public sector business through revenue and customer initiatives, financial and operational analysis, cross-functional execution, and operating processes.",
-    "search_query": "Find candidates for this role:\nStrategic operations role supporting a public sector business through revenue and customer initiatives, financial and operational analysis, cross-functional execution, and operating processes.\nMandatory professional qualifications:\n- 2+ years of experience, or 1+ years post-MBA.\n- Analytical and financial modeling skills.\n- Project management experience.\nPreferred, not mandatory:\n- Familiarity with government procurement, contracting, RFPs, or regulated industries.\n- Direct public sector experience.\n- Ability to create executive-ready presentations and recommendations.\n- Project management and stakeholder management skills across cross-functional teams.\n- Ability to manage multiple priorities across long, complex sales and procurement cycles.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Washington–Arlington metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nStrategic operations role supporting a public sector business through revenue and customer initiatives, financial and operational analysis, cross-functional execution, and operating processes.\nMandatory professional qualifications:\n- 2+ years of experience, or 1+ years post-MBA.\n- Analytical and financial modeling skills.\n- Project management experience.\nPreferred, not mandatory:\n- Familiarity with government procurement, contracting, RFPs, or regulated industries.\n- Direct public sector experience.\n- Ability to create executive-ready presentations and recommendations.\n- Project management and stakeholder management skills across cross-functional teams.\n- Ability to manage multiple priorities across long, complex sales and procurement cycles.\nWork location and geographic eligibility:\nLocation: Washington–Arlington metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -127,94 +127,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1802d86fc322178b84349c5f184624f18bc13655293f28da576f1811cc24e9dd",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work location in Washington, DC; present residence in DC is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Washington, DC"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Hybrid - Washington DC"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "2–4 years of experience (or 1–2 years post-MBA) in a fast-paced, high-performance environment.",
-        "effective_requirement": "2+ years of experience, or 1+ years post-MBA.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Project management and stakeholder management skills across cross-functional teams.",
+        "effective_requirement": "Project management experience.",
+        "reason": "Project management is implied by ops roles; stakeholder management is a soft skill."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "8bcd1e0fa207e380c121a7bd980ce17b0550956f8a9795ceaeced709939d3cc8",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8bcd1e0fa207e380c121a7bd980ce17b0550956f8a9795ceaeced709939d3cc8",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to create executive-ready presentations and recommendations.",
-          "source_quote": "Excellent written and verbal communication with the ability to create executive-ready presentations and recommendations.",
-          "verification": "profile",
-          "reason": "Presentation ability is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to manage multiple priorities across long, complex sales and procurement cycles.",
-          "source_quote": "Ability to manage multiple priorities across long, complex sales and procurement cycles.",
-          "verification": "profile",
-          "reason": "Prioritization ability is a soft skill rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Project management and stakeholder management skills across cross-functional teams.",
-          "after": "Project management experience.",
-          "reason": "Project management is implied by ops roles; stakeholder management is a soft skill."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to create executive-ready presentations and recommendations.",
+        "source_quote": "Excellent written and verbal communication with the ability to create executive-ready presentations and recommendations.",
+        "verification": "profile",
+        "reason": "Presentation ability is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M3": "P3",
-        "M4": "P4",
-        "M5": "P5"
+      {
+        "field": "must_haves",
+        "requirement": "Ability to manage multiple priorities across long, complex sales and procurement cycles.",
+        "source_quote": "Ability to manage multiple priorities across long, complex sales and procurement cycles.",
+        "verification": "profile",
+        "reason": "Prioritization ability is a soft skill rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "47f1e59f07bb0a22597f287487a1fbe8fb04be8d4b55e9c0affceef6000f724f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "f8857f458a343aed8172debecaba8ddf72a324038b2ebcaaa0c759d3cfa20729",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Washington–Arlington metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Washington–Arlington metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

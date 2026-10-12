@@ -3,10 +3,10 @@
   "role_id": "40ac2ebb-adfa-424a-9252-282bb829e2c8",
   "snapshot_sha256": "4a18d4c94e6c764a20778a4ddc126dd7ada9bf8115022d0ee6d02557e1684aca",
   "input_sha256": "c976c7a95e9d1257070102cf2cb72e33927e8c1d2ca29798c21fcc21e6703379",
-  "rubric_sha256": "b5edc120950165da7bc1ad45fd8d6e2d8a512765c57ee66fdb800cdda59bb18b",
+  "rubric_sha256": "8c78b05ba2e5456cf9196ab9176a57323e607758cea9117d937beb854ef7edbb",
   "rubric": {
     "role_summary": "Program manager for Flight and Lab operations, coordinating R&D flight work, equipment and supply-chain dependencies, and readiness for field testing and mission deployment.",
-    "search_query": "Find candidates for this role:\nProgram manager for Flight and Lab operations, coordinating R&D flight work, equipment and supply-chain dependencies, and readiness for field testing and mission deployment.\nMandatory professional qualifications:\n- 4+ years of experience in project management, program management, delivery management, technical program management, or similar roles.\nPreferred, not mandatory:\n- Experience in drone/UAV operations, robotics, aerospace, or embedded systems development.\n- Experience in startups or fast-scaling product companies.\n- Experience with field testing, pilot programs, demo preparation, customer trials, or production-readiness processes.\n- Experience working with military, government, security, or regulated customers.\n- Background in engineering, product management, operations, or business analysis.\n- Ability to manage the end-to-end delivery cycle from R&D prototyping to field readiness and mission deployment.\n- Ability to manage resource dependencies involving equipment procurement, manufacturing coordination, and supply-chain tracking for field assets.\n- Ability to work with engineering teams to bridge lab-based R&D and real-world performance.\n- Ability to produce leadership and executive-level reporting on operational blockers, equipment availability, and field mission status.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Warsaw area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nProgram manager for Flight and Lab operations, coordinating R&D flight work, equipment and supply-chain dependencies, and readiness for field testing and mission deployment.\nMandatory professional qualifications:\n- 4+ years of experience in project management, program management, delivery management, technical program management, or similar roles.\nPreferred, not mandatory:\n- Experience in drone/UAV operations, robotics, aerospace, or embedded systems development.\n- Experience in startups or fast-scaling product companies.\n- Experience with field testing, pilot programs, demo preparation, customer trials, or production-readiness processes.\n- Experience working with military, government, security, or regulated customers.\n- Background in engineering, product management, operations, or business analysis.\n- Ability to manage the end-to-end delivery cycle from R&D prototyping to field readiness and mission deployment.\n- Ability to manage resource dependencies involving equipment procurement, manufacturing coordination, and supply-chain tracking for field assets.\n- Ability to work with engineering teams to bridge lab-based R&D and real-world performance.\n- Ability to produce leadership and executive-level reporting on operational blockers, equipment availability, and field mission status.\nWork location and geographic eligibility:\nLocation: Greater Warsaw area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -142,120 +142,57 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "31b77d944ee25a3e174cdf7a9fd70a966737f74071c5b8f6d1f6daaa451567d6",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work associated with Warsaw; flexible remote work may be possible, but no definite remote eligibility area is specified. Current residence in Warsaw is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Warsaw"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Warsaw",
-        "Hybrid",
-        "Flexible remote work options where possible."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "4+ years of experience in project management, program management, delivery management, technical program management, or similar roles.",
-        "effective_requirement": "4+ years of experience in project management, program management, delivery management, technical program management, or similar roles.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Good written and verbal communication in English and Ukrainian.",
+        "source_quote": "Good written and verbal communication in English and Ukrainian.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Readiness to work with sensitive defense-related information and follow strict operational security practices.",
+        "source_quote": "Readiness to work with sensitive defense-related information and follow strict operational security practices.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "03805b9036f276b6a754a22a3e7fc6b763b81b6c73e6e9354635dab7d472bd9c",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Good written and verbal communication in English and Ukrainian.",
-          "source_quote": "Good written and verbal communication in English and Ukrainian.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Readiness to work with sensitive defense-related information and follow strict operational security practices.",
-          "source_quote": "Readiness to work with sensitive defense-related information and follow strict operational security practices.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "b599b0b1ff4eff43178452fe4a4e3935cae31c2a46c2808d95802f207db12e0d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Ability to manage the end-to-end delivery cycle from R&D prototyping to field readiness and mission deployment.",
-          "source_quote": "Proven ability to manage the end-to-end delivery cycle—from R&D prototyping to field readiness and mission deployment.",
-          "verification": "profile",
-          "reason": "Specific end-to-end delivery scope is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to manage resource dependencies involving equipment procurement, manufacturing coordination, and supply-chain tracking for field assets.",
-          "source_quote": "Strong capability to manage resource dependencies, including equipment procurement, manufacturing coordination, and supply chain tracking for field assets.",
-          "verification": "profile",
-          "reason": "Specific resource-dependency management is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Ability to work with engineering teams to bridge lab-based R&D and real-world performance.",
-          "source_quote": "Ability to work closely with engineering teams to bridge the gap between lab-based R&D and real-world performance.",
-          "verification": "profile",
-          "reason": "Collaboration ability is unobservable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to produce leadership and executive-level reporting on operational blockers, equipment availability, and field mission status.",
-          "source_quote": "Ability to create clear, action-oriented reporting for leadership, focusing specifically on operational blockers, equipment availability, and field mission status.",
-          "verification": "profile",
-          "reason": "Reporting practice is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P6",
-        "M3": "P7",
-        "M4": "P8",
-        "M5": "P9"
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to manage the end-to-end delivery cycle from R&D prototyping to field readiness and mission deployment.",
+        "source_quote": "Proven ability to manage the end-to-end delivery cycle—from R&D prototyping to field readiness and mission deployment.",
+        "verification": "profile",
+        "reason": "Specific end-to-end delivery scope is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to manage resource dependencies involving equipment procurement, manufacturing coordination, and supply-chain tracking for field assets.",
+        "source_quote": "Strong capability to manage resource dependencies, including equipment procurement, manufacturing coordination, and supply chain tracking for field assets.",
+        "verification": "profile",
+        "reason": "Specific resource-dependency management is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to work with engineering teams to bridge lab-based R&D and real-world performance.",
+        "source_quote": "Ability to work closely with engineering teams to bridge the gap between lab-based R&D and real-world performance.",
+        "verification": "profile",
+        "reason": "Collaboration ability is unobservable."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to produce leadership and executive-level reporting on operational blockers, equipment availability, and field mission status.",
+        "source_quote": "Ability to create clear, action-oriented reporting for leadership, focusing specifically on operational blockers, equipment availability, and field mission status.",
+        "verification": "profile",
+        "reason": "Reporting practice is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "4e0cd7d16ea2b5e4bfb53eef14b21660b3029a67a85009a9857f5a8a71a8ade3",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "cbd073788990acfbd99c8dbf42dbffa00cdd09cb8d2eb5a8502d64f1ac0d5696",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Warsaw area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Warsaw area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

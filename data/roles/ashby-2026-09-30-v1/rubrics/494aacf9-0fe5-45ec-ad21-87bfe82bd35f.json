@@ -3,10 +3,10 @@
   "role_id": "494aacf9-0fe5-45ec-ad21-87bfe82bd35f",
   "snapshot_sha256": "0398e0185c193154d5735c540d9d9b68065615898b90ed429466430050c1f272",
   "input_sha256": "4509f75ee19159186bcec585bb1738d402656c2b73c1bf56e2ee64dfb7646b76",
-  "rubric_sha256": "9f23993eebbf8ce583f1cc7c3a1f8b2c99dcb27a2ec3b7206e55fd985df352d6",
+  "rubric_sha256": "1c07aa16498430113af8519f1f1e237e30c73a6a23cc34f3da592e3f4a2678b2",
   "rubric": {
     "role_summary": "Correspondent banking compliance role focused on onboarding international bank partners, assessing country and political risk, designing diligence and monitoring processes, and conducting partner reviews.",
-    "search_query": "Find candidates for this role:\nCorrespondent banking compliance role focused on onboarding international bank partners, assessing country and political risk, designing diligence and monitoring processes, and conducting partner reviews.\nMandatory professional qualifications:\n- 6+ years of regulatory, compliance, or risk management experience focused on international financial activity.\n- Ability to build and operationalize policies, procedures, and workflows.\nPreferred, not mandatory:\n- Previous correspondent banking experience.\n- Strong familiarity with underwriting geographic and political risks.\n- Project management experience coordinating efforts across multiple teams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nCorrespondent banking compliance role focused on onboarding international bank partners, assessing country and political risk, designing diligence and monitoring processes, and conducting partner reviews.\nMandatory professional qualifications:\n- 6+ years of regulatory, compliance, or risk management experience focused on international financial activity.\n- Ability to build and operationalize policies, procedures, and workflows.\nPreferred, not mandatory:\n- Previous correspondent banking experience.\n- Strong familiarity with underwriting geographic and political risks.\n- Project management experience coordinating efforts across multiple teams.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -112,102 +112,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ba94b84997c9b18941be97523af1ff8ee4a86f93bb10edab1c24f07797b11424",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "San Francisco Presidio office presence is strongly preferred; remote applicants within the USA are eligible. Frequent travel is expected, with a specified San Francisco trip schedule for those not located there.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "San Francisco, California, USA",
-        "Remote within the USA"
-      ],
-      "remote_scope": "USA",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote, USA",
-        "While an in-person presence in the Bank’s Presidio-based office is strongly preferred, this role is open to remote applicants with the expectation of frequent travel.",
-        "If you are not located in San Francisco we expect a monthly trip in the first six months and five times a year going forward."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Open to remote applicants in the USA; San Francisco presence is only preferred."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "6-8+ years of regulatory, compliance or risk management experience with a focus on international financial activity.",
-        "effective_requirement": "6+ years of regulatory, compliance, or risk management experience focused on international financial activity.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "M5",
+        "field": "must_haves",
+        "requirement": "Ability to travel frequently, including heavy international travel; candidates not located in San Francisco are expected to travel there monthly for the first six months and five times a year thereafter.",
         "source_quote": "Ability to travel frequently\n   \n   - If you are not located in San Francisco we expect a monthly trip in the first six months and five times a year going forward.\n   \n   - Heavy international travel to client and prospective banks.",
-        "effective_requirement": "Ability to travel frequently, including heavy international travel; candidates not located in San Francisco are expected to travel there monthly for the first six months and five times a year thereafter.",
-        "kind": "mandatory"
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "f7a1ed791611f2eae7670807c4ce2f6a4a8e5e8b52697ab51d10e15e1db0c891",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Ability to travel frequently, including heavy international travel; candidates not located in San Francisco are expected to travel there monthly for the first six months and five times a year thereafter.",
-          "source_quote": "Ability to travel frequently\n   \n   - If you are not located in San Francisco we expect a monthly trip in the first six months and five times a year going forward.\n   \n   - Heavy international travel to client and prospective banks.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "a8cc8c6f64ad02465a177b1862b966ce04bf3e3be092839ce97980852ce15f56",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Strong familiarity with underwriting geographic and political risks.",
-          "source_quote": "Strong familiarity with underwriting geographic and political risks",
-          "verification": "profile",
-          "reason": "Underwriting geographic/political risk is a niche practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Project management experience coordinating efforts across multiple teams.",
-          "source_quote": "Hyper-organized approach to project management, including coordinating efforts across multiple teams; comfort juggling multiple projects and priorities is critical",
-          "verification": "profile",
-          "reason": "Cross-team project management is a working practice rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P2",
-        "M4": "P3"
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Strong familiarity with underwriting geographic and political risks.",
+        "source_quote": "Strong familiarity with underwriting geographic and political risks",
+        "verification": "profile",
+        "reason": "Underwriting geographic/political risk is a niche practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Project management experience coordinating efforts across multiple teams.",
+        "source_quote": "Hyper-organized approach to project management, including coordinating efforts across multiple teams; comfort juggling multiple projects and priorities is critical",
+        "verification": "profile",
+        "reason": "Cross-team project management is a working practice rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6b358b44f24cf2466ae2e5c92076066cf594e1d0489a20a9049de7beef64732c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "774fafa836ea419c3fa9bfda806f4a0bf833dcb4c12d0421cc1ba9b10479f2d2",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Open to remote applicants in the USA; San Francisco presence is only preferred.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "USA"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

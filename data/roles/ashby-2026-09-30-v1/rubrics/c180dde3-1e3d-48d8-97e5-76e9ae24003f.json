@@ -3,10 +3,10 @@
   "role_id": "c180dde3-1e3d-48d8-97e5-76e9ae24003f",
   "snapshot_sha256": "d78abe7f52299c186cdb4b8539ead1ffd8a2188f952ff930f58274c9ed34a501",
   "input_sha256": "dd071deac0b9d06325073feebd69fe691ec08196fbe74436f32b3767db216b82",
-  "rubric_sha256": "26a90db6ffb1745a31f87ef27965d28dddf2b9f026914f84faff5076aa693f45",
+  "rubric_sha256": "405d1911e5f984ef6cdb1b3aa3bb0b7aba99e20f7ddeda1767570776fdaa87fd",
   "rubric": {
     "role_summary": "Scripted producer responsible for series from pre-production through delivery, including budgets, schedules, crews, and production logistics, while helping establish department workflows and standards.",
-    "search_query": "Find candidates for this role:\nScripted producer responsible for series from pre-production through delivery, including budgets, schedules, crews, and production logistics, while helping establish department workflows and standards.\nMandatory professional qualifications:\n- 4+ years of producing experience in scripted television, film, or high-volume digital/streaming content.\n- Experience producing scripted projects from development through delivery.\nPreferred, not mandatory:\n- Experience building infrastructure alongside producing at an early-stage or startup production company.\n- Background producing social-first, short-form, or digital content.\n- Existing relationships with writers, directors, or department heads in scripted production.\n- Familiarity with production management tools, such as Wrapbook or Movie Magic Budgeting and Scheduling.\n- Understanding of how vertical, social-first content goes viral.\n- Track record independently taking scripted projects from development through delivery, across multiple formats or lengths.\n- Budget management experience.\n- Experience managing junior production staff, including coordinators and assistants.\n- Experience producing multiple simultaneous projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nScripted producer responsible for series from pre-production through delivery, including budgets, schedules, crews, and production logistics, while helping establish department workflows and standards.\nMandatory professional qualifications:\n- 4+ years of producing experience in scripted television, film, or high-volume digital/streaming content.\n- Experience producing scripted projects from development through delivery.\nPreferred, not mandatory:\n- Experience building infrastructure alongside producing at an early-stage or startup production company.\n- Background producing social-first, short-form, or digital content.\n- Existing relationships with writers, directors, or department heads in scripted production.\n- Familiarity with production management tools, such as Wrapbook or Movie Magic Budgeting and Scheduling.\n- Understanding of how vertical, social-first content goes viral.\n- Track record independently taking scripted projects from development through delivery, across multiple formats or lengths.\n- Budget management experience.\n- Experience managing junior production staff, including coordinators and assistants.\n- Experience producing multiple simultaneous projects.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -146,102 +146,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ee332e70ac4e429d3ca99b22ef004a5bd4c31192b209226cf0a05ac7e9354098",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Austin, TX; current residence in Austin is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin, TX",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "4-7 years of producing experience in scripted television, film, or high-volume digital/streaming content.",
-        "effective_requirement": "4+ years of producing experience in scripted television, film, or high-volume digital/streaming content.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Track record independently taking scripted projects from development through delivery, across multiple formats or lengths.",
+        "effective_requirement": "Experience producing scripted projects from development through delivery.",
+        "reason": "Producing scripted projects is observable; independence/multi-format record is not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "76a85a05cd9383685ea510f49ade478d39fa08798a2ef9a4f7404d457480828b",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "76a85a05cd9383685ea510f49ade478d39fa08798a2ef9a4f7404d457480828b",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Budget management experience.",
-          "source_quote": "Strong budget management; you know where costs hide.",
-          "verification": "profile",
-          "reason": "Budget management is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience managing junior production staff, including coordinators and assistants.",
-          "source_quote": "Experience managing junior production staff including coordinators and assistants.",
-          "verification": "profile",
-          "reason": "Managing junior production staff is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience producing multiple simultaneous projects.",
-          "source_quote": "Experience producing multiple simultaneous projects.",
-          "verification": "profile",
-          "reason": "Simultaneous project load is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Track record independently taking scripted projects from development through delivery, across multiple formats or lengths.",
-          "after": "Experience producing scripted projects from development through delivery.",
-          "reason": "Producing scripted projects is observable; independence/multi-format record is not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P6",
-        "M3": "P7",
-        "M4": "P8",
-        "M5": "P9"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Budget management experience.",
+        "source_quote": "Strong budget management; you know where costs hide.",
+        "verification": "profile",
+        "reason": "Budget management is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience managing junior production staff, including coordinators and assistants.",
+        "source_quote": "Experience managing junior production staff including coordinators and assistants.",
+        "verification": "profile",
+        "reason": "Managing junior production staff is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience producing multiple simultaneous projects.",
+        "source_quote": "Experience producing multiple simultaneous projects.",
+        "verification": "profile",
+        "reason": "Simultaneous project load is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "8ffa80eb80bec2f5322ceef1e4903662e477d02cee0aa358b494de1544a1aff2",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "4223717c4fa35b25d9a9ae0397a7882a17f516a0d34757eb627ad4017c160acf",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

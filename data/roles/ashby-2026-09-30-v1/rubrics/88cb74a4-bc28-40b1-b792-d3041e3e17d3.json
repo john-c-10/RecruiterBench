@@ -3,10 +3,10 @@
   "role_id": "88cb74a4-bc28-40b1-b792-d3041e3e17d3",
   "snapshot_sha256": "f9db963dc0622cfa35fe7c80f4e6ba5533e450f19dda0fa650b6cd008aac98a4",
   "input_sha256": "212ecddc9a69a8572f85a300959ff957c1fe28810ee597b27a54cc7fffc90154",
-  "rubric_sha256": "890fb7dc5241a6992fafe9b5efbcd3ff4dbb02722038e290271f65545ac32839",
+  "rubric_sha256": "c9fdb8bddc0e0118ba5f6c11ff263303d063a0733be3604e203df63c1ab45a3c",
   "rubric": {
     "role_summary": "Senior network infrastructure engineering role building and operating a cloud platform’s networking stack, with a focus on traffic routing, load balancing, Kubernetes and Linux networking, and reliability at scale.",
-    "search_query": "Find candidates for this role:\nSenior network infrastructure engineering role building and operating a cloud platform’s networking stack, with a focus on traffic routing, load balancing, Kubernetes and Linux networking, and reliability at scale.\nMandatory professional qualifications:\n- At least 6 years of experience building and operating large-scale networking or infrastructure systems.\n- Experience with Kubernetes or container networking.\n- Experience with Linux networking in production environments.\n- Experience building and operating traffic routing systems at scale.\n- Experience with distributed systems.\nPreferred, not mandatory:\n- Experience with eBPF or advanced Linux kernel networking.\n- Experience developing systems in Go or similar languages that interact with low-level OS and networking primitives.\n- Experience with Kubernetes networking internals or similar container networking technology.\n- Experience with Linux networking internals in production environments.\n- Strong experience designing, debugging, and operating distributed systems.\n- Experience planning and executing high-risk changes with minimal downtime.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States (remote); Canada (remote); San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior network infrastructure engineering role building and operating a cloud platform’s networking stack, with a focus on traffic routing, load balancing, Kubernetes and Linux networking, and reliability at scale.\nMandatory professional qualifications:\n- At least 6 years of experience building and operating large-scale networking or infrastructure systems.\n- Experience with Kubernetes or container networking.\n- Experience with Linux networking in production environments.\n- Experience building and operating traffic routing systems at scale.\n- Experience with distributed systems.\nPreferred, not mandatory:\n- Experience with eBPF or advanced Linux kernel networking.\n- Experience developing systems in Go or similar languages that interact with low-level OS and networking primitives.\n- Experience with Kubernetes networking internals or similar container networking technology.\n- Experience with Linux networking internals in production environments.\n- Strong experience designing, debugging, and operating distributed systems.\n- Experience planning and executing high-risk changes with minimal downtime.\nWork location and geographic eligibility:\nLocation: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -147,114 +147,48 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ca184efaf99ea297c889d6cf3b288ba40d8cebf24a2143db4cd5d192c37a8cfc",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote work locations are the United States or Canada; San Francisco HQ is also listed as a work location. No present-residence or relocation requirement is stated.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "United States (remote)",
-        "Canada (remote)",
-        "San Francisco, California (HQ)"
-      ],
-      "remote_scope": "United States or Canada",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote: United States",
-        "San Francisco HQ",
-        "Remote: Canada"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote work is offered; the remote eligibility region replaces the office alternatives."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "At least 6 years of experience building and operating large-scale networking or infrastructure systems.",
-        "effective_requirement": "At least 6 years of experience building and operating large-scale networking or infrastructure systems.",
-        "kind": "mandatory"
+        "field": "red_flags",
+        "requirement": "Applicants requiring sponsorship must receive business authorization; the position is generally not eligible for new visa sponsorship, although existing visa transfers may be sponsored at the business’s discretion.",
+        "source_quote": "This position is generally not eligible for new visa sponsorship. At Render's discretion, the business may sponsor existing visa transfers. Applicants who require sponsorship must receive business authorization.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "6ffa879344f51e17aadb295abdbfd679314b20660bf91dca3c560ffeede16a9d",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Applicants requiring sponsorship must receive business authorization; the position is generally not eligible for new visa sponsorship, although existing visa transfers may be sponsored at the business’s discretion.",
-          "source_quote": "This position is generally not eligible for new visa sponsorship. At Render's discretion, the business may sponsor existing visa transfers. Applicants who require sponsorship must receive business authorization.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "2857156a9f3b8bdbf0b0fee65a359af80a7537a8b474734d0aa0ffb71dfa3a7e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Experience planning and executing high-risk changes with minimal downtime.",
-          "source_quote": "Experience planning and executing high-risk changes with minimal downtime.",
-          "verification": "profile",
-          "reason": "Executing high-risk changes with minimal downtime is a practice profiles rarely state."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience with Kubernetes networking internals or similar container networking technology.",
-          "after": "Experience with Kubernetes or container networking.",
-          "reason": "Kubernetes/container networking is commonly listed; internals depth is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience with Linux networking internals in production environments.",
-          "after": "Experience with Linux networking in production environments.",
-          "reason": "Production Linux networking is implied by network infrastructure roles; internals depth is rarely stated (0.9 strict fail)."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Strong experience designing, debugging, and operating distributed systems.",
-          "after": "Experience with distributed systems.",
-          "reason": "Distributed systems experience is implied by infra roles; the strength qualifier is not observable."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P3",
-        "M3": "P4",
-        "M5": "P5",
-        "M6": "P6"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience with Kubernetes networking internals or similar container networking technology.",
+        "effective_requirement": "Experience with Kubernetes or container networking.",
+        "reason": "Kubernetes/container networking is commonly listed; internals depth is rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience with Linux networking internals in production environments.",
+        "effective_requirement": "Experience with Linux networking in production environments.",
+        "reason": "Production Linux networking is implied by network infrastructure roles; internals depth is rarely stated (0.9 strict fail)."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Strong experience designing, debugging, and operating distributed systems.",
+        "effective_requirement": "Experience with distributed systems.",
+        "reason": "Distributed systems experience is implied by infra roles; the strength qualifier is not observable."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e5ae77b9e9f699eb43b17e3643e9900972bb0458047a5c2a9519727676c5f149",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "c604455cad076cb2fe6ed7ccf126b329e732c44d93033e7d71715c9f6eb4ea1a",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote work is offered; the remote eligibility region replaces the office alternatives.",
-      "previous_allowed_locations": [
-        "United States (remote)",
-        "Canada (remote)",
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States (remote); Canada (remote); San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience planning and executing high-risk changes with minimal downtime.",
+        "source_quote": "Experience planning and executing high-risk changes with minimal downtime.",
+        "verification": "profile",
+        "reason": "Executing high-risk changes with minimal downtime is a practice profiles rarely state."
+      }
+    ]
   },
   "experience_context": [
     {

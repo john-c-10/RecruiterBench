@@ -3,10 +3,10 @@
   "role_id": "19d5fd94-5a0f-460d-af5e-cb4152719b9d",
   "snapshot_sha256": "c686b7dd3528abaee9d258a1df01b2aa246bd8422dc38e7a01a32d31d794f725",
   "input_sha256": "c59b728e6ab2c0c23dfa28ad6a551408c3f1e0c574b99f6831bcec7fefba08d8",
-  "rubric_sha256": "295c7ad38452f8245835de1fd1fbf0630609707ee90d973172d9cada75019115",
+  "rubric_sha256": "622f7a68847b49c8d992061c5e3fa95dd48392f5e355b290f7367508a739a0cf",
   "rubric": {
     "role_summary": "Hands-on laser scientist for an Austin laser facility, setting up, aligning, troubleshooting, and running laser experiments for a laser-driven inertial fusion program.",
-    "search_query": "Find candidates for this role:\nHands-on laser scientist for an Austin laser facility, setting up, aligning, troubleshooting, and running laser experiments for a laser-driven inertial fusion program.\nMandatory professional qualifications:\n- Hands-on experience with laser systems.\n- Hands-on experience with nonlinear optics.\n- Hands-on experience with laser beam characterization and optical alignment and diagnostics.\nPreferred, not mandatory:\n- Familiarity with laser modeling software, such as Miro or Zemax, and CAD tools, such as Inventor.\n- Hands-on experience with fiber and free-space laser systems.\n- Hands-on experience with nonlinear optics, including frequency conversion and beam smoothing.\n- Experience working independently on bench-level setup, alignment, and troubleshooting.\n- Working knowledge of ANSI Z136 laser safety standards and experience operating safely in Class 3B/4 laser environments.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nHands-on laser scientist for an Austin laser facility, setting up, aligning, troubleshooting, and running laser experiments for a laser-driven inertial fusion program.\nMandatory professional qualifications:\n- Hands-on experience with laser systems.\n- Hands-on experience with nonlinear optics.\n- Hands-on experience with laser beam characterization and optical alignment and diagnostics.\nPreferred, not mandatory:\n- Familiarity with laser modeling software, such as Miro or Zemax, and CAD tools, such as Inventor.\n- Hands-on experience with fiber and free-space laser systems.\n- Hands-on experience with nonlinear optics, including frequency conversion and beam smoothing.\n- Experience working independently on bench-level setup, alignment, and troubleshooting.\n- Working knowledge of ANSI Z136 laser safety standards and experience operating safely in Class 3B/4 laser environments.\nWork location and geographic eligibility:\nLocation: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -130,95 +130,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "2458f7ba6c4650017a5338304c62fdeac83e47b59b5dc23a80065000fcd27496",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Austin, TX; current residence in Austin is not stated as required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Austin, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Austin, TX",
-        "OnSite",
-        "Focused Energy is building a Focused Energy Lasers Austin (FELA) facility in Austin, TX, and this role exists to make that build happen at the bench level."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "41bf97aada4008867a3839f9699c58720269153fe2a2ac00debcbac3a2b748d5",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "41bf97aada4008867a3839f9699c58720269153fe2a2ac00debcbac3a2b748d5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience working independently on bench-level setup, alignment, and troubleshooting.",
-          "source_quote": "Comfortable working independently on bench-level setup, alignment, and troubleshooting",
-          "verification": "profile",
-          "reason": "Independent work style is unobservable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Working knowledge of ANSI Z136 laser safety standards and experience operating safely in Class 3B/4 laser environments.",
-          "source_quote": "Working knowledge of laser safety standards (ANSI Z136) and experience operating safely in Class 3B/4 laser environments.",
-          "verification": "profile",
-          "reason": "Safety standard knowledge rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Hands-on experience with fiber and free-space laser systems.",
-          "after": "Hands-on experience with laser systems.",
-          "reason": "Laser work is observable; requiring both fiber and free-space is often unstated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Hands-on experience with nonlinear optics, including frequency conversion and beam smoothing.",
-          "after": "Hands-on experience with nonlinear optics.",
-          "reason": "Nonlinear optics is observable; specific techniques are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P2",
-        "M2": "P3",
-        "M4": "P4",
-        "M5": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "91ff3b943dc9e8ea8c96851df4734d80ee54eca046d76d08cb54ded978ea5302",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "cd98fccd467432e711f1762154c080ef0e5df90605e59e8d041b457a73637a15",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Austin, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience with fiber and free-space laser systems.",
+        "effective_requirement": "Hands-on experience with laser systems.",
+        "reason": "Laser work is observable; requiring both fiber and free-space is often unstated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience with nonlinear optics, including frequency conversion and beam smoothing.",
+        "effective_requirement": "Hands-on experience with nonlinear optics.",
+        "reason": "Nonlinear optics is observable; specific techniques are not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience working independently on bench-level setup, alignment, and troubleshooting.",
+        "source_quote": "Comfortable working independently on bench-level setup, alignment, and troubleshooting",
+        "verification": "profile",
+        "reason": "Independent work style is unobservable."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Working knowledge of ANSI Z136 laser safety standards and experience operating safely in Class 3B/4 laser environments.",
+        "source_quote": "Working knowledge of laser safety standards (ANSI Z136) and experience operating safely in Class 3B/4 laser environments.",
+        "verification": "profile",
+        "reason": "Safety standard knowledge rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

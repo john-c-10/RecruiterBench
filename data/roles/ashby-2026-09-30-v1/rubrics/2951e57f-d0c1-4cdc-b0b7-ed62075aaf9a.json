@@ -3,10 +3,10 @@
   "role_id": "2951e57f-d0c1-4cdc-b0b7-ed62075aaf9a",
   "snapshot_sha256": "914218e834cd968398d2aed53e7f7daae40e3f6e81cd95d3a572f12a6c758d79",
   "input_sha256": "2220182803ab6d3252ff3411c930f678e070a1fa088195a7078fd60bfd280dd2",
-  "rubric_sha256": "b1dca527eb77778cdea1e8f1f87e0be492c9deb96bd046cc5faba5904fcdf3eb",
+  "rubric_sha256": "0da9ed893a3169f97433232030558d98fc30a68411cec01bee42878293eee6ff",
   "rubric": {
     "role_summary": "Senior security incident response role leading complex investigations in cloud-native or SaaS environments and engineering automation and workflows to improve response.",
-    "search_query": "Find candidates for this role:\nSenior security incident response role leading complex investigations in cloud-native or SaaS environments and engineering automation and workflows to improve response.\nMandatory professional qualifications:\n- 5+ years of experience in security incident response roles.\n- Incident response experience in cloud-native or SaaS environments.\n- Experience building automation or internal tooling to improve security operations.\n- Proficiency in scripting or programming and working with APIs or orchestration platforms; Python, Go, and Bash are examples, not a required set.\n- Understanding of modern attacker techniques and incident response methodologies.\nPreferred, not mandatory:\n- 5+ years of experience in security incident response roles, with 3+ years focused on security engineering and automation.\n- Experience leading complex security incidents in cloud-native or SaaS environments.\n- Familiarity with applying AI/ML-assisted workflows to operational security use cases.\n- Project management skills to own complex projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States; Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior security incident response role leading complex investigations in cloud-native or SaaS environments and engineering automation and workflows to improve response.\nMandatory professional qualifications:\n- 5+ years of experience in security incident response roles.\n- Incident response experience in cloud-native or SaaS environments.\n- Experience building automation or internal tooling to improve security operations.\n- Proficiency in scripting or programming and working with APIs or orchestration platforms; Python, Go, and Bash are examples, not a required set.\n- Understanding of modern attacker techniques and incident response methodologies.\nPreferred, not mandatory:\n- 5+ years of experience in security incident response roles, with 3+ years focused on security engineering and automation.\n- Experience leading complex security incidents in cloud-native or SaaS environments.\n- Familiarity with applying AI/ML-assisted workflows to operational security use cases.\n- Project management skills to own complex projects.\nWork location and geographic eligibility:\nLocation: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -137,115 +137,49 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "7375fc106e4267716e634fcf1971cfd67abd6997fbcb0120d85b214d46ec0749",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote opportunity within the United States or Canada; remote work is from the employee’s home country. Travel for in-person engagement is expected.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States",
-        "Canada"
-      ],
-      "remote_scope": "United States or Canada, working from the employee’s home country",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote (United States | Canada)",
-        "This is a remote opportunity within Canada and the US.",
-        "remote work at 1Password does mean working from your home country."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Remote within the United States and Canada."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience in security incident response roles, with 3+ years focused on security engineering and automation.",
-        "effective_requirement": "5+ years of experience in security incident response roles, with 3+ years focused on security engineering and automation.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Ready and willing to travel for in-person engagement; frequency depends on the role and responsibilities.",
+        "source_quote": "travel for in-person engagement is a part of almost all roles, and we require our employees to be ready and willing to take part. Frequency will depend on role and responsibilities",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "997478c4b7cf8ef2516739a6c977f3df8bf3091fd9cf0a04d9d0ae2960dc016c",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Ready and willing to travel for in-person engagement; frequency depends on the role and responsibilities.",
-          "source_quote": "travel for in-person engagement is a part of almost all roles, and we require our employees to be ready and willing to take part. Frequency will depend on role and responsibilities",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "01cb73e36867640b4abc86365bbe88c19d22b133cadc112faa17a5f4b57e16b5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Familiarity with applying AI/ML-assisted workflows to operational security use cases.",
-          "source_quote": "Familiarity with applying AI/ML-assisted workflows to operational security use cases.",
-          "verification": "profile",
-          "reason": "AI/ML-assisted security workflows are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Project management skills to own complex projects.",
-          "source_quote": "Structured and organized, with strong project management skills to own complex projects",
-          "verification": "profile",
-          "reason": "Project management skill is a soft skill rarely stated for security engineers."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "5+ years of experience in security incident response roles, with 3+ years focused on security engineering and automation.",
-          "after": "5+ years of experience in security incident response roles.",
-          "reason": "IR years are observable; the 3+ year engineering/automation split is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Experience leading complex security incidents in cloud-native or SaaS environments.",
-          "after": "Incident response experience in cloud-native or SaaS environments.",
-          "reason": "IR in SaaS/cloud is implied by employer; leading complex incidents is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M5"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "5+ years of experience in security incident response roles, with 3+ years focused on security engineering and automation.",
+        "effective_requirement": "5+ years of experience in security incident response roles.",
+        "reason": "IR years are observable; the 3+ year engineering/automation split is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2",
-        "M5": "P3",
-        "M7": "P4"
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience leading complex security incidents in cloud-native or SaaS environments.",
+        "effective_requirement": "Incident response experience in cloud-native or SaaS environments.",
+        "reason": "IR in SaaS/cloud is implied by employer; leading complex incidents is rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6e8e6fea1b6e1db0f1707744c3c7c1827607ec4fa36f2f7ccce3e77f91a1646c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "5ef7721de00a24eaa49a21ba743307458725e281bd09e24a6c7caa67b271feec",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Remote within the United States and Canada.",
-      "previous_allowed_locations": [
-        "United States",
-        "Canada"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States; Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with applying AI/ML-assisted workflows to operational security use cases.",
+        "source_quote": "Familiarity with applying AI/ML-assisted workflows to operational security use cases.",
+        "verification": "profile",
+        "reason": "AI/ML-assisted security workflows are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Project management skills to own complex projects.",
+        "source_quote": "Structured and organized, with strong project management skills to own complex projects",
+        "verification": "profile",
+        "reason": "Project management skill is a soft skill rarely stated for security engineers."
+      }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "f40a7b70-71c0-49f6-ba9f-1df2de9b46d9",
   "snapshot_sha256": "75b08c72fa0f00a6a584566c928aa9dcbf042b3ee8a6bf7cc8d61bfd0a7b0695",
   "input_sha256": "9fa1df86a28719e48bde9166cc6d7306baae12ba4a686452cfaa6393ca611924",
-  "rubric_sha256": "7c41a05ea4fa7f45fb85622fb5505227af3632568abb73c34f79020014c8240f",
+  "rubric_sha256": "e919446380f7c385ab8084839503951a158efcff46cd9faf9a9e26b0425940eb",
   "rubric": {
     "role_summary": "Staff-level backend engineering for large-scale distributed systems, building and operating scalable, multi-tenant services and an enterprise offering spanning on-premise and dedicated cloud deployments.",
-    "search_query": "Find candidates for this role:\nStaff-level backend engineering for large-scale distributed systems, building and operating scalable, multi-tenant services and an enterprise offering spanning on-premise and dedicated cloud deployments.\nMandatory professional qualifications:\n- Experience designing large-scale distributed systems.\n- Operational experience in large-scale distributed systems environments.\n- Experience developing highly concurrent systems.\n- Experience with Elasticsearch or ClickHouse.\nPreferred, not mandatory:\n- Familiarity with Go or other similar languages.\n- Experience with infrastructure environments.\n- Rich experience as an “Arranger” and/or “Builder/Enhancer” in large-scale distributed systems design, including reliability and scalability.\n- Demonstrated experience writing concurrent code in production at an Advanced or Expert level.\n- Knowledge and experience of reliability.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Seattle area, Washington; San Francisco Bay Area, California; United States (Remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nStaff-level backend engineering for large-scale distributed systems, building and operating scalable, multi-tenant services and an enterprise offering spanning on-premise and dedicated cloud deployments.\nMandatory professional qualifications:\n- Experience designing large-scale distributed systems.\n- Operational experience in large-scale distributed systems environments.\n- Experience developing highly concurrent systems.\n- Experience with Elasticsearch or ClickHouse.\nPreferred, not mandatory:\n- Familiarity with Go or other similar languages.\n- Experience with infrastructure environments.\n- Rich experience as an “Arranger” and/or “Builder/Enhancer” in large-scale distributed systems design, including reliability and scalability.\n- Demonstrated experience writing concurrent code in production at an Advanced or Expert level.\n- Knowledge and experience of reliability.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -134,94 +134,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "1c7b4c0c75721e7d863600856074184c2fb89ee01387c1e5bc397ebf841d4bd7",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The posting lists Seattle, Washington; San Francisco, California; and United States (Remote). It does not require current residence in either city.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "Seattle, Washington",
-        "San Francisco, California",
-        "United States (Remote)"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Seattle, Washington",
-        "United States (Remote)",
-        "San Francisco, California",
-        "Remote"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "34ed8302312520f73e9910083f5989cccb5a1c8f19b4edcf09e77a8864bc4832",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "34ed8302312520f73e9910083f5989cccb5a1c8f19b4edcf09e77a8864bc4832",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Demonstrated experience writing concurrent code in production at an Advanced or Expert level.",
-          "source_quote": "Demonstrated experience writing concurrent code in production as Advanced or Expert levels.",
-          "verification": "profile",
-          "reason": "Advanced/Expert proficiency level in concurrent code is a qualifier not observable on profiles."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Knowledge and experience of reliability.",
-          "source_quote": "Knowledge and experience of reliability so you can further ensure the high reliability of the Temporal system",
-          "verification": "profile",
-          "reason": "Vague reliability knowledge is not separately observable."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Rich experience as an “Arranger” and/or “Builder/Enhancer” in large-scale distributed systems design, including reliability and scalability.",
-          "after": "Experience designing large-scale distributed systems.",
-          "reason": "Distributed systems design is observable; the Arranger/Builder framing is internal jargon never stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M4"
-      },
-      "demoted_preference_ids": {
-        "M1": "P3",
-        "M4": "P4",
-        "M5": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "231178f80ef79237230f865f7a5c1fa24906dfdaeea3f01ecfae5f0ffdaeec7c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "75b29b970f37c7dc6b02a77e0017e3b309ed6190bd6da07adfda4b65ae6b5f8f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Remote work is offered; the remote eligibility region replaces the office alternatives.",
-      "previous_allowed_locations": [
-        "Greater Seattle area, Washington",
-        "San Francisco Bay Area, California",
-        "United States (Remote)"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Seattle area, Washington; San Francisco Bay Area, California; United States (Remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Remote work is offered; the remote eligibility region replaces the office alternatives."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Rich experience as an “Arranger” and/or “Builder/Enhancer” in large-scale distributed systems design, including reliability and scalability.",
+        "effective_requirement": "Experience designing large-scale distributed systems.",
+        "reason": "Distributed systems design is observable; the Arranger/Builder framing is internal jargon never stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated experience writing concurrent code in production at an Advanced or Expert level.",
+        "source_quote": "Demonstrated experience writing concurrent code in production as Advanced or Expert levels.",
+        "verification": "profile",
+        "reason": "Advanced/Expert proficiency level in concurrent code is a qualifier not observable on profiles."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Knowledge and experience of reliability.",
+        "source_quote": "Knowledge and experience of reliability so you can further ensure the high reliability of the Temporal system",
+        "verification": "profile",
+        "reason": "Vague reliability knowledge is not separately observable."
+      }
+    ]
   },
   "experience_context": []
 }

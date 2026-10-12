@@ -3,10 +3,10 @@
   "role_id": "80f49104-38bf-4782-a7f3-8f4011020764",
   "snapshot_sha256": "f899ccfe37c452f1d2fb8865ff8aa32ea8f90eea9dca4a6304663a61ae196064",
   "input_sha256": "ea241c574678c17e890d2e070f6e67c332300363990dd0f985ec02802d3fa993",
-  "rubric_sha256": "b5de9d6e5bf2d701872fb46b7d090c7505b3625cf3755df2437a66134fad111a",
+  "rubric_sha256": "5296290eb3113b9c63d791c8c9e8dee7ce48583781395857675f2967048686df",
   "rubric": {
     "role_summary": "Scientific communication and claims strategy role for personalized hair and skin care, translating research and product testing into substantiated content and coordinating across R&D, brand, and product teams.",
-    "search_query": "Find candidates for this role:\nScientific communication and claims strategy role for personalized hair and skin care, translating research and product testing into substantiated content and coordinating across R&D, brand, and product teams.\nMandatory professional qualifications:\n- Scientific or technical background in cosmetic science, dermatology, biology, or a related field.\n- 5+ years of experience in scientific communication, claims substantiation, or R&D–marketing liaison roles.\nPreferred, not mandatory:\n- Experience in beauty/cosmetics or a related regulated industry.\n- French language skills.\n- Project management skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Paris area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nScientific communication and claims strategy role for personalized hair and skin care, translating research and product testing into substantiated content and coordinating across R&D, brand, and product teams.\nMandatory professional qualifications:\n- Scientific or technical background in cosmetic science, dermatology, biology, or a related field.\n- 5+ years of experience in scientific communication, claims substantiation, or R&D–marketing liaison roles.\nPreferred, not mandatory:\n- Experience in beauty/cosmetics or a related regulated industry.\n- French language skills.\n- Project management skills.\nWork location and geographic eligibility:\nLocation: Greater Paris area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,86 +115,29 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "5a6821052325ecd3738a0666529525a3011d142a45d67d9974a60f60fff8540e",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work in Paris; the posting does not require candidates to currently reside there.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Paris"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Paris",
-        "Hybrid"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "5 to 10 years of experience in scientific communication, claims substantiation, or R&D-marketing liaison roles",
-        "effective_requirement": "5+ years of experience in scientific communication, claims substantiation, or R&D–marketing liaison roles.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Written and verbal communication skills in English.",
+        "source_quote": "Excellent written and verbal communication skills in English",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "af4575753ba619fb7ea24537d6a5000e2fc65f4cc140d64723bd7de1d80554b4",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Written and verbal communication skills in English.",
-          "source_quote": "Excellent written and verbal communication skills in English",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M3"
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Project management skills.",
+        "source_quote": "strong project management skills",
+        "verification": "profile",
+        "reason": "Generic project-management skill is largely unstated."
       }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "bcff132164aa41110673baf5fb46c8569bf6a7811539b151e73e543831f04f92",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Project management skills.",
-          "source_quote": "strong project management skills",
-          "verification": "profile",
-          "reason": "Generic project-management skill is largely unstated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5cb4f9e3c03b274ce1eba68975491f271f6b6adb68af51e9d3302b0819389fe6",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d7e48e40f746107938e9f5a2fad75778bd2a5ef84c30ddd23dd6808285706021",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Paris area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Paris area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

@@ -3,10 +3,10 @@
   "role_id": "d9fddb4e-6425-4722-9fb7-363b3c6cb08f",
   "snapshot_sha256": "3c1a8d28f856b032df3935ce9e9aa080f04ec173cc4c7cb75c08d686a721a643",
   "input_sha256": "0dc75a1d1144af490590ec576996ff46b003faddef9bfa1199ff56c3df229667",
-  "rubric_sha256": "6b047c4375afa8573fc52ecace117374d27a4c104ee7e9e1e86f5f69f5e1480c",
+  "rubric_sha256": "904935fadbb39f0f4db4910ac220883d4d0cdcbb8299e323ec72d40bddb5e7f0",
   "rubric": {
     "role_summary": "Director-level manufacturing operations role scaling regulated cosmetic and medical-device products from R&D through commercial production, including CDMO partnerships, technology transfer, supply chain operations, and manufacturing financial planning.",
-    "search_query": "Find candidates for this role:\nDirector-level manufacturing operations role scaling regulated cosmetic and medical-device products from R&D through commercial production, including CDMO partnerships, technology transfer, supply chain operations, and manufacturing financial planning.\nMandatory professional qualifications:\n- Experience scaling a product from R&D to commercial manufacturing in a regulated environment.\n- Experience overseeing manufacturing operations for a Class II or III medical device or equivalent regulated product.\n- Experience managing supply chain operations.\n- Familiarity with Quality Management Systems in regulated environments.\n- Direct people management experience.\nPreferred, not mandatory:\n- Experience with combination products (drug + device), such as auto-injectors, EpiPens, nasal sprays, or microarray-based systems.\n- Background in Material Science & Technology Transfer (MSNT).\n- Experience scaling production to 100K+ units per month.\n- Experience across both cosmetic and medical device products.\n- Experience with automation and line redesign in a manufacturing scale-up context.\n- Background in customer support or customer-facing operations within manufacturing.\n- Experience managing managers or building multi-layered organizations.\n- Experience implementing or optimizing operational infrastructure.\n- Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.\n- Direct experience with CDMO partner selection, onboarding, and technology transfer.\n- Experience managing supply chain, logistics, inventory, and fulfillment operations.\n- Demonstrated ability to lead technology transfer and process scale-up.\n- Experience with manufacturing cost modeling and financial planning.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nDirector-level manufacturing operations role scaling regulated cosmetic and medical-device products from R&D through commercial production, including CDMO partnerships, technology transfer, supply chain operations, and manufacturing financial planning.\nMandatory professional qualifications:\n- Experience scaling a product from R&D to commercial manufacturing in a regulated environment.\n- Experience overseeing manufacturing operations for a Class II or III medical device or equivalent regulated product.\n- Experience managing supply chain operations.\n- Familiarity with Quality Management Systems in regulated environments.\n- Direct people management experience.\nPreferred, not mandatory:\n- Experience with combination products (drug + device), such as auto-injectors, EpiPens, nasal sprays, or microarray-based systems.\n- Background in Material Science & Technology Transfer (MSNT).\n- Experience scaling production to 100K+ units per month.\n- Experience across both cosmetic and medical device products.\n- Experience with automation and line redesign in a manufacturing scale-up context.\n- Background in customer support or customer-facing operations within manufacturing.\n- Experience managing managers or building multi-layered organizations.\n- Experience implementing or optimizing operational infrastructure.\n- Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.\n- Direct experience with CDMO partner selection, onboarding, and technology transfer.\n- Experience managing supply chain, logistics, inventory, and fulfillment operations.\n- Demonstrated ability to lead technology transfer and process scale-up.\n- Experience with manufacturing cost modeling and financial planning.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -186,117 +186,57 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ab9a22022d02c486656b94f7dfde4781cce54607bca2342b1ace23c2e694b177",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Role is based in New York City; the posting does not specify an onsite schedule or require current residence there.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "New York City, New York, United States"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "This role is based in New York City.",
-        "New York"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "df250c1ea1f0b8eb26e90522a6a030ceb62657343d445497f5fd982b658f0fac",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M10",
-          "requirement": "Ability to travel approximately 10%–30%.",
-          "source_quote": "Some travel will required approximately 10% -30%",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "49b4c31fe54f71baba656bbb85cb0e2b78b7a17cabfafb03f6fd6f25d7692b77",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.",
-          "source_quote": "Hands-on experience scaling production volumes significantly (e.g., 10x or more)",
-          "verification": "profile",
-          "reason": "Quantified volume scaling is a performance claim rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Direct experience with CDMO partner selection, onboarding, and technology transfer.",
-          "source_quote": "Direct experience working with CDMO partners including selection, onboarding, and tech transfer",
-          "verification": "profile",
-          "reason": "CDMO selection/onboarding/tech transfer is a specific practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Demonstrated ability to lead technology transfer and process scale-up.",
-          "source_quote": "Demonstrated ability to lead technology transfer and process scale-up",
-          "verification": "profile",
-          "reason": "Leading tech transfer/scale-up is largely covered by M1 and rarely stated separately."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Experience with manufacturing cost modeling and financial planning.",
-          "source_quote": "Experience with manufacturing cost modeling and financial planning",
-          "verification": "profile",
-          "reason": "Cost modeling and financial planning are rarely stated for manufacturing leaders."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "before": "Experience managing supply chain, logistics, inventory, and fulfillment operations.",
-          "after": "Experience managing supply chain operations.",
-          "reason": "Supply chain scope is often visible from operations titles; the full list is overly conjunctive."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M3",
-        "M6": "M4",
-        "M9": "M5"
-      },
-      "demoted_preference_ids": {
-        "M3": "P9",
-        "M4": "P10",
-        "M5": "P11",
-        "M7": "P12",
-        "M8": "P13"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6ba9f32903bc843b6f125334049e84ca2d7030e07d9a574058f7116eea613b9e",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "e7e1e241687fc5475ac5dfc274b72ff5a1fd8f2c45af2138e4429facf0095d97",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to travel approximately 10%–30%.",
+        "source_quote": "Some travel will required approximately 10% -30%",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience managing supply chain, logistics, inventory, and fulfillment operations.",
+        "effective_requirement": "Experience managing supply chain operations.",
+        "reason": "Supply chain scope is often visible from operations titles; the full list is overly conjunctive."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.",
+        "source_quote": "Hands-on experience scaling production volumes significantly (e.g., 10x or more)",
+        "verification": "profile",
+        "reason": "Quantified volume scaling is a performance claim rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Direct experience with CDMO partner selection, onboarding, and technology transfer.",
+        "source_quote": "Direct experience working with CDMO partners including selection, onboarding, and tech transfer",
+        "verification": "profile",
+        "reason": "CDMO selection/onboarding/tech transfer is a specific practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated ability to lead technology transfer and process scale-up.",
+        "source_quote": "Demonstrated ability to lead technology transfer and process scale-up",
+        "verification": "profile",
+        "reason": "Leading tech transfer/scale-up is largely covered by M1 and rarely stated separately."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience with manufacturing cost modeling and financial planning.",
+        "source_quote": "Experience with manufacturing cost modeling and financial planning",
+        "verification": "profile",
+        "reason": "Cost modeling and financial planning are rarely stated for manufacturing leaders."
+      }
+    ]
   },
   "experience_context": []
 }

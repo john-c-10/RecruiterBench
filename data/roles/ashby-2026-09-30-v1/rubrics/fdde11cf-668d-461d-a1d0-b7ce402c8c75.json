@@ -3,10 +3,10 @@
   "role_id": "fdde11cf-668d-461d-a1d0-b7ce402c8c75",
   "snapshot_sha256": "14cc52665d9f82c3369f11480a76eccdf4265dce34058dd4e7849d91d9152ae4",
   "input_sha256": "ec81445c4f0a20b43c42430a2656c50e5da35303936cdeb07905c9c13fee8c66",
-  "rubric_sha256": "22e18638d10428303dc7a3191abefaff114008111b04e7fe614843e422c3b330",
+  "rubric_sha256": "53fc20068e7de3ec546ed8bdcbf5d23fe17859a1be88db3f2f627bca740586cc",
   "rubric": {
     "role_summary": "Onsite materials engineer in Los Angeles developing and qualifying metal additive manufacturing materials and processes, particularly laser powder bed fusion, and supporting testing, material properties, specifications, and qualification documentation.",
-    "search_query": "Find candidates for this role:\nOnsite materials engineer in Los Angeles developing and qualifying metal additive manufacturing materials and processes, particularly laser powder bed fusion, and supporting testing, material properties, specifications, and qualification documentation.\nMandatory professional qualifications:\n- Master's degree in Materials Science, Welding Engineering, Metallurgy, or a related engineering discipline.\n- 4+ years in a materials and processes engineering role focused on metal additive manufacturing.\n- Background performing material testing, metallurgical analysis, or failure investigations in a production or laboratory setting.\nPreferred, not mandatory:\n- Background in aerospace, aviation, defense, energy, or similar high-specification industries.\n- Familiarity with specialized material standards, certification requirements, or quality systems.\n- Familiarity with fracture control classification and associated qualification requirements.\n- Background in adjacent metal processes such as casting, forging, or brazing.\n- Experience with in-situ process monitoring for laser powder bed fusion.\n- Knowledge of statistical methods for generating test data and building material allowables.\n- Prior support of production scale-up in high-rate manufacturing.\n- Ability to lead root cause investigations using fractography, metallography, and mechanical testing.\n- 4+ years in a materials and processes engineering role developing and qualifying additive manufacturing processes for metal alloys, with a strong focus on laser powder bed fusion.\n- Working knowledge of alloy types common to aerospace and extreme environments.\n- Familiarity with post processing and heat treatments for these alloy types.\n- Ability to interpret engineering drawings, specifications, and material requirements and apply them in manufacturing.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nOnsite materials engineer in Los Angeles developing and qualifying metal additive manufacturing materials and processes, particularly laser powder bed fusion, and supporting testing, material properties, specifications, and qualification documentation.\nMandatory professional qualifications:\n- Master's degree in Materials Science, Welding Engineering, Metallurgy, or a related engineering discipline.\n- 4+ years in a materials and processes engineering role focused on metal additive manufacturing.\n- Background performing material testing, metallurgical analysis, or failure investigations in a production or laboratory setting.\nPreferred, not mandatory:\n- Background in aerospace, aviation, defense, energy, or similar high-specification industries.\n- Familiarity with specialized material standards, certification requirements, or quality systems.\n- Familiarity with fracture control classification and associated qualification requirements.\n- Background in adjacent metal processes such as casting, forging, or brazing.\n- Experience with in-situ process monitoring for laser powder bed fusion.\n- Knowledge of statistical methods for generating test data and building material allowables.\n- Prior support of production scale-up in high-rate manufacturing.\n- Ability to lead root cause investigations using fractography, metallography, and mechanical testing.\n- 4+ years in a materials and processes engineering role developing and qualifying additive manufacturing processes for metal alloys, with a strong focus on laser powder bed fusion.\n- Working knowledge of alloy types common to aerospace and extreme environments.\n- Familiarity with post processing and heat treatments for these alloy types.\n- Ability to interpret engineering drawings, specifications, and material requirements and apply them in manufacturing.\nWork location and geographic eligibility:\nLocation: United States. The role is onsite in Los Angeles, California, and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -167,114 +167,50 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "029f02af6097f2d7ff4faf623ee5cd8433b9262189c999fe2c10c35c77c1f92f",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Los Angeles, CA. Current residence in Los Angeles is not explicitly required; relocation support may be provided in certain situations.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Los Angeles, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Los Angeles, CA",
-        "OnSite",
-        "Relocation support may be provided for certain situations, based on business need."
-      ]
+    "location": {
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic. Relocation support is conditional, but realistic for this specialty."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "4+ years in a materials and processes engineering role developing and qualifying additive manufacturing processes for metal alloys, with a strong focus on laser powder bed fusion.",
-        "effective_requirement": "4+ years in a materials and processes engineering role developing and qualifying additive manufacturing processes for metal alloys, with a strong focus on laser powder bed fusion.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Must be a U.S. citizen or national, lawful permanent resident, protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required U.S. Department of State authorizations.",
+        "source_quote": "To conform to U.S. Government export regulations, including the International Traffic in Arms Regulations (ITAR) you must be a U.S. citizen or national, lawful permanent resident, protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "ae2483d6ba16d5b5732b00bf800e7bf8963b599581545c5986089f9eb6bc1309",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Must be a U.S. citizen or national, lawful permanent resident, protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required U.S. Department of State authorizations.",
-          "source_quote": "To conform to U.S. Government export regulations, including the International Traffic in Arms Regulations (ITAR) you must be a U.S. citizen or national, lawful permanent resident, protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "58d7f74a6b2f1f4ca20bd819edd6f7fc900b940eeeb5c29abee00cfe1faa5a30",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Working knowledge of alloy types common to aerospace and extreme environments.",
-          "source_quote": "Strong working knowledge of alloy types common to aerospace and extreme environments, such as nickel based, copper, aluminum, and stainless.",
-          "verification": "profile",
-          "reason": "Alloy knowledge is rarely stated explicitly."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Familiarity with post processing and heat treatments for these alloy types.",
-          "source_quote": "Familiarity with post processing and heat treatments for these alloy types.",
-          "verification": "profile",
-          "reason": "Post-processing/heat-treatment knowledge rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability to interpret engineering drawings, specifications, and material requirements and apply them in manufacturing.",
-          "source_quote": "Ability to interpret engineering drawings, specifications, and material requirements, and apply them within a manufacturing environment.",
-          "verification": "profile",
-          "reason": "Drawing interpretation is generic and rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "4+ years in a materials and processes engineering role developing and qualifying additive manufacturing processes for metal alloys, with a strong focus on laser powder bed fusion.",
-          "after": "4+ years in a materials and processes engineering role focused on metal additive manufacturing.",
-          "reason": "Metal AM materials role is observable; LPBF focus and qualification practice are often unstated."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M3"
-      },
-      "demoted_preference_ids": {
-        "M2": "P9",
-        "M3": "P10",
-        "M4": "P11",
-        "M6": "P12"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "4+ years in a materials and processes engineering role developing and qualifying additive manufacturing processes for metal alloys, with a strong focus on laser powder bed fusion.",
+        "effective_requirement": "4+ years in a materials and processes engineering role focused on metal additive manufacturing.",
+        "reason": "Metal AM materials role is observable; LPBF focus and qualification practice are often unstated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6c8189af347985629e4d6a138810b333c006cc51fbc2c48e3986ba7c839484fa",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "7e1d6658de32a5bf7d8d6bcbe865fe6d972de6af0cdda3d6bb213fe19038380f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "country",
-      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic. Relocation support is conditional, but realistic for this specialty.",
-      "previous_allowed_locations": [
-        "Greater Los Angeles area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Working knowledge of alloy types common to aerospace and extreme environments.",
+        "source_quote": "Strong working knowledge of alloy types common to aerospace and extreme environments, such as nickel based, copper, aluminum, and stainless.",
+        "verification": "profile",
+        "reason": "Alloy knowledge is rarely stated explicitly."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with post processing and heat treatments for these alloy types.",
+        "source_quote": "Familiarity with post processing and heat treatments for these alloy types.",
+        "verification": "profile",
+        "reason": "Post-processing/heat-treatment knowledge rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to interpret engineering drawings, specifications, and material requirements and apply them in manufacturing.",
+        "source_quote": "Ability to interpret engineering drawings, specifications, and material requirements, and apply them within a manufacturing environment.",
+        "verification": "profile",
+        "reason": "Drawing interpretation is generic and rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

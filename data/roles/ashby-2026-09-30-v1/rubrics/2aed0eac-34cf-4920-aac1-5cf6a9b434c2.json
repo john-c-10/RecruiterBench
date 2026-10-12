@@ -3,10 +3,10 @@
   "role_id": "2aed0eac-34cf-4920-aac1-5cf6a9b434c2",
   "snapshot_sha256": "514c832af6d83484b1d44c57ac59c85bf582028548567ed37df7e569a79df369",
   "input_sha256": "a1ebe58f33211a99eff993c4ecb58e6480253ba8daf34ddc27d34d585daa135f",
-  "rubric_sha256": "4d7bb00e18d9d2a61e7d3ccda2263ef4b4f4a4c16cc7aeea2335945041974650",
+  "rubric_sha256": "4f7263d60e89b6afd8e1d3911d68e32c6a3caba7948eb519e7b7ded9239a692b",
   "rubric": {
     "role_summary": "Applied statistical machine learning research focused on financial market prediction and portfolio optimization, including developing predictive models, analyzing datasets, and validating models in live trading.",
-    "search_query": "Find candidates for this role:\nApplied statistical machine learning research focused on financial market prediction and portfolio optimization, including developing predictive models, analyzing datasets, and validating models in live trading.\nMandatory professional qualifications:\n- Background in modern statistical methods and machine learning, with a track record as an applied researcher.\n- Evidence of strong mathematical abilities; publication record, graduate coursework, and competition placement are examples, not individually required.\n- Ph.D.-level coursework.\nPreferred, not mandatory:\n- Python and/or R for production-level coding.\n- Ph.D. degree in a relevant field.\n- Ability to solve large-scale computing problems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area; United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nApplied statistical machine learning research focused on financial market prediction and portfolio optimization, including developing predictive models, analyzing datasets, and validating models in live trading.\nMandatory professional qualifications:\n- Background in modern statistical methods and machine learning, with a track record as an applied researcher.\n- Evidence of strong mathematical abilities; publication record, graduate coursework, and competition placement are examples, not individually required.\n- Ph.D.-level coursework.\nPreferred, not mandatory:\n- Python and/or R for production-level coding.\n- Ph.D. degree in a relevant field.\n- Ability to solve large-scale computing problems.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -119,77 +119,21 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "46ba40ec169fec5a591848654a502f217c6243f7bf8f86d4e0b00e277c4cf408",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid office options in Berkeley, CA and New York City, NY, or remote work in the United States. Relocation is offered to qualified candidates; current residence in an office city is not stated as required.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Berkeley, CA",
-        "New York City, NY",
-        "Remote, United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Berkeley, CA",
-        "New York City, NY",
-        "Remote, United States",
-        "Hybrid",
-        "*** Relocation and work visa eligibility for qualified candidates***"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "d58725bd6b2409a6b71288b0569fbe375a40ae6d316308c07a69590e63ac71cc",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "d58725bd6b2409a6b71288b0569fbe375a40ae6d316308c07a69590e63ac71cc",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to solve large-scale computing problems.",
-          "source_quote": "Ability to solve large-scale computing problems",
-          "verification": "profile",
-          "reason": "Vague ability claim that profiles rarely state."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M3"
-      },
-      "demoted_preference_ids": {
-        "M3": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ac8024591f21a228c357826340206ef7def4e7de4ea165f81d8de3cba41561d2",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "71edd6dedaa8a1a7b3158a2b9ad720c53b90410908a547a777475a3719ab922f",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Remote, United States is listed and relocation is offered.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area",
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area; United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Remote, United States is listed and relocation is offered."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to solve large-scale computing problems.",
+        "source_quote": "Ability to solve large-scale computing problems",
+        "verification": "profile",
+        "reason": "Vague ability claim that profiles rarely state."
+      }
+    ]
   },
   "experience_context": []
 }

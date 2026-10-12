@@ -3,10 +3,10 @@
   "role_id": "72cd8b10-46a3-4eff-a7ec-209843640ecc",
   "snapshot_sha256": "0a7b36b7e6c7c1cf09dd896c5512c366a2932bf1f6576535dfabce8941d0bd9e",
   "input_sha256": "55a0402b8baf858c3e22458d8e7012378c870809a59b59d050c365cc32124d51",
-  "rubric_sha256": "e34d6be065f722921186c82e8530019afac3104f64f4c14481f1a052cda237cd",
+  "rubric_sha256": "5feab5a04d010e3626a976193dd656e18a373a79dd484c2c829360d1ddaabac0",
   "rubric": {
     "role_summary": "Protocol engineer leading development of core components of a high-performance Layer 1 blockchain, including consensus and state management.",
-    "search_query": "Find candidates for this role:\nProtocol engineer leading development of core components of a high-performance Layer 1 blockchain, including consensus and state management.\nMandatory professional qualifications:\n- 5+ years of infrastructure engineering experience.\n- Experience building or scaling Layer 1 blockchain systems.\n- Tech lead experience.\nPreferred, not mandatory:\n- Proven results in building or scaling Layer 1 blockchain performance.\n- Tech lead experience planning and leading large projects with long-term impact on a single system or team.\n- History of creating and applying processes and tooling to increase engineering efficiency.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nProtocol engineer leading development of core components of a high-performance Layer 1 blockchain, including consensus and state management.\nMandatory professional qualifications:\n- 5+ years of infrastructure engineering experience.\n- Experience building or scaling Layer 1 blockchain systems.\n- Tech lead experience.\nPreferred, not mandatory:\n- Proven results in building or scaling Layer 1 blockchain performance.\n- Tech lead experience planning and leading large projects with long-term impact on a single system or team.\n- History of creating and applying processes and tooling to increase engineering efficiency.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,92 +115,34 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "82f8b2fef2be261176d0bc4e1bcb187c82e0df2c87b4d8e5d98cb0dbc6499df9",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role in New York City; current residence is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "New York City"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York City",
-        "Hybrid"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of infrastructure engineering experience.",
-        "effective_requirement": "5+ years of infrastructure engineering experience.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Proven results in building or scaling Layer 1 blockchain performance.",
+        "effective_requirement": "Experience building or scaling Layer 1 blockchain systems.",
+        "reason": "L1 work is visible via employers/titles; proven performance results are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Tech lead experience planning and leading large projects with long-term impact on a single system or team.",
+        "effective_requirement": "Tech lead experience.",
+        "reason": "Tech lead/staff titles are visible; project scope and long-term impact are not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "244bad22d5c182489b03409f8f5b19cee51fec7542b8a3e5e72a5b0e91c67ec2",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "244bad22d5c182489b03409f8f5b19cee51fec7542b8a3e5e72a5b0e91c67ec2",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "History of creating and applying processes and tooling to increase engineering efficiency.",
-          "source_quote": "History of creating and applying new processes and tooling to increase engineering efficiency.",
-          "verification": "profile",
-          "reason": "Creating processes/tooling for engineering efficiency is a practice rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Proven results in building or scaling Layer 1 blockchain performance.",
-          "after": "Experience building or scaling Layer 1 blockchain systems.",
-          "reason": "L1 work is visible via employers/titles; proven performance results are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Tech lead experience planning and leading large projects with long-term impact on a single system or team.",
-          "after": "Tech lead experience.",
-          "reason": "Tech lead/staff titles are visible; project scope and long-term impact are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M3": "P2",
-        "M4": "P3"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "History of creating and applying processes and tooling to increase engineering efficiency.",
+        "source_quote": "History of creating and applying new processes and tooling to increase engineering efficiency.",
+        "verification": "profile",
+        "reason": "Creating processes/tooling for engineering efficiency is a practice rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "7971132aae6da5bbc79c943a9653ee9c7eaa7404be8c5c8227c2c55c170197e3",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "d8e910e04f31c6e894980d7a0260330a9c0ab5cc58f21ac2364675d5020b3e04",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

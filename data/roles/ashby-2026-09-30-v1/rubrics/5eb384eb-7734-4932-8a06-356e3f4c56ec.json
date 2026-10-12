@@ -3,10 +3,10 @@
   "role_id": "5eb384eb-7734-4932-8a06-356e3f4c56ec",
   "snapshot_sha256": "d2986622144c6289a732c433cdfd801f5332cb27eb6c5b2ed8b2f7b863c89049",
   "input_sha256": "4dc56c10df1f6c4c0c5bbbd15e7be4d840a5fc44e48fcef8232fc3b3e7eb31d6",
-  "rubric_sha256": "1334c58ffb636c1479da8efa9e709ee2f72b418f7631a4e869ef7eefa4a27b79",
+  "rubric_sha256": "367b8109f827c4c7582e02fcf50c1143f4d31eb8d0da88ff816a09e278ee8d55",
   "rubric": {
     "role_summary": "Remote US-based learning consultant supporting organizations with digital learning platform adoption, instructional strategy, change management, training, and use of Canvas and other Instructure products.",
-    "search_query": "Find candidates for this role:\nRemote US-based learning consultant supporting organizations with digital learning platform adoption, instructional strategy, change management, training, and use of Canvas and other Instructure products.\nMandatory professional qualifications:\n- At least three years of teaching or consulting experience, including experience with a digital learning environment.\n- At least two years of Canvas experience.\n- At least one year in an educational leadership position.\n- Experience delivering presentations in an educational environment.\n- Bachelor’s Degree in Instructional Technology or equivalent.\nPreferred, not mandatory:\n- More than two years of Canvas experience.\n- Experience with other Instructure tools, including Studio, Catalog, Credentials, or Impact.\n- More than one year in the specified educational leadership position.\n- Master’s Degree in Educational Leadership or Instructional Technology.\n- At least two years of Canvas experience, including creating Canvas courses responsive to and inclusive of teaching and learning needs in a digital learning environment.\n- At least one year in an educational leadership position overseeing a team supporting pedagogical use of a learning and assessment management system.\n- Experience leading change, building relationships, developing effective professional development programs, and rolling out a technology platform to a large organization.\n- Current knowledge of technology adoption strategies, professional development protocols, and educational technology best practices.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): US. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nRemote US-based learning consultant supporting organizations with digital learning platform adoption, instructional strategy, change management, training, and use of Canvas and other Instructure products.\nMandatory professional qualifications:\n- At least three years of teaching or consulting experience, including experience with a digital learning environment.\n- At least two years of Canvas experience.\n- At least one year in an educational leadership position.\n- Experience delivering presentations in an educational environment.\n- Bachelor’s Degree in Instructional Technology or equivalent.\nPreferred, not mandatory:\n- More than two years of Canvas experience.\n- Experience with other Instructure tools, including Studio, Catalog, Credentials, or Impact.\n- More than one year in the specified educational leadership position.\n- Master’s Degree in Educational Leadership or Instructional Technology.\n- At least two years of Canvas experience, including creating Canvas courses responsive to and inclusive of teaching and learning needs in a digital learning environment.\n- At least one year in an educational leadership position overseeing a team supporting pedagogical use of a learning and assessment management system.\n- Experience leading change, building relationships, developing effective professional development programs, and rolling out a technology platform to a large organization.\n- Current knowledge of technology adoption strategies, professional development protocols, and educational technology best practices.\nWork location and geographic eligibility:\nLocation: US (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -161,154 +161,63 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "77e381518df8f6991e9177324eb9dac25220df34ec22eb82bc7eefb299c56f92",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role designated US-REMOTE; client-site travel is required, and future assignments may involve extended onsite engagements in other locations. Present US residence is not expressly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "US"
-      ],
-      "remote_scope": "US-REMOTE",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "US-REMOTE",
-        "Remote",
-        "Willingness to travel to client sites is required. Future assignments may require additional travel and extended onsite engagements in other locations."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "At least three years of teaching, or consulting experience, including experience with a digital learning environment.",
-        "effective_requirement": "At least three years of teaching or consulting experience, including experience with a digital learning environment.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Willingness to travel to client sites; future assignments may require additional travel and extended onsite engagements elsewhere.",
+        "source_quote": "Willingness to travel to client sites is required. Future assignments may require additional travel and extended onsite engagements in other locations.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       },
       {
-        "criterion_id": "M2",
-        "source_quote": "At least two years of Canvas experience is required, more preferred, including making awesome and engaging Canvas courses that are responsive to and inclusive of teaching and learning needs in a digital learning environment.",
-        "effective_requirement": "At least two years of Canvas experience, including creating Canvas courses responsive to and inclusive of teaching and learning needs in a digital learning environment.",
-        "kind": "mandatory"
+        "field": "red_flags",
+        "requirement": "Failure to pass the hiring background check.",
+        "source_quote": "All employees must pass a background check as part of the hiring process.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       },
       {
-        "criterion_id": "M3",
-        "source_quote": "At least one year in an educational leadership position overseeing a team that supports the use of a learning and assessment management system for pedagogical purposes, more preferred.",
-        "effective_requirement": "At least one year in an educational leadership position overseeing a team supporting pedagogical use of a learning and assessment management system.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "P1",
-        "source_quote": "At least two years of Canvas experience is required, more preferred",
-        "effective_requirement": "More than two years of Canvas experience.",
-        "kind": "preferred_not_a_gate"
-      },
-      {
-        "criterion_id": "P3",
-        "source_quote": "At least one year in an educational leadership position overseeing a team that supports the use of a learning and assessment management system for pedagogical purposes, more preferred.",
-        "effective_requirement": "More than one year in the specified educational leadership position.",
-        "kind": "preferred_not_a_gate"
+        "field": "red_flags",
+        "requirement": "Attempting to misrepresent personal or professional information.",
+        "source_quote": "Any attempt to misrepresent personal or professional information will result in disqualification.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "af2ed676ec50da089db98b02a8d3ae9aab8d6a1e7c456dfbc914f717aff75017",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Willingness to travel to client sites; future assignments may require additional travel and extended onsite engagements elsewhere.",
-          "source_quote": "Willingness to travel to client sites is required. Future assignments may require additional travel and extended onsite engagements in other locations.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Failure to pass the hiring background check.",
-          "source_quote": "All employees must pass a background check as part of the hiring process.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D2",
-          "requirement": "Attempting to misrepresent personal or professional information.",
-          "source_quote": "Any attempt to misrepresent personal or professional information will result in disqualification.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "e4d6a20978cb92b355d7e679e2fdef10bb7d0b5317120c452bebbb9466c34598",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience leading change, building relationships, developing effective professional development programs, and rolling out a technology platform to a large organization.",
-          "source_quote": "Experience leading change, building strong relationships, effective professional development programs, and rolling out a technology platform to a large organization.",
-          "verification": "profile",
-          "reason": "Change leadership and rollout outcomes are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Current knowledge of technology adoption strategies, professional development protocols, and educational technology best practices.",
-          "source_quote": "Current knowledge of technology adoption strategies, professional development protocols, and educational technology best practices.",
-          "verification": "profile",
-          "reason": "Current knowledge of best practices is unstated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "At least two years of Canvas experience, including creating Canvas courses responsive to and inclusive of teaching and learning needs in a digital learning environment.",
-          "after": "At least two years of Canvas experience.",
-          "reason": "Canvas is often listed; course-design specifics are not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "At least one year in an educational leadership position overseeing a team supporting pedagogical use of a learning and assessment management system.",
-          "after": "At least one year in an educational leadership position.",
-          "reason": "Leadership role observable from titles; LMS-team specifics are not."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M4",
-        "M7": "M5"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "At least two years of Canvas experience, including creating Canvas courses responsive to and inclusive of teaching and learning needs in a digital learning environment.",
+        "effective_requirement": "At least two years of Canvas experience.",
+        "reason": "Canvas is often listed; course-design specifics are not."
       },
-      "demoted_preference_ids": {
-        "M2": "P5",
-        "M3": "P6",
-        "M4": "P7",
-        "M5": "P8"
+      {
+        "field": "must_haves",
+        "extracted_requirement": "At least one year in an educational leadership position overseeing a team supporting pedagogical use of a learning and assessment management system.",
+        "effective_requirement": "At least one year in an educational leadership position.",
+        "reason": "Leadership role observable from titles; LMS-team specifics are not."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d74242078e61dc05c6ad35a5b8a816e2badbac096b593b5a23d208669522af79",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "2cbd332b00e1994d9af3fc3ca55146f69f7c7eb488c541b95c69f7f74380b0a0",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "US"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): US. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience leading change, building relationships, developing effective professional development programs, and rolling out a technology platform to a large organization.",
+        "source_quote": "Experience leading change, building strong relationships, effective professional development programs, and rolling out a technology platform to a large organization.",
+        "verification": "profile",
+        "reason": "Change leadership and rollout outcomes are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Current knowledge of technology adoption strategies, professional development protocols, and educational technology best practices.",
+        "source_quote": "Current knowledge of technology adoption strategies, professional development protocols, and educational technology best practices.",
+        "verification": "profile",
+        "reason": "Current knowledge of best practices is unstated."
+      }
+    ]
   },
   "experience_context": [
     {

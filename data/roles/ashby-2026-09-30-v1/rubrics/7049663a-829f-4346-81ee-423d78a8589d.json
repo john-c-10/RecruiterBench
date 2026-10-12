@@ -3,10 +3,10 @@
   "role_id": "7049663a-829f-4346-81ee-423d78a8589d",
   "snapshot_sha256": "47ba58a280552d3218e169936fb086b82f677c83bd9438f0c2d92458e7c11cc3",
   "input_sha256": "0666de4d0914d8a1db47a8c9fdbc8c62abbb0d8a866a6498b15b5326ab0e84a3",
-  "rubric_sha256": "c4f0030cec121468fde2aa583829360467344c5a998da8d8287651fbe42d6046",
+  "rubric_sha256": "80527b791d97227a7b2eafbbbe3ccd5167b38a0d464f19d3e73c18b65cc656eb",
   "rubric": {
     "role_summary": "Non-entry-level threat researcher investigating software supply-chain threats, analyzing malware in open-source ecosystems, building automation for threat hunting, and translating research into detection and protection.",
-    "search_query": "Find candidates for this role:\nNon-entry-level threat researcher investigating software supply-chain threats, analyzing malware in open-source ecosystems, building automation for threat hunting, and translating research into detection and protection.\nMandatory professional qualifications:\n- 3+ years of work experience and a master’s degree in computer science, engineering, or a related field, or equivalent experience.\n- Technical experience across several areas of security operations, not necessarily every area listed.\n- Experience building security automation, data collection, or threat-hunting tools.\nPreferred, not mandatory:\n- Familiarity with TypeScript/JavaScript and/or other programming languages and ecosystems protected by Socket.\n- Experience leveraging LLMs or AI-based tools for threat detection.\n- Experience building tools for automation, data collection, and threat hunting.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nNon-entry-level threat researcher investigating software supply-chain threats, analyzing malware in open-source ecosystems, building automation for threat hunting, and translating research into detection and protection.\nMandatory professional qualifications:\n- 3+ years of work experience and a master’s degree in computer science, engineering, or a related field, or equivalent experience.\n- Technical experience across several areas of security operations, not necessarily every area listed.\n- Experience building security automation, data collection, or threat-hunting tools.\nPreferred, not mandatory:\n- Familiarity with TypeScript/JavaScript and/or other programming languages and ecosystems protected by Socket.\n- Experience leveraging LLMs or AI-based tools for threat detection.\n- Experience building tools for automation, data collection, and threat hunting.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -115,74 +115,20 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "cf805df41e1ba4d1d4b41b21dea91b8534fbbaeb5bac5c9b1ad00114b77d4317",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed in the United States; present residence is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "United States",
-        "Remote"
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "3+ years of work experience and a master’s degree in computer science, engineering, or a related field (or equivalent experience).",
-        "effective_requirement": "3+ years of work experience and a master’s degree in computer science, engineering, or a related field, or equivalent experience.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience building tools for automation, data collection, and threat hunting.",
+        "effective_requirement": "Experience building security automation, data collection, or threat-hunting tools.",
+        "reason": "Security tooling is observable; requiring all three tool types is overly conjunctive."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "81acc1d2655a83e633ee195d865b23f2a446ef72554a810a334e5880dd3ce26c",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "81acc1d2655a83e633ee195d865b23f2a446ef72554a810a334e5880dd3ce26c",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience building tools for automation, data collection, and threat hunting.",
-          "after": "Experience building security automation, data collection, or threat-hunting tools.",
-          "reason": "Security tooling is observable; requiring all three tool types is overly conjunctive."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P3"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "ad64ad1c0ff85c27a246e9d26db991f9223fb533a76ce740d0cf84bbbb9c00ae",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "af17a3e42f0d2354d273f313d9d05fb394689868a4f20010450198c1bdbd78b7",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

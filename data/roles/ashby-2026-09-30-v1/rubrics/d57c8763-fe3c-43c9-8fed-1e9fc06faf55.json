@@ -3,10 +3,10 @@
   "role_id": "d57c8763-fe3c-43c9-8fed-1e9fc06faf55",
   "snapshot_sha256": "2ead3ac7f23f82fec57ef90981076fbbd8345a44795fc46c77c60ae6052cf7dd",
   "input_sha256": "dcd67a7102424560473d9aa407db563e4c6c50f971765efd2c32f595da6cf3f3",
-  "rubric_sha256": "9dfb0882f1e999425b3df2c8d537b3a4be0098911f0e1cba0842f5bc23b46dac",
+  "rubric_sha256": "aa5042d7e2e2a089859a252928bc5e18ce2703816afd6d47108a929bddcb4162",
   "rubric": {
     "role_summary": "Senior electrical engineering role architecting, designing, validating, and bringing neurotech consumer hardware electrical systems into production.",
-    "search_query": "Find candidates for this role:\nSenior electrical engineering role architecting, designing, validating, and bringing neurotech consumer hardware electrical systems into production.\nMandatory professional qualifications:\n- 5+ years of experience in electrical or hardware engineering.\n- Experience shipping at least one consumer electronics product.\n- Experience designing multi-layer PCBs.\n- Understanding of analog and mixed-signal circuit design.\n- Experience designing or integrating DC-DC converters and power management circuits.\n- Experience with high-speed interfaces such as USB, Quad-SPI, MIPI, DDR, or similar.\n- Hands-on experience with board bring-up, debugging, and lab validation.\nPreferred, not mandatory:\n- Experience shipping compact or wearable consumer electronics devices.\n- Experience designing wearable or body-worn devices with tight power, size, and thermal constraints.\n- Experience with Altium Designer or equivalent PCB tools.\n- Experience supporting EVT, DVT, and PVT builds and ramping hardware to mass production.\n- Experience designing manufacturing test fixtures or automated test systems.\n- Familiarity with thermal analysis for compact electronics.\n- Experience with embedded firmware development (C/C++).\n- Experience with Python for lab automation or instrumentation control.\n- Familiarity with EMI/EMC pre-compliance testing and mitigation.\n- Deeper power electronics experience including converter loss analysis, control loop analysis, and compensation design.\n- Experience designing high-density, multi-layer PCBs with controlled impedance and fine-pitch components.\n- Experience implementing system power architecture for battery-powered products.\n- Understanding of signal integrity and power integrity in high-density electronic systems.\n- Experience working cross-functionally in fast-paced product development environments.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior electrical engineering role architecting, designing, validating, and bringing neurotech consumer hardware electrical systems into production.\nMandatory professional qualifications:\n- 5+ years of experience in electrical or hardware engineering.\n- Experience shipping at least one consumer electronics product.\n- Experience designing multi-layer PCBs.\n- Understanding of analog and mixed-signal circuit design.\n- Experience designing or integrating DC-DC converters and power management circuits.\n- Experience with high-speed interfaces such as USB, Quad-SPI, MIPI, DDR, or similar.\n- Hands-on experience with board bring-up, debugging, and lab validation.\nPreferred, not mandatory:\n- Experience shipping compact or wearable consumer electronics devices.\n- Experience designing wearable or body-worn devices with tight power, size, and thermal constraints.\n- Experience with Altium Designer or equivalent PCB tools.\n- Experience supporting EVT, DVT, and PVT builds and ramping hardware to mass production.\n- Experience designing manufacturing test fixtures or automated test systems.\n- Familiarity with thermal analysis for compact electronics.\n- Experience with embedded firmware development (C/C++).\n- Experience with Python for lab automation or instrumentation control.\n- Familiarity with EMI/EMC pre-compliance testing and mitigation.\n- Deeper power electronics experience including converter loss analysis, control loop analysis, and compensation design.\n- Experience designing high-density, multi-layer PCBs with controlled impedance and fine-pitch components.\n- Experience implementing system power architecture for battery-powered products.\n- Understanding of signal integrity and power integrity in high-density electronic systems.\n- Experience working cross-functionally in fast-paced product development environments.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -202,106 +202,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "61ea950e03b9bb5bc635cb7b389c3834fb6f16e30621d0eb86d2e6376960096c",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in San Francisco; current residence in San Francisco is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "San Francisco"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco",
-        "OnSite"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience in electrical or hardware engineering.",
-        "effective_requirement": "5+ years of experience in electrical or hardware engineering.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Experience designing high-density, multi-layer PCBs with controlled impedance and fine-pitch components.",
+        "effective_requirement": "Experience designing multi-layer PCBs.",
+        "reason": "PCB design is observable; density/impedance/fine-pitch specifics are rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "674f8cb4d7d53fbda18cf6e1439e8c85e291fc9b9dbb40930aabe28c29b539d1",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "674f8cb4d7d53fbda18cf6e1439e8c85e291fc9b9dbb40930aabe28c29b539d1",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience implementing system power architecture for battery-powered products.",
-          "source_quote": "Experience implementing system power architecture for battery-powered products.",
-          "verification": "profile",
-          "reason": "Specific battery power architecture work is rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M9",
-          "requirement": "Understanding of signal integrity and power integrity in high-density electronic systems.",
-          "source_quote": "Understanding of signal integrity and power integrity in high-density electronic systems.",
-          "verification": "profile",
-          "reason": "SI/PI understanding is rarely stated and only weakly inferable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M10",
-          "requirement": "Experience working cross-functionally in fast-paced product development environments.",
-          "source_quote": "Experience working cross-functionally in fast-paced product development environments.",
-          "verification": "profile",
-          "reason": "Work-style/environment requirement is unobservable."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Experience designing high-density, multi-layer PCBs with controlled impedance and fine-pitch components.",
-          "after": "Experience designing multi-layer PCBs.",
-          "reason": "PCB design is observable; density/impedance/fine-pitch specifics are rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M5",
-        "M7": "M6",
-        "M8": "M7"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience implementing system power architecture for battery-powered products.",
+        "source_quote": "Experience implementing system power architecture for battery-powered products.",
+        "verification": "profile",
+        "reason": "Specific battery power architecture work is rarely stated."
       },
-      "demoted_preference_ids": {
-        "M3": "P11",
-        "M5": "P12",
-        "M9": "P13",
-        "M10": "P14"
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of signal integrity and power integrity in high-density electronic systems.",
+        "source_quote": "Understanding of signal integrity and power integrity in high-density electronic systems.",
+        "verification": "profile",
+        "reason": "SI/PI understanding is rarely stated and only weakly inferable."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience working cross-functionally in fast-paced product development environments.",
+        "source_quote": "Experience working cross-functionally in fast-paced product development environments.",
+        "verification": "profile",
+        "reason": "Work-style/environment requirement is unobservable."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "0b023b629ff3e762488283038696a029838540d015d9d565814e84e360f64218",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "6196e033d61d519cb7409967cfc2c518b0d19e8552a725461d18f396cf2b6285",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

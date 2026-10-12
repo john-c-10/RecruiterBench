@@ -3,10 +3,10 @@
   "role_id": "660f2496-a0de-4600-be88-4fcd130dd958",
   "snapshot_sha256": "963d0a41e8b0b57eedd8e11e1733c224425c7db6f9d1a1404ffb97c3a8fd5773",
   "input_sha256": "a2709b8d6ef3369d974f72daf5d09e5159b3709cf882b55f5d0a991a9bff4562",
-  "rubric_sha256": "f237a9baa8d2ee81236a19e99f7d9e77d7b78190a9d797d0151f02ea267f984d",
+  "rubric_sha256": "06775a79045cb14170e9f8f21133f829f6139af7c1a2915f28f39c8fc21b6b0c",
   "rubric": {
     "role_summary": "Senior product leadership role owning strategy for enterprise wallets, custody, onchain treasury, and access to financial products, connecting stored digital assets to payments and other money-movement workflows.",
-    "search_query": "Find candidates for this role:\nSenior product leadership role owning strategy for enterprise wallets, custody, onchain treasury, and access to financial products, connecting stored digital assets to payments and other money-movement workflows.\nMandatory professional qualifications:\n- Senior product leadership experience building wallet infrastructure or payments products.\nPreferred, not mandatory:\n- Significant product leadership experience in enterprise wallets, custody, payments, treasury, fintech, or crypto infrastructure.\n- Experience building enterprise-grade wallet or digital-asset infrastructure at a sophisticated financial infrastructure company; the named companies are examples, not required employers.\n- Understanding of enterprise wallet architecture, including custody, key management, signing, permissions, policy engines, transaction workflows, and security.\n- Experience with both custodial and non-custodial wallets.\n- Track record of shipping payments, money-movement, treasury, or financial-infrastructure products at meaningful scale.\n- Knowledge of stablecoins and decentralized finance, including onchain liquidity and yield products.\n- Firsthand understanding of business operational needs in managing money, including security, controls, compliance, reconciliation, liquidity, reliability, and systems integration.\n- Understanding of consumer wallet experiences and the differing needs of businesses, developers, and end users.\n- Technical depth to collaborate with blockchain and infrastructure engineers on complex systems.\n- Senior product leadership experience building products where wallet infrastructure, payments, and enterprise financial operations intersect.\n- Understanding of enterprise stablecoin operations, including where funds are held, who controls them, access governance, reconciliation, and efficient deployment.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior product leadership role owning strategy for enterprise wallets, custody, onchain treasury, and access to financial products, connecting stored digital assets to payments and other money-movement workflows.\nMandatory professional qualifications:\n- Senior product leadership experience building wallet infrastructure or payments products.\nPreferred, not mandatory:\n- Significant product leadership experience in enterprise wallets, custody, payments, treasury, fintech, or crypto infrastructure.\n- Experience building enterprise-grade wallet or digital-asset infrastructure at a sophisticated financial infrastructure company; the named companies are examples, not required employers.\n- Understanding of enterprise wallet architecture, including custody, key management, signing, permissions, policy engines, transaction workflows, and security.\n- Experience with both custodial and non-custodial wallets.\n- Track record of shipping payments, money-movement, treasury, or financial-infrastructure products at meaningful scale.\n- Knowledge of stablecoins and decentralized finance, including onchain liquidity and yield products.\n- Firsthand understanding of business operational needs in managing money, including security, controls, compliance, reconciliation, liquidity, reliability, and systems integration.\n- Understanding of consumer wallet experiences and the differing needs of businesses, developers, and end users.\n- Technical depth to collaborate with blockchain and infrastructure engineers on complex systems.\n- Senior product leadership experience building products where wallet infrastructure, payments, and enterprise financial operations intersect.\n- Understanding of enterprise stablecoin operations, including where funds are held, who controls them, access governance, reconciliation, and efficient deployment.\nWork location and geographic eligibility:\nLocation: USA (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -153,77 +153,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "e54b8b1e3557c836608764e980347ea49e45df2c1cdd5031c412ddf83d688a3b",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed for the USA; the posting does not require current US residence or specify a relocation policy.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "USA"
-      ],
-      "remote_scope": "USA",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "USA - Remote",
-        "Remote"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "0b765373b1dec3c4e0f58236db427888d1a88b337d836c4fdd80b6f8d965fe1a",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "0b765373b1dec3c4e0f58236db427888d1a88b337d836c4fdd80b6f8d965fe1a",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Understanding of enterprise stablecoin operations, including where funds are held, who controls them, access governance, reconciliation, and efficient deployment.",
-          "source_quote": "You understand what happens after an enterprise decides to use stablecoins—not just how a transaction gets from A to B, but where the money lives, who controls it, how access is governed, how it is reconciled, and how it can be deployed efficiently.",
-          "verification": "profile",
-          "reason": "Detailed enterprise stablecoin operations knowledge is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Senior product leadership experience building products where wallet infrastructure, payments, and enterprise financial operations intersect.",
-          "after": "Senior product leadership experience building wallet infrastructure or payments products.",
-          "reason": "Senior product roles in wallets/payments are visible; the three-way intersection is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P10",
-        "M2": "P11"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "9a7ea67e85aef8514694f6503515b409ca74c1a409d436f7e64ce1d068bcb2ee",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "25bb0cdb27d0c57335f78ad94cc0867f1b240bf69ca80ea91fa823e11848ac03",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "USA"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): USA. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Senior product leadership experience building products where wallet infrastructure, payments, and enterprise financial operations intersect.",
+        "effective_requirement": "Senior product leadership experience building wallet infrastructure or payments products.",
+        "reason": "Senior product roles in wallets/payments are visible; the three-way intersection is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of enterprise stablecoin operations, including where funds are held, who controls them, access governance, reconciliation, and efficient deployment.",
+        "source_quote": "You understand what happens after an enterprise decides to use stablecoins—not just how a transaction gets from A to B, but where the money lives, who controls it, how access is governed, how it is reconciled, and how it can be deployed efficiently.",
+        "verification": "profile",
+        "reason": "Detailed enterprise stablecoin operations knowledge is rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "72be5055-3cdf-410f-a45c-10951d5e3781",
   "snapshot_sha256": "cbdc9da134c2f4145ae566ff13cb452b841c8b391afe1917b5e41b2e2b8e9844",
   "input_sha256": "846ce395674e7c3a2c96e2fc2fa998b981887b1539e9105685cb3973db4470c4",
-  "rubric_sha256": "a02b49be6177a710a9bc0adb57925eb09ac1d86dee14b3b31676c8a0134e31e6",
+  "rubric_sha256": "883eba307b487e398b5fef35a5427e27347934b44e789ffe190e54a6d0230278",
   "rubric": {
     "role_summary": "Founding commercial leader for an AI operating system serving real estate agencies in Spain. Build the go-to-market engine from zero, close initial agency accounts, develop a repeatable sales process, and eventually lead the commercial team.",
-    "search_query": "Find candidates for this role:\nFounding commercial leader for an AI operating system serving real estate agencies in Spain. Build the go-to-market engine from zero, close initial agency accounts, develop a repeatable sales process, and eventually lead the commercial team.\nMandatory professional qualifications:\n- Has carried a sales quota and personally closed deals.\n- Has zero-to-one experience in an early-stage environment, or has built a territory, vertical, or channel from nothing in a fast-paced company.\nPreferred, not mandatory:\n- Sales experience with SMBs or traditional, relationship-driven sectors in Spain, such as real estate, insurance, or professional services.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Barcelona, Spain area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nFounding commercial leader for an AI operating system serving real estate agencies in Spain. Build the go-to-market engine from zero, close initial agency accounts, develop a repeatable sales process, and eventually lead the commercial team.\nMandatory professional qualifications:\n- Has carried a sales quota and personally closed deals.\n- Has zero-to-one experience in an early-stage environment, or has built a territory, vertical, or channel from nothing in a fast-paced company.\nPreferred, not mandatory:\n- Sales experience with SMBs or traditional, relationship-driven sectors in Spain, such as real estate, insurance, or professional services.\nWork location and geographic eligibility:\nLocation: Greater Barcelona, Spain area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -98,75 +98,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "2c2a3e29dc5226bbd91324cfa6516fa4649d1fc0adaac2ce8eedc64556e6301d",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Barcelona-based hybrid role; present residence in Barcelona is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Barcelona, Spain"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Barcelona Office",
-        "Hybrid",
-        "Based in Barcelona, hybrid."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "62d1535fd856789bfe7b39d05eeb45db6769bcb8b7f0e51299f54547385fe8bb",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Native Spanish and fluent English.",
-          "source_quote": "Native Spanish (you're selling to local agencies). Fluent English.",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Can commit full-time and accepts equity over salary.",
-          "source_quote": "Founder commitment: full-time dedication, equity over salary, and full accountability for the number.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "1ac90ec8b916d6ece73a93ac43dc25558d5ca20d73219baeda859d7fb818b376",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "1ac90ec8b916d6ece73a93ac43dc25558d5ca20d73219baeda859d7fb818b376",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "deb3dde990d97b089e8e51ecdc04b8bd3f463671e674306eee6bbe0847baa04d",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Barcelona, Spain area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Barcelona, Spain area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Native Spanish and fluent English.",
+        "source_quote": "Native Spanish (you're selling to local agencies). Fluent English.",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Can commit full-time and accepts equity over salary.",
+        "source_quote": "Founder commitment: full-time dedication, equity over salary, and full accountability for the number.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": []
 }

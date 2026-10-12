@@ -3,10 +3,10 @@
   "role_id": "81680f8f-f9be-4c33-bad4-1b4a9c064a1f",
   "snapshot_sha256": "25bb9d6f1ea76e0357c826c33d6d8750e7983b67f9b31f88dfdb502cc0ca75f6",
   "input_sha256": "3bf450298bc6d0bfabf7b6cec76fcd7a6828a93ba8bb4b88d757fca3d9163319",
-  "rubric_sha256": "b0fbc4f626619a858b1ec79239fdaccb0ff6b6ef52f4082a339109bec94331cb",
+  "rubric_sha256": "d07f58d5043dd91b62e9ab4ecca8ecde5d1e0f260599a6589072108d48649552",
   "rubric": {
     "role_summary": "International business development and defense cooperation role supporting opportunities with customers outside the US through defense policy, regulatory engagement, market strategy, and government and industry relationships.",
-    "search_query": "Find candidates for this role:\nInternational business development and defense cooperation role supporting opportunities with customers outside the US through defense policy, regulatory engagement, market strategy, and government and industry relationships.\nMandatory professional qualifications:\n- Bachelor’s degree in international relations, political science, business, or a related field.\n- 3+ years of experience in international business development, defense cooperation, or government affairs.\n- Understanding of defense policy or ITAR/EAR export controls.\nPreferred, not mandatory:\n- Advanced degree.\n- Familiarity with maritime or autonomous systems sectors.\n- Understanding of defense policy, ITAR/EAR export controls, and international regulatory frameworks.\n- Experience preparing policy briefs and executive-level materials.\n- Demonstrated engagement with senior officials, foreign delegations, and industry partners.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Washington–Arlington metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nInternational business development and defense cooperation role supporting opportunities with customers outside the US through defense policy, regulatory engagement, market strategy, and government and industry relationships.\nMandatory professional qualifications:\n- Bachelor’s degree in international relations, political science, business, or a related field.\n- 3+ years of experience in international business development, defense cooperation, or government affairs.\n- Understanding of defense policy or ITAR/EAR export controls.\nPreferred, not mandatory:\n- Advanced degree.\n- Familiarity with maritime or autonomous systems sectors.\n- Understanding of defense policy, ITAR/EAR export controls, and international regulatory frameworks.\n- Experience preparing policy briefs and executive-level materials.\n- Demonstrated engagement with senior officials, foreign delegations, and industry partners.\nWork location and geographic eligibility:\nLocation: Washington–Arlington metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -128,114 +128,50 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "25fe5e6afbb64f0945b743e08b87d92a9d817cca423ececf3b36b4c2e6766e2b",
-    "resolved_ambiguities": [
-      "The location metadata specifies Arlington, VA, while the description says the role is based in Washington, DC; confirm the onsite office location."
-    ],
-    "resolution": "Text's Washington, DC worksite is broadened to the Washington–Arlington metropolitan area.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role identified as Arlington, VA in metadata and described as based in Washington, DC; the exact office location needs clarification. Current residence is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Arlington, VA",
-        "Washington, DC"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Arlington, VA",
-        "OnSite",
-        "While the role is based in Washington, DC, you will work to support Saronic’s growth with customers outside the US."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "3 - 8 years of experience in international business development, defense cooperation, or government affairs.",
-        "effective_requirement": "3+ years of experience in international business development, defense cooperation, or government affairs.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "24d037609101d8cc60cd92c544a48594410279cde1898a2c45a8753c22fea892",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability to undertake 25% travel, including domestic and international travel.",
-          "source_quote": "Travel is 25%, including both domestic and international travel.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "U.S. Person status, as defined in the posting, for access to export-controlled information or items.",
-          "source_quote": "If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "5d41dc74d281f58ff46dad7af9ba6f77a925180ea741efd0d61cff0c9fea9f87",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Experience preparing policy briefs and executive-level materials.",
-          "source_quote": "experience preparing policy briefs and executive-level materials.",
-          "verification": "profile",
-          "reason": "Specific deliverable practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Demonstrated engagement with senior officials, foreign delegations, and industry partners.",
-          "source_quote": "Demonstrated ability to engage with senior officials, foreign delegations, and industry partners.",
-          "verification": "profile",
-          "reason": "Stakeholder engagement claims are rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Understanding of defense policy, ITAR/EAR export controls, and international regulatory frameworks.",
-          "after": "Understanding of defense policy or ITAR/EAR export controls.",
-          "reason": "Defense/export-control exposure can be implied by defense BD roles; the full conjunctive list cannot."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P3",
-        "M4": "P4",
-        "M5": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "87175b487eb0dc4efbf60b7250fdda77a4631386bdd7f4df09e7b8f8916dafd2",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "1591d30b504db6a9c8c3e3d4fa671575ad26c950018f7a100041a9a6d7585669",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Washington–Arlington metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Washington–Arlington metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to undertake 25% travel, including domestic and international travel.",
+        "source_quote": "Travel is 25%, including both domestic and international travel.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "U.S. Person status, as defined in the posting, for access to export-controlled information or items.",
+        "source_quote": "If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Understanding of defense policy, ITAR/EAR export controls, and international regulatory frameworks.",
+        "effective_requirement": "Understanding of defense policy or ITAR/EAR export controls.",
+        "reason": "Defense/export-control exposure can be implied by defense BD roles; the full conjunctive list cannot."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience preparing policy briefs and executive-level materials.",
+        "source_quote": "experience preparing policy briefs and executive-level materials.",
+        "verification": "profile",
+        "reason": "Specific deliverable practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated engagement with senior officials, foreign delegations, and industry partners.",
+        "source_quote": "Demonstrated ability to engage with senior officials, foreign delegations, and industry partners.",
+        "verification": "profile",
+        "reason": "Stakeholder engagement claims are rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

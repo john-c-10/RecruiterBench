@@ -3,10 +3,10 @@
   "role_id": "3fb3a425-b151-4ad6-be40-7049249f919a",
   "snapshot_sha256": "020a643f15cfa489a90004e316be74e8c4c294e2222ee12b4f8c3f5d566a1dd0",
   "input_sha256": "cb0c669baf8aab5031227849f466cc07ba108d7ce8b2f6a417d9f6d81b85f97f",
-  "rubric_sha256": "beb5ce96f1c6b360d3995af8eb0cb72461f7aa665aee53bcbd201b7fd7833432",
+  "rubric_sha256": "68d5e00c1fc7efb1ef1d8599ffeef5c7069e83536a06acce76a9e1391f8aa675",
   "rubric": {
     "role_summary": "AI scientist researching and training foundation models for physics simulation, including simulation datasets, model architectures, and evaluation against engineering validation standards.",
-    "search_query": "Find candidates for this role:\nAI scientist researching and training foundation models for physics simulation, including simulation datasets, model architectures, and evaluation against engineering validation standards.\nMandatory professional qualifications:\n- PhD or Master’s in CS/AI, an engineering science, or a related field.\n- Hands-on machine learning expertise.\n- Has developed ML methods for simulation or surrogate modelling.\n- Python coding skills.\nPreferred, not mandatory:\n- Industrial or academic experience with simulation solvers; listed solvers are examples, not individually required.\n- Experience automating large-scale simulation campaigns on HPC clusters.\n- Contributions to a large open-source or industry codebase.\n- Publications in engineering or ML venues.\n- Hands-on machine learning expertise encompassing model architectures, training dynamics, and evaluation methodology.\n- Python coding skills and comfort working in Linux/HPC environments.\n- Demonstrated success through industrial projects, academic work, or personal projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Paris, France area; Greater Amsterdam, Netherlands area; Greater Linz, Austria area; Greater Munich, Germany area; Greater London, United Kingdom area; Greater Berlin, Germany area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nAI scientist researching and training foundation models for physics simulation, including simulation datasets, model architectures, and evaluation against engineering validation standards.\nMandatory professional qualifications:\n- PhD or Master’s in CS/AI, an engineering science, or a related field.\n- Hands-on machine learning expertise.\n- Has developed ML methods for simulation or surrogate modelling.\n- Python coding skills.\nPreferred, not mandatory:\n- Industrial or academic experience with simulation solvers; listed solvers are examples, not individually required.\n- Experience automating large-scale simulation campaigns on HPC clusters.\n- Contributions to a large open-source or industry codebase.\n- Publications in engineering or ML venues.\n- Hands-on machine learning expertise encompassing model architectures, training dynamics, and evaluation methodology.\n- Python coding skills and comfort working in Linux/HPC environments.\n- Demonstrated success through industrial projects, academic work, or personal projects.\nWork location and geographic eligibility:\nLocation: Greater Paris, France area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -134,14 +134,6 @@
     "attempt_count": 2,
     "review_status": "machine_extracted_source_quotes_validated_with_documented_correction"
   },
-  "curation": {
-    "corrected_at": "2026-10-01T00:01:13.733302+00:00",
-    "original_rubric_sha256": "1fa8044d8af5bdf03df9eb2ff5d01f7773a037263d55bf7529002b03e9378eb1",
-    "fields": [
-      "location.source_quotes"
-    ],
-    "reason": "Replaced serialized JSON fragments with the exact original city string values. Location requirements and all substantive criteria are unchanged."
-  },
   "interpretation": {
     "policy": {
       "version": "role-interpretation-v1",
@@ -160,112 +152,42 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ee88e6765e9ec03c8be0858d0d1703040c176c9df8c72d44c44d2d73150fd9ee",
-    "resolved_ambiguities": [
-      "One secondary location is labeled Paris, but its postal address identifies Munich, Bavaria, Germany; confirm the intended location."
-    ],
-    "resolution": "Both Paris and Munich are accepted as alternatives from the supplied location records.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Listed work locations are Paris, Amsterdam, Linz, Munich, London, and Berlin. No remote eligibility, onsite or hybrid schedule, or current-residence requirement is specified.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "Paris, France",
-        "Amsterdam, Netherlands",
-        "Linz, Austria",
-        "Munich, Germany",
-        "London, United Kingdom",
-        "Berlin, Germany"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Paris",
-        "Amsterdam",
-        "Linz",
-        "Munich",
-        "London",
-        "Berlin"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "0f33a0cf53a89ef5e9199d93f6c3aff62e000841661cc131ffe8f323103be50e",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Fluent English.",
-          "source_quote": "Fluent English with excellent communication skills, able to explain technical simulation and ML concepts to both engineering and non-technical audiences",
-          "verification": "profile",
-          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M6": "M5"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "1decff670667b51de254e65f83d1119d56314f1c4b3bae97c13744ab6baaf37e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Demonstrated success through industrial projects, academic work, or personal projects.",
-          "source_quote": "Demonstrated success through industrial projects, academic work, or personal projects",
-          "verification": "profile",
-          "reason": "Generic demonstrated success is not an observable criterion."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Hands-on machine learning expertise encompassing model architectures, training dynamics, and evaluation methodology.",
-          "after": "Hands-on machine learning expertise.",
-          "reason": "ML expertise is implied by ML roles; the specific sub-areas are rarely enumerated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Python coding skills and comfort working in Linux/HPC environments.",
-          "after": "Python coding skills.",
-          "reason": "Python is commonly listed; Linux/HPC comfort is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P5",
-        "M4": "P6",
-        "M5": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "017653643089d87af2ecd993e217c2f748de6c46809278cc39ffac84d4290ecf",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "13fceab63c88c5ffe01652ce0f897dc4c93cca2a3e1fadf862a366c7a08bcb3c",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "Greater Paris, France area",
-        "Greater Amsterdam, Netherlands area",
-        "Greater Linz, Austria area",
-        "Greater Munich, Germany area",
-        "Greater London, United Kingdom area",
-        "Greater Berlin, Germany area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Paris, France area; Greater Amsterdam, Netherlands area; Greater Linz, Austria area; Greater Munich, Germany area; Greater London, United Kingdom area; Greater Berlin, Germany area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Fluent English.",
+        "source_quote": "Fluent English with excellent communication skills, able to explain technical simulation and ML concepts to both engineering and non-technical audiences",
+        "verification": "profile",
+        "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on machine learning expertise encompassing model architectures, training dynamics, and evaluation methodology.",
+        "effective_requirement": "Hands-on machine learning expertise.",
+        "reason": "ML expertise is implied by ML roles; the specific sub-areas are rarely enumerated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Python coding skills and comfort working in Linux/HPC environments.",
+        "effective_requirement": "Python coding skills.",
+        "reason": "Python is commonly listed; Linux/HPC comfort is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated success through industrial projects, academic work, or personal projects.",
+        "source_quote": "Demonstrated success through industrial projects, academic work, or personal projects",
+        "verification": "profile",
+        "reason": "Generic demonstrated success is not an observable criterion."
+      }
+    ]
   },
   "experience_context": []
 }

@@ -3,10 +3,10 @@
   "role_id": "92862cf4-3fe6-4317-b771-8fcdf0a95758",
   "snapshot_sha256": "1d8146457c2e3854937ff21cc681031bc8f989492e74be7f0d28145971fb28bb",
   "input_sha256": "36629dbfb554f2447b821b03157206dbd5b9730ece83a34e29df42dd2e5912ee",
-  "rubric_sha256": "6535f318a911ca944fcd91bffc02e5d437fac31b4044c55feb677b4dddc91c61",
+  "rubric_sha256": "2326dd281317e1b2a98c7c13c032dc1af71e10567c9d43f10f0a8760c967da8f",
   "rubric": {
     "role_summary": "Physical design engineer for inference-focused ASIC hardware, owning block-level implementation, verification, timing closure, and PPA optimization while improving design flows and overseeing third-party design work.",
-    "search_query": "Find candidates for this role:\nPhysical design engineer for inference-focused ASIC hardware, owning block-level implementation, verification, timing closure, and PPA optimization while improving design flows and overseeing third-party design work.\nMandatory professional qualifications:\n- 5+ years of previous physical design experience.\n- Knowledge of tools, flows, and design methodology from RTL synthesis to GDSII sign-off.\n- Back-end physical design and timing closure experience.\n- Experience with Cadence (Innovus, Genus) or Synopsys (ICC2, Fusion Compiler) automated RTL-to-GDSII flows.\n- Experience with sign-off tools, such as PrimeTime, Tempus, or Voltus.\nPreferred, not mandatory:\n- Familiarity with modern ML and LLM model architectures.\n- Ability to program with Python or another scripting language.\n- Familiarity with AI tools for programming or coding.\n- Startup experience.\n- Back-end design and timing closure experience on advanced process nodes of 5nm and below.\n- Experience with the listed low-power design, power verification, synthesis, scan insertion/ATPG, formal verification, physical implementation, and IR drop and EM/antenna analysis methodologies.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nPhysical design engineer for inference-focused ASIC hardware, owning block-level implementation, verification, timing closure, and PPA optimization while improving design flows and overseeing third-party design work.\nMandatory professional qualifications:\n- 5+ years of previous physical design experience.\n- Knowledge of tools, flows, and design methodology from RTL synthesis to GDSII sign-off.\n- Back-end physical design and timing closure experience.\n- Experience with Cadence (Innovus, Genus) or Synopsys (ICC2, Fusion Compiler) automated RTL-to-GDSII flows.\n- Experience with sign-off tools, such as PrimeTime, Tempus, or Voltus.\nPreferred, not mandatory:\n- Familiarity with modern ML and LLM model architectures.\n- Ability to program with Python or another scripting language.\n- Familiarity with AI tools for programming or coding.\n- Startup experience.\n- Back-end design and timing closure experience on advanced process nodes of 5nm and below.\n- Experience with the listed low-power design, power verification, synthesis, scan insertion/ATPG, formal verification, physical implementation, and IR drop and EM/antenna analysis methodologies.\nWork location and geographic eligibility:\nLocation: United States. The role is onsite in San Jose, California, and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -147,86 +147,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "8f71131fb039608682211f1135de7d3fe8552ca8b838235c40160ebb6294b63b",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Fully in-person work in San Jose (Santana Row); relocation support is available for those moving there. Current residence in San Jose is not required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "San Jose, California (Santana Row)"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Jose",
-        "OnSite",
-        "Relocation support for those moving to San Jose (Santana Row)",
-        "We are a fully in-person team in San Jose (Santana Row)"
-      ]
+    "location": {
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5-10+ years of previous experience with PD",
-        "effective_requirement": "5+ years of previous physical design experience.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Back-end design and timing closure experience on advanced process nodes of 5nm and below.",
+        "effective_requirement": "Back-end physical design and timing closure experience.",
+        "reason": "Timing closure is implied by PD roles; specific 5nm-and-below node is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "64555690571e3e5f6be49bd304f1ccc488b0faf6d578dd52364a0ab9fec5558a",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "64555690571e3e5f6be49bd304f1ccc488b0faf6d578dd52364a0ab9fec5558a",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Experience with the listed low-power design, power verification, synthesis, scan insertion/ATPG, formal verification, physical implementation, and IR drop and EM/antenna analysis methodologies.",
-          "source_quote": "Experience with UPF-based low power design methodology, power verification,synthesis, scan insertion/ATPG, formal verification, floorplanning, placement, CTS,\n   routing, IR drop, and EM/antenna analysis",
-          "verification": "profile",
-          "reason": "Long conjunctive methodology list; requiring every item is unrealistic."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Back-end design and timing closure experience on advanced process nodes of 5nm and below.",
-          "after": "Back-end physical design and timing closure experience.",
-          "reason": "Timing closure is implied by PD roles; specific 5nm-and-below node is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M3": "P5",
-        "M6": "P6"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience with the listed low-power design, power verification, synthesis, scan insertion/ATPG, formal verification, physical implementation, and IR drop and EM/antenna analysis methodologies.",
+        "source_quote": "Experience with UPF-based low power design methodology, power verification,synthesis, scan insertion/ATPG, formal verification, floorplanning, placement, CTS,\n   routing, IR drop, and EM/antenna analysis",
+        "verification": "profile",
+        "reason": "Long conjunctive methodology list; requiring every item is unrealistic."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e1aac5cef82327df93b7ae02df45a56505d39281cc75a61c1fee83fc9fc20483",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "606bfb0717504cc4e33c5ec2afad0aa976cc9d2073e988b863163782b555aed6",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "country",
-      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

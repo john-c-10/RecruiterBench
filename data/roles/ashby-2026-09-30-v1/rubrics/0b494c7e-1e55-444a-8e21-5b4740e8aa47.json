@@ -3,10 +3,10 @@
   "role_id": "0b494c7e-1e55-444a-8e21-5b4740e8aa47",
   "snapshot_sha256": "3d97bb6251962071e7d960882047bf911d9a4419ffbd64f686d9c59e52400819",
   "input_sha256": "14bc8dac01fbea548e4672563eea80b01e5df1efe3ec4d333adb5b86b73a507a",
-  "rubric_sha256": "e5cad67e529dc7b9b9b53871058f87c7c24f8034164c620f75566a878d1c0396",
+  "rubric_sha256": "7d57dcc94a09a29eadc214a4b8f27ebcbe6fca95c87caf0a3b540aa877c9accb",
   "rubric": {
     "role_summary": "Associate Director overseeing cGMP small-molecule API development and manufacturing for clinical programs, primarily through CDMOs, including technology transfer and CMC regulatory work.",
-    "search_query": "Find candidates for this role:\nAssociate Director overseeing cGMP small-molecule API development and manufacturing for clinical programs, primarily through CDMOs, including technology transfer and CMC regulatory work.\nMandatory professional qualifications:\n- PhD in chemistry or another relevant discipline with at least 10 years of directly related pharma or biotech experience, OR MSc with significant relevant experience.\n- Experience managing drug substance (API) manufacturing.\n- Knowledge of cGMP regulations pertinent to APIs.\nPreferred, not mandatory:\n- Experience running initial cGMP deliveries followed by technology transfers to later-stage development CDMOs receives strong emphasis.\n- Track record managing development-stage and/or commercial-stage API manufacturing at CDMOs.\n- Experience authoring or co-authoring key CMC sections in U.S. IND/NDA and European MAA filings for small-molecule APIs.\n- Extensive knowledge of cGMP regulations, guidance, principles, and best practices pertinent to APIs.\n- Strong virtual-manufacturing experience involving CDMO landscape and selection, vendor management, contracting, and issue resolution and management.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Boston area, Massachusetts. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nAssociate Director overseeing cGMP small-molecule API development and manufacturing for clinical programs, primarily through CDMOs, including technology transfer and CMC regulatory work.\nMandatory professional qualifications:\n- PhD in chemistry or another relevant discipline with at least 10 years of directly related pharma or biotech experience, OR MSc with significant relevant experience.\n- Experience managing drug substance (API) manufacturing.\n- Knowledge of cGMP regulations pertinent to APIs.\nPreferred, not mandatory:\n- Experience running initial cGMP deliveries followed by technology transfers to later-stage development CDMOs receives strong emphasis.\n- Track record managing development-stage and/or commercial-stage API manufacturing at CDMOs.\n- Experience authoring or co-authoring key CMC sections in U.S. IND/NDA and European MAA filings for small-molecule APIs.\n- Extensive knowledge of cGMP regulations, guidance, principles, and best practices pertinent to APIs.\n- Strong virtual-manufacturing experience involving CDMO landscape and selection, vendor management, contracting, and issue resolution and management.\nWork location and geographic eligibility:\nLocation: Greater Boston area, Massachusetts. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -131,118 +131,49 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "9115d43a8034f8885347c3f301e70f450085861b82ae966c0098f0d9981e2785",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Based in Boston, Massachusetts, with hybrid working; remote locations may be considered for exceptional candidates, but no remote geographic scope is specified.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Boston, MA, USA (hybrid)",
-        "Remote location, subject to consideration for exceptional candidates"
-      ],
-      "remote_scope": "Not specified; remote locations considered for exceptional candidates.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Boston",
-        "Hybrid",
-        "This position reports to the Senior Director, CMC, Drug Substance, and will be based out of Boston, MA, USA. We will consider remote locations for exceptional candidates."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "PhD in Chemistry or other relevant discipline with a minimum of 10 years of directly related experience in a pharma or biotech environment. Candidates with a MSc and significant relevant experience may be considered as well.",
-        "effective_requirement": "PhD in chemistry or another relevant discipline with at least 10 years of directly related pharma or biotech experience, OR MSc with significant relevant experience.",
-        "kind": "mandatory"
-      }
-    ],
-    "dropped_location_options": [
-      "Remote location, subject to consideration for exceptional candidates"
-    ],
-    "dropped_location_note": "Dropped non-geographic location options: Remote location, subject to consideration for exceptional candidates. Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
-    "observability": {
-      "parent_rubric_sha256": "fa29e131f89bd7fbf7ffe171f0e6b4c80f58c4e58d06c6f7a843c14ebaf990a3",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability and willingness to travel up to 15% domestically and internationally.",
-          "source_quote": "Ability and willingness to travel up to 15% of the time, both domestically and internationally",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ffb6b426b6d6a9287dafe1659d4e60c3c9d720823129d72d086346eecc249649",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience authoring or co-authoring key CMC sections in U.S. IND/NDA and European MAA filings for small-molecule APIs.",
-          "source_quote": "Experience authoring/co-authoring key CMC sections in U.S. IND/NDA and European MAA filings for small molecule APIs",
-          "verification": "profile",
-          "reason": "Authoring specific CMC filing sections is rarely stated on profiles."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Strong virtual-manufacturing experience involving CDMO landscape and selection, vendor management, contracting, and issue resolution and management.",
-          "source_quote": "Strong experience in working within a virtual manufacturing setting that requires knowledge of CDMO landscape and selection, vendor management, contracting, issue resolution and management",
-          "verification": "profile",
-          "reason": "Virtual-manufacturing CDMO vendor management detail is rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Track record managing development-stage and/or commercial-stage API manufacturing at CDMOs.",
-          "after": "Experience managing drug substance (API) manufacturing.",
-          "reason": "API/drug substance work is visible from titles; CDMO and stage specifics are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Extensive knowledge of cGMP regulations, guidance, principles, and best practices pertinent to APIs.",
-          "after": "Knowledge of cGMP regulations pertinent to APIs.",
-          "reason": "cGMP is implied by pharma manufacturing/CMC roles; 'extensive' is unobservable."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M3"
-      },
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4",
-        "M5": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "0e87f232b4d76f11495bc34e504cbeb0a3f95060d0e531f94c53746080417965",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "df1712ff9ac52d23555caf38a6296f1502a22da7706af5d4db215dffe2c95c04",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Remote is only for exceptional candidates; Boston is the role's base.",
-      "previous_allowed_locations": [
-        "Greater Boston area, Massachusetts"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Boston area, Massachusetts. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Remote is only for exceptional candidates; Boston is the role's base."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability and willingness to travel up to 15% domestically and internationally.",
+        "source_quote": "Ability and willingness to travel up to 15% of the time, both domestically and internationally",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Track record managing development-stage and/or commercial-stage API manufacturing at CDMOs.",
+        "effective_requirement": "Experience managing drug substance (API) manufacturing.",
+        "reason": "API/drug substance work is visible from titles; CDMO and stage specifics are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Extensive knowledge of cGMP regulations, guidance, principles, and best practices pertinent to APIs.",
+        "effective_requirement": "Knowledge of cGMP regulations pertinent to APIs.",
+        "reason": "cGMP is implied by pharma manufacturing/CMC roles; 'extensive' is unobservable."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience authoring or co-authoring key CMC sections in U.S. IND/NDA and European MAA filings for small-molecule APIs.",
+        "source_quote": "Experience authoring/co-authoring key CMC sections in U.S. IND/NDA and European MAA filings for small molecule APIs",
+        "verification": "profile",
+        "reason": "Authoring specific CMC filing sections is rarely stated on profiles."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Strong virtual-manufacturing experience involving CDMO landscape and selection, vendor management, contracting, and issue resolution and management.",
+        "source_quote": "Strong experience in working within a virtual manufacturing setting that requires knowledge of CDMO landscape and selection, vendor management, contracting, issue resolution and management",
+        "verification": "profile",
+        "reason": "Virtual-manufacturing CDMO vendor management detail is rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

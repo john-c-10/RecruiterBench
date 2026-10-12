@@ -3,10 +3,10 @@
   "role_id": "f6677d5f-a893-4bad-af96-620a0ee06dfd",
   "snapshot_sha256": "536a97b61ee720aa51d248e6b6974320ded957d4856996a5ce5123ea5efbe2db",
   "input_sha256": "b6a4ab68bdb03ee5fa3d6ecc595f54750f14bdfc3eac90d3b26036b2548a4a7f",
-  "rubric_sha256": "9fad8f096b029b8f2d8137c64756b243b844ab81b91050a53c9013d326f1b79c",
+  "rubric_sha256": "f1c73b7831f792a603e09cceaf26ab53f5cdf2e0e0350cbe357a7618926f5da9",
   "rubric": {
     "role_summary": "Senior systems engineering role owning the architecture, definition, integration, and validation of a robotic defense system from concept through field deployment.",
-    "search_query": "Find candidates for this role:\nSenior systems engineering role owning the architecture, definition, integration, and validation of a robotic defense system from concept through field deployment.\nMandatory professional qualifications:\n- 10+ years of systems engineering experience within robotics, aerospace, or defense.\n- MSc in Engineering, in any field.\n- Background in system architecture, requirements engineering, and trade-off analysis.\n- Understanding of mechanical, electrical, and embedded systems.\nPreferred, not mandatory:\n- PhD.\n- Experience with UAS or defense systems.\n- Experience leading full system lifecycles from concept through prototype and validation.\n- Experience coordinating multidisciplinary teams and managing technical interfaces.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Rabat area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior systems engineering role owning the architecture, definition, integration, and validation of a robotic defense system from concept through field deployment.\nMandatory professional qualifications:\n- 10+ years of systems engineering experience within robotics, aerospace, or defense.\n- MSc in Engineering, in any field.\n- Background in system architecture, requirements engineering, and trade-off analysis.\n- Understanding of mechanical, electrical, and embedded systems.\nPreferred, not mandatory:\n- PhD.\n- Experience with UAS or defense systems.\n- Experience leading full system lifecycles from concept through prototype and validation.\n- Experience coordinating multidisciplinary teams and managing technical interfaces.\nWork location and geographic eligibility:\nLocation: Greater Rabat area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -127,87 +127,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "7415068420f5703505a7e23a5c458f12e0992af5b5448a8ed2748efc5f613185",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite work in Rabat; the posting does not require current residence there.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Rabat"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Rabat",
-        "OnSite"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "10+ years of experience in system engineering within robotics, aerospace, or defense sectors.",
-        "effective_requirement": "10+ years of systems engineering experience within robotics, aerospace, or defense.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "49658610055f19ef1e9000a6f45b32cf507ab0afccfa3cb9eac1d9c2328005a3",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "49658610055f19ef1e9000a6f45b32cf507ab0afccfa3cb9eac1d9c2328005a3",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience leading full system lifecycles from concept through prototype and validation.",
-          "source_quote": "Proven experience leading full system lifecycles (concept → prototype → validation).",
-          "verification": "profile",
-          "reason": "Leading full lifecycles is a scope claim rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Experience coordinating multidisciplinary teams and managing technical interfaces.",
-          "source_quote": "Experience coordinating multi-disciplinary teams and managing technical interfaces.",
-          "verification": "profile",
-          "reason": "Coordination/interface management is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M5": "M4"
-      },
-      "demoted_preference_ids": {
-        "M3": "P3",
-        "M6": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "dfefed71e3f173967c14bcfaecbe950f98159cc5fa3151b7e05b005314b98961",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "79f675280571d52e4f69f19a495c2e34f57a74cb6a2cdb8d347d28a1a96103dc",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Rabat area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Rabat area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience leading full system lifecycles from concept through prototype and validation.",
+        "source_quote": "Proven experience leading full system lifecycles (concept → prototype → validation).",
+        "verification": "profile",
+        "reason": "Leading full lifecycles is a scope claim rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience coordinating multidisciplinary teams and managing technical interfaces.",
+        "source_quote": "Experience coordinating multi-disciplinary teams and managing technical interfaces.",
+        "verification": "profile",
+        "reason": "Coordination/interface management is rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

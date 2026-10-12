@@ -3,10 +3,10 @@
   "role_id": "59083a14-b2b6-4dd8-8037-739aa1ad1e22",
   "snapshot_sha256": "137fc5b9b2453294ec1e2f691f8744674af7b15699c2a0b4ad488502df32c27c",
   "input_sha256": "26165daed205eb45ab5d8c583245ab0309ba33fa2f187268bb339268fe989bf7",
-  "rubric_sha256": "c9fafeccfd50397907c395f5070db147d44bf6156c7b01c9a7ab27d1359cc3ed",
+  "rubric_sha256": "ab355e3411ddfd825b92fb1d709894653fc8c34094c541e820adc0e7b9e0cb40",
   "rubric": {
     "role_summary": "Senior marketing data analyst building measurement for paid and product-led growth channels, including attribution, incrementality experiments, media mix modeling, and analysis of pipeline and revenue impact.",
-    "search_query": "Find candidates for this role:\nSenior marketing data analyst building measurement for paid and product-led growth channels, including attribution, incrementality experiments, media mix modeling, and analysis of pipeline and revenue impact.\nMandatory professional qualifications:\n- 6+ years in marketing analytics, data science, or a related role, focused on performance marketing and/or PLG growth.\n- Advanced SQL and at least one of Python or R for experiment analysis and modeling.\n- Hands-on experience running marketing experiments.\n- Experience building or working closely with MMM and/or advanced attribution models.\nPreferred, not mandatory:\n- MMM or advanced attribution model experience in a consumption or BaaS environment.\n- Experience in BaaS, DevRel, or open-source developer-tool companies connecting marketing spend to pipeline and revenue.\n- Experience with applied econometrics, time-series modeling, or Bayesian methods for MMM and experimentation.\n- Familiarity with common marketing and analytics tools.\n- Deep understanding of marketing attribution, incrementality testing, and media mix modeling, including how they complement one another.\n- Hands-on experience designing, running, and interpreting experiments across digital marketing channels.\n- Fluency in growth metrics including CAC, LTV, payback period, conversion rates, and funnel performance.",
+    "search_query": "Find candidates for this role:\nSenior marketing data analyst building measurement for paid and product-led growth channels, including attribution, incrementality experiments, media mix modeling, and analysis of pipeline and revenue impact.\nMandatory professional qualifications:\n- 6+ years in marketing analytics, data science, or a related role, focused on performance marketing and/or PLG growth.\n- Advanced SQL and at least one of Python or R for experiment analysis and modeling.\n- Hands-on experience running marketing experiments.\n- Experience building or working closely with MMM and/or advanced attribution models.\nPreferred, not mandatory:\n- MMM or advanced attribution model experience in a consumption or BaaS environment.\n- Experience in BaaS, DevRel, or open-source developer-tool companies connecting marketing spend to pipeline and revenue.\n- Experience with applied econometrics, time-series modeling, or Bayesian methods for MMM and experimentation.\n- Familiarity with common marketing and analytics tools.\n- Deep understanding of marketing attribution, incrementality testing, and media mix modeling, including how they complement one another.\n- Hands-on experience designing, running, and interpreting experiments across digital marketing channels.\n- Fluency in growth metrics including CAC, LTV, payback period, conversion rates, and funnel performance.\nWork location and geographic eligibility:\nNo geographic filter: the role explicitly allows global remote work.",
     "must_haves": [
       {
         "id": "M1",
@@ -150,98 +150,35 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "9847232ef59ad432d4d831faf1a8e9702afb568da7a9069aa12ff23cc559e112",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Fully remote; hiring globally, with work possible from anywhere.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "Global"
-      ],
-      "remote_scope": "Global",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote, Global",
-        "Fully Remote",
-        "We hire globally. We believe you can do your best work from anywhere. There are no Supabase offices"
-      ]
+    "location": {
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "Have 6+ years in marketing analytics, data science, or a related role, with a focus on performance marketing and/or PLG growth",
-        "effective_requirement": "6+ years in marketing analytics, data science, or a related role, focused on performance marketing and/or PLG growth.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience designing, running, and interpreting experiments across digital marketing channels.",
+        "effective_requirement": "Hands-on experience running marketing experiments.",
+        "reason": "Marketing experimentation is observable; design-and-interpretation across channels detail is not."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "6abf44a37a5331274d9fe9bdad20f2a652b0581db717b8733b41d17efaa75380",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "6abf44a37a5331274d9fe9bdad20f2a652b0581db717b8733b41d17efaa75380",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Deep understanding of marketing attribution, incrementality testing, and media mix modeling, including how they complement one another.",
-          "source_quote": "Deeply understand marketing attribution, incrementality testing, and media mix modeling, and how they complement each other rather than compete",
-          "verification": "profile",
-          "reason": "Deep understanding of how attribution, incrementality, and MMM complement each other is not observable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Fluency in growth metrics including CAC, LTV, payback period, conversion rates, and funnel performance.",
-          "source_quote": "fluency in growth metrics: CAC, LTV, payback period, conversion rates, funnel performance",
-          "verification": "profile",
-          "reason": "Fluency in growth metrics is rarely stated explicitly."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Hands-on experience designing, running, and interpreting experiments across digital marketing channels.",
-          "after": "Hands-on experience running marketing experiments.",
-          "reason": "Marketing experimentation is observable; design-and-interpretation across channels detail is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M3": "M2",
-        "M4": "M3",
-        "M5": "M4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Deep understanding of marketing attribution, incrementality testing, and media mix modeling, including how they complement one another.",
+        "source_quote": "Deeply understand marketing attribution, incrementality testing, and media mix modeling, and how they complement each other rather than compete",
+        "verification": "profile",
+        "reason": "Deep understanding of how attribution, incrementality, and MMM complement each other is not observable."
       },
-      "demoted_preference_ids": {
-        "M2": "P5",
-        "M4": "P6",
-        "M6": "P7"
+      {
+        "field": "must_haves",
+        "requirement": "Fluency in growth metrics including CAC, LTV, payback period, conversion rates, and funnel performance.",
+        "source_quote": "fluency in growth metrics: CAC, LTV, payback period, conversion rates, funnel performance",
+        "verification": "profile",
+        "reason": "Fluency in growth metrics is rarely stated explicitly."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "c9fafeccfd50397907c395f5070db147d44bf6156c7b01c9a7ab27d1359cc3ed",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": false
-    },
-    "single_location": {
-      "parent_rubric_sha256": "c9fafeccfd50397907c395f5070db147d44bf6156c7b01c9a7ab27d1359cc3ed",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "no_filter",
-      "reason": "No geographic filter; unchanged.",
-      "previous_allowed_locations": [
-        "Global"
-      ],
-      "previous_requirement_text": "No geographic filter: the role explicitly allows global remote work.",
-      "location_requirement_changed": false
-    }
+    ]
   },
   "experience_context": [
     {

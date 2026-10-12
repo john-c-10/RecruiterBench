@@ -3,10 +3,10 @@
   "role_id": "a6372990-3153-444d-a623-530c6b65caa0",
   "snapshot_sha256": "d01657e91a5a5184381384f3c330cdaec3decc5039fcaa10536df33b8eb3db00",
   "input_sha256": "600c260c42228110576bd685c28ac748e0bfe2933a7ff10bca1bc7bb8336af53",
-  "rubric_sha256": "ac0a597d3230a35ad2ecdb0bff96c61a5e54a7822e15b0dd1dfa0404bbd17f8f",
+  "rubric_sha256": "aefb5490376fe34d76b046e0b039505eaef93c21389a11420e2175275cc25aca",
   "rubric": {
     "role_summary": "Founding CTO for a physical-AI platform that combines physics-based models, sensor data, and ML to improve process-plant operations. The role owns technical direction, early deployments, platform architecture, and eventual engineering-team development.",
-    "search_query": "Find candidates for this role:\nFounding CTO for a physical-AI platform that combines physics-based models, sensor data, and ML to improve process-plant operations. The role owns technical direction, early deployments, platform architecture, and eventual engineering-team development.\nMandatory professional qualifications:\n- Hands-on machine learning expertise in physics-informed models, time-series, reinforcement learning, or agentic systems.\n- Experience deploying ML products to production.\nPreferred, not mandatory:\n- Prior experience working in or alongside process industries.\n- Hands-on understanding of industrial data stacks, data compliance, and industrial safety frameworks, including the listed examples.\n- Deep ML expertise in at least two of physics-informed models, time-series, reinforcement learning, or agentic systems.\n- Experience turning dirty data into reliable training sets through sensor data curation, plant-graph contextualisation, and integration with semi-structured records.\n- Experience leveraging agents, automations, and AI workflows.\n- Experience deploying ML products in messy, real-world environments.\n- Understanding of commissioning, safety constraints, and human-in-the-loop workflows.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Europe, primarily; France, preferred; Switzerland, preferred; Greater Zurich area; Greater Paris area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nFounding CTO for a physical-AI platform that combines physics-based models, sensor data, and ML to improve process-plant operations. The role owns technical direction, early deployments, platform architecture, and eventual engineering-team development.\nMandatory professional qualifications:\n- Hands-on machine learning expertise in physics-informed models, time-series, reinforcement learning, or agentic systems.\n- Experience deploying ML products to production.\nPreferred, not mandatory:\n- Prior experience working in or alongside process industries.\n- Hands-on understanding of industrial data stacks, data compliance, and industrial safety frameworks, including the listed examples.\n- Deep ML expertise in at least two of physics-informed models, time-series, reinforcement learning, or agentic systems.\n- Experience turning dirty data into reliable training sets through sensor data curation, plant-graph contextualisation, and integration with semi-structured records.\n- Experience leveraging agents, automations, and AI workflows.\n- Experience deploying ML products in messy, real-world environments.\n- Understanding of commissioning, safety constraints, and human-in-the-loop workflows.\nWork location and geographic eligibility:\nLocation: Europe (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -138,125 +138,56 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "96927189c87594ae05bc000f151f55907c00c3b45d57ad1a94c862369f5d9590",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "The employer primarily seeks candidates based in Europe, preferring France or Switzerland. Zurich and Paris are listed locations; the programme includes Paris work sessions or remote participation, although remote participation is described as challenging. Travel to regional project sites is necessary when required. Founder visa sponsorship is offered for relocation to France.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "Europe, primarily",
-        "France, preferred",
-        "Switzerland, preferred",
-        "Zurich",
-        "Paris"
-      ],
-      "remote_scope": "Programme work sessions may be remote, but remote participation is described as a challenge; no unrestricted remote eligibility is stated.",
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Zurich",
-        "Paris",
-        "Location: We are primarily seeking candidates based in Europe, with a preference for France or Switzerland, with the ability to travel to project sites across the region when necessary.",
-        "Weekly check-ins, work sessions in our Paris HQ (or remote), and continuous peer learning with other programme participants",
-        "Founder visa sponsorship if you wish to relocate to France. Remote participation would be a challenge, but we're open to finding different partnership formats."
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "e6645ecdec0850ee130f030018b9c5a8355df686fcd722ef0d476206da23da99",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Ability to travel to project sites across the region when necessary.",
-          "source_quote": "with the ability to travel to project sites across the region when necessary.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "4478cb9ddb10b1d884cc51b7a65a7e93296b446c2f9015a837cdcebf2ce2b494",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience turning dirty data into reliable training sets through sensor data curation, plant-graph contextualisation, and integration with semi-structured records.",
-          "source_quote": "Comfortable turning dirty data into reliable training sets through sensor data curation, plant-graph contextualisation, and integration with semi-structured records.",
-          "verification": "profile",
-          "reason": "Specific data-curation practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience leveraging agents, automations, and AI workflows.",
-          "source_quote": "leveraging agents, automations, and AI workflows",
-          "verification": "profile",
-          "reason": "Use of agents/automations is a practice rarely stated by ML candidates."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Understanding of commissioning, safety constraints, and human-in-the-loop workflows.",
-          "source_quote": "You understand commissioning, safety constraints, and human-in-the-loop workflows.",
-          "verification": "profile",
-          "reason": "Industrial commissioning/safety knowledge is niche and rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Deep ML expertise in at least two of physics-informed models, time-series, reinforcement learning, or agentic systems.",
-          "after": "Hands-on machine learning expertise in physics-informed models, time-series, reinforcement learning, or agentic systems.",
-          "reason": "ML expertise in one of the areas is observable; depth in two is not."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "before": "Experience deploying ML products in messy, real-world environments.",
-          "after": "Experience deploying ML products to production.",
-          "reason": "Production ML deployment is observable; messy-environment qualifier is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M4": "M2"
-      },
-      "demoted_preference_ids": {
-        "M1": "P3",
-        "M2": "P4",
-        "M3": "P5",
-        "M4": "P6",
-        "M5": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "9de06d7120e46221c3d5fb44bd83d9d12adae457b87925b50fd65993486eab64",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "eeb897f1ef19fb6376a3c8478bcdcf1067a4b7e1e18ee0a08af0d783d0dc9ec4",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Primarily seeking candidates based in Europe.",
-      "previous_allowed_locations": [
-        "Europe, primarily",
-        "France, preferred",
-        "Switzerland, preferred",
-        "Greater Zurich area",
-        "Greater Paris area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Europe, primarily; France, preferred; Switzerland, preferred; Greater Zurich area; Greater Paris area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Primarily seeking candidates based in Europe."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Ability to travel to project sites across the region when necessary.",
+        "source_quote": "with the ability to travel to project sites across the region when necessary.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Deep ML expertise in at least two of physics-informed models, time-series, reinforcement learning, or agentic systems.",
+        "effective_requirement": "Hands-on machine learning expertise in physics-informed models, time-series, reinforcement learning, or agentic systems.",
+        "reason": "ML expertise in one of the areas is observable; depth in two is not."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Experience deploying ML products in messy, real-world environments.",
+        "effective_requirement": "Experience deploying ML products to production.",
+        "reason": "Production ML deployment is observable; messy-environment qualifier is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience turning dirty data into reliable training sets through sensor data curation, plant-graph contextualisation, and integration with semi-structured records.",
+        "source_quote": "Comfortable turning dirty data into reliable training sets through sensor data curation, plant-graph contextualisation, and integration with semi-structured records.",
+        "verification": "profile",
+        "reason": "Specific data-curation practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience leveraging agents, automations, and AI workflows.",
+        "source_quote": "leveraging agents, automations, and AI workflows",
+        "verification": "profile",
+        "reason": "Use of agents/automations is a practice rarely stated by ML candidates."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of commissioning, safety constraints, and human-in-the-loop workflows.",
+        "source_quote": "You understand commissioning, safety constraints, and human-in-the-loop workflows.",
+        "verification": "profile",
+        "reason": "Industrial commissioning/safety knowledge is niche and rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

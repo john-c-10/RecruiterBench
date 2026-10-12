@@ -3,10 +3,10 @@
   "role_id": "0f313d34-61a2-46a2-9f43-2f53ac41d6e8",
   "snapshot_sha256": "034ba6ba29b9f313787a8d82c45efcf1d8322ef2d7c06baa46803f7886f947a8",
   "input_sha256": "50d9eeb4fd936bb1b537dd4131ab126a32df98d0a438408d7931d34cd148379f",
-  "rubric_sha256": "d44269d5e569ae7f7aa341e4de482f1c79130000dcc2ff6a5ec26aa219f4e4f6",
+  "rubric_sha256": "071626f9e25fd900dcec1ed31dd312794f3e8572f14ebd79cfb9603c2ff6b12b",
   "rubric": {
     "role_summary": "Senior in-house counsel leading a two-person legal team and owning commercial partnership and joint-venture transactions for a waste management and carbon removal company, from term sheets through negotiation and post-closing amendments.",
-    "search_query": "Find candidates for this role:\nSenior in-house counsel leading a two-person legal team and owning commercial partnership and joint-venture transactions for a waste management and carbon removal company, from term sheets through negotiation and post-closing amendments.\nMandatory professional qualifications:\n- J.D. from an accredited law school.\n- 8+ years of transactional experience in energy, infrastructure, environmental/waste, or project development, at a major law firm, in-house at a sponsor/developer, or both.\n- Experience drafting and negotiating JV agreements or comparable complex commercial agreements.\n- Experience managing and reviewing the work of junior attorneys and/or paralegals.\nPreferred, not mandatory:\n- Experience with waste management, environmental services, or adjacent industries.\n- Familiarity with environmental liability frameworks (RCRA, CERCLA, state waste regulation) and how they drive contract terms.\n- Exposure to project finance structures (SPVs, lender consent rights, collateral assignment of material contracts).\n- Experience at a venture-backed or growth-stage company.\n- First-chair experience drafting and negotiating JV agreements or comparable complex commercial arrangements without outside counsel support.\n- Commercial risk-allocation expertise covering indemnities, limitations of liability, insurance requirements, force majeure, and default and termination mechanics.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Houston, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior in-house counsel leading a two-person legal team and owning commercial partnership and joint-venture transactions for a waste management and carbon removal company, from term sheets through negotiation and post-closing amendments.\nMandatory professional qualifications:\n- J.D. from an accredited law school.\n- 8+ years of transactional experience in energy, infrastructure, environmental/waste, or project development, at a major law firm, in-house at a sponsor/developer, or both.\n- Experience drafting and negotiating JV agreements or comparable complex commercial agreements.\n- Experience managing and reviewing the work of junior attorneys and/or paralegals.\nPreferred, not mandatory:\n- Experience with waste management, environmental services, or adjacent industries.\n- Familiarity with environmental liability frameworks (RCRA, CERCLA, state waste regulation) and how they drive contract terms.\n- Exposure to project finance structures (SPVs, lender consent rights, collateral assignment of material contracts).\n- Experience at a venture-backed or growth-stage company.\n- First-chair experience drafting and negotiating JV agreements or comparable complex commercial arrangements without outside counsel support.\n- Commercial risk-allocation expertise covering indemnities, limitations of liability, insurance requirements, force majeure, and default and termination mechanics.\nWork location and geographic eligibility:\nLocation: Greater Houston, TX area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -139,107 +139,43 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "d4c4eaa349908d0a56ac61cb25381a24c43428d5417629770be98985a4669073",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid work in Houston, TX; periodic travel to partner meetings and operating sites required. Present residence in Houston is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Houston, TX"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Houston, TX (hybrid). Periodic travel to partner meetings and operating sites required"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M3",
-        "source_quote": "8–12 years of transactional experience in energy, infrastructure, environmental/waste, or project development — at a major law firm, in-house at a sponsor/developer, or both",
-        "effective_requirement": "8+ years of transactional experience in energy, infrastructure, environmental/waste, or project development, at a major law firm, in-house at a sponsor/developer, or both.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Licensed and in good standing in at least one U.S. jurisdiction, with Texas admission or ability to register as in-house counsel.",
+        "source_quote": "licensed and in good standing in at least one U.S. jurisdiction (Texas admission or ability to register as in-house counsel)",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Able to undertake periodic travel to partner meetings and operating sites.",
+        "source_quote": "Periodic travel to partner meetings and operating sites required",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "60842bdb369b622d2626f850185d26fc86cc24f7de319c403cf05d0a11c395b4",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Licensed and in good standing in at least one U.S. jurisdiction, with Texas admission or ability to register as in-house counsel.",
-          "source_quote": "licensed and in good standing in at least one U.S. jurisdiction (Texas admission or ability to register as in-house counsel)",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Able to undertake periodic travel to partner meetings and operating sites.",
-          "source_quote": "Periodic travel to partner meetings and operating sites required",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M3": "M2",
-        "M4": "M3",
-        "M5": "M4",
-        "M6": "M5"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "First-chair experience drafting and negotiating JV agreements or comparable complex commercial arrangements without outside counsel support.",
+        "effective_requirement": "Experience drafting and negotiating JV agreements or comparable complex commercial agreements.",
+        "reason": "Transactional drafting is implied by the practice; first-chair without outside counsel is rarely stated."
       }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "ab7ed95d54d6864f5be37f4d29df78a36691b62dfea91f327fea79bebc56b89b",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Commercial risk-allocation expertise covering indemnities, limitations of liability, insurance requirements, force majeure, and default and termination mechanics.",
-          "source_quote": "Fluency in commercial risk allocation: indemnities, limitations of liability, insurance requirements, force majeure, default and termination mechanics",
-          "verification": "profile",
-          "reason": "Specific risk-allocation topic expertise is rarely itemized on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "First-chair experience drafting and negotiating JV agreements or comparable complex commercial arrangements without outside counsel support.",
-          "after": "Experience drafting and negotiating JV agreements or comparable complex commercial agreements.",
-          "reason": "Transactional drafting is implied by the practice; first-chair without outside counsel is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M5": "M4"
-      },
-      "demoted_preference_ids": {
-        "M3": "P5",
-        "M4": "P6"
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Commercial risk-allocation expertise covering indemnities, limitations of liability, insurance requirements, force majeure, and default and termination mechanics.",
+        "source_quote": "Fluency in commercial risk allocation: indemnities, limitations of liability, insurance requirements, force majeure, default and termination mechanics",
+        "verification": "profile",
+        "reason": "Specific risk-allocation topic expertise is rarely itemized on profiles."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "f0fb91e0143374ec7caf0a3c217fb7f5bc7336f5fd5c552f6e77be15cf66c445",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "0dd1b043f2a4aabfb43646c87e316cad1d931a6a265ce00003637ef52e30f095",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Houston, TX area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Houston, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

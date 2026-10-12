@@ -3,10 +3,10 @@
   "role_id": "2f98e46d-a85c-4ad2-bc6c-f4c783b857b0",
   "snapshot_sha256": "1c24891bbcf48d7e490fc2be030e9a3979c969589646763b1246d0ad630a9a77",
   "input_sha256": "c196b110a3b91114c935300b2d5e73f64927fae11424bd262e429cad647a7cf1",
-  "rubric_sha256": "6d78a96082a12fb8efce9e9d9dcadfc364fa14d9cd8ef537038c040b9b532952",
+  "rubric_sha256": "c8fd64f328d9a41bcf28f5dff9b7f41118b38b94df397a116fb9f5104d3e5b45",
   "rubric": {
     "role_summary": "Senior consumer product designer shaping end-to-end experiences for an AI-powered language-learning app, including speaking practice, onboarding, retention, and subscriptions.",
-    "search_query": "Find candidates for this role:\nSenior consumer product designer shaping end-to-end experiences for an AI-powered language-learning app, including speaking practice, onboarding, retention, and subscriptions.\nMandatory professional qualifications:\n- 6+ years of product design experience designing consumer products.\nPreferred, not mandatory:\n- Experience in language learning, education, or another domain with substantial cross-cultural product work.\n- Experience using prototypes to communicate ideas and test assumptions.\n- Portfolio demonstrating user-centric design and innovative interaction patterns.\n- Contributions to design systems that scale beyond a single team.\n- Ability to tinker directly in code.\n- Experience engaging with users and synthesizing user insights to inform product strategy and direction.\n- Experience using AI creatively in the design process.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nSenior consumer product designer shaping end-to-end experiences for an AI-powered language-learning app, including speaking practice, onboarding, retention, and subscriptions.\nMandatory professional qualifications:\n- 6+ years of product design experience designing consumer products.\nPreferred, not mandatory:\n- Experience in language learning, education, or another domain with substantial cross-cultural product work.\n- Experience using prototypes to communicate ideas and test assumptions.\n- Portfolio demonstrating user-centric design and innovative interaction patterns.\n- Contributions to design systems that scale beyond a single team.\n- Ability to tinker directly in code.\n- Experience engaging with users and synthesizing user insights to inform product strategy and direction.\n- Experience using AI creatively in the design process.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -130,84 +130,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "b0d343c56c5d0ed307208c414bff0df37038f6e134bdeb03d7cdee5856e36db1",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based in San Francisco; the posting does not require candidates to currently reside there or state a relocation policy.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco",
-        "Hybrid"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "6+ years of product design experience. You have experience designing high-quality consumer products.",
-        "effective_requirement": "6+ years of product design experience designing consumer products.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "f1dfc5747e3bfe718ff62d12d38c0ad08c07f606b7a30c885d297610db0380bb",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "f1dfc5747e3bfe718ff62d12d38c0ad08c07f606b7a30c885d297610db0380bb",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience engaging with users and synthesizing user insights to inform product strategy and direction.",
-          "source_quote": "You actively seek out the humans using the product, not just data about them and are able to synthesize valuable insights about them that inform strategy and direction.",
-          "verification": "profile",
-          "reason": "User research practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience using AI creatively in the design process.",
-          "source_quote": "You already use AI creatively in your process to unlock speed and quality",
-          "verification": "profile",
-          "reason": "Creative AI use is rarely stated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P6",
-        "M3": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "cf02df478ed78d9a857419310d64068f6d7d7421f1c06823ab11f8a24567ad09",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "c3573e2c8fb2cd082bb03fc949c0cb7e333f52d5aef8cdff25301c825f0e08dc",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience engaging with users and synthesizing user insights to inform product strategy and direction.",
+        "source_quote": "You actively seek out the humans using the product, not just data about them and are able to synthesize valuable insights about them that inform strategy and direction.",
+        "verification": "profile",
+        "reason": "User research practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience using AI creatively in the design process.",
+        "source_quote": "You already use AI creatively in your process to unlock speed and quality",
+        "verification": "profile",
+        "reason": "Creative AI use is rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

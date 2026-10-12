@@ -3,10 +3,10 @@
   "role_id": "d8c79b12-baab-4a10-beb1-7be1fcdffe19",
   "snapshot_sha256": "de06db37088361deb40066669f423cac9d37ddc0e48a8695fdee21f16195fb38",
   "input_sha256": "60cf0d2410aa6be1197e86428fd8ced224a6f2d73dd9bdef20faea70062c149f",
-  "rubric_sha256": "34f478acbefc2a36be47b85606e644b85d788b3809647a0f4012786d4318a9cb",
+  "rubric_sha256": "0927c2d424d10bf184fd3d148091aab522c2d5c315f9e2cbf58582c9ffbf7fd8",
   "rubric": {
     "role_summary": "Lead strategic finance for a financial-services startup, owning financial planning, treasury, and the commercial side of vendor and banking relationships while reporting to the founders.",
-    "search_query": "Find candidates for this role:\nLead strategic finance for a financial-services startup, owning financial planning, treasury, and the commercial side of vendor and banking relationships while reporting to the founders.\nMandatory professional qualifications:\n- 5+ years in finance.\n- Financial modeling experience.\nPreferred, not mandatory:\n- Started in investment banking, private equity, or management consulting, followed by strategic finance or FP&A at a startup.\n- Experience negotiating or supporting negotiation of vendor, partner, or banking agreements.\n- Fintech experience, particularly with card programs, sponsor banks, or payments economics.\n- Spanish.\n- Strong financial modeling skills, including building clean, driver-based models.\n- Daily use of AI tools for work; Claude is an example, not a required tool.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "search_query": "Find candidates for this role:\nLead strategic finance for a financial-services startup, owning financial planning, treasury, and the commercial side of vendor and banking relationships while reporting to the founders.\nMandatory professional qualifications:\n- 5+ years in finance.\n- Financial modeling experience.\nPreferred, not mandatory:\n- Started in investment banking, private equity, or management consulting, followed by strategic finance or FP&A at a startup.\n- Experience negotiating or supporting negotiation of vendor, partner, or banking agreements.\n- Fintech experience, particularly with card programs, sponsor banks, or payments economics.\n- Spanish.\n- Strong financial modeling skills, including building clean, driver-based models.\n- Daily use of AI tools for work; Claude is an example, not a required tool.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -130,85 +130,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "b9f21b3601a946df0a76e87c7d6f62813b05839da4edbfaf6630bee02dd3da30",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "NYC office is the stated work location; no onsite schedule or present-residence requirement is specified. Travel-related remote flexibility and benefits for remote team members do not establish remote eligibility for this role.",
-      "workplace_type": "unspecified",
-      "allowed_locations": [
-        "New York City office"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "NYC Office",
-        "Remote-friendly when traveling",
-        "Visit to our NYC Office for remote team members"
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "5–8 years in finance",
-        "effective_requirement": "5+ years in finance.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Strong financial modeling skills, including building clean, driver-based models.",
+        "effective_requirement": "Financial modeling experience.",
+        "reason": "Financial modeling is implied by finance roles; clean driver-based quality is unobservable."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "5569839db4220e1c162b8f83353cac6ca02af200eb1597ee7bcaccd15789c183",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "5569839db4220e1c162b8f83353cac6ca02af200eb1597ee7bcaccd15789c183",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Daily use of AI tools for work; Claude is an example, not a required tool.",
-          "source_quote": "AI-fluent: you already use tools like Claude every day and have a point of view on which finance workflows should be automated next.",
-          "verification": "profile",
-          "reason": "Daily AI tool use is a work habit rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Strong financial modeling skills, including building clean, driver-based models.",
-          "after": "Financial modeling experience.",
-          "reason": "Financial modeling is implied by finance roles; clean driver-based quality is unobservable."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P5",
-        "M3": "P6"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Daily use of AI tools for work; Claude is an example, not a required tool.",
+        "source_quote": "AI-fluent: you already use tools like Claude every day and have a point of view on which finance workflows should be automated next.",
+        "verification": "profile",
+        "reason": "Daily AI tool use is a work habit rarely stated."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "64f9b86c46ac6fe09647a54c09d90231d2c0e48dda5ec25184a885949822f098",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "55ae4376a6f45b8ff1b6989f5d234df414c86b5cdc3ea5143e40ec4ca0a584c5",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

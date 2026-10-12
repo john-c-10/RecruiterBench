@@ -3,10 +3,10 @@
   "role_id": "42e286e4-46d3-4733-8d1a-27d4cec5b96b",
   "snapshot_sha256": "486e76d6e40d60998761fb1283025c8d8198d143754a9364246aeb6f3a4b5985",
   "input_sha256": "6288b3b3f736e48d3625b6f7f12dac48eceffdb89abf7355fde8f81cecf3b011",
-  "rubric_sha256": "2ced02a251c3a3ebc50d3f589660ff843b0868c19f7efde8b27f2ee723c21db8",
+  "rubric_sha256": "04fc06db28c6b1acc64e3282b925b705d3965f0f26191d264f5e7542d8622c18",
   "rubric": {
     "role_summary": "Contract talent coordinator supporting day-to-day management of creators and influencers, including campaign deliverables, partner communications, accounting handoffs, and talent scouting.",
-    "search_query": "Find candidates for this role:\nContract talent coordinator supporting day-to-day management of creators and influencers, including campaign deliverables, partner communications, accounting handoffs, and talent scouting.\nMandatory professional qualifications:\n- 1+ years of social media marketing experience involving brand negotiation and deliverables, OR project management experience involving calendar invites and project management tools.\nPreferred, not mandatory:\n- Knowledge of Hubspot and Canva.\n- Experience working at an agency.\n- Ability to analyze data and identify insights to assess campaign performance.\n- Working knowledge of Google Workspace.\n- Ability to work within strict branding guidelines.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nContract talent coordinator supporting day-to-day management of creators and influencers, including campaign deliverables, partner communications, accounting handoffs, and talent scouting.\nMandatory professional qualifications:\n- 1+ years of social media marketing experience involving brand negotiation and deliverables, OR project management experience involving calendar invites and project management tools.\nPreferred, not mandatory:\n- Knowledge of Hubspot and Canva.\n- Experience working at an agency.\n- Ability to analyze data and identify insights to assess campaign performance.\n- Working knowledge of Google Workspace.\n- Ability to work within strict branding guidelines.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -118,84 +118,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "671d9f9c4d67a368e66a885a5e459a749136b2625ffba922fb9f1466efa6a040",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote role listed in the United States; present US residence is not explicitly required.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "United States",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "United States",
-        "Remote"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "1-2 years of social media marketing (experience working with brand negotiation & deliverables) or project management experience (sending calendar invites, project management tool experience, detail oriented)",
-        "effective_requirement": "1+ years of social media marketing experience involving brand negotiation and deliverables, OR project management experience involving calendar invites and project management tools.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "b3ace6575a0ec9c4d625ead96ff7871f37d90756435641ef5ff715ed8877cfb6",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "b3ace6575a0ec9c4d625ead96ff7871f37d90756435641ef5ff715ed8877cfb6",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Working knowledge of Google Workspace.",
-          "source_quote": "Working knowledge of Google Workspace.",
-          "verification": "profile",
-          "reason": "Office tool proficiency is rarely listed."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Ability to work within strict branding guidelines.",
-          "source_quote": "The ability to work within strict branding guidelines",
-          "verification": "profile",
-          "reason": "Work-style ability is unstated."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P4",
-        "M3": "P5"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "6f657138ad445f01b47360ab3ba109b1117bf440e24a398861fa84157c2f9f8f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "bc44322a43ac5683c06f0024e0b8fa3f97cd9dba4372a2fa727fc011d1f74856",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Working knowledge of Google Workspace.",
+        "source_quote": "Working knowledge of Google Workspace.",
+        "verification": "profile",
+        "reason": "Office tool proficiency is rarely listed."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Ability to work within strict branding guidelines.",
+        "source_quote": "The ability to work within strict branding guidelines",
+        "verification": "profile",
+        "reason": "Work-style ability is unstated."
+      }
+    ]
   },
   "experience_context": [
     {

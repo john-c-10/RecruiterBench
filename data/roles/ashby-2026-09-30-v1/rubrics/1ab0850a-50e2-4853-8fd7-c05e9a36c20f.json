@@ -3,10 +3,10 @@
   "role_id": "1ab0850a-50e2-4853-8fd7-c05e9a36c20f",
   "snapshot_sha256": "c085adde5259a186802be7c485756d2ed2633dfe35438fa87ccff3f1ab589520",
   "input_sha256": "581020a3f4d0468d08404609d1b74d6e5ee45ca21c50f6f539091303adc7b29e",
-  "rubric_sha256": "ae674a51dd9b60d87bc38de38f97e74c972b3a8030b0f7485f7fcb05fe016f21",
+  "rubric_sha256": "e28e7b03f4a1db5d2a913d2a74b346df424c5c844135e27b3656267ced067152",
   "rubric": {
     "role_summary": "Principal-level experimental plasma scientist leading the design, deployment, commissioning, and use of plasma diagnostics for fusion generators.",
-    "search_query": "Find candidates for this role:\nPrincipal-level experimental plasma scientist leading the design, deployment, commissioning, and use of plasma diagnostics for fusion generators.\nMandatory professional qualifications:\n- Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline.\n- 10+ years of hands-on laboratory experience with plasma systems.\nPreferred, not mandatory:\n- Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline, with a focus on plasma science, diagnostics, or high-vacuum instrumentation.\n- 10+ years in advanced laboratory environments, with extensive hands-on work involving plasma generation, plasma systems, and UHV vacuum infrastructure.\n- Demonstrated use of diagnostic measurements to evaluate plasma parameters such as density, temperature, and current profiles, directly influencing system improvements. The named measurement methods are examples, not individually required.\n- Deep expertise in multiple areas of plasma diagnostics and fusion engineering, at an independent subject-matter-expert level.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Seattle area, Washington. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nPrincipal-level experimental plasma scientist leading the design, deployment, commissioning, and use of plasma diagnostics for fusion generators.\nMandatory professional qualifications:\n- Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline.\n- 10+ years of hands-on laboratory experience with plasma systems.\nPreferred, not mandatory:\n- Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline, with a focus on plasma science, diagnostics, or high-vacuum instrumentation.\n- 10+ years in advanced laboratory environments, with extensive hands-on work involving plasma generation, plasma systems, and UHV vacuum infrastructure.\n- Demonstrated use of diagnostic measurements to evaluate plasma parameters such as density, temperature, and current profiles, directly influencing system improvements. The named measurement methods are examples, not individually required.\n- Deep expertise in multiple areas of plasma diagnostics and fusion engineering, at an independent subject-matter-expert level.\nWork location and geographic eligibility:\nLocation: Greater Seattle area, Washington. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -113,102 +113,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "52d50c287fc35ece2a9652a96b7e3cd0d3eee4e623f069fba75a262f80422bb0",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role at the Everett, WA office; current residence in Everett is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Everett, WA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Everett, WA",
-        "OnSite",
-        "This is an onsite role that reports directly to our Director of Plasma and Nuclear Science at our Everett, WA office."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "10+ years of experience working in advanced laboratory environments, with extensive hands-on work involving plasma generation, plasma systems, and UHV vacuum infrastructure",
-        "effective_requirement": "10+ years in advanced laboratory environments, with extensive hands-on work involving plasma generation, plasma systems, and UHV vacuum infrastructure.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline, with a focus on plasma science, diagnostics, or high-vacuum instrumentation.",
+        "effective_requirement": "Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline.",
+        "reason": "PhD and field are observable; the specific plasma/UHV focus is often not stated in degree fields."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "10+ years in advanced laboratory environments, with extensive hands-on work involving plasma generation, plasma systems, and UHV vacuum infrastructure.",
+        "effective_requirement": "10+ years of hands-on laboratory experience with plasma systems.",
+        "reason": "Years of plasma lab work is the core identity; UHV and generation specifics are rarely itemized (0.99 strict fail)."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "bb02f1cd242b7065632914b6efc83a5e737f62ef7008969c354cd8e7e7833efd",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "bb02f1cd242b7065632914b6efc83a5e737f62ef7008969c354cd8e7e7833efd",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Demonstrated use of diagnostic measurements to evaluate plasma parameters such as density, temperature, and current profiles, directly influencing system improvements. The named measurement methods are examples, not individually required.",
-          "source_quote": "Demonstrated track record using diagnostic measurements (e.g., interferometry, spectroscopy, Langmuir probes, magnetic coils, electrostatic diagnostics) to evaluate plasma parameters such as density, temperature, and current profiles, directly influencing system improvements",
-          "verification": "profile",
-          "reason": "Using diagnostic measurements to drive system improvements is a specific practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Deep expertise in multiple areas of plasma diagnostics and fusion engineering, at an independent subject-matter-expert level.",
-          "source_quote": "Deep expertise and unique domain knowledge in multiple areas of plasma diagnostics and fusion engineering. Recognized as a subject matter expert who operates independently",
-          "verification": "profile",
-          "reason": "Multi-area SME-level depth is a qualifier not observable on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline, with a focus on plasma science, diagnostics, or high-vacuum instrumentation.",
-          "after": "Ph.D. in physics, electrical engineering, aerospace engineering, or a related discipline.",
-          "reason": "PhD and field are observable; the specific plasma/UHV focus is often not stated in degree fields."
-        },
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "10+ years in advanced laboratory environments, with extensive hands-on work involving plasma generation, plasma systems, and UHV vacuum infrastructure.",
-          "after": "10+ years of hands-on laboratory experience with plasma systems.",
-          "reason": "Years of plasma lab work is the core identity; UHV and generation specifics are rarely itemized (0.99 strict fail)."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Demonstrated use of diagnostic measurements to evaluate plasma parameters such as density, temperature, and current profiles, directly influencing system improvements. The named measurement methods are examples, not individually required.",
+        "source_quote": "Demonstrated track record using diagnostic measurements (e.g., interferometry, spectroscopy, Langmuir probes, magnetic coils, electrostatic diagnostics) to evaluate plasma parameters such as density, temperature, and current profiles, directly influencing system improvements",
+        "verification": "profile",
+        "reason": "Using diagnostic measurements to drive system improvements is a specific practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Deep expertise in multiple areas of plasma diagnostics and fusion engineering, at an independent subject-matter-expert level.",
+        "source_quote": "Deep expertise and unique domain knowledge in multiple areas of plasma diagnostics and fusion engineering. Recognized as a subject matter expert who operates independently",
+        "verification": "profile",
+        "reason": "Multi-area SME-level depth is a qualifier not observable on profiles."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "73cd51355c16791a7f3c37b6ad0b48e536f27e87428105d08ffeda89bf5f4b7d",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "bd60c984ffe77ec4d60a548b0d340b4b9cb8bf23cb5b2575fbaac4bd50bc9ed8",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Seattle area, Washington"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Seattle area, Washington. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

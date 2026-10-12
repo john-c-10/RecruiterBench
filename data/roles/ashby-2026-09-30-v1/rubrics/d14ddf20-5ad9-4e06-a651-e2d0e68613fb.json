@@ -3,10 +3,10 @@
   "role_id": "d14ddf20-5ad9-4e06-a651-e2d0e68613fb",
   "snapshot_sha256": "9aeeee3865c004789f9b2df1924ea77e4017257d0052c3bf3c8bc74c17eec1ef",
   "input_sha256": "9daa1c9b02a9277bb7699582d4bcdd8114df9b1ae8f1a181ea0ae660fc91f9cf",
-  "rubric_sha256": "801ab1fff1135c9bc666fa26294130cb4f33a77d530c747812aec5347b7f2569",
+  "rubric_sha256": "4c0410c068d76b810bbe4956922f624343e32f73c9a3f8a2a8de5ee5c21cd70a",
   "rubric": {
     "role_summary": "Investment lead for a permanent-capital acquirer, responsible for originating and evaluating acquisition opportunities, developing deal flow, and helping build the investment function in partnership with the CEO.",
-    "search_query": "Find candidates for this role:\nInvestment lead for a permanent-capital acquirer, responsible for originating and evaluating acquisition opportunities, developing deal flow, and helping build the investment function in partnership with the CEO.\nMandatory professional qualifications:\n- Experience sourcing acquisitions.\nPreferred, not mandatory:\n- 1+ years of investing experience in private equity, growth equity, or serial acquirors.\n- Experience originating platform investments in the lower middle market valued on cash flow or EBITDA.\n- Has sourced 1-3 proprietary acquisitions per year.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Chicago, IL area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nInvestment lead for a permanent-capital acquirer, responsible for originating and evaluating acquisition opportunities, developing deal flow, and helping build the investment function in partnership with the CEO.\nMandatory professional qualifications:\n- Experience sourcing acquisitions.\nPreferred, not mandatory:\n- 1+ years of investing experience in private equity, growth equity, or serial acquirors.\n- Experience originating platform investments in the lower middle market valued on cash flow or EBITDA.\n- Has sourced 1-3 proprietary acquisitions per year.\nWork location and geographic eligibility:\nLocation: Greater Chicago, IL area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -107,90 +107,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "75435582f5bc38be791260d291917d9fa1abd94448dc7cceb99ed02ad68dbcc0",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite role based in Chicago, IL; frequent travel is expected. Present residence in Chicago is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Chicago, IL"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Chicago, IL",
-        "OnSite",
-        "This role is based in Chicago with frequent travel to build differentiated relationships with owners in person."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "you've sourced 1-3 proprietary acquisitions per year",
-        "effective_requirement": "Has sourced 1-3 proprietary acquisitions per year.",
-        "kind": "mandatory"
-      },
-      {
-        "criterion_id": "P1",
-        "source_quote": "the role is best suited for someone with 1-5 years of investing experience in private equity, growth equity, or serial acquirors",
-        "effective_requirement": "1+ years of investing experience in private equity, growth equity, or serial acquirors.",
-        "kind": "preferred_not_a_gate"
+        "field": "must_haves",
+        "requirement": "Able to undertake frequent travel to build relationships with owners in person.",
+        "source_quote": "frequent travel to build differentiated relationships with owners in person",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "146e784740e4b3f13b711ed6e8175613d7980e7e4956f2436168c1a066c7897f",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Able to undertake frequent travel to build relationships with owners in person.",
-          "source_quote": "frequent travel to build differentiated relationships with owners in person",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "c4a0c3e68582477f950c9d4e5a3772b8ca851524d183ac1ce0bb1277f1a23f2d",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Has sourced 1-3 proprietary acquisitions per year.",
-          "after": "Experience sourcing acquisitions.",
-          "reason": "Acquisition sourcing is visible from deal/investment titles; the per-year proprietary count is a quantified claim."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P3"
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Has sourced 1-3 proprietary acquisitions per year.",
+        "effective_requirement": "Experience sourcing acquisitions.",
+        "reason": "Acquisition sourcing is visible from deal/investment titles; the per-year proprietary count is a quantified claim."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "4308b6136f1fc73495b1a5448b32e5e32be84c36f4361015233cc026c7cac2f7",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "2393da7c5b6860be98b836768f1318bb4f58779e11e95657b4e5ef5ef4f1a7dc",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Chicago, IL area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Chicago, IL area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

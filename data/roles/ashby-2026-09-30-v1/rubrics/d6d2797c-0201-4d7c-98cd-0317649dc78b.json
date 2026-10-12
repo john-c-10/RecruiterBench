@@ -3,10 +3,10 @@
   "role_id": "d6d2797c-0201-4d7c-98cd-0317649dc78b",
   "snapshot_sha256": "fbb2bac0f06e14f8e717962b86b5bec350d14f1ec23c747d30c19c96d480d388",
   "input_sha256": "a54938aa458d70a795058839d0c7528026ca02a44ef125245aaf66f42093cba3",
-  "rubric_sha256": "0747638fb456cba1391953c0d4b3771ea68c553c05ed0c4bf48acb6ff1e4fa4b",
+  "rubric_sha256": "7e766643dcca815b2baddd09c4785ce771eae7e5465720cf97598a6efbfadb03",
   "rubric": {
     "role_summary": "Design verification engineer for physics-inspired ASICs, owning verification through tapeout and reviewing AI-generated verification collateral and training examples. The role may also support customer deployments.",
-    "search_query": "Find candidates for this role:\nDesign verification engineer for physics-inspired ASICs, owning verification through tapeout and reviewing AI-generated verification collateral and training examples. The role may also support customer deployments.\nMandatory professional qualifications:\n- 5+ years of experience in digital verification at a semiconductor or EDA tool company.\n- Proficiency in SystemVerilog and UVM for design verification.\n- Proven end-to-end design verification expertise, including test plan creation, stimulus generation, and feature extraction.\nPreferred, not mandatory:\n- Experience in a customer-facing, field-application, or forward-deployed engineering role at a semiconductor or EDA company.\n- Hands-on use of LLMs or agentic tools in verification workflows.\n- Exposure to analog, mixed-signal, or unconventional compute verification.\n- Advanced proficiency in SystemVerilog, UVM methodology, and EDA verification tools, with strong Python or Perl scripting. The named EDA tools are examples, not an all-tools requirement.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; Greater London, United Kingdom area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nDesign verification engineer for physics-inspired ASICs, owning verification through tapeout and reviewing AI-generated verification collateral and training examples. The role may also support customer deployments.\nMandatory professional qualifications:\n- 5+ years of experience in digital verification at a semiconductor or EDA tool company.\n- Proficiency in SystemVerilog and UVM for design verification.\n- Proven end-to-end design verification expertise, including test plan creation, stimulus generation, and feature extraction.\nPreferred, not mandatory:\n- Experience in a customer-facing, field-application, or forward-deployed engineering role at a semiconductor or EDA company.\n- Hands-on use of LLMs or agentic tools in verification workflows.\n- Exposure to analog, mixed-signal, or unconventional compute verification.\n- Advanced proficiency in SystemVerilog, UVM methodology, and EDA verification tools, with strong Python or Perl scripting. The named EDA tools are examples, not an all-tools requirement.\nWork location and geographic eligibility:\nLocation: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -105,16 +105,6 @@
     "attempt_count": 1,
     "review_status": "machine_extracted_source_quotes_validated_with_documented_correction"
   },
-  "curation": {
-    "corrected_at": "2026-10-01T00:05:19.443808+00:00",
-    "original_rubric_sha256": "46b1e717502ff62aa5e8aae378652b1030b82397ec67433e919971e6064f6d08",
-    "criterion_id": "M1",
-    "original_requirement": "5+ years of experience in digital verification at a semiconductor or EDA tool company; do not use the subjective word “major” as a company-prestige gate.",
-    "fields": [
-      "must_haves.M1.requirement"
-    ],
-    "reason": "Applied the frozen extraction policy: separate subjective prestige/quality language from objective conditions, and keep reviewer instructions out of search query text. Original source quotation retained."
-  },
   "interpretation": {
     "policy": {
       "version": "role-interpretation-v1",
@@ -133,91 +123,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "760f0efdfdf356af9c6815f17a10467a0ac45c8bdc70d356bdfb30a5580bb819",
-    "resolved_ambiguities": [
-      "The Silicon Valley secondary-location metadata identifies Palo Alto, while the description names Mountain View; the specific office city is unclear."
-    ],
-    "resolution": "Use the text's Mountain View interpretation of Silicon Valley, broadened to the Bay Area; NYC and London remain alternatives.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role with work-location options in New York City, London, or Silicon Valley. Current residence in those locations is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "New York City, New York, United States",
-        "London, England, United Kingdom",
-        "Silicon Valley, California, United States"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "New York City",
-        "London",
-        "Silicon Valley",
-        "Hybrid"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "5+ years of experience in digital verification at a major semiconductor or EDA tool company",
-        "effective_requirement": "5+ years of experience in digital verification at a semiconductor or EDA tool company.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "f3351fc4eac045f7818e98fa6585034944e1dc8791c6cc81b1067baa3cd87742",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Willingness to occasionally support customer-facing deployment work, including some travel.",
-          "source_quote": "Willingness to occasionally support customer-facing deployment work, including some travel",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "67b890caf215a566f8d372b9bfa9284cd088afdb785b3e43647cc5d0ccef9fcd",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Advanced proficiency in SystemVerilog, UVM methodology, and EDA verification tools, with strong Python or Perl scripting. The named EDA tools are examples, not an all-tools requirement.",
-          "after": "Proficiency in SystemVerilog and UVM for design verification.",
-          "reason": "SV/UVM is commonly listed/implied; \"advanced\" qualifier and scripting are not."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P4"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "2e2cc407feb6a7dc559243eea629359957d3115c3aa5a38991eefe1e9b04d095",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "b765f0fb8dbaf7895727438c8328bc3574d3ac553aa52f557a01e4c07d8f863c",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "New York metropolitan area",
-        "Greater London, United Kingdom area",
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; Greater London, United Kingdom area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Willingness to occasionally support customer-facing deployment work, including some travel.",
+        "source_quote": "Willingness to occasionally support customer-facing deployment work, including some travel",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Advanced proficiency in SystemVerilog, UVM methodology, and EDA verification tools, with strong Python or Perl scripting. The named EDA tools are examples, not an all-tools requirement.",
+        "effective_requirement": "Proficiency in SystemVerilog and UVM for design verification.",
+        "reason": "SV/UVM is commonly listed/implied; \"advanced\" qualifier and scripting are not."
+      }
+    ],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

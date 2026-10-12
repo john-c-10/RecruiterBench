@@ -3,10 +3,10 @@
   "role_id": "845eaa08-40d3-4b0b-9d89-705ea51530bb",
   "snapshot_sha256": "c1ad7d6015bca9abc4f99b3ced99f71b92f1e36b0105512a35b14dc4928dd213",
   "input_sha256": "4bc1074b4e1bf61456da9e19be5bb21dee950e264fb43ef8933dbcc9d4ec9842",
-  "rubric_sha256": "4ea10028134f7bb1d10690146a37e126659fcdd1bed9142f4a33ca58efb8354a",
+  "rubric_sha256": "c183e43be552f0e9fb6177b9376741a8558e15d253c16b59a9f6c92331cd577f",
   "rubric": {
     "role_summary": "Director-level guest experience role at a romantic luxury retreat, designing and operating the end-to-end guest journey and service standards across guest-facing teams.",
-    "search_query": "Find candidates for this role:\nDirector-level guest experience role at a romantic luxury retreat, designing and operating the end-to-end guest journey and service standards across guest-facing teams.\nMandatory professional qualifications:\n- Experience leading a team.\nPreferred, not mandatory:\n- Has designed a service system, rather than only operated one, and can identify what it replaced and what measurably improved.\n- Has maintained a standard across a team without personally supervising every shift.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Whitwell, TN area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nDirector-level guest experience role at a romantic luxury retreat, designing and operating the end-to-end guest journey and service standards across guest-facing teams.\nMandatory professional qualifications:\n- Experience leading a team.\nPreferred, not mandatory:\n- Has designed a service system, rather than only operated one, and can identify what it replaced and what measurably improved.\n- Has maintained a standard across a team without personally supervising every shift.\nWork location and geographic eligibility:\nLocation: Greater Whitwell, TN area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -97,88 +97,36 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "520b713eca6d0c42c6ef83629929592bbcd7e87627066705dba0d82f4ec031f6",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite guest operations role in Whitwell, Tennessee. Present residence in Whitwell is not explicitly required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Whitwell, TN"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Bolt Farm - Whitwell, TN",
-        "Onsite Guest Operations"
-      ]
-    },
-    "experience_context": [],
-    "observability": {
-      "parent_rubric_sha256": "1a294d1f1a4bdcf79cffdd580fc30a25b1d902cd3efcf6b45966cde6dbe65be9",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Uses AI daily and can give a concrete example of something it helped them build, including the tool and result.",
-          "source_quote": "You use AI daily, unprompted, and you can show us something real it helped you build. Passing looks like: you name the thing, the tool, and the result.",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "8881b84048d3c70629e17c4682e132c259905f13988e266ffe5991e0d8c40811",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "requirement": "Has designed a service system, rather than only operated one, and can identify what it replaced and what measurably improved.",
-          "source_quote": "You have designed a service system, not just run one. Passing looks like: you can walk us through a workflow, SOP set, or communication sequence you built from scratch, show what it replaced, and tell us what got measurably better.",
-          "verification": "profile",
-          "reason": "Designing a service system with measured improvement is an outcome rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Has maintained a standard across a team without personally supervising every shift.",
-          "after": "Experience leading a team.",
-          "reason": "Team leadership is observable from titles; maintaining standards without supervision is not."
-        }
-      ],
-      "criterion_id_map": {
-        "M2": "M1"
-      },
-      "demoted_preference_ids": {
-        "M1": "P1",
-        "M2": "P2"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "8bb21814c396534ef6e29a114e836935c8d7207bb64a1a26b9e152934ee3be5c",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "05ae070176403fe3c61fec40bcf007448c07cee63fc675f3696028b064d60c0e",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "Greater Whitwell, TN area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Whitwell, TN area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "Uses AI daily and can give a concrete example of something it helped them build, including the tool and result.",
+        "source_quote": "You use AI daily, unprompted, and you can show us something real it helped you build. Passing looks like: you name the thing, the tool, and the result.",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Has maintained a standard across a team without personally supervising every shift.",
+        "effective_requirement": "Experience leading a team.",
+        "reason": "Team leadership is observable from titles; maintaining standards without supervision is not."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Has designed a service system, rather than only operated one, and can identify what it replaced and what measurably improved.",
+        "source_quote": "You have designed a service system, not just run one. Passing looks like: you can walk us through a workflow, SOP set, or communication sequence you built from scratch, show what it replaced, and tell us what got measurably better.",
+        "verification": "profile",
+        "reason": "Designing a service system with measured improvement is an outcome rarely stated."
+      }
+    ]
   },
   "experience_context": []
 }

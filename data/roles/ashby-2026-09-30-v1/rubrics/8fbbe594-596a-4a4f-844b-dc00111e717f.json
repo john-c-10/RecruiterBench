@@ -3,10 +3,10 @@
   "role_id": "8fbbe594-596a-4a4f-844b-dc00111e717f",
   "snapshot_sha256": "a1109b5b7471ae4b4daea3b141b2869116a03ecef00d7a6fb0b5a21b07b0cec0",
   "input_sha256": "c81bde3ba387249ae0434f2abef0290eb83576e2b53f9d0f5184a317a069259c",
-  "rubric_sha256": "68418adc6ebf48e05a7879db9433da1ec2ffe05a8c59347a4298a42112b0ca40",
+  "rubric_sha256": "08670b591d9abbbe09f39b7f84377b499b681c0e21e98479b9d094d9f309c318",
   "rubric": {
     "role_summary": "Mobile software engineer building and improving an app for creating and publishing native mobile applications, with a focus on mobile UI/UX. The role calls for 5+ years of professional software development experience.",
-    "search_query": "Find candidates for this role:\nMobile software engineer building and improving an app for creating and publishing native mobile applications, with a focus on mobile UI/UX. The role calls for 5+ years of professional software development experience.\nMandatory professional qualifications:\n- Match at least one mobile-development background: experienced React Native development with a track record of shipping mobile apps; deep mobile web development experience encompassing mobile interfaces, performance optimization, and responsive design; OR skilled native iOS/Android development with native platform knowledge. Prior React Native experience is not required for the mobile web or native-development paths.\n- 5+ years of professional software development experience.\nPreferred, not mandatory:\n- Has built and shipped their own apps.\n- 5+ years of professional software development experience, including experience optimizing UI rendering performance and debugging and deploying iOS or Android apps.\n- Familiarity with UI/UX patterns on iOS or Android.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nMobile software engineer building and improving an app for creating and publishing native mobile applications, with a focus on mobile UI/UX. The role calls for 5+ years of professional software development experience.\nMandatory professional qualifications:\n- Match at least one mobile-development background: experienced React Native development with a track record of shipping mobile apps; deep mobile web development experience encompassing mobile interfaces, performance optimization, and responsive design; OR skilled native iOS/Android development with native platform knowledge. Prior React Native experience is not required for the mobile web or native-development paths.\n- 5+ years of professional software development experience.\nPreferred, not mandatory:\n- Has built and shipped their own apps.\n- 5+ years of professional software development experience, including experience optimizing UI rendering performance and debugging and deploying iOS or Android apps.\n- Familiarity with UI/UX patterns on iOS or Android.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -111,85 +111,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "b58d72538acff78b7c5c6cff5797636657a3c3576d82beb8d46992aaf696c561",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role based at the Foster City, CA office, with in-office attendance required Monday, Wednesday, and Friday. Present residence in Foster City is not specified.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "Foster City, CA office"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Foster City, CA",
-        "Hybrid",
-        "This is a full-time role that can be held from our Foster City, CA office. The hybrid role has an in-office requirement of Monday, Wednesday, and Friday."
-      ]
+    "location": {
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M2",
-        "source_quote": "You can demonstrate 5+ years of professional software development experience, including:\n   \n   - Experience optimizing UI rendering performance\n   \n   - Experience debugging and deploying iOS or Android apps",
-        "effective_requirement": "5+ years of professional software development experience, including experience optimizing UI rendering performance and debugging and deploying iOS or Android apps.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "5+ years of professional software development experience, including experience optimizing UI rendering performance and debugging and deploying iOS or Android apps.",
+        "effective_requirement": "5+ years of professional software development experience.",
+        "reason": "Years of experience is observable; UI rendering optimization and app deploy/debug specifics are rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "b7548a2902251dd7697ef138b4285029fe277c989adf4b874625912643c9f0f5",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "b7548a2902251dd7697ef138b4285029fe277c989adf4b874625912643c9f0f5",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Familiarity with UI/UX patterns on iOS or Android.",
-          "source_quote": "You are familiar with UI/UX patterns on iOS or Android",
-          "verification": "profile",
-          "reason": "Familiarity with platform UI/UX patterns is rarely stated and not implied for the mobile-web path."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "5+ years of professional software development experience, including experience optimizing UI rendering performance and debugging and deploying iOS or Android apps.",
-          "after": "5+ years of professional software development experience.",
-          "reason": "Years of experience is observable; UI rendering optimization and app deploy/debug specifics are rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with UI/UX patterns on iOS or Android.",
+        "source_quote": "You are familiar with UI/UX patterns on iOS or Android",
+        "verification": "profile",
+        "reason": "Familiarity with platform UI/UX patterns is rarely stated and not implied for the mobile-web path."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "e09ec6dbe3becef30412834e2092afe49be3f30b7c3de112664e4f0d8d25d9bc",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "39c1aa5cf94c6de44209776ac05e556c8e7497bcefef8f3170c05c2d110b429b",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

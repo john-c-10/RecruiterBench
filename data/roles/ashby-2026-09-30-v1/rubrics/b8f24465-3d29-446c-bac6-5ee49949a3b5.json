@@ -3,10 +3,10 @@
   "role_id": "b8f24465-3d29-446c-bac6-5ee49949a3b5",
   "snapshot_sha256": "275f31a99d5a26075d923f6bd74c01ced999237c8505bf2fb0a791563d7356f9",
   "input_sha256": "9b8260ee97396e05a082ccb6e5b0de71d36b09435804b673c91a6b9fd4586208",
-  "rubric_sha256": "98010a03bc8b8b40d902005bca1bc95bc4e21d7c7512da47f9541c2aceb915d4",
+  "rubric_sha256": "a0a8ca2727214e50e98883f2a09c28bd06cb9004b12b23bb10059d5252759325",
   "rubric": {
     "role_summary": "Early-career robotics engineer deploying, debugging, and developing tractor-mounted AI camera systems at farms, with approximately half of working time at customer sites and half working from home.",
-    "search_query": "Find candidates for this role:\nEarly-career robotics engineer deploying, debugging, and developing tractor-mounted AI camera systems at farms, with approximately half of working time at customer sites and half working from home.\nMandatory professional qualifications:\n- 1+ years of relevant experience in industry or academia.\n- Strong technical skills in robotics; the listed technologies are examples, not a requirement to know every one.\nPreferred, not mandatory:\n- Experience optimizing robotics algorithms for embedded platforms.\n- Familiarity with agriculture or outdoor equipment.\n- Previous startup, outdoor adventure, or field deployment experience.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; Greater Seattle area, Washington. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nEarly-career robotics engineer deploying, debugging, and developing tractor-mounted AI camera systems at farms, with approximately half of working time at customer sites and half working from home.\nMandatory professional qualifications:\n- 1+ years of relevant experience in industry or academia.\n- Strong technical skills in robotics; the listed technologies are examples, not a requirement to know every one.\nPreferred, not mandatory:\n- Experience optimizing robotics algorithms for embedded platforms.\n- Familiarity with agriculture or outdoor equipment.\n- Previous startup, outdoor adventure, or field deployment experience.\nWork location and geographic eligibility:\nLocation: California or Washington State (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -114,93 +114,28 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "a815c4bc6bbe2b07a437338765ea2bc91e24eaa47ee5b4728f92fa0b08eae900",
-    "resolved_ambiguities": [
-      "The Hybrid workplace metadata and listed San Francisco and Seattle locations do not explain how they apply to the description's full-time remote, work-from-home arrangement. Clarify whether either city is a required home base or office location."
-    ],
-    "resolution": "Text supplies remote work plus 50% farm travel; the stated SF/Seattle location alternatives constrain the remote home base to either general area. Travel sites are not extra home-base alternatives.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "San Francisco and Seattle are listed locations, but the description calls this a remote role with approximately 50% farm-based travel, primarily across California and Washington, and 50% work from home. The permitted home-base geography is not specified.",
-      "workplace_type": "mixed",
-      "allowed_locations": [
-        "San Francisco",
-        "Seattle",
-        "Customer farms across California and Washington, and occasionally elsewhere in the United States"
-      ],
-      "remote_scope": "Work from home for approximately 50% of working time; eligible home-base locations are unspecified.",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco",
-        "Seattle",
-        "Hybrid",
-        "Full-time, remote role with frequent travel (approximately 50% farm-based, 50% work-from-home).",
-        "You'll spend about 50% of your time traveling to beautiful farms (apple orchards, vineyards, nut farms, strawberry farms, etc) across California, Washington, and occasionally other parts of the country."
-      ]
+    "location": {
+      "decision": "region",
+      "reason": "A remote role whose farm travel is across California and Washington."
     },
-    "experience_context": [
+    "removed_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "1-3 years of relevant experience in industry or academia.",
-        "effective_requirement": "1+ years of relevant experience in industry or academia.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "requirement": "Available for frequent travel, with approximately 50% of working time at farms.",
+        "source_quote": "Full-time, remote role with frequent travel (approximately 50% farm-based, 50% work-from-home).",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "red_flags",
+        "requirement": "Allergies to the listed common agricultural products.",
+        "source_quote": "Must not have allergies to common agricultural products (nuts, apples, grapes, strawberries, blueberries)",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
       }
     ],
-    "dropped_location_options": [
-      "Customer farms across California and Washington, and occasionally elsewhere in the United States"
-    ],
-    "dropped_location_note": "Dropped non-geographic location options: Customer farms across California and Washington, and occasionally elsewhere in the United States. Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
-    "observability": {
-      "parent_rubric_sha256": "b0440d63d4e11d8bb6a60af3d78c59030058addc778df767bc7aaade3a2e96b7",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Available for frequent travel, with approximately 50% of working time at farms.",
-          "source_quote": "Full-time, remote role with frequent travel (approximately 50% farm-based, 50% work-from-home).",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "red_flags",
-          "id": "D1",
-          "requirement": "Allergies to the listed common agricultural products.",
-          "source_quote": "Must not have allergies to common agricultural products (nuts, apples, grapes, strawberries, blueberries)",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "cb978e6f89be16acc308fdbebcbcedf321819e213724f6faebd5d5d056d7fdcc",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "cb978e6f89be16acc308fdbebcbcedf321819e213724f6faebd5d5d056d7fdcc",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "93e5d5a8f8d2e753724fafc2c22dc897922a23b483da040a65f69bd9669a4d78",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "region",
-      "reason": "A remote role whose farm travel is across California and Washington.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "Greater Seattle area, Washington"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; Greater Seattle area, Washington. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {

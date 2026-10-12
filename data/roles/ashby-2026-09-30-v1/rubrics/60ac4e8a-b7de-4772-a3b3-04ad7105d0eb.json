@@ -3,10 +3,10 @@
   "role_id": "60ac4e8a-b7de-4772-a3b3-04ad7105d0eb",
   "snapshot_sha256": "8e25f9206a0d0732de69a77b52dde990bd36e65797d436784650679de3d5af6e",
   "input_sha256": "b434323d83bfa28a8731cb07ca1e1faf1257f50a8411a3a356ee4657c674ac15",
-  "rubric_sha256": "de6f08549b41ec139352ef434cdcb0943f76de8855788502f8c76a08a13a90ca",
+  "rubric_sha256": "cfba85be037e4df556f05406517b2af7e3bdda7363475448964ac72b612c0c5f",
   "rubric": {
     "role_summary": "Director-level channel sales operations role supporting B2B SaaS portfolio companies. Develop channel sales practices, advise channel leaders on revenue growth, and assess channel organizations during due diligence.",
-    "search_query": "Find candidates for this role:\nDirector-level channel sales operations role supporting B2B SaaS portfolio companies. Develop channel sales practices, advise channel leaders on revenue growth, and assess channel organizations during due diligence.\nMandatory professional qualifications:\n- 8+ years of B2B software/SaaS channel sales experience, including 3+ years in a leadership capacity.\nPreferred, not mandatory:\n- Deep knowledge of AI applications for software sales.\n- Experience analyzing channel sales funnels and developing actionable insights from the data.\n- Experience across SMB, mid-market, and enterprise end-customer segments and both high-velocity and enterprise channel sales cycles.\n- Understanding of how hiring, team composition, and organizational design help grow a scaling channel sales organization.\n- Experience creating predictability in channel sales organizations they have led through organizational design and process best practices.\n- Familiarity with generating pipeline through inbound, outbound (BDR-sourced and AE-sourced), and channel sources.\n- Project management, organizational, and process management skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nDirector-level channel sales operations role supporting B2B SaaS portfolio companies. Develop channel sales practices, advise channel leaders on revenue growth, and assess channel organizations during due diligence.\nMandatory professional qualifications:\n- 8+ years of B2B software/SaaS channel sales experience, including 3+ years in a leadership capacity.\nPreferred, not mandatory:\n- Deep knowledge of AI applications for software sales.\n- Experience analyzing channel sales funnels and developing actionable insights from the data.\n- Experience across SMB, mid-market, and enterprise end-customer segments and both high-velocity and enterprise channel sales cycles.\n- Understanding of how hiring, team composition, and organizational design help grow a scaling channel sales organization.\n- Experience creating predictability in channel sales organizations they have led through organizational design and process best practices.\n- Familiarity with generating pipeline through inbound, outbound (BDR-sourced and AE-sourced), and channel sources.\n- Project management, organizational, and process management skills.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -127,120 +127,56 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "4576139b0bdbc5382d9d43ec2df0b545338e1975f6364f0753a71ffcaaa5c0e8",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "San Francisco hybrid work model; the posting does not require current residence in San Francisco.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Francisco, CA"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Francisco, CA",
-        "San Francisco, hybrid work model"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M1",
-        "source_quote": "8-10 years of experience in a high-performing B2B software/ SaaS channel sales environment, with 3+ years in a leadership capacity",
-        "effective_requirement": "8+ years of B2B software/SaaS channel sales experience, including 3+ years in a leadership capacity.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "e5ba0f137f7c6b63e4d07268d0965347cc7b5ed7433c5adf40fdea66a8828725",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "e5ba0f137f7c6b63e4d07268d0965347cc7b5ed7433c5adf40fdea66a8828725",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "requirement": "Experience analyzing channel sales funnels and developing actionable insights from the data.",
-          "source_quote": "specific depth on analyzing Channel sales funnels and developing actionable insights from the data",
-          "verification": "profile",
-          "reason": "Funnel analysis is a practice rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "Experience across SMB, mid-market, and enterprise end-customer segments and both high-velocity and enterprise channel sales cycles.",
-          "source_quote": "Experience across all end-customer segments (SMB, Mid-Market, Enterprise) and Channel sales cycles (High Velocity and Enterprise)",
-          "verification": "profile",
-          "reason": "Coverage of every segment and cycle type is rarely itemized."
-        },
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Understanding of how hiring, team composition, and organizational design help grow a scaling channel sales organization.",
-          "source_quote": "Deep understanding of the critical elements to grow a Channel sales organization as a company scales such as hiring, team composition, and org structure/design",
-          "verification": "profile",
-          "reason": "Understanding of org design for growth is not observable."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience creating predictability in channel sales organizations they have led through organizational design and process best practices.",
-          "source_quote": "Proven ability to create predictability in Channel sales orgs you’ve led, through a combination of org structure design and implementing process best practices",
-          "verification": "profile",
-          "reason": "Creating predictability is an outcome claim rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Familiarity with generating pipeline through inbound, outbound (BDR-sourced and AE-sourced), and channel sources.",
-          "source_quote": "Familiarity with how to drive pipeline from multiple sources: Inbound, Outbound (BDR-sourced, AE-sourced), Channel",
-          "verification": "profile",
-          "reason": "Pipeline generation sources are rarely itemized."
-        },
-        {
-          "field": "must_haves",
-          "id": "M7",
-          "requirement": "Project management, organizational, and process management skills.",
-          "source_quote": "Strong project management, organizational skills, and process management",
-          "verification": "profile",
-          "reason": "Organizational and process skills are soft skills."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M2": "P2",
-        "M3": "P3",
-        "M4": "P4",
-        "M5": "P5",
-        "M6": "P6",
-        "M7": "P7"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "5034dad9804f4801d731139dbd97bc2eef3101dd8da3d5409953750fc8eb3847",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "2a1fa242d77e2c6b6f15734d65a7de22f1896b1359275f45f09934ecac7f8c97",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Experience analyzing channel sales funnels and developing actionable insights from the data.",
+        "source_quote": "specific depth on analyzing Channel sales funnels and developing actionable insights from the data",
+        "verification": "profile",
+        "reason": "Funnel analysis is a practice rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience across SMB, mid-market, and enterprise end-customer segments and both high-velocity and enterprise channel sales cycles.",
+        "source_quote": "Experience across all end-customer segments (SMB, Mid-Market, Enterprise) and Channel sales cycles (High Velocity and Enterprise)",
+        "verification": "profile",
+        "reason": "Coverage of every segment and cycle type is rarely itemized."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Understanding of how hiring, team composition, and organizational design help grow a scaling channel sales organization.",
+        "source_quote": "Deep understanding of the critical elements to grow a Channel sales organization as a company scales such as hiring, team composition, and org structure/design",
+        "verification": "profile",
+        "reason": "Understanding of org design for growth is not observable."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Experience creating predictability in channel sales organizations they have led through organizational design and process best practices.",
+        "source_quote": "Proven ability to create predictability in Channel sales orgs you’ve led, through a combination of org structure design and implementing process best practices",
+        "verification": "profile",
+        "reason": "Creating predictability is an outcome claim rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Familiarity with generating pipeline through inbound, outbound (BDR-sourced and AE-sourced), and channel sources.",
+        "source_quote": "Familiarity with how to drive pipeline from multiple sources: Inbound, Outbound (BDR-sourced, AE-sourced), Channel",
+        "verification": "profile",
+        "reason": "Pipeline generation sources are rarely itemized."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Project management, organizational, and process management skills.",
+        "source_quote": "Strong project management, organizational skills, and process management",
+        "verification": "profile",
+        "reason": "Organizational and process skills are soft skills."
+      }
+    ]
   },
   "experience_context": [
     {

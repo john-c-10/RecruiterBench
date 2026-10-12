@@ -3,10 +3,10 @@
   "role_id": "2fe771f1-41f3-48ac-9e85-36d1efe1526f",
   "snapshot_sha256": "ee5f1437c7be416332b82cb1aca55009ecdb5ad51dcb5d38c2d5ac67220f591d",
   "input_sha256": "a5a8d7a6249bb669f2f4134b1a43f8a24fc493114c4a98f4f33038958a5c04bc",
-  "rubric_sha256": "38fa12e770dfda1f27d5b12d4e2613a0d477c556a7e5fcd16f3b881e9f53eda5",
+  "rubric_sha256": "0273ebcdb78dab98a559856137895351974b7e0003ae532fc78c1e9e5cb36fe9",
   "rubric": {
     "role_summary": "Staff-level manufacturing engineer scaling electrode manufacturing equipment for iron-air batteries, focused on calendering, drying, and slitting; works with suppliers through equipment design, acceptance testing, and commissioning.",
-    "search_query": "Find candidates for this role:\nStaff-level manufacturing engineer scaling electrode manufacturing equipment for iron-air batteries, focused on calendering, drying, and slitting; works with suppliers through equipment design, acceptance testing, and commissioning.\nMandatory professional qualifications:\n- 7+ years of manufacturing engineering experience in a pilot line or fast-paced manufacturing environment, such as NPI or scale-up.\n- Hands-on experience with electrode manufacturing processes such as calendering, drying, or slitting.\n- Experience commissioning or testing manufacturing equipment.\n- Bachelor’s degree in Chemical Engineering, Mechanical Engineering, Materials Science, Manufacturing Engineering, or a related field.\nPreferred, not mandatory:\n- Hands-on experience with calendering, drying, and slitting processes.\n- Demonstrated track record of equipment purchasing, commissioning, and testing.\n- Proficiency with statistical methods and tools for process-development decisions, using JMP, Minitab, or an equivalent.\n- Experience authoring process, safety, and quality documentation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Weirton, WV area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "search_query": "Find candidates for this role:\nStaff-level manufacturing engineer scaling electrode manufacturing equipment for iron-air batteries, focused on calendering, drying, and slitting; works with suppliers through equipment design, acceptance testing, and commissioning.\nMandatory professional qualifications:\n- 7+ years of manufacturing engineering experience in a pilot line or fast-paced manufacturing environment, such as NPI or scale-up.\n- Hands-on experience with electrode manufacturing processes such as calendering, drying, or slitting.\n- Experience commissioning or testing manufacturing equipment.\n- Bachelor’s degree in Chemical Engineering, Mechanical Engineering, Materials Science, Manufacturing Engineering, or a related field.\nPreferred, not mandatory:\n- Hands-on experience with calendering, drying, and slitting processes.\n- Demonstrated track record of equipment purchasing, commissioning, and testing.\n- Proficiency with statistical methods and tools for process-development decisions, using JMP, Minitab, or an equivalent.\n- Experience authoring process, safety, and quality documentation.\nWork location and geographic eligibility:\nLocation: United States. The role is onsite in Weirton, West Virginia (near Pittsburgh), and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -129,104 +129,41 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "343786c8ff3f2d6d38ef9fe88e2415105e07455dfc671d6995839a66f830c4b5",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Onsite at Form Factory 1 in Weirton, West Virginia; relocation assistance is available. Present residence in the area is not required.",
-      "workplace_type": "onsite",
-      "allowed_locations": [
-        "Weirton, WV"
-      ],
-      "remote_scope": null,
-      "relocation": "offered",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Weirton, WV",
-        "OnSite",
-        "This role will be located at Form Factory 1 https://formenergy.com/form-factory-1/ in Weirton, WV, which is just a short drive outside of Pittsburgh, PA. Relocation assistance is available."
-      ]
+    "location": {
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic."
     },
-    "experience_context": [
+    "removed_criteria": [],
+    "reduced_criteria": [
       {
-        "criterion_id": "M1",
-        "source_quote": "7+ years of experience with manufacturing engineering in a pilot line or fast-paced manufacturing environment, such as NPI or scale-up.",
-        "effective_requirement": "7+ years of manufacturing engineering experience in a pilot line or fast-paced manufacturing environment, such as NPI or scale-up.",
-        "kind": "mandatory"
+        "field": "must_haves",
+        "extracted_requirement": "Hands-on experience with calendering, drying, and slitting processes.",
+        "effective_requirement": "Hands-on experience with electrode manufacturing processes such as calendering, drying, or slitting.",
+        "reason": "Electrode process work is implied by battery manufacturing roles; requiring all three named steps is unrealistic."
+      },
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Demonstrated track record of equipment purchasing, commissioning, and testing.",
+        "effective_requirement": "Experience commissioning or testing manufacturing equipment.",
+        "reason": "Equipment work is reasonably implied by manufacturing engineering; a purchasing+commissioning+testing track record is rarely stated."
       }
     ],
-    "observability": {
-      "parent_rubric_sha256": "3d69fae83ceddba1621e334284a9c7f2c983cdda1c8d59d3d2d7d589b170697e",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "3d69fae83ceddba1621e334284a9c7f2c983cdda1c8d59d3d2d7d589b170697e",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Proficiency with statistical methods and tools for process-development decisions, using JMP, Minitab, or an equivalent.",
-          "source_quote": "Proficiency with statistical methods and tools for making process development decisions (using JMP, Minitab, or equivalent).",
-          "verification": "profile",
-          "reason": "Statistical tool use (JMP/Minitab) is rarely stated and not reliably implied."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "Experience authoring process, safety, and quality documentation.",
-          "source_quote": "Excellent communication and organizational skills, and experience authoring process, safety, and quality documentation for best-in-class practices.",
-          "verification": "profile",
-          "reason": "Authoring process, safety and quality documentation is rarely mentioned on profiles."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M2",
-          "before": "Hands-on experience with calendering, drying, and slitting processes.",
-          "after": "Hands-on experience with electrode manufacturing processes such as calendering, drying, or slitting.",
-          "reason": "Electrode process work is implied by battery manufacturing roles; requiring all three named steps is unrealistic."
-        },
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "before": "Demonstrated track record of equipment purchasing, commissioning, and testing.",
-          "after": "Experience commissioning or testing manufacturing equipment.",
-          "reason": "Equipment work is reasonably implied by manufacturing engineering; a purchasing+commissioning+testing track record is rarely stated."
-        }
-      ],
-      "criterion_id_map": {
-        "M6": "M4"
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Proficiency with statistical methods and tools for process-development decisions, using JMP, Minitab, or an equivalent.",
+        "source_quote": "Proficiency with statistical methods and tools for making process development decisions (using JMP, Minitab, or equivalent).",
+        "verification": "profile",
+        "reason": "Statistical tool use (JMP/Minitab) is rarely stated and not reliably implied."
       },
-      "demoted_preference_ids": {
-        "M2": "P1",
-        "M3": "P2",
-        "M4": "P3",
-        "M5": "P4"
+      {
+        "field": "must_haves",
+        "requirement": "Experience authoring process, safety, and quality documentation.",
+        "source_quote": "Excellent communication and organizational skills, and experience authoring process, safety, and quality documentation for best-in-class practices.",
+        "verification": "profile",
+        "reason": "Authoring process, safety and quality documentation is rarely mentioned on profiles."
       }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "98328a090148c8934967c4a14377c234bb81dc50b668ac6f98ca80f6f8b79489",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "5295e025cededea61867418d5f2f3d6ae4ef1574e150c8977b7e794cd2188ba1",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
-      "decision": "country",
-      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
-      "previous_allowed_locations": [
-        "Greater Weirton, WV area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Weirton, WV area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
-      "location_requirement_changed": true
-    }
+    ]
   },
   "experience_context": [
     {

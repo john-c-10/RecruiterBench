@@ -3,10 +3,10 @@
   "role_id": "f7238f0e-7522-408c-aec5-7028e71aa659",
   "snapshot_sha256": "75c5b55531e0f5842e880f09e24898ce0cfa66e6b9c4eb1462cb87ccd07d3c07",
   "input_sha256": "451f8eb3a5ad2e0b4302d76c13d5a41222917f9f04ecd2e33f7c1c7e574cfdd0",
-  "rubric_sha256": "237cffc3938988a298b8f835bed6ce985b109e42ea91d8d2af3b225a6e21237c",
+  "rubric_sha256": "9dfe20174ee8cc066d6bd7f3b5e253cc65ee81c81b504247d4cbb83616ff0a86",
   "rubric": {
     "role_summary": "Senior clinical database and CDI subject matter expert who translates clinical scenarios and customer practices into guidance for product and engineering, and designs digital experiments for healthcare revenue-cycle products.",
-    "search_query": "Find candidates for this role:\nSenior clinical database and CDI subject matter expert who translates clinical scenarios and customer practices into guidance for product and engineering, and designs digital experiments for healthcare revenue-cycle products.\nMandatory professional qualifications:\n- Bedside clinical background and clinical documentation integrity (CDI) experience.\n- Bachelor’s or Master’s degree in nursing.\n- Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.\nPreferred, not mandatory:\n- Experience with Plan-Do-Study-Act (PDSA) process improvement cycles or nursing informatics research.\n- Business, Management, or similar field and/or relevant experience.\n- Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.\n- Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.\n- QA, documentation, and training experience.\n- Analytical, research/data science, and project management skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "search_query": "Find candidates for this role:\nSenior clinical database and CDI subject matter expert who translates clinical scenarios and customer practices into guidance for product and engineering, and designs digital experiments for healthcare revenue-cycle products.\nMandatory professional qualifications:\n- Bedside clinical background and clinical documentation integrity (CDI) experience.\n- Bachelor’s or Master’s degree in nursing.\n- Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.\nPreferred, not mandatory:\n- Experience with Plan-Do-Study-Act (PDSA) process improvement cycles or nursing informatics research.\n- Business, Management, or similar field and/or relevant experience.\n- Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.\n- Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.\n- QA, documentation, and training experience.\n- Analytical, research/data science, and project management skills.\nWork location and geographic eligibility:\nLocation: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -134,127 +134,57 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "ad4d332a1f58590390628c0890014610a3fbcee31bba7a2c5bb337a2cd8c35b2",
-    "resolved_ambiguities": [
-      "The phrase “Coding and/ CDI departments” does not clearly specify whether Coding, CDI, or both departments are intended.",
-      "The 5+ years requirement does not clearly state whether the duration also applies to the consulting or project management alternative."
-    ],
-    "resolution": "Coding OR CDI qualifies; the five-year minimum applies to the leadership route, not the less restrictive consulting/project-management alternative.",
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Remote work within the United States.",
-      "workplace_type": "remote",
-      "allowed_locations": [
-        "United States"
-      ],
-      "remote_scope": "Within the US",
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "Remote - United States",
-        "We consider ourselves experts in working collaboratively wherever our team members happen to reside within the US."
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M4",
-        "source_quote": "5+ years experience as a leader in Coding and/ CDI departments within the revenue cycle or worked in a consulting or project management capacity",
-        "effective_requirement": "Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "f876315d0654bbdd1f2b795036dc3f90e14e668c2e15078bda978c96ebd4690a",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M3",
-          "requirement": "RN and CCDS.",
-          "source_quote": "Must have an RN and CCDS",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        },
-        {
-          "field": "must_haves",
-          "id": "M8",
-          "requirement": "Current credentials from AHIMA, AAPC, or ACDIS.",
-          "source_quote": "Current credentials from AHIMA, AAPC, or ACDIS",
-          "verification": "candidate_confirmation",
-          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
-        }
-      ],
-      "reduced_criteria": [],
-      "criterion_id_map": {
-        "M4": "M3",
-        "M5": "M4",
-        "M6": "M5",
-        "M7": "M6"
-      }
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "950bbf4ab506b9f3e884503ca90f9dca42da7381973b9b6433215943b2122402",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [
-        {
-          "field": "must_haves",
-          "id": "M4",
-          "requirement": "Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.",
-          "source_quote": "Concurrent and retrospective CDI review experience and experience in both inpatient and outpatient settings required",
-          "verification": "profile",
-          "reason": "Specific review types and settings are rarely itemized."
-        },
-        {
-          "field": "must_haves",
-          "id": "M5",
-          "requirement": "QA, documentation, and training experience.",
-          "source_quote": "QA / documentation/training experience",
-          "verification": "profile",
-          "reason": "QA, documentation and training activities are rarely stated."
-        },
-        {
-          "field": "must_haves",
-          "id": "M6",
-          "requirement": "Analytical, research/data science, and project management skills.",
-          "source_quote": "Strong analytical, research/data science, and project management skills",
-          "verification": "profile",
-          "reason": "Analytical and research skills are generic and rarely stated."
-        }
-      ],
-      "reduced_criteria": [
-        {
-          "field": "must_haves",
-          "id": "M1",
-          "before": "Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.",
-          "after": "Bedside clinical background and clinical documentation integrity (CDI) experience.",
-          "reason": "Bedside nursing and CDI roles are visible; end-to-end billing-code knowledge is rarely stated."
-        }
-      ],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {
-        "M1": "P3",
-        "M4": "P4",
-        "M5": "P5",
-        "M6": "P6"
-      }
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "d40ef01a7aa6365f54664d263b124e35f9cad4d78b05593353b284e45c861722",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "ac76b335707f2e3bfd2e07e5bbeff5da08e5279774fdb4bd44ed00895a6bc7bb",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "region",
-      "reason": "Already one location rule; requirement text restated in the single-location form.",
-      "previous_allowed_locations": [
-        "United States"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
-      "location_requirement_changed": true
-    }
+      "reason": "Already one location rule; requirement text restated in the single-location form."
+    },
+    "removed_criteria": [
+      {
+        "field": "must_haves",
+        "requirement": "RN and CCDS.",
+        "source_quote": "Must have an RN and CCDS",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Current credentials from AHIMA, AAPC, or ACDIS.",
+        "source_quote": "Current credentials from AHIMA, AAPC, or ACDIS",
+        "verification": "candidate_confirmation",
+        "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+      }
+    ],
+    "reduced_criteria": [
+      {
+        "field": "must_haves",
+        "extracted_requirement": "Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.",
+        "effective_requirement": "Bedside clinical background and clinical documentation integrity (CDI) experience.",
+        "reason": "Bedside nursing and CDI roles are visible; end-to-end billing-code knowledge is rarely stated."
+      }
+    ],
+    "demoted_to_preferences": [
+      {
+        "field": "must_haves",
+        "requirement": "Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.",
+        "source_quote": "Concurrent and retrospective CDI review experience and experience in both inpatient and outpatient settings required",
+        "verification": "profile",
+        "reason": "Specific review types and settings are rarely itemized."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "QA, documentation, and training experience.",
+        "source_quote": "QA / documentation/training experience",
+        "verification": "profile",
+        "reason": "QA, documentation and training activities are rarely stated."
+      },
+      {
+        "field": "must_haves",
+        "requirement": "Analytical, research/data science, and project management skills.",
+        "source_quote": "Strong analytical, research/data science, and project management skills",
+        "verification": "profile",
+        "reason": "Analytical and research skills are generic and rarely stated."
+      }
+    ]
   },
   "experience_context": [
     {

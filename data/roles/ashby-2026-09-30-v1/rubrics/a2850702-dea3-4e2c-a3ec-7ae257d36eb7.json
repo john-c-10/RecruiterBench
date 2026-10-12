@@ -3,10 +3,10 @@
   "role_id": "a2850702-dea3-4e2c-a3ec-7ae257d36eb7",
   "snapshot_sha256": "f34a9396bc50eb8ebdd893986a7c71729200e71bffa826bac26ee7c40707d72a",
   "input_sha256": "ab46835d2450fe7c2274f29f445122e97dcf6b605d1b4c4b8f54d3cfb7eac694",
-  "rubric_sha256": "ccfc90b444059708d0f88611159db6665458dae6e8c4d9a41aa9294d1055d1a7",
+  "rubric_sha256": "160f7e21a45d729905c93dff829cd36f3357dec5af242710f06f36c81599da72",
   "rubric": {
     "role_summary": "Engineering role designing and optimizing distributed infrastructure and pipelines for large-scale LLM and multimodal model training, including multi-GPU performance and training reliability.",
-    "search_query": "Find candidates for this role:\nEngineering role designing and optimizing distributed infrastructure and pipelines for large-scale LLM and multimodal model training, including multi-GPU performance and training reliability.\nMandatory professional qualifications:\n- Bachelor's degree in Computer Science, Computer Engineering, or a related field, or equivalent practical experience.\n- 3+ years of experience with distributed systems and ML infrastructure.\n- Experience with PyTorch.\n- Proficiency in cloud platforms; AWS, GCP, and Azure are listed examples, not a requirement to know all three.\n- Experience with containerization and orchestration; Kubernetes and Docker are listed examples.\n- Knowledge of distributed training techniques; data parallelism, model parallelism, and FSDP are listed examples.\nPreferred, not mandatory:\n- Master's or PhD in Computer Science or a related field.\n- Experience training large language models or multimodal AI systems.\n- Experience with ML workflow orchestration tools.\n- Background in optimizing high-performance distributed computing systems.\n- Familiarity with ML DevOps practices.\n- Contributions to open-source ML infrastructure or related projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "search_query": "Find candidates for this role:\nEngineering role designing and optimizing distributed infrastructure and pipelines for large-scale LLM and multimodal model training, including multi-GPU performance and training reliability.\nMandatory professional qualifications:\n- Bachelor's degree in Computer Science, Computer Engineering, or a related field, or equivalent practical experience.\n- 3+ years of experience with distributed systems and ML infrastructure.\n- Experience with PyTorch.\n- Proficiency in cloud platforms; AWS, GCP, and Azure are listed examples, not a requirement to know all three.\n- Experience with containerization and orchestration; Kubernetes and Docker are listed examples.\n- Knowledge of distributed training techniques; data parallelism, model parallelism, and FSDP are listed examples.\nPreferred, not mandatory:\n- Master's or PhD in Computer Science or a related field.\n- Experience training large language models or multimodal AI systems.\n- Experience with ML workflow orchestration tools.\n- Background in optimizing high-performance distributed computing systems.\n- Familiarity with ML DevOps practices.\n- Contributions to open-source ML infrastructure or related projects.\nWork location and geographic eligibility:\nLocation: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
     "must_haves": [
       {
         "id": "M1",
@@ -149,67 +149,13 @@
       "experience_fit_evidence": "stated_or_reasonably_implied",
       "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
     },
-    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
-    "parent_rubric_sha256": "786ca57faba67c74c9239bd4c0e8dfbe116f604cb166004f258adf2f6401d527",
-    "resolved_ambiguities": [],
-    "resolution": null,
-    "source_location_rubric": {
-      "required": true,
-      "requirement_text": "Hybrid role with San Mateo and New York listed as work locations; present residence in either location is not explicitly required.",
-      "workplace_type": "hybrid",
-      "allowed_locations": [
-        "San Mateo",
-        "New York, New York"
-      ],
-      "remote_scope": null,
-      "relocation": "unspecified",
-      "current_residence_required": false,
-      "source_quotes": [
-        "San Mateo",
-        "New York",
-        "Hybrid"
-      ]
-    },
-    "experience_context": [
-      {
-        "criterion_id": "M2",
-        "source_quote": "3+ years of experience with distributed systems and ML infrastructure",
-        "effective_requirement": "3+ years of experience with distributed systems and ML infrastructure.",
-        "kind": "mandatory"
-      }
-    ],
-    "observability": {
-      "parent_rubric_sha256": "35649845325a6b7693bd7944c0077f53265088ff05ac75593b482a591571352f",
-      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
-      "removed_criteria": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {}
-    },
-    "implied_evidence": {
-      "parent_rubric_sha256": "35649845325a6b7693bd7944c0077f53265088ff05ac75593b482a591571352f",
-      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
-      "demoted_to_preferences": [],
-      "reduced_criteria": [],
-      "criterion_id_map": {},
-      "demoted_preference_ids": {}
-    },
-    "metro_radius": {
-      "parent_rubric_sha256": "35649845325a6b7693bd7944c0077f53265088ff05ac75593b482a591571352f",
-      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
-      "location_requirement_changed": true
-    },
-    "single_location": {
-      "parent_rubric_sha256": "f656ae115e131062ccdf0b8950e1c9dace61d2e8e34976d521676203254c3783",
-      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+    "location": {
       "decision": "metro",
-      "reason": "Multiple office alternatives; kept the posting's primary office.",
-      "previous_allowed_locations": [
-        "San Francisco Bay Area, California",
-        "New York metropolitan area"
-      ],
-      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
-      "location_requirement_changed": true
-    }
+      "reason": "Multiple office alternatives; kept the posting's primary office."
+    },
+    "removed_criteria": [],
+    "reduced_criteria": [],
+    "demoted_to_preferences": []
   },
   "experience_context": [
     {
