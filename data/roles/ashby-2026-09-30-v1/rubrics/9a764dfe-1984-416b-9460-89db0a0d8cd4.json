@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9a764dfe-1984-416b-9460-89db0a0d8cd4",
+  "snapshot_sha256": "dd87c849ed0e52b47ba4f912d43b17ea44ee4ec9bc2cadf7f353b4b2151b0651",
+  "input_sha256": "8956133b8b1ca742e6e83733de32cda9b81c6f2b9c72711655859f4a9adde0af",
+  "rubric_sha256": "b2bfb688be08995f8a6eb1800fc98d3841f9f9a0da61a81a4d746da1ba8ffc0e",
+  "rubric": {
+    "role_summary": "Scientific account executive for an automated biology lab, combining technical sales and customer success for protein engineering customers. The role covers prospecting, assay selection, deal closing, onboarding, and account management.",
+    "search_query": "Find candidates for this role:\nScientific account executive for an automated biology lab, combining technical sales and customer success for protein engineering customers. The role covers prospecting, assay selection, deal closing, onboarding, and account management.\nMandatory professional qualifications:\n- Scientific background in protein engineering, biochemistry, biophysics, or a related field.\n- Experience in a customer-facing technical role, such as field application scientist, technical sales, scientific account management, or similar.\nPreferred, not mandatory:\n- CRO or biotech vendor experience.\n- Scientific background in protein engineering, biochemistry, biophysics, or a related field, with the ability to discuss binding kinetics, expression systems, and assay design.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Switzerland. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Scientific background in protein engineering, biochemistry, biophysics, or a related field.",
+        "source_quote": "Scientific background in protein engineering, biochemistry, biophysics, or a related field. You should be comfortable discussing binding kinetics (KD, kon, koff), expression systems, and assay design without needing to look things up.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience in a customer-facing technical role, such as field application scientist, technical sales, scientific account management, or similar.",
+        "source_quote": "Experience in a customer-facing technical role: field application scientist, technical sales, scientific account management, or similar.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "CRO or biotech vendor experience.",
+        "source_quote": "CRO or biotech vendor experience is a strong plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Scientific background in protein engineering, biochemistry, biophysics, or a related field, with the ability to discuss binding kinetics, expression systems, and assay design.",
+        "source_quote": "Scientific background in protein engineering, biochemistry, biophysics, or a related field. You should be comfortable discussing binding kinetics (KD, kon, koff), expression systems, and assay design without needing to look things up.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Switzerland (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Switzerland"
+      ],
+      "remote_scope": "Switzerland",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Switzerland",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Commercial drive and interest in revenue, pipeline, and closing deals.",
+      "Ability to adapt communication to scientific and business audiences.",
+      "Ability to manage a pipeline and priorities without heavy oversight.",
+      "Genuine interest in AI-driven protein design and companies in the field."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "dd87c849ed0e52b47ba4f912d43b17ea44ee4ec9bc2cadf7f353b4b2151b0651",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:56.678620+00:00",
+    "response_id": "chatcmpl-ETySI3McKRsOcHPMcWhq1akovN1q3",
+    "usage": {
+      "prompt_tokens": 2219,
+      "completion_tokens": 611,
+      "total_tokens": 2830,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 973,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1521bfacf6609a40bed7cd324ad114bce48fe6229f5668dbe02e6dc046675197",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role listed in Switzerland; the posting does not explicitly require current residence in Switzerland.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Switzerland"
+      ],
+      "remote_scope": "Switzerland",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Switzerland",
+        "Remote"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "eabbdb82ecfd94a3df3dcc6773374c7103d196f52614b6defcd70a226c6e7f92",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "eabbdb82ecfd94a3df3dcc6773374c7103d196f52614b6defcd70a226c6e7f92",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Scientific background in protein engineering, biochemistry, biophysics, or a related field, with the ability to discuss binding kinetics, expression systems, and assay design.",
+          "after": "Scientific background in protein engineering, biochemistry, biophysics, or a related field.",
+          "reason": "The scientific background is visible in degrees; ability to discuss specific topics is not stated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "47e6a10cb68420bdaf652cb363e0e646affc518ad96219791945844bc566910e",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "1985793735387d0faa9e67ef724d055dbc26fb65503e97045a964ef6201b9685",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Switzerland"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Switzerland. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

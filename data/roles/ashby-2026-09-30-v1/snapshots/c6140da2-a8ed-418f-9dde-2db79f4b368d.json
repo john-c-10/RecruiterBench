@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c6140da2-a8ed-418f-9dde-2db79f4b368d",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/embedding-vc/c6140da2-a8ed-418f-9dde-2db79f4b368d",
+    "board_url": "https://jobs.ashbyhq.com/embedding-vc",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/embedding-vc",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "c6140da2-a8ed-418f-9dde-2db79f4b368d",
+    "title": "Founder in Residence",
+    "department": "Embedding Labs",
+    "team": "Embedding Labs",
+    "employmentType": "FullTime",
+    "location": "Palo Alto, CA",
+    "secondaryLocations": [],
+    "publishedAt": "2025-11-08T22:55:13.419+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "Palo Alto"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/embedding-vc/c6140da2-a8ed-418f-9dde-2db79f4b368d",
+    "applyUrl": "https://jobs.ashbyhq.com/embedding-vc/c6140da2-a8ed-418f-9dde-2db79f4b368d/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Embedding VC backs engineering, product, and research visionaries building the next generation of AI-native companies.</p><p style=\"min-height:1.5em\">We partner early with founders inventing new paradigms in intelligence — from applied agents to infrastructure to creative computing.</p><p style=\"min-height:1.5em\">We’re opening applications for our <strong>Founder-in-Residence (FIR)</strong> program — a hands-on residency designed for exceptional builders who are ready to start their next AI venture. You’ll work side by side with our partners in <strong>San Francisco Bay Area</strong>, exploring new ideas and building from 0→1 with direct support from the Embedding VC network.</p><p style=\"min-height:1.5em\"></p><h3><strong>About the Role</strong></h3><p style=\"min-height:1.5em\">As a Founder-in-Residence, you’ll collaborate with our partners and portfolio founders to define, prototype, and launch a new AI company. You’ll have access to capital, technical talent, and co-building support to accelerate your path from idea to company formation.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You’ll:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Work closely with Embedding VC partners to explore high-potential problem spaces.</p></li><li><p style=\"min-height:1.5em\">Prototype rapidly, test assumptions, and validate early traction.</p></li><li><p style=\"min-height:1.5em\">Collaborate with our network of AI researchers, engineers, and operators.</p></li><li><p style=\"min-height:1.5em\">Access funding, design, and recruiting support once your direction is clear.</p></li></ul><p style=\"min-height:1.5em\"></p><h3><strong>About You</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experienced founder or PM/designer/engineer/growth hacker with a track record of building products end-to-end.</p></li><li><p style=\"min-height:1.5em\">Deep curiosity for AI systems, developer tools, or applied reasoning technologies.</p></li><li><p style=\"min-height:1.5em\">Independent thinker who moves fast, iterates often, and thrives in ambiguity.</p></li><li><p style=\"min-height:1.5em\">Comfortable working in-person part of the week in <strong>San Francisco Bay Area</strong>.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Bonus if you’ve explored:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">LLM-based systems, agents, or AI developer tools.</p></li><li><p style=\"min-height:1.5em\">Previous startup founding or early technical leadership experience.</p></li></ul><p style=\"min-height:1.5em\"></p><h3><strong>Why Join as FIR</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Start your next company with Embedding VC as your earliest partner.</p></li><li><p style=\"min-height:1.5em\">Work in a founder-led environment designed for speed and creativity.</p></li><li><p style=\"min-height:1.5em\">Tap into a strong AI ecosystem of technical advisors and investors.</p></li><li><p style=\"min-height:1.5em\">Hybrid flexibility, with in-person collaboration.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Location:</strong> Hybrid, Palo ALo</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">If you’re ready to build at the frontier of AI, we’d love to meet you.</p><p style=\"min-height:1.5em\">Apply via <strong>Embedding VC</strong> to join our next Founder-in-Residence cohort.</p>",
+    "descriptionPlain": "Embedding VC backs engineering, product, and research visionaries building the next generation of AI-native companies.\n\nWe partner early with founders inventing new paradigms in intelligence — from applied agents to infrastructure to creative computing.\n\nWe’re opening applications for our Founder-in-Residence (FIR) program — a hands-on residency designed for exceptional builders who are ready to start their next AI venture. You’ll work side by side with our partners in San Francisco Bay Area, exploring new ideas and building from 0→1 with direct support from the Embedding VC network.\n\n\n\n\nABOUT THE ROLE\n\nAs a Founder-in-Residence, you’ll collaborate with our partners and portfolio founders to define, prototype, and launch a new AI company. You’ll have access to capital, technical talent, and co-building support to accelerate your path from idea to company formation.\n\n\n\nYou’ll:\n\n - Work closely with Embedding VC partners to explore high-potential problem spaces.\n\n - Prototype rapidly, test assumptions, and validate early traction.\n\n - Collaborate with our network of AI researchers, engineers, and operators.\n\n - Access funding, design, and recruiting support once your direction is clear.\n\n\n\n\nABOUT YOU\n\n - Experienced founder or PM/designer/engineer/growth hacker with a track record of building products end-to-end.\n\n - Deep curiosity for AI systems, developer tools, or applied reasoning technologies.\n\n - Independent thinker who moves fast, iterates often, and thrives in ambiguity.\n\n - Comfortable working in-person part of the week in San Francisco Bay Area.\n\n\n\nBonus if you’ve explored:\n\n - LLM-based systems, agents, or AI developer tools.\n\n - Previous startup founding or early technical leadership experience.\n\n\n\n\nWHY JOIN AS FIR\n\n - Start your next company with Embedding VC as your earliest partner.\n\n - Work in a founder-led environment designed for speed and creativity.\n\n - Tap into a strong AI ecosystem of technical advisors and investors.\n\n - Hybrid flexibility, with in-person collaboration.\n\n\n\nLocation: Hybrid, Palo ALo\n\n\n\nIf you’re ready to build at the frontier of AI, we’d love to meet you.\n\nApply via Embedding VC to join our next Founder-in-Residence cohort."
+  }
+}

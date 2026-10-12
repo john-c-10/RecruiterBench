@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0b9bd2d6-6f2e-46ef-a7f2-063eaca9f8bf",
+  "snapshot_sha256": "245791480a4305d4e67d4a0516251c2daa2379e0c4d537deb7dd94c2ecffa8d7",
+  "input_sha256": "372405973964e1c6c7c89ae92c896231b6598b55a3b814ae876d9e83cd02cbef",
+  "rubric_sha256": "eed77609a66c2a76b176c53ace8d830ad4cf2432e6d0a3208e76bac903df4990",
+  "rubric": {
+    "role_summary": "Entry-level investment banking analyst supporting M&A and capital advisory transactions across industries, including financial modeling, valuation, research, transaction materials, and deal execution.",
+    "search_query": "Find candidates for this role:\nEntry-level investment banking analyst supporting M&A and capital advisory transactions across industries, including financial modeling, valuation, research, transaction materials, and deal execution.\nMandatory professional qualifications:\n- Academic background in finance, economics, business, or a related field; no specific degree is stated.\n- Proficiency in Microsoft Excel and PowerPoint.\nPreferred, not mandatory:\n- Internship experience in investment banking, private equity, consulting, or a related field.\n- Familiarity with Latin America and Caribbean markets.\n- Interest in infrastructure, consumer, TMT, financial services, or industrials.\n- Analytical, quantitative, and problem-solving skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Latin America; Greater Mexico City, Mexico area; Panama; Greater Bogotá, Colombia area; Greater Lima, Peru area; Chile; Greater Buenos Aires, Argentina area; Guatemala; Dominican Republic. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Academic background in finance, economics, business, or a related field; no specific degree is stated.",
+        "source_quote": "Strong academic background in finance, economics, business, or related field",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Proficiency in Microsoft Excel and PowerPoint.",
+        "source_quote": "Proficiency in Microsoft Excel and PowerPoint",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Internship experience in investment banking, private equity, consulting, or a related field.",
+        "source_quote": "Internship experience in investment banking, private equity, consulting, or related fields",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with Latin America and Caribbean markets.",
+        "source_quote": "Familiarity with the Latin America and Caribbean markets",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Interest in infrastructure, consumer, TMT, financial services, or industrials.",
+        "source_quote": "Interest in sectors such as infrastructure, consumer, TMT, financial services, or industrials",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P4",
+        "requirement": "Analytical, quantitative, and problem-solving skills.",
+        "source_quote": "Excellent analytical, quantitative, and problem-solving skills",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Latin America (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Latin America"
+      ],
+      "remote_scope": "Latin America",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Located in Latin America",
+        "Remote-first flexibility with strong regional integration",
+        "Mexico City",
+        "Panama",
+        "Bogotá",
+        "Lima",
+        "Chile",
+        "Buenos Aires",
+        "Guatemala",
+        "Dominican Republic"
+      ]
+    },
+    "soft_requirements": [
+      "Strong academic performance or background, beyond the stated field of study.",
+      "Excellent level of analytical, quantitative, and problem-solving ability.",
+      "Clear and effective communication.",
+      "Motivation, curiosity, and initiative in learning investment banking skills."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "245791480a4305d4e67d4a0516251c2daa2379e0c4d537deb7dd94c2ecffa8d7",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:28.454490+00:00",
+    "response_id": "chatcmpl-ETySm8Bv5p4wlNmSmP6K7hzpPBXRm",
+    "usage": {
+      "prompt_tokens": 2030,
+      "completion_tokens": 928,
+      "total_tokens": 2958,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 784,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 67,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "92ba6982a6ac3e424478c9e60a29978dc694976b9fce9eb866552bd094132150",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Candidate must be located in Latin America. The role is remote-first; listed locations are Mexico City, Panama, Bogotá, Lima, Chile, Buenos Aires, Guatemala, and the Dominican Republic. The explicit Latin America eligibility requirement is broader than the listed locations.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Latin America",
+        "Mexico City, Mexico",
+        "Panama",
+        "Bogotá, Colombia",
+        "Lima, Peru",
+        "Chile",
+        "Buenos Aires, Argentina",
+        "Guatemala",
+        "Dominican Republic"
+      ],
+      "remote_scope": "Latin America",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Located in Latin America",
+        "Remote-first flexibility with strong regional integration",
+        "Mexico City",
+        "Panama",
+        "Bogotá",
+        "Lima",
+        "Chile",
+        "Buenos Aires",
+        "Guatemala",
+        "Dominican Republic"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "8a70b17e0c8b36ad3230995cba5d1ebbceca55bc5964d70c9cfc955b397e20ca",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Fluency in both Spanish and English.",
+          "source_quote": "Spanish and English fluency required",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d1afbf49536832c084aab3aa34828ee7af1927a8f5e980f46c1c56c177e313eb",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Analytical, quantitative, and problem-solving skills.",
+          "source_quote": "Excellent analytical, quantitative, and problem-solving skills",
+          "verification": "profile",
+          "reason": "Analytical and problem-solving skills are soft skills."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M3": "M2"
+      },
+      "demoted_preference_ids": {
+        "M2": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "1458333776973e61c8d990deaa1f5c9209f0e32f970131a380b09813e0220d03",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "1bdd3edf3642a22c5e5cfcf3140e3fa353568abffa5e102cb02c433f528e65aa",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Located in Latin America, remote-first; the cities are inside that region.",
+      "previous_allowed_locations": [
+        "Latin America",
+        "Greater Mexico City, Mexico area",
+        "Panama",
+        "Greater Bogotá, Colombia area",
+        "Greater Lima, Peru area",
+        "Chile",
+        "Greater Buenos Aires, Argentina area",
+        "Guatemala",
+        "Dominican Republic"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Latin America; Greater Mexico City, Mexico area; Panama; Greater Bogotá, Colombia area; Greater Lima, Peru area; Chile; Greater Buenos Aires, Argentina area; Guatemala; Dominican Republic. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

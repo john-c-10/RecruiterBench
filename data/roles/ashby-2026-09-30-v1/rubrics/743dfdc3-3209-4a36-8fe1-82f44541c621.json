@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "role_id": "743dfdc3-3209-4a36-8fe1-82f44541c621",
+  "snapshot_sha256": "61baf8643e3770c4d4b7b185ab441c3020a7304c7c8e1fc2e9ebb6543449d302",
+  "input_sha256": "2f6b0a29aae0636c34e4d473ff778506066c6ca432d906f41edc6bb80462eb96",
+  "rubric_sha256": "2d6336ae5ce3434ab7c0ecb96ae9bff0d8089afbb892b95b19145b04d9d776db",
+  "rubric": {
+    "role_summary": "Onsite Safety Manager for high-hazard infrastructure operations, focused on designing and delivering workforce safety training, maintaining compliance records, and improving training effectiveness.",
+    "search_query": "Find candidates for this role:\nOnsite Safety Manager for high-hazard infrastructure operations, focused on designing and delivering workforce safety training, maintaining compliance records, and improving training effectiveness.\nMandatory professional qualifications:\n- Bachelor’s degree in Engineering (CHE, EE, ISE, ME), Safety, Environmental Science, or a related field.\n- 8+ years of safety training experience in heavy manufacturing, industrial operations, or a similar high-hazard environment.\n- Knowledge of OSHA regulations.\n- Experience delivering safety training to frontline workers, supervisors, and technical staff.\nPreferred, not mandatory:\n- Advanced degree in engineering or safety.\n- 10+ years of safety training experience.\n- Expert knowledge of OSHA (29 CFR 1910 and 1926), NFPA, ANSI, ISO, IEC, UL, and EPA codes, standards, and regulations.\n- Ability to design curriculum and training modules and adapt content for hands-on, classroom, and digital formats.\n- Proficiency with training management systems (LMS) and digital recordkeeping tools.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Phoenix, AZ area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s degree in Engineering (CHE, EE, ISE, ME), Safety, Environmental Science, or a related field.",
+        "source_quote": "Bachelor’s degree in Engineering (CHE, EE, ISE, ME), Safety, Environmental Science, or related field.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "8+ years of safety training experience in heavy manufacturing, industrial operations, or a similar high-hazard environment.",
+        "source_quote": "8+ years of safety training experience in heavy manufacturing, industrial operations, or similar high-hazard environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Knowledge of OSHA regulations.",
+        "source_quote": "Expert knowledge of OSHA (29 CFR 1910 and 1926), NFPA, ANSI, ISO, IEC, UL, and EPA codes, standards, and regulations.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience delivering safety training to frontline workers, supervisors, and technical staff.",
+        "source_quote": "Demonstrated experience delivering safety training to diverse audiences, including frontline workers, supervisors, and technical staff.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Advanced degree in engineering or safety.",
+        "source_quote": "Advanced degree in engineering or safety.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "10+ years of safety training experience.",
+        "source_quote": "10+ years of safety training experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Expert knowledge of OSHA (29 CFR 1910 and 1926), NFPA, ANSI, ISO, IEC, UL, and EPA codes, standards, and regulations.",
+        "source_quote": "Expert knowledge of OSHA (29 CFR 1910 and 1926), NFPA, ANSI, ISO, IEC, UL, and EPA codes, standards, and regulations.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Ability to design curriculum and training modules and adapt content for hands-on, classroom, and digital formats.",
+        "source_quote": "Ability to design curriculum, build training modules, and adapt content for hands-on, classroom, and digital formats.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Proficiency with training management systems (LMS) and digital recordkeeping tools.",
+        "source_quote": "Proficiency with training management systems (LMS) and digital recordkeeping tools.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Phoenix, AZ area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Phoenix, AZ area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Phoenix, AZ",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "61baf8643e3770c4d4b7b185ab441c3020a7304c7c8e1fc2e9ebb6543449d302",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:22.825282+00:00",
+    "response_id": "chatcmpl-ETyTdgjqWjOutUX31zHE5xxgqSghB",
+    "usage": {
+      "prompt_tokens": 2494,
+      "completion_tokens": 1016,
+      "total_tokens": 3510,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1248,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "f3b380b053f9917c78b80d55fdca8d5d760ceb5d2cd827d2f50e0394ae889b9b",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Phoenix, Arizona; present residence in Phoenix is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Phoenix, AZ"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Phoenix, AZ",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "8+ years of safety training experience in heavy manufacturing, industrial operations, or similar high-hazard environment.",
+        "effective_requirement": "8+ years of safety training experience in heavy manufacturing, industrial operations, or a similar high-hazard environment.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "P2",
+        "source_quote": "10+ years of safety training experience.",
+        "effective_requirement": "10+ years of safety training experience.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "85e3e43557078c55dfd11ccdf110c2cead60e8d1c115f46cb7aebef7ca422789",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Completed OSHA 30, OSHA 500/501 trainer authorization, CST, CET, or another relevant safety credential.",
+          "source_quote": "Certification/Training Completed: OSHA 30, OSHA 500/501 trainer authorization, CST, CET, or other relevant safety credential.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "f0f1e4875c01e6815c0f29a07e5a26187eaab29c70b8bd94741c7443bde6847f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to design curriculum and training modules and adapt content for hands-on, classroom, and digital formats.",
+          "source_quote": "Ability to design curriculum, build training modules, and adapt content for hands-on, classroom, and digital formats.",
+          "verification": "profile",
+          "reason": "Curriculum design across formats is a specific practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Proficiency with training management systems (LMS) and digital recordkeeping tools.",
+          "source_quote": "Proficiency with training management systems (LMS) and digital recordkeeping tools.",
+          "verification": "profile",
+          "reason": "LMS/recordkeeping tool proficiency is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Expert knowledge of OSHA (29 CFR 1910 and 1926), NFPA, ANSI, ISO, IEC, UL, and EPA codes, standards, and regulations.",
+          "after": "Knowledge of OSHA regulations.",
+          "reason": "OSHA is commonly listed by safety professionals; expert knowledge of every listed standard is unrealistic."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M5": "P4",
+        "M6": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "e4c871b9d681c12bc7cfa4876d322311d3817dfb5f1b310ceb80d26562833b98",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "36ee2f7871f2df4e068016e969a4b12faec47db1357c2df15a641fd9f0666d82",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Phoenix, AZ area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Phoenix, AZ area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "8+ years of safety training experience in heavy manufacturing, industrial operations, or similar high-hazard environment.",
+      "effective_requirement": "8+ years of safety training experience in heavy manufacturing, industrial operations, or a similar high-hazard environment.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "10+ years of safety training experience.",
+      "effective_requirement": "10+ years of safety training experience.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

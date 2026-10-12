@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "role_id": "09755630-b0d3-42e9-85cf-76a26ec37d46",
+  "snapshot_sha256": "5e6aa882077fa8b2a5034fa5ace0ecb4ce515690e2abd80a60f436c31378cc3a",
+  "input_sha256": "555f479e3ab471ec3e8efa23057a603607acdf0f7ee1a8d1f0be230243372317",
+  "rubric_sha256": "65e6f457aa57060b7c01c44a845744c689b3a4d7a89aeb0f91a41becbaa7d2c4",
+  "rubric": {
+    "role_summary": "Wealth Advisor responsible for client relationships, comprehensive financial planning, investment management, and converting warm inbound leads at a registered investment advisor.",
+    "search_query": "Find candidates for this role:\nWealth Advisor responsible for client relationships, comprehensive financial planning, investment management, and converting warm inbound leads at a registered investment advisor.\nMandatory professional qualifications:\n- At least 5 years of experience in financial services.\n- Experience managing client relationships and delivering financial planning.\n- Knowledge of investment allocation, portfolio construction, and fiduciary responsibilities.\nPreferred, not mandatory:\n- Experience in wealth management or advisory.\n- CFP, CFA, CPA, or another advanced financial designation.\n- Demonstrated ability to independently manage multiple client relationships, deliver comprehensive financial planning, and convert warm leads in a fast-paced environment.\n- Proficiency in Google Workspace.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "At least 5 years of experience in financial services.",
+        "source_quote": "Minimum of 5 years of experience in financial services",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience managing client relationships and delivering financial planning.",
+        "source_quote": "Demonstrated ability to independently manage multiple client relationships, deliver comprehensive financial planning, and convert warm leads in a fast-paced environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Knowledge of investment allocation, portfolio construction, and fiduciary responsibilities.",
+        "source_quote": "Strong knowledge of investment allocation, portfolio construction, and fiduciary responsibilities.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in wealth management or advisory.",
+        "source_quote": "preferably in wealth management or advisory",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "CFP, CFA, CPA, or another advanced financial designation.",
+        "source_quote": "CFP®, CFA®, CPA, or other advanced financial designation preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Demonstrated ability to independently manage multiple client relationships, deliver comprehensive financial planning, and convert warm leads in a fast-paced environment.",
+        "source_quote": "Demonstrated ability to independently manage multiple client relationships, deliver comprehensive financial planning, and convert warm leads in a fast-paced environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Proficiency in Google Workspace.",
+        "source_quote": "Proficiency in Google Workspace",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York City",
+        "New York, NY (In Office)",
+        "Location: The first two years are mandatory full-time in-office in NYC. Remote eligibility thereafter based on performance and business needs."
+      ]
+    },
+    "soft_requirements": [
+      "Exceptional verbal and written communication across multiple mediums.",
+      "High integrity and commitment to ethical and fiduciary standards.",
+      "Organizational ability, prioritization, and responsiveness.",
+      "Comfort learning new financial technology platforms.",
+      "Openness to feedback, coaching, and course correction.",
+      "Ability to build collaborative, inclusive, respectful, trust-based team relationships."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "5e6aa882077fa8b2a5034fa5ace0ecb4ce515690e2abd80a60f436c31378cc3a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:49.973818+00:00",
+    "response_id": "chatcmpl-ETyT7b66gs10VXTwrrBLUnLNQExB1",
+    "usage": {
+      "prompt_tokens": 2616,
+      "completion_tokens": 913,
+      "total_tokens": 3529,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1370,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 48,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "bcb6f325f6a6caf85776e8fe4da9eab3ca94efe3357bd9cda15740eeb424557f",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Mandatory full-time in-office work in New York City for the first two years; remote eligibility afterward depends on performance and business needs.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York City, New York"
+      ],
+      "remote_scope": "Potential remote eligibility after two years, conditional on performance and business needs; geographic scope unspecified.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York City",
+        "New York, NY (In Office)",
+        "Location: The first two years are mandatory full-time in-office in NYC. Remote eligibility thereafter based on performance and business needs."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Minimum of 5 years of experience in financial services",
+        "effective_requirement": "At least 5 years of experience in financial services.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "80903906014fab6a8770d2960fa3234a1ae2b30ced035f3154e6d0acb839773d",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Willingness to obtain Series 65 within one month of hire, unless already held or satisfied through a qualifying designation.",
+          "source_quote": "Willingness to obtain the required Series 65 within one month of hire (if not already held or satisfied through qualifying designation).",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "00fb62fae12df43ad11055e6244d903b08fc0c41fa83c1ab47e084b2e95df1a5",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Proficiency in Google Workspace.",
+          "source_quote": "Proficiency in Google Workspace",
+          "verification": "profile",
+          "reason": "Generic office-tool proficiency is rarely listed."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Demonstrated ability to independently manage multiple client relationships, deliver comprehensive financial planning, and convert warm leads in a fast-paced environment.",
+          "after": "Experience managing client relationships and delivering financial planning.",
+          "reason": "Advisor/planner titles imply client management and planning; independence, lead conversion and pace are unstated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "062466f720cdb3804a5a3a523229cb5df774764e3256a1b0ca1ff7e35e51fdc1",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2b2c0bbe6f67f1279ea17d84802a520ad4f907784069d04e00228016331a23b3",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Minimum of 5 years of experience in financial services",
+      "effective_requirement": "At least 5 years of experience in financial services.",
+      "kind": "mandatory"
+    }
+  ]
+}

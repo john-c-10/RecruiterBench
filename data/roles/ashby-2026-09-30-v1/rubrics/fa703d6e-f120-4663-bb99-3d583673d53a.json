@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "role_id": "fa703d6e-f120-4663-bb99-3d583673d53a",
+  "snapshot_sha256": "766b8d413a11ac05c7b3819f8bff7a4605b1096121ad9e8a14ba6f26fe1badf2",
+  "input_sha256": "dda7bc4b52324cad32029bc2f4f26c4c782d790822002eafd9ca20d551617361",
+  "rubric_sha256": "a1d569f8bb6bcbb9ea3ff65b0759cce9f0ecef5c1c4aea85502a8b72b1107ca6",
+  "rubric": {
+    "role_summary": "Full-time remote Registered Dietitian providing virtual nutrition counseling, including eating disorder care and other nutritional concerns, in a weight-inclusive clinical practice.",
+    "search_query": "Find candidates for this role:\nFull-time remote Registered Dietitian providing virtual nutrition counseling, including eating disorder care and other nutritional concerns, in a weight-inclusive clinical practice.\nMandatory professional qualifications:\n- Experience in eating disorder care or outpatient nutrition counseling. The posting gives 4+ years of eating disorder experience or 2+ years of outpatient nutrition counseling as alternatives, but explicitly says its experience floor is flexible; do not enforce those year counts as strict minimums.\nPreferred, not mandatory:\n- Licensed or certified RD in WA, OR, TX, or NY.\n- Three years of outpatient eating disorder experience.\n- Fluency in a foreign language, preferably Spanish.\n- Confidence treating minors or adolescents.\n- CEDS or CEDS-C credential, or actively working toward one.\n- Certification in Intuitive Eating, Body Trust®, or similar.\n- IEDES certification.\n- Experience with adolescent or pediatric populations.\n- Familiarity with ACT, motivational interviewing, or somatic modalities.\n- Confidence providing remote outpatient nutrition counseling.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Experience in eating disorder care or outpatient nutrition counseling. The posting gives 4+ years of eating disorder experience or 2+ years of outpatient nutrition counseling as alternatives, but explicitly says its experience floor is flexible; do not enforce those year counts as strict minimums.",
+        "source_quote": "4+ years of eating disorder experience (any level of care), or 2+ years of outpatient nutrition counseling (ED experience not required)\n\n - Our experience floor is flexible: eagerness to learn and grow matters more to us than years",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Licensed or certified RD in WA, OR, TX, or NY.",
+        "source_quote": "Licensed/Certified RD -WA, OR, TX, NY,",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P2",
+        "requirement": "Three years of outpatient eating disorder experience.",
+        "source_quote": "3 years outpatient eating disorder experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Fluency in a foreign language, preferably Spanish.",
+        "source_quote": "Fluency in foreign languages, Spanish preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Confidence treating minors or adolescents.",
+        "source_quote": "Confident treating minors/adolescents",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P5",
+        "requirement": "CEDS or CEDS-C credential, or actively working toward one.",
+        "source_quote": "CEDS or CEDS-C credential (or actively working toward it)",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P6",
+        "requirement": "Certification in Intuitive Eating, Body Trust®, or similar.",
+        "source_quote": "Certification in Intuitive Eating, Body Trust®, or similar",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "IEDES certification.",
+        "source_quote": "Certification in Inclusive Eating Disorder Education Specialist (IEDES)",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience with adolescent or pediatric populations.",
+        "source_quote": "Experience with adolescent/pediatric populations",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Familiarity with ACT, motivational interviewing, or somatic modalities.",
+        "source_quote": "Familiarity with ACT, motivational interviewing, or somatic modalities",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Confidence providing remote outpatient nutrition counseling.",
+        "source_quote": "Confidence providing outpatient nutrition counseling in a remote setting",
+        "verification": "candidate_confirmation"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": "No geographic filter",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote",
+        "If you're seeking a flexible, remote, clinical role within a values-driven organization, we’d love to meet you."
+      ]
+    },
+    "soft_requirements": [
+      "Alignment with Health at Every Size® (HAES), anti-diet, and body-liberation frameworks, and commitment to trauma-informed, equity-centered care.",
+      "Compassionate, non-pathologizing counseling approach; respect for client autonomy and lived experience.",
+      "Clear, timely communication, collaboration, self-direction, comfort with a remote practice, and eagerness to learn and grow."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "766b8d413a11ac05c7b3819f8bff7a4605b1096121ad9e8a14ba6f26fe1badf2",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:20.487305+00:00",
+    "response_id": "chatcmpl-ETySZ6nkRCsKwebOnksUHVSbrDRpT",
+    "usage": {
+      "prompt_tokens": 2435,
+      "completion_tokens": 1435,
+      "total_tokens": 3870,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1189,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 93,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "50ae41825ae34183b0450d143cc3ecb44d1ba8725ef0b5925a0317c474eb7ec3",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": false,
+      "requirement_text": "Remote role; the posting does not specify geographic eligibility or a permitted remote region.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote",
+        "If you're seeking a flexible, remote, clinical role within a values-driven organization, we’d love to meet you."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "4+ years of eating disorder experience (any level of care), or 2+ years of outpatient nutrition counseling (ED experience not required)\n\n - Our experience floor is flexible: eagerness to learn and grow matters more to us than years",
+        "effective_requirement": "Experience in eating disorder care or outpatient nutrition counseling. The posting gives 4+ years of eating disorder experience or 2+ years of outpatient nutrition counseling as alternatives, but explicitly says its experience floor is flexible; do not enforce those year counts as strict minimums.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "P2",
+        "source_quote": "3 years outpatient eating disorder experience",
+        "effective_requirement": "Three years of outpatient eating disorder experience.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "680648969b3633c6768b7ea30ab02445136ae9c8e241f42111350f6875166d9e",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "requirement": "Credentialed as a Registered Dietitian Nutritionist (RDN).",
+          "source_quote": "Credentialed as a Registered Dietitian Nutritionist (RDN)",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Ability to see a wide variety of nutritional concerns, diseases, and conditions.",
+          "source_quote": "Ability to see a wide variety of nutritional concerns, diseases and conditions.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Availability for 30–40 hours per week, including 25+ patient-facing care hours and 5 administrative hours per week.",
+          "source_quote": "Hours: Full-time (30-40 hours/week including 25+ patient-facing care hours/wk and 5 administrative hours/wk).",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "For this full-time position, currently building or planning to build one's own private practice.",
+          "source_quote": "THE FULL TIME POSITION IS NOT A FIT FOR CLINICIANS WHO ARE CURRENTLY BUILDING OR PLANNING TO BUILD THEIR OWN PRIVATE PRACTICE.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M2": "M1"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "a1d569f8bb6bcbb9ea3ff65b0759cce9f0ecef5c1c4aea85502a8b72b1107ca6",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "a1d569f8bb6bcbb9ea3ff65b0759cce9f0ecef5c1c4aea85502a8b72b1107ca6",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": false
+    },
+    "single_location": {
+      "parent_rubric_sha256": "a1d569f8bb6bcbb9ea3ff65b0759cce9f0ecef5c1c4aea85502a8b72b1107ca6",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged.",
+      "previous_allowed_locations": [],
+      "previous_requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "location_requirement_changed": false
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "4+ years of eating disorder experience (any level of care), or 2+ years of outpatient nutrition counseling (ED experience not required)\n\n - Our experience floor is flexible: eagerness to learn and grow matters more to us than years",
+      "effective_requirement": "Experience in eating disorder care or outpatient nutrition counseling. The posting gives 4+ years of eating disorder experience or 2+ years of outpatient nutrition counseling as alternatives, but explicitly says its experience floor is flexible; do not enforce those year counts as strict minimums.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "3 years outpatient eating disorder experience",
+      "effective_requirement": "Three years of outpatient eating disorder experience.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

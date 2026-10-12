@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "role_id": "1c446790-5fad-48b4-a194-92a8caaac381",
+  "snapshot_sha256": "15867b0f9122d80a319909bbe5b3befd0f1cd01221bf85fc46e76f227c471d41",
+  "input_sha256": "fff3d63d06b2b9175574c710d37c4221a90bdb70e732a0b57c69fa0ecf490e51",
+  "rubric_sha256": "dda0faf25442623a8c88d9e2fdd76b2f528ad68a1e578959bfb73fb8abf2fd66",
+  "rubric": {
+    "role_summary": "Senior game designer for a new project in Shanghai, designing and implementing gameplay features, combat encounters, enemies, and level content in Unreal Engine.",
+    "search_query": "Find candidates for this role:\nSenior game designer for a new project in Shanghai, designing and implementing gameplay features, combat encounters, enemies, and level content in Unreal Engine.\nMandatory professional qualifications:\n- 7+ years of professional experience as a gameplay or game designer.\nPreferred, not mandatory:\n- Demonstrable experience crafting second-to-second action gameplay, such as level mechanics, layout design, or enemy/AI behavior.\n- Familiarity with level design tools and concepts and a proven track record of building level blockouts.\n- Experience with combat AI and familiarity with Unreal Behavior Trees.\n- Extensive knowledge of Unreal's GAS, from Gameplay Effects to Ability Modifiers.\n- At least 7 years of professional experience as a Gameplay Designer, including combat gameplay and/or level content created in Unreal Engine and Blueprint.\n- Proven ability to implement enemies, NPCs, and combat mechanics into encounters.\n- Ability to independently design new features and systems and support their implementation.\n- Experience using AI in day-to-day work.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Shanghai, China area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "7+ years of professional experience as a gameplay or game designer.",
+        "source_quote": "At least 7 years of professional experience as a Gameplay Designer with a portfolio demonstrating combat gameplay and/or level content created by yourself using Unreal Engine & Blueprint.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Demonstrable experience crafting second-to-second action gameplay, such as level mechanics, layout design, or enemy/AI behavior.",
+        "source_quote": "the ideal candidate will have demonstrable experience in crafting second-to-second action gameplay, including, but not limited to level mechanics, layout design and enemy/AI behavior.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with level design tools and concepts and a proven track record of building level blockouts.",
+        "source_quote": "Familiarity with level design tools and concepts. Proven track record of building level blockout.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with combat AI and familiarity with Unreal Behavior Trees.",
+        "source_quote": "Experience with combat AI and familiarity with Unreal Behavior Trees.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Extensive knowledge of Unreal's GAS, from Gameplay Effects to Ability Modifiers.",
+        "source_quote": "Extensive knowledge of Unreal's GAS - from Gameplay Effects to Ability Modifiers",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "At least 7 years of professional experience as a Gameplay Designer, including combat gameplay and/or level content created in Unreal Engine and Blueprint.",
+        "source_quote": "At least 7 years of professional experience as a Gameplay Designer with a portfolio demonstrating combat gameplay and/or level content created by yourself using Unreal Engine & Blueprint.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Proven ability to implement enemies, NPCs, and combat mechanics into encounters.",
+        "source_quote": "Proven ability to implement enemies, NPCs and combat mechanics into interesting encounters",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Ability to independently design new features and systems and support their implementation.",
+        "source_quote": "You should be able to independently design new features and systems, and support their implementation",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience using AI in day-to-day work.",
+        "source_quote": "You've found ways to use it in your day-to-day work",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: the role is onsite in Shanghai, China, and relocation is provided for hires from any location.",
+      "workplace_type": "onsite",
+      "allowed_locations": [],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Shanghai",
+        "OnSite",
+        "This role is based in our Shanghai office. If you are not local, our relocation team would be excited to help you with your move to Shanghai,China."
+      ]
+    },
+    "soft_requirements": [
+      "Passion for game design.",
+      "Proactive ownership and pride in independently performed work.",
+      "Strong cross-discipline communication and teamwork.",
+      "Self-starter approach to experimenting with AI and tackling new challenges."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "15867b0f9122d80a319909bbe5b3befd0f1cd01221bf85fc46e76f227c471d41",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:59.933801+00:00",
+    "response_id": "chatcmpl-ETyUFNBImQQjhHc9dhHfs8TbnDbk8",
+    "usage": {
+      "prompt_tokens": 3095,
+      "completion_tokens": 965,
+      "total_tokens": 4060,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1849,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 56,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "31a2c58c82feb20271563b4c6b27cf8e61957acd5f9f7e9b68ca51003ecf0c39",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite at the Shanghai office; applicants need not currently be local, and relocation support is offered.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Shanghai, China"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Shanghai",
+        "OnSite",
+        "This role is based in our Shanghai office. If you are not local, our relocation team would be excited to help you with your move to Shanghai,China."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "At least 7 years of professional experience as a Gameplay Designer with a portfolio demonstrating combat gameplay and/or level content created by yourself using Unreal Engine & Blueprint.",
+        "effective_requirement": "At least 7 years of professional experience as a Gameplay Designer, with a portfolio demonstrating combat gameplay and/or level content personally created using Unreal Engine and Blueprint.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "277d43af3ceeb1b4a866ae56c659b0ace52811a7ad04bffeb0ebdb0559f604ac",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "At least 7 years of professional experience as a Gameplay Designer, with a portfolio demonstrating combat gameplay and/or level content personally created using Unreal Engine and Blueprint.",
+          "after": "At least 7 years of professional experience as a Gameplay Designer, including combat gameplay and/or level content created in Unreal Engine and Blueprint.",
+          "reason": "Requires a portfolio, which is not among the judged profile fields."
+        }
+      ],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "a49aee7a7466221702c3c468aab2e22a64cf99661a2074c9503d57d624a6797f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Proven ability to implement enemies, NPCs, and combat mechanics into encounters.",
+          "source_quote": "Proven ability to implement enemies, NPCs and combat mechanics into interesting encounters",
+          "verification": "profile",
+          "reason": "Specific implementation work is rarely stated (0.97 strict fail)."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Ability to independently design new features and systems and support their implementation.",
+          "source_quote": "You should be able to independently design new features and systems, and support their implementation",
+          "verification": "profile",
+          "reason": "Independent design ability is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience using AI in day-to-day work.",
+          "source_quote": "You've found ways to use it in your day-to-day work",
+          "verification": "profile",
+          "reason": "Day-to-day AI use is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "At least 7 years of professional experience as a Gameplay Designer, including combat gameplay and/or level content created in Unreal Engine and Blueprint.",
+          "after": "7+ years of professional experience as a gameplay or game designer.",
+          "reason": "Game design years are observable; combat/Unreal/Blueprint specifics are often unstated (0.98 strict fail)."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P5",
+        "M2": "P6",
+        "M3": "P7",
+        "M4": "P8"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "9eb98401cda518b1e06385ca4fde0c0bc729b8a0786b881ae83ba43cc95c23de",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "23157ec4968baf3388d05f310ec81d0f0c0ba60c2ef75ee44b480ed84b261567",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "global",
+      "reason": "Relocation is offered to international hires, so the role realistically hires from any location.",
+      "previous_allowed_locations": [
+        "Greater Shanghai, China area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Shanghai, China area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "At least 7 years of professional experience as a Gameplay Designer with a portfolio demonstrating combat gameplay and/or level content created by yourself using Unreal Engine & Blueprint.",
+      "effective_requirement": "7+ years of professional experience as a gameplay or game designer.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P5",
+      "source_quote": "At least 7 years of professional experience as a Gameplay Designer with a portfolio demonstrating combat gameplay and/or level content created by yourself using Unreal Engine & Blueprint.",
+      "effective_requirement": "At least 7 years of professional experience as a Gameplay Designer, including combat gameplay and/or level content created in Unreal Engine and Blueprint.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

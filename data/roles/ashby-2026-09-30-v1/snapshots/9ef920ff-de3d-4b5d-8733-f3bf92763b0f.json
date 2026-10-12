@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9ef920ff-de3d-4b5d-8733-f3bf92763b0f",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/cognition/9ef920ff-de3d-4b5d-8733-f3bf92763b0f",
+    "board_url": "https://jobs.ashbyhq.com/cognition",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/cognition",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "9ef920ff-de3d-4b5d-8733-f3bf92763b0f",
+    "title": "Data Engineer",
+    "department": "Research & Development",
+    "team": "Core Engineering",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "secondaryLocations": [],
+    "publishedAt": "2025-11-26T01:11:24.182+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/cognition/9ef920ff-de3d-4b5d-8733-f3bf92763b0f",
+    "applyUrl": "https://jobs.ashbyhq.com/cognition/9ef920ff-de3d-4b5d-8733-f3bf92763b0f/application",
+    "descriptionHtml": "<h2><strong>We are an applied AI lab building end-to-end software agents.</strong></h2><p style=\"min-height:1.5em\">We're the makers of Devin, the first AI software engineer. </p><p style=\"min-height:1.5em\">Our team is extremely talent-dense. Among our founding team, we have world-class competitive programmers, former founders, and leaders from companies at the cutting edge of AI including Scale AI, Palantir, Cursor, Waymo, Tesla, Lunchclub, Modal, Google DeepMind, and Nuro.</p><p style=\"min-height:1.5em\">Building Devin is just the first step—our hardest challenges still lie ahead. If you’re excited to solve some of the world’s biggest problems and build AI that can reason on real-world tasks, apply to join us.</p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We're hiring a technical Data Engineer to own our full data stack – from database architecture and pipelines to instrumenting telemetry and owning integrations and reporting. You'll design and maintain the systems that keep our data reliable, accessible, and actionable across the company. <em><strong><u>There are multiple openings across various teams: GTM, Core Product, and Finance.</u></strong></em></p><p style=\"min-height:1.5em\"></p><h2>In this role you will:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and manage database architecture and data models</p></li><li><p style=\"min-height:1.5em\">Build and maintain ETL/ELT pipelines and orchestration workflows</p></li><li><p style=\"min-height:1.5em\">Create and manage new data integrations across internal and external systems</p></li><li><p style=\"min-height:1.5em\">Own business reporting: datasets, dashboards, metrics, and self-serve analytics</p></li><li><p style=\"min-height:1.5em\">Ensure data quality, observability, governance, and documentation</p></li></ul><p style=\"min-height:1.5em\"></p><h2>Requirements for the role:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">4+ years in a data engineering, data science, or full-stack data role</p></li><li><p style=\"min-height:1.5em\">Expert on SQL and Python (required)</p></li><li><p style=\"min-height:1.5em\">Experience with data modeling, warehouse architecture, and BI-oriented schema design</p></li><li><p style=\"min-height:1.5em\">Hands-on experience with ETL/ELT tools (dbt, Airflow, Dagster, etc.)</p></li><li><p style=\"min-height:1.5em\">Experience building or maintaining BI reporting (Metabase a plus)</p></li><li><p style=\"min-height:1.5em\">Experience developing scalable backend heavy applications</p></li><li><p style=\"min-height:1.5em\">Strong knowledge of statistics and experimentation</p></li><li><p style=\"min-height:1.5em\">Based in SF or NYC</p></li></ul><h2>Equal Opportunity</h2><p style=\"min-height:1.5em\">Cognition is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law. We are committed to providing reasonable accommodations for candidates with disabilities throughout the hiring process - please let us know if you need any.</p>",
+    "descriptionPlain": "WE ARE AN APPLIED AI LAB BUILDING END-TO-END SOFTWARE AGENTS.\n\nWe're the makers of Devin, the first AI software engineer. \n\nOur team is extremely talent-dense. Among our founding team, we have world-class competitive programmers, former founders, and leaders from companies at the cutting edge of AI including Scale AI, Palantir, Cursor, Waymo, Tesla, Lunchclub, Modal, Google DeepMind, and Nuro.\n\nBuilding Devin is just the first step—our hardest challenges still lie ahead. If you’re excited to solve some of the world’s biggest problems and build AI that can reason on real-world tasks, apply to join us.\n\n\nABOUT THE ROLE\n\nWe're hiring a technical Data Engineer to own our full data stack – from database architecture and pipelines to instrumenting telemetry and owning integrations and reporting. You'll design and maintain the systems that keep our data reliable, accessible, and actionable across the company. There are multiple openings across various teams: GTM, Core Product, and Finance.\n\n\n\n\nIN THIS ROLE YOU WILL:\n\n - Design and manage database architecture and data models\n\n - Build and maintain ETL/ELT pipelines and orchestration workflows\n\n - Create and manage new data integrations across internal and external systems\n\n - Own business reporting: datasets, dashboards, metrics, and self-serve analytics\n\n - Ensure data quality, observability, governance, and documentation\n\n\n\n\nREQUIREMENTS FOR THE ROLE:\n\n - 4+ years in a data engineering, data science, or full-stack data role\n\n - Expert on SQL and Python (required)\n\n - Experience with data modeling, warehouse architecture, and BI-oriented schema design\n\n - Hands-on experience with ETL/ELT tools (dbt, Airflow, Dagster, etc.)\n\n - Experience building or maintaining BI reporting (Metabase a plus)\n\n - Experience developing scalable backend heavy applications\n\n - Strong knowledge of statistics and experimentation\n\n - Based in SF or NYC\n\n\nEQUAL OPPORTUNITY\n\nCognition is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law. We are committed to providing reasonable accommodations for candidates with disabilities throughout the hiring process - please let us know if you need any."
+  }
+}

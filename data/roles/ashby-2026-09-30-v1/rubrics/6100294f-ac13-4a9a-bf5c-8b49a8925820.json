@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "role_id": "6100294f-ac13-4a9a-bf5c-8b49a8925820",
+  "snapshot_sha256": "0ab6b53cedf5ee8db9b83309ea80bebe8caaad7b51fcb654aff3a7d50cbb8835",
+  "input_sha256": "77187774d08f8ab6d19630ebdf82c0f2a475eff4dffc5c40c01fa044cccf3831",
+  "rubric_sha256": "7e90ceb32de84e43a1ef0391884bea79cb7b5ebb7834365c3fb4f51556d56c5f",
+  "rubric": {
+    "role_summary": "Actuarial data analyst supporting commercial property and casualty insurance pricing, competitive and regulatory analysis, portfolio reporting, and data analytics.",
+    "search_query": "Find candidates for this role:\nActuarial data analyst supporting commercial property and casualty insurance pricing, competitive and regulatory analysis, portfolio reporting, and data analytics.\nMandatory professional qualifications:\n- 2+ years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions.\n- Bachelor’s degree in Mathematics, Statistics, Economics, Finance, or a related analytical field.\n- Experience with commercial insurance products and insurance data analytics.\n- SQL proficiency for data extraction and analysis.\nPreferred, not mandatory:\n- Actuarial exams such as P, FM, MAS-I, MAS-II, or 5.\n- Python experience for advanced analytics.\n- Advanced SQL proficiency for data extraction, manipulation, and analysis from PostgreSQL databases.\n- SERFF knowledge covering navigation, filing preparation, and objection response processes.\n- Advanced spreadsheet modeling for financial analysis and data manipulation.\n- Experience with industry databases and tools including ISO manuals, NCCI data, and regulatory research platforms.\n- Understanding of commercial insurance products, including rating methodologies and underwriting guidelines.\n- Knowledge of state insurance filing processes.\n- Understanding of ISO forms, NCCI guidelines, and industry-standard practices.\n- Understanding of actuarial concepts including loss development, rate adequacy, and predictive modeling principles.\n- Experience collaborating with actuarial, underwriting, compliance, and product management teams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California; Greater Chicago area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "2+ years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions.",
+        "source_quote": "2-5 years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Bachelor’s degree in Mathematics, Statistics, Economics, Finance, or a related analytical field.",
+        "source_quote": "Bachelor’s degree in Mathematics, Statistics, Economics, Finance, or related analytical field",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience with commercial insurance products and insurance data analytics.",
+        "source_quote": "Demonstrated experience with commercial insurance products and insurance data analytics",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "SQL proficiency for data extraction and analysis.",
+        "source_quote": "Advanced SQL proficiency for data extraction, manipulation, and analysis from PostgreSQL databases",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Actuarial exams such as P, FM, MAS-I, MAS-II, or 5.",
+        "source_quote": "Actuarial exams such as P, FM, MAS-I, MAS-II, 5 (preferred but not required)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Python experience for advanced analytics.",
+        "source_quote": "Python experience for advanced analytics (preferred but not required)",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Advanced SQL proficiency for data extraction, manipulation, and analysis from PostgreSQL databases.",
+        "source_quote": "Advanced SQL proficiency for data extraction, manipulation, and analysis from PostgreSQL databases",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "SERFF knowledge covering navigation, filing preparation, and objection response processes.",
+        "source_quote": "SERFF system knowledge including navigation, filing preparation, and objection response processes",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Advanced spreadsheet modeling for financial analysis and data manipulation.",
+        "source_quote": "Advanced spreadsheet modeling skills for financial analysis and data manipulation",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience with industry databases and tools including ISO manuals, NCCI data, and regulatory research platforms.",
+        "source_quote": "Experience with industry databases and tools including ISO manuals, NCCI data, and regulatory research platforms",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Understanding of commercial insurance products, including rating methodologies and underwriting guidelines.",
+        "source_quote": "Understanding of commercial insurance products including rating methodologies and underwriting guidelines",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Knowledge of state insurance filing processes.",
+        "source_quote": "Knowledge of state insurance filings process",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Understanding of ISO forms, NCCI guidelines, and industry-standard practices.",
+        "source_quote": "Understanding of ISO forms, NCCI guidelines, and industry standard practices",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Understanding of actuarial concepts including loss development, rate adequacy, and predictive modeling principles.",
+        "source_quote": "Understanding of actuarial concepts including loss development, rate adequacy, and predictive modeling principles",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Experience collaborating with actuarial, underwriting, compliance, and product management teams.",
+        "source_quote": "Cross-functional collaboration experience working with actuarial, underwriting, compliance, and product management teams",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York City",
+        "San Francisco",
+        "Chicago",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Strong analytical and critical thinking skills and ability to translate data into insights and recommendations.",
+      "Exceptional attention to detail and accuracy, especially for time-sensitive regulatory deliverables.",
+      "Clear communication with technical and non-technical audiences."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "0ab6b53cedf5ee8db9b83309ea80bebe8caaad7b51fcb654aff3a7d50cbb8835",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:11.150258+00:00",
+    "response_id": "chatcmpl-ETyTSIQ0Yc8OcT9CNBcjMWUD4i3cw",
+    "usage": {
+      "prompt_tokens": 4436,
+      "completion_tokens": 1011,
+      "total_tokens": 5447,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 3190,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 45,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 2,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "817c48f832e38fbe26d7e93e12ca0821d746ae662169e18af92b0b71b24c2810",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in New York City, San Francisco, or Chicago. Current residence in one of these cities is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York City",
+        "San Francisco",
+        "Chicago"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York City",
+        "San Francisco",
+        "Chicago",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "2-5 years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions",
+        "effective_requirement": "2+ years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "90207f3d0792d3a3862c78dd89ec47ed683e9b79676a2e8bef138989bcb40031",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "90207f3d0792d3a3862c78dd89ec47ed683e9b79676a2e8bef138989bcb40031",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "SERFF knowledge covering navigation, filing preparation, and objection response processes.",
+          "source_quote": "SERFF system knowledge including navigation, filing preparation, and objection response processes",
+          "verification": "profile",
+          "reason": "SERFF knowledge is niche and almost never stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Advanced spreadsheet modeling for financial analysis and data manipulation.",
+          "source_quote": "Advanced spreadsheet modeling skills for financial analysis and data manipulation",
+          "verification": "profile",
+          "reason": "Advanced spreadsheet modeling is a generic tool skill rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Experience with industry databases and tools including ISO manuals, NCCI data, and regulatory research platforms.",
+          "source_quote": "Experience with industry databases and tools including ISO manuals, NCCI data, and regulatory research platforms",
+          "verification": "profile",
+          "reason": "ISO/NCCI database experience is niche and almost never stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Understanding of commercial insurance products, including rating methodologies and underwriting guidelines.",
+          "source_quote": "Understanding of commercial insurance products including rating methodologies and underwriting guidelines",
+          "verification": "profile",
+          "reason": "Detailed rating/underwriting knowledge is rarely stated and covered by M1/M3."
+        },
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Knowledge of state insurance filing processes.",
+          "source_quote": "Knowledge of state insurance filings process",
+          "verification": "profile",
+          "reason": "State filing process knowledge is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M10",
+          "requirement": "Understanding of ISO forms, NCCI guidelines, and industry-standard practices.",
+          "source_quote": "Understanding of ISO forms, NCCI guidelines, and industry standard practices",
+          "verification": "profile",
+          "reason": "ISO forms/NCCI guideline knowledge is niche and almost never stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M11",
+          "requirement": "Understanding of actuarial concepts including loss development, rate adequacy, and predictive modeling principles.",
+          "source_quote": "Understanding of actuarial concepts including loss development, rate adequacy, and predictive modeling principles",
+          "verification": "profile",
+          "reason": "Specific actuarial concepts are rarely listed and the role identity is covered by M1."
+        },
+        {
+          "field": "must_haves",
+          "id": "M12",
+          "requirement": "Experience collaborating with actuarial, underwriting, compliance, and product management teams.",
+          "source_quote": "Cross-functional collaboration experience working with actuarial, underwriting, compliance, and product management teams",
+          "verification": "profile",
+          "reason": "Cross-team collaboration is a soft-skill claim."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Advanced SQL proficiency for data extraction, manipulation, and analysis from PostgreSQL databases.",
+          "after": "SQL proficiency for data extraction and analysis.",
+          "reason": "SQL is commonly listed; advanced level and PostgreSQL specifically are not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P3",
+        "M5": "P4",
+        "M6": "P5",
+        "M7": "P6",
+        "M8": "P7",
+        "M9": "P8",
+        "M10": "P9",
+        "M11": "P10",
+        "M12": "P11"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c37547871c688a4b7c0b1506aba78abaeffbaee06957f8b9c536c3171bc791a1",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "b1c5b0b441eb8c2776cf08330b97ab828e9e1b414153673b14727b955de06311",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "New York metropolitan area",
+        "San Francisco Bay Area, California",
+        "Greater Chicago area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California; Greater Chicago area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "2-5 years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions",
+      "effective_requirement": "2+ years of experience in commercial P&C insurance product analysis, actuarial, or competitive analysis functions.",
+      "kind": "mandatory"
+    }
+  ]
+}

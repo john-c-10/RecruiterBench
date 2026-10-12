@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f6677d5f-a893-4bad-af96-620a0ee06dfd",
+  "snapshot_sha256": "536a97b61ee720aa51d248e6b6974320ded957d4856996a5ce5123ea5efbe2db",
+  "input_sha256": "b6a4ab68bdb03ee5fa3d6ecc595f54750f14bdfc3eac90d3b26036b2548a4a7f",
+  "rubric_sha256": "9fad8f096b029b8f2d8137c64756b243b844ab81b91050a53c9013d326f1b79c",
+  "rubric": {
+    "role_summary": "Senior systems engineering role owning the architecture, definition, integration, and validation of a robotic defense system from concept through field deployment.",
+    "search_query": "Find candidates for this role:\nSenior systems engineering role owning the architecture, definition, integration, and validation of a robotic defense system from concept through field deployment.\nMandatory professional qualifications:\n- 10+ years of systems engineering experience within robotics, aerospace, or defense.\n- MSc in Engineering, in any field.\n- Background in system architecture, requirements engineering, and trade-off analysis.\n- Understanding of mechanical, electrical, and embedded systems.\nPreferred, not mandatory:\n- PhD.\n- Experience with UAS or defense systems.\n- Experience leading full system lifecycles from concept through prototype and validation.\n- Experience coordinating multidisciplinary teams and managing technical interfaces.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Rabat area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "10+ years of systems engineering experience within robotics, aerospace, or defense.",
+        "source_quote": "10+ years of experience in system engineering within robotics, aerospace, or defense sectors.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "MSc in Engineering, in any field.",
+        "source_quote": "MSc in Engineering (any field); PhD is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Background in system architecture, requirements engineering, and trade-off analysis.",
+        "source_quote": "Strong background in system architecture, requirements engineering, and trade-off analysis.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Understanding of mechanical, electrical, and embedded systems.",
+        "source_quote": "Broad engineering culture with understanding of mechanical, electrical, and embedded systems.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "PhD.",
+        "source_quote": "PhD is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with UAS or defense systems.",
+        "source_quote": "Bonus: Experience with UAS or defense systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience leading full system lifecycles from concept through prototype and validation.",
+        "source_quote": "Proven experience leading full system lifecycles (concept → prototype → validation).",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience coordinating multidisciplinary teams and managing technical interfaces.",
+        "source_quote": "Experience coordinating multi-disciplinary teams and managing technical interfaces.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Rabat area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Rabat area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Rabat",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Rigorous, structured, and mission-driven mindset; strong analytical skills.",
+      "Excellent communication and documentation abilities."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "536a97b61ee720aa51d248e6b6974320ded957d4856996a5ce5123ea5efbe2db",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:09.510198+00:00",
+    "response_id": "chatcmpl-ETyRWWkZ8wpbyBQ03grsdgdqHFvIl",
+    "usage": {
+      "prompt_tokens": 1809,
+      "completion_tokens": 786,
+      "total_tokens": 2595,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 563,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "7415068420f5703505a7e23a5c458f12e0992af5b5448a8ed2748efc5f613185",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Rabat; the posting does not require current residence there.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Rabat"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Rabat",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "10+ years of experience in system engineering within robotics, aerospace, or defense sectors.",
+        "effective_requirement": "10+ years of systems engineering experience within robotics, aerospace, or defense.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "49658610055f19ef1e9000a6f45b32cf507ab0afccfa3cb9eac1d9c2328005a3",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "49658610055f19ef1e9000a6f45b32cf507ab0afccfa3cb9eac1d9c2328005a3",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience leading full system lifecycles from concept through prototype and validation.",
+          "source_quote": "Proven experience leading full system lifecycles (concept → prototype → validation).",
+          "verification": "profile",
+          "reason": "Leading full lifecycles is a scope claim rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience coordinating multidisciplinary teams and managing technical interfaces.",
+          "source_quote": "Experience coordinating multi-disciplinary teams and managing technical interfaces.",
+          "verification": "profile",
+          "reason": "Coordination/interface management is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M6": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "dfefed71e3f173967c14bcfaecbe950f98159cc5fa3151b7e05b005314b98961",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "79f675280571d52e4f69f19a495c2e34f57a74cb6a2cdb8d347d28a1a96103dc",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Rabat area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Rabat area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "10+ years of experience in system engineering within robotics, aerospace, or defense sectors.",
+      "effective_requirement": "10+ years of systems engineering experience within robotics, aerospace, or defense.",
+      "kind": "mandatory"
+    }
+  ]
+}

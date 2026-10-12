@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f6677d5f-a893-4bad-af96-620a0ee06dfd",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/harmattan-ai/f6677d5f-a893-4bad-af96-620a0ee06dfd",
+    "board_url": "https://jobs.ashbyhq.com/harmattan-ai",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/harmattan-ai",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "f6677d5f-a893-4bad-af96-620a0ee06dfd",
+    "title": "Systems Engineer",
+    "department": "R&D",
+    "team": "R&D",
+    "employmentType": "FullTime",
+    "location": "Rabat",
+    "secondaryLocations": [],
+    "publishedAt": "2026-07-02T13:38:00.347+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Rabat-Salé-Kénitra",
+        "addressCountry": "Morocco",
+        "addressLocality": "Rabat"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/harmattan-ai/f6677d5f-a893-4bad-af96-620a0ee06dfd",
+    "applyUrl": "https://jobs.ashbyhq.com/harmattan-ai/f6677d5f-a893-4bad-af96-620a0ee06dfd/application",
+    "descriptionHtml": "<h3><strong>About Us</strong></h3><p style=\"min-height:1.5em\">Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces.</p><p style=\"min-height:1.5em\">Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a demanding environment where rigor, ownership, and execution are expected.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role<br /></strong>As a<strong> System Engineer</strong>, you will own the architecture, system definition and implementation of one of our robotic systems — from concept to field deployment. You will work hand-in-hand with project managers and technical leads to translate mission needs into system-level designs, coordinate multidisciplinary engineering teams, and ensure overall system performance, robustness, and reliability.<br /><br /><strong>Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>System Architecture</strong>: Transform system requirements into architectures solutions.</p></li><li><p style=\"min-height:1.5em\"><strong>Technical Coordination</strong>: Lead cross-functional design across mechanical, electrical, software, GNC, and ML teams.</p></li><li><p style=\"min-height:1.5em\"><strong>Trade-Off &amp; Design Analysis</strong>: Conduct feasibility studies, trade-off analyses, and system-level simulations to guide technical choices.</p></li><li><p style=\"min-height:1.5em\"><strong>Integration &amp; Validation</strong>: Oversee system integration, prototyping, and validation, ensuring performance targets are achieved.</p></li><li><p style=\"min-height:1.5em\"><strong>System Reviews</strong>: Drive design and architecture reviews, maintaining consistency between requirements, design, and testing.</p></li><li><p style=\"min-height:1.5em\"><strong>Continuous Improvement</strong>: Implement processes to enhance requirements traceability, system documentation, and validation workflows.</p></li></ul><p style=\"min-height:1.5em\"><br /><strong>Candidate Requirements</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">10+ years of experience in system engineering within robotics, aerospace, or defense sectors.</p></li><li><p style=\"min-height:1.5em\">MSc in Engineering (any field); PhD is a plus.</p></li><li><p style=\"min-height:1.5em\">Proven experience leading full system lifecycles (concept → prototype → validation).</p></li><li><p style=\"min-height:1.5em\">Strong background in system architecture, requirements engineering, and trade-off analysis.</p></li><li><p style=\"min-height:1.5em\">Broad engineering culture with understanding of mechanical, electrical, and embedded systems.</p></li><li><p style=\"min-height:1.5em\">Experience coordinating multi-disciplinary teams and managing technical interfaces.</p></li><li><p style=\"min-height:1.5em\">Rigorous, structured, and mission-driven mindset with strong analytical skills.</p></li><li><p style=\"min-height:1.5em\">Excellent communication and documentation abilities.</p></li><li><p style=\"min-height:1.5em\">Bonus: Experience with UAS or defense systems.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We look forward to hearing how you can help shape the future of autonomous defense systems at Harmattan AI.</p>",
+    "descriptionPlain": "ABOUT US\n\nHarmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces.\n\nOur work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a demanding environment where rigor, ownership, and execution are expected.\n\n\n\nAbout the Role\nAs a System Engineer, you will own the architecture, system definition and implementation of one of our robotic systems — from concept to field deployment. You will work hand-in-hand with project managers and technical leads to translate mission needs into system-level designs, coordinate multidisciplinary engineering teams, and ensure overall system performance, robustness, and reliability.\n\nResponsibilities\n\n - System Architecture: Transform system requirements into architectures solutions.\n\n - Technical Coordination: Lead cross-functional design across mechanical, electrical, software, GNC, and ML teams.\n\n - Trade-Off & Design Analysis: Conduct feasibility studies, trade-off analyses, and system-level simulations to guide technical choices.\n\n - Integration & Validation: Oversee system integration, prototyping, and validation, ensuring performance targets are achieved.\n\n - System Reviews: Drive design and architecture reviews, maintaining consistency between requirements, design, and testing.\n\n - Continuous Improvement: Implement processes to enhance requirements traceability, system documentation, and validation workflows.\n\n\nCandidate Requirements\n\n - 10+ years of experience in system engineering within robotics, aerospace, or defense sectors.\n\n - MSc in Engineering (any field); PhD is a plus.\n\n - Proven experience leading full system lifecycles (concept → prototype → validation).\n\n - Strong background in system architecture, requirements engineering, and trade-off analysis.\n\n - Broad engineering culture with understanding of mechanical, electrical, and embedded systems.\n\n - Experience coordinating multi-disciplinary teams and managing technical interfaces.\n\n - Rigorous, structured, and mission-driven mindset with strong analytical skills.\n\n - Excellent communication and documentation abilities.\n\n - Bonus: Experience with UAS or defense systems.\n\n\n\nWe look forward to hearing how you can help shape the future of autonomous defense systems at Harmattan AI."
+  }
+}

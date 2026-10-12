@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9f38e9cf-afaf-4a22-9050-e78aa7ea9b1d",
+  "snapshot_sha256": "a9e01e0b9481cddd76490ae9881ce036510f6becf5b1e8fa5fcff9f6658a2be6",
+  "input_sha256": "a911c2eae1fa6513cf6428097402514692fc61210230f699d1cea897bb43615a",
+  "rubric_sha256": "5fac40f87322f4aadbb8961c65690e505eb1296582178158906cbea2a9a69952",
+  "rubric": {
+    "role_summary": "Program Officer supporting strategy and execution of philanthropic grants and initiatives that deploy AI in civil society and essential services. The role involves evaluating funding opportunities, managing a grant portfolio, and developing new initiatives.",
+    "search_query": "Find candidates for this role:\nProgram Officer supporting strategy and execution of philanthropic grants and initiatives that deploy AI in civil society and essential services. The role involves evaluating funding opportunities, managing a grant portfolio, and developing new initiatives.\nMandatory professional qualifications:\n- 5+ years of leadership experience in nonprofits, philanthropy, or government.\n- Subject matter expertise in at least one social-sector domain; public health, education, poverty alleviation, and economic mobility are examples.\nPreferred, not mandatory:\n- Direct experience deploying or scaling AI-enabled approaches in at least one social-sector domain.\n- Demonstrated ability to evaluate technical or organizational opportunities and make recommendations.\n- Experience engaging with external experts, institutions, and senior stakeholders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role is based in San Francisco, CA. We currently use a hybrid work model of 3 days in the office per week.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of leadership experience in nonprofits, philanthropy, or government.",
+        "source_quote": "5+ years of leadership experience in nonprofits, philanthropy, or government",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Subject matter expertise in at least one social-sector domain; public health, education, poverty alleviation, and economic mobility are examples.",
+        "source_quote": "Subject matter expertise in at least one social sector domain, such as public health, education, poverty alleviation, and economic mobility",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Direct experience deploying or scaling AI-enabled approaches in at least one social-sector domain.",
+        "source_quote": "Strongly preferred: Direct experience deploying or scaling AI-enabled approaches in at least one social-sector domain.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Demonstrated ability to evaluate technical or organizational opportunities and make recommendations.",
+        "source_quote": "Demonstrated ability to evaluate technical or organizational opportunities and make strong recommendations",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience engaging with external experts, institutions, and senior stakeholders.",
+        "source_quote": "Experience engaging credibly with external experts, institutions, and senior stakeholders",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "This role is based in San Francisco, CA. We currently use a hybrid work model of 3 days in the office per week."
+      ]
+    },
+    "soft_requirements": [
+      "Ability to reason clearly about AI capabilities, implementation constraints, organizational readiness, and risks of deploying AI in civil society contexts.",
+      "Out-of-the-box and original thinking about AI for good.",
+      "Comfort with evolving priorities in a fast-moving environment.",
+      "Excellent written and verbal communication, including clear and persuasive synthesis of complex information.",
+      "Strong strategic judgment and a bias toward execution.",
+      "High ownership, discretion, and accountability; ability to operate with meaningful autonomy.",
+      "Motivation to accelerate AI’s impact in civil society and contribute to the Foundation’s mission."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "a9e01e0b9481cddd76490ae9881ce036510f6becf5b1e8fa5fcff9f6658a2be6",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:44.604871+00:00",
+    "response_id": "chatcmpl-ETyUyb67iut77E3hnhtrn1HQlBH6N",
+    "usage": {
+      "prompt_tokens": 2723,
+      "completion_tokens": 918,
+      "total_tokens": 3641,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1477,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 70,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ddb068e9dda339f8e4a02e50d90aa8c9e448417e935e077f2ae79209aa92b4e4",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Based in San Francisco, CA, with a hybrid schedule of three days in the office per week. Present residence in San Francisco is not specified as a requirement.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "This role is based in San Francisco, CA. We currently use a hybrid work model of 3 days in the office per week."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years of leadership experience in nonprofits, philanthropy, or government",
+        "effective_requirement": "5+ years of leadership experience in nonprofits, philanthropy, or government.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "30c604c68ef6a00dff52401d43f8349125aacb2fcf950ee9cf0e34ccb757e478",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to undertake some travel within the U.S. and to other countries.",
+          "source_quote": "Some travel to the U.S. and to other countries will be required.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "e4eace01d29b2ac2fe8bac4a2120f8aea37395db14efed8c68ee27225c897b4d",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Demonstrated ability to evaluate technical or organizational opportunities and make recommendations.",
+          "source_quote": "Demonstrated ability to evaluate technical or organizational opportunities and make strong recommendations",
+          "verification": "profile",
+          "reason": "Evaluation/recommendation ability is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience engaging with external experts, institutions, and senior stakeholders.",
+          "source_quote": "Experience engaging credibly with external experts, institutions, and senior stakeholders",
+          "verification": "profile",
+          "reason": "Stakeholder engagement is a soft skill rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P2",
+        "M4": "P3"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "e89216cd3517b5323b5ec809f650738009697b83f45147e55a9be5a5561727d5",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "430e42615b5a1f796ac5262d2452cb98b2e3f267ac71d0892950b04ac10aaf9a",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role is based in San Francisco, CA. We currently use a hybrid work model of 3 days in the office per week.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years of leadership experience in nonprofits, philanthropy, or government",
+      "effective_requirement": "5+ years of leadership experience in nonprofits, philanthropy, or government.",
+      "kind": "mandatory"
+    }
+  ]
+}

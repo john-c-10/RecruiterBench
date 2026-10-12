@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "role_id": "a2850702-dea3-4e2c-a3ec-7ae257d36eb7",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/fireworks/a2850702-dea3-4e2c-a3ec-7ae257d36eb7",
+    "board_url": "https://jobs.ashbyhq.com/fireworks",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/fireworks",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "a2850702-dea3-4e2c-a3ec-7ae257d36eb7",
+    "title": "Member of Technical Staff, AI Training Infrastructure",
+    "department": "Engineering",
+    "team": "Training & Evaluation",
+    "employmentType": "FullTime",
+    "location": "San Mateo",
+    "secondaryLocations": [
+      {
+        "location": "New York",
+        "address": {
+          "postalAddress": {
+            "postalCode": "10017",
+            "addressRegion": "New York",
+            "streetAddress": "295 Madison Ave",
+            "addressCountry": "United States",
+            "addressLocality": "New York"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-07-31T21:00:03.263+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "postalCode": "94402",
+        "addressRegion": "California",
+        "streetAddress": "900 Concar Dr 5th Floor",
+        "addressCountry": "United States",
+        "addressLocality": "San Mateo"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/fireworks/a2850702-dea3-4e2c-a3ec-7ae257d36eb7",
+    "applyUrl": "https://jobs.ashbyhq.com/fireworks/a2850702-dea3-4e2c-a3ec-7ae257d36eb7/application",
+    "descriptionHtml": "<h2><strong>About Us:</strong></h2><p style=\"min-height:1.5em\">Fireworks is the platform for specialized intelligence, enabling companies to build, train, and serve AI models tailored to their own data, workflows, and products. Founded by the team behind PyTorch and backed by AMD, Atreides, Benchmark Capital, Index Ventures, Lightspeed, NVIDIA, Sequoia Capital, and TCV, Fireworks powers production AI with hundreds of state-of-the-art open models across text, image, embedding, audio, and multimodal workloads. Today, Fireworks is a Series D company valued at $17.5 billion, bringing together an ambitious, collaborative team that's building the future of enterprise AI.</p><h2><strong>The Role:</strong> </h2><p style=\"min-height:1.5em\">As a Training Infrastructure Engineer, you'll design, build, and optimize the infrastructure that powers our large-scale model training operations. Your work will be essential to developing high-performance AI training infrastructure. You'll collaborate with AI researchers and engineers to create robust training pipelines, optimize distributed training workloads, and ensure reliable model development.</p><h2><strong>Key Responsibilities:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and implement scalable infrastructure for large-scale model training workloads</p></li><li><p style=\"min-height:1.5em\">Develop and maintain distributed training pipelines for LLMs and multimodal models</p></li><li><p style=\"min-height:1.5em\">Optimize training performance across multiple GPUs, nodes, and data centers</p></li><li><p style=\"min-height:1.5em\">Implement monitoring, logging, and debugging tools for training operations</p></li><li><p style=\"min-height:1.5em\">Architect and maintain data storage solutions for large-scale training datasets</p></li><li><p style=\"min-height:1.5em\">Automate infrastructure provisioning, scaling, and orchestration for model training</p></li><li><p style=\"min-height:1.5em\">Collaborate with researchers to implement and optimize training methodologies</p></li><li><p style=\"min-height:1.5em\">Analyze and improve efficiency, scalability, and cost-effectiveness of training systems</p></li><li><p style=\"min-height:1.5em\">Troubleshoot complex performance issues in distributed training environments</p></li></ul><h2><strong>Minimum Qualifications:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelor's degree in Computer Science, Computer Engineering, or related field, or equivalent practical experience</p></li><li><p style=\"min-height:1.5em\">3+ years of experience with distributed systems and ML infrastructure</p></li><li><p style=\"min-height:1.5em\">Experience with PyTorch</p></li><li><p style=\"min-height:1.5em\">Proficiency in cloud platforms (AWS, GCP, Azure)</p></li><li><p style=\"min-height:1.5em\">Experience with containerization, orchestration (Kubernetes, Docker)</p></li><li><p style=\"min-height:1.5em\">Knowledge of distributed training techniques (data parallelism, model parallelism, FSDP)</p></li></ul><h2><strong>Preferred Qualifications:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Master's or PhD in Computer Science or related field</p></li><li><p style=\"min-height:1.5em\">Experience training large language models or multimodal AI systems</p></li><li><p style=\"min-height:1.5em\">Experience with ML workflow orchestration tools</p></li><li><p style=\"min-height:1.5em\">Background in optimizing high-performance distributed computing systems</p></li><li><p style=\"min-height:1.5em\">Familiarity with ML DevOps practices</p></li><li><p style=\"min-height:1.5em\">Contributions to open-source ML infrastructure or related projects</p></li></ul><h2><strong>Why Fireworks?</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Solve Hard Problems: Tackle challenges at the forefront of AI infrastructure, from low-latency inference to scalable model serving.</p></li><li><p style=\"min-height:1.5em\">Build What’s Next: Work with bleeding-edge technology that impacts how businesses and developers harness AI globally.</p></li><li><p style=\"min-height:1.5em\">Ownership &amp; Impact: Join a fast-growing, passionate team where your work directly shapes the future of AI—no bureaucracy, just results.</p></li><li><p style=\"min-height:1.5em\">Learn from the Best: Collaborate with world-class engineers and AI researchers who thrive on curiosity and innovation.</p></li></ul><p style=\"min-height:1.5em\"><em>Fireworks AI is an equal-opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all innovators.</em></p>",
+    "descriptionPlain": "ABOUT US:\n\nFireworks is the platform for specialized intelligence, enabling companies to build, train, and serve AI models tailored to their own data, workflows, and products. Founded by the team behind PyTorch and backed by AMD, Atreides, Benchmark Capital, Index Ventures, Lightspeed, NVIDIA, Sequoia Capital, and TCV, Fireworks powers production AI with hundreds of state-of-the-art open models across text, image, embedding, audio, and multimodal workloads. Today, Fireworks is a Series D company valued at $17.5 billion, bringing together an ambitious, collaborative team that's building the future of enterprise AI.\n\n\nTHE ROLE: \n\nAs a Training Infrastructure Engineer, you'll design, build, and optimize the infrastructure that powers our large-scale model training operations. Your work will be essential to developing high-performance AI training infrastructure. You'll collaborate with AI researchers and engineers to create robust training pipelines, optimize distributed training workloads, and ensure reliable model development.\n\n\nKEY RESPONSIBILITIES:\n\n - Design and implement scalable infrastructure for large-scale model training workloads\n\n - Develop and maintain distributed training pipelines for LLMs and multimodal models\n\n - Optimize training performance across multiple GPUs, nodes, and data centers\n\n - Implement monitoring, logging, and debugging tools for training operations\n\n - Architect and maintain data storage solutions for large-scale training datasets\n\n - Automate infrastructure provisioning, scaling, and orchestration for model training\n\n - Collaborate with researchers to implement and optimize training methodologies\n\n - Analyze and improve efficiency, scalability, and cost-effectiveness of training systems\n\n - Troubleshoot complex performance issues in distributed training environments\n\n\nMINIMUM QUALIFICATIONS:\n\n - Bachelor's degree in Computer Science, Computer Engineering, or related field, or equivalent practical experience\n\n - 3+ years of experience with distributed systems and ML infrastructure\n\n - Experience with PyTorch\n\n - Proficiency in cloud platforms (AWS, GCP, Azure)\n\n - Experience with containerization, orchestration (Kubernetes, Docker)\n\n - Knowledge of distributed training techniques (data parallelism, model parallelism, FSDP)\n\n\nPREFERRED QUALIFICATIONS:\n\n - Master's or PhD in Computer Science or related field\n\n - Experience training large language models or multimodal AI systems\n\n - Experience with ML workflow orchestration tools\n\n - Background in optimizing high-performance distributed computing systems\n\n - Familiarity with ML DevOps practices\n\n - Contributions to open-source ML infrastructure or related projects\n\n\nWHY FIREWORKS?\n\n - Solve Hard Problems: Tackle challenges at the forefront of AI infrastructure, from low-latency inference to scalable model serving.\n\n - Build What’s Next: Work with bleeding-edge technology that impacts how businesses and developers harness AI globally.\n\n - Ownership & Impact: Join a fast-growing, passionate team where your work directly shapes the future of AI—no bureaucracy, just results.\n\n - Learn from the Best: Collaborate with world-class engineers and AI researchers who thrive on curiosity and innovation.\n\nFireworks AI is an equal-opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all innovators."
+  }
+}

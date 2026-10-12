@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d16e863a-9c65-41cc-85c5-5fca8d20ef10",
+  "snapshot_sha256": "ce651b694299f8494abcc53ec225c737b26cf123b8c734b63073e00f4d619e78",
+  "input_sha256": "20c6f8c78ae6924c1fef01b25aa58d23123bf867600472febc2a49b0571d941e",
+  "rubric_sha256": "c580d93cdec9233a946570fdaf315b0ae60324ce0ffcf3c96577d28cbc0db13e",
+  "rubric": {
+    "role_summary": "Senior-most IT leader for a growing manufacturing and energy technology company, responsible for enterprise IT strategy, infrastructure, platforms, cybersecurity, controls, and a distributed IT organization.",
+    "search_query": "Find candidates for this role:\nSenior-most IT leader for a growing manufacturing and energy technology company, responsible for enterprise IT strategy, infrastructure, platforms, cybersecurity, controls, and a distributed IT organization.\nMandatory professional qualifications:\n- 15+ years in IT with progressive leadership, including VP-level or equivalent leadership of a multi-function IT organization.\n- IT leadership experience at a manufacturing, hardware, or industrial company.\n- Experience operating IT in a compliance-intensive environment, such as SOX IT general controls.\n- Cybersecurity and IT risk leadership experience.\nPreferred, not mandatory:\n- Experience leading IT through significant company scaling and maturing controls, ideally in manufacturing, energy, or critical infrastructure.\n- Familiarity with the IT/OT boundary in manufacturing.\n- Breadth across enterprise platforms, enterprise business systems, identity, and cloud; named products are examples.\n- Relevant certifications or equivalent demonstrated expertise.\n- Success leading IT in a high-growth manufacturing, hardware, or industrial company, scaling infrastructure, systems, and teams.\n- Experience operating IT in a compliance-intensive environment, owning SOX IT general controls and broader controls, and establishing or maturing a first-time formal controls program during scaling.\n- Executive-level cybersecurity and IT risk leadership, including accountability for security strategy and incident and disclosure governance.\n- Track record of building infrastructure and application enablement for AI adoption and driving AI-powered automation within their own organization; prior enterprise-wide AI transformation is not required.\n- Experience attracting, building, retaining, and developing IT talent and leaders.\n- Track record of building lean, metrics-driven, audit-ready IT operations with high service levels across multiple sites.\n- Vendor and budget management experience.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Weirton, WV area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "15+ years in IT with progressive leadership, including VP-level or equivalent leadership of a multi-function IT organization.",
+        "source_quote": "15+ years in IT with progressive leadership, including senior leadership (VP-level or equivalent) of a multi-function IT organization.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "IT leadership experience at a manufacturing, hardware, or industrial company.",
+        "source_quote": "Demonstrated success leading IT in a high-growth manufacturing, hardware, or industrial company — scaling infrastructure, systems, and teams to keep pace with rapid operational growth.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience operating IT in a compliance-intensive environment, such as SOX IT general controls.",
+        "source_quote": "Deep experience operating IT in a compliance-intensive environment — owning SOX IT general controls and the broader controls environment, and standing up or maturing a first-time formal controls program as a company scales.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Cybersecurity and IT risk leadership experience.",
+        "source_quote": "Executive command of cybersecurity and IT risk — able to set strategy and hold accountability for the security program and incident and disclosure governance.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience leading IT through significant company scaling and maturing controls, ideally in manufacturing, energy, or critical infrastructure.",
+        "source_quote": "Experience leading IT through a period of significant company scaling and maturing controls, ideally in manufacturing, energy, or critical-infrastructure sectors.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with the IT/OT boundary in manufacturing.",
+        "source_quote": "Familiarity with the IT/OT boundary in a manufacturing setting.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Breadth across enterprise platforms, enterprise business systems, identity, and cloud; named products are examples.",
+        "source_quote": "Breadth across enterprise platforms (Microsoft 365, Google Workspace, Atlassian), enterprise business systems (ERP, PLM), identity, and cloud.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Relevant certifications or equivalent demonstrated expertise.",
+        "source_quote": "Relevant certifications (e.g., CISSP, CISA, PMP, ITIL, Microsoft / cloud) or equivalent demonstrated expertise.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Success leading IT in a high-growth manufacturing, hardware, or industrial company, scaling infrastructure, systems, and teams.",
+        "source_quote": "Demonstrated success leading IT in a high-growth manufacturing, hardware, or industrial company — scaling infrastructure, systems, and teams to keep pace with rapid operational growth.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience operating IT in a compliance-intensive environment, owning SOX IT general controls and broader controls, and establishing or maturing a first-time formal controls program during scaling.",
+        "source_quote": "Deep experience operating IT in a compliance-intensive environment — owning SOX IT general controls and the broader controls environment, and standing up or maturing a first-time formal controls program as a company scales.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Executive-level cybersecurity and IT risk leadership, including accountability for security strategy and incident and disclosure governance.",
+        "source_quote": "Executive command of cybersecurity and IT risk — able to set strategy and hold accountability for the security program and incident and disclosure governance.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Track record of building infrastructure and application enablement for AI adoption and driving AI-powered automation within their own organization; prior enterprise-wide AI transformation is not required.",
+        "source_quote": "with a track record of building the infrastructure and application enablement that AI adoption requires and of driving AI-powered automation within their own organization by example. Capable of leading enterprise-wide AI transformation as the mandate grows, without requiring it as the starting scope.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Experience attracting, building, retaining, and developing IT talent and leaders.",
+        "source_quote": "Demonstrated ability to attract, build, and retain extraordinary talent, and to hold a consistently high bar for performance expectations across the team — developing leaders and raising the caliber of the organization over time.",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Track record of building lean, metrics-driven, audit-ready IT operations with high service levels across multiple sites.",
+        "source_quote": "A track record of building lean, metrics-driven, audit-ready IT operations with high service levels across multiple sites.",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Vendor and budget management experience.",
+        "source_quote": "Strong vendor and budget management.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is hybrid in Weirton, West Virginia (near Pittsburgh), and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Weirton, WV",
+        "Hybrid",
+        "Relocation assistance is available."
+      ]
+    },
+    "soft_requirements": [
+      "Genuine commitment to and excitement for AI as a force multiplier.",
+      "Holding a consistently high bar for team performance.",
+      "Executive-grade communication and a hands-on, pragmatic style suited to a fast-paced hardware and manufacturing environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "ce651b694299f8494abcc53ec225c737b26cf123b8c734b63073e00f4d619e78",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:11.141754+00:00",
+    "response_id": "chatcmpl-ETyVKFYdFLVdpOyUUf9EiCzXY2sRi",
+    "usage": {
+      "prompt_tokens": 3032,
+      "completion_tokens": 1355,
+      "total_tokens": 4387,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1786,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "befc818fff737c4f70a4dc7bba760dffa245e874c28e4886937a530d0227149e",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role in Weirton, West Virginia. Relocation assistance is available; current residence there is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Weirton, WV"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Weirton, WV",
+        "Hybrid",
+        "Relocation assistance is available."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "15+ years in IT with progressive leadership, including senior leadership (VP-level or equivalent) of a multi-function IT organization.",
+        "effective_requirement": "15+ years in IT with progressive leadership, including VP-level or equivalent leadership of a multi-function IT organization.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "e5485103441c889dfe9492c6ed237df12a842b6a3981e89944f28e35473b258a",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "e5485103441c889dfe9492c6ed237df12a842b6a3981e89944f28e35473b258a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Track record of building infrastructure and application enablement for AI adoption and driving AI-powered automation within their own organization; prior enterprise-wide AI transformation is not required.",
+          "source_quote": "with a track record of building the infrastructure and application enablement that AI adoption requires and of driving AI-powered automation within their own organization by example. Capable of leading enterprise-wide AI transformation as the mandate grows, without requiring it as the starting scope.",
+          "verification": "profile",
+          "reason": "AI enablement track record rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience attracting, building, retaining, and developing IT talent and leaders.",
+          "source_quote": "Demonstrated ability to attract, build, and retain extraordinary talent, and to hold a consistently high bar for performance expectations across the team — developing leaders and raising the caliber of the organization over time.",
+          "verification": "profile",
+          "reason": "Talent development is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Track record of building lean, metrics-driven, audit-ready IT operations with high service levels across multiple sites.",
+          "source_quote": "A track record of building lean, metrics-driven, audit-ready IT operations with high service levels across multiple sites.",
+          "verification": "profile",
+          "reason": "Operational qualities are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Vendor and budget management experience.",
+          "source_quote": "Strong vendor and budget management.",
+          "verification": "profile",
+          "reason": "Vendor/budget management is rarely stated explicitly."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Success leading IT in a high-growth manufacturing, hardware, or industrial company, scaling infrastructure, systems, and teams.",
+          "after": "IT leadership experience at a manufacturing, hardware, or industrial company.",
+          "reason": "Industry IT leadership is observable; scaling success is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Experience operating IT in a compliance-intensive environment, owning SOX IT general controls and broader controls, and establishing or maturing a first-time formal controls program during scaling.",
+          "after": "Experience operating IT in a compliance-intensive environment, such as SOX IT general controls.",
+          "reason": "Compliance context is observable; first-time controls program is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Executive-level cybersecurity and IT risk leadership, including accountability for security strategy and incident and disclosure governance.",
+          "after": "Cybersecurity and IT risk leadership experience.",
+          "reason": "Security leadership is observable; disclosure governance detail is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P5",
+        "M3": "P6",
+        "M4": "P7",
+        "M5": "P8",
+        "M6": "P9",
+        "M7": "P10",
+        "M8": "P11"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c723b24bfd0830b1f6bb779b574657ab6c1255fdefc6b797137c1a2fedf0887c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "713939b09ead275abac08dbffe70e4ba48ed5909a11d47df286908c20a027660",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "Greater Weirton, WV area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Weirton, WV area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "15+ years in IT with progressive leadership, including senior leadership (VP-level or equivalent) of a multi-function IT organization.",
+      "effective_requirement": "15+ years in IT with progressive leadership, including VP-level or equivalent leadership of a multi-function IT organization.",
+      "kind": "mandatory"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "role_id": "96d94df7-b766-4e8c-b8f9-33e1ee7168ad",
+  "snapshot_sha256": "939c7325224cbe516e87fa79ceab6e730eaa6475b852708c306ef277c780ebbd",
+  "input_sha256": "a20a61a1698ac237982bc723669b6f6d342cd1a433922a95b8baeb4b94bb0515",
+  "rubric_sha256": "37d0e1484b51e6620a403e85896a89eaa6f9292f1a3376f36905684aa996062d",
+  "rubric": {
+    "role_summary": "Remote U.S. personal-lines Property & Casualty insurance sales role serving inbound customers through quoting, comparing, binding, and servicing policies. Level II has additional experience and multi-carrier agency requirements.",
+    "search_query": "Find candidates for this role:\nRemote U.S. personal-lines Property & Casualty insurance sales role serving inbound customers through quoting, comparing, binding, and servicing policies. Level II has additional experience and multi-carrier agency requirements.\nMandatory professional qualifications:\n- Minimum 1 year of experience as a P&C insurance agent; 3+ years for Level II.\n- High school diploma or equivalent.\n- Familiarity with personal-lines insurance carriers and their underwriting processes.\n- Experience quoting, selling, and servicing personal-lines insurance products.\n- Understanding of relevant insurance products and regulations.\nPreferred, not mandatory:\n- For Level I, an independent-agency or similar personal-lines background with demonstrated success quoting and binding across a multi-carrier marketplace.\n- Previous experience in sales or customer service.\n- For Level II, an independent-agency or similar personal-lines background with demonstrated success quoting and binding across a multi-carrier marketplace.\n- Proficiency in CRM tools, email platforms, and quoting software.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Minimum 1 year of experience as a P&C insurance agent; 3+ years for Level II.",
+        "source_quote": "Minimum of 1 year experience as a P&C insurance agent; 3-5+ years for Level II agent",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "High school diploma or equivalent.",
+        "source_quote": "High school diploma or equivalent",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Familiarity with personal-lines insurance carriers and their underwriting processes.",
+        "source_quote": "Familiarity with personal lines insurance carriers and their underwriting processes",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience quoting, selling, and servicing personal-lines insurance products.",
+        "source_quote": "Experience quoting, selling, and servicing personal lines insurance products",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Understanding of relevant insurance products and regulations.",
+        "source_quote": "Understanding of relevant insurance products and regulations",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "For Level I, an independent-agency or similar personal-lines background with demonstrated success quoting and binding across a multi-carrier marketplace.",
+        "source_quote": "Independent agency (or similar) background in personal lines, with demonstrated success quoting/binding across a multi-carrier marketplace required for Level II agent, preferred for Level I",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Previous experience in sales or customer service.",
+        "source_quote": "Previous experience in sales or customer service",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "For Level II, an independent-agency or similar personal-lines background with demonstrated success quoting and binding across a multi-carrier marketplace.",
+        "source_quote": "Independent agency (or similar) background in personal lines, with demonstrated success quoting/binding across a multi-carrier marketplace required for Level II agent, preferred for Level I",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Proficiency in CRM tools, email platforms, and quoting software.",
+        "source_quote": "Proficiency in CRM tools, email platforms, and quoting software",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "This role will be remote (based in the U.S.)."
+      ]
+    },
+    "soft_requirements": [
+      "Strong written and verbal communication",
+      "Customer service and relationship-building",
+      "Sales acumen and persuasive abilities",
+      "Strong organizational skills and attention to detail",
+      "Problem-solving and claims resolution"
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "939c7325224cbe516e87fa79ceab6e730eaa6475b852708c306ef277c780ebbd",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:00.806721+00:00",
+    "response_id": "chatcmpl-ETyTJanbvVomKuoMZh4wvUxOGwdKd",
+    "usage": {
+      "prompt_tokens": 2867,
+      "completion_tokens": 772,
+      "total_tokens": 3639,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1621,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 18,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "04ff34ca1a9d1052a3b3c4935e05c79c1a0d87c0a57202e41c47a2917e2ca6b0",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role based in the U.S.; no present-residence requirement or relocation policy is stated.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "This role will be remote (based in the U.S.)."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "Minimum of 1 year experience as a P&C insurance agent; 3-5+ years for Level II agent",
+        "effective_requirement": "Minimum 1 year of experience as a P&C insurance agent; 3+ years for Level II.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "d9cd6f06df89b4a0e188cf0ecb3739b5bd846c5e5faf11a7d84b0b7b9eac0dc0",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "requirement": "Active Property and Casualty Insurance License.",
+          "source_quote": "Active Property and Casualty Insurance License",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M2": "M1",
+        "M3": "M2",
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5",
+        "M7": "M6",
+        "M8": "M7"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "e4e5faccc9ca7d58387358c676f0b95dd1e5f720b60780a105e2211ca3ee501f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "For Level II, an independent-agency or similar personal-lines background with demonstrated success quoting and binding across a multi-carrier marketplace.",
+          "source_quote": "Independent agency (or similar) background in personal lines, with demonstrated success quoting/binding across a multi-carrier marketplace required for Level II agent, preferred for Level I",
+          "verification": "profile",
+          "reason": "Level II-only condition with demonstrated multi-carrier success is a performance claim not applicable to all hires."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Proficiency in CRM tools, email platforms, and quoting software.",
+          "source_quote": "Proficiency in CRM tools, email platforms, and quoting software",
+          "verification": "profile",
+          "reason": "Generic CRM/email/quoting tool proficiency is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M6": "M4",
+        "M7": "M5"
+      },
+      "demoted_preference_ids": {
+        "M4": "P3",
+        "M5": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0a71d3dbb1bb32e35c9bbc8dac437b9e813213da22ca996faec7574892ab1c19",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "b682de28ca5fdfa2f3521dad565a3be98d4fb61571f439005ff9f7a639bf4c9b",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Minimum of 1 year experience as a P&C insurance agent; 3-5+ years for Level II agent",
+      "effective_requirement": "Minimum 1 year of experience as a P&C insurance agent; 3+ years for Level II.",
+      "kind": "mandatory"
+    }
+  ]
+}

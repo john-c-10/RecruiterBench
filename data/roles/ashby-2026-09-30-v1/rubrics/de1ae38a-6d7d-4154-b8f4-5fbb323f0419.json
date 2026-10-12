@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "role_id": "de1ae38a-6d7d-4154-b8f4-5fbb323f0419",
+  "snapshot_sha256": "9a83811be132d241387dc1a75cd01663554f8f42f65d47ce398ae0a5530b8b66",
+  "input_sha256": "fce51442cbc89c06fbb37f1a6a14706fd09f56d233c01ef7974412beb7090f37",
+  "rubric_sha256": "2b67378dec14dce6fba5d458313c425080c9b862538ab6514fea618af0cf48c9",
+  "rubric": {
+    "role_summary": "Customer-facing sustainability data advisor working from the Mexico City office. Advises customers on carbon and non-carbon footprint measurement, emissions verification, and sustainability data and methodologies.",
+    "search_query": "Find candidates for this role:\nCustomer-facing sustainability data advisor working from the Mexico City office. Advises customers on carbon and non-carbon footprint measurement, emissions verification, and sustainability data and methodologies.\nMandatory professional qualifications:\n- 4+ years of experience in consulting, solutions engineering, or another customer-facing role.\n- Experience in sustainability-related fields, greenhouse gas accounting and/or ESG reporting.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Mexico City, Mexico area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This position is required to be in person in our Mexico City office 4 days per week.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "4+ years of experience in consulting, solutions engineering, or another customer-facing role.",
+        "source_quote": "Have 4-6 years of experience in a consulting, solutions-engineering, or other customer-facing role.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience in sustainability-related fields, greenhouse gas accounting and/or ESG reporting.",
+        "source_quote": "Have experience in sustainability-related fields, greenhouse gas accounting and/or ESG reporting.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Mexico City, Mexico area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater Mexico City, Mexico area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Mexico City",
+        "Hybrid",
+        "This position is required to be in person in our Mexico City office 4 days per week."
+      ]
+    },
+    "soft_requirements": [
+      "Customer-focused and analytically minded; excited to work directly with customers.",
+      "Excellent verbal and written communication, including explaining complex topics to technical and non-technical audiences.",
+      "Learns quickly, operates well in ambiguity, and is organized, systematic, and efficient in a high-volume environment.",
+      "Thinks clearly about complex problems; is comfortable using and speaking to data; and is meticulous and detail-oriented.",
+      "Passionate about addressing climate change and working at a fast-paced startup."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "9a83811be132d241387dc1a75cd01663554f8f42f65d47ce398ae0a5530b8b66",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:42.304747+00:00",
+    "response_id": "chatcmpl-ETyS4FfmL60CggDSKaE5V3x4NUzuy",
+    "usage": {
+      "prompt_tokens": 2237,
+      "completion_tokens": 518,
+      "total_tokens": 2755,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 991,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 65,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "cf73d3100b14115ca5e7b3d1f7bd3a8d020781213ac5e523ebe52e8f288b4300",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work in person at the Mexico City office four days per week. Present residence in Mexico City is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Mexico City, Mexico"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Mexico City",
+        "Hybrid",
+        "This position is required to be in person in our Mexico City office 4 days per week."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Have 4-6 years of experience in a consulting, solutions-engineering, or other customer-facing role.",
+        "effective_requirement": "4+ years of experience in consulting, solutions engineering, or another customer-facing role.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "f7cd2109d138aea954892a910e6e44d8fe0367f38cdc6e900dd1e062652abf55",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Strong English language proficiency.",
+          "source_quote": "Have strong English language proficiency",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "8f9d44ccb44293e8d6408a51ed7307aedecc344619e3cebfabb50ba400de9f1c",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "8f9d44ccb44293e8d6408a51ed7307aedecc344619e3cebfabb50ba400de9f1c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "46e06f09977dae339d64fe64fa9b02872e7e400f68f06159c1686da2cf0c4bf3",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Mexico City, Mexico area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Mexico City, Mexico area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This position is required to be in person in our Mexico City office 4 days per week.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Have 4-6 years of experience in a consulting, solutions-engineering, or other customer-facing role.",
+      "effective_requirement": "4+ years of experience in consulting, solutions engineering, or another customer-facing role.",
+      "kind": "mandatory"
+    }
+  ]
+}

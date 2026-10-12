@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "07f9cd4e-02b2-4bfc-947d-bdb75f6825f8",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/buena/07f9cd4e-02b2-4bfc-947d-bdb75f6825f8",
+    "board_url": "https://jobs.ashbyhq.com/buena",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/buena",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "07f9cd4e-02b2-4bfc-947d-bdb75f6825f8",
+    "title": "Senior Property Manager (m/w/d)",
+    "department": "Operations",
+    "team": "Property Management",
+    "employmentType": "FullTime",
+    "location": "Berlin",
+    "secondaryLocations": [],
+    "publishedAt": "2026-09-15T09:15:30.711+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Germany",
+        "addressCountry": "Germany",
+        "addressLocality": "Berlin"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/buena/07f9cd4e-02b2-4bfc-947d-bdb75f6825f8",
+    "applyUrl": "https://jobs.ashbyhq.com/buena/07f9cd4e-02b2-4bfc-947d-bdb75f6825f8/application",
+    "descriptionHtml": "<h1><strong>Über Buena</strong></h1><p style=\"min-height:1.5em\">Buena baut die Technologie, auf der die Immobilienbranche läuft. Wir machen jeden Teil der Immobilienwirtschaft so nahtlos und transparent wie möglich, vom Finden über das Finanzieren bis zum Verwalten.</p><p style=\"min-height:1.5em\">Dafür übernehmen wir Hausverwaltungen in ganz Deutschland und bauen sie zu Technologieunternehmen um. In den letzten drei Jahren sind wir mit weniger als 30 Leuten im HQ zu Deutschlands zweitgrößtem Immobilienverwalter geworden.</p><p style=\"min-height:1.5em\"></p><h1><strong>Über die Rolle</strong></h1><p style=\"min-height:1.5em\">Du kennst den Alltag einer Hausverwaltung und weißt, wie du Ordnung reinbringst, wenn Abläufe stocken, Aufgaben liegen bleiben oder Verantwortlichkeiten unklar sind.</p><p style=\"min-height:1.5em\">Genau dort setzt du bei Buena an. Jeden Monat übernehmen wir neue Hausverwaltungen, und du überführst sie in den Buena-Betrieb. Deine Basis ist unser Büro in Berlin, deine Einsätze finden in unseren Verwaltungen in ganz Deutschland statt. Dein Erfolg zeigt sich in funktionierenden Abläufen und in Teams, die mit der Buena App besser arbeiten als vorher.</p><p style=\"min-height:1.5em\"></p><h1><strong>Verantwortlichkeiten</strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Du arbeitest im Tagesgeschäft unserer Verwaltungen mit, erkennst Engpässe früh und baust Rückstände ab. Vor und nach der Umstellung auf die Buena App.</p></li><li><p style=\"min-height:1.5em\">Du schaffst mit den Teams klare Zuständigkeiten und Prozesse, die auch nach deinem Einsatz Bestand haben.</p></li><li><p style=\"min-height:1.5em\">Du kennst unsere Software in- und auswendig und trainierst die Teams an ihren konkreten Aufgaben.</p></li><li><p style=\"min-height:1.5em\">Du bringst deine Erfahrungen aus dem Verwaltungsalltag zurück ins Product-Team. Was du vor Ort siehst, macht unsere App besser.</p><p style=\"min-height:1.5em\"></p></li></ul><h1><strong>Du passt gut, wenn du</strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Mehrjährige praktische Erfahrung in der Immobilienverwaltung mitbringst und das Tagesgeschäft eigenständig beherrschst.</p></li><li><p style=\"min-height:1.5em\">Probleme schnell erkennst, Prioritäten setzt und selbst mit anpackst.</p></li><li><p style=\"min-height:1.5em\">Klar kommunizierst, schnell Vertrauen aufbaust und Menschen für neue Arbeitsweisen gewinnst.</p></li><li><p style=\"min-height:1.5em\">Tech-affin bist. Neue Software lernst du schnell und erklärst sie so, dass anderen die Arbeit leichter fällt.</p></li><li><p style=\"min-height:1.5em\">Bereit bist, regelmäßig bei unseren Verwaltungen in ganz Deutschland vor Ort zu arbeiten, je nach Einsatz auch mehrere Tage am Stück.</p></li><li><p style=\"min-height:1.5em\">Fließend Deutsch sprichst.</p><p style=\"min-height:1.5em\"></p></li></ul><h1><strong>Deine Benefits</strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bis zu 500 € Close-to-Office-Bonus, wenn du 10 bis 20 Gehminuten vom Büro entfernt wohnst.</p></li><li><p style=\"min-height:1.5em\">110 €/Monat Lunch-Budget, 50 € Fitness-Zuschuss.</p></li><li><p style=\"min-height:1.5em\">1.200 € jährliches Weiterbildungsbudget.</p></li><li><p style=\"min-height:1.5em\">Kostenlose Bücher: Buena zahlt jedes Buch, das du lesen möchtest.</p><p style=\"min-height:1.5em\"></p></li></ul><h1><strong>Warum jetzt einsteigen</strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Du bist die Person vor Ort: Jede Verwaltung, die wir übernehmen, wird erst durch dich zu einem Buena-Betrieb. Ohne dich bleibt sie, was sie war.</p></li><li><p style=\"min-height:1.5em\">Wir wachsen schnell: Jeden Monat kommen neue Hausverwaltungen dazu. Deine Einsätze werden nicht weniger, sondern größer.</p></li><li><p style=\"min-height:1.5em\">Wir sind meritokratisch: Wer liefert, bekommt Verantwortung. Unser CEO war vor drei Jahren Junior Product Manager, unser COO vor zwei Jahren Chief of Staff.</p></li><li><p style=\"min-height:1.5em\">Wir verändern eine ganze Branche: Die deutsche Hausverwaltung läuft noch auf Papier und Excel. Du stellst das vor Ort um.</p></li></ul>",
+    "descriptionPlain": "ÜBER BUENA\n\nBuena baut die Technologie, auf der die Immobilienbranche läuft. Wir machen jeden Teil der Immobilienwirtschaft so nahtlos und transparent wie möglich, vom Finden über das Finanzieren bis zum Verwalten.\n\nDafür übernehmen wir Hausverwaltungen in ganz Deutschland und bauen sie zu Technologieunternehmen um. In den letzten drei Jahren sind wir mit weniger als 30 Leuten im HQ zu Deutschlands zweitgrößtem Immobilienverwalter geworden.\n\n\n\n\nÜBER DIE ROLLE\n\nDu kennst den Alltag einer Hausverwaltung und weißt, wie du Ordnung reinbringst, wenn Abläufe stocken, Aufgaben liegen bleiben oder Verantwortlichkeiten unklar sind.\n\nGenau dort setzt du bei Buena an. Jeden Monat übernehmen wir neue Hausverwaltungen, und du überführst sie in den Buena-Betrieb. Deine Basis ist unser Büro in Berlin, deine Einsätze finden in unseren Verwaltungen in ganz Deutschland statt. Dein Erfolg zeigt sich in funktionierenden Abläufen und in Teams, die mit der Buena App besser arbeiten als vorher.\n\n\n\n\nVERANTWORTLICHKEITEN\n\n - Du arbeitest im Tagesgeschäft unserer Verwaltungen mit, erkennst Engpässe früh und baust Rückstände ab. Vor und nach der Umstellung auf die Buena App.\n\n - Du schaffst mit den Teams klare Zuständigkeiten und Prozesse, die auch nach deinem Einsatz Bestand haben.\n\n - Du kennst unsere Software in- und auswendig und trainierst die Teams an ihren konkreten Aufgaben.\n\n - Du bringst deine Erfahrungen aus dem Verwaltungsalltag zurück ins Product-Team. Was du vor Ort siehst, macht unsere App besser.\n   \n   \n\n\nDU PASST GUT, WENN DU\n\n - Mehrjährige praktische Erfahrung in der Immobilienverwaltung mitbringst und das Tagesgeschäft eigenständig beherrschst.\n\n - Probleme schnell erkennst, Prioritäten setzt und selbst mit anpackst.\n\n - Klar kommunizierst, schnell Vertrauen aufbaust und Menschen für neue Arbeitsweisen gewinnst.\n\n - Tech-affin bist. Neue Software lernst du schnell und erklärst sie so, dass anderen die Arbeit leichter fällt.\n\n - Bereit bist, regelmäßig bei unseren Verwaltungen in ganz Deutschland vor Ort zu arbeiten, je nach Einsatz auch mehrere Tage am Stück.\n\n - Fließend Deutsch sprichst.\n   \n   \n\n\nDEINE BENEFITS\n\n - Bis zu 500 € Close-to-Office-Bonus, wenn du 10 bis 20 Gehminuten vom Büro entfernt wohnst.\n\n - 110 €/Monat Lunch-Budget, 50 € Fitness-Zuschuss.\n\n - 1.200 € jährliches Weiterbildungsbudget.\n\n - Kostenlose Bücher: Buena zahlt jedes Buch, das du lesen möchtest.\n   \n   \n\n\nWARUM JETZT EINSTEIGEN\n\n - Du bist die Person vor Ort: Jede Verwaltung, die wir übernehmen, wird erst durch dich zu einem Buena-Betrieb. Ohne dich bleibt sie, was sie war.\n\n - Wir wachsen schnell: Jeden Monat kommen neue Hausverwaltungen dazu. Deine Einsätze werden nicht weniger, sondern größer.\n\n - Wir sind meritokratisch: Wer liefert, bekommt Verantwortung. Unser CEO war vor drei Jahren Junior Product Manager, unser COO vor zwei Jahren Chief of Staff.\n\n - Wir verändern eine ganze Branche: Die deutsche Hausverwaltung läuft noch auf Papier und Excel. Du stellst das vor Ort um."
+  }
+}

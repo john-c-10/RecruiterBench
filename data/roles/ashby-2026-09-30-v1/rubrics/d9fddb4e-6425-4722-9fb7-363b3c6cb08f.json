@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d9fddb4e-6425-4722-9fb7-363b3c6cb08f",
+  "snapshot_sha256": "3c1a8d28f856b032df3935ce9e9aa080f04ec173cc4c7cb75c08d686a721a643",
+  "input_sha256": "0dc75a1d1144af490590ec576996ff46b003faddef9bfa1199ff56c3df229667",
+  "rubric_sha256": "6b047c4375afa8573fc52ecace117374d27a4c104ee7e9e1e86f5f69f5e1480c",
+  "rubric": {
+    "role_summary": "Director-level manufacturing operations role scaling regulated cosmetic and medical-device products from R&D through commercial production, including CDMO partnerships, technology transfer, supply chain operations, and manufacturing financial planning.",
+    "search_query": "Find candidates for this role:\nDirector-level manufacturing operations role scaling regulated cosmetic and medical-device products from R&D through commercial production, including CDMO partnerships, technology transfer, supply chain operations, and manufacturing financial planning.\nMandatory professional qualifications:\n- Experience scaling a product from R&D to commercial manufacturing in a regulated environment.\n- Experience overseeing manufacturing operations for a Class II or III medical device or equivalent regulated product.\n- Experience managing supply chain operations.\n- Familiarity with Quality Management Systems in regulated environments.\n- Direct people management experience.\nPreferred, not mandatory:\n- Experience with combination products (drug + device), such as auto-injectors, EpiPens, nasal sprays, or microarray-based systems.\n- Background in Material Science & Technology Transfer (MSNT).\n- Experience scaling production to 100K+ units per month.\n- Experience across both cosmetic and medical device products.\n- Experience with automation and line redesign in a manufacturing scale-up context.\n- Background in customer support or customer-facing operations within manufacturing.\n- Experience managing managers or building multi-layered organizations.\n- Experience implementing or optimizing operational infrastructure.\n- Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.\n- Direct experience with CDMO partner selection, onboarding, and technology transfer.\n- Experience managing supply chain, logistics, inventory, and fulfillment operations.\n- Demonstrated ability to lead technology transfer and process scale-up.\n- Experience with manufacturing cost modeling and financial planning.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Experience scaling a product from R&D to commercial manufacturing in a regulated environment.",
+        "source_quote": "Proven experience scaling a product from R&D to commercial manufacturing in a regulated environment",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience overseeing manufacturing operations for a Class II or III medical device or equivalent regulated product.",
+        "source_quote": "Experience overseeing manufacturing operations for a Class II or III medical device or equivalent regulated product",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience managing supply chain operations.",
+        "source_quote": "Experience managing supply chain, logistics, inventory, and fulfillment operations",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Familiarity with Quality Management Systems in regulated environments.",
+        "source_quote": "Familiarity with Quality Management Systems (QMS) in regulated environments",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Direct people management experience.",
+        "source_quote": "Direct people management experience",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with combination products (drug + device), such as auto-injectors, EpiPens, nasal sprays, or microarray-based systems.",
+        "source_quote": "Experience with combination products (drug + device), such as auto-injectors, EpiPens, nasal sprays, or microarray-based systems",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Background in Material Science & Technology Transfer (MSNT).",
+        "source_quote": "Background in Material Science & Technology Transfer (MSNT)",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience scaling production to 100K+ units per month.",
+        "source_quote": "Experience scaling production to high-volume output (100K+ units per month)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience across both cosmetic and medical device products.",
+        "source_quote": "Experience across both cosmetic and medical device products",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience with automation and line redesign in a manufacturing scale-up context.",
+        "source_quote": "Experience with automation and line redesign in a manufacturing scale-up context",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Background in customer support or customer-facing operations within manufacturing.",
+        "source_quote": "Background in customer support or customer-facing operations within manufacturing",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience managing managers or building multi-layered organizations.",
+        "source_quote": "Experience managing managers or building multi-layered organizations",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience implementing or optimizing operational infrastructure.",
+        "source_quote": "Strong systems orientation with experience implementing or optimizing operational infrastructure",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.",
+        "source_quote": "Hands-on experience scaling production volumes significantly (e.g., 10x or more)",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Direct experience with CDMO partner selection, onboarding, and technology transfer.",
+        "source_quote": "Direct experience working with CDMO partners including selection, onboarding, and tech transfer",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Experience managing supply chain, logistics, inventory, and fulfillment operations.",
+        "source_quote": "Experience managing supply chain, logistics, inventory, and fulfillment operations",
+        "verification": "profile"
+      },
+      {
+        "id": "P12",
+        "requirement": "Demonstrated ability to lead technology transfer and process scale-up.",
+        "source_quote": "Demonstrated ability to lead technology transfer and process scale-up",
+        "verification": "profile"
+      },
+      {
+        "id": "P13",
+        "requirement": "Experience with manufacturing cost modeling and financial planning.",
+        "source_quote": "Experience with manufacturing cost modeling and financial planning",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "This role is based in New York City.",
+        "New York"
+      ]
+    },
+    "soft_requirements": [
+      "Strong systems orientation."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "3c1a8d28f856b032df3935ce9e9aa080f04ec173cc4c7cb75c08d686a721a643",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:18.388828+00:00",
+    "response_id": "chatcmpl-ETySYKsXZrU43WhroYhoa7UyWjvRP",
+    "usage": {
+      "prompt_tokens": 2592,
+      "completion_tokens": 1427,
+      "total_tokens": 4019,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1346,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 63,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ab9a22022d02c486656b94f7dfde4781cce54607bca2342b1ace23c2e694b177",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Role is based in New York City; the posting does not specify an onsite schedule or require current residence there.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "New York City, New York, United States"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "This role is based in New York City.",
+        "New York"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "df250c1ea1f0b8eb26e90522a6a030ceb62657343d445497f5fd982b658f0fac",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M10",
+          "requirement": "Ability to travel approximately 10%–30%.",
+          "source_quote": "Some travel will required approximately 10% -30%",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "49b4c31fe54f71baba656bbb85cb0e2b78b7a17cabfafb03f6fd6f25d7692b77",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Hands-on experience scaling production volumes significantly; 10x or more is an example, not a fixed threshold.",
+          "source_quote": "Hands-on experience scaling production volumes significantly (e.g., 10x or more)",
+          "verification": "profile",
+          "reason": "Quantified volume scaling is a performance claim rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Direct experience with CDMO partner selection, onboarding, and technology transfer.",
+          "source_quote": "Direct experience working with CDMO partners including selection, onboarding, and tech transfer",
+          "verification": "profile",
+          "reason": "CDMO selection/onboarding/tech transfer is a specific practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Demonstrated ability to lead technology transfer and process scale-up.",
+          "source_quote": "Demonstrated ability to lead technology transfer and process scale-up",
+          "verification": "profile",
+          "reason": "Leading tech transfer/scale-up is largely covered by M1 and rarely stated separately."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Experience with manufacturing cost modeling and financial planning.",
+          "source_quote": "Experience with manufacturing cost modeling and financial planning",
+          "verification": "profile",
+          "reason": "Cost modeling and financial planning are rarely stated for manufacturing leaders."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Experience managing supply chain, logistics, inventory, and fulfillment operations.",
+          "after": "Experience managing supply chain operations.",
+          "reason": "Supply chain scope is often visible from operations titles; the full list is overly conjunctive."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M3",
+        "M6": "M4",
+        "M9": "M5"
+      },
+      "demoted_preference_ids": {
+        "M3": "P9",
+        "M4": "P10",
+        "M5": "P11",
+        "M7": "P12",
+        "M8": "P13"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "6ba9f32903bc843b6f125334049e84ca2d7030e07d9a574058f7116eea613b9e",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "e7e1e241687fc5475ac5dfc274b72ff5a1fd8f2c45af2138e4429facf0095d97",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

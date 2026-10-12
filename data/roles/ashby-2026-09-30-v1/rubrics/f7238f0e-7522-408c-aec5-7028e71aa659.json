@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f7238f0e-7522-408c-aec5-7028e71aa659",
+  "snapshot_sha256": "75c5b55531e0f5842e880f09e24898ce0cfa66e6b9c4eb1462cb87ccd07d3c07",
+  "input_sha256": "451f8eb3a5ad2e0b4302d76c13d5a41222917f9f04ecd2e33f7c1c7e574cfdd0",
+  "rubric_sha256": "237cffc3938988a298b8f835bed6ce985b109e42ea91d8d2af3b225a6e21237c",
+  "rubric": {
+    "role_summary": "Senior clinical database and CDI subject matter expert who translates clinical scenarios and customer practices into guidance for product and engineering, and designs digital experiments for healthcare revenue-cycle products.",
+    "search_query": "Find candidates for this role:\nSenior clinical database and CDI subject matter expert who translates clinical scenarios and customer practices into guidance for product and engineering, and designs digital experiments for healthcare revenue-cycle products.\nMandatory professional qualifications:\n- Bedside clinical background and clinical documentation integrity (CDI) experience.\n- Bachelor’s or Master’s degree in nursing.\n- Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.\nPreferred, not mandatory:\n- Experience with Plan-Do-Study-Act (PDSA) process improvement cycles or nursing informatics research.\n- Business, Management, or similar field and/or relevant experience.\n- Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.\n- Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.\n- QA, documentation, and training experience.\n- Analytical, research/data science, and project management skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bedside clinical background and clinical documentation integrity (CDI) experience.",
+        "source_quote": "a bedside clinical background alongside knowledge of CDI end to end - from frontline documentation to backoffice billing codes",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Bachelor’s or Master’s degree in nursing.",
+        "source_quote": "Bachelor’s or Master’s degree in nursing",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.",
+        "source_quote": "5+ years experience as a leader in Coding and/ CDI departments within the revenue cycle or worked in a consulting or project management capacity",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with Plan-Do-Study-Act (PDSA) process improvement cycles or nursing informatics research.",
+        "source_quote": "Experience with Plan-Do-Study-Act (PDSA) process improvement cycles or nursing informatics   research is a strong plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Business, Management, or similar field and/or relevant experience.",
+        "source_quote": "Business, Management or similar field and/or relevant experience is preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.",
+        "source_quote": "a bedside clinical background alongside knowledge of CDI end to end - from frontline documentation to backoffice billing codes",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.",
+        "source_quote": "Concurrent and retrospective CDI review experience and experience in both inpatient and outpatient settings required",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "QA, documentation, and training experience.",
+        "source_quote": "QA / documentation/training experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Analytical, research/data science, and project management skills.",
+        "source_quote": "Strong analytical, research/data science, and project management skills",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote - United States",
+        "We consider ourselves experts in working collaboratively wherever our team members happen to reside within the US."
+      ]
+    },
+    "soft_requirements": [
+      "Fluency in clinical concepts and ability to translate them with a scientific mindset.",
+      "Independent thinking; comfort brainstorming in a group and ideating aloud.",
+      "Confidence interacting with internal and client physicians, nurses, and administrators."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "75c5b55531e0f5842e880f09e24898ce0cfa66e6b9c4eb1462cb87ccd07d3c07",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:22.304572+00:00",
+    "response_id": "chatcmpl-ETySeSWIGZsNvSS85czO6RFqRlcAB",
+    "usage": {
+      "prompt_tokens": 2749,
+      "completion_tokens": 1124,
+      "total_tokens": 3873,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1503,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 68,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ad4d332a1f58590390628c0890014610a3fbcee31bba7a2c5bb337a2cd8c35b2",
+    "resolved_ambiguities": [
+      "The phrase “Coding and/ CDI departments” does not clearly specify whether Coding, CDI, or both departments are intended.",
+      "The 5+ years requirement does not clearly state whether the duration also applies to the consulting or project management alternative."
+    ],
+    "resolution": "Coding OR CDI qualifies; the five-year minimum applies to the leadership route, not the less restrictive consulting/project-management alternative.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote work within the United States.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "Within the US",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote - United States",
+        "We consider ourselves experts in working collaboratively wherever our team members happen to reside within the US."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M4",
+        "source_quote": "5+ years experience as a leader in Coding and/ CDI departments within the revenue cycle or worked in a consulting or project management capacity",
+        "effective_requirement": "Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "f876315d0654bbdd1f2b795036dc3f90e14e668c2e15078bda978c96ebd4690a",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "RN and CCDS.",
+          "source_quote": "Must have an RN and CCDS",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Current credentials from AHIMA, AAPC, or ACDIS.",
+          "source_quote": "Current credentials from AHIMA, AAPC, or ACDIS",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5",
+        "M7": "M6"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "950bbf4ab506b9f3e884503ca90f9dca42da7381973b9b6433215943b2122402",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Concurrent and retrospective CDI review experience in both inpatient and outpatient settings.",
+          "source_quote": "Concurrent and retrospective CDI review experience and experience in both inpatient and outpatient settings required",
+          "verification": "profile",
+          "reason": "Specific review types and settings are rarely itemized."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "QA, documentation, and training experience.",
+          "source_quote": "QA / documentation/training experience",
+          "verification": "profile",
+          "reason": "QA, documentation and training activities are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Analytical, research/data science, and project management skills.",
+          "source_quote": "Strong analytical, research/data science, and project management skills",
+          "verification": "profile",
+          "reason": "Analytical and research skills are generic and rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Bedside clinical background and end-to-end CDI knowledge, from frontline documentation to backoffice billing codes.",
+          "after": "Bedside clinical background and clinical documentation integrity (CDI) experience.",
+          "reason": "Bedside nursing and CDI roles are visible; end-to-end billing-code knowledge is rarely stated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P3",
+        "M4": "P4",
+        "M5": "P5",
+        "M6": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d40ef01a7aa6365f54664d263b124e35f9cad4d78b05593353b284e45c861722",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "ac76b335707f2e3bfd2e07e5bbeff5da08e5279774fdb4bd44ed00895a6bc7bb",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M3",
+      "source_quote": "5+ years experience as a leader in Coding and/ CDI departments within the revenue cycle or worked in a consulting or project management capacity",
+      "effective_requirement": "Either 5+ years leading Coding OR CDI departments within the revenue cycle, OR experience in a consulting or project-management capacity. The alternative has no separately stated minimum duration.",
+      "kind": "mandatory"
+    }
+  ]
+}

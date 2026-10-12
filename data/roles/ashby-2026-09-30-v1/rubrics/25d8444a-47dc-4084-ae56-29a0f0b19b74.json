@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "role_id": "25d8444a-47dc-4084-ae56-29a0f0b19b74",
+  "snapshot_sha256": "d50a51d847016b8afdd0848b9e43c8fb33710bce9bd2fd9dc659ea684683cfb3",
+  "input_sha256": "c20b289682680857b50affffbd944a119089277fd8946a6f696f673d8400f5aa",
+  "rubric_sha256": "d2b73461c9e362c107189e51c367f52021b088cb68a58db4b52a9b7e1fc3bb23",
+  "rubric": {
+    "role_summary": "Senior platform engineering role developing and operating distributed block-storage systems for stateful workloads across cloud and bare-metal environments.",
+    "search_query": "Find candidates for this role:\nSenior platform engineering role developing and operating distributed block-storage systems for stateful workloads across cloud and bare-metal environments.\nMandatory professional qualifications:\n- Meet one or more of these alternatives: built and operated distributed storage systems with a grasp of first principles; systems engineering experience in one or more of filesystems, block devices, kernel I/O paths, SPDK, io_uring, vhost-user-blk, ublk, or virtualization; understanding of algorithms and techniques for fast, reliable storage systems; experience building large distributed systems where consistency and availability were critical; Linux I/O-layer performance engineering; or systems programming with Rust. These are alternatives, not cumulative requirements.\nPreferred, not mandatory:\n- Background in adjacent infrastructure, such as hypervisor I/O, kernel development, distributed systems, or persistent memory, with interest in applying that experience to storage.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Meet one or more of these alternatives: built and operated distributed storage systems with a grasp of first principles; systems engineering experience in one or more of filesystems, block devices, kernel I/O paths, SPDK, io_uring, vhost-user-blk, ublk, or virtualization; understanding of algorithms and techniques for fast, reliable storage systems; experience building large distributed systems where consistency and availability were critical; Linux I/O-layer performance engineering; or systems programming with Rust. These are alternatives, not cumulative requirements.",
+        "source_quote": "You should meet one or more of the following requirements:\n\n - You've built and operated distributed storage systems and have a strong grasp of first-principles.\n\n - You have strong systems engineering experience in one or more of: filesystems, block devices, kernel I/O paths, SPDK, io_uring, vhost-user-blk, ublk or virtualization\n\n - You have a deep understanding of the algorithms and techniques behind building fast, performant and reliable storage systems.\n\n - You have experience building large distributed systems where consistency and availability was critical.\n\n - You have a strong background in performance engineering at the I/O layer on Linux.\n\n - You have strong foundation in systems programming with Rust.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Background in adjacent infrastructure, such as hypervisor I/O, kernel development, distributed systems, or persistent memory, with interest in applying that experience to storage.",
+        "source_quote": "If your background is in adjacent infrastructure (hypervisor I/O, kernel development, distributed systems, persistent memory) and you want to apply that depth to storage, we want to hear from you.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: the role explicitly allows global remote work.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Global"
+      ],
+      "remote_scope": "No geographic filter",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Global",
+        "Remote",
+        "We're distributed ALL across the globe, and that's only going to be more and more distributed."
+      ]
+    },
+    "soft_requirements": [
+      "Comfort owning a problem independently at a small company.",
+      "Judgment about the longevity of technical solutions and willingness to implement, scale, and replace them when needed.",
+      "Ability to communicate and document solutions effectively."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "d50a51d847016b8afdd0848b9e43c8fb33710bce9bd2fd9dc659ea684683cfb3",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:25.339148+00:00",
+    "response_id": "chatcmpl-ETyQlojmy2tVfIm2e00IkDJ0shwNX",
+    "usage": {
+      "prompt_tokens": 3039,
+      "completion_tokens": 915,
+      "total_tokens": 3954,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1793,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 158,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "e249665ad202c9553490f98c7420d3332c5808f9ad582c0500909930859edd78",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": false,
+      "requirement_text": "Remote role labeled Global; no country or regional eligibility boundary or present-residence requirement is stated.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Global"
+      ],
+      "remote_scope": "Global",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Global",
+        "Remote",
+        "We're distributed ALL across the globe, and that's only going to be more and more distributed."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "d2b73461c9e362c107189e51c367f52021b088cb68a58db4b52a9b7e1fc3bb23",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d2b73461c9e362c107189e51c367f52021b088cb68a58db4b52a9b7e1fc3bb23",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d2b73461c9e362c107189e51c367f52021b088cb68a58db4b52a9b7e1fc3bb23",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": false
+    },
+    "single_location": {
+      "parent_rubric_sha256": "d2b73461c9e362c107189e51c367f52021b088cb68a58db4b52a9b7e1fc3bb23",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged.",
+      "previous_allowed_locations": [
+        "Global"
+      ],
+      "previous_requirement_text": "No geographic filter: the role explicitly allows global remote work.",
+      "location_requirement_changed": false
+    }
+  },
+  "experience_context": []
+}

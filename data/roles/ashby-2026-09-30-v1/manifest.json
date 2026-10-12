@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "ashby-2026-09-30-v1",
+  "as_of": "2026-09-30",
+  "role_count": 290,
+  "category_count": 58,
+  "categories": [
+    {
+      "name": "Software engineering",
+      "count": 5
+    },
+    {
+      "name": "AI & machine learning",
+      "count": 5
+    },
+    {
+      "name": "AI infrastructure",
+      "count": 5
+    },
+    {
+      "name": "Data",
+      "count": 5
+    },
+    {
+      "name": "Cybersecurity",
+      "count": 5
+    },
+    {
+      "name": "Cloud & developer tools",
+      "count": 5
+    },
+    {
+      "name": "Enterprise software / SaaS",
+      "count": 5
+    },
+    {
+      "name": "Consumer technology",
+      "count": 5
+    },
+    {
+      "name": "Hard tech / deep tech",
+      "count": 5
+    },
+    {
+      "name": "Robotics & automation",
+      "count": 5
+    },
+    {
+      "name": "Semiconductors & chip design",
+      "count": 5
+    },
+    {
+      "name": "Hardware & electronics",
+      "count": 5
+    },
+    {
+      "name": "Quantum computing",
+      "count": 5
+    },
+    {
+      "name": "Aerospace & space",
+      "count": 5
+    },
+    {
+      "name": "Defense & national security",
+      "count": 5
+    },
+    {
+      "name": "Drones & autonomous systems",
+      "count": 5
+    },
+    {
+      "name": "Automotive & electric vehicles",
+      "count": 5
+    },
+    {
+      "name": "Advanced manufacturing",
+      "count": 5
+    },
+    {
+      "name": "Energy & utilities",
+      "count": 5
+    },
+    {
+      "name": "Nuclear & fusion",
+      "count": 5
+    },
+    {
+      "name": "Climate tech & sustainability",
+      "count": 5
+    },
+    {
+      "name": "Battery technology & energy storage",
+      "count": 5
+    },
+    {
+      "name": "Biotech & life sciences",
+      "count": 5
+    },
+    {
+      "name": "Pharmaceuticals",
+      "count": 5
+    },
+    {
+      "name": "Medical devices",
+      "count": 5
+    },
+    {
+      "name": "Healthcare & digital health",
+      "count": 5
+    },
+    {
+      "name": "Finance & banking",
+      "count": 5
+    },
+    {
+      "name": "Investment banking",
+      "count": 5
+    },
+    {
+      "name": "Private equity",
+      "count": 5
+    },
+    {
+      "name": "Venture capital",
+      "count": 5
+    },
+    {
+      "name": "Hedge funds & quantitative trading",
+      "count": 5
+    },
+    {
+      "name": "Asset & wealth management",
+      "count": 5
+    },
+    {
+      "name": "Fintech & payments",
+      "count": 5
+    },
+    {
+      "name": "Insurance & insurtech",
+      "count": 5
+    },
+    {
+      "name": "Crypto & blockchain",
+      "count": 5
+    },
+    {
+      "name": "Real estate & proptech",
+      "count": 5
+    },
+    {
+      "name": "Construction & infrastructure",
+      "count": 5
+    },
+    {
+      "name": "Logistics & supply chain",
+      "count": 5
+    },
+    {
+      "name": "Transportation & mobility",
+      "count": 5
+    },
+    {
+      "name": "Retail & e-commerce",
+      "count": 5
+    },
+    {
+      "name": "Consumer goods & brands",
+      "count": 5
+    },
+    {
+      "name": "Food, agriculture & agtech",
+      "count": 5
+    },
+    {
+      "name": "Media & entertainment",
+      "count": 5
+    },
+    {
+      "name": "Gaming",
+      "count": 5
+    },
+    {
+      "name": "Advertising & marketing technology",
+      "count": 5
+    },
+    {
+      "name": "Education & edtech",
+      "count": 5
+    },
+    {
+      "name": "Legal & legal tech",
+      "count": 5
+    },
+    {
+      "name": "Consulting & professional services",
+      "count": 5
+    },
+    {
+      "name": "Telecommunications",
+      "count": 5
+    },
+    {
+      "name": "Government & public sector",
+      "count": 5
+    },
+    {
+      "name": "Nonprofits & philanthropy",
+      "count": 5
+    },
+    {
+      "name": "Hospitality & travel",
+      "count": 5
+    },
+    {
+      "name": "Founders & cofounders",
+      "count": 5
+    },
+    {
+      "name": "Early startup hires & founding engineers",
+      "count": 5
+    },
+    {
+      "name": "Executives & leadership",
+      "count": 5
+    },
+    {
+      "name": "Product management & design",
+      "count": 5
+    },
+    {
+      "name": "Sales, marketing & customer success",
+      "count": 5
+    },
+    {
+      "name": "Operations, strategy & chiefs of staff",
+      "count": 5
+    }
+  ],
+  "selection_sha256": "cf016efb2133c2532b807471da76ce7cdb62060f9bb8c026d00daca22e5a2f53",
+  "source_index_sha256": "ebd2f169a2201325890984b943f9e7f266a5eb764fb32e0047f4ad9c6d112198",
+  "reference": {
+    "repository": "https://github.com/LessieAI/people-search-bench",
+    "commit": "f1afbb928e7eb6104e8255d5a882fc1820682cb7",
+    "relationship": "Directory structure and methodology reference; no upstream source code copied."
+  },
+  "source_notice": "Job descriptions are attributed employer material. This repository does not relicense them.",
+  "interpretation_policy": {
+    "version": "role-interpretation-v1",
+    "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+    "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+    "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+    "remote_with_named_geography": "candidate_must_be_in_named_geography",
+    "source_precedence": "role_text_before_metadata",
+    "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+    "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+    "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+    "obvious_overqualification": "fail_final_experience_fit",
+    "candidate_confirmation_criteria": "removed",
+    "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+    "red_flags": "fail_only_when_stated_or_reasonably_implied",
+    "experience_fit_evidence": "stated_or_reasonably_implied",
+    "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+  },
+  "derived_at": "2026-10-05T04:18:07.406648+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "role_id": "1c1dc1e5-0fba-429e-baca-7017c3eec9fe",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/Ambrosia-Energy/1c1dc1e5-0fba-429e-baca-7017c3eec9fe",
+    "board_url": "https://jobs.ashbyhq.com/Ambrosia-Energy",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/Ambrosia-Energy",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "1c1dc1e5-0fba-429e-baca-7017c3eec9fe",
+    "title": "Electrical Build Technician",
+    "department": "Construction/Manufacturing",
+    "team": "Construction/Manufacturing",
+    "employmentType": "FullTime",
+    "location": "Austin, TX",
+    "secondaryLocations": [
+      {
+        "location": "Austin, TX",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Texas",
+            "addressCountry": "United States",
+            "addressLocality": "Austin"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-06-23T00:40:02.719+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Texas",
+        "addressCountry": "United States",
+        "addressLocality": "Austin"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/Ambrosia-Energy/1c1dc1e5-0fba-429e-baca-7017c3eec9fe",
+    "applyUrl": "https://jobs.ashbyhq.com/Ambrosia-Energy/1c1dc1e5-0fba-429e-baca-7017c3eec9fe/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Ambrosia Energy is on a mission to make solar + battery systems the fastest-to-deploy and most cost-effective energy source in the US and beyond. As global energy demand surges—driven by the rapid rise of data centers, electric vehicles, and future in-home robotics—the world stands at a critical energy inflection point. To meet this challenge, we need innovative, scalable power sources. Our engineering-led team, with expertise in designing and deploying satellite constellations (Swarm, Starlink Mobile), is now focused on energy on Earth. We're developing affordable, clean energy solutions with new battery storage systems. United by strong team camaraderie, we prioritize speed, rapid iteration, vertical integration, and a test-like-you-fly approach. We're committed to making an impact on the future of energy.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We are designing and developing a distributed battery storage system to pair with solar panels that are quick and easy to install. The system is simple, robust, reliable, and easy to manufacture at scale. The system will include highly efficient DC-DC conversion, solar MPPT, power distribution, no moving parts, and efficient cable management to make everything plug and play in the field.</p><p style=\"min-height:1.5em\"></p><h2><strong>Responsibilities</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Build and test battery packs including wiring, installing electrical components and mechanical components, potting, etc.</p></li><li><p style=\"min-height:1.5em\">Operate laser welding machine.</p></li><li><p style=\"min-height:1.5em\">Perform automated tests of battery health.</p></li><li><p style=\"min-height:1.5em\">Operate forklift, pallet jack, and other heavy equipment.</p></li><li><p style=\"min-height:1.5em\">Operate production machinery and equipment safely while ensuring quality builds.</p></li><li><p style=\"min-height:1.5em\">Assemble battery systems on a manufacturing production line, following detailed build instructions.</p></li><li><p style=\"min-height:1.5em\">Perform visual inspections of parts and finished packs to identify defects or issues.</p></li><li><p style=\"min-height:1.5em\">Load and unload materials onto the production line and assist with building job kits and organizing components and tools.</p></li><li><p style=\"min-height:1.5em\">Maintain a clean, organized, and safe workstation.</p></li><li><p style=\"min-height:1.5em\">Identify opportunities to improve assembly processes and communicate suggestions to the broader team.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Qualifications</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">1+ years of professional experience in a related field with electronics or mechanical assembly.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience with building, debugging, testing, and validating electrical systems using oscilloscopes, multimeters, and similar tools. Experience with common hand and power tools.</p></li><li><p style=\"min-height:1.5em\">Prior experience in manufacturing, assembly, construction, or a warehouse environment is preferred.</p></li><li><p style=\"min-height:1.5em\">Ability to stand or walk for the duration of a shift and lift 50 lbs.</p></li><li><p style=\"min-height:1.5em\">A strong sense of reliability, with a work ethic that supports keeping the production line moving.</p></li><li><p style=\"min-height:1.5em\">Extreme attention to detail and the ability to follow written and verbal instructions in English.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Preferred Skills or Experience</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Familiarity with solar arrays as input power sources.</p></li><li><p style=\"min-height:1.5em\">Familiarity with lithium-ion battery handling, safety, and usage.</p></li></ul><p style=\"min-height:1.5em\"></p><h3>In compliance with federal law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification form upon hire. The company is unable to sponsor employment visas at this time.</h3><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div>",
+    "descriptionPlain": "Ambrosia Energy is on a mission to make solar + battery systems the fastest-to-deploy and most cost-effective energy source in the US and beyond. As global energy demand surges—driven by the rapid rise of data centers, electric vehicles, and future in-home robotics—the world stands at a critical energy inflection point. To meet this challenge, we need innovative, scalable power sources. Our engineering-led team, with expertise in designing and deploying satellite constellations (Swarm, Starlink Mobile), is now focused on energy on Earth. We're developing affordable, clean energy solutions with new battery storage systems. United by strong team camaraderie, we prioritize speed, rapid iteration, vertical integration, and a test-like-you-fly approach. We're committed to making an impact on the future of energy.\n\n\n\nWe are designing and developing a distributed battery storage system to pair with solar panels that are quick and easy to install. The system is simple, robust, reliable, and easy to manufacture at scale. The system will include highly efficient DC-DC conversion, solar MPPT, power distribution, no moving parts, and efficient cable management to make everything plug and play in the field.\n\n\n\n\nRESPONSIBILITIES\n\n - Build and test battery packs including wiring, installing electrical components and mechanical components, potting, etc.\n\n - Operate laser welding machine.\n\n - Perform automated tests of battery health.\n\n - Operate forklift, pallet jack, and other heavy equipment.\n\n - Operate production machinery and equipment safely while ensuring quality builds.\n\n - Assemble battery systems on a manufacturing production line, following detailed build instructions.\n\n - Perform visual inspections of parts and finished packs to identify defects or issues.\n\n - Load and unload materials onto the production line and assist with building job kits and organizing components and tools.\n\n - Maintain a clean, organized, and safe workstation.\n\n - Identify opportunities to improve assembly processes and communicate suggestions to the broader team.\n\n\n\n\nQUALIFICATIONS\n\n - 1+ years of professional experience in a related field with electronics or mechanical assembly.\n\n - Hands-on experience with building, debugging, testing, and validating electrical systems using oscilloscopes, multimeters, and similar tools. Experience with common hand and power tools.\n\n - Prior experience in manufacturing, assembly, construction, or a warehouse environment is preferred.\n\n - Ability to stand or walk for the duration of a shift and lift 50 lbs.\n\n - A strong sense of reliability, with a work ethic that supports keeping the production line moving.\n\n - Extreme attention to detail and the ability to follow written and verbal instructions in English.\n\n\n\n\nPREFERRED SKILLS OR EXPERIENCE\n\n - Familiarity with solar arrays as input power sources.\n\n - Familiarity with lithium-ion battery handling, safety, and usage.\n\n\n\n\nIN COMPLIANCE WITH FEDERAL LAW, ALL PERSONS HIRED WILL BE REQUIRED TO VERIFY IDENTITY AND ELIGIBILITY TO WORK IN THE UNITED STATES AND TO COMPLETE THE REQUIRED EMPLOYMENT ELIGIBILITY VERIFICATION FORM UPON HIRE. THE COMPANY IS UNABLE TO SPONSOR EMPLOYMENT VISAS AT THIS TIME.\n\n "
+  }
+}

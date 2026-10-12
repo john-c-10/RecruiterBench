@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "role_id": "ab7a71ca-44b0-49a5-a56d-cc0306726c1a",
+  "snapshot_sha256": "6e412665453d2b93cbeb6769f42911cab9919f69b3c6865bca080a860baaf160",
+  "input_sha256": "8c399bc09d6472697d7027af7df961001e045810b496a9f07a158fba0fb3f71f",
+  "rubric_sha256": "ed2101303f2ad91066cdf8ac66d56730ac2957bc32e9d5003b33df4366a2e7de",
+  "rubric": {
+    "role_summary": "Senior regulatory affairs role for a cosmetics brand, overseeing product-launch compliance, labeling, regulatory projects, and ingredient and formulation assessments under EU and applicable international cosmetics law.",
+    "search_query": "Find candidates for this role:\nSenior regulatory affairs role for a cosmetics brand, overseeing product-launch compliance, labeling, regulatory projects, and ingredient and formulation assessments under EU and applicable international cosmetics law.\nMandatory professional qualifications:\n- Academic background in cosmetic science, chemistry, pharmacy, nutritional science, or a related discipline.\n- Solid working knowledge of EU cosmetics regulation (EC No 1223/2009).\n- Experience in a regulatory, compliance, or quality role.\nPreferred, not mandatory:\n- Familiarity with US FDA cosmetics requirements.\n- Regulatory, compliance, or quality experience within the cosmetics, personal care, or pharmaceutical sector.\n- Experience with regulatory databases or cosmetics compliance tools.\n- Proficiency in Google Workspace.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Academic background in cosmetic science, chemistry, pharmacy, nutritional science, or a related discipline.",
+        "source_quote": "Academic background in cosmetic science, chemistry, pharmacy, nutritional science, or a related discipline.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Solid working knowledge of EU cosmetics regulation (EC No 1223/2009).",
+        "source_quote": "Solid working knowledge of EU cosmetics regulation (EC No 1223/2009); familiarity with US FDA cosmetics requirements is a strong plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience in a regulatory, compliance, or quality role.",
+        "source_quote": "Experience in a regulatory, compliance, or quality role — ideally within the cosmetics, personal care, or pharmaceutical sector.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Familiarity with US FDA cosmetics requirements.",
+        "source_quote": "familiarity with US FDA cosmetics requirements is a strong plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Regulatory, compliance, or quality experience within the cosmetics, personal care, or pharmaceutical sector.",
+        "source_quote": "ideally within the cosmetics, personal care, or pharmaceutical sector.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with regulatory databases or cosmetics compliance tools.",
+        "source_quote": "experience with regulatory databases or cosmetics compliance tools is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Proficiency in Google Workspace.",
+        "source_quote": "Proficient in Google Workspace; experience with regulatory databases or cosmetics compliance tools is a plus.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Berlin area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Berlin area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Berlin",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Hands-on mentality and genuine passion for clean beauty.",
+      "Structured, detail-oriented, and reliable; takes ownership and flags risks early.",
+      "Comfortable collaborating across product development, quality, and commercial teams while maintaining regulatory rigor.",
+      "Analytical mindset for assessing market trends and their regulatory implications.",
+      "Clear communication and comfort representing the brand externally."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "6e412665453d2b93cbeb6769f42911cab9919f69b3c6865bca080a860baaf160",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:40.428849+00:00",
+    "response_id": "chatcmpl-ETyTxtvNlfDDygAXrczqarQD38dWt",
+    "usage": {
+      "prompt_tokens": 2256,
+      "completion_tokens": 707,
+      "total_tokens": 2963,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1010,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "dc9b7ebc7d11338fb0740bca5b7e0574f9b393c9cc8770d4e74bba5c4daa15db",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Berlin; present residence in Berlin is not specified.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Berlin"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Berlin",
+        "OnSite"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "18025c6aaaf62a062d905f68a53a81aeaba74c3433085582b5fc1bb987a07319",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Written and spoken communication skills in both English and German.",
+          "source_quote": "Clear communicator in both English and German — written and spoken — and comfortable representing the brand externally.",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M5": "M4"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d509ac70fd0bea8ce7857635df7ee23022734c418f595815d9412d3dd7dcf199",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Proficiency in Google Workspace.",
+          "source_quote": "Proficient in Google Workspace; experience with regulatory databases or cosmetics compliance tools is a plus.",
+          "verification": "profile",
+          "reason": "Office tool proficiency is rarely listed."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "3c8237e4eb72e8d1892c62d71bfc67344f821d01e714314a15bc0bf0d06ce655",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "89ff77d03b7e12eef30c7bb3ffa542e159cd01b70e3783dab4e2661fbc2b28d0",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Berlin area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

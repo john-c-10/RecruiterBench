@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0",
+  "role_id": "545c342e-e107-41ca-bdd8-24c4cfa6eedf",
+  "snapshot_sha256": "368869d17c0d3cb3e44d8e9e2a24c73ae4b0852430149f268bdc6d9ba0143d88",
+  "input_sha256": "9d2b48fc975164a234c861f87767c12007006884a7646156c0f54bb984a589c7",
+  "rubric_sha256": "5b55c19c5bdfc9da9ef7034073d911f1ac83e0970242d329ba314c03d60aa321",
+  "rubric": {
+    "role_summary": "Senior backend and infrastructure engineering role owning production systems, cloud infrastructure, and services for student and teacher product workflows, with occasional full-stack work and technical leadership.",
+    "search_query": "Find candidates for this role:\nSenior backend and infrastructure engineering role owning production systems, cloud infrastructure, and services for student and teacher product workflows, with occasional full-stack work and technical leadership.\nMandatory professional qualifications:\n- Bachelor’s or Master’s degree in Computer Science, or equivalent technical experience.\n- 8+ years of professional software engineering experience or equivalent practical experience.\n- Strong backend experience; the example backend languages (Kotlin, Python, Go, Rust, Scala) are not individually required.\n- Hands-on experience operating production systems and cloud infrastructure.\n- Experience designing APIs, working with relational databases, and shipping complex systems.\n- Familiarity with automated testing, CI/CD pipelines, and reliable deployment practices.\nPreferred, not mandatory:\n- AWS experience.\n- Extensive experience contributing to frontend codebases; React and TypeScript are examples.\n- Experience integrating LLM-backed services, including API usage, evaluation, and operational considerations.\n- 2+ years of experience mentoring and/or managing junior and mid-level engineers.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We have offices in San Francisco, CA and New York City, NY and we ask that employees work from one of the two locations and come into the office in-person 4 days a week.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s or Master’s degree in Computer Science, or equivalent technical experience.",
+        "source_quote": "Bachelor’s or Master’s degree in Computer Science, or equivalent technical experience",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "8+ years of professional software engineering experience or equivalent practical experience.",
+        "source_quote": "8+ years of professional software engineering experience or equivalent practical experience",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Strong backend experience; the example backend languages (Kotlin, Python, Go, Rust, Scala) are not individually required.",
+        "source_quote": "Strong backend experience (e.g., Kotlin, Python, Go, Rust, Scala), with willingness to ramp up on Kira’s stack (Kotlin, Python)",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Hands-on experience operating production systems and cloud infrastructure.",
+        "source_quote": "Hands-on experience operating production systems and cloud infrastructure (ideally AWS)",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Experience designing APIs, working with relational databases, and shipping complex systems.",
+        "source_quote": "Experience designing APIs, working with relational databases (e.g., MySQL), and shipping complex systems",
+        "verification": "profile"
+      },
+      {
+        "id": "M6",
+        "requirement": "Familiarity with automated testing, CI/CD pipelines, and reliable deployment practices.",
+        "source_quote": "Familiarity with automated testing, CI/CD pipelines, and reliable deployment practices",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "AWS experience.",
+        "source_quote": "ideally AWS",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Extensive experience contributing to frontend codebases; React and TypeScript are examples.",
+        "source_quote": "(Preferred) Extensive experience contributing to frontend codebases (e.g., React, TypeScript)",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience integrating LLM-backed services, including API usage, evaluation, and operational considerations.",
+        "source_quote": "(Preferred) Experience with integrating LLM-backed services, including API usage, evaluation, and operational considerations",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "2+ years of experience mentoring and/or managing junior and mid-level engineers.",
+        "source_quote": "2+ years experience mentoring and/or managing junior and mid-level engineers, fostering a culture of continuous learning and high-quality delivery",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "We have offices in San Francisco, CA and New York City, NY and we ask that employees work from one of the two locations and come into the office in-person 4 days a week."
+      ]
+    },
+    "soft_requirements": [
+      "Ability to own technical decisions and execute with minimal guidance in ambiguous environments.",
+      "Clear written and verbal communication across technical and non-technical audiences.",
+      "Comfort with a fast-paced, early-stage startup environment and changing priorities.",
+      "Positive, can-do attitude and ability to overcome setbacks and ambiguity.",
+      "Impeccable attention to detail.",
+      "Willingness to ramp up on Kotlin and Python.",
+      "Fostering continuous learning and high-quality delivery when mentoring or managing."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "368869d17c0d3cb3e44d8e9e2a24c73ae4b0852430149f268bdc6d9ba0143d88",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:17.057162+00:00",
+    "response_id": "chatcmpl-ETyUT7Qv8XLtiExFGuurixQtwaSBR",
+    "usage": {
+      "prompt_tokens": 2281,
+      "completion_tokens": 1238,
+      "total_tokens": 3519,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1035,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "d6d5085603dba497374ffa6ff6a3a34c21e1567337119a8b849531c27ed8fcb9",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work from the San Francisco, CA or New York City, NY office in person 4 days a week; present residence in either city is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA",
+        "New York City, NY"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "We have offices in San Francisco, CA and New York City, NY and we ask that employees work from one of the two locations and come into the office in-person 4 days a week."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "8+ years of professional software engineering experience or equivalent practical experience",
+        "effective_requirement": "8+ years of professional software engineering experience or equivalent practical experience.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "M6",
+        "source_quote": "2+ years experience mentoring and/or managing junior and mid-level engineers, fostering a culture of continuous learning and high-quality delivery",
+        "effective_requirement": "2+ years of experience mentoring and/or managing junior and mid-level engineers.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "658ea4777f0bc362ae624c0b47bc57680d27cdfaeb4fae1a78ef28e6f4f5e5da",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Availability for a full-time position with flexible work hours and availability outside regular business hours.",
+          "source_quote": "This is a full-time position that requires flexibility with work hours and availability outside of regular business hours.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Strong backend experience and willingness to ramp up on Kotlin and Python; the example backend languages are not individually required.",
+          "after": "Strong backend experience; the example backend languages (Kotlin, Python, Go, Rust, Scala) are not individually required.",
+          "reason": "Willingness to learn is not observable in a profile."
+        }
+      ],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "447c3fed176d9ea9fcf3e539b67c94e7a5710e361454f11c0a71eccc1eacfcb0",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "2+ years of experience mentoring and/or managing junior and mid-level engineers.",
+          "source_quote": "2+ years experience mentoring and/or managing junior and mid-level engineers, fostering a culture of continuous learning and high-quality delivery",
+          "verification": "profile",
+          "reason": "Consistency review: mentoring and generic problem-solving skills are soft skills that profiles largely leave unstated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M7": "M6"
+      },
+      "demoted_preference_ids": {
+        "M6": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "cbe81db38cd26ec5ed8834427d6da5ad7d1babf3004af445e76f6ef9c8f24b7e",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "f674a50f66cd299ee706213bd52dc5cf0569b7a9bb4a65f7133fd3e6413bcc49",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California",
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We have offices in San Francisco, CA and New York City, NY and we ask that employees work from one of the two locations and come into the office in-person 4 days a week.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "8+ years of professional software engineering experience or equivalent practical experience",
+      "effective_requirement": "8+ years of professional software engineering experience or equivalent practical experience.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P4",
+      "source_quote": "2+ years experience mentoring and/or managing junior and mid-level engineers, fostering a culture of continuous learning and high-quality delivery",
+      "effective_requirement": "2+ years of experience mentoring and/or managing junior and mid-level engineers.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

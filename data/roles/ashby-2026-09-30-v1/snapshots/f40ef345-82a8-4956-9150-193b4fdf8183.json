@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f40ef345-82a8-4956-9150-193b4fdf8183",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    "board_url": "https://jobs.ashbyhq.com/ashby",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/ashby",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "f40ef345-82a8-4956-9150-193b4fdf8183",
+    "title": "Senior Product Designer",
+    "department": "Design",
+    "team": "Design",
+    "employmentType": "FullTime",
+    "location": "Remote - US",
+    "secondaryLocations": [
+      {
+        "location": "Austin",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Texas",
+            "addressCountry": "USA",
+            "addressLocality": "Austin"
+          }
+        }
+      },
+      {
+        "location": "Los Angeles",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "USA",
+            "addressLocality": "Los Angeles"
+          }
+        }
+      },
+      {
+        "location": "Portland",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Oregon",
+            "addressCountry": "USA",
+            "addressLocality": "Portland"
+          }
+        }
+      },
+      {
+        "location": "Salt Lake City",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Utah",
+            "addressCountry": "USA",
+            "addressLocality": "Salt Lake City"
+          }
+        }
+      },
+      {
+        "location": "Waterloo",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Ontario",
+            "addressCountry": "Canada",
+            "addressLocality": "Waterloo"
+          }
+        }
+      },
+      {
+        "location": "Boston",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Massachusetts",
+            "addressCountry": "USA",
+            "addressLocality": "Boston"
+          }
+        }
+      },
+      {
+        "location": "Remote - Canada",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "",
+            "addressCountry": "Canada",
+            "addressLocality": ""
+          }
+        }
+      },
+      {
+        "location": "Seattle",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Washington",
+            "addressCountry": "USA",
+            "addressLocality": "Seattle"
+          }
+        }
+      },
+      {
+        "location": "New York",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "New York",
+            "addressCountry": "USA",
+            "addressLocality": "New York"
+          }
+        }
+      },
+      {
+        "location": "San Francisco",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "CA",
+            "addressCountry": "USA",
+            "addressLocality": "San Francisco"
+          }
+        }
+      },
+      {
+        "location": "Vancouver",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "British Columbia",
+            "addressCountry": "Canada",
+            "addressLocality": "Vancouver"
+          }
+        }
+      },
+      {
+        "location": "Denver",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Colorado",
+            "addressCountry": "USA",
+            "addressLocality": "Denver"
+          }
+        }
+      },
+      {
+        "location": "Toronto",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Ontario",
+            "addressCountry": "Canada",
+            "addressLocality": "Toronto"
+          }
+        }
+      },
+      {
+        "location": "Chicago",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Illinois",
+            "addressCountry": "USA",
+            "addressLocality": "Chicago"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2025-12-05T22:43:22.147+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Remote",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "",
+        "addressCountry": "United States",
+        "addressLocality": ""
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    "applyUrl": "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Hi! 👋 I'm <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/in/chkrlee/\">Chris</a>, head of Product Design at Ashby.</p><p style=\"min-height:1.5em\">We're looking for a versatile, intrinsically motivated designer who is excited to contribute to rethinking how modern software is designed. At Ashby, you'll be part designer, part product manager, part consultant, and part design system manager (or some combination of the 4!). We do design differently here, and if that excites you, read on.</p><p style=\"min-height:1.5em\">Our unique approach is working - we're growing &gt;100% year-over-year and have notable customers like Notion, Linear, Shopify, and Snowflake. Our growth and retention metrics are best-in-class among our peers: we have tens of millions in ARR, very low churn, and many years of runway. We're backed by amazing investors like Y Combinator, Elad Gil, Lachy Groom, and many more! We’ll share more details once we meet.</p><p style=\"min-height:1.5em\"></p><h1>How We Work</h1><p style=\"min-height:1.5em\">In my previous roles, product teams always consisted of a product manager, a designer, and ~4-5 engineers. This may sound familiar to you! The product manager briefs the designer who then designs. After designing, mocks are handed to the engineers. <br /><br />We take a more principled approach here at Ashby. If you've been designing software enough, you'll realize in actuality, design is required in varying degrees on each project. Sometimes in the past, I'd be asked to design yet another settings page, when really all that was needed was an engineer to reuse existing components and just follow some documentation I had written. Other times, I felt I should effectively be the product manager and own a project from beginning to end. In these latter cases, it made sense that I was even the one providing project updates and managing resources rather than constantly being pinged by a separate product manager.<br /><br />This principled approach is now what we do here, and it is part of what has allowed Ashby to take down incumbents in multiple verticals all at once. We don't settle for the status quo—we actively resist reversion to the mean.<br /><br />Currently, I report to Benji, the co-founder &amp; CEO. Both Abhik and Benji (our founders) care deeply about design, which at first glance may seem counterintuitive given the number of full-time designers that we employ. The belief is not that design is unimportant, but rather that it should be owned by the product team collectively, not solely by a group of full-time designers who happen to have the job title. <br /><br />The design <em><strong>department’s</strong></em> job at Ashby is not to make every single design decision but to equip our entire product team to make better decisions themselves, as well as edit decisions that PMs/Engineers choose to make. That, while tackling the biggest design challenges ourselves. </p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Separate from design, you may also be excited by the fact that we maintain a near seed-stage-like culture with fuzzy lines between functional roles, as much autonomy as you can handle, and a focus on IC-work with an almost-no-meeting culture. While you get the product-market fit and scale of a growth-stage startup, you also get the agency and no-nonsense, no-red-tape culture of a seed-stage startup.</p><p style=\"min-height:1.5em\"></p><h1>What We’re Building</h1><p style=\"min-height:1.5em\">Talent teams aspire to build a hiring process that identifies great candidates, moves them quickly through the interview process, and provides an excellent experience for the candidate. To accomplish this, recruiters perform thousands of daily tasks to coordinate and relay information between candidates, interviewers, and hiring managers. Teams struggle to keep up!</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Scheduling a final round is an excellent example of our customers' challenges. A recruiter needs to collect availability from the candidate, identify potential interviewers, perform “Calendar Tetris” to find who is available to interview the candidate, schedule on the earliest date possible, and perform any last-minute adjustments as availability changes. They must perform this while considering the interview load on each individual and whether interviewers need to be trained and shadowing others. </p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Ashby provides talent teams with intelligent and powerful software that provides insights into where they’re failing and automates or simplifies many of the tasks they’re underwater with. We put a lot of effort into designing products that are approachable to beginners but mastered and extended by power users. In many ways, spreadsheets set the bar here (and are what we often replace!).</p><p style=\"min-height:1.5em\"></p><h1>Why you should or shouldn’t apply</h1><p style=\"min-height:1.5em\"></p><h2>Your qualifications:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">4+ years of product design experience in desktop SaaS.</p></li><li><p style=\"min-height:1.5em\">Able to think from first principles instead of simply applying the “standard” UX processes.</p></li><li><p style=\"min-height:1.5em\">Can break down complex user problems by asking questions that narrow down the solution space.</p></li><li><p style=\"min-height:1.5em\">Enough experience that your intuition can solve many usability problems without having to rely solely on data &amp; metrics or conducting user research.</p></li><li><p style=\"min-height:1.5em\">Curious &amp; resourceful enough to come up with creative solutions and de-risk them appropriately.</p></li><li><p style=\"min-height:1.5em\">Strong skills in layout, navigation, IA, UI, and interaction design.</p></li><li><p style=\"min-height:1.5em\">Strong visual design skills and obsession with craft &amp; details.</p></li><li><p style=\"min-height:1.5em\">As a bonus, you have experience<em> </em>at an early-stage startup or have spent time as a solo designer on a team.</p></li></ul><p style=\"min-height:1.5em\"></p><h2>You may want to apply if you’re excited about:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Creating leverage and impact far and above what you'd see in a typical EPD product team structure. You won’t be a cog in the wheel, the wheel is not very big!</p></li><li><p style=\"min-height:1.5em\">Getting to work on all parts of a massive product surface area - spanning many user types, JTBDs, usability challenges, etc. Unlike in other organizations, you won’t be stuck working on one problem for many years.</p></li><li><p style=\"min-height:1.5em\">Helping reinvent the design model for modern enterprise software—you don’t <em><strong>have</strong></em> to build wireframes, user journeys, personas, etc. What matters is solving a customer’s problem; what tools you use are up to you.</p></li><li><p style=\"min-height:1.5em\">Covering all parts of the design process with a focus on design craft. You'll still be doing the occasional user research interview but will be focused on using heuristics &amp; experience to improve our IA, navigation, interactions, UI patterns, and more.</p></li><li><p style=\"min-height:1.5em\">Helping build our design system from (almost) the ground up.</p></li></ul><h2>Conversely, you may <u>not</u> want to apply if:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You feel uncomfortable designing independently without much guidance from a PM or design management.</p></li><li><p style=\"min-height:1.5em\">You’re uncomfortable having your decisions and process being challenged constantly by engineering &amp; product.</p></li><li><p style=\"min-height:1.5em\">You prefer an in-person role over remote (Ashby operates remotely).</p></li><li><p style=\"min-height:1.5em\">You dislike written documentation.</p></li><li><p style=\"min-height:1.5em\">You want a set structure and rhythm to your projects.</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">PM gives you a brief, you do wireframes, then mocks, then pass off work to engineers. Rinse and repeat.</p></li></ul></li><li><p style=\"min-height:1.5em\">You prefer a narrow job scope - interaction design <em><strong>only, </strong></em>design system <em><strong>only</strong></em>, etc.</p></li></ul><h2>On a weekly basis you will find yourself:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Consulting for engineers who need help structuring layout, typography, flows, etc.</p></li><li><p style=\"min-height:1.5em\">Digging into problems by consulting GTM, talking to customers, asking for data requests, and more in order to present confident assumptions about your proposals.</p></li><li><p style=\"min-height:1.5em\">Using Figma to draw out your ideas and create visual artifacts for stakeholder alignment.</p></li><li><p style=\"min-height:1.5em\">Writing specification docs (we call them specs!) that detail your design proposals. These documents are meant to get stakeholder alignment on the biggest decisions you want to make and are a core part of how we work at Ashby.</p></li><li><p style=\"min-height:1.5em\">Taking ownership of larger product features and thinking through Jobs-To-Be-Done, navigation, information architecture, layout, interaction, etc.</p></li><li><p style=\"min-height:1.5em\">Taking in customer feedback and using heuristics to build your own usability backlog and propose projects for engineers to take on.</p></li><li><p style=\"min-height:1.5em\">Consolidating and refining our design system to be functional, aesthetic, and best-in-class.</p></li></ul><h1>Interview Process</h1><p style=\"min-height:1.5em\">At Ashby, our team and interview process want to help you show your best self. We’ll dive into past projects and simulate working together and talking through decisions. Our interview process is four rounds with some casual Zoom coffee in between to get to know each other: </p><ol style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">30m introduction call to discuss Ashby and your experience</p></li><li><p style=\"min-height:1.5em\">45m portfolio review</p></li><li><p style=\"min-height:1.5em\">75m design exercise and app teardown. The exercise will be a live whiteboarding exercise where we provide a prompt and you show us how you'd break down problems and come up with solutions. </p></li><li><p style=\"min-height:1.5em\">2.5hr final round - meet the team + portfolio repeat with a founder</p></li></ol><p style=\"min-height:1.5em\">I'll be your main point of contact and prepare you for interviews. You’ll meet other engineers and product managers as well (with lots of time to ask them questions). If we don’t give an offer by the last round, I'll provide feedback as to why if you'd like it (I'm serious!).</p><p style=\"min-height:1.5em\"></p><h1>Benefits</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Competitive salary and equity.</p></li><li><p style=\"min-height:1.5em\"><em>10-year exercise window for stock options</em>. You shouldn’t feel pressure to purchase stock options if you leave Ashby —do it when you feel financially comfortable. This is one of the reasons I joined personally - not a lot of startups do this.</p></li><li><p style=\"min-height:1.5em\">Unlimited PTO with four weeks recommended per year. Expect “Vacation?” in our one-on-one agenda until you start taking it.</p></li><li><p style=\"min-height:1.5em\"><em>Twelve weeks of fully paid family leave in the US.</em> We plan to expand this to employees in other countries as situations arise.</p></li><li><p style=\"min-height:1.5em\">Generous equipment, software, and office furniture budget. Get what you need to be happy and productive!</p></li><li><p style=\"min-height:1.5em\">$100/month education budget with more expensive items (like conferences) covered with manager approval.</p></li><li><p style=\"min-height:1.5em\">If you’re in the US, top-notch health insurance for you and your dependents with all premiums covered by us.</p></li></ul><p style=\"min-height:1.5em\">Ashby’s success hinges on hiring great people and creating an environment where we can be happy, feel challenged, and do our best work. We’re being deliberate about building that environment from the ground up. I hope that excites you enough to apply.</p><p style=\"min-height:1.5em\"><em>Ashby provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity, or gender expression. We are committed to a diverse and inclusive workforce and welcome people from all backgrounds, experiences, perspectives, and abilities.</em></p><p style=\"min-height:1.5em\"><em>Ashby is committed to a fair and transparent hiring process. We confirm that this advertisement is for an active, existing vacancy within our organization. Please be advised that we may use artificial intelligence-driven tools to assist our recruitment team in screening, assessing, and selecting candidates for this position.</em></p>",
+    "descriptionPlain": "Hi! 👋 I'm Chris https://www.linkedin.com/in/chkrlee/, head of Product Design at Ashby.\n\nWe're looking for a versatile, intrinsically motivated designer who is excited to contribute to rethinking how modern software is designed. At Ashby, you'll be part designer, part product manager, part consultant, and part design system manager (or some combination of the 4!). We do design differently here, and if that excites you, read on.\n\nOur unique approach is working - we're growing >100% year-over-year and have notable customers like Notion, Linear, Shopify, and Snowflake. Our growth and retention metrics are best-in-class among our peers: we have tens of millions in ARR, very low churn, and many years of runway. We're backed by amazing investors like Y Combinator, Elad Gil, Lachy Groom, and many more! We’ll share more details once we meet.\n\n\n\n\nHOW WE WORK\n\nIn my previous roles, product teams always consisted of a product manager, a designer, and ~4-5 engineers. This may sound familiar to you! The product manager briefs the designer who then designs. After designing, mocks are handed to the engineers. \n\nWe take a more principled approach here at Ashby. If you've been designing software enough, you'll realize in actuality, design is required in varying degrees on each project. Sometimes in the past, I'd be asked to design yet another settings page, when really all that was needed was an engineer to reuse existing components and just follow some documentation I had written. Other times, I felt I should effectively be the product manager and own a project from beginning to end. In these latter cases, it made sense that I was even the one providing project updates and managing resources rather than constantly being pinged by a separate product manager.\n\nThis principled approach is now what we do here, and it is part of what has allowed Ashby to take down incumbents in multiple verticals all at once. We don't settle for the status quo—we actively resist reversion to the mean.\n\nCurrently, I report to Benji, the co-founder & CEO. Both Abhik and Benji (our founders) care deeply about design, which at first glance may seem counterintuitive given the number of full-time designers that we employ. The belief is not that design is unimportant, but rather that it should be owned by the product team collectively, not solely by a group of full-time designers who happen to have the job title. \n\nThe design department’s job at Ashby is not to make every single design decision but to equip our entire product team to make better decisions themselves, as well as edit decisions that PMs/Engineers choose to make. That, while tackling the biggest design challenges ourselves. \n\n\n\nSeparate from design, you may also be excited by the fact that we maintain a near seed-stage-like culture with fuzzy lines between functional roles, as much autonomy as you can handle, and a focus on IC-work with an almost-no-meeting culture. While you get the product-market fit and scale of a growth-stage startup, you also get the agency and no-nonsense, no-red-tape culture of a seed-stage startup.\n\n\n\n\nWHAT WE’RE BUILDING\n\nTalent teams aspire to build a hiring process that identifies great candidates, moves them quickly through the interview process, and provides an excellent experience for the candidate. To accomplish this, recruiters perform thousands of daily tasks to coordinate and relay information between candidates, interviewers, and hiring managers. Teams struggle to keep up!\n\n\n\nScheduling a final round is an excellent example of our customers' challenges. A recruiter needs to collect availability from the candidate, identify potential interviewers, perform “Calendar Tetris” to find who is available to interview the candidate, schedule on the earliest date possible, and perform any last-minute adjustments as availability changes. They must perform this while considering the interview load on each individual and whether interviewers need to be trained and shadowing others. \n\n\n\nAshby provides talent teams with intelligent and powerful software that provides insights into where they’re failing and automates or simplifies many of the tasks they’re underwater with. We put a lot of effort into designing products that are approachable to beginners but mastered and extended by power users. In many ways, spreadsheets set the bar here (and are what we often replace!).\n\n\n\n\nWHY YOU SHOULD OR SHOULDN’T APPLY\n\n\n\n\nYOUR QUALIFICATIONS:\n\n - 4+ years of product design experience in desktop SaaS.\n\n - Able to think from first principles instead of simply applying the “standard” UX processes.\n\n - Can break down complex user problems by asking questions that narrow down the solution space.\n\n - Enough experience that your intuition can solve many usability problems without having to rely solely on data & metrics or conducting user research.\n\n - Curious & resourceful enough to come up with creative solutions and de-risk them appropriately.\n\n - Strong skills in layout, navigation, IA, UI, and interaction design.\n\n - Strong visual design skills and obsession with craft & details.\n\n - As a bonus, you have experience at an early-stage startup or have spent time as a solo designer on a team.\n\n\n\n\nYOU MAY WANT TO APPLY IF YOU’RE EXCITED ABOUT:\n\n - Creating leverage and impact far and above what you'd see in a typical EPD product team structure. You won’t be a cog in the wheel, the wheel is not very big!\n\n - Getting to work on all parts of a massive product surface area - spanning many user types, JTBDs, usability challenges, etc. Unlike in other organizations, you won’t be stuck working on one problem for many years.\n\n - Helping reinvent the design model for modern enterprise software—you don’t have to build wireframes, user journeys, personas, etc. What matters is solving a customer’s problem; what tools you use are up to you.\n\n - Covering all parts of the design process with a focus on design craft. You'll still be doing the occasional user research interview but will be focused on using heuristics & experience to improve our IA, navigation, interactions, UI patterns, and more.\n\n - Helping build our design system from (almost) the ground up.\n\n\nCONVERSELY, YOU MAY NOT WANT TO APPLY IF:\n\n - You feel uncomfortable designing independently without much guidance from a PM or design management.\n\n - You’re uncomfortable having your decisions and process being challenged constantly by engineering & product.\n\n - You prefer an in-person role over remote (Ashby operates remotely).\n\n - You dislike written documentation.\n\n - You want a set structure and rhythm to your projects.\n   \n   - PM gives you a brief, you do wireframes, then mocks, then pass off work to engineers. Rinse and repeat.\n\n - You prefer a narrow job scope - interaction design only, design system only, etc.\n\n\nON A WEEKLY BASIS YOU WILL FIND YOURSELF:\n\n - Consulting for engineers who need help structuring layout, typography, flows, etc.\n\n - Digging into problems by consulting GTM, talking to customers, asking for data requests, and more in order to present confident assumptions about your proposals.\n\n - Using Figma to draw out your ideas and create visual artifacts for stakeholder alignment.\n\n - Writing specification docs (we call them specs!) that detail your design proposals. These documents are meant to get stakeholder alignment on the biggest decisions you want to make and are a core part of how we work at Ashby.\n\n - Taking ownership of larger product features and thinking through Jobs-To-Be-Done, navigation, information architecture, layout, interaction, etc.\n\n - Taking in customer feedback and using heuristics to build your own usability backlog and propose projects for engineers to take on.\n\n - Consolidating and refining our design system to be functional, aesthetic, and best-in-class.\n\n\nINTERVIEW PROCESS\n\nAt Ashby, our team and interview process want to help you show your best self. We’ll dive into past projects and simulate working together and talking through decisions. Our interview process is four rounds with some casual Zoom coffee in between to get to know each other: \n\n 1. 30m introduction call to discuss Ashby and your experience\n\n 2. 45m portfolio review\n\n 3. 75m design exercise and app teardown. The exercise will be a live whiteboarding exercise where we provide a prompt and you show us how you'd break down problems and come up with solutions. \n\n 4. 2.5hr final round - meet the team + portfolio repeat with a founder\n\nI'll be your main point of contact and prepare you for interviews. You’ll meet other engineers and product managers as well (with lots of time to ask them questions). If we don’t give an offer by the last round, I'll provide feedback as to why if you'd like it (I'm serious!).\n\n\n\n\nBENEFITS\n\n - Competitive salary and equity.\n\n - 10-year exercise window for stock options. You shouldn’t feel pressure to purchase stock options if you leave Ashby —do it when you feel financially comfortable. This is one of the reasons I joined personally - not a lot of startups do this.\n\n - Unlimited PTO with four weeks recommended per year. Expect “Vacation?” in our one-on-one agenda until you start taking it.\n\n - Twelve weeks of fully paid family leave in the US. We plan to expand this to employees in other countries as situations arise.\n\n - Generous equipment, software, and office furniture budget. Get what you need to be happy and productive!\n\n - $100/month education budget with more expensive items (like conferences) covered with manager approval.\n\n - If you’re in the US, top-notch health insurance for you and your dependents with all premiums covered by us.\n\nAshby’s success hinges on hiring great people and creating an environment where we can be happy, feel challenged, and do our best work. We’re being deliberate about building that environment from the ground up. I hope that excites you enough to apply.\n\nAshby provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity, or gender expression. We are committed to a diverse and inclusive workforce and welcome people from all backgrounds, experiences, perspectives, and abilities.\n\nAshby is committed to a fair and transparent hiring process. We confirm that this advertisement is for an active, existing vacancy within our organization. Please be advised that we may use artificial intelligence-driven tools to assist our recruitment team in screening, assessing, and selecting candidates for this position."
+  }
+}

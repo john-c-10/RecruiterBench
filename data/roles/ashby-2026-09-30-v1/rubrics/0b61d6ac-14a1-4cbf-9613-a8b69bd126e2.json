@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0b61d6ac-14a1-4cbf-9613-a8b69bd126e2",
+  "snapshot_sha256": "039c0a59aea35be31893f6dd12e4121d34e028b7db0f4e49d8ec48d225d010b6",
+  "input_sha256": "d2eecd8b65a0056189afe7b68b1d130abb33a93d52f3fdcbc864dcafe3c882e7",
+  "rubric_sha256": "537398771f0f3e0f572ba75232382147ed4cb21f04a8ba4b7e9b77b1428fea49",
+  "rubric": {
+    "role_summary": "Senior B2B SaaS growth marketing role owning integrated campaign strategy, execution, measurement, and budget for a segment, with a focus on demand generation and pipeline.",
+    "search_query": "Find candidates for this role:\nSenior B2B SaaS growth marketing role owning integrated campaign strategy, execution, measurement, and budget for a segment, with a focus on demand generation and pipeline.\nMandatory professional qualifications:\n- 8+ years in B2B SaaS demand generation or growth marketing.\n- Experience owning integrated marketing campaigns.\n- Hands-on experience with marketing automation (HubSpot) and Salesforce.\nPreferred, not mandatory:\n- 8+ years in B2B SaaS demand generation or growth marketing, including building programs rather than only shipping campaigns.\n- Track record owning integrated campaigns end-to-end, from strategy and brief through results and budget accountability.\n- Experience setting campaign measurement standards.\n- Experience working cross-functionally with Sales, SDR, creative, and Product Marketing.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "8+ years in B2B SaaS demand generation or growth marketing.",
+        "source_quote": "8+ years in B2B SaaS demand generation or growth marketing—you've built programs, not just shipped campaigns",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience owning integrated marketing campaigns.",
+        "source_quote": "A proven track record owning integrated campaigns end-to-end: from strategy and brief to results and budget accountability",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Hands-on experience with marketing automation (HubSpot) and Salesforce.",
+        "source_quote": "Hands-on with marketing automation (HubSpot) and Salesforce",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "8+ years in B2B SaaS demand generation or growth marketing, including building programs rather than only shipping campaigns.",
+        "source_quote": "8+ years in B2B SaaS demand generation or growth marketing—you've built programs, not just shipped campaigns",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Track record owning integrated campaigns end-to-end, from strategy and brief through results and budget accountability.",
+        "source_quote": "A proven track record owning integrated campaigns end-to-end: from strategy and brief to results and budget accountability",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience setting campaign measurement standards.",
+        "source_quote": "Analytical fluency: you set the measurement standard, not just read the dashboard—and you know the difference between a signal and noise",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience working cross-functionally with Sales, SDR, creative, and Product Marketing.",
+        "source_quote": "you've worked shoulder-to-shoulder with Sales, SDR, creative, and Product Marketing",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote U.S.",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Executive-level communication, including clear briefs, VP-level performance presentations, and influencing strategy discussions.",
+      "Builder's instinct to improve teams, processes, and programs.",
+      "Curiosity, willingness to learn, and sound judgment in using AI responsibly.",
+      "Ability to distinguish meaningful measurement signals from noise and collaborate effectively across functions."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "039c0a59aea35be31893f6dd12e4121d34e028b7db0f4e49d8ec48d225d010b6",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:29.008125+00:00",
+    "response_id": "chatcmpl-ETyQsf3CSROQ1PbI7EFzbJpJ2MqzS",
+    "usage": {
+      "prompt_tokens": 2684,
+      "completion_tokens": 806,
+      "total_tokens": 3490,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1438,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "741e9b1fd3fe79b7dfd66a13df422c594a2051a8fc7852de6f2b802ed364854a",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role in the U.S.; no present-residence requirement or relocation policy is stated.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "U.S.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote U.S.",
+        "Remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "8+ years in B2B SaaS demand generation or growth marketing—you've built programs, not just shipped campaigns",
+        "effective_requirement": "8+ years in B2B SaaS demand generation or growth marketing, including building programs rather than only shipping campaigns.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "6f5c32573671c59f756c6230a5538ebfa98cc60b81a7d062c69edf6086d2b36c",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Authorized to work in the U.S. without current or future employer sponsorship.",
+          "source_quote": "Must be authorized to work in the U.S. without the need for current or future employer sponsorship.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "00bc125f09bed3072a00c39263234cc43286ec770b9003a0d339cc2cf97208bd",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience setting campaign measurement standards.",
+          "source_quote": "Analytical fluency: you set the measurement standard, not just read the dashboard—and you know the difference between a signal and noise",
+          "verification": "profile",
+          "reason": "Setting measurement standards is a specific practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience working cross-functionally with Sales, SDR, creative, and Product Marketing.",
+          "source_quote": "you've worked shoulder-to-shoulder with Sales, SDR, creative, and Product Marketing",
+          "verification": "profile",
+          "reason": "Cross-functional collaboration is rarely stated explicitly."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "8+ years in B2B SaaS demand generation or growth marketing, including building programs rather than only shipping campaigns.",
+          "after": "8+ years in B2B SaaS demand generation or growth marketing.",
+          "reason": "Years in demand gen/growth marketing are observable; programs-vs-campaigns distinction is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Track record owning integrated campaigns end-to-end, from strategy and brief through results and budget accountability.",
+          "after": "Experience owning integrated marketing campaigns.",
+          "reason": "Campaign ownership is implied by campaign manager titles; budget accountability detail is rarely stated."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M3"
+      },
+      "demoted_preference_ids": {
+        "M1": "P1",
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0e505446d82cb7142d0693e97a0e347b63ec64a48a28372c6d3e0da5072973f7",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "8c6dca6edc2d5bd01966afdd5d9393a98a2dc766ebde3c21ba7e28402dec1b44",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "8+ years in B2B SaaS demand generation or growth marketing—you've built programs, not just shipped campaigns",
+      "effective_requirement": "8+ years in B2B SaaS demand generation or growth marketing.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P1",
+      "source_quote": "8+ years in B2B SaaS demand generation or growth marketing—you've built programs, not just shipped campaigns",
+      "effective_requirement": "8+ years in B2B SaaS demand generation or growth marketing, including building programs rather than only shipping campaigns.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

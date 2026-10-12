@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "role_id": "1c9d0167-b9b4-4aaa-af4f-8eccd89bf8a3",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/bloxd/1c9d0167-b9b4-4aaa-af4f-8eccd89bf8a3",
+    "board_url": "https://jobs.ashbyhq.com/bloxd",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/bloxd",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "1c9d0167-b9b4-4aaa-af4f-8eccd89bf8a3",
+    "title": "New Grad Software Engineer",
+    "department": "Bloxd",
+    "team": "Bloxd",
+    "employmentType": "FullTime",
+    "location": "United Kingdom",
+    "secondaryLocations": [],
+    "publishedAt": "2026-08-24T10:28:02.119+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": null,
+    "jobUrl": "https://jobs.ashbyhq.com/bloxd/1c9d0167-b9b4-4aaa-af4f-8eccd89bf8a3",
+    "applyUrl": "https://jobs.ashbyhq.com/bloxd/1c9d0167-b9b4-4aaa-af4f-8eccd89bf8a3/application",
+    "descriptionHtml": "<h1><strong>New Grad Software Engineer (2026 or 2027)</strong></h1><p style=\"min-height:1.5em\">We’re a profitable video game start-up in London with 15 million monthly players and we’re hiring New Grad Software Engineers (2026 or 2027)  to join our 11-person founding team.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>About us</strong></p><p style=\"min-height:1.5em\">Creating games with editable worlds usually takes 20k+ lines of well-optimised code and large amounts of effort. Bloxd gives you editable worlds in 5 lines of code, within 5 minutes. You can play our games at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://bloxd.io\">bloxd.io</a>.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>About you</strong></p><p style=\"min-height:1.5em\">You’re passionate about gaming and excited by the prospect of building great games that bring millions together. You have strong engineering fundamentals and a strong product sense, are eager to wear many hats across game design, UI/UX, and community management, and can iterate quickly on a live product whilst learning from player feedback.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">You’re equally energised by difficult engineering problems as you are by voxel, sandbox, and multiplayer games. You think deeply about what makes these games fun and enjoy building the technical systems that make them possible.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>What we’re looking for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">A degree in computer science, engineering, mathematics, or a related subject, or equivalent practical experience.</p></li><li><p style=\"min-height:1.5em\">Some professional experience in software engineering, either through internships, or scaled side projects.</p></li><li><p style=\"min-height:1.5em\">Experience developing games, game engines or modding through side projects.</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>Things you could work on within your first 2 months:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Create and manage your own game</p></li><li><p style=\"min-height:1.5em\">Develop new gameplay systems inside existing games</p></li><li><p style=\"min-height:1.5em\">Build new engine features for use by other game developers</p></li><li><p style=\"min-height:1.5em\">Profile and optimise performance</p></li><li><p style=\"min-height:1.5em\">Develop an in-game item marketplace</p></li><li><p style=\"min-height:1.5em\">Improve our partner implementations (E.g. CrazyGames, Discord Activities)</p></li><li><p style=\"min-height:1.5em\">Play a lot of Bloxd :)</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>Our tech</strong></p><p style=\"min-height:1.5em\">We have a TypeScript-first codebase, and use a combination of React, WebGL, and Node. This tech allows us to deliver Bloxd in an incredibly accessible way, and provides a great developer experience. You’ll need to be happy to pick these up if you’re not already familiar with them.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>Benefits</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Healthcare</p></li><li><p style=\"min-height:1.5em\">5% pension match on qualifying earnings</p></li><li><p style=\"min-height:1.5em\">A permanent desk in our King’s Cross office</p></li><li><p style=\"min-height:1.5em\">25 days holiday + bank holidays</p></li><li><p style=\"min-height:1.5em\">Competitive salary + stock options</p></li></ul>",
+    "descriptionPlain": "NEW GRAD SOFTWARE ENGINEER (2026 OR 2027)\n\nWe’re a profitable video game start-up in London with 15 million monthly players and we’re hiring New Grad Software Engineers (2026 or 2027)  to join our 11-person founding team.\n\n \n\nAbout us\n\nCreating games with editable worlds usually takes 20k+ lines of well-optimised code and large amounts of effort. Bloxd gives you editable worlds in 5 lines of code, within 5 minutes. You can play our games at bloxd.io http://bloxd.io.\n\n \n\nAbout you\n\nYou’re passionate about gaming and excited by the prospect of building great games that bring millions together. You have strong engineering fundamentals and a strong product sense, are eager to wear many hats across game design, UI/UX, and community management, and can iterate quickly on a live product whilst learning from player feedback.\n\n \n\nYou’re equally energised by difficult engineering problems as you are by voxel, sandbox, and multiplayer games. You think deeply about what makes these games fun and enjoy building the technical systems that make them possible.\n\n \n\nWhat we’re looking for\n\n - A degree in computer science, engineering, mathematics, or a related subject, or equivalent practical experience.\n\n - Some professional experience in software engineering, either through internships, or scaled side projects.\n\n - Experience developing games, game engines or modding through side projects.\n\n \n\nThings you could work on within your first 2 months:\n\n - Create and manage your own game\n\n - Develop new gameplay systems inside existing games\n\n - Build new engine features for use by other game developers\n\n - Profile and optimise performance\n\n - Develop an in-game item marketplace\n\n - Improve our partner implementations (E.g. CrazyGames, Discord Activities)\n\n - Play a lot of Bloxd :)\n\n \n\nOur tech\n\nWe have a TypeScript-first codebase, and use a combination of React, WebGL, and Node. This tech allows us to deliver Bloxd in an incredibly accessible way, and provides a great developer experience. You’ll need to be happy to pick these up if you’re not already familiar with them.\n\n \n\nBenefits\n\n - Healthcare\n\n - 5% pension match on qualifying earnings\n\n - A permanent desk in our King’s Cross office\n\n - 25 days holiday + bank holidays\n\n - Competitive salary + stock options"
+  }
+}

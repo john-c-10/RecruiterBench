@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "role_id": "8d3bf657-c332-44ce-91ae-eb559c5ad550",
+  "snapshot_sha256": "a64b6b37f45d5919e5a5e5c4a4cd3ec87140f9c9f8a2952c874fcab088545b54",
+  "input_sha256": "ecd475f094cf385658cbe17e96a714077fac43516f18b8b03a7ec5d9e70f9215",
+  "rubric_sha256": "8cfb18d611a0ca825bb57dcaba000008710e17cc6045dcced77da21f8b8b284b",
+  "rubric": {
+    "role_summary": "Client-facing business lead overseeing commercial due diligence engagements for private equity clients, including project delivery, client relationships, and quality control of AI-assisted research.",
+    "search_query": "Find candidates for this role:\nClient-facing business lead overseeing commercial due diligence engagements for private equity clients, including project delivery, client relationships, and quality control of AI-assisted research.\nMandatory professional qualifications:\n- 3+ years of experience at an MBB firm, in private equity, or in investment banking.\n- Experience with commercial due diligence.\nPreferred, not mandatory:\n- Track record of managing complex, deadline-driven workstreams with multiple stakeholders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of experience at an MBB firm, in private equity, or in investment banking.",
+        "source_quote": "3–6 years of experience at an MBB firm, in private equity, or in investment banking",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience with commercial due diligence.",
+        "source_quote": "Experience with commercial due diligence — you understand the methodology, the client expectations, and what separates a good CDD from a great one",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Track record of managing complex, deadline-driven workstreams with multiple stakeholders.",
+        "source_quote": "Track record of managing complex, deadline-driven workstreams with multiple stakeholders",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York City",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Exceptional written and verbal communication",
+      "High attention to detail",
+      "High ownership mentality and independent problem-solving",
+      "Genuine curiosity about AI and its implications for knowledge work",
+      "Start-up mentality and comfort with ownership, speed, variety, and hands-on work",
+      "Comfort operating in ambiguity and building structure"
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "a64b6b37f45d5919e5a5e5c4a4cd3ec87140f9c9f8a2952c874fcab088545b54",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:18.428000+00:00",
+    "response_id": "chatcmpl-ETyUbyFnOrFIwYsZNaqIPd9d3pJME",
+    "usage": {
+      "prompt_tokens": 2004,
+      "completion_tokens": 459,
+      "total_tokens": 2463,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 758,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 45,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "0bf251db0014cd34de8f117eeb2f6a4baac70f9061c7c9449382b04277936ebe",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in New York City; current residence in New York City is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York City"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York City",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3–6 years of experience at an MBB firm, in private equity, or in investment banking",
+        "effective_requirement": "3+ years of experience at an MBB firm, in private equity, or in investment banking.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "647a863d9407c6fc64d57d2fdff66fd3c188976a979059481f41df5cde7b5a29",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "647a863d9407c6fc64d57d2fdff66fd3c188976a979059481f41df5cde7b5a29",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Track record of managing complex, deadline-driven workstreams with multiple stakeholders.",
+          "source_quote": "Track record of managing complex, deadline-driven workstreams with multiple stakeholders",
+          "verification": "profile",
+          "reason": "Track record of managing workstreams is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P1"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0bb2acfba739c7c9bd9621495b172774434db074817af158ea664372cfe831e5",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "4e80970b5a91563f8daf2ba52bb4393235329e78bc1f7b449dec09099560f163",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3–6 years of experience at an MBB firm, in private equity, or in investment banking",
+      "effective_requirement": "3+ years of experience at an MBB firm, in private equity, or in investment banking.",
+      "kind": "mandatory"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9641fcee-f22a-42e9-a239-2deba2a38e0f",
+  "snapshot_sha256": "184aa87ce62c8e1ad2403ad27b66ead97ffa5671c8f3c68c8cf5d0229b8ca44e",
+  "input_sha256": "4c2e423b46c9442038317975e093311d74bab1781a64e4f2da3169af7004fb73",
+  "rubric_sha256": "1bb493ed843419b98127e1cdb54bb53e16181f0b3cebcaf69c5072134a4f19ec",
+  "rubric": {
+    "role_summary": "Hands-on electrical field leader for rapid-deployment utility-scale solar and battery infrastructure in Texas, responsible for permits, crew oversight, grid interconnections, commissioning, and electrical safety.",
+    "search_query": "Find candidates for this role:\nHands-on electrical field leader for rapid-deployment utility-scale solar and battery infrastructure in Texas, responsible for permits, crew oversight, grid interconnections, commissioning, and electrical safety.\nMandatory professional qualifications:\n- 7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.\n- Experience leading electrical crews.\n- Knowledge of the NEC.\n- Ability to read, interpret, and redline complex electrical schematics, three-line diagrams, and instrumentation drawings.\nPreferred, not mandatory:\n- Hands-on installation experience with utility-scale solar fields, commercial solar microgrids, or utility-scale BESS.\n- Familiarity with high-voltage DC system hazards, lithium-ion battery management systems, and central inverter technologies.\n- Experience in fast-paced, high-stakes operational environments.\n- Active OSHA 30 and heavy equipment operation certifications.\n- Experience leading electrical crews, managing field subcontractors, and collaborating directly with building inspectors and utility engineers.\n- Expert-level knowledge of the NEC, NFPA 70E, and local Texas utility interconnection frameworks.\n- Ability to author technical instructions, safety protocols, and field reports.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater El Paso, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.",
+        "source_quote": "7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience leading electrical crews.",
+        "source_quote": "Proven track record leading electrical crews, managing field sub-contractors, and collaborating directly with building inspectors and utility engineers.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Knowledge of the NEC.",
+        "source_quote": "Expert-level knowledge of the National Electrical Code (NEC), NFPA 70E, and local Texas utility interconnection frameworks.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Ability to read, interpret, and redline complex electrical schematics, three-line diagrams, and instrumentation drawings.",
+        "source_quote": "Mastery in reading, interpreting, and redlining complex electrical schematics, three-line diagrams, and instrumentation drawings.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Hands-on installation experience with utility-scale solar fields, commercial solar microgrids, or utility-scale BESS.",
+        "source_quote": "Deep, hands-on experience installing utility-scale solar fields, commercial solar microgrids, or utility-scale Battery Energy Storage Systems (BESS).",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with high-voltage DC system hazards, lithium-ion battery management systems, and central inverter technologies.",
+        "source_quote": "Familiarity with high-voltage DC system hazards, lithium-ion battery management systems, and central inverter technologies.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience in fast-paced, high-stakes operational environments.",
+        "source_quote": "Experience in fast-paced, high-stakes operational environments (e.g., aerospace test complexes, automotive assembly plants, or industrial automation facilities).",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Active OSHA 30 and heavy equipment operation certifications.",
+        "source_quote": "Active certifications in OSHA 30 and heavy equipment operation (forklifts, telehandlers, skid steers).",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience leading electrical crews, managing field subcontractors, and collaborating directly with building inspectors and utility engineers.",
+        "source_quote": "Proven track record leading electrical crews, managing field sub-contractors, and collaborating directly with building inspectors and utility engineers.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Expert-level knowledge of the NEC, NFPA 70E, and local Texas utility interconnection frameworks.",
+        "source_quote": "Expert-level knowledge of the National Electrical Code (NEC), NFPA 70E, and local Texas utility interconnection frameworks.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Ability to author technical instructions, safety protocols, and field reports.",
+        "source_quote": "the ability to author technical instructions, safety protocols, and field reports in English.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater El Paso, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater El Paso, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "El Paso, TX",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Exceptional physical stamina and extreme attention to detail.",
+      "Comfort working with urgency in a fast-paced field environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "184aa87ce62c8e1ad2403ad27b66ead97ffa5671c8f3c68c8cf5d0229b8ca44e",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:43.170065+00:00",
+    "response_id": "chatcmpl-ETyRz2r1oHZ8dI4bcly0kCyPROgYK",
+    "usage": {
+      "prompt_tokens": 2284,
+      "completion_tokens": 1434,
+      "total_tokens": 3718,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1038,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 47,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "c3e65c11ce7a9ba0bebe4c35453e92650657270344833d3dae6f62aec426ac5a",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in El Paso, TX; present residence there is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "El Paso, TX"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "El Paso, TX",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.",
+        "effective_requirement": "7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "e7c5969ef5dc9941bd2e92175fc29dcd24c6d219a5ade48fb89ae5360cb205b0",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "requirement": "Valid State of Texas Master Electrician License in good standing.",
+          "source_quote": "Valid State of Texas Master Electrician License in good standing.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Ability to work actively in extreme outdoor desert conditions, stand or walk for a shift, and lift up to 50 lbs unassisted.",
+          "source_quote": "Ability to work actively in extreme outdoor desert environments (sun, heat, dust, wind), stand or walk for the duration of a shift, and lift up to 50 lbs unassisted.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Willingness to support field teams across 1st and 2nd shifts and work extended hours or weekends when critical deployment milestones dictate.",
+          "source_quote": "Must be willing to support field teams across 1st and 2nd shifts and work extended hours or weekends as critical deployment milestones dictate.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Ability to verify identity and eligibility to work in the United States and complete the required employment eligibility verification form upon hire.",
+          "source_quote": "ALL PERSONS HIRED WILL BE REQUIRED TO VERIFY IDENTITY AND ELIGIBILITY TO WORK IN THE UNITED STATES AND TO COMPLETE THE REQUIRED EMPLOYMENT ELIGIBILITY VERIFICATION FORM UPON HIRE.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Requires employment visa sponsorship from the company.",
+          "source_quote": "THE COMPANY IS UNABLE TO SPONSOR EMPLOYMENT VISAS AT THIS TIME.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "before": "Ability to author technical instructions, safety protocols, and field reports in English.",
+          "after": "Ability to author technical instructions, safety protocols, and field reports.",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "criterion_id_map": {
+        "M2": "M1",
+        "M3": "M2",
+        "M4": "M3",
+        "M5": "M4",
+        "M7": "M5"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "f9282a985492fc483854c24b4de66c530968be33476402f239d0974168edc6e6",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to author technical instructions, safety protocols, and field reports.",
+          "source_quote": "the ability to author technical instructions, safety protocols, and field reports in English.",
+          "verification": "profile",
+          "reason": "Technical writing is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Experience leading electrical crews, managing field subcontractors, and collaborating directly with building inspectors and utility engineers.",
+          "after": "Experience leading electrical crews.",
+          "reason": "Crew leadership is implied by foreman/master titles; inspector/utility collaboration is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Expert-level knowledge of the NEC, NFPA 70E, and local Texas utility interconnection frameworks.",
+          "after": "Knowledge of the NEC.",
+          "reason": "NEC knowledge is implied by master electrician licensure; NFPA 70E and Texas interconnection are not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P5",
+        "M3": "P6",
+        "M5": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "f79dc0b486da28f6abc8d25f609c9487d24d81190f59d5dc891fe7ed110c869a",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "1f08c01bcbf431c5f703562566f4f975ff2862dc3c3428041abe414ef68e9fcd",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater El Paso, TX area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater El Paso, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.",
+      "effective_requirement": "7+ years of professional hands-on experience in industrial, commercial, or utility-scale electrical construction.",
+      "kind": "mandatory"
+    }
+  ]
+}

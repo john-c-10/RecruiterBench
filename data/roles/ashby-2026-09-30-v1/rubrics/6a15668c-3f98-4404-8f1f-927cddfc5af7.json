@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "role_id": "6a15668c-3f98-4404-8f1f-927cddfc5af7",
+  "snapshot_sha256": "79ffb8529afd5e06f1bdc093c18fa52e5df35662b867ae7b0746aa1d3ea38bd9",
+  "input_sha256": "962ed89f1cf69afb7ed43ca035ace1e02b0ac95f02dd235ff9d7c3449e76939e",
+  "rubric_sha256": "e4d6208b16105b7098747e77b5a069eb98ac8395b9768087088fe36e8cf2926a",
+  "rubric": {
+    "role_summary": "Staff-level product engineering role building talent acquisition and HR software. Engineers own substantial product areas and deliver features end-to-end, including product specification, design, and implementation.",
+    "search_query": "Find candidates for this role:\nStaff-level product engineering role building talent acquisition and HR software. Engineers own substantial product areas and deliver features end-to-end, including product specification, design, and implementation.\nMandatory professional qualifications:\n- Prior experience leading or taking ownership of projects.\nPreferred, not mandatory:\n- Affinity for typed languages is helpful; prior experience with the listed technology stack is not required.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States (remote); Greater Austin, Texas, USA area; Greater Boulder, Colorado, USA area; Greater Los Angeles area, California; Greater Portland, Oregon, USA area; Greater Salt Lake City, Utah, USA area; Greater Boston area, Massachusetts; Greater Seattle area, Washington; New York metropolitan area; San Francisco Bay Area, California; Greater Denver, Colorado, USA area; Greater Ann Arbor, Michigan, USA area; Greater Chicago, Illinois, USA area; Greater Raleigh, North Carolina, USA area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Prior experience leading or taking ownership of projects.",
+        "source_quote": "You haven’t led or taken ownership of projects before. You’re used to working with tech leads and taking on tasks distributed by them.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Affinity for typed languages is helpful; prior experience with the listed technology stack is not required.",
+        "source_quote": "I’m sharing our tech stack with the caveat that we don’t require previous experience in it (but a love of typed languages is helpful 😀): TypeScript (frontend & backend), React, GraphQL API, Node.js, Postgres, Redis.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote - US",
+        "Remote",
+        "Austin",
+        "Boulder",
+        "Los Angeles",
+        "Portland",
+        "Salt Lake City",
+        "Boston",
+        "Seattle",
+        "New York",
+        "San Francisco",
+        "Denver",
+        "Ann Arbor",
+        "Chicago",
+        "Raleigh"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort working across the technology stack and handling product and technical ambiguity.",
+      "Ability to balance speed and quality, accept feedback, and collaborate and communicate clearly.",
+      "Preference for hands-on building and independently driving projects rather than relying on extensive company-driven process.",
+      "Willingness to share customer issues and investigations across the team, step back from implementation details, and work with limited mentorship opportunities."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "79ffb8529afd5e06f1bdc093c18fa52e5df35662b867ae7b0746aa1d3ea38bd9",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:30.481833+00:00",
+    "response_id": "chatcmpl-ETyQsBwa467tu7w6drMqHdAc3J4PT",
+    "usage": {
+      "prompt_tokens": 6408,
+      "completion_tokens": 710,
+      "total_tokens": 7118,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 5162,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 142,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "bc22f13951dfdcec6e87d308b7350cb9f4ae7bd009d7dbba84757246767ecfe1",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote - US, with additional US locations listed. The posting does not require current residence in a particular city or state.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States (remote)",
+        "Austin, Texas, USA",
+        "Boulder, Colorado, USA",
+        "Los Angeles, California, USA",
+        "Portland, Oregon, USA",
+        "Salt Lake City, Utah, USA",
+        "Boston, Massachusetts, USA",
+        "Seattle, Washington, USA",
+        "New York, New York, USA",
+        "San Francisco, California, USA",
+        "Denver, Colorado, USA",
+        "Ann Arbor, Michigan, USA",
+        "Chicago, Illinois, USA",
+        "Raleigh, North Carolina, USA"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote - US",
+        "Remote",
+        "Austin",
+        "Boulder",
+        "Los Angeles",
+        "Portland",
+        "Salt Lake City",
+        "Boston",
+        "Seattle",
+        "New York",
+        "San Francisco",
+        "Denver",
+        "Ann Arbor",
+        "Chicago",
+        "Raleigh"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "26d80408f067d0bf730a25a82b07fe8c8ba361281ed1212692fb255c33a6a418",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "26d80408f067d0bf730a25a82b07fe8c8ba361281ed1212692fb255c33a6a418",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "26d80408f067d0bf730a25a82b07fe8c8ba361281ed1212692fb255c33a6a418",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "457d9db0b3f6567f0763a8852ba6566ed16f376bfff418936a6fc2ab6fd5c4a6",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote - US; the city labels are hubs inside that region.",
+      "previous_allowed_locations": [
+        "United States (remote)",
+        "Greater Austin, Texas, USA area",
+        "Greater Boulder, Colorado, USA area",
+        "Greater Los Angeles area, California",
+        "Greater Portland, Oregon, USA area",
+        "Greater Salt Lake City, Utah, USA area",
+        "Greater Boston area, Massachusetts",
+        "Greater Seattle area, Washington",
+        "New York metropolitan area",
+        "San Francisco Bay Area, California",
+        "Greater Denver, Colorado, USA area",
+        "Greater Ann Arbor, Michigan, USA area",
+        "Greater Chicago, Illinois, USA area",
+        "Greater Raleigh, North Carolina, USA area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States (remote); Greater Austin, Texas, USA area; Greater Boulder, Colorado, USA area; Greater Los Angeles area, California; Greater Portland, Oregon, USA area; Greater Salt Lake City, Utah, USA area; Greater Boston area, Massachusetts; Greater Seattle area, Washington; New York metropolitan area; San Francisco Bay Area, California; Greater Denver, Colorado, USA area; Greater Ann Arbor, Michigan, USA area; Greater Chicago, Illinois, USA area; Greater Raleigh, North Carolina, USA area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

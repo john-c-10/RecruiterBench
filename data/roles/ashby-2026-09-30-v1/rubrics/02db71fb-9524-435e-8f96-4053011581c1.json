@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "role_id": "02db71fb-9524-435e-8f96-4053011581c1",
+  "snapshot_sha256": "a1fa09e283602e31a28b045bfa2efc20fdc0e1208d994b5e5470249feb07873a",
+  "input_sha256": "02a2700977997a3d18f203f83d026d5876f71972f64679b64dca71a7461e8419",
+  "rubric_sha256": "3840123ed05bce715a051f87e82ef79b8397d6dd11482ef0015d4b9721405189",
+  "rubric": {
+    "role_summary": "Senior engineer leading the design and development of 12–25 kg thrust-class jet engines for interceptor drones, from concept through flight-ready hardware, including turbine design, additive manufacturing, airframe integration, and testing.",
+    "search_query": "Find candidates for this role:\nSenior engineer leading the design and development of 12–25 kg thrust-class jet engines for interceptor drones, from concept through flight-ready hardware, including turbine design, additive manufacturing, airframe integration, and testing.\nMandatory professional qualifications:\n- 8+ years of jet engine or gas turbine design experience.\n- Understanding of jet engine architecture, including the compressor, combustor, turbine, fuel system, controls, and their interactions.\nPreferred, not mandatory:\n- Experience integrating propulsion into flying wings or similar unconventional airframes.\n- Experience specifically with UAV or drone propulsion rather than manned aviation.\n- Familiarity with low-cost manufacturing strategies for defense or dual-use hardware.\n- Prior startup or skunkworks experience.\n- Minimum 8 years of jet engine or gas turbine design experience, with a proven track record of designing and delivering engine models rather than only components.\n- Hands-on experience with small jet engines in the 12–25 kg thrust class.\n- Experience designing turbine or engine components for metal additive manufacturing, linked with practical knowledge of metal 3D printing processes and constraints.\n- Experience integrating propulsion systems into airframes.\n- Knowledge of design requirements for extreme operating environments, including temperature extremes, precipitation, and icing.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Toulouse area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "8+ years of jet engine or gas turbine design experience.",
+        "source_quote": "Minimum 8 years of experience in jet engine / gas turbine design, with a proven track record of having designed and delivered engine models (not just component-level work)",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Understanding of jet engine architecture, including the compressor, combustor, turbine, fuel system, controls, and their interactions.",
+        "source_quote": "Solid global understanding of jet engine architecture: compressor, combustor, turbine, fuel system, controls, and their interactions",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience integrating propulsion into flying wings or similar unconventional airframes.",
+        "source_quote": "flying wing or similar unconventional platforms is a strong plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience specifically with UAV or drone propulsion rather than manned aviation.",
+        "source_quote": "Experience with UAV/drone propulsion specifically (vs. manned aviation)",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Familiarity with low-cost manufacturing strategies for defense or dual-use hardware.",
+        "source_quote": "Familiarity with low-cost manufacturing strategies for defense/dual-use hardware",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Prior startup or skunkworks experience.",
+        "source_quote": "Prior startup or skunkworks experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Minimum 8 years of jet engine or gas turbine design experience, with a proven track record of designing and delivering engine models rather than only components.",
+        "source_quote": "Minimum 8 years of experience in jet engine / gas turbine design, with a proven track record of having designed and delivered engine models (not just component-level work)",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Hands-on experience with small jet engines in the 12–25 kg thrust class.",
+        "source_quote": "Strong hands-on experience with small jet engines in the 12–25 kg thrust class",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience designing turbine or engine components for metal additive manufacturing, linked with practical knowledge of metal 3D printing processes and constraints.",
+        "source_quote": "Experience designing turbine/engine components for metal additive manufacturing (DfAM), and practical knowledge of metal 3D printing processes and constraints",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience integrating propulsion systems into airframes.",
+        "source_quote": "Experience integrating propulsion systems into airframes (flying wing or similar unconventional platforms is a strong plus)",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Knowledge of design requirements for extreme operating environments, including temperature extremes, precipitation, and icing.",
+        "source_quote": "Knowledge of design requirements for extreme operating environments (temperature extremes, precipitation, icing)",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Toulouse area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Toulouse area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Toulouse",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort working in a rapid-iteration, fail-fast development culture rather than a traditional long-cycle aerospace process.",
+      "Ability to work autonomously in a small, fast-paced startup team and wear multiple hats when needed."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "a1fa09e283602e31a28b045bfa2efc20fdc0e1208d994b5e5470249feb07873a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:22.429051+00:00",
+    "response_id": "chatcmpl-ETyRhWbAswfFZfnFWK8wbCknyvoGn",
+    "usage": {
+      "prompt_tokens": 2015,
+      "completion_tokens": 1086,
+      "total_tokens": 3101,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 769,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "28417eb6417e6c09dbe62ae85ccd0e1c2e0ca2129fe0565791f965a96924fe14",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Toulouse; current residence in Toulouse is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Toulouse"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Toulouse",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Minimum 8 years of experience in jet engine / gas turbine design, with a proven track record of having designed and delivered engine models (not just component-level work)",
+        "effective_requirement": "Minimum 8 years of jet engine or gas turbine design experience, with a proven track record of designing and delivering engine models rather than only components.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "fef22ac28ae80f8a37f47b5c6233a4bce85a367ebb76c3ac6a8517117a89c274",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "fef22ac28ae80f8a37f47b5c6233a4bce85a367ebb76c3ac6a8517117a89c274",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Hands-on experience with small jet engines in the 12–25 kg thrust class.",
+          "source_quote": "Strong hands-on experience with small jet engines in the 12–25 kg thrust class",
+          "verification": "profile",
+          "reason": "Thrust-class specific experience is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience designing turbine or engine components for metal additive manufacturing, linked with practical knowledge of metal 3D printing processes and constraints.",
+          "source_quote": "Experience designing turbine/engine components for metal additive manufacturing (DfAM), and practical knowledge of metal 3D printing processes and constraints",
+          "verification": "profile",
+          "reason": "Specific AM design practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience integrating propulsion systems into airframes.",
+          "source_quote": "Experience integrating propulsion systems into airframes (flying wing or similar unconventional platforms is a strong plus)",
+          "verification": "profile",
+          "reason": "Airframe integration experience rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Knowledge of design requirements for extreme operating environments, including temperature extremes, precipitation, and icing.",
+          "source_quote": "Knowledge of design requirements for extreme operating environments (temperature extremes, precipitation, icing)",
+          "verification": "profile",
+          "reason": "Environmental design requirements knowledge rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Minimum 8 years of jet engine or gas turbine design experience, with a proven track record of designing and delivering engine models rather than only components.",
+          "after": "8+ years of jet engine or gas turbine design experience.",
+          "reason": "Years in engine design are observable; whole-engine track record is rarely stated."
+        }
+      ],
+      "criterion_id_map": {
+        "M3": "M2"
+      },
+      "demoted_preference_ids": {
+        "M1": "P5",
+        "M2": "P6",
+        "M4": "P7",
+        "M5": "P8",
+        "M6": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "53fa76ccc5bbd4ebeb3629582d62ee3b991b12abb4103366b511ecefe7f6b1a0",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2c312b1962b34bef5b6d9004ce1b7f39f1866f7d376793a3106a5660fc22f808",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Toulouse area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Toulouse area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Minimum 8 years of experience in jet engine / gas turbine design, with a proven track record of having designed and delivered engine models (not just component-level work)",
+      "effective_requirement": "8+ years of jet engine or gas turbine design experience.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P5",
+      "source_quote": "Minimum 8 years of experience in jet engine / gas turbine design, with a proven track record of having designed and delivered engine models (not just component-level work)",
+      "effective_requirement": "Minimum 8 years of jet engine or gas turbine design experience, with a proven track record of designing and delivering engine models rather than only components.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

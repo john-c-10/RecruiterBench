@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "verdict",
+    "underqualified",
+    "obviously_overqualified",
+    "description"
+  ],
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "partial",
+        "fail"
+      ]
+    },
+    "underqualified": {
+      "type": "boolean"
+    },
+    "obviously_overqualified": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

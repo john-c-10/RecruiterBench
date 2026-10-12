@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "role_id": "af17da5e-23ca-4802-854d-5f0546e1ed32",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/modal/af17da5e-23ca-4802-854d-5f0546e1ed32",
+    "board_url": "https://jobs.ashbyhq.com/modal",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/modal",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "af17da5e-23ca-4802-854d-5f0546e1ed32",
+    "title": "Member of Technical Staff - ML Performance",
+    "department": "Engineering",
+    "team": "Engineering",
+    "employmentType": "FullTime",
+    "location": "New York",
+    "secondaryLocations": [
+      {
+        "location": "San Francisco",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "USA",
+            "addressLocality": "San Francisco"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-04-21T00:19:46.977+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "new york",
+        "addressCountry": "United States",
+        "addressLocality": "new york"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/modal/af17da5e-23ca-4802-854d-5f0546e1ed32",
+    "applyUrl": "https://jobs.ashbyhq.com/modal/af17da5e-23ca-4802-854d-5f0546e1ed32/application",
+    "descriptionHtml": "<h2>About Us:</h2><p style=\"min-height:1.5em\"><strong>AI needs a new infrastructure layer. We're building it at Modal.</strong></p><p style=\"min-height:1.5em\">Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now.</p><p style=\"min-height:1.5em\">Our customers include category-defining companies like <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://modal.com/blog/lovable-case-study\"><u>Lovable</u></a>, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://modal.com/blog/how-ramp-built-a-full-context-background-coding-agent-on-modal\"><u>Ramp</u></a>, Cognition, DoorDash, and Suno. They rely on Modal for instant GPU access, sub-second container starts, and native storage, so it's simple to serve low-latency inference, fine-tune models, and access production-ready sandboxes at scale.</p><p style=\"min-height:1.5em\">We recently raised a $355M <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://modal.com/blog/modal-series-c\"><u>Series C</u></a> at a $4.65B valuation, led by General Catalyst and Redpoint Ventures. We've crossed $300M+ ARR and grown fivefold since September.</p><p style=\"min-height:1.5em\">Our team includes creators of popular open-source projects (e.g.,<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/mwaskom/seaborn\">Seaborn</a>,<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/spotify/luigi\">Luig<strong>i</strong></a>), academic researchers, international olympiad medalists, and experienced engineering and product leaders with decades of experience.</p><p style=\"min-height:1.5em\"></p><h2>The Role:</h2><p style=\"min-height:1.5em\">We are looking for strong engineers with experience in making ML systems performant at scale. If you are interested in contributing to open-source projects and Modal’s container runtime to push language and diffusion models towards higher throughput and lower latency, we’d love to hear from you!</p><p style=\"min-height:1.5em\"></p><h2>Requirements:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of experience writing high-quality, high-performance code.</p></li><li><p style=\"min-height:1.5em\">Experience working with torch, high-level ML frameworks, and inference engines (vLLM or TensorRT).</p></li><li><p style=\"min-height:1.5em\">Familiarity with Nvidia GPU architecture and CUDA.</p></li><li><p style=\"min-height:1.5em\">Experience with ML performance engineering (tell us a story about boosting GPU performance — debugging SM occupancy issues, rewriting an algorithm to be compute-bound, eliminating host overhead, etc).</p></li><li><p style=\"min-height:1.5em\">Nice-to-have: familiarity with low-level operating system foundations (Linux kernel, file systems, containers, etc). </p></li></ul>",
+    "descriptionPlain": "ABOUT US:\n\nAI needs a new infrastructure layer. We're building it at Modal.\n\nEvery era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now.\n\nOur customers include category-defining companies like Lovable https://modal.com/blog/lovable-case-study, Ramp https://modal.com/blog/how-ramp-built-a-full-context-background-coding-agent-on-modal, Cognition, DoorDash, and Suno. They rely on Modal for instant GPU access, sub-second container starts, and native storage, so it's simple to serve low-latency inference, fine-tune models, and access production-ready sandboxes at scale.\n\nWe recently raised a $355M Series C https://modal.com/blog/modal-series-c at a $4.65B valuation, led by General Catalyst and Redpoint Ventures. We've crossed $300M+ ARR and grown fivefold since September.\n\nOur team includes creators of popular open-source projects (e.g.,Seaborn https://github.com/mwaskom/seaborn,Luigi https://github.com/spotify/luigi), academic researchers, international olympiad medalists, and experienced engineering and product leaders with decades of experience.\n\n\n\n\nTHE ROLE:\n\nWe are looking for strong engineers with experience in making ML systems performant at scale. If you are interested in contributing to open-source projects and Modal’s container runtime to push language and diffusion models towards higher throughput and lower latency, we’d love to hear from you!\n\n\n\n\nREQUIREMENTS:\n\n - 5+ years of experience writing high-quality, high-performance code.\n\n - Experience working with torch, high-level ML frameworks, and inference engines (vLLM or TensorRT).\n\n - Familiarity with Nvidia GPU architecture and CUDA.\n\n - Experience with ML performance engineering (tell us a story about boosting GPU performance — debugging SM occupancy issues, rewriting an algorithm to be compute-bound, eliminating host overhead, etc).\n\n - Nice-to-have: familiarity with low-level operating system foundations (Linux kernel, file systems, containers, etc). "
+  }
+}

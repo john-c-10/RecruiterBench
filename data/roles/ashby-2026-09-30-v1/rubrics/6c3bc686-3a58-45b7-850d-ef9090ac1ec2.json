@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "role_id": "6c3bc686-3a58-45b7-850d-ef9090ac1ec2",
+  "snapshot_sha256": "cbafecc79e8a32da672303355fbf233bda8e3f9cbf35e9da96f745decb644234",
+  "input_sha256": "8927a898de89115165c82bea38ee20056e63ff495bf20e1241cc7a62b35203be",
+  "rubric_sha256": "cc6f250df2114304abe464754c0c043b1d561c94a31a7bbcb67c40be660bb45f",
+  "rubric": {
+    "role_summary": "Content coordination role at an EdTech company, managing content updates, freelance contributors, feedback, rights and permissions, and operational tracking across content, product, and technology teams.",
+    "search_query": "Find candidates for this role:\nContent coordination role at an EdTech company, managing content updates, freelance contributors, feedback, rights and permissions, and operational tracking across content, product, and technology teams.\nMandatory professional qualifications:\n- Background in content coordination, project coordination, or operations.\nPreferred, not mandatory:\n- Background within tech, product, digital publishing, or EdTech.\n- Experience building a tracker or system to manage competing priorities.\n- Proven ability to keep multiple workstreams organized and moving.\n- Skill in turning scattered information into patterns and concrete recommendations.\n- Experience using AI tools to enhance creativity, decisions, and execution.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Sweden. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Background in content coordination, project coordination, or operations.",
+        "source_quote": "Background in content coordination, project coordination or operations, ideally within tech, product, digital publishing or EdTech.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Background within tech, product, digital publishing, or EdTech.",
+        "source_quote": "ideally within tech, product, digital publishing or EdTech",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience building a tracker or system to manage competing priorities.",
+        "source_quote": "ideally with a tracker or system you've built to manage competing priorities",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Proven ability to keep multiple workstreams organized and moving.",
+        "source_quote": "Proven ability to keep multiple workstreams organised and moving, ideally with a tracker or system you've built to manage competing priorities.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Skill in turning scattered information into patterns and concrete recommendations.",
+        "source_quote": "Skilled at turning scattered information, such as feedback threads or contractor performance notes, into clear improvements patterns and concrete recommendations.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience using AI tools to enhance creativity, decisions, and execution.",
+        "source_quote": "Experience leveraging AI tools to enhance creativity, decisions, and execution",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Sweden. This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Sweden"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Sweden",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Strong communication skills, including adjusting tone and detail for different stakeholders.",
+      "Learns new tools, platforms, and content systems quickly with minimal repeated guidance."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "cbafecc79e8a32da672303355fbf233bda8e3f9cbf35e9da96f745decb644234",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:10.795492+00:00",
+    "response_id": "chatcmpl-ETyUS2FcwrJ43Hexb2NXDygXKgXa2",
+    "usage": {
+      "prompt_tokens": 2099,
+      "completion_tokens": 682,
+      "total_tokens": 2781,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 853,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 30,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1b06f7bef8be9fa04a43483ed71a4d03d5b281f72bf9b1a3bb87220142dc1c86",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in Sweden; no specific office city or current-residence requirement is stated.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Sweden"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Sweden",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "61ddbb7fddca17cdd5f04b357f960c28548d28d1a1c539594eebd6c7aa07d699",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "61ddbb7fddca17cdd5f04b357f960c28548d28d1a1c539594eebd6c7aa07d699",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Proven ability to keep multiple workstreams organized and moving.",
+          "source_quote": "Proven ability to keep multiple workstreams organised and moving, ideally with a tracker or system you've built to manage competing priorities.",
+          "verification": "profile",
+          "reason": "Organizational ability is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Skill in turning scattered information into patterns and concrete recommendations.",
+          "source_quote": "Skilled at turning scattered information, such as feedback threads or contractor performance notes, into clear improvements patterns and concrete recommendations.",
+          "verification": "profile",
+          "reason": "Synthesis ability is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience using AI tools to enhance creativity, decisions, and execution.",
+          "source_quote": "Experience leveraging AI tools to enhance creativity, decisions, and execution",
+          "verification": "profile",
+          "reason": "AI tool use is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M3": "P4",
+        "M4": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "49eaeb0427ae0da6f0ee36d9eea5dd4e52053cb953080557e367c0034c1803bf",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "fcc3d311d2482cda124869d398b6629ae7597a2745a13c413e5a15189392cbc5",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Sweden"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Sweden. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

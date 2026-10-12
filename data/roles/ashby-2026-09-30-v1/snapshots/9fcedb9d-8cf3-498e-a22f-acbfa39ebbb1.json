@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9fcedb9d-8cf3-498e-a22f-acbfa39ebbb1",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/substack/9fcedb9d-8cf3-498e-a22f-acbfa39ebbb1",
+    "board_url": "https://jobs.ashbyhq.com/substack",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/substack",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "9fcedb9d-8cf3-498e-a22f-acbfa39ebbb1",
+    "title": "iOS Engineer - Sponsorships",
+    "department": "Engineering",
+    "team": "Engineering",
+    "employmentType": "FullTime",
+    "location": "New York",
+    "secondaryLocations": [
+      {
+        "location": "San Francisco (HQ)",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "CA",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco "
+          }
+        }
+      },
+      {
+        "location": "Remote",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "CA",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco "
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-09-15T22:51:58.137+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "NY",
+        "addressCountry": "United States",
+        "addressLocality": "New York City"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/substack/9fcedb9d-8cf3-498e-a22f-acbfa39ebbb1",
+    "applyUrl": "https://jobs.ashbyhq.com/substack/9fcedb9d-8cf3-498e-a22f-acbfa39ebbb1/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>iOS Engineer - Sponsorships</strong><br />Substack is building a new economic engine for culture, giving the brightest, most interesting, and most creative people on the internet the power of their own publishing platform. The terms of our culture should not be set by gate-keeping legacy media or chaos-fueling social media, but by the people who actually make and participate in that culture. Substack’s model, based on direct subscriptions, has fueled an explosion of independent publishing. It empowers creators with economic autonomy, creative ownership, and a direct connection to their most engaged audiences.</p><p style=\"min-height:1.5em\"><br /><strong>About the Sponsorships Team</strong><br />Our team’s goal is to augment our existing direct subscriptions model with paid sponsorships. Brands are interested in connecting with Substack creators, and Substack creators are interested in making more money, but we want to support this behavior in a way that doesn’t degrade the user experience or undermine trust in the platform.<br />Everyone contributes to the product direction. Our team regularly brainstorms directly with leadership, and every engineer contributes ideas for new products and experiences. We also sometimes work directly with our Sponsorship partners (e.g. Polymarket) to develop new experiences.<br />We’re a small team of generalists, so we especially value an interest in working across our tech stack, willingness to prototype, and product-mindedness. You’d be the iOS leader on this team, so code review, mentorship and thoughtful technical architecting will also be key pieces of this role.<br /><br /><strong>Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Develop new and existing sponsorship experiences in the core iOS app for creators and their audiences.</p></li><li><p style=\"min-height:1.5em\">Contribute to high level product and brainstorming discussions around sponsorship experiences.</p></li><li><p style=\"min-height:1.5em\">Iterate on key flows in the Substack mobile apps and web platform, and run A/B tests.</p></li><li><p style=\"min-height:1.5em\">Collaborate with designers, writers, support staff, and many others. From product concept and research to implementation, experimentation, and measurement, we expect you to own your work and deliver high-quality solutions.</p></li><li><p style=\"min-height:1.5em\">Work directly with customers to solve their problems. The entire company (CEO included) participates in customer support in order to drive empathy for our users and help us build better products.</p></li><li><p style=\"min-height:1.5em\">Our team also works directly with Sponsorship partners (we often say “build-with” partners) to gather product ideas and find solutions that work for both brands and creators.</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">At least 3+ years of software engineering experience.</p></li><li><p style=\"min-height:1.5em\">Experience shipping high quality, native iOS apps to the App Store. Bonus for both SwiftUI and UIKit.</p></li><li><p style=\"min-height:1.5em\">Independent and autonomous. We’re too small to micromanage, and expect that every person at the company owns their work and can be a leader.</p></li><li><p style=\"min-height:1.5em\">Hold yourself and others to a high standard when working on production systems.</p></li><li><p style=\"min-height:1.5em\">Take pride in building elegant and delightful product experiences. Substack works best when it gets out of the way so creators can focus on writing and connecting with their readers.</p></li><li><p style=\"min-height:1.5em\">Enjoy collaboration with a diverse group of thinkers while bringing our own unique experience and background to the team.</p></li><li><p style=\"min-height:1.5em\">Believe in Substack’s mission to build a better business model for writing.</p></li><li><p style=\"min-height:1.5em\">Experience at a fast-growing startup or working on a high-performing growth team is not required, but is a plus.</p></li></ul><p style=\"min-height:1.5em\"><em>Substack's compensation package includes a market competitive salary, equity for all full time roles, and exceptional benefits. Our cash compensation salary range for this role is $140,000 - $260,000. Final offer amounts are determined by multiple factors including candidate experience and expertise and may vary from the amounts listed above.</em></p><p style=\"min-height:1.5em\">Substack is an equal opportunity employer. All applicants will be considered for employment without regard to race, color, religion, sex (including pregnancy, sexual orientation, gender identity or transgender status), age, national origin, veteran or disability status. We’re seeking people passionate about enabling independent expression and building a better business model for creators. If you want to see what media, communities, and content can become when unmoored from advertising models, and you have the skills and experience to contribute, we’d love to meet you.</p><p style=\"min-height:1.5em\">Please see our Privacy Notice for details regarding Substack's collection and use of personal information relating to the application and recruitment process by clicking <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://docs.google.com/document/d/1UjmY1acxnd27iIde83PxR7XdecR29aIyfkkmEOwAMGY/edit?tab=t.0#heading=h.a0wuzmt3mjmm\">here</a>.</p>",
+    "descriptionPlain": "iOS Engineer - Sponsorships\nSubstack is building a new economic engine for culture, giving the brightest, most interesting, and most creative people on the internet the power of their own publishing platform. The terms of our culture should not be set by gate-keeping legacy media or chaos-fueling social media, but by the people who actually make and participate in that culture. Substack’s model, based on direct subscriptions, has fueled an explosion of independent publishing. It empowers creators with economic autonomy, creative ownership, and a direct connection to their most engaged audiences.\n\n\nAbout the Sponsorships Team\nOur team’s goal is to augment our existing direct subscriptions model with paid sponsorships. Brands are interested in connecting with Substack creators, and Substack creators are interested in making more money, but we want to support this behavior in a way that doesn’t degrade the user experience or undermine trust in the platform.\nEveryone contributes to the product direction. Our team regularly brainstorms directly with leadership, and every engineer contributes ideas for new products and experiences. We also sometimes work directly with our Sponsorship partners (e.g. Polymarket) to develop new experiences.\nWe’re a small team of generalists, so we especially value an interest in working across our tech stack, willingness to prototype, and product-mindedness. You’d be the iOS leader on this team, so code review, mentorship and thoughtful technical architecting will also be key pieces of this role.\n\nResponsibilities\n\n - Develop new and existing sponsorship experiences in the core iOS app for creators and their audiences.\n\n - Contribute to high level product and brainstorming discussions around sponsorship experiences.\n\n - Iterate on key flows in the Substack mobile apps and web platform, and run A/B tests.\n\n - Collaborate with designers, writers, support staff, and many others. From product concept and research to implementation, experimentation, and measurement, we expect you to own your work and deliver high-quality solutions.\n\n - Work directly with customers to solve their problems. The entire company (CEO included) participates in customer support in order to drive empathy for our users and help us build better products.\n\n - Our team also works directly with Sponsorship partners (we often say “build-with” partners) to gather product ideas and find solutions that work for both brands and creators.\n\nRequirements\n\n - At least 3+ years of software engineering experience.\n\n - Experience shipping high quality, native iOS apps to the App Store. Bonus for both SwiftUI and UIKit.\n\n - Independent and autonomous. We’re too small to micromanage, and expect that every person at the company owns their work and can be a leader.\n\n - Hold yourself and others to a high standard when working on production systems.\n\n - Take pride in building elegant and delightful product experiences. Substack works best when it gets out of the way so creators can focus on writing and connecting with their readers.\n\n - Enjoy collaboration with a diverse group of thinkers while bringing our own unique experience and background to the team.\n\n - Believe in Substack’s mission to build a better business model for writing.\n\n - Experience at a fast-growing startup or working on a high-performing growth team is not required, but is a plus.\n\nSubstack's compensation package includes a market competitive salary, equity for all full time roles, and exceptional benefits. Our cash compensation salary range for this role is $140,000 - $260,000. Final offer amounts are determined by multiple factors including candidate experience and expertise and may vary from the amounts listed above.\n\nSubstack is an equal opportunity employer. All applicants will be considered for employment without regard to race, color, religion, sex (including pregnancy, sexual orientation, gender identity or transgender status), age, national origin, veteran or disability status. We’re seeking people passionate about enabling independent expression and building a better business model for creators. If you want to see what media, communities, and content can become when unmoored from advertising models, and you have the skills and experience to contribute, we’d love to meet you.\n\nPlease see our Privacy Notice for details regarding Substack's collection and use of personal information relating to the application and recruitment process by clicking here https://docs.google.com/document/d/1UjmY1acxnd27iIde83PxR7XdecR29aIyfkkmEOwAMGY/edit?tab=t.0#heading=h.a0wuzmt3mjmm."
+  }
+}

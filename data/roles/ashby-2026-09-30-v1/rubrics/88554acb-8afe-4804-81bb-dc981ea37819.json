@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "role_id": "88554acb-8afe-4804-81bb-dc981ea37819",
+  "snapshot_sha256": "914d461b0116c950b82ff42e020699b6b5ea72c3cc596936534e82fbea63eac8",
+  "input_sha256": "5f4311d37a898baa1dd2e05484cde08f0079a35ba823ce519b61a10ab2080d5b",
+  "rubric_sha256": "61b932bf0d74cdf00ce0e09d45cac4c6c616ad4c2c87f8eec9702923ab6870c8",
+  "rubric": {
+    "role_summary": "Remote permit operations lead overseeing construction permit applications, customer updates, compliance, process improvements, and junior team members.",
+    "search_query": "Find candidates for this role:\nRemote permit operations lead overseeing construction permit applications, customer updates, compliance, process improvements, and junior team members.\nMandatory professional qualifications:\n- 3+ years of relevant experience in construction permitting, project management, or a similar role.\n- Hands-on experience in construction or construction permitting.\n- Background in customer success, customer experience, or sales.\n- People-management experience.\nPreferred, not mandatory:\n- Experience in a SaaS or tech-driven environment.\n- Experience managing permitting projects across multiple states or regions.\n- 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.\n- Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.\n- Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.\n- Project management ability to balance multiple projects and deadlines.\n- Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): USA; Greater Toronto, Ontario, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of relevant experience in construction permitting, project management, or a similar role.",
+        "source_quote": "3-5+ years of relevant experience: Proven track record in construction permitting, project management, or a similar role—ideally within a SaaS or tech-driven environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on experience in construction or construction permitting.",
+        "source_quote": "You have extensive hands-on experience in construction or construction permitting directly, with a thorough understanding of regulations, compliance, and the full permit lifecycle.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Background in customer success, customer experience, or sales.",
+        "source_quote": "Background in customer success, customer experience, or sales, with a demonstrated ability to deliver high-quality service throughout the project lifecycle.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "People-management experience.",
+        "source_quote": "You have the skillset to effectively manage a team, hold 1:1s with them, and empower them to learn more.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in a SaaS or tech-driven environment.",
+        "source_quote": "ideally within a SaaS or tech-driven environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience managing permitting projects across multiple states or regions.",
+        "source_quote": "Experience managing permitting projects across multiple states or regions is highly preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
+        "source_quote": "Preferred 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.",
+        "source_quote": "You have extensive hands-on experience in construction or construction permitting directly, with a thorough understanding of regulations, compliance, and the full permit lifecycle.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.",
+        "source_quote": "Strong understanding of permitting processes, regulations, and compliance standards, with awareness of jurisdictional differences.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Project management ability to balance multiple projects and deadlines.",
+        "source_quote": "Ability to balance multiple projects and deadlines without sacrificing attention to detail.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.",
+        "source_quote": "You have the skillset to effectively manage a team, hold 1:1s with them, and empower them to learn more.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States",
+        "Canada"
+      ],
+      "remote_scope": "United States OR Canada",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Permit Operations Lead (Fully Remote)",
+        "USA",
+        "Toronto",
+        "Ontario",
+        "Canada",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Customer relationship-building and comfort leading virtual customer meetings.",
+      "Collaboration across functions and communication with customers and authorities having jurisdiction.",
+      "Data-driven decision-making and analytical thinking.",
+      "Comfort with AI tools and emerging technology; adaptability to new software and processes.",
+      "Attention to detail, calmness under pressure, and problem-solving.",
+      "Customer-centric approach and high-quality service."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "914d461b0116c950b82ff42e020699b6b5ea72c3cc596936534e82fbea63eac8",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:22.913335+00:00",
+    "response_id": "chatcmpl-ETyTczt6kE6wzzhq7WTUaPxY4s9UR",
+    "usage": {
+      "prompt_tokens": 2537,
+      "completion_tokens": 1076,
+      "total_tokens": 3613,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1291,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 62,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1faae208e67f5a8a30a44b43de02a70c2a98f7b3e5ae9aa4e4f07e17c0264719",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Fully remote role listed for the USA or Toronto, Ontario, Canada. Present residence is not explicitly required.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "USA",
+        "Toronto, Ontario, Canada"
+      ],
+      "remote_scope": "Listed remote locations: USA and Toronto, Ontario, Canada.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Permit Operations Lead (Fully Remote)",
+        "USA",
+        "Toronto",
+        "Ontario",
+        "Canada",
+        "Remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3-5+ years of relevant experience: Proven track record in construction permitting, project management, or a similar role—ideally within a SaaS or tech-driven environment.",
+        "effective_requirement": "3+ years of relevant experience in construction permitting, project management, or a similar role.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "P3",
+        "source_quote": "Preferred 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
+        "effective_requirement": "2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "5d0d3f303b6fda993874a1a7303285dc0355d9fac3e6209f495237ca28ce571b",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "5d0d3f303b6fda993874a1a7303285dc0355d9fac3e6209f495237ca28ce571b",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Understanding of permitting processes, regulations, compliance standards, and jurisdictional differences.",
+          "source_quote": "Strong understanding of permitting processes, regulations, and compliance standards, with awareness of jurisdictional differences.",
+          "verification": "profile",
+          "reason": "Jurisdictional permitting knowledge is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Project management ability to balance multiple projects and deadlines.",
+          "source_quote": "Ability to balance multiple projects and deadlines without sacrificing attention to detail.",
+          "verification": "profile",
+          "reason": "Juggling multiple projects is a work-style claim."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Extensive hands-on experience in construction or construction permitting, with understanding of regulations, compliance, and the full permit lifecycle.",
+          "after": "Hands-on experience in construction or construction permitting.",
+          "reason": "Construction/permitting background is visible; regulatory depth and full lifecycle are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "before": "Ability to manage a team, including one-on-ones, training, coaching, feedback, and direction.",
+          "after": "People-management experience.",
+          "reason": "Team management is visible from titles; specific coaching practices are not."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M3",
+        "M6": "M4"
+      },
+      "demoted_preference_ids": {
+        "M2": "P4",
+        "M3": "P5",
+        "M4": "P6",
+        "M6": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "f5d41d9436710850248236c4bcf2d7f26aa018864ced2a0ba2e767d97fe5d95c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "5996cb6a05692c109ae2f7b621312afe161dc0295694c991da28d25c353fa29f",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Fully remote in the USA or Canada.",
+      "previous_allowed_locations": [
+        "USA",
+        "Greater Toronto, Ontario, Canada area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): USA; Greater Toronto, Ontario, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3-5+ years of relevant experience: Proven track record in construction permitting, project management, or a similar role—ideally within a SaaS or tech-driven environment.",
+      "effective_requirement": "3+ years of relevant experience in construction permitting, project management, or a similar role.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P3",
+      "source_quote": "Preferred 2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
+      "effective_requirement": "2+ years leading, managing, and mentoring teams, including coaching, performance management, and team development.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "role_id": "80ff9ce4-16d5-4e6e-8298-79696a842936",
+  "snapshot_sha256": "352520eab8f8a967bfe848e0a77aba74512fb47f8c2b1c41d471b9661ac08400",
+  "input_sha256": "4743bbae4671ad3ddfc1ffa34fee5199732ce185c027576f04dd547def535326",
+  "rubric_sha256": "07219432614b77d7a19661b925921b028f7321dde91a8f462808572f373b8be3",
+  "rubric": {
+    "role_summary": "Nuclear engineering role supporting radiation diagnostics, particle-transport simulation, shielding, and radiation safety at a fusion facility.",
+    "search_query": "Find candidates for this role:\nNuclear engineering role supporting radiation diagnostics, particle-transport simulation, shielding, and radiation safety at a fusion facility.\nMandatory professional qualifications:\n- Master's or PhD in Nuclear Engineering, Physics, or a related field.\n- Strong experience in Monte Carlo particle-transport simulations using MCNP, Geant4, FLUKA, or similar tools.\n- Hands-on experience with neutron and gamma detection techniques.\n- Knowledge of radiation shielding or dose calculations.\n- Proficiency in data analysis and programming using Python, MATLAB, C++, or similar tools.\nPreferred, not mandatory:\n- Experience working in fusion/fission facilities or similar combined neutron-gamma radiation environments.\n- Background in high-energy neutron/gamma transport and shielding.\n- Knowledge of advanced radiation-detection technologies.\n- Knowledge of radiation shielding, dose calculations, and safety assessments.\n- Experience in radiation metrology and calibration techniques.\n- Familiarity with regulatory frameworks including CNSC, NRC, and IAEA standards.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Master's or PhD in Nuclear Engineering, Physics, or a related field.",
+        "source_quote": "Master's or PhD in Nuclear Engineering, Physics, or a related field.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Strong experience in Monte Carlo particle-transport simulations using MCNP, Geant4, FLUKA, or similar tools.",
+        "source_quote": "Strong experience in Monte Carlo particle-transport simulations using MCNP, Geant4, FLUKA, or similar tools.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Hands-on experience with neutron and gamma detection techniques.",
+        "source_quote": "Hands-on experience with neutron and gamma detection techniques.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Knowledge of radiation shielding or dose calculations.",
+        "source_quote": "Knowledge of radiation shielding, dose calculations, and safety assessments.",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Proficiency in data analysis and programming using Python, MATLAB, C++, or similar tools.",
+        "source_quote": "Proficiency in data analysis and programming using Python, MATLAB, C++, or similar tools.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience working in fusion/fission facilities or similar combined neutron-gamma radiation environments.",
+        "source_quote": "Experience working in fusion/fission facilities or similar combined neutron-gamma radiation environments.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Background in high-energy neutron/gamma transport and shielding.",
+        "source_quote": "Background in high-energy neutron/gamma transport and shielding.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Knowledge of advanced radiation-detection technologies.",
+        "source_quote": "Knowledge of advanced radiation-detection technologies.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Knowledge of radiation shielding, dose calculations, and safety assessments.",
+        "source_quote": "Knowledge of radiation shielding, dose calculations, and safety assessments.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience in radiation metrology and calibration techniques.",
+        "source_quote": "Experience in radiation metrology and calibration techniques.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Familiarity with regulatory frameworks including CNSC, NRC, and IAEA standards.",
+        "source_quote": "Familiarity with regulatory frameworks including CNSC, NRC, and IAEA standards.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Leandro, California",
+        "Relocation assistance for roles that require it."
+      ]
+    },
+    "soft_requirements": [
+      "Takes responsibility, follows through, makes decisions quickly, and collaborates constructively, as described in the employer's WHAT WE VALUE section."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "352520eab8f8a967bfe848e0a77aba74512fb47f8c2b1c41d471b9661ac08400",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:45.920528+00:00",
+    "response_id": "chatcmpl-ETyS2YQhiJGV6mxZ4BrOyRfjSA1U5",
+    "usage": {
+      "prompt_tokens": 2316,
+      "completion_tokens": 1304,
+      "total_tokens": 3620,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1070,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 54,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "758cf43b27817d131a80b54876b2f232f59d9b15aeed401609d451d64b78c494",
+    "resolved_ambiguities": [
+      "The role may require the ability to obtain and maintain a U.S. government security clearance, but the posting does not establish whether clearance is required for this position."
+    ],
+    "resolution": "'May require' clearance is not a mandatory clearance gate; other explicit export/work-eligibility conditions remain.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work location is San Leandro, California; the posting does not specify an onsite, hybrid, or remote arrangement or require current residence there.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Leandro, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Leandro, California",
+        "Relocation assistance for roles that require it."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "a9a244b2ae894b6126810171f775855813a82f50d60f2c2e7e7b41bdbfc6cdb9",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Able to travel and work extended hours or weekends as needed.",
+          "source_quote": "Must be able to travel and work extended hours/weekends as needed.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Must be a U.S. citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.",
+          "source_quote": "To conform to U.S. Government technology export regulations, including the International Traffic in Arms Regulations (ITAR), you must be a U.S. citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "5bd70d874037e4c93a4609e46430931f40deb249dcb5380db7f7c3e98b94ef71",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience in radiation metrology and calibration techniques.",
+          "source_quote": "Experience in radiation metrology and calibration techniques.",
+          "verification": "profile",
+          "reason": "Metrology/calibration practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Familiarity with regulatory frameworks including CNSC, NRC, and IAEA standards.",
+          "source_quote": "Familiarity with regulatory frameworks including CNSC, NRC, and IAEA standards.",
+          "verification": "profile",
+          "reason": "Regulatory framework familiarity rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Knowledge of radiation shielding, dose calculations, and safety assessments.",
+          "after": "Knowledge of radiation shielding or dose calculations.",
+          "reason": "Shielding/dosimetry is observable; requiring all plus safety assessments is unrealistic."
+        }
+      ],
+      "criterion_id_map": {
+        "M6": "M5"
+      },
+      "demoted_preference_ids": {
+        "M4": "P4",
+        "M5": "P5",
+        "M7": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "366473fff6c6104992420d1b0b1323776087c936740d1e9468e987fb00f998fc",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "58e0703fddbfda3656a25ce58cad9b825d204e9159e85fac00e4753aa986e06d",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

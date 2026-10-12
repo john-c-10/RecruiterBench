@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f1465314-5f6c-4c28-89f1-55a4ae6e11c0",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/modal/f1465314-5f6c-4c28-89f1-55a4ae6e11c0",
+    "board_url": "https://jobs.ashbyhq.com/modal",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/modal",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "f1465314-5f6c-4c28-89f1-55a4ae6e11c0",
+    "title": "Compute Strategy & Operations Lead",
+    "department": "G&A",
+    "team": "BizOps",
+    "employmentType": "FullTime",
+    "location": "New York",
+    "secondaryLocations": [],
+    "publishedAt": "2026-04-14T16:57:46.625+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "new york",
+        "addressCountry": "United States",
+        "addressLocality": "new york"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/modal/f1465314-5f6c-4c28-89f1-55a4ae6e11c0",
+    "applyUrl": "https://jobs.ashbyhq.com/modal/f1465314-5f6c-4c28-89f1-55a4ae6e11c0/application",
+    "descriptionHtml": "<h2>About Us:</h2><p style=\"min-height:1.5em\"><strong>AI needs a new infrastructure layer. We're building it at Modal.</strong></p><p style=\"min-height:1.5em\">Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now.</p><p style=\"min-height:1.5em\">Our customers include category-defining companies like <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://modal.com/blog/lovable-case-study\"><u>Lovable</u></a>, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://modal.com/blog/how-ramp-built-a-full-context-background-coding-agent-on-modal\"><u>Ramp</u></a>, Cognition, DoorDash, and Suno. They rely on Modal for instant GPU access, sub-second container starts, and native storage, so it's simple to serve low-latency inference, fine-tune models, and access production-ready sandboxes at scale.</p><p style=\"min-height:1.5em\">We recently raised a $355M <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://modal.com/blog/modal-series-c\"><u>Series C</u></a> at a $4.65B valuation, led by General Catalyst and Redpoint Ventures. We've crossed $300M+ ARR and grown fivefold since September.</p><p style=\"min-height:1.5em\">Our team includes creators of popular open-source projects (e.g.,<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/mwaskom/seaborn\">Seaborn</a>,<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/spotify/luigi\">Luig<strong>i</strong></a>), academic researchers, international olympiad medalists, and experienced engineering and product leaders with decades of experience.</p><p style=\"min-height:1.5em\"></p><h2>The Role:</h2><p style=\"min-height:1.5em\">We're hiring a Compute Strategy and Operations lead to own how Modal plans for and acquires GPU and CPU capacity. You'll size our infrastructure needs ahead of demand, source supply across hyperscalers, neoclouds, and datacenter operators, and negotiate and close the contracts to secure it. The compute you secure directly determines what Modal can sell and build. </p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own end-to-end procurement of GPU and CPU capacity across hyperscalers, neoclouds, and datacenter operators</p></li><li><p style=\"min-height:1.5em\">Build and maintain a strong pipeline of supplier relationships</p></li><li><p style=\"min-height:1.5em\">Evaluate supply options on price, availability, hardware specs, networking capabilities, and SLA terms</p></li><li><p style=\"min-height:1.5em\">Negotiate and close contracts: reserved capacity agreements, spot arrangements, MSAs, DPAs, and order forms</p></li><li><p style=\"min-height:1.5em\">Work closely with our engineering teams to translate technical requirements into procurement specs</p></li><li><p style=\"min-height:1.5em\">Track market pricing, availability trends, and supplier dynamics, and serve as a trusted advisor to leadership on infrastructure procurement decisions</p></li></ul><p style=\"min-height:1.5em\"></p><h2>Requirements:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Fluency in the AI infrastructure landscape: hyperscalers, neoclouds, and the broader GPU supply market</p></li><li><p style=\"min-height:1.5em\">Technical understanding of what you're buying: GPU architectures (NVIDIA H100/H200/B200, etc.), networking (InfiniBand vs. RoCE, fabric topology), and SLA structures</p></li><li><p style=\"min-height:1.5em\">Strong commercial instincts. You know how to find leverage, structure a deal, and close it</p></li><li><p style=\"min-height:1.5em\">Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements</p></li></ul>",
+    "descriptionPlain": "ABOUT US:\n\nAI needs a new infrastructure layer. We're building it at Modal.\n\nEvery era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now.\n\nOur customers include category-defining companies like Lovable https://modal.com/blog/lovable-case-study, Ramp https://modal.com/blog/how-ramp-built-a-full-context-background-coding-agent-on-modal, Cognition, DoorDash, and Suno. They rely on Modal for instant GPU access, sub-second container starts, and native storage, so it's simple to serve low-latency inference, fine-tune models, and access production-ready sandboxes at scale.\n\nWe recently raised a $355M Series C https://modal.com/blog/modal-series-c at a $4.65B valuation, led by General Catalyst and Redpoint Ventures. We've crossed $300M+ ARR and grown fivefold since September.\n\nOur team includes creators of popular open-source projects (e.g.,Seaborn https://github.com/mwaskom/seaborn,Luigi https://github.com/spotify/luigi), academic researchers, international olympiad medalists, and experienced engineering and product leaders with decades of experience.\n\n\n\n\nTHE ROLE:\n\nWe're hiring a Compute Strategy and Operations lead to own how Modal plans for and acquires GPU and CPU capacity. You'll size our infrastructure needs ahead of demand, source supply across hyperscalers, neoclouds, and datacenter operators, and negotiate and close the contracts to secure it. The compute you secure directly determines what Modal can sell and build. \n\nIn this role, you will:\n\n - Own end-to-end procurement of GPU and CPU capacity across hyperscalers, neoclouds, and datacenter operators\n\n - Build and maintain a strong pipeline of supplier relationships\n\n - Evaluate supply options on price, availability, hardware specs, networking capabilities, and SLA terms\n\n - Negotiate and close contracts: reserved capacity agreements, spot arrangements, MSAs, DPAs, and order forms\n\n - Work closely with our engineering teams to translate technical requirements into procurement specs\n\n - Track market pricing, availability trends, and supplier dynamics, and serve as a trusted advisor to leadership on infrastructure procurement decisions\n\n\n\n\nREQUIREMENTS:\n\n - Fluency in the AI infrastructure landscape: hyperscalers, neoclouds, and the broader GPU supply market\n\n - Technical understanding of what you're buying: GPU architectures (NVIDIA H100/H200/B200, etc.), networking (InfiniBand vs. RoCE, fabric topology), and SLA structures\n\n - Strong commercial instincts. You know how to find leverage, structure a deal, and close it\n\n - Ability to work cross-functionally with finance and engineering teams on commercial terms and technical requirements"
+  }
+}

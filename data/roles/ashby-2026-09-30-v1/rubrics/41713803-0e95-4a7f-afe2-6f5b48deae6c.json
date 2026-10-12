@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "role_id": "41713803-0e95-4a7f-afe2-6f5b48deae6c",
+  "snapshot_sha256": "457a77c61d831b9d1327eae15e33d70c213c922ff5bd6b772e77fc6cc091cf37",
+  "input_sha256": "a508ed3809c00b8e5b625ca5be5564740821366405a8541a31ecb7cabdd6726c",
+  "rubric_sha256": "f83f8e8bc063e32ce624cf76e33c9d28809250a7e479287127b7d429fc3ac78e",
+  "rubric": {
+    "role_summary": "Senior program manager coordinating multinational defense programs involving government, academic, and industry stakeholders, including proposals, budgets, schedules, and program documentation.",
+    "search_query": "Find candidates for this role:\nSenior program manager coordinating multinational defense programs involving government, academic, and industry stakeholders, including proposals, budgets, schedules, and program documentation.\nMandatory professional qualifications:\n- Bachelor’s or Master’s degree in Engineering or Economics, or equivalent.\n- At least 8 years in a relevant role, with increasing levels of ownership.\n- Experience coordinating defense programs.\n- Good understanding of missile systems.\n- Experience with planning, budgeting, resource allocation, scheduling, and project management tools; Microsoft Project, Wrike, and Jira are examples, not individually required.\nPreferred, not mandatory:\n- French, Dutch, Italian, or German.\n- Experience with drones (quadcopters or VTOL) or precision-guided munitions.\n- Experience coordinating multinational defense programs involving prime defense contractors, governmental institutions, and academic institutions.\n- Solid understanding of RFx and tender processes of governmental procurement organizations.\n- Ability to produce customer-facing proposals and documentation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Brussels, Belgium area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s or Master’s degree in Engineering or Economics, or equivalent.",
+        "source_quote": "Bachelor’s or Master’s Degree in Engineering, Economics, or equivalent",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "At least 8 years in a relevant role, with increasing levels of ownership.",
+        "source_quote": "At least 8 years in relevant role, with increasing levels of ownership",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience coordinating defense programs.",
+        "source_quote": "Demonstrated experience coordinating multinational defense program with the involvement of prime defense contractors, governmental and academic institutions.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Good understanding of missile systems.",
+        "source_quote": "Good understanding of missile systems",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Experience with planning, budgeting, resource allocation, scheduling, and project management tools; Microsoft Project, Wrike, and Jira are examples, not individually required.",
+        "source_quote": "Experience with planning, budgeting, resource allocation and scheduling, and with project management tools such as Microsoft Project, Wrike and Jira",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "French, Dutch, Italian, or German.",
+        "source_quote": "French, Dutch, Italian or German is a plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with drones (quadcopters or VTOL) or precision-guided munitions.",
+        "source_quote": "Experience with drones (quadcopters, VTOL) or precision-guided munitions",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience coordinating multinational defense programs involving prime defense contractors, governmental institutions, and academic institutions.",
+        "source_quote": "Demonstrated experience coordinating multinational defense program with the involvement of prime defense contractors, governmental and academic institutions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Solid understanding of RFx and tender processes of governmental procurement organizations.",
+        "source_quote": "Solid understanding of RFx and tender processes of governmental procurement organizations",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Ability to produce customer-facing proposals and documentation.",
+        "source_quote": "Demonstrated ability to produce high-quality, customer-facing proposals and documentation",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Brussels, Belgium area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Brussels, Belgium area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Location: Onsite in Brussels, Belgium. Our office is close to Central Station.",
+        "This role is only open to candidates with right to work in Belgium. We cannot provide visa sponsorship at this time."
+      ]
+    },
+    "soft_requirements": [
+      "Highly motivated; attention to detail while retaining the bigger picture; excellent interpersonal communication; self-starter comfortable with ambiguity and new challenges.",
+      "Produces high-quality work."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "457a77c61d831b9d1327eae15e33d70c213c922ff5bd6b772e77fc6cc091cf37",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:13.950963+00:00",
+    "response_id": "chatcmpl-ETyRXmylinKkltVscsx1Sb9LamJto",
+    "usage": {
+      "prompt_tokens": 1969,
+      "completion_tokens": 990,
+      "total_tokens": 2959,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 723,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 136,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "da1798fa292df2f7cccd1d3660c21196e95f1d10fddc8411215378491c7532e9",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite in Brussels, Belgium; current residence in Brussels is not explicitly required. Candidates must have the right to work in Belgium, and visa sponsorship is unavailable.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Brussels, Belgium"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Location: Onsite in Brussels, Belgium. Our office is close to Central Station.",
+        "This role is only open to candidates with right to work in Belgium. We cannot provide visa sponsorship at this time."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "At least 8 years in relevant role, with increasing levels of ownership",
+        "effective_requirement": "At least 8 years in a relevant role, with increasing levels of ownership.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "4411d321655644112edaaf8869af1810344417af61926321059bf19b397aa0c3",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Written and spoken English communication skills.",
+          "source_quote": "Excellent interpersonal communication skills in written and spoken English; French, Dutch, Italian or German is a plus",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        },
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Right to work in Belgium without visa sponsorship.",
+          "source_quote": "This role is only open to candidates with right to work in Belgium. We cannot provide visa sponsorship at this time.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "2966f1ff9356b3593f97a84c405544ab138c86800060e446ca66d7bda889019e",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Solid understanding of RFx and tender processes of governmental procurement organizations.",
+          "source_quote": "Solid understanding of RFx and tender processes of governmental procurement organizations",
+          "verification": "profile",
+          "reason": "Tender/RFx process knowledge is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Ability to produce customer-facing proposals and documentation.",
+          "source_quote": "Demonstrated ability to produce high-quality, customer-facing proposals and documentation",
+          "verification": "profile",
+          "reason": "Proposal writing is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Experience coordinating multinational defense programs involving prime defense contractors, governmental institutions, and academic institutions.",
+          "after": "Experience coordinating defense programs.",
+          "reason": "Defense program management is observable; multinational partner mix is rarely stated."
+        }
+      ],
+      "criterion_id_map": {
+        "M7": "M5"
+      },
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M5": "P4",
+        "M6": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "02481d640174f592e5cc773a62387ab25ae86fb7fbb1e391ba9264c4f4eca56c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2908fcba652052aa8db19ba5cea0080a8f4115b2235c8f4ee89ce7fc88d23151",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Brussels, Belgium area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Brussels, Belgium area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "At least 8 years in relevant role, with increasing levels of ownership",
+      "effective_requirement": "At least 8 years in a relevant role, with increasing levels of ownership.",
+      "kind": "mandatory"
+    }
+  ]
+}

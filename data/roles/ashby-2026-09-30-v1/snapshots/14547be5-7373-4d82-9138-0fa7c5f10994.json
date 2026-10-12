@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "role_id": "14547be5-7373-4d82-9138-0fa7c5f10994",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/joyteractive/14547be5-7373-4d82-9138-0fa7c5f10994",
+    "board_url": "https://jobs.ashbyhq.com/joyteractive",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/joyteractive",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "14547be5-7373-4d82-9138-0fa7c5f10994",
+    "title": "Game Producer (R&D)",
+    "department": "RnD",
+    "team": "RnD",
+    "employmentType": "FullTime",
+    "location": "Poland",
+    "secondaryLocations": [],
+    "publishedAt": "2026-09-03T12:53:31.480+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Remote",
+    "address": {
+      "postalAddress": {
+        "addressCountry": "Poland",
+        "addressLocality": "Warsaw"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/joyteractive/14547be5-7373-4d82-9138-0fa7c5f10994",
+    "applyUrl": "https://jobs.ashbyhq.com/joyteractive/14547be5-7373-4d82-9138-0fa7c5f10994/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">We are <strong>Joyteractive</strong> - a leading mobile game developer and publisher specializing in the captivating world of puzzle games. Today, our team boasts 50+ rockstar professionals, and we're on the lookout for talented individuals to help us dominate the world of puzzles!</p><p style=\"min-height:1.5em\">Our flagship game, <em><strong>Cryptogram: Word Brain Puzzle</strong></em>, consistently ranks in the top word puzzle games in the US:</p><p style=\"min-height:1.5em\">🏆 #1 in the Cryptogram niche by downloads</p><p style=\"min-height:1.5em\">✏️ #2-3 in Word Games</p><p style=\"min-height:1.5em\">🧩 Top 10 Puzzle Games in the US for the last 6 months</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We’re looking for an experienced<strong> Producer to join our R&amp;D team</strong>.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What are you working on?</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Genres: Puzzle, Casual</p></li><li><p style=\"min-height:1.5em\">Platforms: Mobile, iOS, Android</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>For which tasks (responsibilities)?</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Supervise one of the areas of product development</p></li><li><p style=\"min-height:1.5em\">Conduct market research</p></li><li><p style=\"min-height:1.5em\">Analyze product metrics</p></li><li><p style=\"min-height:1.5em\">Based on this analysis, formulate product hypotheses and implement them together with the team</p></li><li><p style=\"min-height:1.5em\">Develop a roadmap for the direction and be responsible for its execution from the product perspective</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What kind of professional are we looking for?</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Solid and successful experience in <strong>mobile gamedev</strong> as a <strong>Senior/Lead Game Designer, Producer/Product Manager</strong>; casual/puzzle games development is a plus</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Solid knowledge of mobile games trends and features</p></li><li><p style=\"min-height:1.5em\">Solid knowledge of game/product design</p></li><li><p style=\"min-height:1.5em\">Strong analytical skills</p></li><li><p style=\"min-height:1.5em\">Exceptional organizational and work structuring skills</p></li><li><p style=\"min-height:1.5em\">Ability to analyze the market</p></li><li><p style=\"min-height:1.5em\">Knowledge of monetization trends</p></li><li><p style=\"min-height:1.5em\">English proficiency at B1 level or higher</p></li><li><p style=\"min-height:1.5em\">Russian fluent</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What are the conditions and bonuses?</strong></p><p style=\"min-height:1.5em\">For your success we offer:</p><p style=\"min-height:1.5em\">🌴 18 business days of compensated day-offs</p><p style=\"min-height:1.5em\">8 paid Personal Days a year + 1 day is added every year</p><p style=\"min-height:1.5em\">👉 Flexible Public Holidays policy</p><p style=\"min-height:1.5em\">❤️‍🩹 100% Sick Leave compensation</p><p style=\"min-height:1.5em\">💻 Payment for wear and tear on equipment while using a personal computer</p><p style=\"min-height:1.5em\">🌐 Remote work</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div>",
+    "descriptionPlain": "We are Joyteractive - a leading mobile game developer and publisher specializing in the captivating world of puzzle games. Today, our team boasts 50+ rockstar professionals, and we're on the lookout for talented individuals to help us dominate the world of puzzles!\n\nOur flagship game, Cryptogram: Word Brain Puzzle, consistently ranks in the top word puzzle games in the US:\n\n🏆 #1 in the Cryptogram niche by downloads\n\n✏️ #2-3 in Word Games\n\n🧩 Top 10 Puzzle Games in the US for the last 6 months\n\n\n\nWe’re looking for an experienced Producer to join our R&D team.\n\n\n\nWhat are you working on?\n\n - Genres: Puzzle, Casual\n\n - Platforms: Mobile, iOS, Android\n   \n   \n\nFor which tasks (responsibilities)?\n\n - Supervise one of the areas of product development\n\n - Conduct market research\n\n - Analyze product metrics\n\n - Based on this analysis, formulate product hypotheses and implement them together with the team\n\n - Develop a roadmap for the direction and be responsible for its execution from the product perspective\n\n\n\nWhat kind of professional are we looking for?\n\n - Solid and successful experience in mobile gamedev as a Senior/Lead Game Designer, Producer/Product Manager; casual/puzzle games development is a plus\n\n - Solid knowledge of mobile games trends and features\n\n - Solid knowledge of game/product design\n\n - Strong analytical skills\n\n - Exceptional organizational and work structuring skills\n\n - Ability to analyze the market\n\n - Knowledge of monetization trends\n\n - English proficiency at B1 level or higher\n\n - Russian fluent\n\n\n\nWhat are the conditions and bonuses?\n\nFor your success we offer:\n\n🌴 18 business days of compensated day-offs\n\n8 paid Personal Days a year + 1 day is added every year\n\n👉 Flexible Public Holidays policy\n\n❤️‍🩹 100% Sick Leave compensation\n\n💻 Payment for wear and tear on equipment while using a personal computer\n\n🌐 Remote work\n\n \n "
+  }
+}

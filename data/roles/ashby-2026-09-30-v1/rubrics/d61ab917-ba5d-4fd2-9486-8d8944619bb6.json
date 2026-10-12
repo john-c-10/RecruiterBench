@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d61ab917-ba5d-4fd2-9486-8d8944619bb6",
+  "snapshot_sha256": "fef0df94b432ab4952600819a7c050f3f0fd020deeb9f18200ce9ca390f823e6",
+  "input_sha256": "c4deacecdc4013bb7a43f979845c54c457915e230cc7fcfccc3c88d25ee56fe7",
+  "rubric_sha256": "4706da2bf5594e54816fe5cbefbc47e689697ec256e96661a98a985dd2650a75",
+  "rubric": {
+    "role_summary": "Chief of Staff and Business Operations role at a venture capital firm, partnering with leadership on strategic initiatives, cross-functional operations, and AI-powered workflows.",
+    "search_query": "Find candidates for this role:\nChief of Staff and Business Operations role at a venture capital firm, partnering with leadership on strategic initiatives, cross-functional operations, and AI-powered workflows.\nMandatory professional qualifications:\n- 5+ years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role.\nPreferred, not mandatory:\n- Prior experience in venture capital or working directly with a GP or founder.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role.",
+        "source_quote": "5–7 years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Prior experience in venture capital or working directly with a GP or founder.",
+        "source_quote": "Prior experience in venture capital or working directly with a GP or founder.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Los Angeles area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Los Angeles area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Los Angeles, CA",
+        "OnSite",
+        "This job is based in Los Angeles, CA. Potential for LA/SF hybrid."
+      ]
+    },
+    "soft_requirements": [
+      "Exceptional written and verbal communication; ability to distill complex ideas.",
+      "Builder's mindset and initiative in creating systems.",
+      "Emotional intelligence and judgment in conversations with colleagues, founders, LPs, and partners.",
+      "Comfort with ambiguity, low ego, and willingness to set strategy and execute details.",
+      "Preferred: a marketer’s mindset and creative approach."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "fef0df94b432ab4952600819a7c050f3f0fd020deeb9f18200ce9ca390f823e6",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:41.774679+00:00",
+    "response_id": "chatcmpl-ETyT1jqK0HFcd0rzHxkxUxfSdVGVS",
+    "usage": {
+      "prompt_tokens": 2057,
+      "completion_tokens": 577,
+      "total_tokens": 2634,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 811,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 78,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "2b952d76902d8c91b0b623fc7f60454fbe3c67c40154e6b269a06dfccac5a89f",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Based in Los Angeles, CA; potential for an LA/SF hybrid arrangement. The posting does not require current residence in either city.",
+      "workplace_type": "mixed",
+      "allowed_locations": [
+        "Los Angeles, CA",
+        "Los Angeles / San Francisco hybrid (potential)"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Los Angeles, CA",
+        "OnSite",
+        "This job is based in Los Angeles, CA. Potential for LA/SF hybrid."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5–7 years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role",
+        "effective_requirement": "5+ years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "53fe8f222b2ea0cd7aaf28ffab83d03e2dfb2c897b5dfedd65bf3c8b3ab9e759",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Uses AI tools as a core part of their daily workflow and can demonstrate that work.",
+          "source_quote": "Demonstrably AI-native: you use AI tools as a core part of your daily workflow and can show your work.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "f3cd35afff0a5c6372765d7d76ae4833c23fdb6d691d1aa9d7b30d113e29e210",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "f3cd35afff0a5c6372765d7d76ae4833c23fdb6d691d1aa9d7b30d113e29e210",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "70426ab5cb9c1fc07ff51763eae3957a30e3898ff015ac7beca9699929c09efa",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Based in Los Angeles; San Francisco is only a potential hybrid split.",
+      "previous_allowed_locations": [
+        "Greater Los Angeles area, California",
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5–7 years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role",
+      "effective_requirement": "5+ years of experience in venture capital, investment banking, management consulting, or a high-growth startup in a strategy or operations role.",
+      "kind": "mandatory"
+    }
+  ]
+}

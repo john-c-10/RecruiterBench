@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f7c8747e-c21b-4a22-81ba-a4b46bd861dd",
+  "snapshot_sha256": "3b7013b6268cefb1dd2a41b416ab9a2bd616a50cf62f70d9f0f85c23d8ea1cd0",
+  "input_sha256": "aa34ea6c1a598d9e81f30709e6887b9f72ef48d13b9b08bf03c2323feed23587",
+  "rubric_sha256": "5085d9ad592afb40e89fd28aab05d3f701df1004dd9b724990343175bbd50c98",
+  "rubric": {
+    "role_summary": "Strategic enterprise account executive selling a fraud and financial-crime risk platform to large companies, financial institutions, fintechs, neobanks, and digital asset exchanges. Owns pipeline development and complex sales processes through close.",
+    "search_query": "Find candidates for this role:\nStrategic enterprise account executive selling a fraud and financial-crime risk platform to large companies, financial institutions, fintechs, neobanks, and digital asset exchanges. Owns pipeline development and complex sales processes through close.\nMandatory professional qualifications:\n- 5+ years of B2B SaaS sales experience.\n- 3+ years of experience selling to fintechs and neobanks.\n- Consultative sales experience conducting discovery sessions.\n- Proficiency managing complex, multi-threaded sales cycles.\nPreferred, not mandatory:\n- Specific expertise in fraud and compliance.\n- 3+ years of proven success selling to fintechs and neobanks.\n- An extensive network of industry executives and leaders.\n- Experience structuring complex deals.\n- Proven effectiveness working across a matrixed global organization spanning multiple geographies and time zones.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States; Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of B2B SaaS sales experience.",
+        "source_quote": "5-8 years of B2B SaaS sales experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "3+ years of experience selling to fintechs and neobanks.",
+        "source_quote": "3+ years of proven success in selling to fintechs and neobanks",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Consultative sales experience conducting discovery sessions.",
+        "source_quote": "Demonstrated consultative sales experience and adeptness in conducting impactful discovery sessions.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Proficiency managing complex, multi-threaded sales cycles.",
+        "source_quote": "Proficiency in managing complex, multi-threaded sales cycles.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Specific expertise in fraud and compliance.",
+        "source_quote": "specific expertise in fraud and compliance is strongly preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "3+ years of proven success selling to fintechs and neobanks.",
+        "source_quote": "3+ years of proven success in selling to fintechs and neobanks",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "An extensive network of industry executives and leaders.",
+        "source_quote": "An extensive network of industry executives and leaders.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience structuring complex deals.",
+        "source_quote": "Proven experience in structuring complex deals, demonstrating strong financial acumen.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Proven effectiveness working across a matrixed global organization spanning multiple geographies and time zones.",
+        "source_quote": "Proven ability to be effective working across a highly matrixed, global organization, spanning multiple geographies and timezones.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States or Canada (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States",
+        "Canada"
+      ],
+      "remote_scope": "United States OR Canada",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote - United States or Canada",
+        "you'll need to keep a home base in the country you're hired in",
+        "think flexible within your country, not borderless."
+      ]
+    },
+    "soft_requirements": [
+      "Ability to translate risk, compliance, technical, and customer experience challenges into meaningful business value.",
+      "Exceptional research, planning, and attention to detail.",
+      "Strong networking and interpersonal capabilities.",
+      "Excellent communication, public speaking, and writing skills.",
+      "Strong financial acumen."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "3b7013b6268cefb1dd2a41b416ab9a2bd616a50cf62f70d9f0f85c23d8ea1cd0",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:59.264417+00:00",
+    "response_id": "chatcmpl-ETyTEox0hflf48ibVywYAeRpntEyG",
+    "usage": {
+      "prompt_tokens": 2507,
+      "completion_tokens": 987,
+      "total_tokens": 3494,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1261,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 65,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ea1ed3ff5bf3ce59723127b8e8726ae264c1727de430bd9c0f36a42970d0991c",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote in the United States or Canada, with a home base maintained in the country of hire; remote flexibility is within that country, not worldwide.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States",
+        "Canada"
+      ],
+      "remote_scope": "Within the country of hire",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote - United States or Canada",
+        "you'll need to keep a home base in the country you're hired in",
+        "think flexible within your country, not borderless."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5-8 years of B2B SaaS sales experience.",
+        "effective_requirement": "5+ years of B2B SaaS sales experience.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "M2",
+        "source_quote": "3+ years of proven success in selling to fintechs and neobanks",
+        "effective_requirement": "3+ years of proven success selling to fintechs and neobanks.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "915ea48d0486b3526b4b757af841dcbcc658fcf62a44808a94bde65c2e65ffea",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Willingness to travel across North America and globally as needed.",
+          "source_quote": "Willingness to travel across North America and globally as needed.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M8": "M7"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "8c0d3b516ee50c99f0af34e6f1663b0601de0f9a155cf54920de5cc658db097c",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "An extensive network of industry executives and leaders.",
+          "source_quote": "An extensive network of industry executives and leaders.",
+          "verification": "profile",
+          "reason": "Network size is not observable."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience structuring complex deals.",
+          "source_quote": "Proven experience in structuring complex deals, demonstrating strong financial acumen.",
+          "verification": "profile",
+          "reason": "Deal-structuring experience is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Proven effectiveness working across a matrixed global organization spanning multiple geographies and time zones.",
+          "source_quote": "Proven ability to be effective working across a highly matrixed, global organization, spanning multiple geographies and timezones.",
+          "verification": "profile",
+          "reason": "Matrixed global collaboration is a work-style claim rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "3+ years of proven success selling to fintechs and neobanks.",
+          "after": "3+ years of experience selling to fintechs and neobanks.",
+          "reason": "Selling into fintech can be implied by employer/segment; 'proven success' is a performance claim."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M6": "P4",
+        "M7": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "ad457aaf138448c775dc94b97c60cf716cb0628f4f549f64d071a8de67e79f5a",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "e83e6087db110a17723426b826f42ff22d8dde307714c4cbb41e248bb5957550",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote - United States or Canada.",
+      "previous_allowed_locations": [
+        "United States",
+        "Canada"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States; Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5-8 years of B2B SaaS sales experience.",
+      "effective_requirement": "5+ years of B2B SaaS sales experience.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "M2",
+      "source_quote": "3+ years of proven success in selling to fintechs and neobanks",
+      "effective_requirement": "3+ years of experience selling to fintechs and neobanks.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "3+ years of proven success in selling to fintechs and neobanks",
+      "effective_requirement": "3+ years of proven success selling to fintechs and neobanks.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0",
+  "role_id": "3b50ebb7-4e9e-4ede-aaf7-d5ce91ca7eb3",
+  "snapshot_sha256": "6d4c817c769d27e19ab2e514c4d187f539eda2a4733287c6f7997f4a4c9f8acc",
+  "input_sha256": "a0e3306204d4ad0efdab986eb301bd1ccfcc5a5903717091b5d3c1bfc0a88055",
+  "rubric_sha256": "94ac4e7903b007680e46217298cbee7b8fe285c15d5ea2a6166fad03aa24875d",
+  "rubric": {
+    "role_summary": "Product manager for scientific development software, owning the roadmap and outcomes for Recipes, Assays, and Workflows used to configure, run, and track processes across drug development.",
+    "search_query": "Find candidates for this role:\nProduct manager for scientific development software, owning the roadmap and outcomes for Recipes, Assays, and Workflows used to configure, run, and track processes across drug development.\nMandatory professional qualifications:\n- 3+ years of product management or equivalent experience.\n- Experience across 2-3+ meaningfully different domains or product types.\n- Track record of building and improving products.\nPreferred, not mandatory:\n- Experience in regulated or compliance-heavy industries; life sciences is not necessary.\n- Experience with configuration-heavy, platform-style products.\n- Experience with B2B SaaS in the growth or scaling stage.\n- Prior experience as an engineer, data scientist, or solutions consultant.\n- Experience guiding product architectural decisions.\n- Experience using technical tools to advance product work; SQL, design tools, and Cursor are examples, not individually required.\n- Evidence of shipped product outcomes and impact.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of product management or equivalent experience.",
+        "source_quote": "3-5+ years of product management or equivalent experience",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience across 2-3+ meaningfully different domains or product types.",
+        "source_quote": "You've worked across 2-3+ meaningfully different domains or product types.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Track record of building and improving products.",
+        "source_quote": "You have a track record of building and improving products.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in regulated or compliance-heavy industries; life sciences is not necessary.",
+        "source_quote": "Experience in regulated or compliance-heavy industries (doesn't have to be life sciences)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with configuration-heavy, platform-style products.",
+        "source_quote": "Configuration-heavy, platform-style products",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with B2B SaaS in the growth or scaling stage.",
+        "source_quote": "B2B SaaS in the growth/scaling stage",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Prior experience as an engineer, data scientist, or solutions consultant.",
+        "source_quote": "Prior life as an engineer, data scientist, or solutions consultant",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience guiding product architectural decisions.",
+        "source_quote": "You have experience guiding the architectural decisions of a product.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience using technical tools to advance product work; SQL, design tools, and Cursor are examples, not individually required.",
+        "source_quote": "You use tools to help yourself and your team get work done, whether that's writing SQL queries to make data-driven decisions, using design tools to create prototypes, or using something like Cursor to ship product improvements directly.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Evidence of shipped product outcomes and impact.",
+        "source_quote": "You've stayed long enough at key roles to ship, learn, and speak to what worked and what didn't. We're looking for evidence of impact.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco, CA",
+        "Hybrid",
+        "We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday)."
+      ]
+    },
+    "soft_requirements": [
+      "Systems thinking, adaptability, and ability to become effective in an unfamiliar domain.",
+      "Product taste and judgment about user needs and behavior change.",
+      "Ability to reason about data models, state machines, or schema design and their product implications.",
+      "Resourcefulness in choosing tools; no particular tool is required.",
+      "Engaging, audience-aware communication.",
+      "Ability to discuss what worked and what did not in past product work.",
+      "Intellectual curiosity and range."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "6d4c817c769d27e19ab2e514c4d187f539eda2a4733287c6f7997f4a4c9f8acc",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:01.889004+00:00",
+    "response_id": "chatcmpl-ETySL4nMhmPzI93c1vvUMPDWAClwY",
+    "usage": {
+      "prompt_tokens": 2907,
+      "completion_tokens": 1077,
+      "total_tokens": 3984,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1661,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "7d0d423044d2df87352e4db83bc2c5a291683c45c172775c802f68eaab10e4ba",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in San Francisco, CA, with on-site attendance three days per week: Monday, Tuesday, and Thursday. Current residence in San Francisco is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco, CA",
+        "Hybrid",
+        "We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday)."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3-5+ years of product management or equivalent experience",
+        "effective_requirement": "3+ years of product management or equivalent experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "3b4035d32ecf0a10720c133973cfaf9bdc8e1981b7eb4b154cd68f78cf09af54",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "3b4035d32ecf0a10720c133973cfaf9bdc8e1981b7eb4b154cd68f78cf09af54",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience guiding product architectural decisions.",
+          "source_quote": "You have experience guiding the architectural decisions of a product.",
+          "verification": "profile",
+          "reason": "Guiding architectural decisions is a specific practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience using technical tools to advance product work; SQL, design tools, and Cursor are examples, not individually required.",
+          "source_quote": "You use tools to help yourself and your team get work done, whether that's writing SQL queries to make data-driven decisions, using design tools to create prototypes, or using something like Cursor to ship product improvements directly.",
+          "verification": "profile",
+          "reason": "Use of technical tools by PMs is inconsistently listed and vaguely defined."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Evidence of shipped product outcomes and impact.",
+          "source_quote": "You've stayed long enough at key roles to ship, learn, and speak to what worked and what didn't. We're looking for evidence of impact.",
+          "verification": "profile",
+          "reason": "Shipped outcomes and impact are outcome claims rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P5",
+        "M5": "P6",
+        "M6": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "02d378d938c815df3f5cbc1ff3f3d3a57993bb9d5b948701ae0e428621205e42",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "fe939f4964056ae16e2916479f10e058d0ae7a689a6ab14729354498653c2915",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3-5+ years of product management or equivalent experience",
+      "effective_requirement": "3+ years of product management or equivalent experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

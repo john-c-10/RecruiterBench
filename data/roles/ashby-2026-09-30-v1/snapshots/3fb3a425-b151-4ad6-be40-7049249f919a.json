@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "role_id": "3fb3a425-b151-4ad6-be40-7049249f919a",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/mistral.ai/3fb3a425-b151-4ad6-be40-7049249f919a",
+    "board_url": "https://jobs.ashbyhq.com/mistral.ai",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "3fb3a425-b151-4ad6-be40-7049249f919a",
+    "title": "AI Scientist - Physics Models",
+    "department": "Science",
+    "team": "AI for Science",
+    "employmentType": "FullTime",
+    "location": "Paris",
+    "secondaryLocations": [
+      {
+        "location": "Amsterdam",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Netherlands",
+            "addressLocality": "Amsterdam"
+          }
+        }
+      },
+      {
+        "location": "Linz",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Austria",
+            "addressLocality": "Linz"
+          }
+        }
+      },
+      {
+        "location": "Paris",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Bavaria",
+            "addressCountry": "Germany",
+            "addressLocality": "Munich"
+          }
+        }
+      },
+      {
+        "location": "London",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United Kingdom",
+            "addressLocality": "London"
+          }
+        }
+      },
+      {
+        "location": "Berlin",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Germany",
+            "addressLocality": "Berlin"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-09-04T16:28:39.979+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Ile-de-France",
+        "addressCountry": "France",
+        "addressLocality": "Paris"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/mistral.ai/3fb3a425-b151-4ad6-be40-7049249f919a",
+    "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/3fb3a425-b151-4ad6-be40-7049249f919a/application",
+    "descriptionHtml": "<h2><strong>About Mistral</strong></h2><p style=\"min-height:1.5em\">Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.</p><p style=\"min-height:1.5em\">We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.</p><p style=\"min-height:1.5em\"></p><h2><strong>The Role</strong></h2><p style=\"min-height:1.5em\">Mistral is looking for AI Scientists with deep expertise in engineering sciences and machine learning to push the frontier of AI-accelerated simulation. Within AI4Engineering Science, you will research and train foundational physics models which are substantially more capable than what exists today and can be fine-tuned for downstream applications by both customers and internal teams.</p><p style=\"min-height:1.5em\">You will work across the full research stack: curating high-fidelity simulation datasets, designing and training novel model architectures, and rigorously evaluating them against real engineering validation standards.</p><p style=\"min-height:1.5em\">Working closely with the broader research organization, you'll ensure the foundation models you build are general enough to become the backbone of many downstream products, not just a single point solution.</p><p style=\"min-height:1.5em\">This role builds on a strong, world-class foundation, and the goal is to take it further. You'll work one vertical at a time toward foundation models that genuinely transfer and fine-tune across engineering tasks, with high-quality simulation data pipelines, physics-based evaluation, and uncertainty / out-of-distribution estimation as first-class concerns. There's no inherited playbook for most of what's left to do: you'll help define the architectures, training strategies, and validation standards the team builds on, not just extend an existing one.</p><p style=\"min-height:1.5em\"></p><h2><strong>What You Will Do</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Research and train novel foundation models for physics simulation, pushing past today's state of the art in accuracy, generalization, and scale</p></li><li><p style=\"min-height:1.5em\">Design and run large-scale simulation campaigns using domain-specific solvers to build the high-fidelity datasets foundational physics models need</p></li><li><p style=\"min-height:1.5em\">Investigate architectures and training strategies (e.g. multi-fidelity training, pretraining objectives, scaling behavior) that let a single foundation model transfer and fine-tune well across diverse engineering tasks</p></li><li><p style=\"min-height:1.5em\">Rigorously evaluate model coverage, accuracy, and robustness against industry validation standards, and diagnose failure modes arising from data gaps or architecture limitations</p></li><li><p style=\"min-height:1.5em\">Stay on top of the latest developments in the scientific community and contribute to Mistral's standing at the frontier of AI-for-engineering research</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>What We're Looking For</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">PhD or Master's in CS/AI or an engineering science: Mechanical Engineering, Electrical Engineering, Computational Fluid Dynamics, Structural Mechanics, EDA, Semiconductor Engineering, or a related field</p></li><li><p style=\"min-height:1.5em\">Strong, hands-on machine learning expertise with a deep understanding of model architectures, training dynamics, and evaluation methodology is core to this role</p></li><li><p style=\"min-height:1.5em\">You have developed ML methods for simulation or surrogate modelling</p></li><li><p style=\"min-height:1.5em\">You write clean, readable Python code and are comfortable in Linux/HPC environments</p></li><li><p style=\"min-height:1.5em\">Fluent English with excellent communication skills, able to explain technical simulation and ML concepts to both engineering and non-technical audiences</p></li><li><p style=\"min-height:1.5em\">Self-directed, you don't need detailed roadmaps to make progress</p></li><li><p style=\"min-height:1.5em\">Low-ego, collaborative, and eager to learn at the intersection of simulation and ML</p></li><li><p style=\"min-height:1.5em\">Demonstrated success through industrial projects, academic work, or personal projects</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>It would be great if you</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have industrial or academic experience with simulation solvers (e.g. OpenFOAM, LS-DYNA, ANSYS, COMSOL, Abaqus, Fluent, STAR-CCM+, PowerFlow, NekRS, Tau/CODA, JAX-Fluids, or equivalent; Cadence/Synopsys/Siemens EDA or equivalent)</p></li><li><p style=\"min-height:1.5em\">Have experience automating large-scale simulation campaigns on HPC clusters</p></li><li><p style=\"min-height:1.5em\">Have contributed to a large open-source or industry codebase</p></li><li><p style=\"min-height:1.5em\">Have publications in engineering or ML venues (AIAA, ASME, JFM, NeurIPS, ICLR, etc.)</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>What We Offer</strong></h2><p style=\"min-height:1.5em\">We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.</p><p style=\"min-height:1.5em\">For the most up-to-date details on benefits available in your location, please refer to our <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link\">Benefits page</a>.</p><p style=\"min-height:1.5em\"></p><h2><strong>Privacy Policy</strong></h2><p style=\"min-height:1.5em\">Your privacy matters to us. You can learn more about how we handle your personal data in our <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://legal.mistral.ai/terms/applicant-privacy-policy\"><u>Applicant Privacy Policy</u></a>.</p>",
+    "descriptionPlain": "ABOUT MISTRAL\n\nMistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.\n\nWe are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.\n\n\n\n\nTHE ROLE\n\nMistral is looking for AI Scientists with deep expertise in engineering sciences and machine learning to push the frontier of AI-accelerated simulation. Within AI4Engineering Science, you will research and train foundational physics models which are substantially more capable than what exists today and can be fine-tuned for downstream applications by both customers and internal teams.\n\nYou will work across the full research stack: curating high-fidelity simulation datasets, designing and training novel model architectures, and rigorously evaluating them against real engineering validation standards.\n\nWorking closely with the broader research organization, you'll ensure the foundation models you build are general enough to become the backbone of many downstream products, not just a single point solution.\n\nThis role builds on a strong, world-class foundation, and the goal is to take it further. You'll work one vertical at a time toward foundation models that genuinely transfer and fine-tune across engineering tasks, with high-quality simulation data pipelines, physics-based evaluation, and uncertainty / out-of-distribution estimation as first-class concerns. There's no inherited playbook for most of what's left to do: you'll help define the architectures, training strategies, and validation standards the team builds on, not just extend an existing one.\n\n\n\n\nWHAT YOU WILL DO\n\n - Research and train novel foundation models for physics simulation, pushing past today's state of the art in accuracy, generalization, and scale\n\n - Design and run large-scale simulation campaigns using domain-specific solvers to build the high-fidelity datasets foundational physics models need\n\n - Investigate architectures and training strategies (e.g. multi-fidelity training, pretraining objectives, scaling behavior) that let a single foundation model transfer and fine-tune well across diverse engineering tasks\n\n - Rigorously evaluate model coverage, accuracy, and robustness against industry validation standards, and diagnose failure modes arising from data gaps or architecture limitations\n\n - Stay on top of the latest developments in the scientific community and contribute to Mistral's standing at the frontier of AI-for-engineering research\n\n\n\n\nWHAT WE'RE LOOKING FOR\n\n - PhD or Master's in CS/AI or an engineering science: Mechanical Engineering, Electrical Engineering, Computational Fluid Dynamics, Structural Mechanics, EDA, Semiconductor Engineering, or a related field\n\n - Strong, hands-on machine learning expertise with a deep understanding of model architectures, training dynamics, and evaluation methodology is core to this role\n\n - You have developed ML methods for simulation or surrogate modelling\n\n - You write clean, readable Python code and are comfortable in Linux/HPC environments\n\n - Fluent English with excellent communication skills, able to explain technical simulation and ML concepts to both engineering and non-technical audiences\n\n - Self-directed, you don't need detailed roadmaps to make progress\n\n - Low-ego, collaborative, and eager to learn at the intersection of simulation and ML\n\n - Demonstrated success through industrial projects, academic work, or personal projects\n\n\n\n\nIT WOULD BE GREAT IF YOU\n\n - Have industrial or academic experience with simulation solvers (e.g. OpenFOAM, LS-DYNA, ANSYS, COMSOL, Abaqus, Fluent, STAR-CCM+, PowerFlow, NekRS, Tau/CODA, JAX-Fluids, or equivalent; Cadence/Synopsys/Siemens EDA or equivalent)\n\n - Have experience automating large-scale simulation campaigns on HPC clusters\n\n - Have contributed to a large open-source or industry codebase\n\n - Have publications in engineering or ML venues (AIAA, ASME, JFM, NeurIPS, ICLR, etc.)\n\n\n\n\nWHAT WE OFFER\n\nWe offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.\n\nFor the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.\n\n\n\n\nPRIVACY POLICY\n\nYour privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+  }
+}

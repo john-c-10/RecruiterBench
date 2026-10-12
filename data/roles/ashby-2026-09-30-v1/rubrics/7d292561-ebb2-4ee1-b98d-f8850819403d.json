@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "role_id": "7d292561-ebb2-4ee1-b98d-f8850819403d",
+  "snapshot_sha256": "3a30f297eba3af1c9e494084c4cde8cbdc3872b76003e62712648080c71c7c2c",
+  "input_sha256": "9d269060bb05639d1c91afeb1eb7d827ed2ad5e8f8a1556af0388130f7540e51",
+  "rubric_sha256": "5a981fb0da1d8ef11671fa2764d8d773ab2016174ddde335ba83a92849faf8e3",
+  "rubric": {
+    "role_summary": "Director-level music editorial and curation role establishing editorial vision, curation frameworks, and music-discovery programs, while building a team and partnering with Product and Engineering.",
+    "search_query": "Find candidates for this role:\nDirector-level music editorial and curation role establishing editorial vision, curation frameworks, and music-discovery programs, while building a team and partnering with Product and Engineering.\nMandatory professional qualifications:\n- 10+ years of experience in A&R, editorial, or a related field within the music industry.\nPreferred, not mandatory:\n- Experience at a streaming, publication, or AI company.\n- Familiarity specifically with music taxonomy or editorial curation systems.\n- Experience working within or alongside product and engineering teams.\n- Experience building and improving processes across marketing or editorial workflows.\n- Familiarity with metadata and taxonomy systems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "10+ years of experience in A&R, editorial, or a related field within the music industry.",
+        "source_quote": "10+ years of experience in A&R, editorial, or a related field within the music industry",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience at a streaming, publication, or AI company.",
+        "source_quote": "Experience at a streaming, publication, or AI company",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity specifically with music taxonomy or editorial curation systems.",
+        "source_quote": "Familiarity with music taxonomy, metadata, or editorial curation systems",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience working within or alongside product and engineering teams.",
+        "source_quote": "Experience working within or alongside product and engineering teams",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience building and improving processes across marketing or editorial workflows.",
+        "source_quote": "Strong operational instincts with experience building and improving processes across marketing or editorial workflows",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Familiarity with metadata and taxonomy systems.",
+        "source_quote": "Familiarity with metadata and taxonomy systems",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "NYC",
+        "Los Angeles",
+        "This role requires working onsite at one of our offices."
+      ]
+    },
+    "soft_requirements": [
+      "A point of view on music curation and discovery, including cultural authenticity.",
+      "AI fluency, or curiosity and fair review of music made with AI assistance.",
+      "Communication with senior artist teams, external partners, and internal colleagues.",
+      "Comfort with ambiguity, a hands-on approach, and enthusiasm for music and creative technology.",
+      "Ability to collaborate across rapidly growing teams.",
+      "Music taste, industry relationships, and awareness of how music moves online, as described for the ideal candidate."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "3a30f297eba3af1c9e494084c4cde8cbdc3872b76003e62712648080c71c7c2c",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:55.928726+00:00",
+    "response_id": "chatcmpl-ETyUAhTRf6s9TECo506zBaqaJJZGI",
+    "usage": {
+      "prompt_tokens": 2740,
+      "completion_tokens": 898,
+      "total_tokens": 3638,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1494,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 92,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ceeedca1f0d9036165c6ef8f357115ff69b416813b70e3fdaad020ef3d4c262e",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work onsite at one of the NYC or Los Angeles offices; current residence in either city is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "NYC",
+        "Los Angeles, California, United States"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "NYC",
+        "Los Angeles",
+        "This role requires working onsite at one of our offices."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "10+ years of experience in A&R, editorial, or a related field within the music industry",
+        "effective_requirement": "10+ years of experience in A&R, editorial, or a related field within the music industry.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "7e7b9c472e09b2446c8f3022795adfc15338cc6852019efc61b5457bcb033f41",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Eligible to work in the US.",
+          "source_quote": "Applicants must be eligible to work in the US.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "79c0f1c5248d10caeea4fe83a87d154b1f428f49e1e8ab55a70fd9b894e0675d",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Experience building and improving processes across marketing or editorial workflows.",
+          "source_quote": "Strong operational instincts with experience building and improving processes across marketing or editorial workflows",
+          "verification": "profile",
+          "reason": "Process improvement is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Familiarity with metadata and taxonomy systems.",
+          "source_quote": "Familiarity with metadata and taxonomy systems",
+          "verification": "profile",
+          "reason": "Metadata/taxonomy familiarity rarely stated (0.92 strict fail)."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P4",
+        "M3": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d63ce0ebc676ef370d9a6d7d5479ae921e66f073f088a78b23b585b0656b6d74",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "9e4d158f1c9cfade6d57c350e06f24f5b29a91f47b881b021a75ac02a1127990",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "New York metropolitan area",
+        "Greater Los Angeles area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "10+ years of experience in A&R, editorial, or a related field within the music industry",
+      "effective_requirement": "10+ years of experience in A&R, editorial, or a related field within the music industry.",
+      "kind": "mandatory"
+    }
+  ]
+}

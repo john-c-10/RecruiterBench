@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "role_id": "1ca59edc-a993-4c1e-98b0-b5c9ec09b454",
+  "snapshot_sha256": "1688228e3dd3396480f6a7b96cc40cff27c0dae37e78e5bedf74a1a99c6a1eef",
+  "input_sha256": "d1ee1cf73ceddaf98851bb91522b26c3553e3bacf7a84b91f2fcab6858b860de",
+  "rubric_sha256": "22d06856942f86db0b0960f6e8ec309dc8f2eae9bfaa025602b0d94ebaabeb9a",
+  "rubric": {
+    "role_summary": "Product Manager for web and generative AI analytics products, owning strategy and execution for customer-driven features, web traffic estimates, and competitive intelligence insights.",
+    "search_query": "Find candidates for this role:\nProduct Manager for web and generative AI analytics products, owning strategy and execution for customer-driven features, web traffic estimates, and competitive intelligence insights.\nMandatory professional qualifications:\n- 3+ years of professional experience.\n- Experience working with data products, analytics platforms, or APIs.\n- Ability to write SQL.\nPreferred, not mandatory:\n- Product management experience at a B2B or SaaS company.\n- SEO experience.\n- Familiarity with BI and analytics tooling; named tools are examples.\n- Degree in Computer Science, Engineering, or a related field.\n- Ability to write SQL and use data directly to inform product decisions.\n- Fluency with AI tools and workflows; the named tools and integrations are examples, not an all-tools requirement.\n- Experience collaborating cross-functionally with Engineering, Design, and Sales/GTM teams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of professional experience.",
+        "source_quote": "3–5 years of professional experience, preferably in product management at a B2B or SaaS company.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience working with data products, analytics platforms, or APIs.",
+        "source_quote": "Experience working with data products, analytics platforms, or APIs.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Ability to write SQL.",
+        "source_quote": "Comfortable with writing SQL and using data directly to inform product decisions.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Product management experience at a B2B or SaaS company.",
+        "source_quote": "3–5 years of professional experience, preferably in product management at a B2B or SaaS company.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "SEO experience.",
+        "source_quote": "SEO experience is a strong plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Familiarity with BI and analytics tooling; named tools are examples.",
+        "source_quote": "Familiarity with BI and analytics tooling (e.g., Snowflake, Tableau, Amplitude, Mixpanel) is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Degree in Computer Science, Engineering, or a related field.",
+        "source_quote": "Degree in Computer Science, Engineering, or a related field is a plus, but not required.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Ability to write SQL and use data directly to inform product decisions.",
+        "source_quote": "Comfortable with writing SQL and using data directly to inform product decisions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Fluency with AI tools and workflows; the named tools and integrations are examples, not an all-tools requirement.",
+        "source_quote": "AI-fluent and comfortable working daily with tools like Claude, building custom agents, and leveraging MCP integrations to move faster and unlock new workflows.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience collaborating cross-functionally with Engineering, Design, and Sales/GTM teams.",
+        "source_quote": "Experience collaborating cross-functionally with Engineering, Design, and Sales/GTM teams.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York City, NY, US",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Interest in web analytics, competitive intelligence, digital marketing, or adjacent spaces.",
+      "Strong written and verbal communication, including translating technical concepts for non-technical audiences."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "1688228e3dd3396480f6a7b96cc40cff27c0dae37e78e5bedf74a1a99c6a1eef",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:07.649548+00:00",
+    "response_id": "chatcmpl-ETyUMDmRAowBTyx4wwXB37LPmyYLL",
+    "usage": {
+      "prompt_tokens": 2347,
+      "completion_tokens": 974,
+      "total_tokens": 3321,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1101,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 81,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "10e3521b1141fb4f274b55f52ebf36eb1f1921dd3392a7d9db9b99b4723cd362",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work location in New York City, NY, US. Present residence in New York City is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York City, NY, US"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York City, NY, US",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3–5 years of professional experience, preferably in product management at a B2B or SaaS company.",
+        "effective_requirement": "3+ years of professional experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "6b2f5e8ada384f468931fc5664ac778ca2a2f3b4d8395a636f26fc234ccb9f2a",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "6b2f5e8ada384f468931fc5664ac778ca2a2f3b4d8395a636f26fc234ccb9f2a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Fluency with AI tools and workflows; the named tools and integrations are examples, not an all-tools requirement.",
+          "source_quote": "AI-fluent and comfortable working daily with tools like Claude, building custom agents, and leveraging MCP integrations to move faster and unlock new workflows.",
+          "verification": "profile",
+          "reason": "AI tool fluency is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience collaborating cross-functionally with Engineering, Design, and Sales/GTM teams.",
+          "source_quote": "Experience collaborating cross-functionally with Engineering, Design, and Sales/GTM teams.",
+          "verification": "profile",
+          "reason": "Cross-functional collaboration is unstated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Ability to write SQL and use data directly to inform product decisions.",
+          "after": "Ability to write SQL.",
+          "reason": "SQL is commonly listed; data-driven decision practice is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P5",
+        "M4": "P6",
+        "M5": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "37d9ccb49ede1436f264e4f4fb4486e7ed217c48e70c33ef119438e5999c940f",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "da37466078fd04e4c4431b9e3ccc2ce7b5b0142579c281feef84eb58a48c894a",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3–5 years of professional experience, preferably in product management at a B2B or SaaS company.",
+      "effective_requirement": "3+ years of professional experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

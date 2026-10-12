@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "role_id": "6aea2452-d858-434b-acc9-e9785c21cb69",
+  "snapshot_sha256": "2d200a1f2a9e65ebb9a9d20d7f852f0964015f9d895c86c87c0005bfcd4e01a4",
+  "input_sha256": "c521fe3e75877788c8ec0136d9f92e21b8ecd28632f0778caae40b0414f13a07",
+  "rubric_sha256": "8b119904d2f3ca614d87d82a105c0f53023a38ff440fbab8c67b85c99e47547a",
+  "rubric": {
+    "role_summary": "Foundational, hands-on Head of Risk role building a payments risk function, initially as an individual contributor. The work spans customer underwriting, transaction authorization and limits, reserves and exposure, fraud detection, and controls for new money-movement rails.",
+    "search_query": "Find candidates for this role:\nFoundational, hands-on Head of Risk role building a payments risk function, initially as an individual contributor. The work spans customer underwriting, transaction authorization and limits, reserves and exposure, fraud detection, and controls for new money-movement rails.\nMandatory professional qualifications:\n- Risk function experience at an early-stage or high-growth company.\n- Payments-risk experience.\nPreferred, not mandatory:\n- Experience with stablecoins, wallets, RfP, or international local rails.\n- Python proficiency.\n- Prior management experience.\n- Built a risk function at an early-stage or high-growth company rather than inheriting a mature one.\n- Payments-risk experience encompassing ACH returns, settlement timing, unauthorized debit exposure, and counterparty risk, with an understanding of how risk and compliance work together.\n- Technical and data fluency for working with engineers, including SQL and application of modern AI tools to operational problems.\n- Firsthand experience with a fraud incident, loss event, or unexpected control failure.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Risk function experience at an early-stage or high-growth company.",
+        "source_quote": "You've stood up a risk function at an early-stage or high-growth company rather than inherited a mature one.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Payments-risk experience.",
+        "source_quote": "Payments risk, specifically: Not lending or credit. You understand ACH returns, settlement timing, unauthorized debit exposure, and counterparty risk. You know the difference between risk and compliance, and where they have to work as one.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with stablecoins, wallets, RfP, or international local rails.",
+        "source_quote": "Stablecoin, wallet, RfP, or international local-rail experience is a strong plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Python proficiency.",
+        "source_quote": "SQL, ideally Python",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Prior management experience.",
+        "source_quote": "Management experience is a plus: You may hire onto this team within the first year. You don't need to have run a large org, but you should have managed before and want to build a team over time.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Built a risk function at an early-stage or high-growth company rather than inheriting a mature one.",
+        "source_quote": "You've stood up a risk function at an early-stage or high-growth company rather than inherited a mature one.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Payments-risk experience encompassing ACH returns, settlement timing, unauthorized debit exposure, and counterparty risk, with an understanding of how risk and compliance work together.",
+        "source_quote": "Payments risk, specifically: Not lending or credit. You understand ACH returns, settlement timing, unauthorized debit exposure, and counterparty risk. You know the difference between risk and compliance, and where they have to work as one.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Technical and data fluency for working with engineers, including SQL and application of modern AI tools to operational problems.",
+        "source_quote": "You can go deep with engineers and hold your own. You're comfortable in the data yourself — SQL, ideally Python — and fluent in applying modern AI tools to operational problems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Firsthand experience with a fraud incident, loss event, or unexpected control failure.",
+        "source_quote": "You've seen things go wrong — a fraud ring, a loss event, a control that failed in a way nobody anticipated — and carry the pattern recognition that comes with it.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Interest in learning unfamiliar payment rails quickly and translating their risks into practical controls.",
+      "Systems thinking and ability to design risk decisioning for greater scale.",
+      "Sound judgment under uncertainty and ability to explain tradeoffs and decisions.",
+      "Ability to influence colleagues across the company and communicate the case for risk investment.",
+      "Interest in building a team over time."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "2d200a1f2a9e65ebb9a9d20d7f852f0964015f9d895c86c87c0005bfcd4e01a4",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:00.365726+00:00",
+    "response_id": "chatcmpl-ETyTFG9QP5A7KsPMIRHYfhq2IK3rs",
+    "usage": {
+      "prompt_tokens": 2622,
+      "completion_tokens": 959,
+      "total_tokens": 3581,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1376,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 127,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "aeb5f909184363a550807a96d83aafa8121142bc9b5cc7d29d7c4525ba3dfe69",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role in San Francisco; present residence in San Francisco is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "055f737675164b6eade1a754876b6ecee665e0b2ff0b3dd2d22500cdeb0b930d",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Authorized to work in the U.S.; the employer will confirm this through Form I-9 and E-Verify.",
+          "source_quote": "Modern Treasury participates in E-Verify and will provide the federal government with your Form I-9 information to confirm that you are authorized to work in the U.S.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "ac6684532a195d3e67ca6f234a987247f429605410f4f1462d5ea998c018d98a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Technical and data fluency for working with engineers, including SQL and application of modern AI tools to operational problems.",
+          "source_quote": "You can go deep with engineers and hold your own. You're comfortable in the data yourself — SQL, ideally Python — and fluent in applying modern AI tools to operational problems.",
+          "verification": "profile",
+          "reason": "SQL and AI-tool fluency are largely unstated for risk leaders."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Firsthand experience with a fraud incident, loss event, or unexpected control failure.",
+          "source_quote": "You've seen things go wrong — a fraud ring, a loss event, a control that failed in a way nobody anticipated — and carry the pattern recognition that comes with it.",
+          "verification": "profile",
+          "reason": "Firsthand fraud incidents or loss events are essentially never stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Built a risk function at an early-stage or high-growth company rather than inheriting a mature one.",
+          "after": "Risk function experience at an early-stage or high-growth company.",
+          "reason": "Risk roles at startups are visible; building vs. inheriting the function is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Payments-risk experience encompassing ACH returns, settlement timing, unauthorized debit exposure, and counterparty risk, with an understanding of how risk and compliance work together.",
+          "after": "Payments-risk experience.",
+          "reason": "Payments risk is visible from titles/employers; the specific risk types and compliance interplay are rarely listed."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P4",
+        "M2": "P5",
+        "M3": "P6",
+        "M4": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c8fb24a649657d3bb422abdc3e4e80c6d85131c82e91798504d947fc3a2c9e5d",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "b8593aa4dac7843d8fa2d34fe494e13b51d26ecabfe24334b8536c5c92458bf0",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c8075a46-eb9c-4cc3-b335-e4397fdcd959",
+  "snapshot_sha256": "b720c0c992dae1ef00e7b954c3a2126467fb7fbf64ae450f5826b535a9555e14",
+  "input_sha256": "938da48112e50493462bf9a401debdc6e14210801e4cd9ad8570e3c2b24f9c49",
+  "rubric_sha256": "5564af37bd46a112db6ca9e40b0db02174d7ea3879cfa1d9b8a400d47964c1eb",
+  "rubric": {
+    "role_summary": "Civil engineer planning, designing, and verifying earthwork on construction sites, including grading and cut/fill work for semi-autonomous equipment.",
+    "search_query": "Find candidates for this role:\nCivil engineer planning, designing, and verifying earthwork on construction sites, including grading and cut/fill work for semi-autonomous equipment.\nMandatory professional qualifications:\n- Bachelor's degree in Civil Engineering or a related field.\n- Hands-on experience with earthwork design or grading on construction projects.\n- Working knowledge of civil design and grading software; Civil 3D, AGTEK, Trimble Business Center, and similar tools are examples, not individually required.\n- Ability to read and interpret site plans, topographic surveys, and construction drawings.\nPreferred, not mandatory:\n- PE license or actively pursuing one.\n- Experience working directly with heavy civil contractors, earthwork subcontractors, or on-site construction teams.\n- Experience with GPS/machine control grading systems or automated construction technology.\n- Familiarity with permitting processes and civil authority coordination.\n- Hands-on experience with earthwork design, grading, and cut/fill analysis on real construction projects.\n- Strong understanding of earthwork construction techniques, equipment, and site execution.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor's degree in Civil Engineering or a related field.",
+        "source_quote": "Bachelor's degree in Civil Engineering or a related field",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on experience with earthwork design or grading on construction projects.",
+        "source_quote": "Hands-on experience with earthwork design, grading, and cut/fill analysis on real construction projects",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Working knowledge of civil design and grading software; Civil 3D, AGTEK, Trimble Business Center, and similar tools are examples, not individually required.",
+        "source_quote": "Working knowledge of civil design and grading software (e.g., Civil 3D, AGTEK, Trimble Business Center, or similar)",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Ability to read and interpret site plans, topographic surveys, and construction drawings.",
+        "source_quote": "Ability to read and interpret site plans, topographic surveys, and construction drawings",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "PE license or actively pursuing one.",
+        "source_quote": "PE license or actively pursuing one",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience working directly with heavy civil contractors, earthwork subcontractors, or on-site construction teams.",
+        "source_quote": "Experience working directly with heavy civil contractors, earthwork subcontractors, or on-site construction teams",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with GPS/machine control grading systems or automated construction technology.",
+        "source_quote": "Experience with GPS/machine control grading systems or automated construction technology",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with permitting processes and civil authority coordination.",
+        "source_quote": "Familiarity with permitting processes and civil authority coordination",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Hands-on experience with earthwork design, grading, and cut/fill analysis on real construction projects.",
+        "source_quote": "Hands-on experience with earthwork design, grading, and cut/fill analysis on real construction projects",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Strong understanding of earthwork construction techniques, equipment, and site execution.",
+        "source_quote": "Strong understanding of earthwork construction techniques, equipment, and site execution",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Robot Ranch (Austin, TX)",
+        "OnSite",
+        "Must be willing to relocate to Austin, TX if not within commuting distance"
+      ]
+    },
+    "soft_requirements": [
+      "Comfortable working in a fast-paced startup environment with evolving priorities."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "b720c0c992dae1ef00e7b954c3a2126467fb7fbf64ae450f5826b535a9555e14",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:19.615326+00:00",
+    "response_id": "chatcmpl-ETyTaqlwISND9SlaklsfzFHE75HqE",
+    "usage": {
+      "prompt_tokens": 2119,
+      "completion_tokens": 1094,
+      "total_tokens": 3213,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 873,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 45,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "832048e3a4d24ba8226c8de1fc9864f22d9516d67dd1fb4474560a050bf26162",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite at Robot Ranch in Austin, TX. Candidates outside commuting distance must be willing to relocate to Austin; present residence in Austin is not required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Austin, TX"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Robot Ranch (Austin, TX)",
+        "OnSite",
+        "Must be willing to relocate to Austin, TX if not within commuting distance"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "32f6804e99984beaa0dc6296f2844ae12b17b6b122d92f41cb4348fed65a8e5b",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Willingness to relocate to Austin, TX if not within commuting distance.",
+          "source_quote": "Must be willing to relocate to Austin, TX if not within commuting distance",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Willingness to work extended hours or travel to job sites when needed to support critical project deadlines.",
+          "source_quote": "Must be willing to work extended hours or travel to job sites when needed to support critical project deadlines",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c17edacc3502cbb9b80205ddd629b30ad7d42bb81323320f49a801af28f8a8e8",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Strong understanding of earthwork construction techniques, equipment, and site execution.",
+          "source_quote": "Strong understanding of earthwork construction techniques, equipment, and site execution",
+          "verification": "profile",
+          "reason": "Construction technique/equipment knowledge is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Hands-on experience with earthwork design, grading, and cut/fill analysis on real construction projects.",
+          "after": "Hands-on experience with earthwork design or grading on construction projects.",
+          "reason": "Earthwork/grading is core and visible in civil site roles; cut/fill analysis detail is rarely stated."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M2": "P5",
+        "M4": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "ac83427f8afd42484a50864857b5cff3245ae086134602595ec80c4bbab195f5",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "5b3634f9e6c8f1b8f60625c9f82e6b82a0792ca28b1c8bc9a5ac60f323fb8bfd",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

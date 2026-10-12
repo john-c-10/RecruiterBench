@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "role_id": "725e5bd7-bf33-481c-8ee2-ec03aa09b1ac",
+  "snapshot_sha256": "e508f1f2a9e10050ab7bd35bf764f3113a87863c3e90b0a6aa6a7963b5904978",
+  "input_sha256": "15c12a17b8088ce3f9129c7873f5e6ba573257d2de9d1ef2b65b9d2b1948ecb0",
+  "rubric_sha256": "b668a816900951889209b0e1a845f03c94e518ef506461b56fe8d2f52dff50dd",
+  "rubric": {
+    "role_summary": "Hands-on AI engineering role building and deploying agents and automation for B2B SaaS sales, customer success, renewals, and retention across portfolio companies.",
+    "search_query": "Find candidates for this role:\nHands-on AI engineering role building and deploying agents and automation for B2B SaaS sales, customer success, renewals, and retention across portfolio companies.\nMandatory professional qualifications:\n- Hands-on experience building AI agents, LLM-powered workflows, or intelligent automation systems in production.\n- Hands-on experience building and shipping production systems.\n- Familiarity with the B2B SaaS revenue tech stack, such as Salesforce or an equivalent CRM.\nPreferred, not mandatory:\n- Prefers individual-contributor work.\n- Personally build and ship production systems rather than direct others to do the work.\n- Real-world application of AI to improve revenue in a commercial business and extensive knowledge of primary AI platforms.\n- Deep familiarity with the B2B SaaS revenue tech stack: Salesforce or an equivalent CRM, revenue intelligence tools, CPQ, and customer success platforms.\n- Experience building pipeline dashboards, renewal forecasts, and retention analytics.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Hands-on experience building AI agents, LLM-powered workflows, or intelligent automation systems in production.",
+        "source_quote": "Hands-on experience building AI agents, LLM-powered workflows, or intelligent automation systems in a production environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on experience building and shipping production systems.",
+        "source_quote": "You are accountable for building and shipping the work yourself rather than directing others who do — this role is measured in systems running in production, not specifications handed off.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Familiarity with the B2B SaaS revenue tech stack, such as Salesforce or an equivalent CRM.",
+        "source_quote": "Deep familiarity with the B2B SaaS revenue tech stack: CRM platforms (Salesforce or equivalent), revenue intelligence tools, CPQ, and customer success platforms.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Prefers individual-contributor work.",
+        "source_quote": "Individual contributor by preference.",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P2",
+        "requirement": "Personally build and ship production systems rather than direct others to do the work.",
+        "source_quote": "You are accountable for building and shipping the work yourself rather than directing others who do — this role is measured in systems running in production, not specifications handed off.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Real-world application of AI to improve revenue in a commercial business and extensive knowledge of primary AI platforms.",
+        "source_quote": "Real-world application of AI to improve revenue in a commercial business & extensive knowledge of primary AI platforms",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Deep familiarity with the B2B SaaS revenue tech stack: Salesforce or an equivalent CRM, revenue intelligence tools, CPQ, and customer success platforms.",
+        "source_quote": "Deep familiarity with the B2B SaaS revenue tech stack: CRM platforms (Salesforce or equivalent), revenue intelligence tools, CPQ, and customer success platforms.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience building pipeline dashboards, renewal forecasts, and retention analytics.",
+        "source_quote": "Data-driven mindset with experience building pipeline dashboards, renewal forecasts, and retention analytics.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco, CA",
+        "Hybrid",
+        "San Francisco, hybrid work model",
+        "Work from home Monday & Friday"
+      ]
+    },
+    "soft_requirements": [
+      "Structured thinking and ability to break complex revenue processes into components, root causes, and dependencies.",
+      "Communicate technical concepts to non-technical stakeholders and collaborate with sales and customer success leaders.",
+      "Hands-on, execution-oriented, and accountable for results.",
+      "Curiosity and willingness to experiment with new approaches and technologies.",
+      "Data-driven mindset."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e508f1f2a9e10050ab7bd35bf764f3113a87863c3e90b0a6aa6a7963b5904978",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:37.606204+00:00",
+    "response_id": "chatcmpl-ETySuNwIluxuKbKQ68kQgant1RjQj",
+    "usage": {
+      "prompt_tokens": 2675,
+      "completion_tokens": 858,
+      "total_tokens": 3533,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1429,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 53,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "59cfcbb0b935f3695739de2d8dc009fd788562d2279ff85055072674bfa81b9b",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "San Francisco hybrid work model; the posting describes working from home Monday and Friday.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco, CA",
+        "Hybrid",
+        "San Francisco, hybrid work model",
+        "Work from home Monday & Friday"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "666196058cfbd2f44f15152a23f389b6edca55ce56117c3c0f275a9da4e46178",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "666196058cfbd2f44f15152a23f389b6edca55ce56117c3c0f275a9da4e46178",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Real-world application of AI to improve revenue in a commercial business and extensive knowledge of primary AI platforms.",
+          "source_quote": "Real-world application of AI to improve revenue in a commercial business & extensive knowledge of primary AI platforms",
+          "verification": "profile",
+          "reason": "Revenue impact from AI is a quantified outcome rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience building pipeline dashboards, renewal forecasts, and retention analytics.",
+          "source_quote": "Data-driven mindset with experience building pipeline dashboards, renewal forecasts, and retention analytics.",
+          "verification": "profile",
+          "reason": "Specific analytics deliverables are rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Personally build and ship production systems rather than direct others to do the work.",
+          "after": "Hands-on experience building and shipping production systems.",
+          "reason": "IC engineering roles are observable; the personal work-style framing is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Deep familiarity with the B2B SaaS revenue tech stack: Salesforce or an equivalent CRM, revenue intelligence tools, CPQ, and customer success platforms.",
+          "after": "Familiarity with the B2B SaaS revenue tech stack, such as Salesforce or an equivalent CRM.",
+          "reason": "CRM/RevOps tools are commonly listed; the full tool list is overly conjunctive."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3"
+      },
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4",
+        "M5": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "75fe7106d54a46084ecff746f2e3366790242af6a29d1ad81920ed30e7f00a81",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "6efa1f07c40ddd420d540684a1a5d8fbf5e857f47cf2dcd2b2bbbc4c520438a4",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

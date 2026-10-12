@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0fa4649a-dae2-4c13-ae70-8e93ce221152",
+  "snapshot_sha256": "e07f59255e5aa5e82eb7a925412a3633bf3f3206e817a3a8d68c3e6d1aa90dc7",
+  "input_sha256": "10ca4abb82bf497d3c57931ef4a5b66b6fc16191155e77ae2069f2d62f647ac7",
+  "rubric_sha256": "19b7ec1b00fff29dd0fdf76fbd6e02b10e4b984469b178581cf3e29635590145",
+  "rubric": {
+    "role_summary": "Senior product management role leading strategy and execution for account verification products used to connect and verify financial accounts, including verification experiences across Auth, Balance, and Identity Match.",
+    "search_query": "Find candidates for this role:\nSenior product management role leading strategy and execution for account verification products used to connect and verify financial accounts, including verification experiences across Auth, Balance, and Identity Match.\nMandatory professional qualifications:\n- 8+ years of experience, including 5+ years in product management or equivalent founder/operator roles.\nPreferred, not mandatory:\n- Experience building and scaling products in fintech or payments.\n- Proven success building and scaling products.\n- Track record of cross-functional impact with design, engineering, and go-to-market teams to deliver results.\n- Hands-on use of data and AI tools for writing, analysis, prototyping, and experimentation.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "8+ years of experience, including 5+ years in product management or equivalent founder/operator roles.",
+        "source_quote": "8+ years of experience, including 5+ in product management or equivalent founder/operator roles.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience building and scaling products in fintech or payments.",
+        "source_quote": "Proven success building and scaling products, ideally in fintech or payments.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Proven success building and scaling products.",
+        "source_quote": "Proven success building and scaling products, ideally in fintech or payments.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Track record of cross-functional impact with design, engineering, and go-to-market teams to deliver results.",
+        "source_quote": "Track record of cross-functional impact, influencing design, engineering, and GTM teams to deliver results.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Hands-on use of data and AI tools for writing, analysis, prototyping, and experimentation.",
+        "source_quote": "Hands-on comfort with data and AI tools for writing, analysis, prototyping, and experimentation.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco HQ",
+        "New York City Office",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Strategic vision and executional drive, with attention to both the big picture and details.",
+      "Communication and stakeholder management across technical and business audiences.",
+      "Ability to thrive in ambiguity and high-growth environments and lead with conviction."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e07f59255e5aa5e82eb7a925412a3633bf3f3206e817a3a8d68c3e6d1aa90dc7",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:52.762062+00:00",
+    "response_id": "chatcmpl-ETyTDXqbG7efxyjwkR6NdVUV9N3qX",
+    "usage": {
+      "prompt_tokens": 2626,
+      "completion_tokens": 564,
+      "total_tokens": 3190,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1380,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 29,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "fd26361878eb3f308707babe5d5987a6cbc2e52e0837543fa465977adede9b3b",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work based at the San Francisco HQ or New York City office; the posting does not require current residence in either city.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, California",
+        "New York City, New York"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco HQ",
+        "New York City Office",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "8+ years of experience, including 5+ in product management or equivalent founder/operator roles.",
+        "effective_requirement": "8+ years of experience, including 5+ years in product management or equivalent founder/operator roles.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "e32b8da2357e0043bfbd70c1d19bb65b89db1c35ca6b944e6101fedc72a26fe6",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "e32b8da2357e0043bfbd70c1d19bb65b89db1c35ca6b944e6101fedc72a26fe6",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Proven success building and scaling products.",
+          "source_quote": "Proven success building and scaling products, ideally in fintech or payments.",
+          "verification": "profile",
+          "reason": "Proven success building and scaling products is a quality/outcome claim."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Track record of cross-functional impact with design, engineering, and go-to-market teams to deliver results.",
+          "source_quote": "Track record of cross-functional impact, influencing design, engineering, and GTM teams to deliver results.",
+          "verification": "profile",
+          "reason": "Cross-functional impact is an outcome/soft-skill claim."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Hands-on use of data and AI tools for writing, analysis, prototyping, and experimentation.",
+          "source_quote": "Hands-on comfort with data and AI tools for writing, analysis, prototyping, and experimentation.",
+          "verification": "profile",
+          "reason": "Hands-on AI tool use is largely unstated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c284911a59c58f50f86e0a30eb12d9a82ed78171c95b72d59d4cb79856cca8d0",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "4de04ba4f169f1ffe9c166c967c2d1cb625b48e6db8e4c535bbc459259d62921",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California",
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "8+ years of experience, including 5+ in product management or equivalent founder/operator roles.",
+      "effective_requirement": "8+ years of experience, including 5+ years in product management or equivalent founder/operator roles.",
+      "kind": "mandatory"
+    }
+  ]
+}

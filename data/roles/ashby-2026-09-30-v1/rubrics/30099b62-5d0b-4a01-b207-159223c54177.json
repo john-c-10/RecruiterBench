@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "role_id": "30099b62-5d0b-4a01-b207-159223c54177",
+  "snapshot_sha256": "393b790ba5d0cc5ebe469204808a49eae33a4be0096cad378f7ca812b903533f",
+  "input_sha256": "933a933c272fd87db792b1700fbfb540942abcf58162f9860fb24a107eec4b3a",
+  "rubric_sha256": "1d863d3a33c060afe1047aa8d4e57a20b81c06f108bfb140218a62641655dbe1",
+  "rubric": {
+    "role_summary": "U.S. agritech product specialist working with ranchers, commercial teams, and product and engineering teams to improve cattle-collar and virtual-fencing products and lead product-development projects.",
+    "search_query": "Find candidates for this role:\nU.S. agritech product specialist working with ranchers, commercial teams, and product and engineering teams to improve cattle-collar and virtual-fencing products and lead product-development projects.\nMandatory professional qualifications:\n- Ranching experience.\nPreferred, not mandatory:\n- Experience leading cross-functional projects or running research trials.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Boulder, CO area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Ranching experience.",
+        "source_quote": "Ranching experience is a must-have",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience leading cross-functional projects or running research trials.",
+        "source_quote": "Experience in leading cross-functional projects or running research trials.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Boulder, CO area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Boulder, CO area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Boulder, CO",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Interest in agri-tech, comfort learning the product’s technical details, and enthusiasm for animals and agriculture.",
+      "Teamwork, a constructive attitude, and ability to overcome challenges.",
+      "Ability to learn quickly, think critically, and develop innovative conclusions.",
+      "Comfort with autonomy, a fast-paced environment, and ambiguity."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "393b790ba5d0cc5ebe469204808a49eae33a4be0096cad378f7ca812b903533f",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:46.030041+00:00",
+    "response_id": "chatcmpl-ETyU4bSretGmk9YZJrlVsX9u64fHS",
+    "usage": {
+      "prompt_tokens": 2987,
+      "completion_tokens": 516,
+      "total_tokens": 3503,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1741,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1eb75638f318bad2f624c57b1b7c07f71aac1b1cecdc91ffebdb2bb3fef034ea",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work location: Boulder, Colorado. Current residence in Boulder is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Boulder, CO"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Boulder, CO",
+        "OnSite"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "ae97ec91e1c2251b2ca400939052ca48cf5a367546f13669121251adac257709",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Willingness to travel for work domestically and internationally, including on weekends.",
+          "source_quote": "Willing to travel for work (domestic and international) as well as weekends",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c5727d4ce935ada25845353ffb77815a20ed044b3ad3aba531bee68415a7f107",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Experience leading cross-functional projects or running research trials.",
+          "source_quote": "Experience in leading cross-functional projects or running research trials.",
+          "verification": "profile",
+          "reason": "Cross-functional projects or trials are rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P1"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "de8efc82b83e85f06685cf89b3bc99fd0139dcf08e2089a66de47bf017f04801",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "66e216ff23efe12cb00f36037764b53aa4298923a2d309456225d79536483ca8",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Boulder, CO area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Boulder, CO area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

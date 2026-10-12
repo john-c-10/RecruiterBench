@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "role_id": "affd3040-91e4-4e0c-bd2f-4b022c613f91",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/perplexity/affd3040-91e4-4e0c-bd2f-4b022c613f91",
+    "board_url": "https://jobs.ashbyhq.com/perplexity",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "affd3040-91e4-4e0c-bd2f-4b022c613f91",
+    "title": "Member of Technical Staff (ML Engineer, Recommendations & User Modeling)",
+    "department": "AI Research & Systems",
+    "team": "AI Research & Systems",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "secondaryLocations": [
+      {
+        "location": "Palo Alto",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "Palo Alto"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-06-06T04:33:07.452+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/perplexity/affd3040-91e4-4e0c-bd2f-4b022c613f91",
+    "applyUrl": "https://jobs.ashbyhq.com/perplexity/affd3040-91e4-4e0c-bd2f-4b022c613f91/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Perplexity is seeking experienced ML engineers to design, build, and optimize the recommendation systems that power core experiences on Perplexity.</p><p style=\"min-height:1.5em\">Perplexity builds AI for those who expect more. Our products are designed to help people find answers, make their most consequential decisions, and complete increasingly ambitious work. Across these use cases, the Perplexity experience must feel deeply personal. Great recommendations and user understanding are central to delighting and delivering for each user.</p><p style=\"min-height:1.5em\">To do this, we are reimagining recommendation systems for the LLM era. Our goal is to combine the intelligence of frontier LLMs, the personalization context that comes from real product usage, and the continual learning capabilities of modern recommendation systems. We build systems that draw on past context and connected data sources to deeply understand each user's needs and recommend the actions that help them get the most out of Perplexity.</p><p style=\"min-height:1.5em\"></p><h2><strong>Why Perplexity is Different</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Craftsmanship</strong>. We build high quality, tasteful products targeting both AI native and AI curious users.</p></li><li><p style=\"min-height:1.5em\"><strong>Ownership</strong>. You identify the problem, design the solution and ship it.</p></li><li><p style=\"min-height:1.5em\"><strong>Entrepreneurship</strong>. We think like founders, act with urgency, and hustle to deliver for each other and our users.</p></li><li><p style=\"min-height:1.5em\"><strong>Scholarship</strong>. Work among highly talented peers, pursuing knowledge and truth, upleveling ourselves, our teams, and our products.</p></li><li><p style=\"min-height:1.5em\"><strong>Partnership</strong>. We amplify each others’ strengths, break down silos, and give selflessly to help our colleagues deliver excellence.</p></li></ul><h2><strong>What you'll do</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own the personalization and ranking behind key product surfaces to make Perplexity more useful and drive impact on core user and business metrics.</p></li><li><p style=\"min-height:1.5em\">Build user modeling that captures intent, preference, and propensity, and powers more relevant, more personalized experiences.</p></li><li><p style=\"min-height:1.5em\">Design the decision layer that balances competing objectives to produce the best overall experience for the user.</p></li><li><p style=\"min-height:1.5em\">Build the data and evaluation foundations that let these systems learn and improve with usage.</p></li><li><p style=\"min-height:1.5em\">Help shape the technical direction of ranking, recommendations, and personalization at Perplexity.</p></li></ul><h2><strong>What we're looking for</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.</p></li><li><p style=\"min-height:1.5em\">Strong ML fundamentals, covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.</p></li><li><p style=\"min-height:1.5em\">Experience integrating LLMs into ranking, retrieval, or personalization pipelines.</p></li><li><p style=\"min-height:1.5em\">Taste and judgment for how personalization should work in an LLM-native product, and curiosity about reimagining it from first principles.</p></li><li><p style=\"min-height:1.5em\">For tech leadership roles, we will also look for prior experience setting technical direction for recommendation/ranking projects.</p></li></ul><h2><strong>Nice to have</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with large-scale ranking and training infrastructure (multi-stage retrieval and ranking, feature stores, real-time serving).</p></li><li><p style=\"min-height:1.5em\">Background in user understanding, feed ranking, notifications, growth, or lifecycle modeling.</p></li></ul><h2><strong>Our Mission</strong></h2><p style=\"min-height:1.5em\">Perplexity’s mission is to power curiosity. Curious people are the people who drive change in the world. Driving change is a continuous cycle of learning, building, and integrating.</p><p style=\"min-height:1.5em\"><strong>Learn</strong>: curious people constantly learn new things by asking more. They question the status quo in their own expertise and they constantly learn outside of it. Research is essential to them and never ending.</p><p style=\"min-height:1.5em\"><strong>Build</strong>: curious people make and create things, to show the world their new answers to problems no one else ever questioned. They take action on what they’ve learned. Makers need tools to create their products, their companies, their reality.</p><p style=\"min-height:1.5em\"><strong>Integrate</strong>: they must interact with the world as it is to drive change and adoption. True leaders do not simply build something and hope. They must have armies of agents and workers who can constantly work in millions of small ways.</p><p style=\"min-height:1.5em\"><strong>Repeat</strong>. For curious people this is a cycle that never ends.</p>",
+    "descriptionPlain": "Perplexity is seeking experienced ML engineers to design, build, and optimize the recommendation systems that power core experiences on Perplexity.\n\nPerplexity builds AI for those who expect more. Our products are designed to help people find answers, make their most consequential decisions, and complete increasingly ambitious work. Across these use cases, the Perplexity experience must feel deeply personal. Great recommendations and user understanding are central to delighting and delivering for each user.\n\nTo do this, we are reimagining recommendation systems for the LLM era. Our goal is to combine the intelligence of frontier LLMs, the personalization context that comes from real product usage, and the continual learning capabilities of modern recommendation systems. We build systems that draw on past context and connected data sources to deeply understand each user's needs and recommend the actions that help them get the most out of Perplexity.\n\n\n\n\nWHY PERPLEXITY IS DIFFERENT\n\n - Craftsmanship. We build high quality, tasteful products targeting both AI native and AI curious users.\n\n - Ownership. You identify the problem, design the solution and ship it.\n\n - Entrepreneurship. We think like founders, act with urgency, and hustle to deliver for each other and our users.\n\n - Scholarship. Work among highly talented peers, pursuing knowledge and truth, upleveling ourselves, our teams, and our products.\n\n - Partnership. We amplify each others’ strengths, break down silos, and give selflessly to help our colleagues deliver excellence.\n\n\nWHAT YOU'LL DO\n\n - Own the personalization and ranking behind key product surfaces to make Perplexity more useful and drive impact on core user and business metrics.\n\n - Build user modeling that captures intent, preference, and propensity, and powers more relevant, more personalized experiences.\n\n - Design the decision layer that balances competing objectives to produce the best overall experience for the user.\n\n - Build the data and evaluation foundations that let these systems learn and improve with usage.\n\n - Help shape the technical direction of ranking, recommendations, and personalization at Perplexity.\n\n\nWHAT WE'RE LOOKING FOR\n\n - Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.\n\n - Strong ML fundamentals, covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.\n\n - Experience integrating LLMs into ranking, retrieval, or personalization pipelines.\n\n - Taste and judgment for how personalization should work in an LLM-native product, and curiosity about reimagining it from first principles.\n\n - For tech leadership roles, we will also look for prior experience setting technical direction for recommendation/ranking projects.\n\n\nNICE TO HAVE\n\n - Experience with large-scale ranking and training infrastructure (multi-stage retrieval and ranking, feature stores, real-time serving).\n\n - Background in user understanding, feed ranking, notifications, growth, or lifecycle modeling.\n\n\nOUR MISSION\n\nPerplexity’s mission is to power curiosity. Curious people are the people who drive change in the world. Driving change is a continuous cycle of learning, building, and integrating.\n\nLearn: curious people constantly learn new things by asking more. They question the status quo in their own expertise and they constantly learn outside of it. Research is essential to them and never ending.\n\nBuild: curious people make and create things, to show the world their new answers to problems no one else ever questioned. They take action on what they’ve learned. Makers need tools to create their products, their companies, their reality.\n\nIntegrate: they must interact with the world as it is to drive change and adoption. True leaders do not simply build something and hope. They must have armies of agents and workers who can constantly work in millions of small ways.\n\nRepeat. For curious people this is a cycle that never ends."
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d5bc2302-202f-4596-9c4d-8720d1e79064",
+  "snapshot_sha256": "aab2e7537a9b9c47ffd393d079bb488a66e1b974ae3dde09800764e1edf06c4a",
+  "input_sha256": "3e728f95c1f28b255f6eedc988e5d854c11bc08e4da255d3dbdd72bed53ea49e",
+  "rubric_sha256": "cf73375f4eb289788f7279287360c8b4a6bb81a63d742f599ce2524d901bcd93",
+  "rubric": {
+    "role_summary": "Senior B2B partner marketing role building a partnerships marketing function, leading joint go-to-market campaigns and launches, and measuring partner-generated pipeline.",
+    "search_query": "Find candidates for this role:\nSenior B2B partner marketing role building a partnerships marketing function, leading joint go-to-market campaigns and launches, and measuring partner-generated pipeline.\nMandatory professional qualifications:\n- 5+ years in B2B marketing.\n- Experience running joint go-to-market with technology or ISV partners, cloud providers, or system integrators.\n- Hands-on full-funnel campaign marketing experience.\nPreferred, not mandatory:\n- Experience in partner, alliance, or ecosystem marketing.\n- Proven experience running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated pipeline.\n- Hands-on full-funnel campaign experience across webinars, events, ABM, content, and digital.\n- Experience setting up attribution and reporting partner-sourced and partner-influenced pipeline, using CRM and revenue operations tools.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years in B2B marketing.",
+        "source_quote": "5+ years in B2B marketing",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience running joint go-to-market with technology or ISV partners, cloud providers, or system integrators.",
+        "source_quote": "Proven track record running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated real pipeline",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Hands-on full-funnel campaign marketing experience.",
+        "source_quote": "Full-funnel campaign operator fluent across webinars, events, ABM, content, and digital, comfortable executing hands-on rather than only directing",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in partner, alliance, or ecosystem marketing.",
+        "source_quote": "preferably in partner, alliance, or ecosystem marketing",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Proven experience running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated pipeline.",
+        "source_quote": "Proven track record running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated real pipeline",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Hands-on full-funnel campaign experience across webinars, events, ABM, content, and digital.",
+        "source_quote": "Full-funnel campaign operator fluent across webinars, events, ABM, content, and digital, comfortable executing hands-on rather than only directing",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience setting up attribution and reporting partner-sourced and partner-influenced pipeline, using CRM and revenue operations tools.",
+        "source_quote": "experience setting up attribution and reporting partner-sourced and influenced pipeline; comfortable in CRM and revenue operation tools",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "New York City",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Operating discipline to build plans, maintain accountability across organizations, and drive follow-through.",
+      "Ability to craft a clear, differentiated joint narrative for buyers and executives.",
+      "Relationship-building and ability to represent the company's interests with partners.",
+      "Autonomy, adaptability in ambiguity, and urgency in a high-growth environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "aab2e7537a9b9c47ffd393d079bb488a66e1b974ae3dde09800764e1edf06c4a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:31.654276+00:00",
+    "response_id": "chatcmpl-ETyQvcN5V6GYIQREh9a4AKENTv63h",
+    "usage": {
+      "prompt_tokens": 2139,
+      "completion_tokens": 779,
+      "total_tokens": 2918,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 893,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 55,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1defda1379202d5297638ef3dfa15ba4afe4fe3ed5e8be48ffb1922cfceb835e",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role with San Francisco and New York City listed as work locations; present residence in either city is not specified.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco",
+        "New York City"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "New York City",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years in B2B marketing",
+        "effective_requirement": "5+ years in B2B marketing.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "469d394de0b7b0026a31ab71416932834d614b34207c854f574d1df94c0f18fa",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "469d394de0b7b0026a31ab71416932834d614b34207c854f574d1df94c0f18fa",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience setting up attribution and reporting partner-sourced and partner-influenced pipeline, using CRM and revenue operations tools.",
+          "source_quote": "experience setting up attribution and reporting partner-sourced and influenced pipeline; comfortable in CRM and revenue operation tools",
+          "verification": "profile",
+          "reason": "Setting up partner-pipeline attribution and reporting is a specific practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Proven experience running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated pipeline.",
+          "after": "Experience running joint go-to-market with technology or ISV partners, cloud providers, or system integrators.",
+          "reason": "Partner GTM is observable from partner marketing titles; pipeline generation is a quantified outcome rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Hands-on full-funnel campaign experience across webinars, events, ABM, content, and digital.",
+          "after": "Hands-on full-funnel campaign marketing experience.",
+          "reason": "Campaign experience is observable; requiring every channel listed is overly conjunctive."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "1a0cf3e5ed2aa279007a6fd2366f009b871f6d1d61b2c8cfeffb013591c4ee51",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "26a00c2622a438f7c8da509a75ee63daaa05e990832248a30ffeebf10e31c155",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California",
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years in B2B marketing",
+      "effective_requirement": "5+ years in B2B marketing.",
+      "kind": "mandatory"
+    }
+  ]
+}

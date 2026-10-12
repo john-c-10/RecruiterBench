@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "role_id": "e0954fa2-af4c-4927-b590-8762155c588e",
+  "snapshot_sha256": "fcec526f7c49f0f376932d313754589e85fb8898c344f5ee70617eaf5ee35877",
+  "input_sha256": "6555ac75463863544c045bcfe23b754945850b2f6509d56729c1e09c524f1ed9",
+  "rubric_sha256": "7e42c7fa8a496de25cdd06a7a8ed66511f2d13b10e197c18a5a9319e2a8224bc",
+  "rubric": {
+    "role_summary": "Senior engineer responsible for the design, development, testing, and integration of in-space propulsion systems for satellites, including propulsion-system trades and cross-disciplinary technical leadership.",
+    "search_query": "Find candidates for this role:\nSenior engineer responsible for the design, development, testing, and integration of in-space propulsion systems for satellites, including propulsion-system trades and cross-disciplinary technical leadership.\nMandatory professional qualifications:\n- Bachelor's degree in Aerospace, Mechanical, Space Systems, or Electrical Engineering, or an equivalent Engineering or Applied Physics degree.\n- 5 years of experience identifying, designing, developing and/or building satellite or RCS propulsion solutions.\nPreferred, not mandatory:\n- 10 years of experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion.\n- Systems-level experience deriving propulsion requirements for various satellite applications.\n- Experience managing external suppliers and internal development efforts in parallel.\n- Physics-based component design experience for performance and manufacturability.\n- Advanced degree in a relevant engineering discipline.\n- Experience incorporating test or operational data into thruster continuous improvement efforts.\n- Experience throughout the whole product lifecycle, balancing design, analytical performance, manufacturing, operation, and business constraints.\n- Team and/or software project management experience.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Seattle, Washington area (onsite; metadata lists Kent, Washington). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor's degree in Aerospace, Mechanical, Space Systems, or Electrical Engineering, or an equivalent Engineering or Applied Physics degree.",
+        "source_quote": "Bachelor's degree in Aerospace, Mechanical, Space Systems, or Electrical Engineering, or an equivalent Engineering or Applied Physics degree.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "5 years of experience identifying, designing, developing and/or building satellite or RCS propulsion solutions.",
+        "source_quote": "5 years experience identifying, designing, developing and/or building satellite or RCS propulsion solutions",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "10 years of experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion.",
+        "source_quote": "10 years experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Systems-level experience deriving propulsion requirements for various satellite applications.",
+        "source_quote": "Systems level experience deriving propulsion requirements for various satellite applications",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience managing external suppliers and internal development efforts in parallel.",
+        "source_quote": "Experience managing external suppliers and internal development efforts in parallel",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Physics-based component design experience for performance and manufacturability.",
+        "source_quote": "Physics based component design for performance and manufacturability experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Advanced degree in a relevant engineering discipline.",
+        "source_quote": "Advanced degree in relevant engineering discipline",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience incorporating test or operational data into thruster continuous improvement efforts.",
+        "source_quote": "Demonstrated experience incorporating test or operational data into thruster continuous improvement efforts",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience throughout the whole product lifecycle, balancing design, analytical performance, manufacturing, operation, and business constraints.",
+        "source_quote": "Experience throughout whole product lifecycle, managing the balance between design, analytical performance, manufacturing, operation and business constraints",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Team and/or software project management experience.",
+        "source_quote": "Team and/or software project management experience",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is onsite in the greater Seattle, Washington area, and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Kent, Washington",
+        "OnSite",
+        "This position is located onsite in the greater Seattle WA area.",
+        "Relocation assistance if applicable"
+      ]
+    },
+    "soft_requirements": [
+      "Highly motivated."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "fcec526f7c49f0f376932d313754589e85fb8898c344f5ee70617eaf5ee35877",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:05.938244+00:00",
+    "response_id": "chatcmpl-ETyRQwXfKcR4ci3MChFCewqXS8squ",
+    "usage": {
+      "prompt_tokens": 2607,
+      "completion_tokens": 1123,
+      "total_tokens": 3730,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1361,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 29,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "7bcdfe2626130fbac5322a18fe78b33c11c976a9fdbffe61ba444c631a0bd5e4",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite in the greater Seattle, Washington area; the job metadata lists Kent, Washington. Relocation assistance is available if applicable, and current residence in the area is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Seattle, Washington area (onsite; metadata lists Kent, Washington)"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Kent, Washington",
+        "OnSite",
+        "This position is located onsite in the greater Seattle WA area.",
+        "Relocation assistance if applicable"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "5 years experience identifying, designing, developing and/or building satellite or RCS propulsion solutions",
+        "effective_requirement": "5 years of experience identifying, designing, developing and/or building satellite or RCS propulsion solutions.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "P1",
+        "source_quote": "10 years experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion",
+        "effective_requirement": "10 years of experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "6fbc12f40bee15ad3c84a2995f84cfa7dec342b8075f1bc96dd9b5622193f8b1",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Must be a U.S. citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required U.S. Department of State authorizations.",
+          "source_quote": "applicants must be a U.S. citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d800590d22d6297f6e219ee3f07c30a3414689de85ccc112a3ceb2cab5e9205d",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d800590d22d6297f6e219ee3f07c30a3414689de85ccc112a3ceb2cab5e9205d",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "5158a7aeb3ff1fccba65d63ed906e7b7359ef6808e4c590c707616c08322190b",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "Greater Seattle, Washington area (onsite; metadata lists Kent, Washington)"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Seattle, Washington area (onsite; metadata lists Kent, Washington). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "5 years experience identifying, designing, developing and/or building satellite or RCS propulsion solutions",
+      "effective_requirement": "5 years of experience identifying, designing, developing and/or building satellite or RCS propulsion solutions.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P1",
+      "source_quote": "10 years experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion",
+      "effective_requirement": "10 years of experience with satellite and/or RCS propulsion systems, including electric and chemical propulsion.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

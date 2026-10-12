@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9cc9d2ac-4478-442a-a2b6-9b3deca9efd4",
+  "snapshot_sha256": "651ce6465007e53dfb57b399d757e1f2978331ea9a82d22bc357cf73dcd70200",
+  "input_sha256": "07428623c06879b7213ae4f8a945eb2882478bc1051242e476c5ed17cfaf2ee3",
+  "rubric_sha256": "d5f8860a81ddeeeae1b26d067a96b201110a388b1e7b371c238a9c987ec9dc9b",
+  "rubric": {
+    "role_summary": "Experienced or senior full-stack individual contributor building and owning product features across frontend and backend for a hospitality marketplace.",
+    "search_query": "Find candidates for this role:\nExperienced or senior full-stack individual contributor building and owning product features across frontend and backend for a hospitality marketplace.\nMandatory professional qualifications:\n- Professional software development experience building product features.\n- Have experience contributing to both frontend and backend development, even if stronger in one.\n- Have experience with React/Next.js or a comparable modern frontend stack, as well as building APIs and working with data using Node.js or a comparable backend stack.\n- Experience with SQL databases such as PostgreSQL.\nPreferred, not mandatory:\n- Experience with React Native.\n- Experience working on a B2C product, marketplace, mobile application, booking or payment journey.\n- Previous experience working remotely.\n- Comfortable working in English in a professional environment.\n- Have shipped and owned meaningful product features in a professional environment; no exact number of years or specific degree is required.\n- Have good knowledge of SQL and PostgreSQL.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Paris region, France; Elsewhere in France. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition. Explicit work-attendance terms (city labels use the area interpretation above): If you are based in the Paris region, you will work in a hybrid setup, with three days per week at our Paris office.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Professional software development experience building product features.",
+        "source_quote": "Have already shipped and owned meaningful product features in a professional environment. We care more about the scope you have handled than an exact number of years or a specific degree.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Have experience contributing to both frontend and backend development, even if stronger in one.",
+        "source_quote": "Have real experience contributing to both frontend and backend development, even if one side is currently stronger.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Have experience with React/Next.js or a comparable modern frontend stack, as well as building APIs and working with data using Node.js or a comparable backend stack.",
+        "source_quote": "Have solid experience with React/Next.js or a comparable modern frontend stack, as well as building APIs and working with data using Node.js or a comparable backend stack.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience with SQL databases such as PostgreSQL.",
+        "source_quote": "Have good knowledge of SQL and PostgreSQL.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with React Native.",
+        "source_quote": "Experience with React Native.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience working on a B2C product, marketplace, mobile application, booking or payment journey.",
+        "source_quote": "Experience working on a B2C product, marketplace, mobile application, booking or payment journey.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Previous experience working remotely.",
+        "source_quote": "Previous experience working remotely.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Comfortable working in English in a professional environment.",
+        "source_quote": "Comfortable working in English in a professional environment.",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P5",
+        "requirement": "Have shipped and owned meaningful product features in a professional environment; no exact number of years or specific degree is required.",
+        "source_quote": "Have already shipped and owned meaningful product features in a professional environment. We care more about the scope you have handled than an exact number of years or a specific degree.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Have good knowledge of SQL and PostgreSQL.",
+        "source_quote": "Have good knowledge of SQL and PostgreSQL.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: France (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "France"
+      ],
+      "remote_scope": "France",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "This position is open to candidates based anywhere in France, with two possible working arrangements:",
+        "If you are based in the Paris region, you will work in a hybrid setup, with three days per week at our Paris office.",
+        "If you are based elsewhere in France, you can work fully remotely and will join us in Paris for three consecutive days each month (Wednesday to Friday during the first week of the month)."
+      ]
+    },
+    "soft_requirements": [
+      "Able to take an ambiguous problem through to a reliable production release while making pragmatic technical and product trade-offs.",
+      "Cares about code quality, testing, maintainability, production reliability, delivery and user impact.",
+      "Communicates clearly, collaborates without ego and works closely with Product and Design.",
+      "Is autonomous and reliable in a distributed team and knows when to seek context, feedback or support."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "651ce6465007e53dfb57b399d757e1f2978331ea9a82d22bc357cf73dcd70200",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:52.245682+00:00",
+    "response_id": "chatcmpl-ETyV37T3Q3DmBDgDJv81fjVd9WsFZ",
+    "usage": {
+      "prompt_tokens": 3153,
+      "completion_tokens": 1065,
+      "total_tokens": 4218,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1907,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 67,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "062994ab5682e0e14aa29f3450c253ec472275bfbafcd53da6c598a53dd54a7e",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Open to candidates based anywhere in France. Paris-region candidates work hybrid, three days per week at the Paris office. Candidates elsewhere in France may work fully remotely but join the team in Paris for three consecutive days each month, Wednesday through Friday during the first week.",
+      "workplace_type": "mixed",
+      "allowed_locations": [
+        "Paris region, France",
+        "Elsewhere in France"
+      ],
+      "remote_scope": "Fully remote work from elsewhere in France, with three consecutive days in Paris each month.",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "This position is open to candidates based anywhere in France, with two possible working arrangements:",
+        "If you are based in the Paris region, you will work in a hybrid setup, with three days per week at our Paris office.",
+        "If you are based elsewhere in France, you can work fully remotely and will join us in Paris for three consecutive days each month (Wednesday to Friday during the first week of the month)."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Have already shipped and owned meaningful product features in a professional environment. We care more about the scope you have handled than an exact number of years or a specific degree.",
+        "effective_requirement": "Have shipped and owned meaningful product features in a professional environment; no exact number of years or specific degree is required.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "322b91c07258bbbead3708064ef80c211178f7ef020b19a98fe42c54500cc4ba",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "322b91c07258bbbead3708064ef80c211178f7ef020b19a98fe42c54500cc4ba",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Have shipped and owned meaningful product features in a professional environment; no exact number of years or specific degree is required.",
+          "after": "Professional software development experience building product features.",
+          "reason": "Professional development is observable; meaningful ownership is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Have good knowledge of SQL and PostgreSQL.",
+          "after": "Experience with SQL databases such as PostgreSQL.",
+          "reason": "SQL is commonly listed; the quality qualifier and specific engine are dropped."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P5",
+        "M4": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d8d7d5595bccfeb4a866d8789e1b1d1dc3cdb66d96a9e7b7a151147a237b5624",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "e79d64f2557d11725ecbe3386deb97752b23ee783e597a243d2092596156d13e",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Open to candidates anywhere in France.",
+      "previous_allowed_locations": [
+        "Paris region, France",
+        "Elsewhere in France"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Paris region, France; Elsewhere in France. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition. Explicit work-attendance terms (city labels use the area interpretation above): If you are based in the Paris region, you will work in a hybrid setup, with three days per week at our Paris office.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Have already shipped and owned meaningful product features in a professional environment. We care more about the scope you have handled than an exact number of years or a specific degree.",
+      "effective_requirement": "Professional software development experience building product features.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P5",
+      "source_quote": "Have already shipped and owned meaningful product features in a professional environment. We care more about the scope you have handled than an exact number of years or a specific degree.",
+      "effective_requirement": "Have shipped and owned meaningful product features in a professional environment; no exact number of years or specific degree is required.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

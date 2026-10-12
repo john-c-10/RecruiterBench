@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "role_id": "42b96880-0b5b-4bbf-b151-de9bdb7b79ee",
+  "snapshot_sha256": "71a86a48c4378d67bca812f9de9b6c976d2984f119cc48edd0c0ab80142c7f77",
+  "input_sha256": "f98e503d9d115e1a8c9702979a8c09ed503b528b9841c8fa4096e0549368e0c7",
+  "rubric_sha256": "6f978acdedc92ba316c6b72c31ae2cb7cefed5d8c6d98fa80441d4932d8507d1",
+  "rubric": {
+    "role_summary": "Onsite quality assurance management role at a fluid dairy processing plant, overseeing food safety and quality programs, SQF implementation, laboratory operations, and a team of seven QA technicians.",
+    "search_query": "Find candidates for this role:\nOnsite quality assurance management role at a fluid dairy processing plant, overseeing food safety and quality programs, SQF implementation, laboratory operations, and a team of seven QA technicians.\nMandatory professional qualifications:\n- Demonstrated success leading and managing people in a team environment.\n- Demonstrated responsibility for food safety and quality.\n- Knowledge of food microbiology, food chemistry, or dairy standards.\n- Working knowledge of HACCP and GFSI-compliant programs.\n- BS in Food Science, Microbiology, or a related field AND 3 or more years of quality assurance experience in a food processing environment; OR an equivalent combination of education and experience sufficient to perform the job's essential duties.\nPreferred, not mandatory:\n- Knowledge of food microbiology, chemistry, dairy standards, and CIP sanitation.\n- Strong computer skills with Microsoft Office suite, Google suite, and ERP.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Petaluma, CA, United States area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Demonstrated success leading and managing people in a team environment.",
+        "source_quote": "Demonstrated success in leading and managing people in a team environment",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Demonstrated responsibility for food safety and quality.",
+        "source_quote": "Demonstrated responsibility for food safety and quality.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Knowledge of food microbiology, food chemistry, or dairy standards.",
+        "source_quote": "Knowledge of food microbiology, chemistry, dairy standards and CIP sanitation.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Working knowledge of HACCP and GFSI-compliant programs.",
+        "source_quote": "Working knowledge of HACCP and GFSI compliant programs",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "BS in Food Science, Microbiology, or a related field AND 3 or more years of quality assurance experience in a food processing environment; OR an equivalent combination of education and experience sufficient to perform the job's essential duties.",
+        "source_quote": "Bachelor’s degree (BS) in Food Science, Microbiology, or related field and 3 or more years of quality assurance experience in a food processing environment - OR - an equivalent combination of education and experience sufficient to successfully perform the essential duties of the job as defined above.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Knowledge of food microbiology, chemistry, dairy standards, and CIP sanitation.",
+        "source_quote": "Knowledge of food microbiology, chemistry, dairy standards and CIP sanitation.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Strong computer skills with Microsoft Office suite, Google suite, and ERP.",
+        "source_quote": "Strong computer skills (Microsoft Office suite, Google suite, ERP).",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Petaluma, CA, United States area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Petaluma, CA, United States area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Clover Lakeville Plant",
+        "OnSite",
+        "Petaluma"
+      ]
+    },
+    "soft_requirements": [
+      "Strong analytical and problem-solving abilities.",
+      "Excellent oral and written communication and interpersonal skills."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "71a86a48c4378d67bca812f9de9b6c976d2984f119cc48edd0c0ab80142c7f77",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:48.765114+00:00",
+    "response_id": "chatcmpl-ETyU440Kx6Rfrv8wb8uVY90htlrUG",
+    "usage": {
+      "prompt_tokens": 2259,
+      "completion_tokens": 957,
+      "total_tokens": 3216,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1013,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 47,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "5511a1b0544d8e197c97c38613cfc430661df94a048b3d2bb2cce94de6156591",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work at the Clover Lakeville Plant; present residence near the plant is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Clover Lakeville Plant"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Clover Lakeville Plant",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M8",
+        "source_quote": "Bachelor’s degree (BS) in Food Science, Microbiology, or related field and 3 or more years of quality assurance experience in a food processing environment - OR - an equivalent combination of education and experience sufficient to successfully perform the essential duties of the job as defined above.",
+        "effective_requirement": "BS in Food Science, Microbiology, or a related field AND 3 or more years of quality assurance experience in a food processing environment; OR an equivalent combination of education and experience sufficient to perform the job's essential duties.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "02b51caedf87df33ab2924b925d6ffac1aaf8567b22d0d29442ec31acc7dc734",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Able to perform moderate physical labor, including walking, climbing steps and ladders, lifting 50 lbs, and pushing and pulling 200 lbs.",
+          "source_quote": "Perform moderate physical labor on the job to include walking, climbing steps and ladders, lifting 50lbs, pushing and pulling 200lbs.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Shift flexibility for a company operating 24/7.",
+          "source_quote": "Must be shift flexible – company is operational 24/7",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M8": "M6"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "e764a0a90471e1b3a0db8083fa8e78da2a1f2ba186898e5fc8622552c32874f4",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Strong computer skills with Microsoft Office suite, Google suite, and ERP.",
+          "source_quote": "Strong computer skills (Microsoft Office suite, Google suite, ERP).",
+          "verification": "profile",
+          "reason": "Office/ERP proficiency rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Knowledge of food microbiology, chemistry, dairy standards, and CIP sanitation.",
+          "after": "Knowledge of food microbiology, food chemistry, or dairy standards.",
+          "reason": "Domain knowledge implied by food QA; requiring every item including CIP is unrealistic."
+        }
+      ],
+      "criterion_id_map": {
+        "M6": "M5"
+      },
+      "demoted_preference_ids": {
+        "M3": "P1",
+        "M5": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "db4bcd2759cefa8bcbc35a3dc191191320ea44ad9e28981b461d9bb70b58c238",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "c094a3740dcd69e9bae9bc6118011c68c67749a679641f5a9e6101cdb6838ac8",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Petaluma, CA, United States area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Petaluma, CA, United States area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M5",
+      "source_quote": "Bachelor’s degree (BS) in Food Science, Microbiology, or related field and 3 or more years of quality assurance experience in a food processing environment - OR - an equivalent combination of education and experience sufficient to successfully perform the essential duties of the job as defined above.",
+      "effective_requirement": "BS in Food Science, Microbiology, or a related field AND 3 or more years of quality assurance experience in a food processing environment; OR an equivalent combination of education and experience sufficient to perform the job's essential duties.",
+      "kind": "mandatory"
+    }
+  ]
+}

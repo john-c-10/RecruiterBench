@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "role_id": "a6edcb8b-7f45-4f0d-825b-2f9798e46c1e",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/steyngroup/a6edcb8b-7f45-4f0d-825b-2f9798e46c1e",
+    "board_url": "https://jobs.ashbyhq.com/steyngroup",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/steyngroup",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "a6edcb8b-7f45-4f0d-825b-2f9798e46c1e",
+    "title": "Head of Food & Beverage - Louma Country Hotel",
+    "department": "Louma Country Hotel",
+    "team": "Louma Country Hotel",
+    "employmentType": "FullTime",
+    "location": "Louma Country Hotel",
+    "secondaryLocations": [],
+    "publishedAt": "2026-07-15T09:16:02.699+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "postalCode": "DT6 6DF",
+        "addressRegion": "Dorset",
+        "streetAddress": "Champernhayes Lane, Wooten Fitzpaine",
+        "addressCountry": "United Kingdom",
+        "addressLocality": "Bridport"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/steyngroup/a6edcb8b-7f45-4f0d-825b-2f9798e46c1e",
+    "applyUrl": "https://jobs.ashbyhq.com/steyngroup/a6edcb8b-7f45-4f0d-825b-2f9798e46c1e/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Us</strong><br />Louma Country Hotel is a unique destination committed to delivering exceptional culinary and hospitality experiences rooted in our Farm-to-Fork ethos. We pride ourselves on creating unforgettable moments for our guests through outstanding food, beverage, and immersive experiences.</p><p style=\"min-height:1.5em\"><strong>The Role</strong><br />We are seeking a dynamic and experienced <strong>Head of</strong> <strong>Food &amp; Beverage </strong>to lead our service team and oversee the planning and delivery of market-leading culinary and beverage offerings. This role is pivotal in ensuring guest satisfaction, operational excellence, and commercial success across daily operations, bespoke events, and experiential activities.</p><p style=\"min-height:1.5em\"><strong>Key Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Oversee all Food and Beverage operations, ensuring best-practice hospitality standards.</p></li><li><p style=\"min-height:1.5em\">Develop and implement SOPs and training programs for service excellence.</p></li><li><p style=\"min-height:1.5em\">Manage budgets (OPEX &amp; CAPEX), financial compliance, and monthly reporting.</p></li><li><p style=\"min-height:1.5em\">Drive revenue through upselling and optimising profitability.</p></li><li><p style=\"min-height:1.5em\">Ensure compliance with health, safety, and food standards (HACCP, FSA).</p></li><li><p style=\"min-height:1.5em\">Collaborate with Head Chef and Front-of-House teams on menus and service.</p></li><li><p style=\"min-height:1.5em\">Maintain stock control, procurement, and CRM system efficiency.</p></li><li><p style=\"min-height:1.5em\">Support marketing initiatives for events and experiences.</p></li><li><p style=\"min-height:1.5em\">Lead recruitment, onboarding, and continuous staff development.</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Proven experience in F&amp;B management within hospitality or luxury settings.</p></li><li><p style=\"min-height:1.5em\">Strong knowledge of CRM and POS systems.</p></li><li><p style=\"min-height:1.5em\">Personal Alcohol License and Level 3 Food Hygiene certification.</p></li><li><p style=\"min-height:1.5em\">HACCP, First Aid at Work, Fire Marshall, Manual Handling certifications.</p></li><li><p style=\"min-height:1.5em\">WSET Level 2 or equivalent beverage knowledge.</p></li><li><p style=\"min-height:1.5em\">Excellent leadership, communication, and organisational skills.</p></li></ul><p style=\"min-height:1.5em\"><strong>What We Offer</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Competitive salary and benefits package.</p></li><li><p style=\"min-height:1.5em\">Opportunity to shape and enhance a premium hospitality experience.</p></li><li><p style=\"min-height:1.5em\">A vibrant, collaborative environment in a stunning retreat setting.</p></li></ul><p style=\"min-height:1.5em\"></p>",
+    "descriptionPlain": "About Us\nLouma Country Hotel is a unique destination committed to delivering exceptional culinary and hospitality experiences rooted in our Farm-to-Fork ethos. We pride ourselves on creating unforgettable moments for our guests through outstanding food, beverage, and immersive experiences.\n\nThe Role\nWe are seeking a dynamic and experienced Head of Food & Beverage to lead our service team and oversee the planning and delivery of market-leading culinary and beverage offerings. This role is pivotal in ensuring guest satisfaction, operational excellence, and commercial success across daily operations, bespoke events, and experiential activities.\n\nKey Responsibilities\n\n - Oversee all Food and Beverage operations, ensuring best-practice hospitality standards.\n\n - Develop and implement SOPs and training programs for service excellence.\n\n - Manage budgets (OPEX & CAPEX), financial compliance, and monthly reporting.\n\n - Drive revenue through upselling and optimising profitability.\n\n - Ensure compliance with health, safety, and food standards (HACCP, FSA).\n\n - Collaborate with Head Chef and Front-of-House teams on menus and service.\n\n - Maintain stock control, procurement, and CRM system efficiency.\n\n - Support marketing initiatives for events and experiences.\n\n - Lead recruitment, onboarding, and continuous staff development.\n\nRequirements\n\n - Proven experience in F&B management within hospitality or luxury settings.\n\n - Strong knowledge of CRM and POS systems.\n\n - Personal Alcohol License and Level 3 Food Hygiene certification.\n\n - HACCP, First Aid at Work, Fire Marshall, Manual Handling certifications.\n\n - WSET Level 2 or equivalent beverage knowledge.\n\n - Excellent leadership, communication, and organisational skills.\n\nWhat We Offer\n\n - Competitive salary and benefits package.\n\n - Opportunity to shape and enhance a premium hospitality experience.\n\n - A vibrant, collaborative environment in a stunning retreat setting.\n\n"
+  }
+}

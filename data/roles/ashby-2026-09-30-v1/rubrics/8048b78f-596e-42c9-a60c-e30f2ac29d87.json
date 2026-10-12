@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "role_id": "8048b78f-596e-42c9-a60c-e30f2ac29d87",
+  "snapshot_sha256": "84cc871f383d96c49e48d37407a2fc7d100c9d799253023cad6e80d3e371fc12",
+  "input_sha256": "a78db2f82ffb7941047ed39e2700130c105528ddfca435e7f59e82875eca05f0",
+  "rubric_sha256": "4b2d40d7356f146981ab850baca6a88f2c5b08bcafe5779b7f51cdc01e560881",
+  "rubric": {
+    "role_summary": "On-site Berlin CFO role leading financial architecture, capital structure, financing, M&A, controls, modeling, and the finance organization for a growing industrial-materials trading and distribution business.",
+    "search_query": "Find candidates for this role:\nOn-site Berlin CFO role leading financial architecture, capital structure, financing, M&A, controls, modeling, and the finance organization for a growing industrial-materials trading and distribution business.\nMandatory professional qualifications:\n- Strong background in accounting firms, investment banking, or private equity.\n- Hands-on company-building or scale-up experience.\n- Experience with equity, debt, or M&A transactions.\n- Accounting and financial controls expertise.\n- Financial modeling skills.\n- Professional background from Germany, France, or the UK.\nPreferred, not mandatory:\n- Transaction services background within accounting firms.\n- Private equity background in growth equity, infrastructure, or industrials.\n- Experience in working-capital-intensive or transaction-heavy businesses.\n- Hands-on company-building or scale-up experience with exposure to acquisitions.\n- Proven track record across equity, debt, and M&A transactions.\n- Ability to design and evolve capital structures.\n- Deep understanding of accounting, controls, and risk frameworks.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Strong background in accounting firms, investment banking, or private equity.",
+        "source_quote": "Strong background in accounting firms (transaction services preferred), investment banking, or private equity (growth equity, infrastructure, industrials preferred).",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on company-building or scale-up experience.",
+        "source_quote": "Hands-on experience in company building or scale-ups with exposure to acquisitions.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience with equity, debt, or M&A transactions.",
+        "source_quote": "Proven track record across equity, debt, and M&A transactions.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Accounting and financial controls expertise.",
+        "source_quote": "Deep understanding of accounting, controls, and risk frameworks.",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Financial modeling skills.",
+        "source_quote": "Excellent financial modeling skills.",
+        "verification": "profile"
+      },
+      {
+        "id": "M6",
+        "requirement": "Professional background from Germany, France, or the UK.",
+        "source_quote": "Background from Germany, France, or the UK.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Transaction services background within accounting firms.",
+        "source_quote": "transaction services preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Private equity background in growth equity, infrastructure, or industrials.",
+        "source_quote": "growth equity, infrastructure, industrials preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience in working-capital-intensive or transaction-heavy businesses.",
+        "source_quote": "Experience in working-capital-intensive or transaction-heavy businesses is a strong plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Hands-on company-building or scale-up experience with exposure to acquisitions.",
+        "source_quote": "Hands-on experience in company building or scale-ups with exposure to acquisitions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Proven track record across equity, debt, and M&A transactions.",
+        "source_quote": "Proven track record across equity, debt, and M&A transactions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Ability to design and evolve capital structures.",
+        "source_quote": "Demonstrated ability to design and evolve capital structures.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Deep understanding of accounting, controls, and risk frameworks.",
+        "source_quote": "Deep understanding of accounting, controls, and risk frameworks.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Berlin area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Berlin area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Berlin",
+        "The position is on-site in Berlin."
+      ]
+    },
+    "soft_requirements": [
+      "Comfortable operating across cultures and jurisdictions.",
+      "Systems-oriented, operational working style and comfort with ambiguity.",
+      "Strong conviction combined with intellectual honesty.",
+      "Interest in using M&A strategically, developing and scaling a team, and a long-term commitment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "84cc871f383d96c49e48d37407a2fc7d100c9d799253023cad6e80d3e371fc12",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:03.188608+00:00",
+    "response_id": "chatcmpl-ETyVFnXzPGPlvTzMxESDFAjadG4aO",
+    "usage": {
+      "prompt_tokens": 2485,
+      "completion_tokens": 1047,
+      "total_tokens": 3532,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1239,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 59,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "c932f0e8b9ca70be580c486a04d612e3ae473beedddd3e7dacd0909e0b783269",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "The position is on-site in Berlin; current residence in Berlin is not specified.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Berlin"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Berlin",
+        "The position is on-site in Berlin."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "3c544aef99f084caacc00a587b41bf25c76cd69676f78b994b925659f5b4a8f7",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Fluent in English.",
+          "source_quote": "Fluent in English.",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        },
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Fluent in German or French at native or near-native level.",
+          "source_quote": "Fluent in German or French at native or near-native level.",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "781e0077d59242bafc8eabba17693eb3cccfe60522938288041e0fd220dd3a6f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Ability to design and evolve capital structures.",
+          "source_quote": "Demonstrated ability to design and evolve capital structures.",
+          "verification": "profile",
+          "reason": "Capital structure design ability is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Hands-on company-building or scale-up experience with exposure to acquisitions.",
+          "after": "Hands-on company-building or scale-up experience.",
+          "reason": "Scale-up experience is observable; acquisition exposure is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Proven track record across equity, debt, and M&A transactions.",
+          "after": "Experience with equity, debt, or M&A transactions.",
+          "reason": "Transaction experience is implied by IB/PE/CFO roles; all three types are not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Deep understanding of accounting, controls, and risk frameworks.",
+          "after": "Accounting and financial controls expertise.",
+          "reason": "Accounting/controls is implied by finance roles; risk frameworks depth is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M4",
+        "M6": "M5",
+        "M7": "M6"
+      },
+      "demoted_preference_ids": {
+        "M2": "P4",
+        "M3": "P5",
+        "M4": "P6",
+        "M5": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "498beb32added24e3a7a9cb782657ebbc331e514f9ef1ba590c6c9b4b4d07059",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "08038ee82f59f3f874bf7446e24721c87919eea60ca1cead5b0ba3ee58a9bf98",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Berlin area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

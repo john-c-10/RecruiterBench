@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0040a6cb-d40f-443b-a0cd-6bf438562234",
+  "snapshot_sha256": "9fde7414e895f84f223a45700ef628590e36abedc4fd744f942f55bfbfd23680",
+  "input_sha256": "962a29971297b12656c3a9fda770979df65a40349f60164e03947633da1c8127",
+  "rubric_sha256": "d7a0f1e22030c4758bf008a5659fd500614d3b2299593df8b8cc6d08dab394db",
+  "rubric": {
+    "role_summary": "Senior product manager leading voice AI and audio-intelligence products for consumers and telecom operator partners, from product vision through hands-on development and execution.",
+    "search_query": "Find candidates for this role:\nSenior product manager leading voice AI and audio-intelligence products for consumers and telecom operator partners, from product vision through hands-on development and execution.\nMandatory professional qualifications:\n- At least one of: product management experience at a venture-backed startup; founder or early-employee experience at a startup with close involvement in the product; or MBB management consulting experience with demonstrable familiarity with technology.\nPreferred, not mandatory:\n- Technical background through education or professional experience.\n- Experience with AI or voice AI at the model, orchestration, or application layer.\n- Previously launched successful products as a product manager.\n- Has built something independently without an engineer.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Seattle area, Washington. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "At least one of: product management experience at a venture-backed startup; founder or early-employee experience at a startup with close involvement in the product; or MBB management consulting experience with demonstrable familiarity with technology.",
+        "source_quote": "You have at least one of the following experiences: (1) worked in product management at a venture-backed startup, (2) you have been a founder or early employee in a startup and were close to the product or (3) you have been a management consultant (MBB) and can prove that tech is not a new thing to you.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Technical background through education or professional experience.",
+        "source_quote": "You likely have a technical background either by education or professionally.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with AI or voice AI at the model, orchestration, or application layer.",
+        "source_quote": "Experience with AI or voice AI either at the model, orchestration or application layer.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Previously launched successful products as a product manager.",
+        "source_quote": "You have launched successful products before as PM.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Has built something independently without an engineer.",
+        "source_quote": "You can show something you have built yourself without an engineer.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Seattle area, Washington. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater Seattle area, Washington"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Seattle, US",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Sense of urgency in execution and ability to encourage it in others.",
+      "Interest in building AI solutions for everyday communications.",
+      "Comfort with ambiguity, autonomy, and asking for help when needed.",
+      "Curiosity and willingness to learn and experiment quickly.",
+      "Uses AI in their way of working and stays engaged with new technology and AI developments.",
+      "Clear written and spoken communication.",
+      "Ownership, sound judgment about tradeoffs, and commitment to customer trust and quality."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "9fde7414e895f84f223a45700ef628590e36abedc4fd744f942f55bfbfd23680",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:29.100195+00:00",
+    "response_id": "chatcmpl-ETyUiXkHGbgdxc1sPr3PDcciONanU",
+    "usage": {
+      "prompt_tokens": 2943,
+      "completion_tokens": 783,
+      "total_tokens": 3726,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1697,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 59,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ad0414c66fe4d3bde8416107de8569c5bf4a2d9a4b20f6ea6d1172d91311f431",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in Seattle, US; present residence in Seattle is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Seattle, US"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Seattle, US",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "92ff6964ba812fc6d965d88a6aa125a3dd6162ee47fa49c000f6a7e2c0990f77",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "92ff6964ba812fc6d965d88a6aa125a3dd6162ee47fa49c000f6a7e2c0990f77",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "92ff6964ba812fc6d965d88a6aa125a3dd6162ee47fa49c000f6a7e2c0990f77",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "74dfe5df72541bbb4122ae900e1abea360bde512abc9c75fe59e33c1a75f8fde",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Seattle area, Washington"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Seattle area, Washington. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

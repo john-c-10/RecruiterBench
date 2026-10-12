@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "role_id": "751768c6-8d97-4e91-a57d-6b85ce4b5a37",
+  "snapshot_sha256": "07329fcd46e298e95859cfbff3b6d2b158262483901ea4aa88e58a16a726d4c1",
+  "input_sha256": "d94242fbbbebe19951078a32b2ab934ddcaf4b77387689b01d37919aefb2ab3a",
+  "rubric_sha256": "e51fab86409028cbd3a62ea6714fe07bfd8ef9ecfb1d69c4a8646938d44bf06d",
+  "rubric": {
+    "role_summary": "Senior product engineer building talent acquisition and HR software, owning substantial product areas and delivering features end-to-end across the stack.",
+    "search_query": "Find candidates for this role:\nSenior product engineer building talent acquisition and HR software, owning substantial product areas and delivering features end-to-end across the stack.\nMandatory professional qualifications:\n- Has previously led or taken ownership of projects.\nPreferred, not mandatory:\n- Enjoys working with typed languages.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Has previously led or taken ownership of projects.",
+        "source_quote": "You haven’t led or taken ownership of projects before.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Enjoys working with typed languages.",
+        "source_quote": "a love of typed languages is helpful",
+        "verification": "candidate_confirmation"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote - US",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort tackling different parts of a technology stack and handling product and technical ambiguity.",
+      "Balances speed and quality, seeks feedback, and looks for ways to improve skills and create leverage.",
+      "Collaborates and communicates clearly with stakeholders and other engineers.",
+      "Maintains a project-level perspective rather than getting lost in implementation details."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "07329fcd46e298e95859cfbff3b6d2b158262483901ea4aa88e58a16a726d4c1",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:54:59.305824+00:00",
+    "response_id": "chatcmpl-ETyQNn4FucMjjjeckS5oaHV3h3f1E",
+    "usage": {
+      "prompt_tokens": 6432,
+      "completion_tokens": 741,
+      "total_tokens": 7173,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 5186,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 103,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "01b7a7eb3d25e77572d72151714b709718b29a29e676537207b7e97e6ad558f2",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role labeled US; the posting also lists US cities as secondary locations. It does not require current residence in a particular city.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "US",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote - US",
+        "Remote"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "32aa1cf774e14b383ca83f8a163d9fd8a442911be500fe6dad706724c9d79c91",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Wants a tech lead, staff, or principal engineering role spent mostly on project management or architecture reviews rather than building.",
+          "source_quote": "To you, a tech lead, staff, or principal engineer is someone who spends most of their time project managing or doing architecture reviews.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D2",
+          "requirement": "Needs company-driven process and structure to complete projects.",
+          "source_quote": "You need company-driven process and structure to get your projects across the finish line.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D3",
+          "requirement": "Only wants to do exciting work.",
+          "source_quote": "You only want to do exciting work.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D4",
+          "requirement": "Wants a role centered on mentoring earlier-career engineers.",
+          "source_quote": "You want to mentor earlier-career engineers.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c253fb093d4257d208e25167f022a1949a4a21dcda2e734a897d24e29fe568aa",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c253fb093d4257d208e25167f022a1949a4a21dcda2e734a897d24e29fe568aa",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "b2c6799eb013004fc8fcf1bfa4fa5f60ec6bfe4dfda0ebb2eac3e8d863d2f2d5",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

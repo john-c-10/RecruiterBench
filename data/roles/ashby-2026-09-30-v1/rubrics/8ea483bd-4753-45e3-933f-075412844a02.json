@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "role_id": "8ea483bd-4753-45e3-933f-075412844a02",
+  "snapshot_sha256": "3ecde6d4a2cc34e12670e3b0f0ae7e65a2c122f5a89ad7fcfced7fd04b45d6ab",
+  "input_sha256": "0c1487a152abefd46c0e5eca6359529b0912cce80be6afbf1879c02f7856c86e",
+  "rubric_sha256": "0b266ecb55e806484aae0d80f56d4a95920ba5e0767376699e4be326ac2c83e2",
+  "rubric": {
+    "role_summary": "Forward Deployed Engineer for federal and national security customers, responsible for technical deployments, field integrations, production troubleshooting, and translating customer needs into engineering priorities.",
+    "search_query": "Find candidates for this role:\nForward Deployed Engineer for federal and national security customers, responsible for technical deployments, field integrations, production troubleshooting, and translating customer needs into engineering priorities.\nMandatory professional qualifications:\n- 2+ years of experience in a software engineering or forward deployed engineering role.\n- Hands-on coding experience.\n- Experience engaging directly with customers on technical requirements.\nPreferred, not mandatory:\n- Active U.S. Top Secret security clearance.\n- Active TS/SCI clearance.\n- Prior military service, government civilian experience, or work involving communications, signals, cyber, or intelligence.\n- Hands-on technical experience with significant customer-facing responsibilities.\n- Background in mobile networks, telecom, networking infrastructure, or cybersecurity.\n- Experience as an early engineer or operator at a high-growth startup.\n- Experience teaching, mentoring, or onboarding technical teammates.\n- Track record of taking field-driven feature work into a core product roadmap.\n- Technical competency across coding, debugging networking issues, and reasoning about systems-level tradeoffs.\n- Experience engaging directly with customers to scope technical requirements and deliver against them end to end.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Arlington, VA / Washington, DC area; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "2+ years of experience in a software engineering or forward deployed engineering role.",
+        "source_quote": "2+ years of experience in a software engineering or forward deployed engineering role",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on coding experience.",
+        "source_quote": "Demonstrated technical competency across multiple domains—a “Swiss army knife” profile who can credibly code, debug networking issues, reason about systems-level tradeoffs, and learn quickly",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience engaging directly with customers on technical requirements.",
+        "source_quote": "Demonstrated ability to engage directly with customers to scope technical requirements and deliver against them end to end",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Active U.S. Top Secret security clearance.",
+        "source_quote": "active TS strongly preferred",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P2",
+        "requirement": "Active TS/SCI clearance.",
+        "source_quote": "Active TS/SCI clearance",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P3",
+        "requirement": "Prior military service, government civilian experience, or work involving communications, signals, cyber, or intelligence.",
+        "source_quote": "Prior military service, government civilian experience, or time in roles involving communications, signals, cyber, or intelligence",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Hands-on technical experience with significant customer-facing responsibilities.",
+        "source_quote": "Experience in a hands-on technical role with significant customer facing responsibilities—for example, a former FDE in a high growth startup, a startup engineer who carried customer deployments, or a defense tech deployment engineer (Palantir, Anduril, Shield AI, etc.)",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Background in mobile networks, telecom, networking infrastructure, or cybersecurity.",
+        "source_quote": "Background in mobile networks, telecom, networking infrastructure, or cybersecurity",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience as an early engineer or operator at a high-growth startup.",
+        "source_quote": "Experience as an early engineer or operator at a high-growth startup—comfort with the ambiguity, pace, and missing infrastructure that comes with sub-100-person companies",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience teaching, mentoring, or onboarding technical teammates.",
+        "source_quote": "Experience teaching, mentoring, or onboarding technical teammates",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Track record of taking field-driven feature work into a core product roadmap.",
+        "source_quote": "Track record of taking field-driven feature work into a core product roadmap",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Technical competency across coding, debugging networking issues, and reasoning about systems-level tradeoffs.",
+        "source_quote": "Demonstrated technical competency across multiple domains—a “Swiss army knife” profile who can credibly code, debug networking issues, reason about systems-level tradeoffs, and learn quickly",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Experience engaging directly with customers to scope technical requirements and deliver against them end to end.",
+        "source_quote": "Demonstrated ability to engage directly with customers to scope technical requirements and deliver against them end to end",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is hybrid in Arlington, VA / Washington, DC (or New York), and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Arlington, VA",
+        "Hybrid",
+        "Washington, DC or New York-based or willing to relocate"
+      ]
+    },
+    "soft_requirements": [
+      "Ability to scope ambiguous problems, sequence delivery, and prioritize without explicit instruction.",
+      "Written and verbal communication across senior customer briefings, engineering tickets, and customer working sessions.",
+      "Ownership, resourcefulness, and willingness to handle unglamorous delivery work.",
+      "Ability to learn quickly and adapt to startup ambiguity."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "3ecde6d4a2cc34e12670e3b0f0ae7e65a2c122f5a89ad7fcfced7fd04b45d6ab",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:40.553514+00:00",
+    "response_id": "chatcmpl-ETyUtMdmb6DEUdR2Q3VmnBP575XdG",
+    "usage": {
+      "prompt_tokens": 3122,
+      "completion_tokens": 1035,
+      "total_tokens": 4157,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1876,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 41,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "d4e572bfe8aa36628405bc0fac058bf054c735d08897409ef29ec526f5e0d675",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role listed in Arlington, VA; applicants must be Washington, DC- or New York-based or willing to relocate. The posting does not specify a remote option or require current residence in either city.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Arlington, VA / Washington, DC area",
+        "New York, NY"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Arlington, VA",
+        "Hybrid",
+        "Washington, DC or New York-based or willing to relocate"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "2+ years of experience in a software engineering or forward deployed engineering role",
+        "effective_requirement": "2+ years of experience in a software engineering or forward deployed engineering role.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "5bb89dcf4ef9bee04da5f1b2f4173cf50d33d4e5b158042dcf648e6dcc36e10d",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "U.S. citizenship and eligibility for a U.S. Top Secret security clearance.",
+          "source_quote": "U.S. citizenship and eligibility for a U.S. Top Secret security clearance (active TS strongly preferred)",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Willingness to travel up to 50% to customer sites, military installations, and partner locations.",
+          "source_quote": "Willingness to travel up to 50% to customer sites, military installations, and partner locations",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "ab0d1b8eea8b6276f8e132b97f918a1b0f12f4939ce0f40ae864768c104018bb",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Technical competency across coding, debugging networking issues, and reasoning about systems-level tradeoffs.",
+          "after": "Hands-on coding experience.",
+          "reason": "Coding is implied by engineering titles; networking debugging and systems reasoning are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Experience engaging directly with customers to scope technical requirements and deliver against them end to end.",
+          "after": "Experience engaging directly with customers on technical requirements.",
+          "reason": "Customer-facing technical work is observable from FDE/solutions titles; end-to-end delivery detail is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P9",
+        "M3": "P10"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "f98d4cd56313e17557446b36d878fabf3f04a3a77d2bd5db3020cf66943df0e1",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "1d2a9a4d23d8c58bff93f0ea8e1615264da6b322fb4f5cb7e6756fd3cccc233e",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "Arlington, VA / Washington, DC area",
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Arlington, VA / Washington, DC area; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "2+ years of experience in a software engineering or forward deployed engineering role",
+      "effective_requirement": "2+ years of experience in a software engineering or forward deployed engineering role.",
+      "kind": "mandatory"
+    }
+  ]
+}

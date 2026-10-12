@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9fcedb9d-8cf3-498e-a22f-acbfa39ebbb1",
+  "snapshot_sha256": "0525735de37ae7c22c9eadaf6d75e9498b0e0955127e53d58f3fb0b750eb04a5",
+  "input_sha256": "d9a72b6a340906fc9da92aa81e7bbec6a32b6d30339ce1f18e226b487a1dffa1",
+  "rubric_sha256": "037c345318b64c2c03468b58ff5125f7730e385ec288af000e4815d63c57183a",
+  "rubric": {
+    "role_summary": "iOS engineer leading development of native sponsorship experiences for creators and audiences, contributing to product direction and providing code review, mentorship, and technical architecture.",
+    "search_query": "Find candidates for this role:\niOS engineer leading development of native sponsorship experiences for creators and audiences, contributing to product direction and providing code review, mentorship, and technical architecture.\nMandatory professional qualifications:\n- At least 3+ years of software engineering experience.\n- Experience shipping native iOS apps to the App Store.\nPreferred, not mandatory:\n- Experience with both SwiftUI and UIKit.\n- Experience at a fast-growing startup or working on a high-performing growth team.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "At least 3+ years of software engineering experience.",
+        "source_quote": "At least 3+ years of software engineering experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience shipping native iOS apps to the App Store.",
+        "source_quote": "Experience shipping high quality, native iOS apps to the App Store.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with both SwiftUI and UIKit.",
+        "source_quote": "Bonus for both SwiftUI and UIKit.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience at a fast-growing startup or working on a high-performing growth team.",
+        "source_quote": "Experience at a fast-growing startup or working on a high-performing growth team is not required, but is a plus.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York",
+        "San Francisco (HQ)",
+        "Remote",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Independence, autonomy, and ownership of work.",
+      "Maintaining high standards on production systems and taking pride in elegant product experiences.",
+      "Enjoying collaboration with diverse colleagues.",
+      "Belief in Substack’s mission.",
+      "Interest in working across the tech stack, prototyping, and product-mindedness."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "0525735de37ae7c22c9eadaf6d75e9498b0e0955127e53d58f3fb0b750eb04a5",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:30.701997+00:00",
+    "response_id": "chatcmpl-ETyQtOHLJWwo95lb9r36cXvDGj3c0",
+    "usage": {
+      "prompt_tokens": 2334,
+      "completion_tokens": 715,
+      "total_tokens": 3049,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1088,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 70,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "3d6f22ac298450e8f9f7e71044ddb4e3d1265d8d3f697c00fcffbd3ccd763a25",
+    "resolved_ambiguities": [
+      "The Remote location option does not state its geographic eligibility or how it relates to the Hybrid workplace designation."
+    ],
+    "resolution": "Remote candidates must be in the New York or San Francisco general area.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "The posting lists New York and San Francisco office locations, a Remote option, and a Hybrid workplace type. It does not specify the remote option's geographic eligibility or require current residence in either office city.",
+      "workplace_type": "mixed",
+      "allowed_locations": [
+        "New York",
+        "San Francisco, California",
+        "Remote (geographic scope unspecified)"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York",
+        "San Francisco (HQ)",
+        "Remote",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "At least 3+ years of software engineering experience.",
+        "effective_requirement": "At least 3+ years of software engineering experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "dropped_location_options": [
+      "Remote (geographic scope unspecified)"
+    ],
+    "dropped_location_note": "Dropped non-geographic location options: Remote (geographic scope unspecified). Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
+    "observability": {
+      "parent_rubric_sha256": "3c0cabcbc5eed7fec18a19c17e711cee5c0c1a1c5c3d1f3be127af4495a1a8de",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "3c0cabcbc5eed7fec18a19c17e711cee5c0c1a1c5c3d1f3be127af4495a1a8de",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "3c0cabcbc5eed7fec18a19c17e711cee5c0c1a1c5c3d1f3be127af4495a1a8de",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2ed85b6f2ef95805111e74675d82c1f44ce2a4848576219b5e6e44b09a352d84",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote is listed alongside the New York and San Francisco offices of a U.S. company.",
+      "previous_allowed_locations": [
+        "New York metropolitan area",
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "At least 3+ years of software engineering experience.",
+      "effective_requirement": "At least 3+ years of software engineering experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

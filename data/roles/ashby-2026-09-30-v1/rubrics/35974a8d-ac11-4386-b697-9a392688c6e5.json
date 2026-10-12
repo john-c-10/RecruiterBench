@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "role_id": "35974a8d-ac11-4386-b697-9a392688c6e5",
+  "snapshot_sha256": "549aedbc2b549f3031c0aa6175140c4f114841a723682eb8e60d3f1d397f1df2",
+  "input_sha256": "1aeaebc49116e35c918b3b4ffc1ddb670b8faa885c520d2975452e5f34c0b22e",
+  "rubric_sha256": "e1c21f921701441abf3dba4ef38c3bf47934e011b0529421fcfb3a211f789949",
+  "rubric": {
+    "role_summary": "Entrepreneur-in-residence role leading client projects, contributing to internal AI initiatives and early-stage AI products, and exploring a potential new business.",
+    "search_query": "Find candidates for this role:\nEntrepreneur-in-residence role leading client projects, contributing to internal AI initiatives and early-stage AI products, and exploring a potential new business.\nMandatory professional qualifications:\n- Background in engineering, product, or an industry domain.\nPreferred, not mandatory:\n- Coding or architecture experience.\n- Experience with ML, LLMs, or data science.\n- Experience as a second-time or later founder.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States; Brazil. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Background in engineering, product, or an industry domain.",
+        "source_quote": "Background in engineering, product, or an industry domain",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Coding or architecture experience.",
+        "source_quote": "Solid coding or architecture experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with ML, LLMs, or data science.",
+        "source_quote": "Experience with ML, LLMs, or data science",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience as a second-time or later founder.",
+        "source_quote": "Experience as a 2nd+ time founder",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States or Brazil (remote). This is the role's single location rule: candidates must currently be located in one of these places. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States",
+        "Brazil"
+      ],
+      "remote_scope": "United States OR Brazil",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "United States",
+        "Location: United States (flexible) or Brazil",
+        "Location Type: Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Entrepreneurial interest in starting a company and actively experimenting toward it.",
+      "Curiosity, fast learning, systems thinking, clear communication, emotional intelligence, and low ego.",
+      "Deep understanding of or excitement about AI-first thinking.",
+      "Optional strong product sense or design chops, and a personal brand or strong professional network."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "549aedbc2b549f3031c0aa6175140c4f114841a723682eb8e60d3f1d397f1df2",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:52.238253+00:00",
+    "response_id": "chatcmpl-ETyV8O6IIzYnUNmIG5LBofJ3gg24e",
+    "usage": {
+      "prompt_tokens": 2447,
+      "completion_tokens": 609,
+      "total_tokens": 3056,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1201,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 61,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "db564bc659d8d2fa7d8d42a5c8286c08ab45b3dea9452b3fd9ab9d2aa9ae354a",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role in the United States (flexible) or Brazil; current residence is not explicitly required.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States",
+        "Brazil"
+      ],
+      "remote_scope": "United States or Brazil",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "United States",
+        "Location: United States (flexible) or Brazil",
+        "Location Type: Remote"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "91b9a9500825a87a9466e89b9a726a4401a4b892774407729be481241f2e77c1",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "91b9a9500825a87a9466e89b9a726a4401a4b892774407729be481241f2e77c1",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "91b9a9500825a87a9466e89b9a726a4401a4b892774407729be481241f2e77c1",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "475428bbd3b5d17d5c4d026168c46b4e9885e9d4dd38a59884a0c85c16aa6ca8",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote in the United States or Brazil.",
+      "previous_allowed_locations": [
+        "United States",
+        "Brazil"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States; Brazil. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

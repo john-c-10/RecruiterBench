@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "role_id": "3e4ade1a-54e5-4776-9c83-e936b34ccd0f",
+  "snapshot_sha256": "ef1536a4ba9fc04e775f999044108a3b2355291511d08367e191cfdc8c70cdfb",
+  "input_sha256": "b7aa645226195c79b2a7987531da3ded9efef62ef154bbad246ed62ab2658cde",
+  "rubric_sha256": "e4c598add9b86c5e18be4bd02c17bbbd920e8d162fe45ff2f48886e2cc4d30e5",
+  "rubric": {
+    "role_summary": "Senior individual contributor in live-game product marketing, responsible for go-to-market campaigns for Brawl Stars updates, seasons, and IP collaborations, coordinating creative production and cross-functional launches.",
+    "search_query": "Find candidates for this role:\nSenior individual contributor in live-game product marketing, responsible for go-to-market campaigns for Brawl Stars updates, seasons, and IP collaborations, coordinating creative production and cross-functional launches.\nMandatory professional qualifications:\n- 5+ years of product marketing experience.\nPreferred, not mandatory:\n- Product marketing experience in gaming and/or entertainment.\n- Understanding of social platforms and content culture, especially among younger audiences.\n- Understanding of the game/product development process and lifecycle management.\n- Experience working across a broad range of marketing functions and understanding how they work together to deliver growth; brand, performance, influencers, and esports are examples.\n- Analytical skills to assess market data, campaign performance, and product-specific performance.\n- Experience giving detailed feedback and communicating direction between internal teams and external partners while respecting schedules.\n- Project management skills for multiple parallel launches and stakeholder coordination.\n- Experience using AI in day-to-day work.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Helsinki, Finland area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of product marketing experience.",
+        "source_quote": "5+ years of experience in product marketing",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Product marketing experience in gaming and/or entertainment.",
+        "source_quote": "ideally in the gaming industry and/or entertainment",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Understanding of social platforms and content culture, especially among younger audiences.",
+        "source_quote": "A solid understanding of social platforms and content culture, especially among younger audiences.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Understanding of the game/product development process and lifecycle management.",
+        "source_quote": "A deep understanding of the game/product development process and lifecycle management.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience working across a broad range of marketing functions and understanding how they work together to deliver growth; brand, performance, influencers, and esports are examples.",
+        "source_quote": "Experience working with a broad range of marketing functions (e.g. brand, performance, influencers, and esports) with a good understanding of how they can work together to deliver growth.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Analytical skills to assess market data, campaign performance, and product-specific performance.",
+        "source_quote": "Strong analytical skills to assess market data and product-specific performance.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience giving detailed feedback and communicating direction between internal teams and external partners while respecting schedules.",
+        "source_quote": "Experience giving detailed feedback and communicating direction between both internal teams and external partners while respecting schedules.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Project management skills for multiple parallel launches and stakeholder coordination.",
+        "source_quote": "Excellent project management skills – you can run multiple launches in parallel, keep stakeholders aligned, and still care about the details.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience using AI in day-to-day work.",
+        "source_quote": "You've found ways to use it in your day-to-day work",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: the role is onsite in Helsinki, Finland, and relocation is provided for hires from any location.",
+      "workplace_type": "onsite",
+      "allowed_locations": [],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Helsinki",
+        "OnSite",
+        "Located in or willing to relocate to Helsinki",
+        "This role is based in our Helsinki Studio.",
+        "No matter where you’re moving from, our dedicated mobility team and partners will support you throughout your move."
+      ]
+    },
+    "soft_requirements": [
+      "Creative instincts and ability to give clear, actionable creative feedback.",
+      "Self-starter approach, experimentation, and eagerness to learn.",
+      "Growth mindset, passion for marketing, innovation, and risk-taking.",
+      "Teamwork and excellent communication style."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "ef1536a4ba9fc04e775f999044108a3b2355291511d08367e191cfdc8c70cdfb",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:03.848862+00:00",
+    "response_id": "chatcmpl-ETyUIEPb2qkSxWEX1gfYVDNm8FLZb",
+    "usage": {
+      "prompt_tokens": 3769,
+      "completion_tokens": 835,
+      "total_tokens": 4604,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 2523,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 56,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "bd08bfff8bcc2dd44e9aef6477373b5be65b58a39b214c9de20be3ea021a5b1d",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite role based in the Helsinki Studio; candidates may already be located in Helsinki or be willing to relocate there. Relocation support is offered.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Helsinki, Finland (including candidates willing to relocate)"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Helsinki",
+        "OnSite",
+        "Located in or willing to relocate to Helsinki",
+        "This role is based in our Helsinki Studio.",
+        "No matter where you’re moving from, our dedicated mobility team and partners will support you throughout your move."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years of experience in product marketing",
+        "effective_requirement": "5+ years of product marketing experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "ca3786c7d74cb04c8790eb2ee79d9ffd3c2699c91a3a0c17fcb8d97aebb1b012",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Ability to communicate in English.",
+          "source_quote": "You are a team player and communicate excellently in English.",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "e2770e02db97e548563823f34d4efb28a2281a954dae0956396b8c85576ed458",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Understanding of social platforms and content culture, especially among younger audiences.",
+          "source_quote": "A solid understanding of social platforms and content culture, especially among younger audiences.",
+          "verification": "profile",
+          "reason": "Cultural understanding is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Understanding of the game/product development process and lifecycle management.",
+          "source_quote": "A deep understanding of the game/product development process and lifecycle management.",
+          "verification": "profile",
+          "reason": "Process understanding is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience working across a broad range of marketing functions and understanding how they work together to deliver growth; brand, performance, influencers, and esports are examples.",
+          "source_quote": "Experience working with a broad range of marketing functions (e.g. brand, performance, influencers, and esports) with a good understanding of how they can work together to deliver growth.",
+          "verification": "profile",
+          "reason": "Breadth across marketing functions is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Analytical skills to assess market data, campaign performance, and product-specific performance.",
+          "source_quote": "Strong analytical skills to assess market data and product-specific performance.",
+          "verification": "profile",
+          "reason": "Analytical ability is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience giving detailed feedback and communicating direction between internal teams and external partners while respecting schedules.",
+          "source_quote": "Experience giving detailed feedback and communicating direction between both internal teams and external partners while respecting schedules.",
+          "verification": "profile",
+          "reason": "Communication/feedback practice is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Project management skills for multiple parallel launches and stakeholder coordination.",
+          "source_quote": "Excellent project management skills – you can run multiple launches in parallel, keep stakeholders aligned, and still care about the details.",
+          "verification": "profile",
+          "reason": "Generic project-management skill is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Experience using AI in day-to-day work.",
+          "source_quote": "You've found ways to use it in your day-to-day work",
+          "verification": "profile",
+          "reason": "Day-to-day AI use is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4",
+        "M5": "P5",
+        "M6": "P6",
+        "M7": "P7",
+        "M8": "P8"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "54782a73f042e01383f14bc0fdf8c1bd340da76b2f46701d9c5c88d70c365857",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "b0c88febacf65c74d1e8217acc970015b09f5ab93b621643acc13db68edea578",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "global",
+      "reason": "Relocation is offered to international hires, so the role realistically hires from any location.",
+      "previous_allowed_locations": [
+        "Greater Helsinki, Finland area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Helsinki, Finland area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years of experience in product marketing",
+      "effective_requirement": "5+ years of product marketing experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

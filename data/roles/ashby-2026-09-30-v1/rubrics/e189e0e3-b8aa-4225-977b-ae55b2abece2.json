@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "role_id": "e189e0e3-b8aa-4225-977b-ae55b2abece2",
+  "snapshot_sha256": "06ffa51500d28a62c2afd3657679c3bc7ed2a22ed6d535876f67e01cdcbf5052",
+  "input_sha256": "c3f1a26bcc0e4aed6aa8ba7ee6b1dbf8eb22895fcb93371b006769eed49ccc9b",
+  "rubric_sha256": "f87a7f66045c384688fd7f2e2941dc8f9fcfbb9f951fb9eb276c9bf694eef0a3",
+  "rubric": {
+    "role_summary": "Senior manufacturing engineering role introducing capital tooling and automated assembly equipment for production. Own equipment projects from RFQ and vendor selection through acceptance testing, ramp, and handoff to production.",
+    "search_query": "Find candidates for this role:\nSenior manufacturing engineering role introducing capital tooling and automated assembly equipment for production. Own equipment projects from RFQ and vendor selection through acceptance testing, ramp, and handoff to production.\nMandatory professional qualifications:\n- 5+ years in manufacturing engineering in a mass production environment.\n- Experience taking products from low-rate prototype builds to high-volume production.\n- Direct experience with robotic or automated assembly systems, either as the product being built or as the production method.\n- Working proficiency with SolidWorks, CATIA, or equivalent 3D CAD.\nPreferred, not mandatory:\n- Familiarity with lean manufacturing, Six Sigma, or similar methodologies.\n- Experience working within a formal quality management system such as AS9100, ISO 9001, or IATF 16949, including participation in PFMEAs, control plans, and PPAP or FAI submissions.\n- 5+ years in manufacturing engineering, with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment.\n- Experience managing external line builders and tooling suppliers against cost, schedule, and performance.\n- Working proficiency with SolidWorks, CATIA, or equivalent 3D CAD sufficient to evaluate vendor designs and provide DFM and DFA input in cross-functional product development.\n- Experience defining and hitting OEE, cycle time, and yield targets.\n- Experience building business cases and ROI analyses to justify capital equipment decisions to senior leadership.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years in manufacturing engineering in a mass production environment.",
+        "source_quote": "5 to 8 years in manufacturing engineering with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience taking products from low-rate prototype builds to high-volume production.",
+        "source_quote": "Proven experience taking products from low-rate prototype builds to high-volume production",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Direct experience with robotic or automated assembly systems, either as the product being built or as the production method.",
+        "source_quote": "Direct experience with robotic or automated assembly systems, either as the product being built or as the production method on the floor",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Working proficiency with SolidWorks, CATIA, or equivalent 3D CAD.",
+        "source_quote": "Working proficiency with 3D CAD (SolidWorks, CATIA, or equivalent) sufficient to evaluate vendor designs and provide DFM and DFA input in cross-functional product development",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Familiarity with lean manufacturing, Six Sigma, or similar methodologies.",
+        "source_quote": "Familiarity with lean manufacturing, Six Sigma, or similar methodologies",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience working within a formal quality management system such as AS9100, ISO 9001, or IATF 16949, including participation in PFMEAs, control plans, and PPAP or FAI submissions.",
+        "source_quote": "Experience working within a formal quality management system (AS9100, ISO 9001, or IATF 16949), including participation in PFMEAs, control plans, and PPAP or FAI submissions",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "5+ years in manufacturing engineering, with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment.",
+        "source_quote": "5 to 8 years in manufacturing engineering with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience managing external line builders and tooling suppliers against cost, schedule, and performance.",
+        "source_quote": "Strong vendor management skills, with experience holding external line builders and tooling suppliers accountable to cost, schedule, and performance",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Working proficiency with SolidWorks, CATIA, or equivalent 3D CAD sufficient to evaluate vendor designs and provide DFM and DFA input in cross-functional product development.",
+        "source_quote": "Working proficiency with 3D CAD (SolidWorks, CATIA, or equivalent) sufficient to evaluate vendor designs and provide DFM and DFA input in cross-functional product development",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience defining and hitting OEE, cycle time, and yield targets.",
+        "source_quote": "Experience defining and hitting OEE, cycle time, and yield targets",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience building business cases and ROI analyses to justify capital equipment decisions to senior leadership.",
+        "source_quote": "Comfortable building business cases and ROI analyses to justify capital equipment decisions to senior leadership",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Emeryville, CA",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Bias toward action and scrappy problem solving without sacrificing rigor."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "06ffa51500d28a62c2afd3657679c3bc7ed2a22ed6d535876f67e01cdcbf5052",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:31.679628+00:00",
+    "response_id": "chatcmpl-ETyRqWi6ZeVtf18gc70HuocDKGIKv",
+    "usage": {
+      "prompt_tokens": 2342,
+      "completion_tokens": 1075,
+      "total_tokens": 3417,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1096,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "dffba6de3c90f94bce27306f748008d44a26b61d2d05c33f35a6993adbc7c809",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Emeryville, CA; present residence in Emeryville is not specified.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Emeryville, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Emeryville, CA",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5 to 8 years in manufacturing engineering with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment",
+        "effective_requirement": "5+ years in manufacturing engineering, with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "c9dfd79b79d8d713b31ccca15b504199cdce8f14d23cc400fbd553ad2785c65f",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c9dfd79b79d8d713b31ccca15b504199cdce8f14d23cc400fbd553ad2785c65f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience managing external line builders and tooling suppliers against cost, schedule, and performance.",
+          "source_quote": "Strong vendor management skills, with experience holding external line builders and tooling suppliers accountable to cost, schedule, and performance",
+          "verification": "profile",
+          "reason": "Supplier management against targets is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience defining and hitting OEE, cycle time, and yield targets.",
+          "source_quote": "Experience defining and hitting OEE, cycle time, and yield targets",
+          "verification": "profile",
+          "reason": "Hitting OEE/yield targets is a performance claim."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Experience building business cases and ROI analyses to justify capital equipment decisions to senior leadership.",
+          "source_quote": "Comfortable building business cases and ROI analyses to justify capital equipment decisions to senior leadership",
+          "verification": "profile",
+          "reason": "Business case/ROI practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "5+ years in manufacturing engineering, with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment.",
+          "after": "5+ years in manufacturing engineering in a mass production environment.",
+          "reason": "Years in mass-production mfg engineering are observable; RFQ-to-SOP track record is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Working proficiency with SolidWorks, CATIA, or equivalent 3D CAD sufficient to evaluate vendor designs and provide DFM and DFA input in cross-functional product development.",
+          "after": "Working proficiency with SolidWorks, CATIA, or equivalent 3D CAD.",
+          "reason": "CAD is commonly listed; DFM/DFA input context is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M1": "P3",
+        "M4": "P4",
+        "M5": "P5",
+        "M6": "P6",
+        "M7": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "6de2ab3cced86e4db934c310d7689d6e126a37b3a500302404f93f8fbd4a1365",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "9cfcd0fd7963ddcb8b0f0cfc51236cfb7b1426c8daf65919040e87fc2c841349",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5 to 8 years in manufacturing engineering with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment",
+      "effective_requirement": "5+ years in manufacturing engineering in a mass production environment.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P3",
+      "source_quote": "5 to 8 years in manufacturing engineering with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment",
+      "effective_requirement": "5+ years in manufacturing engineering, with a track record of taking production equipment from RFQ through FAT, SAT, and SOP in a mass production environment.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

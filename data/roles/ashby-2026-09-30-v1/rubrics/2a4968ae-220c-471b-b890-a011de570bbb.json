@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "role_id": "2a4968ae-220c-471b-b890-a011de570bbb",
+  "snapshot_sha256": "664f7c68d3a4223f3eebba673757cce32ffa52abb5e59468e3263a449415de8f",
+  "input_sha256": "0b14b2fe697393eed5dc7cbf8b97d2d413ff8725857bcec8eed12947bf0db8e5",
+  "rubric_sha256": "282903e3e41f46dd12989f5aba53111374016214e9fbb835d1c188751c0f2089",
+  "rubric": {
+    "role_summary": "Backend engineer building and scaling procure-to-pay systems for invoices, payments, reconciliation, and financial-event processing.",
+    "search_query": "Find candidates for this role:\nBackend engineer building and scaling procure-to-pay systems for invoices, payments, reconciliation, and financial-event processing.\nMandatory professional qualifications:\n- 3+ years of backend engineering experience.\n- Experience designing and maintaining data-intensive distributed systems.\n- Deep knowledge of Python or a comparable backend language, and SQL.\n- System design and debugging skills.\nPreferred, not mandatory:\n- Backend engineering experience in fintech, payments, or transactional systems.\n- Experience with accounts payable, payments, or reconciliation systems.\n- Familiarity with accounting or ERP integrations, such as NetSuite, QuickBooks, or Oracle.\n- Background in compliance-heavy or regulated domains.\n- Exposure to AI-driven automation.\n- Experience designing and maintaining data-intensive distributed systems with strong consistency and auditability requirements.\n- Experience building event-driven systems and scaling high-volume, low-latency architectures.\n- Ability to translate business rules into software logic while working with finance, risk, and product stakeholders.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of backend engineering experience.",
+        "source_quote": "3+ years of backend engineering experience, ideally in fintech, payments, or transactional systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience designing and maintaining data-intensive distributed systems.",
+        "source_quote": "Proven experience designing and maintaining data-intensive distributed systems with strong consistency and auditability requirements.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Deep knowledge of Python or a comparable backend language, and SQL.",
+        "source_quote": "Deep knowledge of Python (or a comparable backend language) and SQL.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "System design and debugging skills.",
+        "source_quote": "Strong system design and debugging skills; you care about correctness as much as speed.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Backend engineering experience in fintech, payments, or transactional systems.",
+        "source_quote": "3+ years of backend engineering experience, ideally in fintech, payments, or transactional systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with accounts payable, payments, or reconciliation systems.",
+        "source_quote": "Experience with accounts payable, payments, or reconciliation systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Familiarity with accounting or ERP integrations, such as NetSuite, QuickBooks, or Oracle.",
+        "source_quote": "Familiarity with accounting or ERP integrations (e.g. NetSuite, QuickBooks, Oracle).",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Background in compliance-heavy or regulated domains.",
+        "source_quote": "Background in compliance-heavy or regulated domains.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Exposure to AI-driven automation.",
+        "source_quote": "Exposure to AI-driven automation or interest in working with AI/ML teams to build intelligent finance workflows.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience designing and maintaining data-intensive distributed systems with strong consistency and auditability requirements.",
+        "source_quote": "Proven experience designing and maintaining data-intensive distributed systems with strong consistency and auditability requirements.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience building event-driven systems and scaling high-volume, low-latency architectures.",
+        "source_quote": "Comfort building event-driven systems and scaling high-volume, low-latency architectures.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Ability to translate business rules into software logic while working with finance, risk, and product stakeholders.",
+        "source_quote": "Ability to work closely with finance, risk, and product stakeholders to translate business rules into software logic.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is hybrid in New York City (or San Francisco), and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York, NY (HQ)",
+        "San Francisco, CA",
+        "Hybrid",
+        "Relocation expense coverage to NYC or SF (if needed)"
+      ]
+    },
+    "soft_requirements": [
+      "Cares about correctness as much as speed.",
+      "Works closely with finance, risk, and product stakeholders.",
+      "Passion for building precise, reliable, extensible systems.",
+      "Interest in working with AI/ML teams to build intelligent finance workflows.",
+      "Desire to move quickly while maintaining data accuracy and auditability."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "664f7c68d3a4223f3eebba673757cce32ffa52abb5e59468e3263a449415de8f",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:58.009683+00:00",
+    "response_id": "chatcmpl-ETyTDw3JuMAesCyq8LTj5PwgPIUTv",
+    "usage": {
+      "prompt_tokens": 2720,
+      "completion_tokens": 1116,
+      "total_tokens": 3836,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1474,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 63,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "82fbf356774f0d3a96ba9bc47fe79f4fb4a686255fbb32987e4a0a999a3fbbf8",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role with New York City or San Francisco office locations; relocation expense coverage to either city is available if needed.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York, NY",
+        "San Francisco, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York, NY (HQ)",
+        "San Francisco, CA",
+        "Hybrid",
+        "Relocation expense coverage to NYC or SF (if needed)"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years of backend engineering experience, ideally in fintech, payments, or transactional systems.",
+        "effective_requirement": "3+ years of backend engineering experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "38fcac6b96928f98dcb2a5f653b4efba8fa5dd43250d1b54cc341fe1712eae22",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "38fcac6b96928f98dcb2a5f653b4efba8fa5dd43250d1b54cc341fe1712eae22",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience building event-driven systems and scaling high-volume, low-latency architectures.",
+          "source_quote": "Comfort building event-driven systems and scaling high-volume, low-latency architectures.",
+          "verification": "profile",
+          "reason": "Event-driven and low-latency architecture specifics are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Ability to translate business rules into software logic while working with finance, risk, and product stakeholders.",
+          "source_quote": "Ability to work closely with finance, risk, and product stakeholders to translate business rules into software logic.",
+          "verification": "profile",
+          "reason": "Stakeholder collaboration and business-rule translation are rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Experience designing and maintaining data-intensive distributed systems with strong consistency and auditability requirements.",
+          "after": "Experience designing and maintaining data-intensive distributed systems.",
+          "reason": "Distributed systems work is implied by backend roles at scale; consistency/auditability requirements are rarely stated."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M2": "P6",
+        "M4": "P7",
+        "M6": "P8"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "6343eb1d656a3ad6f8121bc821b8b38e48e84006c1693129351b09767933292c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "01ef991bb1bee7181711d1555e947afade2be317c037df33d159945a10be99c5",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "New York metropolitan area",
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years of backend engineering experience, ideally in fintech, payments, or transactional systems.",
+      "effective_requirement": "3+ years of backend engineering experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

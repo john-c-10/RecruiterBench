@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "b9bea31e-e403-4bab-a4d9-150468333bf0",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/astro-mechanica/b9bea31e-e403-4bab-a4d9-150468333bf0",
+    "board_url": "https://jobs.ashbyhq.com/astro-mechanica",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/astro-mechanica",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "b9bea31e-e403-4bab-a4d9-150468333bf0",
+    "title": "Senior Flight Software Engineer",
+    "department": "Software",
+    "team": "Software",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "secondaryLocations": [],
+    "publishedAt": "2026-09-09T20:46:34.494+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/astro-mechanica/b9bea31e-e403-4bab-a4d9-150468333bf0",
+    "applyUrl": "https://jobs.ashbyhq.com/astro-mechanica/b9bea31e-e403-4bab-a4d9-150468333bf0/application",
+    "descriptionHtml": "<h2><strong>ABOUT US:</strong></h2><p style=\"min-height:1.5em\">Astro Mechanica is a vertically integrated aerospace company developing a scalable technology platform to power critical infrastructure, mission operations, and the future of flight. We apply aerospace engineering and quality standards across our products, delivering high performance, reliability, and efficiency for the most demanding operating environments. Astro Mechanica is backed by leading venture and strategic investors, including Andreessen Horowitz (a16z), Giant Step Capital, United Airlines Ventures, and Voyager Ventures.</p><p style=\"min-height:1.5em\"></p><h2><strong>WHO WE ARE:</strong></h2><p style=\"min-height:1.5em\">We’re a team of passionate engineers dedicated to advancing aerospace. We’re generalists with specialist depth, united by a flat structure and a shared obsession with building things that work well. We move fast, stay pragmatic, and let engineering excellence speak louder than hierarchy.</p><p style=\"min-height:1.5em\"></p><h2><strong>WHO YOU ARE:</strong></h2><p style=\"min-height:1.5em\">Astro Mechanica is seeking a Senior Flight Software Engineer to join our growing team. The ideal candidate is excited to develop software that is used to control and fly our products. You will have the opportunity to help architect the full software stack including application, operating system, networking, and firmware. You will work closely with your peers to define and implement the requirements and overall software scope. Your work at Astro Mechanica will be fast-paced in a dynamic startup environment and will have a direct impact on our mission.</p><p style=\"min-height:1.5em\"></p><h2><strong>WHAT YOU’LL DO:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Develop highly reliable autonomous software systems and the simulations/ infrastructure required to validate them</p></li><li><p style=\"min-height:1.5em\">Own all aspects of software development including design, test, and operations</p></li><li><p style=\"min-height:1.5em\">Work closely with other engineering disciplines to design and develop the overall aircraft systems</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>WHAT WE’RE LOOKING FOR:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience</p></li><li><p style=\"min-height:1.5em\">Experience in C++, Rust, or other systems programming language</p></li><li><p style=\"min-height:1.5em\">Experience building or working with real-time systems or distributed computing systems</p></li><li><p style=\"min-height:1.5em\">Experience working on embedded systems or the Linux kernel</p></li><li><p style=\"min-height:1.5em\">Proven skills in debugging, performance optimization, and unit testing</p></li><li><p style=\"min-height:1.5em\">Basic knowledge in controls, fluid systems, motors, or other physical mechanics</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>PERKS AND BENEFITS:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Comprehensive medical, dental, and vision insurance, including Flexible Spending Accounts (FSA)</p></li><li><p style=\"min-height:1.5em\">401(k) program and transparent stock option plan</p></li><li><p style=\"min-height:1.5em\">Self-managed and flexible time-off policy, including PTO, paid holidays, and sick time</p></li><li><p style=\"min-height:1.5em\">Flexible work environment </p></li><li><p style=\"min-height:1.5em\">Company-funded perks, including weekly team lunches and Astro Mechanica swag</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>ADDITIONAL INFORMATION:</strong></h2><p style=\"min-height:1.5em\">At Astro Mechanica, we highly value in-office work to foster collaboration and strengthen our company culture. We consider working in the office five days a week an essential part of the employee's role.</p><p style=\"min-height:1.5em\">Astro Mechanica is an equal opportunity employer. We proudly recruit and hire a diverse workforce and are committed to creating an inclusive environment for all employees.</p>",
+    "descriptionPlain": "ABOUT US:\n\nAstro Mechanica is a vertically integrated aerospace company developing a scalable technology platform to power critical infrastructure, mission operations, and the future of flight. We apply aerospace engineering and quality standards across our products, delivering high performance, reliability, and efficiency for the most demanding operating environments. Astro Mechanica is backed by leading venture and strategic investors, including Andreessen Horowitz (a16z), Giant Step Capital, United Airlines Ventures, and Voyager Ventures.\n\n\n\n\nWHO WE ARE:\n\nWe’re a team of passionate engineers dedicated to advancing aerospace. We’re generalists with specialist depth, united by a flat structure and a shared obsession with building things that work well. We move fast, stay pragmatic, and let engineering excellence speak louder than hierarchy.\n\n\n\n\nWHO YOU ARE:\n\nAstro Mechanica is seeking a Senior Flight Software Engineer to join our growing team. The ideal candidate is excited to develop software that is used to control and fly our products. You will have the opportunity to help architect the full software stack including application, operating system, networking, and firmware. You will work closely with your peers to define and implement the requirements and overall software scope. Your work at Astro Mechanica will be fast-paced in a dynamic startup environment and will have a direct impact on our mission.\n\n\n\n\nWHAT YOU’LL DO:\n\n - Develop highly reliable autonomous software systems and the simulations/ infrastructure required to validate them\n\n - Own all aspects of software development including design, test, and operations\n\n - Work closely with other engineering disciplines to design and develop the overall aircraft systems\n\n\n\n\nWHAT WE’RE LOOKING FOR:\n\n - Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience\n\n - Experience in C++, Rust, or other systems programming language\n\n - Experience building or working with real-time systems or distributed computing systems\n\n - Experience working on embedded systems or the Linux kernel\n\n - Proven skills in debugging, performance optimization, and unit testing\n\n - Basic knowledge in controls, fluid systems, motors, or other physical mechanics\n\n\n\n\nPERKS AND BENEFITS:\n\n - Comprehensive medical, dental, and vision insurance, including Flexible Spending Accounts (FSA)\n\n - 401(k) program and transparent stock option plan\n\n - Self-managed and flexible time-off policy, including PTO, paid holidays, and sick time\n\n - Flexible work environment \n\n - Company-funded perks, including weekly team lunches and Astro Mechanica swag\n\n\n\n\nADDITIONAL INFORMATION:\n\nAt Astro Mechanica, we highly value in-office work to foster collaboration and strengthen our company culture. We consider working in the office five days a week an essential part of the employee's role.\n\nAstro Mechanica is an equal opportunity employer. We proudly recruit and hire a diverse workforce and are committed to creating an inclusive environment for all employees."
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "role_id": "72f01634-2a85-403a-bd4b-e5dd4ee44899",
+  "snapshot_sha256": "1a37e5ec6ac148b0a0627c9880f6aa927222ef39d988cfb80afc2b319e2f92c9",
+  "input_sha256": "a83be9f1e5ca11caa5b41fb302937df82d367706f4474735569d48515c6b2929",
+  "rubric_sha256": "c64cb451e62c50cac487363089ecc9fb6d2c7ce6b175399c7dbbb462e55329dc",
+  "rubric": {
+    "role_summary": "Computational protein design scientist working at the interface of generative AI and synthetic biology, leading protein design campaigns and connecting model development with experimental validation.",
+    "search_query": "Find candidates for this role:\nComputational protein design scientist working at the interface of generative AI and synthetic biology, leading protein design campaigns and connecting model development with experimental validation.\nMandatory professional qualifications:\n- Experience in computational protein design.\n- Hands-on experience with AI generative modeling.\n- PhD or equivalent industry experience in computational biology, bioinformatics, computer science, biochemistry, structural biology, physics, biophysics, bio/chem engineering, or a related field.\n- Research experience in protein biochemistry using computational expertise.\nPreferred, not mandatory:\n- Experience applying generative AI or other machine learning models in synthetic biology.\n- Experience with homology-based and structural bioinformatics and answering scientific questions using very large databases.\n- Startup experience helping a young biotech grow.\n- Track record of running end-to-end protein design campaigns, using novel computational tools and biochemistry or structural biology knowledge to design proteins for functional requirements and synthetic biology applications.\n- AI generative modeling experience, including both model training and large-scale inference.\n- Experience collaborating with experimental wet-lab teams to achieve protein design objectives.\n- Track record of delivering commercial and/or academic research projects, demonstrated through publications, patents, commercially impactful outcomes, and/or other scientific-community contributions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater London area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Experience in computational protein design.",
+        "source_quote": "You have a proven track record of running protein design campaigns end-to-end, successfully leveraging novel computational tools and knowledge of biochemistry or structural biology to design proteins to functional requirements and applications in synthetic biology.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on experience with AI generative modeling.",
+        "source_quote": "You have AI generative modeling experience, including model training and large scale inference.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "PhD or equivalent industry experience in computational biology, bioinformatics, computer science, biochemistry, structural biology, physics, biophysics, bio/chem engineering, or a related field.",
+        "source_quote": "You have a PhD (or equivalent industry experience) in computational biology, bioinformatics, computer science, biochemistry, structural biology, physics, biophysics, bio/chem engineering, or a related field.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Research experience in protein biochemistry using computational expertise.",
+        "source_quote": "Your research experience was in protein biochemistry using computational expertise.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience applying generative AI or other machine learning models in synthetic biology.",
+        "source_quote": "You have experience leveraging generative AI (or other machine learning models) in synthetic biology applications.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with homology-based and structural bioinformatics and answering scientific questions using very large databases.",
+        "source_quote": "You have experience with homology-based and structural bioinformatics, and are able to answer scientific questions using very large databases.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Startup experience helping a young biotech grow.",
+        "source_quote": "You have worked in startups and helped the company grow.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Track record of running end-to-end protein design campaigns, using novel computational tools and biochemistry or structural biology knowledge to design proteins for functional requirements and synthetic biology applications.",
+        "source_quote": "You have a proven track record of running protein design campaigns end-to-end, successfully leveraging novel computational tools and knowledge of biochemistry or structural biology to design proteins to functional requirements and applications in synthetic biology.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "AI generative modeling experience, including both model training and large-scale inference.",
+        "source_quote": "You have AI generative modeling experience, including model training and large scale inference.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience collaborating with experimental wet-lab teams to achieve protein design objectives.",
+        "source_quote": "You have experience collaborating with experimental (i.e. wet lab) teams to achieve protein design objectives.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Track record of delivering commercial and/or academic research projects, demonstrated through publications, patents, commercially impactful outcomes, and/or other scientific-community contributions.",
+        "source_quote": "You have a proven track record of delivering successful commercial and / or academic research projects, demonstrated through publications, patents, and/or commercially impactful outcomes, as well as other contributions to the scientific community.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater London area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater London area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "London",
+        "Hybrid",
+        "Hybrid working"
+      ]
+    },
+    "soft_requirements": [
+      "Enthusiasm for generative modeling.",
+      "Ability to connect people and communicate complex science to technical and non-technical audiences.",
+      "Motivation to make a positive impact and flexibility in approach.",
+      "Comfort with fast-paced, ambiguous work; interest in improving processes and advocating lab automation."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "1a37e5ec6ac148b0a0627c9880f6aa927222ef39d988cfb80afc2b319e2f92c9",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:59.165757+00:00",
+    "response_id": "chatcmpl-ETySJPzZxmIr07W3XrNpblV9cJ0YR",
+    "usage": {
+      "prompt_tokens": 2591,
+      "completion_tokens": 848,
+      "total_tokens": 3439,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1345,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 34,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "9ceff9275a2a314277e48a5228d60cb8bac3bbc0088250a14940effd55ac9c16",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in London; present residence in London is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "London"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "London",
+        "Hybrid",
+        "Hybrid working"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "c0865c636d737242457e52612d83abfa79eae2fa7e1a513c1db6e46834d7cc00",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c0865c636d737242457e52612d83abfa79eae2fa7e1a513c1db6e46834d7cc00",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience collaborating with experimental wet-lab teams to achieve protein design objectives.",
+          "source_quote": "You have experience collaborating with experimental (i.e. wet lab) teams to achieve protein design objectives.",
+          "verification": "profile",
+          "reason": "Wet-lab collaboration is a working practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Track record of delivering commercial and/or academic research projects, demonstrated through publications, patents, commercially impactful outcomes, and/or other scientific-community contributions.",
+          "source_quote": "You have a proven track record of delivering successful commercial and / or academic research projects, demonstrated through publications, patents, and/or commercially impactful outcomes, as well as other contributions to the scientific community.",
+          "verification": "profile",
+          "reason": "Publications and patents are not among the profile fields."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Track record of running end-to-end protein design campaigns, using novel computational tools and biochemistry or structural biology knowledge to design proteins for functional requirements and synthetic biology applications.",
+          "after": "Experience in computational protein design.",
+          "reason": "Computational protein design work is observable; end-to-end campaign specifics are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "AI generative modeling experience, including both model training and large-scale inference.",
+          "after": "Hands-on experience with AI generative modeling.",
+          "reason": "Generative modeling is often stated; both training and large-scale inference is rarely specified."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P4",
+        "M2": "P5",
+        "M5": "P6",
+        "M6": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "36daf8b6e2507c98916a31781e3e697f4029194aab367949e352ae627344f636",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "85be4f38c46b9bd45dd372f4e9d8721d1584b9789beb07453930050979ee6da7",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater London area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater London area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

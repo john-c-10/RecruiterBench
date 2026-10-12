@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "role_id": "02899bee-0645-44d9-9ab6-15acf945ff68",
+  "snapshot_sha256": "b6bb591792dec4ede73cceef6590195f650aabef72c8fc4b4c4657035f150831",
+  "input_sha256": "c46dc3dbba8c5d031d8d94845608c2196faeaa09f861666a3826d6cb28408234",
+  "rubric_sha256": "2aebb8618efe48427073a83f590ab57966e8caec45a0f17dbe5da268171c1033",
+  "rubric": {
+    "role_summary": "Operations manager to build and run broker-dealer workflows across trade processing, reconciliation, account and cashiering operations, and regulatory support.",
+    "search_query": "Find candidates for this role:\nOperations manager to build and run broker-dealer workflows across trade processing, reconciliation, account and cashiering operations, and regulatory support.\nMandatory professional qualifications:\n- 3+ years of total experience across investment banking, consulting, or fintech startups.\n- Experience at a high-growth fintech or startup, OR experience building an operations function from the ground up.\nPreferred, not mandatory:\n- Prior experience at an introducing broker-dealer or clearing firm.\n- Familiarity with cashiering operations, including money movement approvals, wire approvals, or AML alert monitoring.\n- Working knowledge of the trade lifecycle.\n- Understanding of FINRA/SEC compliance reporting requirements.\n- SIE, Series 4, or Series 53 credentials are listed as nice to have; the posting does not specify whether one or multiple are preferred.\n- Ability to build SOPs and controls where none exist.\n- Comfort using AI or automation tools to reduce manual reconciliation and exception-detection work.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of total experience across investment banking, consulting, or fintech startups.",
+        "source_quote": "3-5 years of total experience across investment banking, consulting, or fintech startups",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience at a high-growth fintech or startup, OR experience building an operations function from the ground up.",
+        "source_quote": "Experience at a high-growth fintech or startup, or building an operations function from the ground up",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Prior experience at an introducing broker-dealer or clearing firm.",
+        "source_quote": "Prior experience at an introducing broker-dealer or clearing firm (e.g., Fidelity NFS, Pershing, Apex)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with cashiering operations, including money movement approvals, wire approvals, or AML alert monitoring.",
+        "source_quote": "Familiarity with cashiering operations: money movement approvals, wire approvals, AML alert monitoring",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Working knowledge of the trade lifecycle.",
+        "source_quote": "Working knowledge of the trade lifecycle",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Understanding of FINRA/SEC compliance reporting requirements.",
+        "source_quote": "Understanding of FINRA/SEC compliance reporting requirements",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "SIE, Series 4, or Series 53 credentials are listed as nice to have; the posting does not specify whether one or multiple are preferred.",
+        "source_quote": "SIE, Series 4, 53",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Ability to build SOPs and controls where none exist.",
+        "source_quote": "Strong process orientation: able to build SOPs and controls where none exist today",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Comfort using AI or automation tools to reduce manual reconciliation and exception-detection work.",
+        "source_quote": "Comfort using AI/automation tools to reduce manual reconciliation and exception-detection work",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "NYC Office",
+        "Hybrid",
+        "NYC office in Union Square"
+      ]
+    },
+    "soft_requirements": [
+      "High attention to detail and comfort operating with ambiguity.",
+      "Comfort partnering across Investment Operations, Compliance/Legal, and Product/Engineering.",
+      "Ability to manage multiple workflows simultaneously in a fast-paced startup environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "b6bb591792dec4ede73cceef6590195f650aabef72c8fc4b4c4657035f150831",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:49.820434+00:00",
+    "response_id": "chatcmpl-ETyT8JBNwSVFZauWkqkHzYsdxvir5",
+    "usage": {
+      "prompt_tokens": 2591,
+      "completion_tokens": 946,
+      "total_tokens": 3537,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1345,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 74,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "435c6bd355c34d64f7f9156f1fd1ec7f973aaa504d8cca1649dfab8139b5348b",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work associated with the NYC office; current NYC residence is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "NYC office"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "NYC Office",
+        "Hybrid",
+        "NYC office in Union Square"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3-5 years of total experience across investment banking, consulting, or fintech startups",
+        "effective_requirement": "3+ years of total experience across investment banking, consulting, or fintech startups.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "05d79c2027aa3c713d124e441044dce8fc82816abbf062d934ae0070601ea41f",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "05d79c2027aa3c713d124e441044dce8fc82816abbf062d934ae0070601ea41f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Ability to build SOPs and controls where none exist.",
+          "source_quote": "Strong process orientation: able to build SOPs and controls where none exist today",
+          "verification": "profile",
+          "reason": "Building SOPs and controls is a specific practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Comfort using AI or automation tools to reduce manual reconciliation and exception-detection work.",
+          "source_quote": "Comfort using AI/automation tools to reduce manual reconciliation and exception-detection work",
+          "verification": "profile",
+          "reason": "Comfort with AI/automation tools is largely unstated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M4": "M2"
+      },
+      "demoted_preference_ids": {
+        "M2": "P6",
+        "M3": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "41fa8c50cc1193d62047dbac00f7d885c0226869d4b7ccd843b10f3bbd0d9337",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "33f0543e1a20263ce2ac455809c9c74c9acd1cdc0a10f5a7b5e802ce9c211a6d",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3-5 years of total experience across investment banking, consulting, or fintech startups",
+      "effective_requirement": "3+ years of total experience across investment banking, consulting, or fintech startups.",
+      "kind": "mandatory"
+    }
+  ]
+}

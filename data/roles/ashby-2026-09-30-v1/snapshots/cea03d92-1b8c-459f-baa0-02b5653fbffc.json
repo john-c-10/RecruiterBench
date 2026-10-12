@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "cea03d92-1b8c-459f-baa0-02b5653fbffc",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/davidenergy/cea03d92-1b8c-459f-baa0-02b5653fbffc",
+    "board_url": "https://jobs.ashbyhq.com/davidenergy",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/davidenergy",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "cea03d92-1b8c-459f-baa0-02b5653fbffc",
+    "title": "Risk Manager",
+    "department": "Retail",
+    "team": "Supply & Risk",
+    "employmentType": "FullTime",
+    "location": "New York City",
+    "secondaryLocations": [],
+    "publishedAt": "2026-08-04T19:41:51.264+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "NY",
+        "addressCountry": "United States",
+        "addressLocality": "New York"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/davidenergy/cea03d92-1b8c-459f-baa0-02b5653fbffc",
+    "applyUrl": "https://jobs.ashbyhq.com/davidenergy/cea03d92-1b8c-459f-baa0-02b5653fbffc/application",
+    "descriptionHtml": "<h2>About David Energy</h2><p style=\"min-height:1.5em\">David Energy is creating a new kind of power company. We offer cheaper and cleaner energy than traditional Retail Electricity Providers (REPs) can, and we do so economically because we can tap into renewable supply (e.g. solar) and controllable capacity (e.g. batteries) anywhere it exists, including \"behind\" customers’ electricity meters. We’re a series A company aiming to run the grid on clean energy 24/7/365.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We’re rapidly scaling our \"Beat the Utility\" product which guarantees small commercial customers that their total electric spend will be less than their incumbent utility. We can make this guarantee because our technology and risk management unlock value that is not available to the utility. We're currently operating in NYC (NYISO Zone J) and scaling toward hundreds of new customer locations per month, with plans to expand to additional zones and ISOs across the Northeast.</p><p style=\"min-height:1.5em\"><br />We are looking for a Risk Manager to lead our risk management function as David Energy enters its next phase of growth. The ideal candidate will use their extensive experience in retail and wholesale power markets to lead establishing a risk management function for a first-of-its-kind business that is redefining the power sector. You will be responsible for executing our risk policy while maximizing value from our controllable capacity (e.g., fleet of distributed batteries).</p><p style=\"min-height:1.5em\"></p><h2>In this role, you will</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Lead David Energy’s risk management</p></li><li><p style=\"min-height:1.5em\">Create a framework for using controllable capacity for risk management</p></li><li><p style=\"min-height:1.5em\">Develop a risk reporting framework for daily position tracking (e.g., energy, capacity, RECs, ancillaries)</p></li><li><p style=\"min-height:1.5em\">Build a world-class risk team as David Energy expands into new markets</p></li><li><p style=\"min-height:1.5em\">Perform stress case analysis on forward positions and evaluate seasonal hedge strategies</p></li><li><p style=\"min-height:1.5em\">Establish risk adders for pricing components (e.g., variable load risk, shaping, balancing costs) and maintain forward cost curves</p></li></ul><h2>We invite you to apply for this role if you have</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Exceptional ability to communicate clearly and precisely</p></li><li><p style=\"min-height:1.5em\">8+ years of work experience in retail energy, energy trading, and energy risk management</p></li><li><p style=\"min-height:1.5em\">Strong working knowledge of energy markets (e.g., NYISO, ERCOT, PJM, ISO-NE)</p></li><li><p style=\"min-height:1.5em\">Strong data analytics skills</p></li><li><p style=\"min-height:1.5em\">Mindset for automation and attention to detail</p></li><li><p style=\"min-height:1.5em\">Ability to deliver in a fast-paced, early-stage startup environment</p></li></ul><h2>You could be an especially great fit if you have</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelor’s degree in a quantitative field (e.g., physics, mathematics, economics)</p></li><li><p style=\"min-height:1.5em\">Proficiency in SQL</p></li></ul><h2>Compensation and Benefits:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Base salary range of $140,000 - $170,000 plus equity, depending on experience</p></li><li><p style=\"min-height:1.5em\">Group medical and dental insurance</p></li><li><p style=\"min-height:1.5em\">Flexible vacation/PTO policy</p></li><li><p style=\"min-height:1.5em\">401(k) plan</p></li><li><p style=\"min-height:1.5em\">Hybrid office culture, with team members remote and working from our office in New York City</p></li></ul>",
+    "descriptionPlain": "ABOUT DAVID ENERGY\n\nDavid Energy is creating a new kind of power company. We offer cheaper and cleaner energy than traditional Retail Electricity Providers (REPs) can, and we do so economically because we can tap into renewable supply (e.g. solar) and controllable capacity (e.g. batteries) anywhere it exists, including \"behind\" customers’ electricity meters. We’re a series A company aiming to run the grid on clean energy 24/7/365.\n\n\n\nWe’re rapidly scaling our \"Beat the Utility\" product which guarantees small commercial customers that their total electric spend will be less than their incumbent utility. We can make this guarantee because our technology and risk management unlock value that is not available to the utility. We're currently operating in NYC (NYISO Zone J) and scaling toward hundreds of new customer locations per month, with plans to expand to additional zones and ISOs across the Northeast.\n\n\nWe are looking for a Risk Manager to lead our risk management function as David Energy enters its next phase of growth. The ideal candidate will use their extensive experience in retail and wholesale power markets to lead establishing a risk management function for a first-of-its-kind business that is redefining the power sector. You will be responsible for executing our risk policy while maximizing value from our controllable capacity (e.g., fleet of distributed batteries).\n\n\n\n\nIN THIS ROLE, YOU WILL\n\n - Lead David Energy’s risk management\n\n - Create a framework for using controllable capacity for risk management\n\n - Develop a risk reporting framework for daily position tracking (e.g., energy, capacity, RECs, ancillaries)\n\n - Build a world-class risk team as David Energy expands into new markets\n\n - Perform stress case analysis on forward positions and evaluate seasonal hedge strategies\n\n - Establish risk adders for pricing components (e.g., variable load risk, shaping, balancing costs) and maintain forward cost curves\n\n\nWE INVITE YOU TO APPLY FOR THIS ROLE IF YOU HAVE\n\n - Exceptional ability to communicate clearly and precisely\n\n - 8+ years of work experience in retail energy, energy trading, and energy risk management\n\n - Strong working knowledge of energy markets (e.g., NYISO, ERCOT, PJM, ISO-NE)\n\n - Strong data analytics skills\n\n - Mindset for automation and attention to detail\n\n - Ability to deliver in a fast-paced, early-stage startup environment\n\n\nYOU COULD BE AN ESPECIALLY GREAT FIT IF YOU HAVE\n\n - Bachelor’s degree in a quantitative field (e.g., physics, mathematics, economics)\n\n - Proficiency in SQL\n\n\nCOMPENSATION AND BENEFITS:\n\n - Base salary range of $140,000 - $170,000 plus equity, depending on experience\n\n - Group medical and dental insurance\n\n - Flexible vacation/PTO policy\n\n - 401(k) plan\n\n - Hybrid office culture, with team members remote and working from our office in New York City"
+  }
+}

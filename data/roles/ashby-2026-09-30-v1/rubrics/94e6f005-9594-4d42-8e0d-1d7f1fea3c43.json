@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "role_id": "94e6f005-9594-4d42-8e0d-1d7f1fea3c43",
+  "snapshot_sha256": "249655f0cef0d43d013b933084ddbc39099c220256bb0f7e7ee2876f90cb15ac",
+  "input_sha256": "ded0dc4f9c91613093308fcd29e5dcde38fd8cad0b664700c9af722ca3d7e0ae",
+  "rubric_sha256": "5abd016ce231da473c0579136471b9000df31bdf1bdd36a7f54352b9c3d09e60",
+  "rubric": {
+    "role_summary": "Senior agronomist translating regenerative arable-farming expertise into farmer-facing digital recommendations and assessments, while reviewing agronomic data and testing product outputs against farm realities.",
+    "search_query": "Find candidates for this role:\nSenior agronomist translating regenerative arable-farming expertise into farmer-facing digital recommendations and assessments, while reviewing agronomic data and testing product outputs against farm realities.\nMandatory professional qualifications:\n- 5+ years in farm management, agronomic advisory, farm business consultancy, or a comparable role carrying responsibility for real decisions on real farms.\n- A solid academic background in agronomy, agricultural sciences, or a related discipline, OR a strong practical track record in its place.\n- Strong hands-on experience in open-field arable systems in temperate Europe.\n- Experience with regenerative or sustainable arable farming.\nPreferred, not mandatory:\n- Experience of the German market.\n- Living in Berlin or being able to attend the Berlin office regularly is advantageous, not mandatory.\n- Deep understanding of regenerative arable farming, including soil health, nutrient management, crop rotations, cover crops, tillage, and reduced-input systems.\n- Hands-on farm economics experience building an investment case alongside a farmer.\n- Experience using farm software.\n- Ability to analyze spreadsheets or performance figures and identify faulty logic.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Berlin, Germany area; EU (remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years in farm management, agronomic advisory, farm business consultancy, or a comparable role carrying responsibility for real decisions on real farms.",
+        "source_quote": "You have 5+ years of experience in farm management, agronomic advisory, farm business consultancy, or a comparable role where you carried responsibility for real decisions on real farms.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "A solid academic background in agronomy, agricultural sciences, or a related discipline, OR a strong practical track record in its place.",
+        "source_quote": "You have a solid academic background in agronomy, agricultural sciences, or a related discipline. A strong practical track record can stand in its place.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Strong hands-on experience in open-field arable systems in temperate Europe.",
+        "source_quote": "You have strong, hands-on experience in open-field arable systems (cereals, oilseeds, root crops) in temperate Europe.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience with regenerative or sustainable arable farming.",
+        "source_quote": "You have a deep understanding of regenerative arable farming, including soil health, nutrient management, crop rotations, cover crops, tillage, and reduced-input systems.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience of the German market.",
+        "source_quote": "Experience of the German market is a strong advantage.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Living in Berlin or being able to attend the Berlin office regularly is advantageous, not mandatory.",
+        "source_quote": "It is advantageous for this role if you live in Berlin or can be present in our office regularly.",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P3",
+        "requirement": "Deep understanding of regenerative arable farming, including soil health, nutrient management, crop rotations, cover crops, tillage, and reduced-input systems.",
+        "source_quote": "You have a deep understanding of regenerative arable farming, including soil health, nutrient management, crop rotations, cover crops, tillage, and reduced-input systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Hands-on farm economics experience building an investment case alongside a farmer.",
+        "source_quote": "You have proven hands-on farm economics experience. You have built an investment case alongside a farmer and know which arguments actually convince, and which don't.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience using farm software.",
+        "source_quote": "You have used farm software",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Ability to analyze spreadsheets or performance figures and identify faulty logic.",
+        "source_quote": "You can find your way around a spreadsheet or a set of performance figures and spot where the logic breaks.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: European Union (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "European Union"
+      ],
+      "remote_scope": "European Union",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Berlin, Germany",
+        "Hybrid",
+        "At Klim, we foster a flexible, hybrid work approach and facilitate remote work (within the EU). It is advantageous for this role if you live in Berlin or can be present in our office regularly."
+      ]
+    },
+    "soft_requirements": [
+      "Practical judgment about what farmers will realistically adopt, without evangelism or greenwashing.",
+      "Interest in technology and its potential and limitations.",
+      "Creativity in improving half-formed ideas.",
+      "Ability to judge which arguments convince farmers."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "249655f0cef0d43d013b933084ddbc39099c220256bb0f7e7ee2876f90cb15ac",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:51.719810+00:00",
+    "response_id": "chatcmpl-ETyU4sBc9gQZs4lPypUVysI08BMGf",
+    "usage": {
+      "prompt_tokens": 2535,
+      "completion_tokens": 1183,
+      "total_tokens": 3718,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1289,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 57,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "aa1775ad3fb7125c54dae34b7d1872a4f9279670eee7ab6de6c44721a101b5a2",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in Berlin or remote work within the EU. Living in Berlin or attending the office regularly is advantageous, not required; present residence in Berlin is not required.",
+      "workplace_type": "mixed",
+      "allowed_locations": [
+        "Berlin, Germany",
+        "EU (remote)"
+      ],
+      "remote_scope": "Within the EU",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Berlin, Germany",
+        "Hybrid",
+        "At Klim, we foster a flexible, hybrid work approach and facilitate remote work (within the EU). It is advantageous for this role if you live in Berlin or can be present in our office regularly."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "You have 5+ years of experience in farm management, agronomic advisory, farm business consultancy, or a comparable role where you carried responsibility for real decisions on real farms.",
+        "effective_requirement": "5+ years in farm management, agronomic advisory, farm business consultancy, or a comparable role carrying responsibility for real decisions on real farms.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "216c3f347c98e07107b2112d58fff8ef01efa56e2359f98391dad08fd7be4896",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Fluent English and fluent German.",
+          "source_quote": "Fluent English and fluent German.",
+          "verification": "profile",
+          "reason": "Spoken/written language ability; languages are not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "8b0c461f97882d7308a42dc6dfbbf869e879f7724b78695ea2bf62057fe310d5",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Hands-on farm economics experience building an investment case alongside a farmer.",
+          "source_quote": "You have proven hands-on farm economics experience. You have built an investment case alongside a farmer and know which arguments actually convince, and which don't.",
+          "verification": "profile",
+          "reason": "Building an investment case with a farmer is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience using farm software.",
+          "source_quote": "You have used farm software",
+          "verification": "profile",
+          "reason": "Farm software use is rarely stated (0.91 strict fail)."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Ability to analyze spreadsheets or performance figures and identify faulty logic.",
+          "source_quote": "You can find your way around a spreadsheet or a set of performance figures and spot where the logic breaks.",
+          "verification": "profile",
+          "reason": "Spreadsheet analysis ability is unstated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Deep understanding of regenerative arable farming, including soil health, nutrient management, crop rotations, cover crops, tillage, and reduced-input systems.",
+          "after": "Experience with regenerative or sustainable arable farming.",
+          "reason": "Regenerative focus can be stated; deep understanding of every practice cannot."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P3",
+        "M5": "P4",
+        "M6": "P5",
+        "M7": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "6108084b2e9685a14be5fee13dae735c7eec2e15e47a2fd20363d4c673065639",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "fe70fc2a3ed98d4781333e7fcb604ee6148c3f843279e89f7a205f7e297f27ca",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote work within the EU is offered; Berlin is only advantageous.",
+      "previous_allowed_locations": [
+        "Greater Berlin, Germany area",
+        "EU (remote)"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Berlin, Germany area; EU (remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "You have 5+ years of experience in farm management, agronomic advisory, farm business consultancy, or a comparable role where you carried responsibility for real decisions on real farms.",
+      "effective_requirement": "5+ years in farm management, agronomic advisory, farm business consultancy, or a comparable role carrying responsibility for real decisions on real farms.",
+      "kind": "mandatory"
+    }
+  ]
+}

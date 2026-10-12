@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c349d594-33a2-49a2-a168-afa8d8226572",
+  "snapshot_sha256": "9848846393112e4b9a79e9c45e91c50c57e8ab6d48c709a8f7de26e8bf8cb7e7",
+  "input_sha256": "ad81943452f74532c03b52eb02ec4e946e83cd4fa35e7742f9c0eceb19741dd7",
+  "rubric_sha256": "41ddc908038ba025200852f03908e0c6ecca3db994f9c0302b1e3116991ee19e",
+  "rubric": {
+    "role_summary": "New-grad or early-career payment operations role supporting customer and bank inquiries, resolving issues across payment rails, and improving operational processes and systems.",
+    "search_query": "Find candidates for this role:\nNew-grad or early-career payment operations role supporting customer and bank inquiries, resolving issues across payment rails, and improving operational processes and systems.\nMandatory professional qualifications:\n- Bachelor’s degree.\n- Lightweight technical skills in SQL, JavaScript, or Python.\nPreferred, not mandatory:\n- Lightweight technical skills in SQL, JavaScript, and Python.\n- Familiarity with NACHA operating rules, wire transfer standards, and payment processing concepts.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s degree.",
+        "source_quote": "Bachelor’s degree",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Lightweight technical skills in SQL, JavaScript, or Python.",
+        "source_quote": "Lightweight technical skills (SQL, Javascript, Python) with an aptitude to learn quickly/use AI",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Lightweight technical skills in SQL, JavaScript, and Python.",
+        "source_quote": "Lightweight technical skills (SQL, Javascript, Python) with an aptitude to learn quickly/use AI",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with NACHA operating rules, wire transfer standards, and payment processing concepts.",
+        "source_quote": "Familiarity with NACHA operating rules, wire transfer standards, and payment processing concepts.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco, CA",
+        "This role reports to the Head of Solutions Engineering and is based in our Presidio office in San Francisco (3+ days/week in-person)."
+      ]
+    },
+    "soft_requirements": [
+      "Aptitude to learn quickly and use AI.",
+      "Strong written and verbal communication with technical and non-technical stakeholders.",
+      "Organization and ability to manage competing priorities in a fast-paced environment.",
+      "Customer empathy, bias for action, and motivation to solve customer problems and improve processes.",
+      "Willingness to build from scratch with minimal oversight."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "9848846393112e4b9a79e9c45e91c50c57e8ab6d48c709a8f7de26e8bf8cb7e7",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:52.556912+00:00",
+    "response_id": "chatcmpl-ETyTDiZvIJhD98WFhVmSlD5VqVEMv",
+    "usage": {
+      "prompt_tokens": 2520,
+      "completion_tokens": 594,
+      "total_tokens": 3114,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1274,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 51,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "cbc20305c76a7565f36a0bc39998eca95b2d23cd0577dc171ba0754d77ef1ae6",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Based in the Presidio office in San Francisco, with 3+ days per week in person. Present residence in San Francisco is not specified.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco, CA",
+        "This role reports to the Head of Solutions Engineering and is based in our Presidio office in San Francisco (3+ days/week in-person)."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "58d066c0be0c0225cc30038ad7e36ba626f13f3a4192c843e0e0ee29ddc3d031",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "58d066c0be0c0225cc30038ad7e36ba626f13f3a4192c843e0e0ee29ddc3d031",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Familiarity with NACHA operating rules, wire transfer standards, and payment processing concepts.",
+          "source_quote": "Familiarity with NACHA operating rules, wire transfer standards, and payment processing concepts.",
+          "verification": "profile",
+          "reason": "NACHA/wire standards familiarity is niche and almost never stated by early-career candidates."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Lightweight technical skills in SQL, JavaScript, and Python.",
+          "after": "Lightweight technical skills in SQL, JavaScript, or Python.",
+          "reason": "Requiring all three languages from early-career profiles is unrealistic; at least one is commonly listed."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P1",
+        "M3": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "4284579110e6867db95d36ef95354031bd3b20de324c59558d76705c7f2bdbf4",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "a66237eef2b859f75a4562632544bd7690c3e40a73da0a0a42ea507b26009bb1",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

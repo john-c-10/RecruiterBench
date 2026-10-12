@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "role_id": "135caf8e-8cdd-47c4-873a-d2fd7569145e",
+  "snapshot_sha256": "5c00ab23b8effc5a2009573c1729d9ee4536994423975e2e8bef3d7dca206956",
+  "input_sha256": "37fa522eb5c1373aac7ef02531b9ae9cc6684efde03762a7a789d18ec8bda410",
+  "rubric_sha256": "10386657c92772d977185d0e129ff8013e188950ac53876febdf2729e50be705",
+  "rubric": {
+    "role_summary": "Product Manager for a legal technology platform for docket research, analytics, and tracking. Leads product initiatives from concept through launch, working with engineering and other teams on features for legal professionals.",
+    "search_query": "Find candidates for this role:\nProduct Manager for a legal technology platform for docket research, analytics, and tracking. Leads product initiatives from concept through launch, working with engineering and other teams on features for legal professionals.\nMandatory professional qualifications:\n- 3+ years of product management experience; B2B SaaS experience is preferred, not required.\n- Experience leading product initiatives from concept through launch.\n- Experience working directly with Engineering teams in agile development environments.\n- Experience in legal technology, litigation technology, court data, or legal workflows.\nPreferred, not mandatory:\n- B2B SaaS product management experience.\n- JD or other legal background.\n- Experience with search, analytics, and reporting products.\n- Familiarity with billing systems, subscription management, and usage-based pricing models.\n- Experience working with APIs, structured data products, or enterprise SaaS platforms.\n- Ability to write product requirements and manage prioritization across competing initiatives.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of product management experience; B2B SaaS experience is preferred, not required.",
+        "source_quote": "3–5 years of product management experience, preferably within B2B SaaS environments",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience leading product initiatives from concept through launch.",
+        "source_quote": "Experience leading product initiatives from concept through launch",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience working directly with Engineering teams in agile development environments.",
+        "source_quote": "Strong experience working directly with Engineering teams in agile development environments",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience in legal technology, litigation technology, court data, or legal workflows.",
+        "source_quote": "Experience in legal technology, litigation technology, court data, or legal workflows",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "B2B SaaS product management experience.",
+        "source_quote": "preferably within B2B SaaS environments",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "JD or other legal background.",
+        "source_quote": "JD or other legal background strongly preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with search, analytics, and reporting products.",
+        "source_quote": "Experience with search, analytics, and reporting products",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with billing systems, subscription management, and usage-based pricing models.",
+        "source_quote": "Familiarity with billing systems, subscription management, and usage-based pricing models",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience working with APIs, structured data products, or enterprise SaaS platforms.",
+        "source_quote": "Experience working with APIs, structured data products, or enterprise SaaS platforms",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Ability to write product requirements and manage prioritization across competing initiatives.",
+        "source_quote": "Ability to write clear product requirements and manage prioritization across competing initiatives",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": "No geographic filter",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Analytical, organizational, and problem-solving skills.",
+      "Communication and stakeholder management abilities."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "5c00ab23b8effc5a2009573c1729d9ee4536994423975e2e8bef3d7dca206956",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:17.906633+00:00",
+    "response_id": "chatcmpl-ETyUXOVCxVExJGJpOHPYgNU6BKr9h",
+    "usage": {
+      "prompt_tokens": 2304,
+      "completion_tokens": 686,
+      "total_tokens": 2990,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1058,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 54,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "950aa1f36c1914c4bf680f79e3bf680122fd01228b15052629e06bad508891e6",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role; no eligible countries or regions are specified.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3–5 years of product management experience, preferably within B2B SaaS environments",
+        "effective_requirement": "3+ years of product management experience; B2B SaaS experience is preferred, not required.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "aa5d56b140d00b95195c79e98eb6ebb90411ce63854b74acdd481183b8aff9c8",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "aa5d56b140d00b95195c79e98eb6ebb90411ce63854b74acdd481183b8aff9c8",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Ability to write product requirements and manage prioritization across competing initiatives.",
+          "source_quote": "Ability to write clear product requirements and manage prioritization across competing initiatives",
+          "verification": "profile",
+          "reason": "Specific ability rarely stated beyond the PM title."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M4": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "10386657c92772d977185d0e129ff8013e188950ac53876febdf2729e50be705",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": false
+    },
+    "single_location": {
+      "parent_rubric_sha256": "10386657c92772d977185d0e129ff8013e188950ac53876febdf2729e50be705",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged.",
+      "previous_allowed_locations": [],
+      "previous_requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "location_requirement_changed": false
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3–5 years of product management experience, preferably within B2B SaaS environments",
+      "effective_requirement": "3+ years of product management experience; B2B SaaS experience is preferred, not required.",
+      "kind": "mandatory"
+    }
+  ]
+}

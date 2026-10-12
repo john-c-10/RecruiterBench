@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "role_id": "297d925e-5a42-40bd-b02f-5c928d226f18",
+  "snapshot_sha256": "88478efc3ce2aa69ca9a00d2a436cdefbe1b29bc1129fdc00773848a1d06f06f",
+  "input_sha256": "62db47d789b87f0c0a44a09354b9c9a35582f6445a3376ef81be11e1f2e6d2bd",
+  "rubric_sha256": "d08aae67cdb064b19e913f18acc8cb3d6b2cba22391851235be785da9ffbb79f",
+  "rubric": {
+    "role_summary": "Customer-facing GPU infrastructure engineering role designing, deploying, optimizing, and supporting GPU clusters for AI training, inference, and HPC workloads.",
+    "search_query": "Find candidates for this role:\nCustomer-facing GPU infrastructure engineering role designing, deploying, optimizing, and supporting GPU clusters for AI training, inference, and HPC workloads.\nMandatory professional qualifications:\n- 3+ years of hands-on experience with GPU clusters and HPC environments.\n- Experience with SLURM and Kubernetes.\n- Experience configuring and troubleshooting InfiniBand.\n- Knowledge of NVIDIA GPUs and CUDA.\n- Experience with infrastructure automation tools such as Ansible or Terraform.\n- Proficiency in Python and Bash.\nPreferred, not mandatory:\n- Experience with deployments of 1000+ GPUs.\n- NVIDIA DGX, HGX, or SuperPOD certification.\n- Experience with distributed training frameworks such as PyTorch FSDP, DeepSpeed, or Megatron-LM.\n- ML framework optimization and profiling experience.\n- Experience with AMD MI300 or Intel Gaudi accelerators.\n- Contributions to open-source HPC or AI infrastructure projects.\n- Deep expertise with both SLURM and Kubernetes in production GPU settings.\n- Strong understanding of NVIDIA GPU architecture, the CUDA ecosystem, and the driver stack.\n- Experience with infrastructure automation tools, including Ansible and Terraform.\n- Proficiency in Python, Bash, and systems programming.\n- Customer-facing technical leadership experience.\n- GPU driver installation and troubleshooting skills.\n- GPU container runtime configuration skills.\n- Linux kernel tuning and performance optimization skills.\n- Network topology design skills for AI workloads.\n- Knowledge of power and cooling requirements for high-density GPU deployments.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; United States (remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of hands-on experience with GPU clusters and HPC environments.",
+        "source_quote": "3+ years hands-on experience with GPU clusters and HPC environments",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience with SLURM and Kubernetes.",
+        "source_quote": "Deep expertise with SLURM and Kubernetes in production GPU settings",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience configuring and troubleshooting InfiniBand.",
+        "source_quote": "Proven experience with InfiniBand configuration and troubleshooting",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Knowledge of NVIDIA GPUs and CUDA.",
+        "source_quote": "Strong understanding of NVIDIA GPU architecture, CUDA ecosystem, and driver stack",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Experience with infrastructure automation tools such as Ansible or Terraform.",
+        "source_quote": "Experience with infrastructure automation tools (Ansible, Terraform)",
+        "verification": "profile"
+      },
+      {
+        "id": "M6",
+        "requirement": "Proficiency in Python and Bash.",
+        "source_quote": "Proficiency in Python, Bash, and systems programming",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with deployments of 1000+ GPUs.",
+        "source_quote": "Experience with 1000+ GPU deployments",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "NVIDIA DGX, HGX, or SuperPOD certification.",
+        "source_quote": "NVIDIA DGX, HGX, or SuperPOD certification",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with distributed training frameworks such as PyTorch FSDP, DeepSpeed, or Megatron-LM.",
+        "source_quote": "Distributed training frameworks (PyTorch FSDP, DeepSpeed, Megatron-LM)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "ML framework optimization and profiling experience.",
+        "source_quote": "ML framework optimization and profiling",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience with AMD MI300 or Intel Gaudi accelerators.",
+        "source_quote": "Experience with AMD MI300 or Intel Gaudi accelerators",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Contributions to open-source HPC or AI infrastructure projects.",
+        "source_quote": "Contributions to open-source HPC/AI infrastructure projects",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Deep expertise with both SLURM and Kubernetes in production GPU settings.",
+        "source_quote": "Deep expertise with SLURM and Kubernetes in production GPU settings",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Strong understanding of NVIDIA GPU architecture, the CUDA ecosystem, and the driver stack.",
+        "source_quote": "Strong understanding of NVIDIA GPU architecture, CUDA ecosystem, and driver stack",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Experience with infrastructure automation tools, including Ansible and Terraform.",
+        "source_quote": "Experience with infrastructure automation tools (Ansible, Terraform)",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Proficiency in Python, Bash, and systems programming.",
+        "source_quote": "Proficiency in Python, Bash, and systems programming",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Customer-facing technical leadership experience.",
+        "source_quote": "Track record of customer-facing technical leadership",
+        "verification": "profile"
+      },
+      {
+        "id": "P12",
+        "requirement": "GPU driver installation and troubleshooting skills.",
+        "source_quote": "NVIDIA driver installation and troubleshooting (CUDA, Fabric Manager, DCGM)",
+        "verification": "profile"
+      },
+      {
+        "id": "P13",
+        "requirement": "GPU container runtime configuration skills.",
+        "source_quote": "Container runtime configuration for GPUs (Docker, Containerd, Enroot)",
+        "verification": "profile"
+      },
+      {
+        "id": "P14",
+        "requirement": "Linux kernel tuning and performance optimization skills.",
+        "source_quote": "Linux kernel tuning and performance optimization",
+        "verification": "profile"
+      },
+      {
+        "id": "P15",
+        "requirement": "Network topology design skills for AI workloads.",
+        "source_quote": "Network topology design for AI workloads",
+        "verification": "profile"
+      },
+      {
+        "id": "P16",
+        "requirement": "Knowledge of power and cooling requirements for high-density GPU deployments.",
+        "source_quote": "Power and cooling requirements for high-density GPU deployments",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Remote",
+        "United States",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Customer obsession and interest in building reliable, high-performance GPU infrastructure."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "88478efc3ce2aa69ca9a00d2a436cdefbe1b29bc1129fdc00773848a1d06f06f",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:06.731503+00:00",
+    "response_id": "chatcmpl-ETyQU3TMOakDmljgTxldiySwQB2Wn",
+    "usage": {
+      "prompt_tokens": 2324,
+      "completion_tokens": 1020,
+      "total_tokens": 3344,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1078,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 84,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "802a54955dafe55b6aa7ddf90e640e297acaa8de1c3a4ff1059c35fc98ed9e45",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in San Francisco or remote work in the United States; current residence in San Francisco is not explicitly required.",
+      "workplace_type": "mixed",
+      "allowed_locations": [
+        "San Francisco (hybrid)",
+        "United States (remote)"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Remote",
+        "United States",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years hands-on experience with GPU clusters and HPC environments",
+        "effective_requirement": "3+ years of hands-on experience with GPU clusters and HPC environments.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "11a459e9d4fd5578ccf1ff228e93a8cc862371c5cc55ba5a22fa2bc0e2ddb8fc",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "11a459e9d4fd5578ccf1ff228e93a8cc862371c5cc55ba5a22fa2bc0e2ddb8fc",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Customer-facing technical leadership experience.",
+          "source_quote": "Track record of customer-facing technical leadership",
+          "verification": "profile",
+          "reason": "Customer-facing technical leadership is rarely stated for infrastructure engineers."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "GPU driver installation and troubleshooting skills.",
+          "source_quote": "NVIDIA driver installation and troubleshooting (CUDA, Fabric Manager, DCGM)",
+          "verification": "profile",
+          "reason": "GPU driver troubleshooting is a granular skill profiles rarely mention."
+        },
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "GPU container runtime configuration skills.",
+          "source_quote": "Container runtime configuration for GPUs (Docker, Containerd, Enroot)",
+          "verification": "profile",
+          "reason": "GPU container runtime configuration is a granular skill profiles rarely mention."
+        },
+        {
+          "field": "must_haves",
+          "id": "M10",
+          "requirement": "Linux kernel tuning and performance optimization skills.",
+          "source_quote": "Linux kernel tuning and performance optimization",
+          "verification": "profile",
+          "reason": "Kernel tuning is a granular practice profiles rarely mention."
+        },
+        {
+          "field": "must_haves",
+          "id": "M11",
+          "requirement": "Network topology design skills for AI workloads.",
+          "source_quote": "Network topology design for AI workloads",
+          "verification": "profile",
+          "reason": "Network topology design for AI workloads is a granular practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M12",
+          "requirement": "Knowledge of power and cooling requirements for high-density GPU deployments.",
+          "source_quote": "Power and cooling requirements for high-density GPU deployments",
+          "verification": "profile",
+          "reason": "Power/cooling knowledge for GPU deployments is rarely stated on profiles."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Deep expertise with both SLURM and Kubernetes in production GPU settings.",
+          "after": "Experience with SLURM and Kubernetes.",
+          "reason": "SLURM and Kubernetes are commonly listed; depth and production GPU context are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Strong understanding of NVIDIA GPU architecture, the CUDA ecosystem, and the driver stack.",
+          "after": "Knowledge of NVIDIA GPUs and CUDA.",
+          "reason": "GPU/CUDA knowledge is observable or implied; driver-stack depth is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Experience with infrastructure automation tools, including Ansible and Terraform.",
+          "after": "Experience with infrastructure automation tools such as Ansible or Terraform.",
+          "reason": "Infra automation tooling is commonly listed; requiring both named tools is overly conjunctive."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "before": "Proficiency in Python, Bash, and systems programming.",
+          "after": "Proficiency in Python and Bash.",
+          "reason": "Python and Bash are listed or implied by infra roles; systems programming is rarely stated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P7",
+        "M4": "P8",
+        "M5": "P9",
+        "M6": "P10",
+        "M7": "P11",
+        "M8": "P12",
+        "M9": "P13",
+        "M10": "P14",
+        "M11": "P15",
+        "M12": "P16"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "ad4ba1a88558cf4bd4eb63c2c76b50a43071eed653da23a9236a7348dfbd3b80",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "1daeb3044d424114d8c4145e02efa0d192f4b94d222f7c32e53c4052437e9ceb",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote work is offered; the remote eligibility region replaces the office alternatives.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California",
+        "United States (remote)"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; United States (remote). Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years hands-on experience with GPU clusters and HPC environments",
+      "effective_requirement": "3+ years of hands-on experience with GPU clusters and HPC environments.",
+      "kind": "mandatory"
+    }
+  ]
+}

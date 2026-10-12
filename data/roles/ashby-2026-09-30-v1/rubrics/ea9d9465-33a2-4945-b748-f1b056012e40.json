@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "role_id": "ea9d9465-33a2-4945-b748-f1b056012e40",
+  "snapshot_sha256": "7c2d39905e388737875fceaef096537a7696c4191044be7a222d2c0f144154fa",
+  "input_sha256": "14ab9772188ca87c05047a3b242753ab00dbb279af874ba2f8b697bc52d60604",
+  "rubric_sha256": "51cfcc69ef09e91be84ac4bdb2f52751e536ef49924ec643224a0558a709e6ac",
+  "rubric": {
+    "role_summary": "Senior client delivery leader for a North American utility technology and business-operations transformation, overseeing an enterprise implementation, cross-functional teams, and executive client relationships.",
+    "search_query": "Find candidates for this role:\nSenior client delivery leader for a North American utility technology and business-operations transformation, overseeing an enterprise implementation, cross-functional teams, and executive client relationships.\nMandatory professional qualifications:\n- Extensive experience in regulated utilities.\n- Experience leading enterprise-level technology implementations or business transformations.\n- Experience leading implementation teams.\nPreferred, not mandatory:\n- Regulated-utilities experience in the North American market.\n- Enterprise implementation and business-operations transformation experience in utilities or similar industries, such as telecom or the public sector.\n- Strong experience leading large, enterprise-level technology implementations and significant business-operations transformations.\n- Experience working with C-suite clients on strategic conversations, negotiations, and business-transformation advice.\n- Hands-on leadership of global implementation teams spanning implementation, product, data, engineering, change management, and enablement.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Extensive experience in regulated utilities.",
+        "source_quote": "Extensive experience in Regulated Utilities (ideally in the North American market)",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience leading enterprise-level technology implementations or business transformations.",
+        "source_quote": "Strong experience leading large, enterprise-level technology implementations and the significant transformation of business operations , ideally in utilities or similar industries (e.g. telecom, public sector)",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience leading implementation teams.",
+        "source_quote": "Hands-on leader of global implementation teams consisting of experts representing implementation, product, data, engineering, change management, and enablement",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Regulated-utilities experience in the North American market.",
+        "source_quote": "Extensive experience in Regulated Utilities (ideally in the North American market)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Enterprise implementation and business-operations transformation experience in utilities or similar industries, such as telecom or the public sector.",
+        "source_quote": "ideally in utilities or similar industries (e.g. telecom, public sector)",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Strong experience leading large, enterprise-level technology implementations and significant business-operations transformations.",
+        "source_quote": "Strong experience leading large, enterprise-level technology implementations and the significant transformation of business operations , ideally in utilities or similar industries (e.g. telecom, public sector)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience working with C-suite clients on strategic conversations, negotiations, and business-transformation advice.",
+        "source_quote": "Proven experience with C-suite clients, leading strategic conversations, negotiating win-wins, and advising on business transformation",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Hands-on leadership of global implementation teams spanning implementation, product, data, engineering, change management, and enablement.",
+        "source_quote": "Hands-on leader of global implementation teams consisting of experts representing implementation, product, data, engineering, change management, and enablement",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Problem-solving and focusing conversations on what matters.",
+      "Understanding client success and balancing client needs without always saying yes.",
+      "Teamwork across national and global teams.",
+      "Communication, facilitation, and executive presence.",
+      "Client and quality focus; building peer-level customer relationships.",
+      "Motivation to help clients, interest in technology, and commitment to sustainability.",
+      "Open-mindedness, adaptability, confident decision-making, supportiveness, approachability, inclusiveness, and resilience.",
+      "Servant leadership and a collaborative, low-ego approach."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "7c2d39905e388737875fceaef096537a7696c4191044be7a222d2c0f144154fa",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:35.705547+00:00",
+    "response_id": "chatcmpl-ETyRtaC9NpFFARSQeEMawiU2DQ461",
+    "usage": {
+      "prompt_tokens": 3795,
+      "completion_tokens": 1080,
+      "total_tokens": 4875,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 2549,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 54,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "88b8f0e5365a15e4cdf0b63d94af406495dcd9db9d55b3492daa96bf27927e3a",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role in New York; the posting does not require candidates to currently reside there or specify a relocation policy.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "9114a28038f186bfefa5ccc11a131f2b67b0324c5d9bbd429eb4a90457044b7f",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Availability for frequent travel to build face-to-face relationships with clients and internal teams.",
+          "source_quote": "Mobile - You will be expected to invest in face-to-face relationship building with our clients and internal teams. Frequent travel will be expected.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Right to work in the country of application at the time of application.",
+          "source_quote": "applicants must have the right to work in the country that they're applying to, at the time of application",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Requires visa sponsorship for this position, which the employer cannot offer.",
+          "source_quote": "we are unable to offer visa sponsorship for this position",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "685bdd1a2045a5c2589555a4bfcc8c7747383703fbf27800f5d61a98f62bf160",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience working with C-suite clients on strategic conversations, negotiations, and business-transformation advice.",
+          "source_quote": "Proven experience with C-suite clients, leading strategic conversations, negotiating win-wins, and advising on business transformation",
+          "verification": "profile",
+          "reason": "C-suite advisory interactions are rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Strong experience leading large, enterprise-level technology implementations and significant business-operations transformations.",
+          "after": "Experience leading enterprise-level technology implementations or business transformations.",
+          "reason": "Implementation leadership is observable; \"strong\"/\"significant\" qualifiers and conjunction are not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Hands-on leadership of global implementation teams spanning implementation, product, data, engineering, change management, and enablement.",
+          "after": "Experience leading implementation teams.",
+          "reason": "Leadership of implementation teams is implied by titles; global multi-function span is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3"
+      },
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M3": "P4",
+        "M4": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0a36012b9c12bcd3bed6654ee9a31d23b79c48b4932e61f0f04220155302592b",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "9e0f505f3a3403a2c7a4012aaf2c82fbde97c23ecb43c1379142904e9e73b5ef",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

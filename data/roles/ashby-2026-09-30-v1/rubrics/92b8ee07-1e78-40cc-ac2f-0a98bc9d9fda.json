@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "role_id": "92b8ee07-1e78-40cc-ac2f-0a98bc9d9fda",
+  "snapshot_sha256": "eab24db6f6be79bfeee09b87a870662ca1970ab2ffe00b9d853bb754379b42f0",
+  "input_sha256": "2f27028db052e56b59acda05a002e2ddb0466920cd449b33eb0fb1515083b755",
+  "rubric_sha256": "256b89c1c8cac030706ff371e355e7eec074ebeeb70169fa429b2367fa8c34a8",
+  "rubric": {
+    "role_summary": "Construction manager overseeing site development, structural construction, MEP systems, interior fit-out, and turnover for large-scale AI data center projects, including cost, schedule, quality, safety, and vendors.",
+    "search_query": "Find candidates for this role:\nConstruction manager overseeing site development, structural construction, MEP systems, interior fit-out, and turnover for large-scale AI data center projects, including cost, schedule, quality, safety, and vendors.\nMandatory professional qualifications:\n- Bachelor’s degree in Construction Management, Engineering, Architecture, or a related field.\n- 5+ years in construction management.\n- Experience with large commercial or industrial projects.\n- Proficiency with Procore, Primavera or MS Project, or Bluebeam.\nPreferred, not mandatory:\n- Construction management experience with both base build and tenant improvements.\n- Data center or mission-critical experience.\n- Experience managing $100M+ project scopes.\n- Lean construction or sustainability experience.\n- Heavy MEP or electrical systems background.\n- Strong understanding of structural, mechanical, and electrical systems.\n- Proficiency with Procore, Primavera or MS Project, and Bluebeam.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Childress, TX - US area; Greater Dallas, TX - US area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s degree in Construction Management, Engineering, Architecture, or a related field.",
+        "source_quote": "Bachelor’s degree in Construction Management, Engineering, Architecture, or related field",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "5+ years in construction management.",
+        "source_quote": "5+ years in construction management (base build + TI preferred)",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience with large commercial or industrial projects.",
+        "source_quote": "Experience with large commercial/industrial projects",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Proficiency with Procore, Primavera or MS Project, or Bluebeam.",
+        "source_quote": "Proficiency with Procore, Primavera/MS Project, Bluebeam",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Construction management experience with both base build and tenant improvements.",
+        "source_quote": "base build + TI preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Data center or mission-critical experience.",
+        "source_quote": "Data center or mission-critical experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience managing $100M+ project scopes.",
+        "source_quote": "Managed $100M+ project scopes",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Lean construction or sustainability experience.",
+        "source_quote": "Lean construction or sustainability experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Heavy MEP or electrical systems background.",
+        "source_quote": "Heavy MEP or electrical systems background",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Strong understanding of structural, mechanical, and electrical systems.",
+        "source_quote": "Strong understanding of structural, mechanical, and electrical systems",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Proficiency with Procore, Primavera or MS Project, and Bluebeam.",
+        "source_quote": "Proficiency with Procore, Primavera/MS Project, Bluebeam",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Childress, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Childress, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Childress, TX - US",
+        "Dallas, TX - US",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Excellent vendor, schedule, and communication skills.",
+      "Problem-solving, opportunity-finding approach and sense of urgency."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "eab24db6f6be79bfeee09b87a870662ca1970ab2ffe00b9d853bb754379b42f0",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:18.861614+00:00",
+    "response_id": "chatcmpl-ETyTb9MkdHEi8PcjMLI3KkdwGM2mv",
+    "usage": {
+      "prompt_tokens": 2364,
+      "completion_tokens": 917,
+      "total_tokens": 3281,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1118,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 39,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "c3dca133627df3590e7c8037e2f29054cb9b43ac0cef54bb871c079e1131075c",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Childress or Dallas, Texas; present residence in either city is not specified.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Childress, TX - US",
+        "Dallas, TX - US"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Childress, TX - US",
+        "Dallas, TX - US",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "5+ years in construction management (base build + TI preferred)",
+        "effective_requirement": "5+ years in construction management.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "3654a5307ddca6d89d5c1c970fdf10ec87bc0f0a1eda1a9a6ef20ff67934b534",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Ability to travel approximately 50%.",
+          "source_quote": "Ability to travel ~50%",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "6576f76da189b652a50a262f621fcf7209c87cf9e84912cc74540e16bcbdc5d4",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Strong understanding of structural, mechanical, and electrical systems.",
+          "source_quote": "Strong understanding of structural, mechanical, and electrical systems",
+          "verification": "profile",
+          "reason": "Understanding of MEP systems is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Proficiency with Procore, Primavera or MS Project, and Bluebeam.",
+          "after": "Proficiency with Procore, Primavera or MS Project, or Bluebeam.",
+          "reason": "Requiring all named tools is unrealistic; at least one is commonly listed by CMs."
+        }
+      ],
+      "criterion_id_map": {
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M4": "P6",
+        "M5": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c63f0b93b3e7d4ec8dcd560a6cfd2b66b8f5b4217b8efabd187ab3162108489a",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "26e30d0b526b22114c1d6eb7a92955cb2d93a792ffaad44d567546ee224bf447",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office. Childress is the construction site.",
+      "previous_allowed_locations": [
+        "Greater Childress, TX - US area",
+        "Greater Dallas, TX - US area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Childress, TX - US area; Greater Dallas, TX - US area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "5+ years in construction management (base build + TI preferred)",
+      "effective_requirement": "5+ years in construction management.",
+      "kind": "mandatory"
+    }
+  ]
+}

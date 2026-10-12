@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "role_id": "00f63eee-a21b-41ee-bf23-6d6eb19a1ba6",
+  "snapshot_sha256": "e8e6baa60b608af3b5a3d5d3c8dc425a0479e3ab09542afa56f8638187cd8772",
+  "input_sha256": "3694871d972fe4f13da4e10fe85948f4a83cf2fe83a3a6f64fadea2fa8c11e63",
+  "rubric_sha256": "c2883d4688613be5852f27f40fe71f2876f3e8003ace09965899a4f71fa90684",
+  "rubric": {
+    "role_summary": "Senior K–12 account executive selling learning software and services to school districts, responsible for new business, account expansion, pipeline development, and closing deals across an assigned territory.",
+    "search_query": "Find candidates for this role:\nSenior K–12 account executive selling learning software and services to school districts, responsible for new business, account expansion, pipeline development, and closing deals across an assigned territory.\nMandatory professional qualifications:\n- 5+ years of proven sales experience.\n- Experience with enterprise-level software sales and services.\nPreferred, not mandatory:\n- Sales experience within EdTech or SaaS solution sales.\n- Understanding of educational pedagogy and the dynamics of selling an LMS.\n- Ability to sell at all levels, including C-suite and executive leadership.\n- Strategic and consultative sales skills.\n- Ability to conduct needs analyses and develop tailored proposals.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of proven sales experience.",
+        "source_quote": "5+ years of proven sales experience, ideally within EdTech or SaaS solution sales",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience with enterprise-level software sales and services.",
+        "source_quote": "Experience with enterprise-level software sales and services",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Sales experience within EdTech or SaaS solution sales.",
+        "source_quote": "ideally within EdTech or SaaS solution sales",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Understanding of educational pedagogy and the dynamics of selling an LMS.",
+        "source_quote": "Understanding of educational pedagogy and the dynamics of selling a learning management system (LMS) preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Ability to sell at all levels, including C-suite and executive leadership.",
+        "source_quote": "Demonstrated ability to sell at all levels, including C-suite and executive leadership",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Strategic and consultative sales skills.",
+        "source_quote": "Outstanding strategic and consultative sales skills",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Ability to conduct needs analyses and develop tailored proposals.",
+        "source_quote": "Ability to conduct thorough needs analyses and develop tailored proposals",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Willingness to travel up to 50%"
+      ]
+    },
+    "soft_requirements": [
+      "Outstanding quality of strategic and consultative sales skills.",
+      "Driven by helping educators transform how learning happens and comfortable in a dynamic, high-growth environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e8e6baa60b608af3b5a3d5d3c8dc425a0479e3ab09542afa56f8638187cd8772",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:11.990859+00:00",
+    "response_id": "chatcmpl-ETyUR8Go6aND0mr819840msuptQnt",
+    "usage": {
+      "prompt_tokens": 2167,
+      "completion_tokens": 716,
+      "total_tokens": 2883,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 921,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "4f8eeebce0cd6a90b69bbc2d4fae2990e2233f33a130391ce807c11fc5a5d03a",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role located in the United States; travel of up to 50% is expected. Present residence in the United States is not explicitly required.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Willingness to travel up to 50%"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years of proven sales experience, ideally within EdTech or SaaS solution sales",
+        "effective_requirement": "5+ years of proven sales experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "12aa747ec4e6f66368a958973e91bbb0866f584a9ea6723e90ab1607c97aa370",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Willingness to travel up to 50%.",
+          "source_quote": "Willingness to travel up to 50%",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Failure to pass the required background check.",
+          "source_quote": "All employees must pass a background check as part of the hiring process.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D2",
+          "requirement": "Attempting to misrepresent personal or professional information.",
+          "source_quote": "Any attempt to misrepresent personal or professional information will result in disqualification.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "bb82e42a457c1d184de8f17021b021d377a99b86d2478dfd2485e3b62d24008e",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Ability to sell at all levels, including C-suite and executive leadership.",
+          "source_quote": "Demonstrated ability to sell at all levels, including C-suite and executive leadership",
+          "verification": "profile",
+          "reason": "Selling to C-suite is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Strategic and consultative sales skills.",
+          "source_quote": "Outstanding strategic and consultative sales skills",
+          "verification": "profile",
+          "reason": "Sales style is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to conduct needs analyses and develop tailored proposals.",
+          "source_quote": "Ability to conduct thorough needs analyses and develop tailored proposals",
+          "verification": "profile",
+          "reason": "Specific sales practices rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M4": "P4",
+        "M5": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "712a26e3a922c2e488a8527ea279cdda7aad55b25f061d37eebf91aecac94105",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "6f8d3bfab70401e39709a8b33d6112d1690577ab2d3ef0d6b616305b0e3b7918",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years of proven sales experience, ideally within EdTech or SaaS solution sales",
+      "effective_requirement": "5+ years of proven sales experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "role_id": "b9bea31e-e403-4bab-a4d9-150468333bf0",
+  "snapshot_sha256": "0fd32ad7391ff2a8ac69382e07d0a88a6520bed677feac6ef303825ab19f2c27",
+  "input_sha256": "23f24ac17baf32fe10fea77dacb31d921b98b67e8aaf5f3214ba04ad9ec59df8",
+  "rubric_sha256": "9837e1febd0172dadfeec7f31eb6f81b2bbe89cc97867706e99b8c87229ae0a4",
+  "rubric": {
+    "role_summary": "Senior flight software engineering role developing reliable autonomous aircraft software and the simulations and infrastructure used to validate it, with ownership across design, testing, and operations.",
+    "search_query": "Find candidates for this role:\nSenior flight software engineering role developing reliable autonomous aircraft software and the simulations and infrastructure used to validate it, with ownership across design, testing, and operations.\nMandatory professional qualifications:\n- Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience.\n- Experience in C++, Rust, or another systems programming language.\n- Experience building or working with real-time systems or distributed computing systems.\n- Experience working on embedded systems or the Linux kernel.\nPreferred, not mandatory:\n- Proven skills in debugging, performance optimization, and unit testing.\n- Basic knowledge in controls, fluid systems, motors, or other physical mechanics.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We consider working in the office five days a week an essential part of the employee's role.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience.",
+        "source_quote": "Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience in C++, Rust, or another systems programming language.",
+        "source_quote": "Experience in C++, Rust, or other systems programming language",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience building or working with real-time systems or distributed computing systems.",
+        "source_quote": "Experience building or working with real-time systems or distributed computing systems",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience working on embedded systems or the Linux kernel.",
+        "source_quote": "Experience working on embedded systems or the Linux kernel",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Proven skills in debugging, performance optimization, and unit testing.",
+        "source_quote": "Proven skills in debugging, performance optimization, and unit testing",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Basic knowledge in controls, fluid systems, motors, or other physical mechanics.",
+        "source_quote": "Basic knowledge in controls, fluid systems, motors, or other physical mechanics",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "We consider working in the office five days a week an essential part of the employee's role."
+      ]
+    },
+    "soft_requirements": [
+      "Excitement about developing software used to control and fly the company's products."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "0fd32ad7391ff2a8ac69382e07d0a88a6520bed677feac6ef303825ab19f2c27",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:02.173381+00:00",
+    "response_id": "chatcmpl-ETyRQ3uJOgYKcKXSeDvhdqdvHxiN5",
+    "usage": {
+      "prompt_tokens": 1943,
+      "completion_tokens": 612,
+      "total_tokens": 2555,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 697,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 35,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "08c1bcf123badd65c41761d38e1978bb96f35f2ee8a73799e5aba4a1d1c3659b",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work in the San Francisco office five days a week; current residence in San Francisco is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "We consider working in the office five days a week an essential part of the employee's role."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience",
+        "effective_requirement": "Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "b80ed0b2e3aa289579350caed25f6d81abe40271f45b225369fcc158b277eebf",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "b80ed0b2e3aa289579350caed25f6d81abe40271f45b225369fcc158b277eebf",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Proven skills in debugging, performance optimization, and unit testing.",
+          "source_quote": "Proven skills in debugging, performance optimization, and unit testing",
+          "verification": "profile",
+          "reason": "Generic \"proven skills\" claim is unobservable."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Basic knowledge in controls, fluid systems, motors, or other physical mechanics.",
+          "source_quote": "Basic knowledge in controls, fluid systems, motors, or other physical mechanics",
+          "verification": "profile",
+          "reason": "Physical-systems knowledge is rarely stated for software engineers."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M5": "P1",
+        "M6": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "64ba48821c2394ecdc63a439014063fd21682d682ee258c16ad74c83675e4f38",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "24f50ce8bc21233db0d0faf8e2623dc151985dfcdd06efb04b7b5cc6cbf23684",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We consider working in the office five days a week an essential part of the employee's role.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience",
+      "effective_requirement": "Bachelor’s degree in Computer Science, Engineering, Math, or a Science discipline and 4+ years of software development experience; or 6+ years of professional software development experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

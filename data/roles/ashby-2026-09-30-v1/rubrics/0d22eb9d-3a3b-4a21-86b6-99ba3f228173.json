@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0d22eb9d-3a3b-4a21-86b6-99ba3f228173",
+  "snapshot_sha256": "56a191df3075ca5cce870994bdda61ed53dfa8e1987b09c66795016b5fd4e630",
+  "input_sha256": "9b43a0ab3aeeabe1f112b4850549a362e977496fe0c8b720e8c2439d3c51ecfd",
+  "rubric_sha256": "c9863414f0b7f25d8b363d661d935e919f06e2a4717226dfe39656a9ddda9077",
+  "rubric": {
+    "role_summary": "Product designer for AI applications and client projects, working across user research, product ideation, UX, and UI design. The role is the team's first full-time designer and includes independent design work on new products. The role starts as a three-month contract intended to convert to permanent full-time employment.",
+    "search_query": "Find candidates for this role:\nProduct designer for AI applications and client projects, working across user research, product ideation, UX, and UI design. The role is the team's first full-time designer and includes independent design work on new products. The role starts as a three-month contract intended to convert to permanent full-time employment.\nMandatory professional qualifications:\n- 3+ years of product design experience in a professional environment.\n- Experience designing AI applications.\nPreferred, not mandatory:\n- Previous consulting or contracting experience juggling multiple projects.\n- Startup experience.\n- Experience designing products and features independently.\n- Experience with Next.js apps in product design.\n- Ability to collaborate directly with engineers to get designs implemented and understand what is possible.\n- Experience using Cursor, Codex, or Claude Code to create mock-ups and interactive designs.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): US timezone: PT; US timezone: MT; US timezone: CT; US timezone: ET. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of product design experience in a professional environment.",
+        "source_quote": "3+ years of product design experience in a professional environment",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience designing AI applications.",
+        "source_quote": "Experience designing AI applications",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Previous consulting or contracting experience juggling multiple projects.",
+        "source_quote": "Previous consulting / contracting experience juggling multiple projects",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Startup experience.",
+        "source_quote": "Startup experience",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience designing products and features independently.",
+        "source_quote": "Experience designing products and features independently",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience with Next.js apps in product design.",
+        "source_quote": "An AI-focused product designer with experience in Next.js apps and an interest in solving real business problems for our clients.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Ability to collaborate directly with engineers to get designs implemented and understand what is possible.",
+        "source_quote": "You can collaborate directly with engineers to get your designs implemented and understand what's possible",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience using Cursor, Codex, or Claude Code to create mock-ups and interactive designs.",
+        "source_quote": "Experience with AI coding tools. You use Cursor, Codex, or Claude Code to create mock-ups and interactive designs.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Continental United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Continental United States"
+      ],
+      "remote_scope": "Continental United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Must be in a US timezone: PT/MT/CT/ET",
+        "The Lattice Partners team is primarily based in Los Angeles but operates remotely. We work PST hours."
+      ]
+    },
+    "soft_requirements": [
+      "Ability and curiosity to think through complex design problems and trade-offs.",
+      "Interest in solving real business problems for clients.",
+      "Curiosity about new industries and businesses and how technology can help them.",
+      "Pride in previous work.",
+      "Passion for becoming an excellent AI-first designer."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "56a191df3075ca5cce870994bdda61ed53dfa8e1987b09c66795016b5fd4e630",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:27.994796+00:00",
+    "response_id": "chatcmpl-ETyUflGgrxtT4mfRMU7npD4JkF3h9",
+    "usage": {
+      "prompt_tokens": 2229,
+      "completion_tokens": 1123,
+      "total_tokens": 3352,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 983,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 93,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "0a7ae379d17e6cc3c9fc2d46eca7a2160f64e501c343a6f898a619adfe83eaef",
+    "resolved_ambiguities": [
+      "The role metadata lists FullTime employment, while the description says it will start as a 3-month contractor position with the goal of becoming a full-time W-2 role."
+    ],
+    "resolution": "Text wins: contract-to-permanent, without requiring prior contractor status.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role for someone in a US timezone (PT, MT, CT, or ET). The team is primarily based in Los Angeles and works PST hours; the posting does not require current residence in Los Angeles.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "US timezone: PT",
+        "US timezone: MT",
+        "US timezone: CT",
+        "US timezone: ET"
+      ],
+      "remote_scope": "US timezones PT/MT/CT/ET; the posting does not explicitly require residence in the United States.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Must be in a US timezone: PT/MT/CT/ET",
+        "The Lattice Partners team is primarily based in Los Angeles but operates remotely. We work PST hours."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years of product design experience in a professional environment",
+        "effective_requirement": "3+ years of product design experience in a professional environment.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "fb204f605fa049eec602dbc422a12ab9652b91d07f86adb553961e03ba21494f",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Previous work available to share.",
+          "source_quote": "Previous work that you’re proud of and can share with us",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Availability to work PST hours.",
+          "source_quote": "We work PST hours.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c3c04aa571d159b6dfaeea6f3f70458d7eae7034e24f7b05d2bbfe9f100c9472",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience designing products and features independently.",
+          "source_quote": "Experience designing products and features independently",
+          "verification": "profile",
+          "reason": "Independence is a work-style trait rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience with Next.js apps in product design.",
+          "source_quote": "An AI-focused product designer with experience in Next.js apps and an interest in solving real business problems for our clients.",
+          "verification": "profile",
+          "reason": "Next.js experience is rarely listed for designers."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to collaborate directly with engineers to get designs implemented and understand what is possible.",
+          "source_quote": "You can collaborate directly with engineers to get your designs implemented and understand what's possible",
+          "verification": "profile",
+          "reason": "Collaboration ability is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience using Cursor, Codex, or Claude Code to create mock-ups and interactive designs.",
+          "source_quote": "Experience with AI coding tools. You use Cursor, Codex, or Claude Code to create mock-ups and interactive designs.",
+          "verification": "profile",
+          "reason": "Specific AI coding tool use is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M4": "P4",
+        "M5": "P5",
+        "M6": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "fdf34f421c9d46def6723c131f0bb0cc3bb1d61540a7eb097303019e94815747",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "bcf0f7d70feb4bc8d4d947094b8b4f12e61176224ff6c47a147be8ce900ff2c0",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Remote, in a US time zone from Pacific to Eastern.",
+      "previous_allowed_locations": [
+        "US timezone: PT",
+        "US timezone: MT",
+        "US timezone: CT",
+        "US timezone: ET"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): US timezone: PT; US timezone: MT; US timezone: CT; US timezone: ET. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years of product design experience in a professional environment",
+      "effective_requirement": "3+ years of product design experience in a professional environment.",
+      "kind": "mandatory"
+    }
+  ]
+}

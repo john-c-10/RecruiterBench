@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "role_id": "68a397e7-8a1a-4566-ae41-e8c61dd6ed93",
+  "snapshot_sha256": "dde4a6086a013a9b20f51211f415f68b369ca7178ea5ede7d2e0b232721fcede",
+  "input_sha256": "9d1432ab57ed7b30d78a07e8f8fd4933d6c22e251687241e8d2147904eb084a9",
+  "rubric_sha256": "6adb81c4fde975e4dfdb9afcfdec6199434b420e9d046c1296c832238a91c495",
+  "rubric": {
+    "role_summary": "Product manager for strategic developer-platform partner integrations, owning a focused portfolio from integration design through delivery, developer feedback, and measurement.",
+    "search_query": "Find candidates for this role:\nProduct manager for strategic developer-platform partner integrations, owning a focused portfolio from integration design through delivery, developer feedback, and measurement.\nMandatory professional qualifications:\n- Either 7+ years of product management on developer tools or experience as an ex-founder.\n- Product experience owning APIs, auth or identity flows, or developer-facing platform surfaces.\nPreferred, not mandatory:\n- Familiarity with workers or agent sandboxes, developer-tooling products, or machine-to-machine authentication.\n- Either 7+ years of product management on developer tools or experience as an ex-founder; in either case, technically able to read an architecture document and follow a design discussion.\n- Have shipped integration or platform surfaces that other companies’ systems build against, with end-to-end ownership of APIs, auth or identity flows, or developer-facing platform surfaces, and be able to reason at the product level about authentication and data exchange between independent systems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Either 7+ years of product management on developer tools or experience as an ex-founder.",
+        "source_quote": "Have 7+ years of product management on developer tools, or are an ex-founder with strong product instincts, and are technical enough to read an architecture doc, follow a design discussion, and ask the right questions.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Product experience owning APIs, auth or identity flows, or developer-facing platform surfaces.",
+        "source_quote": "Have shipped integration or platform surfaces that other companies' systems build against, owning APIs, auth or identity flows, or developer-facing platform surfaces end to end, and can reason at the product level about how two independent systems should authenticate and exchange data: where to be open, where to be strict, and where trust lies in these integrations.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Familiarity with workers or agent sandboxes, developer-tooling products, or machine-to-machine authentication.",
+        "source_quote": "Familiarity with more recent primitives like workers/agent sandboxes and developer-tooling products, or with machine-to-machine authentication, is a bonus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Either 7+ years of product management on developer tools or experience as an ex-founder; in either case, technically able to read an architecture document and follow a design discussion.",
+        "source_quote": "Have 7+ years of product management on developer tools, or are an ex-founder with strong product instincts, and are technical enough to read an architecture doc, follow a design discussion, and ask the right questions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Have shipped integration or platform surfaces that other companies’ systems build against, with end-to-end ownership of APIs, auth or identity flows, or developer-facing platform surfaces, and be able to reason at the product level about authentication and data exchange between independent systems.",
+        "source_quote": "Have shipped integration or platform surfaces that other companies' systems build against, owning APIs, auth or identity flows, or developer-facing platform surfaces end to end, and can reason at the product level about how two independent systems should authenticate and exchange data: where to be open, where to be strict, and where trust lies in these integrations.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": "San Francisco Bay Area, California",
+      "relocation": "not_offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote, Bay Area, CA",
+        "Are based in the San Francisco Bay Area. While we hire globally for almost all roles, this role requires being located near SF (please note we don't sponsor work visa or relocations, you already need to be based in the Bay Area).",
+        "Supabase is fully remote"
+      ]
+    },
+    "soft_requirements": [
+      "Strong product instincts and ability to ask the right questions in technical discussions.",
+      "Bias toward shipping secure work quickly and learning from it.",
+      "Uses owned product surfaces firsthand to form opinions.",
+      "Comfort using AI tools for research, drafting, and feedback synthesis.",
+      "Works asynchronously, makes decisions in writing, and moves work forward without meetings."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "dde4a6086a013a9b20f51211f415f68b369ca7178ea5ede7d2e0b232721fcede",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:12.890641+00:00",
+    "response_id": "chatcmpl-ETyVP3lkiLbUOhR97yvEDr5IOeM87",
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 901,
+      "total_tokens": 3688,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1541,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 76,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "6c74601cafb99c5a02e3982afa760620680426785644e99787398e62e126e082",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role requiring current residence in the San Francisco Bay Area, near SF. Relocation is not offered.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": "San Francisco Bay Area only for this role",
+      "relocation": "not_offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote, Bay Area, CA",
+        "Are based in the San Francisco Bay Area. While we hire globally for almost all roles, this role requires being located near SF (please note we don't sponsor work visa or relocations, you already need to be based in the Bay Area).",
+        "Supabase is fully remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Have 7+ years of product management on developer tools, or are an ex-founder with strong product instincts, and are technical enough to read an architecture doc, follow a design discussion, and ask the right questions.",
+        "effective_requirement": "Either 7+ years of product management on developer tools or experience as an ex-founder; in either case, technically able to read an architecture document and follow a design discussion.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "c78debd80156a1bc3a2b361ae9da0dd0066aa92af10361f1e4d765b6aa4ef84c",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Requires employer-sponsored work visa.",
+          "source_quote": "please note we don't sponsor work visa or relocations",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "3c551151fdbf4c9b1c67b16d7113238b95776199660df440047d965b6d87226d",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Either 7+ years of product management on developer tools or experience as an ex-founder; in either case, technically able to read an architecture document and follow a design discussion.",
+          "after": "Either 7+ years of product management on developer tools or experience as an ex-founder.",
+          "reason": "PM years or founder experience are observable; reading architecture docs is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Have shipped integration or platform surfaces that other companies’ systems build against, with end-to-end ownership of APIs, auth or identity flows, or developer-facing platform surfaces, and be able to reason at the product level about authentication and data exchange between independent systems.",
+          "after": "Product experience owning APIs, auth or identity flows, or developer-facing platform surfaces.",
+          "reason": "Platform/API product ownership is observable; reasoning ability is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P2",
+        "M2": "P3"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "09f2575d24093a1ac99e71380ad7e58b2af02c666f910b6430638a9292d438cb",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "70e2eb42bd3a2735c9d981c91633911cff7655a992d9e4f58d1db764a86986e2",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Have 7+ years of product management on developer tools, or are an ex-founder with strong product instincts, and are technical enough to read an architecture doc, follow a design discussion, and ask the right questions.",
+      "effective_requirement": "Either 7+ years of product management on developer tools or experience as an ex-founder.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "Have 7+ years of product management on developer tools, or are an ex-founder with strong product instincts, and are technical enough to read an architecture doc, follow a design discussion, and ask the right questions.",
+      "effective_requirement": "Either 7+ years of product management on developer tools or experience as an ex-founder; in either case, technically able to read an architecture document and follow a design discussion.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

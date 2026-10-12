@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "role_id": "de58fef2-8e6b-414d-9e83-5495e538d199",
+  "snapshot_sha256": "beae5180a40342c04e24ea7ff3a6f122817b014418348dbcd422af4007e6ac55",
+  "input_sha256": "77620c916ff795c085c62cee235bcf655b4e396ee5d3ed59070390d303d7fbfc",
+  "rubric_sha256": "2efbc5c60bc43447de18babd42a8b3a22285158797c139ad13326cef5c475f41",
+  "rubric": {
+    "role_summary": "Senior motion graphics design role creating animated content for social campaigns, video platforms, and corporate communications, including motion graphics, kinetic typography, and After Effects templates.",
+    "search_query": "Find candidates for this role:\nSenior motion graphics design role creating animated content for social campaigns, video platforms, and corporate communications, including motion graphics, kinetic typography, and After Effects templates.\nMandatory professional qualifications:\n- BA/BS degree in Design or CS, or relevant experience.\n- 6+ years of hands-on social content design.\n- Advanced After Effects and Illustrator skills.\n- Strong command of animation fundamentals, including timing, pacing, easing, and anticipation.\nPreferred, not mandatory:\n- Social content design experience in an agency, brand, or newsroom environment.\n- Experience collaborating on cross-team projects.\n- Adobe Creative Suite skills for developing static designs and templates.\n- Familiarity with B2B and digital marketing creative best practices.\n- Advanced After Effects and Illustrator skills, with familiarity with Premiere, Photoshop, and Cinema 4D.\n- Experience leveraging Google generative AI models; the named models are examples, not individually required.\n- In-depth understanding of LinkedIn, Instagram, X, TikTok, and YouTube and effective content for each.\n- Grasp of design fundamentals and current trends.\n- Working knowledge of Google App Suite.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "BA/BS degree in Design or CS, or relevant experience.",
+        "source_quote": "BA/BS degree in Design, CS, or relevant experience",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "6+ years of hands-on social content design.",
+        "source_quote": "6+ years of hands-on social content design—ideally in an agency, brand, or newsroom environment",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Advanced After Effects and Illustrator skills.",
+        "source_quote": "Advanced skills in Adobe After Effects, Illustrator, and familiarity with Premiere, Photoshop, Cinema 4D",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Strong command of animation fundamentals, including timing, pacing, easing, and anticipation.",
+        "source_quote": "Strong command of animation fundamentals (timing, pacing, easing, anticipation)",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Social content design experience in an agency, brand, or newsroom environment.",
+        "source_quote": "ideally in an agency, brand, or newsroom environment",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience collaborating on cross-team projects.",
+        "source_quote": "Proven experience collaborating on cross-team projects",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Adobe Creative Suite skills for developing static designs and templates.",
+        "source_quote": "Strong skills in Adobe Creative Suite for developing static designs and templates",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with B2B and digital marketing creative best practices.",
+        "source_quote": "Familiarity with B2B and digital marketing creative best practices",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Advanced After Effects and Illustrator skills, with familiarity with Premiere, Photoshop, and Cinema 4D.",
+        "source_quote": "Advanced skills in Adobe After Effects, Illustrator, and familiarity with Premiere, Photoshop, Cinema 4D",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience leveraging Google generative AI models; the named models are examples, not individually required.",
+        "source_quote": "Experience leveraging Google generative AI models (Nano Banana, Veo, Flow) to push creative boundaries",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "In-depth understanding of LinkedIn, Instagram, X, TikTok, and YouTube and effective content for each.",
+        "source_quote": "In-depth understanding of each major social/video platform (LinkedIn, Instagram, X, TikTok, YouTube) and what makes content shine there",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Grasp of design fundamentals and current trends.",
+        "source_quote": "Rigorous grasp of design fundamentals and current trends",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Working knowledge of Google App Suite.",
+        "source_quote": "Working knowledge of the Google App Suite",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote, US",
+        "THIS ROLE IS ONLY OPEN TO CANDIDATES IN THE UNITED STATES WITH VALID WORK AUTHORIZATION."
+      ]
+    },
+    "soft_requirements": [
+      "Meticulous attention to detail, organization, and ability to handle multiple urgent deadlines.",
+      "Adaptability and creative agility.",
+      "Storytelling instincts, including simplifying technical or data-heavy concepts through motion.",
+      "Ability to deliver high-quality work in a high-volume, deadline-driven setting."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "beae5180a40342c04e24ea7ff3a6f122817b014418348dbcd422af4007e6ac55",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:02.386193+00:00",
+    "response_id": "chatcmpl-ETyUFKnBlr5cKZ1c3rmRr3xpkVIrs",
+    "usage": {
+      "prompt_tokens": 2323,
+      "completion_tokens": 1252,
+      "total_tokens": 3575,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1077,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 80,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "e82c6eeb9afbcba3cd5eb25e4a37b3eccd34808d68789697bb8c4f52e2d965c0",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role open only to candidates in the United States with valid work authorization. The posting does not explicitly require current residence.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States only",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote, US",
+        "THIS ROLE IS ONLY OPEN TO CANDIDATES IN THE UNITED STATES WITH VALID WORK AUTHORIZATION."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M3",
+        "source_quote": "6+ years of hands-on social content design—ideally in an agency, brand, or newsroom environment",
+        "effective_requirement": "6+ years of hands-on social content design.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "fd52f5343b773f0ebf8817c6ff71d8872ed125065b7fccb997ff1eb79315bdd6",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "requirement": "Valid work authorization for this United States-only role.",
+          "source_quote": "THIS ROLE IS ONLY OPEN TO CANDIDATES IN THE UNITED STATES WITH VALID WORK AUTHORIZATION.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M2": "M1",
+        "M3": "M2",
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5",
+        "M7": "M6",
+        "M8": "M7",
+        "M9": "M8"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "40780a136bf2d2a92576d7604ae2a72fa5a3b5c685d8ee46c2f5756e7c9eccd2",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience leveraging Google generative AI models; the named models are examples, not individually required.",
+          "source_quote": "Experience leveraging Google generative AI models (Nano Banana, Veo, Flow) to push creative boundaries",
+          "verification": "profile",
+          "reason": "Specific generative AI model usage rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "In-depth understanding of LinkedIn, Instagram, X, TikTok, and YouTube and effective content for each.",
+          "source_quote": "In-depth understanding of each major social/video platform (LinkedIn, Instagram, X, TikTok, YouTube) and what makes content shine there",
+          "verification": "profile",
+          "reason": "Platform-by-platform understanding is unstated beyond the kept social design experience."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Grasp of design fundamentals and current trends.",
+          "source_quote": "Rigorous grasp of design fundamentals and current trends",
+          "verification": "profile",
+          "reason": "Design fundamentals/trend awareness is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Working knowledge of Google App Suite.",
+          "source_quote": "Working knowledge of the Google App Suite",
+          "verification": "profile",
+          "reason": "Office tool proficiency is rarely listed."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Advanced After Effects and Illustrator skills, with familiarity with Premiere, Photoshop, and Cinema 4D.",
+          "after": "Advanced After Effects and Illustrator skills.",
+          "reason": "Core tools commonly listed; full secondary tool list is not required."
+        }
+      ],
+      "criterion_id_map": {
+        "M6": "M4"
+      },
+      "demoted_preference_ids": {
+        "M3": "P5",
+        "M4": "P6",
+        "M5": "P7",
+        "M7": "P8",
+        "M8": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "06ecbbb7664bd4684273b9aa5f9dfc74b3d56b7a10a13a83a59e5ec03dde53de",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "444d784ee3aa25643541d331fd3c03cd9e07a567f45332a71e6648850341d0f7",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "6+ years of hands-on social content design—ideally in an agency, brand, or newsroom environment",
+      "effective_requirement": "6+ years of hands-on social content design.",
+      "kind": "mandatory"
+    }
+  ]
+}

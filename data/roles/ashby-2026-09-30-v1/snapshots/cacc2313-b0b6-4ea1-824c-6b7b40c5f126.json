@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "cacc2313-b0b6-4ea1-824c-6b7b40c5f126",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/logiqal/cacc2313-b0b6-4ea1-824c-6b7b40c5f126",
+    "board_url": "https://jobs.ashbyhq.com/logiqal",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/logiqal",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "cacc2313-b0b6-4ea1-824c-6b7b40c5f126",
+    "title": "FPGA Engineer - Control Systems",
+    "department": "All",
+    "team": "All",
+    "employmentType": "FullTime",
+    "location": "Princeton, NJ",
+    "secondaryLocations": [],
+    "publishedAt": "2026-07-21T01:23:29.834+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "New Jersey",
+        "addressCountry": "United States",
+        "addressLocality": "Princeton"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/logiqal/cacc2313-b0b6-4ea1-824c-6b7b40c5f126",
+    "applyUrl": "https://jobs.ashbyhq.com/logiqal/cacc2313-b0b6-4ea1-824c-6b7b40c5f126/application",
+    "descriptionHtml": "<h2><strong>About the Company</strong></h2><p style=\"min-height:1.5em\"><strong>Logiqal</strong> is on a mission to build the first scaled quantum computer, deploying millions of qubits to tackle the world’s most important problems. Our thesis is that you have to build a full scale machine to learn what the actual hard parts are, just like you have to build a full scale rocket before the first launch. We’re looking for a few visionary scientists and engineers to join our team, to move fast and blow stuff up.</p><p style=\"min-height:1.5em\">Based in Princeton, NJ our founding physics team has decades of combined research experience at leading academic and industry labs including Princeton, Harvard, Yale, MIT and Google Quantum. Our approach is based on neutral atom qubit technology developed in research labs at Princeton by the founding team. Our scalable systems are composed of manufacturable sub-modules, controlled by state-of-the-art CMOS optoelectronics, and designed around a unique computer architecture.</p><p style=\"min-height:1.5em\">If you’re excited to build something that’s never existed before at the cutting edge of physics and engineering—together with an awesome team with deep technical expertise—come build with us!</p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We are looking for an <strong>FPGA Engineer</strong> to design and implement low-latency control and signal processing for our quantum computers. Operations on the quantum computer are implemented using RF pulses that require sub-nanosecond synchronization across dozens of channels. The overall execution speed of the quantum computer relies on low-latency waveform generation and adaptive execution based on real-time measurement information, on microsecond timescales.</p><p style=\"min-height:1.5em\">You'll design, implement, and verify features across the control stack, from RTL through hardware-in-the-loop validation, starting as co-owner and growing into full subsystem ownership as you build context. As the system scales, you'll take prototype designs and make them production-ready: optimizing RTL and PS firmware for latency, resource use, and timing closure. You'll be working directly with physicists, software engineers, and the rest of the team to turn system requirements into working FPGA design.</p><p style=\"min-height:1.5em\">Experience with digital logic design or verification for FPGAs or ASICs is essential. Experience with high-throughput design across multiple clock domains is preferred, as is familiarity with Xilinx/AMD RFSoC platforms. No knowledge of quantum physics is required, though we're happy to teach you.</p><p style=\"min-height:1.5em\"><strong>__________</strong></p><p style=\"min-height:1.5em\">Compensation consists of a base salary and equity. The salary range for this role is $150-235k, commensurate with experience. We also provide comprehensive benefits, including fully paid medical, dental, and vision insurance for our employees and highly subsidized benefits for spouses and dependents, a 401k and FSA.</p><p style=\"min-height:1.5em\"><strong>__________</strong></p><p style=\"min-height:1.5em\">Logiqal is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to age, race, color, religion, sex, sexual orientation, gender identity or expression, national origin, disability status, protected veteran status, or any other characteristic protected by law.</p>",
+    "descriptionPlain": "ABOUT THE COMPANY\n\nLogiqal is on a mission to build the first scaled quantum computer, deploying millions of qubits to tackle the world’s most important problems. Our thesis is that you have to build a full scale machine to learn what the actual hard parts are, just like you have to build a full scale rocket before the first launch. We’re looking for a few visionary scientists and engineers to join our team, to move fast and blow stuff up.\n\nBased in Princeton, NJ our founding physics team has decades of combined research experience at leading academic and industry labs including Princeton, Harvard, Yale, MIT and Google Quantum. Our approach is based on neutral atom qubit technology developed in research labs at Princeton by the founding team. Our scalable systems are composed of manufacturable sub-modules, controlled by state-of-the-art CMOS optoelectronics, and designed around a unique computer architecture.\n\nIf you’re excited to build something that’s never existed before at the cutting edge of physics and engineering—together with an awesome team with deep technical expertise—come build with us!\n\n\nABOUT THE ROLE\n\nWe are looking for an FPGA Engineer to design and implement low-latency control and signal processing for our quantum computers. Operations on the quantum computer are implemented using RF pulses that require sub-nanosecond synchronization across dozens of channels. The overall execution speed of the quantum computer relies on low-latency waveform generation and adaptive execution based on real-time measurement information, on microsecond timescales.\n\nYou'll design, implement, and verify features across the control stack, from RTL through hardware-in-the-loop validation, starting as co-owner and growing into full subsystem ownership as you build context. As the system scales, you'll take prototype designs and make them production-ready: optimizing RTL and PS firmware for latency, resource use, and timing closure. You'll be working directly with physicists, software engineers, and the rest of the team to turn system requirements into working FPGA design.\n\nExperience with digital logic design or verification for FPGAs or ASICs is essential. Experience with high-throughput design across multiple clock domains is preferred, as is familiarity with Xilinx/AMD RFSoC platforms. No knowledge of quantum physics is required, though we're happy to teach you.\n\n__________\n\nCompensation consists of a base salary and equity. The salary range for this role is $150-235k, commensurate with experience. We also provide comprehensive benefits, including fully paid medical, dental, and vision insurance for our employees and highly subsidized benefits for spouses and dependents, a 401k and FSA.\n\n__________\n\nLogiqal is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to age, race, color, religion, sex, sexual orientation, gender identity or expression, national origin, disability status, protected veteran status, or any other characteristic protected by law."
+  }
+}

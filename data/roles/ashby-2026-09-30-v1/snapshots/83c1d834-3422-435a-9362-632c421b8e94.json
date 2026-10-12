@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "role_id": "83c1d834-3422-435a-9362-632c421b8e94",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/superlinear/83c1d834-3422-435a-9362-632c421b8e94",
+    "board_url": "https://jobs.ashbyhq.com/superlinear",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/superlinear",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "83c1d834-3422-435a-9362-632c421b8e94",
+    "title": "Experimental Quantum Physicist",
+    "department": "Quantum Hardware",
+    "team": "Quantum Hardware",
+    "employmentType": "FullTime",
+    "location": "Palo Alto",
+    "secondaryLocations": [],
+    "publishedAt": "2026-09-18T17:03:14.308+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressCountry": "United States"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/superlinear/83c1d834-3422-435a-9362-632c421b8e94",
+    "applyUrl": "https://jobs.ashbyhq.com/superlinear/83c1d834-3422-435a-9362-632c421b8e94/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Experimental Physicist</p><p style=\"min-height:1.5em\">Superlinear Computing · Palo Alto, CA (on-site, Stanford Research Park) · Full-time</p><p style=\"min-height:1.5em\">Role</p><p style=\"min-height:1.5em\">You will work with the entropy sources on the bench in our Palo Alto lab and with the superconducting hardware in our Chicago lab. You own attribution: tracing what these systems produce to their physical origin.</p><p style=\"min-height:1.5em\">You would be part of the core team, with a seat in every decision that touches the program. Every member shapes what we build, and we expect the ideas that change our direction to come from you.</p><p style=\"min-height:1.5em\">Occasional travel to our Chicago lab at the Illinois Quantum &amp; Microelectronics Park.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Requirements</p><p style=\"min-height:1.5em\">- A Master's degree (or an equivalent experimental record) in experimental physics, quantum optics, or precision measurement; PhD preferred.</p><p style=\"min-height:1.5em\">- A record of tracing noise in a measurement chain to its physical origins — in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.</p><p style=\"min-height:1.5em\">- Time-series and spectral analysis: periodicities, non-stationarity, correlations.</p><p style=\"min-height:1.5em\">- Analog front-end and data-acquisition artifacts: photodetector and amplifier noise, ADC and clock behavior, grounding and EMI.</p><p style=\"min-height:1.5em\">- Experience characterizing or validating entropy sources or randomness generation.</p><p style=\"min-height:1.5em\">- You have tested a hypothesis your field considered closed, and can show the result.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Preferred Qualifications</p><p style=\"min-height:1.5em\">- ML on measurement streams.</p><p style=\"min-height:1.5em\">- Optical bench experience: lasers, photodetectors, fiber, and their noise physics.</p><p style=\"min-height:1.5em\">- Hands-on superconducting qubit measurement: coherence measurements, dispersive readout, microwave control.</p><p style=\"min-height:1.5em\">- Microwave signal-chain fluency (IQ mixing, heterodyne readout, pulse shaping).</p><p style=\"min-height:1.5em\">- Depth in TLS physics, flux noise, readout crosstalk, or amplifier-chain characterization.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Responsibilities</p><p style=\"min-height:1.5em\">- Attribute structure observed in the output of the systems we operate to its physical origin, and state the disposition.</p><p style=\"min-height:1.5em\">- Analysis of the output streams: periodicities, drift, correlations, and their statistical significance.</p><p style=\"min-height:1.5em\">- Characterization of the acquisition chain from detector to bits.</p><p style=\"min-height:1.5em\">Entropy Sources</p><p style=\"min-height:1.5em\">- Characterization and entropy assessment of the sources we are developing.</p><p style=\"min-height:1.5em\">Pipelines &amp; Reporting</p><p style=\"min-height:1.5em\">- Figures of merit for the ML-driven characterization pipelines our engineering team builds.</p><p style=\"min-height:1.5em\">- Attribution reports that engineering acts on.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Benefits</p><p style=\"min-height:1.5em\">- Compensation: $240,000–$300,000 base plus equity, commensurate with experience.</p><p style=\"min-height:1.5em\">- Relocation support if needed.</p><p style=\"min-height:1.5em\">****To apply: Please add a short note on a hypothesis you tested that your field considered closed.*****</p>",
+    "descriptionPlain": "Experimental Physicist\n\nSuperlinear Computing · Palo Alto, CA (on-site, Stanford Research Park) · Full-time\n\nRole\n\nYou will work with the entropy sources on the bench in our Palo Alto lab and with the superconducting hardware in our Chicago lab. You own attribution: tracing what these systems produce to their physical origin.\n\nYou would be part of the core team, with a seat in every decision that touches the program. Every member shapes what we build, and we expect the ideas that change our direction to come from you.\n\nOccasional travel to our Chicago lab at the Illinois Quantum & Microelectronics Park.\n\n\n\nRequirements\n\n- A Master's degree (or an equivalent experimental record) in experimental physics, quantum optics, or precision measurement; PhD preferred.\n\n- A record of tracing noise in a measurement chain to its physical origins — in quantum hardware, precision metrology, gravitational-wave detection, or optical systems.\n\n- Time-series and spectral analysis: periodicities, non-stationarity, correlations.\n\n- Analog front-end and data-acquisition artifacts: photodetector and amplifier noise, ADC and clock behavior, grounding and EMI.\n\n- Experience characterizing or validating entropy sources or randomness generation.\n\n- You have tested a hypothesis your field considered closed, and can show the result.\n\n\n\nPreferred Qualifications\n\n- ML on measurement streams.\n\n- Optical bench experience: lasers, photodetectors, fiber, and their noise physics.\n\n- Hands-on superconducting qubit measurement: coherence measurements, dispersive readout, microwave control.\n\n- Microwave signal-chain fluency (IQ mixing, heterodyne readout, pulse shaping).\n\n- Depth in TLS physics, flux noise, readout crosstalk, or amplifier-chain characterization.\n\n\n\nResponsibilities\n\n- Attribute structure observed in the output of the systems we operate to its physical origin, and state the disposition.\n\n- Analysis of the output streams: periodicities, drift, correlations, and their statistical significance.\n\n- Characterization of the acquisition chain from detector to bits.\n\nEntropy Sources\n\n- Characterization and entropy assessment of the sources we are developing.\n\nPipelines & Reporting\n\n- Figures of merit for the ML-driven characterization pipelines our engineering team builds.\n\n- Attribution reports that engineering acts on.\n\n\n\nBenefits\n\n- Compensation: $240,000–$300,000 base plus equity, commensurate with experience.\n\n- Relocation support if needed.\n\n****To apply: Please add a short note on a hypothesis you tested that your field considered closed.*****"
+  }
+}

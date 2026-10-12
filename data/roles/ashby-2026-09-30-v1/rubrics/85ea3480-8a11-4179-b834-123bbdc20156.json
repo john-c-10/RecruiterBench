@@ -1,0 +1,290 @@
+{
+  "schema_version": "1.0",
+  "role_id": "85ea3480-8a11-4179-b834-123bbdc20156",
+  "snapshot_sha256": "ee00bb739197f1dc6032b8ab140d317c4a65f1c6f3a978041970d5905a46d80d",
+  "input_sha256": "ca301ac39a9f76c9160fd421c2e5b1f5133ffd16c8b290d7edcafedab3992c34",
+  "rubric_sha256": "f4d673cb29adda5b56518bc98a8acd1141ed7e4faaf6b9ccd7dc31322dc2ea07",
+  "rubric": {
+    "role_summary": "Onsite CNC programmer for precision manufacturing of building-system components, developing and optimizing multi-axis machining programs and supporting production-floor validation and troubleshooting.",
+    "search_query": "Find candidates for this role:\nOnsite CNC programmer for precision manufacturing of building-system components, developing and optimizing multi-axis machining programs and supporting production-floor validation and troubleshooting.\nMandatory professional qualifications:\n- 3+ years of hands-on experience as a CNC Programmer in a precision machining environment.\n- Strong proficiency with at least one major CAM software package; Mastercam, Fusion 360, SolidCAM, Siemens NX, or equivalent are acceptable.\n- Strong understanding of G-code and M-code programming, including manually editing and troubleshooting programs at the control.\n- Experience programming multi-axis CNC equipment, including 3- and 4-axis mills and CNC lathes.\n- Ability to read and interpret complex engineering drawings, GD&T (ASME Y14.5), and 3D CAD models.\n- Strong working knowledge of machining principles, cutting-tool technology, speeds and feeds, workholding methods, and fixturing.\n- Familiarity with metrology tools and basic inspection techniques, including calipers, micrometers, and height gauges.\nPreferred, not mandatory:\n- Technical degree or certificate in CNC Programming, Manufacturing Technology, or a related field.\n- Mastercam experience.\n- 5-axis simultaneous machining and multi-tasking/mill-turn experience.\n- CMM experience.\n- Knowledge of advanced CAM features, including high-speed machining strategies, rest machining, adaptive clearing, and toolpath optimization.\n- Experience with post-processor customization or CNC control systems such as Fanuc, Haas, Siemens, Mazak, Okuma, or equivalent.\n- Background in aerospace, medical, automotive, or other precision industries with tight-tolerance requirements.\n- Familiarity with ERP/MRP systems and production scheduling.\n- Lean manufacturing or continuous-improvement experience.\n- High school diploma or equivalent.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of hands-on experience as a CNC Programmer in a precision machining environment.",
+        "source_quote": "3+ years of hands-on experience as a CNC Programmer in a precision machining environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Strong proficiency with at least one major CAM software package; Mastercam, Fusion 360, SolidCAM, Siemens NX, or equivalent are acceptable.",
+        "source_quote": "Strong proficiency with at least one major CAM software package; Mastercam preferred, with Fusion 360, SolidCAM, Siemens NX, or equivalent also acceptable.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Strong understanding of G-code and M-code programming, including manually editing and troubleshooting programs at the control.",
+        "source_quote": "Strong understanding of G-code and M-code programming, including the ability to manually edit and troubleshoot programs at the control.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience programming multi-axis CNC equipment, including 3- and 4-axis mills and CNC lathes.",
+        "source_quote": "Experience programming multi-axis CNC equipment, including 3- and 4-axis mills and CNC lathes; 5-axis simultaneous machining and multi-tasking/mill-turn experience preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Ability to read and interpret complex engineering drawings, GD&T (ASME Y14.5), and 3D CAD models.",
+        "source_quote": "Ability to read and interpret complex engineering drawings, GD&T (ASME Y14.5), and 3D CAD models.",
+        "verification": "profile"
+      },
+      {
+        "id": "M6",
+        "requirement": "Strong working knowledge of machining principles, cutting-tool technology, speeds and feeds, workholding methods, and fixturing.",
+        "source_quote": "Strong working knowledge of machining principles, cutting-tool technology, speeds and feeds, workholding methods, and fixturing.",
+        "verification": "profile"
+      },
+      {
+        "id": "M7",
+        "requirement": "Familiarity with metrology tools and basic inspection techniques, including calipers, micrometers, and height gauges.",
+        "source_quote": "Familiarity with metrology tools and basic inspection techniques, including calipers, micrometers, and height gauges; CMM experience is a plus.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Technical degree or certificate in CNC Programming, Manufacturing Technology, or a related field.",
+        "source_quote": "High school diploma or equivalent required; technical degree or certificate in CNC Programming, Manufacturing Technology, or a related field preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Mastercam experience.",
+        "source_quote": "Mastercam preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "5-axis simultaneous machining and multi-tasking/mill-turn experience.",
+        "source_quote": "5-axis simultaneous machining and multi-tasking/mill-turn experience preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "CMM experience.",
+        "source_quote": "CMM experience is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Knowledge of advanced CAM features, including high-speed machining strategies, rest machining, adaptive clearing, and toolpath optimization.",
+        "source_quote": "Knowledge of advanced CAM features, including high-speed machining strategies, rest machining, adaptive clearing, and toolpath optimization, preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience with post-processor customization or CNC control systems such as Fanuc, Haas, Siemens, Mazak, Okuma, or equivalent.",
+        "source_quote": "Experience with post-processor customization or CNC control systems such as Fanuc, Haas, Siemens, Mazak, Okuma, or equivalent, preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Background in aerospace, medical, automotive, or other precision industries with tight-tolerance requirements.",
+        "source_quote": "Background in aerospace, medical, automotive, or other precision industries with tight-tolerance requirements preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Familiarity with ERP/MRP systems and production scheduling.",
+        "source_quote": "Familiarity with ERP/MRP systems and production scheduling preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Lean manufacturing or continuous-improvement experience.",
+        "source_quote": "Lean manufacturing or continuous-improvement experience preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "High school diploma or equivalent.",
+        "source_quote": "High school diploma or equivalent required; technical degree or certificate in CNC Programming, Manufacturing Technology, or a related field preferred.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Austin",
+        "OnSite",
+        "Candidates must be based in Austin, TX full-time.",
+        "This role requires significant time working on the production floor."
+      ]
+    },
+    "soft_requirements": [
+      "Problem-solving and communication skills, attention to detail, and ability to work independently and collaboratively.",
+      "Flexibility for occasional overtime or adjusted hours that may be required to support production needs."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "ee00bb739197f1dc6032b8ab140d317c4a65f1c6f3a978041970d5905a46d80d",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:36.085352+00:00",
+    "response_id": "chatcmpl-ETyRq2DEbmzEaKxtsNZ6uLUs78Xmi",
+    "usage": {
+      "prompt_tokens": 2323,
+      "completion_tokens": 1529,
+      "total_tokens": 3852,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1077,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 102,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "dc2eaaf7936397122b90d817d4d31ae6b7d5a473101d2235f4b5ff2636a120cc",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Candidates must be based in Austin, TX full-time for an onsite role with significant production-floor time. The posting does not explicitly state that they must already reside there or address relocation.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Austin, TX"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Austin",
+        "OnSite",
+        "Candidates must be based in Austin, TX full-time.",
+        "This role requires significant time working on the production floor."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years of hands-on experience as a CNC Programmer in a precision machining environment.",
+        "effective_requirement": "3+ years of hands-on experience as a CNC Programmer in a precision machining environment.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "4a6fe605227a9ac0cff6d726c78de41628fd54d85b77640cf3b7bc412bcead58",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M9",
+          "requirement": "Comfort working in a machine-shop environment with exposure to noise, coolant, metal chips, and fiber dust.",
+          "source_quote": "Candidates must be comfortable working in a machine-shop environment with exposure to noise, coolant, metal chips, and fiber dust; appropriate PPE is provided.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M10",
+          "requirement": "Ability to stand and walk for extended periods and consistently lift and move 40–50 lbs.",
+          "source_quote": "This role requires the ability to stand and walk for extended periods and consistently lift and move 40–50 lbs.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "8ba3df63892256d324a892dfbf0f8be506a532e251a899576d7a6b7ac67be986",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "High school diploma or equivalent.",
+          "source_quote": "High school diploma or equivalent required; technical degree or certificate in CNC Programming, Manufacturing Technology, or a related field preferred.",
+          "verification": "profile",
+          "reason": "High school diploma is rarely listed on profiles."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M3": "M2",
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5",
+        "M7": "M6",
+        "M8": "M7"
+      },
+      "demoted_preference_ids": {
+        "M2": "P10"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "770af43d66abf601d0fc24cf488b5da36ef3acf51640001803a0b37377da7f22",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2a0f75037b55c5aec997f4243a20ba34fd53e5b1c69428b492ccee0ad340cc2b",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years of hands-on experience as a CNC Programmer in a precision machining environment.",
+      "effective_requirement": "3+ years of hands-on experience as a CNC Programmer in a precision machining environment.",
+      "kind": "mandatory"
+    }
+  ]
+}

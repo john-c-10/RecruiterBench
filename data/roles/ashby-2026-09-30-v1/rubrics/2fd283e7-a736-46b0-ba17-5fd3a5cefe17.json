@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "role_id": "2fd283e7-a736-46b0-ba17-5fd3a5cefe17",
+  "snapshot_sha256": "5572893b113928956b60ec741688249e1ea2c471a5e535797f3137ef4c216872",
+  "input_sha256": "7f2103d5465dccb18eb996cace77a18e20f0316a542199acc0315d0f72db70ea",
+  "rubric_sha256": "89080e8147905c3bf6b58e00e78cb4970961fa5abf503e1a795dc2f783d48ecb",
+  "rubric": {
+    "role_summary": "Staff-level product management role on a payments platform, leading projects across card-scheme coverage, payment processing and infrastructure, from ideation through launch.",
+    "search_query": "Find candidates for this role:\nStaff-level product management role on a payments platform, leading projects across card-scheme coverage, payment processing and infrastructure, from ideation through launch.\nMandatory professional qualifications:\n- 8+ years of professional experience.\n- Bachelor's degree or above.\nPreferred, not mandatory:\n- Exposure to a high-growth environment.\n- Engineering or computer science coursework.\n- Deep payment-processing expertise, including direct integrations with Visa and MasterCard; acquiring-side experience is preferred.\n- Technical understanding sufficient to engage in architectural discussions with engineering teams.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "8+ years of professional experience.",
+        "source_quote": "8+ years of professional experience, ideally with exposure to a high-growth environment",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Bachelor's degree or above.",
+        "source_quote": "Bachelor's degree or above with a competitive GPA, preferably with engineering or computer science coursework",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Exposure to a high-growth environment.",
+        "source_quote": "ideally with exposure to a high-growth environment",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Engineering or computer science coursework.",
+        "source_quote": "preferably with engineering or computer science coursework",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Deep payment-processing expertise, including direct integrations with Visa and MasterCard; acquiring-side experience is preferred.",
+        "source_quote": "Deep expertise in payment processing, working on direct integrations with Visa and MasterCard (preferably on acquiring side)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Technical understanding sufficient to engage in architectural discussions with engineering teams.",
+        "source_quote": "Solid technical understanding and ability to engage in architectural discussions with engineering teams",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "US - San Francisco",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Competitive GPA; no objective threshold is stated.",
+      "Excellent communication and ability to convey product strategy to technical and non-technical audiences.",
+      "Close attention to detail, ability to structure complex problems, and data- and first-principles-informed judgment.",
+      "Drive, grit, persistence, ownership, and ability to move ideas to reality quickly.",
+      "Ability to thrive in cross-cultural and cross-functional teams."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "5572893b113928956b60ec741688249e1ea2c471a5e535797f3137ef4c216872",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:25.647669+00:00",
+    "response_id": "chatcmpl-ETySkA7D8J8rQRC3CG5Gw6XrVG3qL",
+    "usage": {
+      "prompt_tokens": 2374,
+      "completion_tokens": 706,
+      "total_tokens": 3080,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1128,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 32,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "9c1dcd1ed0bf583e0ded91c6bbf49c7135f082d5930f4eb7a09ff8535529bcfc",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role in San Francisco, US. The posting does not require current residence there or state a relocation policy.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, California, US"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "US - San Francisco",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "8+ years of professional experience, ideally with exposure to a high-growth environment",
+        "effective_requirement": "8+ years of professional experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "8a6f827533afe0e056b9865b3dfc6f5c3ed2ae4bad06ac4e9fde33ba61c79b9b",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "8a6f827533afe0e056b9865b3dfc6f5c3ed2ae4bad06ac4e9fde33ba61c79b9b",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "8a6f827533afe0e056b9865b3dfc6f5c3ed2ae4bad06ac4e9fde33ba61c79b9b",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "56812ac2bd642ed08e38ea6ce7c82215f1c03cfc3bdc94deb80b2678c144f141",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "8+ years of professional experience, ideally with exposure to a high-growth environment",
+      "effective_requirement": "8+ years of professional experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

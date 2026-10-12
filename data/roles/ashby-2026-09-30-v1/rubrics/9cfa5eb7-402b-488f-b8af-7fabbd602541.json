@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9cfa5eb7-402b-488f-b8af-7fabbd602541",
+  "snapshot_sha256": "2fe80703afc209e5adac6410eced9f3700aab8e5ff7514c3bb27b2bdf78143c3",
+  "input_sha256": "42e9535c6972c828ec002cb52cabb6fe1e0b187c2fe836a458b9b64df67581a1",
+  "rubric_sha256": "060a40072cf731731a18b3dba273daa8def9513439d9738d5658b56d71b1b81d",
+  "rubric": {
+    "role_summary": "Full-stack data scientist on a platform team, designing and implementing production data products—including models, dashboards, and visualizations—for wastewater-process insights.",
+    "search_query": "Find candidates for this role:\nFull-stack data scientist on a platform team, designing and implementing production data products—including models, dashboards, and visualizations—for wastewater-process insights.\nMandatory professional qualifications:\n- 4+ years of experience as a collaborative data professional (data scientist, data analyst, or data engineer).\n- Academic and professional background pairing data or computer science with environmental or natural science; no specific degree is stated.\n- Python proficiency, especially for scientific computing, machine learning, and visualization; the named libraries are examples, not an all-libraries requirement.\n- Experience designing data visualizations.\nPreferred, not mandatory:\n- Experience with MRV, wastewater modeling, process-based modeling, geospatial data analysis and modeling, or physics-informed machine learning.\n- Experience building for non-technical stakeholders and designing data visualizations.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; Greater New Haven, CT area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "4+ years of experience as a collaborative data professional (data scientist, data analyst, or data engineer).",
+        "source_quote": "4+ years experience as a collaborative data professional (data scientist, data analyst, data engineer).",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Academic and professional background pairing data or computer science with environmental or natural science; no specific degree is stated.",
+        "source_quote": "Academic and professional background that pairs data or computer science with environmental or natural science.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Python proficiency, especially for scientific computing, machine learning, and visualization; the named libraries are examples, not an all-libraries requirement.",
+        "source_quote": "Python proficiency, especially with scientific (numpy, pandas), machine learning (scikit-learn, pytorch), and visualization (matplotlib, seaborn, plotly) libraries.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience designing data visualizations.",
+        "source_quote": "Experience building for non-technical stakeholders and designing thoughtful data visualizations.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with MRV, wastewater modeling, process-based modeling, geospatial data analysis and modeling, or physics-informed machine learning.",
+        "source_quote": "Preferred, but not required experiences: MRV, wastewater modeling, process-based modeling, geospatial data analysis & modeling, physics-informed machine learning.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience building for non-technical stakeholders and designing data visualizations.",
+        "source_quote": "Experience building for non-technical stakeholders and designing thoughtful data visualizations.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Brooklyn, NY",
+        "Remote",
+        "New Haven, CT",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort collecting requirements and iterating based on feedback.",
+      "Clear communication and documentation habits.",
+      "Comfort working in a fast-paced, early-stage, or evolving company environment.",
+      "Extreme ownership, teamwork, empathy, and a growth mindset."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "2fe80703afc209e5adac6410eced9f3700aab8e5ff7514c3bb27b2bdf78143c3",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:50.083322+00:00",
+    "response_id": "chatcmpl-ETySAltuzrkROpQsMrhtoQqtpSFlQ",
+    "usage": {
+      "prompt_tokens": 2790,
+      "completion_tokens": 716,
+      "total_tokens": 3506,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1544,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 69,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "c090b7baa34bf6d6bb101915ee77df27a7275a4a49d49222effe3664bb764a39",
+    "resolved_ambiguities": [
+      "The posting lists both a Hybrid workplace type and a Remote secondary location but does not specify remote eligibility boundaries or whether hybrid attendance applies to remote hires."
+    ],
+    "resolution": "Remote candidates must be in either the New York or New Haven general area.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid workplace with Brooklyn, NY and New Haven, CT locations, plus a listed remote option. The geographic scope and arrangements of the remote option are not specified; current residence in either office city is not required explicitly.",
+      "workplace_type": "mixed",
+      "allowed_locations": [
+        "Brooklyn, NY",
+        "New Haven, CT",
+        "Remote (geographic scope unspecified)"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Brooklyn, NY",
+        "Remote",
+        "New Haven, CT",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "4+ years experience as a collaborative data professional (data scientist, data analyst, data engineer).",
+        "effective_requirement": "4+ years of experience as a collaborative data professional (data scientist, data analyst, or data engineer).",
+        "kind": "mandatory"
+      }
+    ],
+    "dropped_location_options": [
+      "Remote (geographic scope unspecified)"
+    ],
+    "dropped_location_note": "Dropped non-geographic location options: Remote (geographic scope unspecified). Under the approved rule that remote work with named locations is constrained to those locations, these options do not widen eligibility. This is stricter than the less-restrictive default and is an explicit policy choice.",
+    "observability": {
+      "parent_rubric_sha256": "081d00fe0b0bac3aaaebe081b5f63a41e35f3edbe98a0d1da36c352a5b287fad",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "081d00fe0b0bac3aaaebe081b5f63a41e35f3edbe98a0d1da36c352a5b287fad",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Experience building for non-technical stakeholders and designing data visualizations.",
+          "after": "Experience designing data visualizations.",
+          "reason": "Data visualization is often listed; building for non-technical stakeholders is rarely stated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "5dfbf162906f24287cbe43c44205e893ceeec68133964472b049df0ac37dfd7c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "3de3b7bb411d64065986aa4f857472ea816091cc1f8a5fd26b7b2f03cf0ba8e4",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office. The remote label has no stated region.",
+      "previous_allowed_locations": [
+        "New York metropolitan area",
+        "Greater New Haven, CT area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; Greater New Haven, CT area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "4+ years experience as a collaborative data professional (data scientist, data analyst, data engineer).",
+      "effective_requirement": "4+ years of experience as a collaborative data professional (data scientist, data analyst, or data engineer).",
+      "kind": "mandatory"
+    }
+  ]
+}

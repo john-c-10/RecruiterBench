@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "role_id": "eb84d592-603c-44a4-9b3f-d1c9a52cb4fb",
+  "snapshot_sha256": "e3122e10fe32a21cfdfc3f08ab246ca7fefa2b06506a15883436b252c0a44c86",
+  "input_sha256": "5edf050598f46123fb4ea731c0e70488a781b22f4ff91f5bee1ca61690e39d90",
+  "rubric_sha256": "b923467251e42a0738f1138a28b838b4c72b7045c27b8d583779f0fa067730cf",
+  "rubric": {
+    "role_summary": "ASIC design engineering for implantable neural-interface systems, spanning module design, pre-silicon verification, and post-silicon chip validation.",
+    "search_query": "Find candidates for this role:\nASIC design engineering for implantable neural-interface systems, spanning module design, pre-silicon verification, and post-silicon chip validation.\nMandatory professional qualifications:\n- Bachelor's degree in Electrical Engineering or Computer Science plus relevant industry experience in ASIC design, OR a Master's degree or PhD with hands-on ASIC design experience through university lab or project work.\n- Ability to work in a Linux or Linux-like environment.\n- Experience with analog circuit design.\n- Experience with digital (RTL) design.\n- Programming experience.\n- Experience testing or debugging designs or systems.\nPreferred, not mandatory:\n- High-precision, low-noise, low-power circuit design experience.\n- Experience designing or working with industry-standard interfaces.\n- Test automation experience.\n- Experience with the Cadence tool suite.\n- Design or research related to medical devices.\n- Work-related or personal tinkering projects to solve everyday problems.\n- Experience managing design tools or vendor-supplied libraries in a university lab or industry setting.\n- Ability to work in a Linux or Linux-like environment with open-source projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role is expected to work on site from our Alameda Headquarters 5 days a week.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor's degree in Electrical Engineering or Computer Science plus relevant industry experience in ASIC design, OR a Master's degree or PhD with hands-on ASIC design experience through university lab or project work.",
+        "source_quote": "Bachelor's degree in Electrical Engineering/Computer Science, plus relevant industry experience in ASIC design — or a Master's/PhD with hands-on ASIC design experience through university lab or project work",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Ability to work in a Linux or Linux-like environment.",
+        "source_quote": "Comfortable working independently in a Linux/Linux-like environment, working with open-source projects",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience with analog circuit design.",
+        "source_quote": "Analog circuit design",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience with digital (RTL) design.",
+        "source_quote": "Digital (RTL) design",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Programming experience.",
+        "source_quote": "Programming",
+        "verification": "profile"
+      },
+      {
+        "id": "M6",
+        "requirement": "Experience testing or debugging designs or systems.",
+        "source_quote": "Testing/debugging designs or systems",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "High-precision, low-noise, low-power circuit design experience.",
+        "source_quote": "High-precision, low-noise, low-power circuit design (e.g., bandgap reference, high-speed IO, PLL, ADC)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience designing or working with industry-standard interfaces.",
+        "source_quote": "Design/work with industry-standard interfaces, such as SPI and I2C",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Test automation experience.",
+        "source_quote": "Test automation",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience with the Cadence tool suite.",
+        "source_quote": "Experience with the Cadence tool suite",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Design or research related to medical devices.",
+        "source_quote": "Design or research related to medical devices (e.g., neuroscience, biomedical instrumentation)",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Work-related or personal tinkering projects to solve everyday problems.",
+        "source_quote": "A track record of tinkering — work-related and/or personal projects (e.g., Raspberry Pi builds) to solve everyday problems",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience managing design tools or vendor-supplied libraries in a university lab or industry setting.",
+        "source_quote": "Managing design tools or vendor-supplied libraries (e.g., PDKs) in the university lab or industry setting",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Ability to work in a Linux or Linux-like environment with open-source projects.",
+        "source_quote": "Comfortable working independently in a Linux/Linux-like environment, working with open-source projects",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Alameda HQ",
+        "OnSite",
+        "This role is expected to work on site from our Alameda Headquarters 5 days a week.",
+        "Work from our beautiful waterfront office in Alameda, CA, with access to collaborative spaces and labs."
+      ]
+    },
+    "soft_requirements": [
+      "Strong written and verbal communication, including clear documentation and candid project-status updates.",
+      "Comfort working independently.",
+      "Inquisitive, creative problem-solving approach and interest in tinkering."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e3122e10fe32a21cfdfc3f08ab246ca7fefa2b06506a15883436b252c0a44c86",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:16.804146+00:00",
+    "response_id": "chatcmpl-ETySYMvEIGZi621w8Pd001RuSKVnx",
+    "usage": {
+      "prompt_tokens": 2060,
+      "completion_tokens": 1188,
+      "total_tokens": 3248,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 814,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 66,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1c7726b2247ce98646fe50d9506d126cfabbb1aadd0f30e47a983d116b0c9ab9",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite at the Alameda, California headquarters five days a week; present residence in Alameda is not specified.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Alameda, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Alameda HQ",
+        "OnSite",
+        "This role is expected to work on site from our Alameda Headquarters 5 days a week.",
+        "Work from our beautiful waterfront office in Alameda, CA, with access to collaborative spaces and labs."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "4521f6bc0acbcf8b0be8a991885754e8f4b20d77b98ddc05d6f4590778f04938",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "4521f6bc0acbcf8b0be8a991885754e8f4b20d77b98ddc05d6f4590778f04938",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Ability to work in a Linux or Linux-like environment with open-source projects.",
+          "after": "Ability to work in a Linux or Linux-like environment.",
+          "reason": "Linux use is implied by ASIC/EDA work; open-source project work is rarely stated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P8"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "513b3e04df970e40873c8bf057575900194238b95340fd6a068dee2161146182",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "4b09f56db6000800b5cc223fea1a30defeaa3f940704788511b2a9d5e1ba97c7",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role is expected to work on site from our Alameda Headquarters 5 days a week.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

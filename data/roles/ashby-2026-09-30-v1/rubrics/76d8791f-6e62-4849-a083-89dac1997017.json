@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "role_id": "76d8791f-6e62-4849-a083-89dac1997017",
+  "snapshot_sha256": "9d2fa1f3c4e61c08c16528dca29fcf57a9260ff80fbdd49cc4da535ddb6ff2b5",
+  "input_sha256": "3ddf944d98f5f5f967f6b55c24e71d18c9b87692bee11ac086bd1f686416f4b0",
+  "rubric_sha256": "22370fcdd66e192bf639829468c960d936a46389042392de406330b6f73c7283",
+  "rubric": {
+    "role_summary": "Senior technical project manager overseeing satellite wireless-payload and RF systems development projects from concept through product realization, including schedules, budgets, risks, and stakeholder coordination.",
+    "search_query": "Find candidates for this role:\nSenior technical project manager overseeing satellite wireless-payload and RF systems development projects from concept through product realization, including schedules, budgets, risks, and stakeholder coordination.\nMandatory professional qualifications:\n- A bachelor's degree or better in science, engineering, or a relevant technical field from an accredited university.\n- 10+ years of industry experience, including 3+ years in a Technical Project Management role.\n- Experience working on RF system development projects.\nPreferred, not mandatory:\n- A master's degree in a relevant technical field.\n- Experience as a Technical Lead or Project Manager working in the RF domain.\n- Exposure to government programs and a current active security clearance.\n- Experience transitioning technologies from a design concept to a functioning product.\n- Technical understanding of and experience working on RF system development projects, including RFFE design and test, antenna design and test, and digital beamforming system design and test.\n- Familiarity with wireless communications, modern communications signals and protocols, RF system design, high-speed digital design, COTS component integration, and software and hardware development.\n- Knowledge and understanding of processes, tools, and metrics essential for project monitoring and control and risk management.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Washington, DC area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "A bachelor's degree or better in science, engineering, or a relevant technical field from an accredited university.",
+        "source_quote": "A Bachelor’s Degree or better in science, engineering, or relevant technical field from an accredited university",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "10+ years of industry experience, including 3+ years in a Technical Project Management role.",
+        "source_quote": "10+ years of industry experience, including 3+ years in a Technical Project Management role.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience working on RF system development projects.",
+        "source_quote": "Technical understanding of and experience working on RF System development projects, including RFFE design and test, antenna design and test, and digital beamforming system design and test (e.g., beamformers).",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "A master's degree in a relevant technical field.",
+        "source_quote": "a Master Degree in a relevant technical field is preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience as a Technical Lead or Project Manager working in the RF domain.",
+        "source_quote": "Demonstrated experience as a Technical Lead or Project Manager working in the RF domain is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Exposure to government programs and a current active security clearance.",
+        "source_quote": "Exposure to government programs and a current active security clearance is a plus.",
+        "verification": "candidate_confirmation"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience transitioning technologies from a design concept to a functioning product.",
+        "source_quote": "Experience transitioning technologies from a design concept to a functioning product is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Technical understanding of and experience working on RF system development projects, including RFFE design and test, antenna design and test, and digital beamforming system design and test.",
+        "source_quote": "Technical understanding of and experience working on RF System development projects, including RFFE design and test, antenna design and test, and digital beamforming system design and test (e.g., beamformers).",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Familiarity with wireless communications, modern communications signals and protocols, RF system design, high-speed digital design, COTS component integration, and software and hardware development.",
+        "source_quote": "Managing RF systems technical projects at Elveo requires familiarity with wireless communications, modern communications signals and protocols, RF system design, high speed digital design, COTS component integration, and software and hardware development.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Knowledge and understanding of processes, tools, and metrics essential for project monitoring and control and risk management.",
+        "source_quote": "Knowledge and understanding of processes, tools, and metrics essential for project monitoring and control and risk management.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Washington, DC area. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "Washington, DC area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Washington, DC Area",
+        "Washington, DC area"
+      ]
+    },
+    "soft_requirements": [
+      "Entrepreneurial approach to driving or assisting technology development efforts.",
+      "Ability to inform or architect future work while planning execution across multifunctional teams."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "9d2fa1f3c4e61c08c16528dca29fcf57a9260ff80fbdd49cc4da535ddb6ff2b5",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:36.391190+00:00",
+    "response_id": "chatcmpl-ETyUmdIIx7teJitasN0IW8QBltPXv",
+    "usage": {
+      "prompt_tokens": 2240,
+      "completion_tokens": 1314,
+      "total_tokens": 3554,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 994,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 64,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "2e7c8828bfca40e30bbc80784ac46511a06052667701da5bbc55df11cd7f0b99",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work location is the Washington, DC area; the posting does not require current residence there or specify an onsite, hybrid, or remote arrangement.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "Washington, DC area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Washington, DC Area",
+        "Washington, DC area"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "10+ years of industry experience, including 3+ years in a Technical Project Management role.",
+        "effective_requirement": "10+ years of industry experience, including 3+ years in a Technical Project Management role.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "0980ba5f6f21ee11f04b95e44b7f3ccce068bb3eb669fc924947a3a0f38fcdb9",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "For ITAR compliance, be a U.S. citizen or national, lawful permanent resident, refugee under 8 U.S.C. § 1157, or asylee under 8 U.S.C. § 1158; alternatively, be eligible to obtain the necessary authorizations from the U.S. Department of State.",
+          "source_quote": "To comply with U.S. Government export control regulations (ITAR), applicants must be one of the following: (i) a U.S. citizen or national, (ii) a lawful permanent resident (green card holder), (iii) a refugee under 8 U.S.C. § 1157, or (iv) an asylee under 8 U.S.C. § 1158. Individuals who do not meet these criteria must be eligible to obtain the necessary authorizations from the U.S. Department of State.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "929930f00d17bcdeb70ae3ff8148109cf74219f740b8a0e2a76343e35ef7fcfa",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Familiarity with wireless communications, modern communications signals and protocols, RF system design, high-speed digital design, COTS component integration, and software and hardware development.",
+          "source_quote": "Managing RF systems technical projects at Elveo requires familiarity with wireless communications, modern communications signals and protocols, RF system design, high speed digital design, COTS component integration, and software and hardware development.",
+          "verification": "profile",
+          "reason": "Long familiarity list rarely stated beyond the kept RF experience."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Knowledge and understanding of processes, tools, and metrics essential for project monitoring and control and risk management.",
+          "source_quote": "Knowledge and understanding of processes, tools, and metrics essential for project monitoring and control and risk management.",
+          "verification": "profile",
+          "reason": "Project control process knowledge is unstated beyond the TPM role."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Technical understanding of and experience working on RF system development projects, including RFFE design and test, antenna design and test, and digital beamforming system design and test.",
+          "after": "Experience working on RF system development projects.",
+          "reason": "RF projects observable; every subsystem area is unrealistic."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P5",
+        "M4": "P6",
+        "M5": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0f41a46d3ef849b3c69ac849e6c0099bdde2334ed631897e21306cfe4511a51b",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "353b5910837fde196fc054caa4e2d14fb9cb3f819d8fa51539ebad3615a11374",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Washington, DC area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Washington, DC area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "10+ years of industry experience, including 3+ years in a Technical Project Management role.",
+      "effective_requirement": "10+ years of industry experience, including 3+ years in a Technical Project Management role.",
+      "kind": "mandatory"
+    }
+  ]
+}

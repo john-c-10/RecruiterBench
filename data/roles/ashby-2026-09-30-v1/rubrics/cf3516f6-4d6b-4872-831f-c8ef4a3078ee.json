@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "role_id": "cf3516f6-4d6b-4872-831f-c8ef4a3078ee",
+  "snapshot_sha256": "d8bbfe337e64068962d8299ddf9e7945f5f0d3314f71e615baa011549a8e4dc2",
+  "input_sha256": "86ae98fedba9ce8e8684e9812a6d1e04606b06b2de738e52b99e7b3939ce46b1",
+  "rubric_sha256": "a4bda2d92785e8cba93f3cd2c569b7d72cada74367877e75e332ca705429fe5d",
+  "rubric": {
+    "role_summary": "Product manager for vendor intelligence and a B2B marketplace, responsible for price benchmarking, contract analysis, and vendor discovery within a financial platform.",
+    "search_query": "Find candidates for this role:\nProduct manager for vendor intelligence and a B2B marketplace, responsible for price benchmarking, contract analysis, and vendor discovery within a financial platform.\nMandatory professional qualifications:\n- BA/BS in a technical or analytical field, such as Computer Science, Engineering, Analytics, Mathematics, Economics, or a related field.\n- 5+ years of product management experience.\n- Hands-on experience building AI/LLM-based product features.\nPreferred, not mandatory:\n- Product management experience with products where data quality and customer trust are the core value proposition.\n- Experience building price benchmarking, market intelligence, or contract analytics products.\n- Marketplace experience involving supply/demand matching, seller acquisition, buyer discovery, or trust mechanisms for two-sided systems.\n- Document-understanding experience involving OCR, LLM-based extraction, or normalization of structured data from unstructured contracts.\n- Background in procurement, vendor management, or enterprise SaaS buying and selling, as a product manager or practitioner.\n- Familiarity with vendor due diligence, security reviews, NDAs, or audit trails.\n- Experience taking 0→1 products to scale at a high-growth startup.\n- Hands-on experience building AI features, with familiarity with LLM-based extraction and retrieval, evaluation methodology, and human-in-the-loop design.\n- Track record building products with explainability, auditability, graceful degradation, and clear user controls.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "BA/BS in a technical or analytical field, such as Computer Science, Engineering, Analytics, Mathematics, Economics, or a related field.",
+        "source_quote": "BA/BS in a technical or analytical field (Computer Science, Engineering, Analytics, Mathematics, Economics, or related).",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "5+ years of product management experience.",
+        "source_quote": "5+ years of product management experience, ideally with products where data quality and customer trust are the core value proposition.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Hands-on experience building AI/LLM-based product features.",
+        "source_quote": "AI fluency: hands-on experience building AI features, comfort with LLM-based extraction and retrieval, evaluation methodology, and human-in-the-loop design.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Product management experience with products where data quality and customer trust are the core value proposition.",
+        "source_quote": "ideally with products where data quality and customer trust are the core value proposition.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience building price benchmarking, market intelligence, or contract analytics products.",
+        "source_quote": "Experience building price benchmarking, market intelligence, or contract analytics products, anywhere from procurement software to B2B SaaS to fintech.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Marketplace experience involving supply/demand matching, seller acquisition, buyer discovery, or trust mechanisms for two-sided systems.",
+        "source_quote": "Marketplace experience: supply/demand matching, seller acquisition, buyer discovery, and the trust primitives that make two-sided systems work.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Document-understanding experience involving OCR, LLM-based extraction, or normalization of structured data from unstructured contracts.",
+        "source_quote": "Document understanding: OCR, LLM-based extraction, normalizing structured data from unstructured contracts.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Background in procurement, vendor management, or enterprise SaaS buying and selling, as a product manager or practitioner.",
+        "source_quote": "Background in procurement, vendor management, or enterprise SaaS buying and selling, either as a PM or as a practitioner.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Familiarity with vendor due diligence, security reviews, NDAs, or audit trails.",
+        "source_quote": "Familiarity with compliance-adjacent domains: vendor due diligence, security reviews, NDAs, audit trails.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience taking 0→1 products to scale at a high-growth startup.",
+        "source_quote": "Experience at a high-growth startup taking 0→1 products to scale.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Hands-on experience building AI features, with familiarity with LLM-based extraction and retrieval, evaluation methodology, and human-in-the-loop design.",
+        "source_quote": "AI fluency: hands-on experience building AI features, comfort with LLM-based extraction and retrieval, evaluation methodology, and human-in-the-loop design.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Track record building products with explainability, auditability, graceful degradation, and clear user controls.",
+        "source_quote": "Track record building products where trust is earned over time: explainability, auditability, graceful degradation, and clear user controls.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is hybrid in New York City (or San Francisco), and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York, NY (HQ)",
+        "San Francisco, CA",
+        "Hybrid",
+        "Please note that this role requires in-person presence at our NYC or SF office at least 2 days/week.",
+        "Relocation expense coverage to NYC or SF (if needed)"
+      ]
+    },
+    "soft_requirements": [
+      "Product judgment about data products and marketplaces, including flywheel dynamics, network effects, coverage-versus-accuracy tradeoffs, and cold-start problems.",
+      "Commercial understanding of software purchasing, negotiation outcomes, and price transparency.",
+      "Comfort working in technical environments and prototyping quickly with modern AI tools; Figma, SQL, Git, Claude Code, and Cursor are cited as examples.",
+      "Clear, direct communication with technical and non-technical stakeholders and ability to make a concise case for a product decision."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "d8bbfe337e64068962d8299ddf9e7945f5f0d3314f71e615baa011549a8e4dc2",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:11.220358+00:00",
+    "response_id": "chatcmpl-ETyVLb3yK4HXdLz1s84VuyQFneBJY",
+    "usage": {
+      "prompt_tokens": 3030,
+      "completion_tokens": 1417,
+      "total_tokens": 4447,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1784,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 141,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "e55f2b3d9b0c4491d241004e336ee3bb06d4c66ff354ef9110ca311142fff8d5",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "In-person presence at the NYC or San Francisco office at least two days per week. Relocation expense coverage to either city is available if needed; current residence there is not required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York, NY",
+        "San Francisco, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York, NY (HQ)",
+        "San Francisco, CA",
+        "Hybrid",
+        "Please note that this role requires in-person presence at our NYC or SF office at least 2 days/week.",
+        "Relocation expense coverage to NYC or SF (if needed)"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "5+ years of product management experience, ideally with products where data quality and customer trust are the core value proposition.",
+        "effective_requirement": "5+ years of product management experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "2d04381a4cc9806ddbd2f4e9935289da614c9411f9aacc057f52f514245c390b",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "2d04381a4cc9806ddbd2f4e9935289da614c9411f9aacc057f52f514245c390b",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Track record building products with explainability, auditability, graceful degradation, and clear user controls.",
+          "source_quote": "Track record building products where trust is earned over time: explainability, auditability, graceful degradation, and clear user controls.",
+          "verification": "profile",
+          "reason": "Explainability/auditability practices are rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Hands-on experience building AI features, with familiarity with LLM-based extraction and retrieval, evaluation methodology, and human-in-the-loop design.",
+          "after": "Hands-on experience building AI/LLM-based product features.",
+          "reason": "AI feature building is observable; methodology specifics are not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P8",
+        "M4": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "7f88e77fb22099c9081787f144052c3a2543d72ec94317635808e1eab1e3334f",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "93b6844f2087269f6b81b9716209205ea78c5ded39234fb54e89bb363467ca39",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "New York metropolitan area",
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area; San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "5+ years of product management experience, ideally with products where data quality and customer trust are the core value proposition.",
+      "effective_requirement": "5+ years of product management experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

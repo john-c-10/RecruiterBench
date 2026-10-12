@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "role_id": "85775865-f676-47b5-85e4-a7b4237f837c",
+  "snapshot_sha256": "37b0b6a8920488b572fcab59119d6eaa53f59c3238cde29f9948a795140641ad",
+  "input_sha256": "62662be31b975cf83247dd8502ec0311eebbc80c0aa01f8ac1d2ad2e270929a4",
+  "rubric_sha256": "9ec6f6f5c71ddbafed327e127eccb4968617dc81cc33ae52deffaab20708a446",
+  "rubric": {
+    "role_summary": "Senior embedded software engineering role leading firmware architecture and technical projects for distributed home battery systems, including hardware integration and reliable operation at fleet scale.",
+    "search_query": "Find candidates for this role:\nSenior embedded software engineering role leading firmware architecture and technical projects for distributed home battery systems, including hardware integration and reliable operation at fleet scale.\nMandatory professional qualifications:\n- 5+ years of experience developing embedded software or firmware.\n- Deep expertise in C, C++, or Rust.\n- Experience designing embedded systems that interact directly with hardware.\n- Experience with microcontrollers, embedded Linux, or real-time systems.\nPreferred, not mandatory:\n- Experience reading hardware schematics and datasheets to guide firmware design and integration.\n- Experience with the embedded Linux ecosystem, including kernel configuration, driver development, and device update mechanisms.\n- Familiarity with modern processor architectures (ARM, RISC-V) and trade-offs in selecting platforms for embedded systems.\n- Experience developing and debugging software on custom hardware.\n- Working knowledge of power electronics or energy systems.\n- Familiarity with safety and regulatory certification processes (UL1998, UL1741, UL1547).\n- Understanding of system architecture, reliability, and failure modes in production hardware systems.\n- Experience building software for systems deployed at scale.\n- Track record of leading complex technical projects and shaping system architecture.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of experience developing embedded software or firmware.",
+        "source_quote": "5+ years of experience developing embedded software or firmware.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Deep expertise in C, C++, or Rust.",
+        "source_quote": "Deep expertise in C, C++, or Rust.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience designing embedded systems that interact directly with hardware.",
+        "source_quote": "Strong experience designing embedded systems that interact directly with hardware.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience with microcontrollers, embedded Linux, or real-time systems.",
+        "source_quote": "Experience working with microcontrollers, embedded Linux, or real-time systems.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience reading hardware schematics and datasheets to guide firmware design and integration.",
+        "source_quote": "Experience reading hardware schematics and datasheets to guide firmware design and integration.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with the embedded Linux ecosystem, including kernel configuration, driver development, and device update mechanisms.",
+        "source_quote": "Experience with the embedded Linux ecosystem, including kernel configuration, driver development, and device update mechanisms.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Familiarity with modern processor architectures (ARM, RISC-V) and trade-offs in selecting platforms for embedded systems.",
+        "source_quote": "Familiarity with modern processor architectures (ARM, RISC-V) and trade-offs in selecting platforms for embedded systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience developing and debugging software on custom hardware.",
+        "source_quote": "Experience developing and debugging software on custom hardware.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Working knowledge of power electronics or energy systems.",
+        "source_quote": "Working knowledge of power electronics or energy systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Familiarity with safety and regulatory certification processes (UL1998, UL1741, UL1547).",
+        "source_quote": "Familiarity with safety and regulatory certification processes (UL1998, UL1741, UL1547).",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Understanding of system architecture, reliability, and failure modes in production hardware systems.",
+        "source_quote": "Strong understanding of system architecture, reliability, and failure modes in production hardware systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience building software for systems deployed at scale.",
+        "source_quote": "Experience building software for systems deployed at scale.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Track record of leading complex technical projects and shaping system architecture.",
+        "source_quote": "Track record of leading complex technical projects and shaping system architecture.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Austin, TX",
+        "OnSite",
+        "We work in-person."
+      ]
+    },
+    "soft_requirements": [
+      "Ability to work across disciplines including hardware, cloud software, and infrastructure.",
+      "First principles thinking and a bias toward solving hard problems.",
+      "Deep technical judgment and strong systems thinking."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "37b0b6a8920488b572fcab59119d6eaa53f59c3238cde29f9948a795140641ad",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:56.857205+00:00",
+    "response_id": "chatcmpl-ETySFqYjYqRhGe41ME6bRJJCuuabt",
+    "usage": {
+      "prompt_tokens": 2344,
+      "completion_tokens": 1139,
+      "total_tokens": 3483,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1098,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 46,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "59c8f010d83228917d424e776a21a56fff0fcb270b40fe8426ba66db21beb379",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "In-person work in Austin, TX; current Austin residence is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Austin, TX"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Austin, TX",
+        "OnSite",
+        "We work in-person."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years of experience developing embedded software or firmware.",
+        "effective_requirement": "5+ years of experience developing embedded software or firmware.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "3cd12666bcf538840f35d193d7c686948ce806b3cf88503eb9f29c89579c5058",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "3cd12666bcf538840f35d193d7c686948ce806b3cf88503eb9f29c89579c5058",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Understanding of system architecture, reliability, and failure modes in production hardware systems.",
+          "source_quote": "Strong understanding of system architecture, reliability, and failure modes in production hardware systems.",
+          "verification": "profile",
+          "reason": "Understanding of reliability and failure modes is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience building software for systems deployed at scale.",
+          "source_quote": "Experience building software for systems deployed at scale.",
+          "verification": "profile",
+          "reason": "Deployment scale is rarely stated and cannot be reliably inferred."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Track record of leading complex technical projects and shaping system architecture.",
+          "source_quote": "Track record of leading complex technical projects and shaping system architecture.",
+          "verification": "profile",
+          "reason": "A track record of leading projects and shaping architecture is an outcome claim profiles rarely state."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M5": "P7",
+        "M6": "P8",
+        "M7": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "ebe69b1cf0501c192bb489b6479e4c3d0213d0d5621aad06671716c2b6983582",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "d3e8d9277e5124c8d94b22767e8f9b2345aab82664b96767d066df846824fbf2",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years of experience developing embedded software or firmware.",
+      "effective_requirement": "5+ years of experience developing embedded software or firmware.",
+      "kind": "mandatory"
+    }
+  ]
+}

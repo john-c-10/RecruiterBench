@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/physicalintelligence/c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9",
+    "board_url": "https://jobs.ashbyhq.com/physicalintelligence",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9",
+    "title": "Controls Engineer",
+    "department": "Software Engineering",
+    "team": "Software Engineering",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "secondaryLocations": [],
+    "publishedAt": "2026-01-07T20:16:15.835+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/physicalintelligence/c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9",
+    "applyUrl": "https://jobs.ashbyhq.com/physicalintelligence/c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">As a Controls Engineer, you will design and implement the algorithms that make PI’s robots behave predictably, smoothly, and safely under varied and uncertain conditions.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>The Team</strong></p><p style=\"min-height:1.5em\">The Controls team builds and tunes the core feedback and model-based algorithms, real-time loops, simulations, and actuator/sensor subsystems that make PI’s robots stable and reliable. They work closely with research, hardware, and operations to debug complex system behaviors and ensure our learning-based systems operate under strict real-time constraints in unpredictable environments.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In This Role You Will</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Design &amp; implement control algorithms: </strong>PID, LQR, MPC, inverse dynamics, and feedforward controllers.</p></li><li><p style=\"min-height:1.5em\"><strong>Build &amp; validate models: </strong>Create and refine physical and inverse dynamics models for simulation and control design.</p></li><li><p style=\"min-height:1.5em\"><strong>Develop real-time loops: </strong>Write and optimize runtime control loops, including neural-network-driven control.</p></li><li><p style=\"min-height:1.5em\"><strong>Own robotic bring-up: </strong>Integrate and tune arms, mobile bases, teleop systems, and full-body platforms.</p></li><li><p style=\"min-height:1.5em\"><strong>Debug complex system behaviors: </strong>Diagnose and resolve hardware/software/runtime issues using first-principles reasoning.</p></li><li><p style=\"min-height:1.5em\"><strong>Build sensor/actuator subsystems: </strong>Work with embedded systems, drivers, and communication protocols (CAN, SPI, I2C, Ethernet).</p></li><li><p style=\"min-height:1.5em\"><strong>Partner cross-functionally:</strong> Work with researchers, platform engineers, and operators to ensure stable, predictable real-world behavior.</p></li><li><p style=\"min-height:1.5em\"><strong>Support R&amp;D: </strong>Prototype configurations, collect structured datasets, and iterate directly with researchers.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What We Hope You’ll Bring</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Deep understanding of model-based control algorithms and inverse dynamics</p></li><li><p style=\"min-height:1.5em\">Ability to validate control approaches in simulation and translate them to real hardware</p></li><li><p style=\"min-height:1.5em\">Proficiency in Python and C++, including firmware-adjacent development</p></li><li><p style=\"min-height:1.5em\">Skill in writing and tuning real-time control loops</p></li><li><p style=\"min-height:1.5em\">Hands-on capability to debug electromechanical systems end-to-end</p></li><li><p style=\"min-height:1.5em\">Familiarity with embedded communication protocols (CAN, SPI, I2C, Ethernet)</p></li><li><p style=\"min-height:1.5em\">Clear communication with researchers, hardware teams, and operators</p></li><li><p style=\"min-height:1.5em\">A structured, collaborative approach to solving complex system issues</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Bonus Points If You Have</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Background in manipulation or mobile robotic platforms</p></li><li><p style=\"min-height:1.5em\">Exposure to robot learning or integrating learned policies into control stacks</p></li><li><p style=\"min-height:1.5em\">Ability to design or refine custom actuator or sensor hardware</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</p>",
+    "descriptionPlain": "As a Controls Engineer, you will design and implement the algorithms that make PI’s robots behave predictably, smoothly, and safely under varied and uncertain conditions.\n\n\n\nThe Team\n\nThe Controls team builds and tunes the core feedback and model-based algorithms, real-time loops, simulations, and actuator/sensor subsystems that make PI’s robots stable and reliable. They work closely with research, hardware, and operations to debug complex system behaviors and ensure our learning-based systems operate under strict real-time constraints in unpredictable environments.\n\n\n\nIn This Role You Will\n\n - Design & implement control algorithms: PID, LQR, MPC, inverse dynamics, and feedforward controllers.\n\n - Build & validate models: Create and refine physical and inverse dynamics models for simulation and control design.\n\n - Develop real-time loops: Write and optimize runtime control loops, including neural-network-driven control.\n\n - Own robotic bring-up: Integrate and tune arms, mobile bases, teleop systems, and full-body platforms.\n\n - Debug complex system behaviors: Diagnose and resolve hardware/software/runtime issues using first-principles reasoning.\n\n - Build sensor/actuator subsystems: Work with embedded systems, drivers, and communication protocols (CAN, SPI, I2C, Ethernet).\n\n - Partner cross-functionally: Work with researchers, platform engineers, and operators to ensure stable, predictable real-world behavior.\n\n - Support R&D: Prototype configurations, collect structured datasets, and iterate directly with researchers.\n\n\n\nWhat We Hope You’ll Bring\n\n - Deep understanding of model-based control algorithms and inverse dynamics\n\n - Ability to validate control approaches in simulation and translate them to real hardware\n\n - Proficiency in Python and C++, including firmware-adjacent development\n\n - Skill in writing and tuning real-time control loops\n\n - Hands-on capability to debug electromechanical systems end-to-end\n\n - Familiarity with embedded communication protocols (CAN, SPI, I2C, Ethernet)\n\n - Clear communication with researchers, hardware teams, and operators\n\n - A structured, collaborative approach to solving complex system issues\n\n\n\nBonus Points If You Have\n\n - Background in manipulation or mobile robotic platforms\n\n - Exposure to robot learning or integrating learned policies into control stacks\n\n - Ability to design or refine custom actuator or sensor hardware\n\n\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records."
+  }
+}

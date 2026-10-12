@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "role_id": "1784aa52-62af-4982-bf9a-ae307bb2319d",
+  "snapshot_sha256": "a7bef88df114892f78ad096cf0be5d02d058d99e6cd3644cf49054e833649472",
+  "input_sha256": "9fceb0b580a6f60b301dda894b1356d194280fcf0f477f2bbb7eb2fde66e931a",
+  "rubric_sha256": "c9318b6d958dfbb87836a6bb04da8ebbc4efde6514284081ee04b2e0f5909d3d",
+  "rubric": {
+    "role_summary": "Senior nuclear simulator and training lead responsible for simulator development, validation and configuration control, and for training program design, delivery, qualification and regulatory compliance for a maritime nuclear power plant.",
+    "search_query": "Find candidates for this role:\nSenior nuclear simulator and training lead responsible for simulator development, validation and configuration control, and for training program design, delivery, qualification and regulatory compliance for a maritime nuclear power plant.\nMandatory professional qualifications:\n- Bachelor's degree in engineering, engineering technology, or a related technical discipline, OR equivalent technical depth established through licensed operations experience.\n- Deep understanding of control systems in nuclear power plants.\n- 10+ years of nuclear experience spanning plant operations, technical or operator training, or both.\n- Experience delivering instruction on integrated plant systems and their interrelationships to operations or technical audiences.\n- Experience with full-scope nuclear plant simulators.\nPreferred, not mandatory:\n- Experience authoring or administering regulatory licensing examinations.\n- Experience applying simulator standards and requirements, including benchmark and performance testing, deficiency tracking, and periodic re-validation against plant reference data.\n- Familiarity with personnel selection, qualification, and training standards.\n- Experience with an industry or national training accreditation framework.\n- Experience developing a training program for a new reactor design or other plant without an operating reference unit.\n- Familiarity with international nuclear standards and host-country regulatory frameworks, and with deploying a common training program across multiple jurisdictions.\n- Experience supporting an emergency response organization, including drill and exercise development and evaluation.\n- Experience managing or technically leading instructors, instructional designers, and subject matter experts.\n- Prior naval nuclear or other military nuclear program experience.\n- Demonstrated application of SAT across analysis, design, development, implementation, and evaluation, with measurable program effectiveness outcomes.\n- Direct experience with full-scope simulator development, validation, acceptance testing, or configuration management.\n- Working knowledge of the nuclear quality and regulatory frameworks governing training and personnel qualification.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Bethesda, MD area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor's degree in engineering, engineering technology, or a related technical discipline, OR equivalent technical depth established through licensed operations experience.",
+        "source_quote": "Bachelor's degree in engineering, engineering technology, or a related technical discipline, or equivalent technical depth established through licensed operations experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Deep understanding of control systems in nuclear power plants.",
+        "source_quote": "Deep understanding of control systems in nuclear power plants.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "10+ years of nuclear experience spanning plant operations, technical or operator training, or both.",
+        "source_quote": "10+ years of nuclear experience spanning plant operations, technical or operator training, or both.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience delivering instruction on integrated plant systems and their interrelationships to operations or technical audiences.",
+        "source_quote": "Demonstrated experience delivering instruction on integrated plant systems and their interrelationships to operations or technical audiences.",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Experience with full-scope nuclear plant simulators.",
+        "source_quote": "Direct experience with full-scope simulator development, validation, acceptance testing, or configuration management.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience authoring or administering regulatory licensing examinations.",
+        "source_quote": "Experience authoring or administering regulatory licensing examinations.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience applying simulator standards and requirements, including benchmark and performance testing, deficiency tracking, and periodic re-validation against plant reference data.",
+        "source_quote": "Experience applying simulator standards and requirements, including benchmark and performance testing, deficiency tracking, and periodic re-validation against plant reference data.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Familiarity with personnel selection, qualification, and training standards.",
+        "source_quote": "Familiarity with personnel selection, qualification, and training standards.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience with an industry or national training accreditation framework.",
+        "source_quote": "Experience with an industry or national training accreditation framework.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience developing a training program for a new reactor design or other plant without an operating reference unit.",
+        "source_quote": "Experience developing a training program for a new reactor design or other plant without an operating reference unit.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Familiarity with international nuclear standards and host-country regulatory frameworks, and with deploying a common training program across multiple jurisdictions.",
+        "source_quote": "Familiarity with international nuclear standards and host-country regulatory frameworks, and with deploying a common training program across multiple jurisdictions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience supporting an emergency response organization, including drill and exercise development and evaluation.",
+        "source_quote": "Experience supporting an emergency response organization, including drill and exercise development and evaluation.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience managing or technically leading instructors, instructional designers, and subject matter experts.",
+        "source_quote": "Experience managing or technically leading instructors, instructional designers, and subject matter experts.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Prior naval nuclear or other military nuclear program experience.",
+        "source_quote": "Prior naval nuclear or other military nuclear program experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Demonstrated application of SAT across analysis, design, development, implementation, and evaluation, with measurable program effectiveness outcomes.",
+        "source_quote": "Demonstrated application of the Systematic Approach to Training (SAT) across analysis, design, development, implementation, and evaluation, with measurable program effectiveness outcomes.",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Direct experience with full-scope simulator development, validation, acceptance testing, or configuration management.",
+        "source_quote": "Direct experience with full-scope simulator development, validation, acceptance testing, or configuration management.",
+        "verification": "profile"
+      },
+      {
+        "id": "P12",
+        "requirement": "Working knowledge of the nuclear quality and regulatory frameworks governing training and personnel qualification.",
+        "source_quote": "Working knowledge of the nuclear quality and regulatory frameworks governing training and personnel qualification.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Bethesda, MD area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater Bethesda, MD area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Bethesda, MD",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Excellent technical writing, communication, and interpersonal skills."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "a7bef88df114892f78ad096cf0be5d02d058d99e6cd3644cf49054e833649472",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:47.226505+00:00",
+    "response_id": "chatcmpl-ETyS3rpUaSnT9McnyCfxXqYgPmJhi",
+    "usage": {
+      "prompt_tokens": 2907,
+      "completion_tokens": 1705,
+      "total_tokens": 4612,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1661,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 78,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "d8932eeadea79c90789640ebb53ea17d3af1bc73b99b1e2b898e9466d97d3762",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work location in Bethesda, MD; present residence in Bethesda is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Bethesda, MD"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Bethesda, MD",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M4",
+        "source_quote": "10+ years of nuclear experience spanning plant operations, technical or operator training, or both.",
+        "effective_requirement": "10+ years of nuclear experience spanning plant operations, technical or operator training, or both.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "5bbb66172ee5fdd021ac89cf2b3435488e855a3ccefbdb316275017f3cdc0fe6",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Senior Reactor Operator (SRO) license or SRO certification.",
+          "source_quote": "Senior Reactor Operator (SRO) license or SRO certification.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "INPO or utility instructor certification.",
+          "source_quote": "INPO or utility instructor certification.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M10",
+          "requirement": "Ability to work in compliance with the applicable U.S. export-control requirements; DOE authorization may be required depending on candidate status and may be applied for by the employer.",
+          "source_quote": "Depending on a candidate's status, access may require DOE authorization, which Ocean Atomics may apply for. Any offer is contingent on your ability to work in compliance with these requirements.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M6": "M4",
+        "M7": "M5",
+        "M8": "M6",
+        "M9": "M7"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "0e4de5baf7c24f25a33ab558d91b6beae924521b3be629e447fbeff3ddb64110",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Demonstrated application of SAT across analysis, design, development, implementation, and evaluation, with measurable program effectiveness outcomes.",
+          "source_quote": "Demonstrated application of the Systematic Approach to Training (SAT) across analysis, design, development, implementation, and evaluation, with measurable program effectiveness outcomes.",
+          "verification": "profile",
+          "reason": "SAT application with measurable outcomes is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Working knowledge of the nuclear quality and regulatory frameworks governing training and personnel qualification.",
+          "source_quote": "Working knowledge of the nuclear quality and regulatory frameworks governing training and personnel qualification.",
+          "verification": "profile",
+          "reason": "Regulatory framework knowledge rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "before": "Direct experience with full-scope simulator development, validation, acceptance testing, or configuration management.",
+          "after": "Experience with full-scope nuclear plant simulators.",
+          "reason": "Simulator experience is observable; development/validation specifics are not."
+        }
+      ],
+      "criterion_id_map": {
+        "M6": "M5"
+      },
+      "demoted_preference_ids": {
+        "M5": "P10",
+        "M6": "P11",
+        "M7": "P12"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "238f25afeb513db4ed68294d965e28f231427121ee75bb53ac32f8780bc40ed0",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "00d0b292d5fe5eba7f8779779ce3643ca7828472fd123e6bb339d1b70795d663",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Bethesda, MD area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Bethesda, MD area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M3",
+      "source_quote": "10+ years of nuclear experience spanning plant operations, technical or operator training, or both.",
+      "effective_requirement": "10+ years of nuclear experience spanning plant operations, technical or operator training, or both.",
+      "kind": "mandatory"
+    }
+  ]
+}

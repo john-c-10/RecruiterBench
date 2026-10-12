@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "role_id": "097490e8-48c6-46e3-a0ce-882151fb4fa2",
+  "snapshot_sha256": "86e83037c94633dcf703a140c05303680f89fb45ae058b580cc0b4ff76d1ea8e",
+  "input_sha256": "8a8c3e81a533360b377ac08e94cb8e205bd46477561760e28a38a1f1c0d25ef6",
+  "rubric_sha256": "756e7f91996598aab966cedd51575f7e772f1fa9d391315ab7127d2c4205f143",
+  "rubric": {
+    "role_summary": "Machine learning research scientist working on medical NLP, including clinical conversation summarization, evaluation, and production deployment of research methods.",
+    "search_query": "Find candidates for this role:\nMachine learning research scientist working on medical NLP, including clinical conversation summarization, evaluation, and production deployment of research methods.\nMandatory professional qualifications:\n- Experience in machine learning and natural language processing.\n- Research background and an MS or PhD in Electrical Engineering, Computer Sciences, or Mathematics, or equivalent experience.\n- Programming experience crafting, prototyping, and delivering machine learning solutions into production.\n- Experience with deep learning libraries and platforms.\nPreferred, not mandatory:\n- Open-source contributions and deployed technology demonstrating real-world impact.\n- Experience with deep learning libraries and platforms, multi-GPU training, and statistical analyses of observational and experimental data; the named libraries are examples, not an all-libraries requirement.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory. Explicit work-attendance terms (city labels use the area interpretation above): Must be willing to work from our SF office at least 3x per week This position requires a commitment to a hybrid work model, with the expectation of coming into the office a minimum of (3) three times per week. Relocation assistance is available for candidates willing to move to San Francisco.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Experience in machine learning and natural language processing.",
+        "source_quote": "research scientists with experience in machine learning and natural language processing",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Research background and an MS or PhD in Electrical Engineering, Computer Sciences, or Mathematics, or equivalent experience.",
+        "source_quote": "Strong research background, as demonstrated through papers and a graduate degree (MS or PhD) in Electrical Engineering, Computer Sciences, Mathematics, or equivalent experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Programming experience crafting, prototyping, and delivering machine learning solutions into production.",
+        "source_quote": "Strong programming skills with proven experience crafting, prototyping, and delivering machine learning solutions into production.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience with deep learning libraries and platforms.",
+        "source_quote": "Experience with deep learning libraries (e.g. PyTorch, Jax, Tensorflow) and platforms, multi-GPU training, and statistical analyses of observational and experimental data.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Open-source contributions and deployed technology demonstrating real-world impact.",
+        "source_quote": "Significant real-world impact, as demonstrated through open source contributions and deployed technology.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with deep learning libraries and platforms, multi-GPU training, and statistical analyses of observational and experimental data; the named libraries are examples, not an all-libraries requirement.",
+        "source_quote": "Experience with deep learning libraries (e.g. PyTorch, Jax, Tensorflow) and platforms, multi-GPU training, and statistical analyses of observational and experimental data.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is hybrid in San Francisco, and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "SF Office",
+        "NYC Office",
+        "Hybrid",
+        "Must be willing to work from our SF office at least 3x per week",
+        "This position requires a commitment to a hybrid work model, with the expectation of coming into the office a minimum of (3) three times per week. Relocation assistance is available for candidates willing to move to San Francisco."
+      ]
+    },
+    "soft_requirements": [
+      "Technical mastery, fluency with foundation models, genuine interest in the medical domain, and strong critical thinking skills.",
+      "Assess the impact of publications and real-world work.",
+      "Results-oriented when facing ambiguous problems and uncertain outcomes."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "86e83037c94633dcf703a140c05303680f89fb45ae058b580cc0b4ff76d1ea8e",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:20.280262+00:00",
+    "response_id": "chatcmpl-ETyScl9ihtyYi8DRFq6TbjOUR6BfE",
+    "usage": {
+      "prompt_tokens": 2901,
+      "completion_tokens": 1031,
+      "total_tokens": 3932,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1655,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 82,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "976ad868fca127e3eb54882ccdc4a5452edfe88c6362b91f74ad9aae4dc20285",
+    "resolved_ambiguities": [
+      "NYC Office is listed as a secondary location, but the role-specific description says candidates must work from the SF office at least three times per week; whether NYC can be an alternative work location needs clarification."
+    ],
+    "resolution": "Text wins: San Francisco three days per week; sourcing geography broadens to the Bay Area, without an NYC alternative.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work with at least three days per week in the San Francisco office. Relocation assistance is available for candidates willing to move to San Francisco. NYC is listed as a secondary office location, but the role-specific text requires SF attendance.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, California"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "SF Office",
+        "NYC Office",
+        "Hybrid",
+        "Must be willing to work from our SF office at least 3x per week",
+        "This position requires a commitment to a hybrid work model, with the expectation of coming into the office a minimum of (3) three times per week. Relocation assistance is available for candidates willing to move to San Francisco."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "a731d01b8a4acc32547364b2abc2763c84fb6027d9014c248f13328fab35138a",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Publications at peer-reviewed AI conferences; assess impact rather than treating it as a fixed profile threshold.",
+          "source_quote": "High-impact publications at peer-reviewed AI conferences (e.g. ACL, COLM, EACL, NAACL, NeurIPS, ICML, ICLR, Interspeech, ICASSP, SLT, MLHC, ML4H).",
+          "verification": "profile",
+          "reason": "Requires a publication record, which is not among the judged profile fields."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Research background demonstrated through papers and an MS or PhD in Electrical Engineering, Computer Sciences, or Mathematics, or equivalent experience.",
+          "after": "Research background and an MS or PhD in Electrical Engineering, Computer Sciences, or Mathematics, or equivalent experience.",
+          "reason": "Requires a publication record, which is not among the judged profile fields."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "8060176f811e39cddb41194ed4b0d9f8e4ea5b79a5713c1e11f887b253613eab",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Open-source contributions and deployed technology demonstrating real-world impact.",
+          "source_quote": "Significant real-world impact, as demonstrated through open source contributions and deployed technology.",
+          "verification": "profile",
+          "reason": "Open-source contributions and real-world impact are rarely stated in profile fields."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Experience with deep learning libraries and platforms, multi-GPU training, and statistical analyses of observational and experimental data; the named libraries are examples, not an all-libraries requirement.",
+          "after": "Experience with deep learning libraries and platforms.",
+          "reason": "Deep learning frameworks are commonly listed; multi-GPU training and observational statistics are rarely stated."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M3": "P1",
+        "M5": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0c6c4d37e1147abf569ea8a58fb9b1c83aae738735d009996b0cf5191d9dd969",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "99f32636748fcba4fd76529cf1d9fe7879ab1b6e7aff0ba407f1892bdd8d838b",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory. Explicit work-attendance terms (city labels use the area interpretation above): Must be willing to work from our SF office at least 3x per week This position requires a commitment to a hybrid work model, with the expectation of coming into the office a minimum of (3) three times per week. Relocation assistance is available for candidates willing to move to San Francisco.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

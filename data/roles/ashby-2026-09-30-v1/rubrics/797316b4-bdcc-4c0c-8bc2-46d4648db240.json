@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "role_id": "797316b4-bdcc-4c0c-8bc2-46d4648db240",
+  "snapshot_sha256": "d7a90272f0065b92c30623a3f2f5150c07d421b0290610e6f6402a18d3a19d39",
+  "input_sha256": "225f97fe01b3159a88ca1d15ae7496c524865f972fd16f77c955ca49d201bd30",
+  "rubric_sha256": "99540a58d34786fcc6c41fa743a50b4b08179a8af9ad6c5a58bd42ef53d69798",
+  "rubric": {
+    "role_summary": "Founding machine learning engineer building production ML and LLM systems for autonomous commercial insurance underwriting, owning the lifecycle from data through deployment and evaluation.",
+    "search_query": "Find candidates for this role:\nFounding machine learning engineer building production ML and LLM systems for autonomous commercial insurance underwriting, owning the lifecycle from data through deployment and evaluation.\nMandatory professional qualifications:\n- 4+ years of industry experience building and deploying ML systems to production.\n- Experience fine-tuning SLMs or LLMs.\n- Deep proficiency in Python and modern ML frameworks; the named frameworks are examples, not a requirement to know all of them.\n- Production LLM application experience.\nPreferred, not mandatory:\n- Experience using fine-tuning techniques such as RLHF, DPO, or LoRA.\n- Familiarity with document parsing, information extraction, or NLP on unstructured business documents.\n- Background in insurance, finance, or other high-stakes structured domains where model errors have real consequences.\n- Experience with agentic frameworks or multi-step LLM orchestration.\n- Confidence calibration experience.\n- TypeScript proficiency.\n- Familiarity with data pipelines using SQL, dbt, Spark, or equivalent.\n- MS or PhD in a quantitative field such as ML/AI, statistics, math, or physics.\n- 4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms; AWS SageMaker is an example, not a required platform.\n- Production LLM experience encompassing prompt engineering, structured outputs, tool use, evaluation, and cost/latency tradeoffs.\n- Experience building reliable models with limited labeled data, including synthetic data generation, data augmentation, or similar techniques.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "4+ years of industry experience building and deploying ML systems to production.",
+        "source_quote": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms (e.g., AWS Sagemaker)",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience fine-tuning SLMs or LLMs.",
+        "source_quote": "Experience finetuning SLMs/LLMs, with a preference for experience using techniques like RLHF, DPO, or LoRA.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Deep proficiency in Python and modern ML frameworks; the named frameworks are examples, not a requirement to know all of them.",
+        "source_quote": "Deep proficiency in Python and modern ML frameworks (PyTorch, HuggingFace, Tensorflow, OpenAI Gym/Gymnasium or similar)",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Production LLM application experience.",
+        "source_quote": "Experience with LLMs in production: prompt engineering, structured outputs, tool use, evaluation, and cost/latency tradeoffs",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience using fine-tuning techniques such as RLHF, DPO, or LoRA.",
+        "source_quote": "with a preference for experience using techniques like RLHF, DPO, or LoRA.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Familiarity with document parsing, information extraction, or NLP on unstructured business documents.",
+        "source_quote": "Familiarity with document parsing, information extraction, or NLP on unstructured business documents",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Background in insurance, finance, or other high-stakes structured domains where model errors have real consequences.",
+        "source_quote": "Background in insurance, finance, or other high-stakes structured domains where model errors have real consequences",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience with agentic frameworks or multi-step LLM orchestration.",
+        "source_quote": "Experience with agentic frameworks or multi-step LLM orchestration (LangChain, LangGraph, or custom)",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Confidence calibration experience.",
+        "source_quote": "Confidence calibration experience: isotonic regression, Platt scaling, or similar techniques",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "TypeScript proficiency.",
+        "source_quote": "TypeScript proficiency. Our platform is TypeScript-heavy and cross-functional contribution is valued",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Familiarity with data pipelines using SQL, dbt, Spark, or equivalent.",
+        "source_quote": "Familiarity with data pipelines: SQL, dbt, Spark, or equivalent",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "MS or PhD in a quantitative field such as ML/AI, statistics, math, or physics.",
+        "source_quote": "MS or PhD in a quantitative field (ML/AI, Statistics, Math, Physics)",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms; AWS SageMaker is an example, not a required platform.",
+        "source_quote": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms (e.g., AWS Sagemaker)",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Production LLM experience encompassing prompt engineering, structured outputs, tool use, evaluation, and cost/latency tradeoffs.",
+        "source_quote": "Experience with LLMs in production: prompt engineering, structured outputs, tool use, evaluation, and cost/latency tradeoffs",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Experience building reliable models with limited labeled data, including synthetic data generation, data augmentation, or similar techniques.",
+        "source_quote": "Experience building reliable models with limited labeled data,  including synthetic data generation, data augmentation, or similar techniques",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Strong evaluation instincts and ability to define what improvement means before building.",
+      "Comfort with ambiguity, autonomy, and a bias toward building.",
+      "Excellent collaboration skills, including earning the trust of non-technical underwriters."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "d7a90272f0065b92c30623a3f2f5150c07d421b0290610e6f6402a18d3a19d39",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:03.097490+00:00",
+    "response_id": "chatcmpl-ETyVExwKkexz85PfWvUkHentwb5fH",
+    "usage": {
+      "prompt_tokens": 3131,
+      "completion_tokens": 1042,
+      "total_tokens": 4173,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1885,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 31,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "1f225710dda3aaca8b3a9db92acb79ebbdec9e4f82807bd7c9a7d96e7886b9b1",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in San Francisco; current residence in San Francisco is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms (e.g., AWS Sagemaker)",
+        "effective_requirement": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms; AWS SageMaker is an example, not a required platform.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "f35d8e6743eb25a766e24e513f9fd14462bbaf6e27e1b635858bd48debfcff02",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "f35d8e6743eb25a766e24e513f9fd14462bbaf6e27e1b635858bd48debfcff02",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience building reliable models with limited labeled data, including synthetic data generation, data augmentation, or similar techniques.",
+          "source_quote": "Experience building reliable models with limited labeled data,  including synthetic data generation, data augmentation, or similar techniques",
+          "verification": "profile",
+          "reason": "Limited-label/synthetic data techniques are rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms; AWS SageMaker is an example, not a required platform.",
+          "after": "4+ years of industry experience building and deploying ML systems to production.",
+          "reason": "Production ML years are observable; platform specifics are not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Production LLM experience encompassing prompt engineering, structured outputs, tool use, evaluation, and cost/latency tradeoffs.",
+          "after": "Production LLM application experience.",
+          "reason": "Production LLM work is observable; the full practices list is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P9",
+        "M4": "P10",
+        "M5": "P11"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "416ac1c6526b43c19894b061af196586a950dc938164e88a963e136df14caad9",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "d84bb8f98cccb5d529590eac5133ddb85ea55a32024f25f29209a053915cecd9",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms (e.g., AWS Sagemaker)",
+      "effective_requirement": "4+ years of industry experience building and deploying ML systems to production.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P9",
+      "source_quote": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms (e.g., AWS Sagemaker)",
+      "effective_requirement": "4+ years of industry experience building and shipping ML systems end-to-end, from raw data to production models, including experience with model deployment platforms; AWS SageMaker is an example, not a required platform.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "role_id": "b0973920-b421-4a2f-b92f-47882e2cade0",
+  "snapshot_sha256": "4422f2934be0609c1dcd6b06c3171561981f2fa6e94d7719c1208bcf3b22f4a0",
+  "input_sha256": "767205b4becaa85885a83e484d9a04c53c8eb6b67f83923cb0ec25cd82d59a49",
+  "rubric_sha256": "69cb0a239144bd2a1e6dec922f47ce35bf9e73a5cab9f74c050c8c6b7549ac6c",
+  "rubric": {
+    "role_summary": "VP-level consumer-brand marketing leader responsible for brand strategy and awareness, campaigns, PR and communications, creator advocacy, community, social impact, budgets, measurement, and a multidisciplinary team for a personalized hair and skin care business.",
+    "search_query": "Find candidates for this role:\nVP-level consumer-brand marketing leader responsible for brand strategy and awareness, campaigns, PR and communications, creator advocacy, community, social impact, budgets, measurement, and a multidisciplinary team for a personalized hair and skin care business.\nMandatory professional qualifications:\n- 10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.\n- Experience building, managing, and developing multidisciplinary teams.\n- Knowledge of prestige skincare and haircare categories.\nPreferred, not mandatory:\n- Familiarity with building brand discoverability in AI assistants and answer engines (GEO/AEO).\n- Experience with social impact, purpose, or sustainability communications, especially B Corp or mission-driven brand experience.\n- Beauty, wellness, or premium DTC experience.\n- Proven measurable results building holistic brand awareness across earned, social, community, and partnerships.\n- Experience leading integrated 360° campaigns, creative, and content development across channels.\n- Experience using customer insight, emerging trends, and data to shape brand messaging and decisions.\n- Experience owning a brand budget and measuring brand health and ROI, including awareness, consideration, share of voice, sentiment, and MMM.\n- Experience leading PR, communications, corporate/internal communications, and crisis through in-house teams and external agencies.\n- Experience leading influencer/creator advocacy and community/social programs.\n- Familiarity with brand, creator, and measurement tools; the named tools are examples, not individually required.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.",
+        "source_quote": "10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience building, managing, and developing multidisciplinary teams.",
+        "source_quote": "Proven people leadership — you’ve built, managed, and developed multidisciplinary teams.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Knowledge of prestige skincare and haircare categories.",
+        "source_quote": "Knowledge and passion for prestige skincare and haircare categories.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Familiarity with building brand discoverability in AI assistants and answer engines (GEO/AEO).",
+        "source_quote": "Familiarity with building brand discoverability in AI assistants and answer engines (GEO/AEO) is a strong plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with social impact, purpose, or sustainability communications, especially B Corp or mission-driven brand experience.",
+        "source_quote": "Experience with social impact, purpose, or sustainability communications is a strong plus (B Corp or mission-driven brand experience especially welcome).",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Beauty, wellness, or premium DTC experience.",
+        "source_quote": "Beauty, wellness, or premium DTC experience is a plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Proven measurable results building holistic brand awareness across earned, social, community, and partnerships.",
+        "source_quote": "Proven track record building holistic brand awareness across earned, social, community, and partnerships — with measurable results.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience leading integrated 360° campaigns, creative, and content development across channels.",
+        "source_quote": "Experience leading integrated 360° campaigns, creative, and content development across channels.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience using customer insight, emerging trends, and data to shape brand messaging and decisions.",
+        "source_quote": "fluent in using insight, emerging trends, and data to shape brand messaging and decisions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience owning a brand budget and measuring brand health and ROI, including awareness, consideration, share of voice, sentiment, and MMM.",
+        "source_quote": "Experience owning a brand budget and measuring brand health and ROI (awareness, consideration, share of voice, sentiment, MMM).",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience leading PR, communications, corporate/internal communications, and crisis through in-house teams and external agencies.",
+        "source_quote": "Experience leading PR, communications, corporate/internal communications, and crisis through in-house teams and external agencies.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Experience leading influencer/creator advocacy and community/social programs.",
+        "source_quote": "Experience leading influencer/creator advocacy and community/social programs.",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Familiarity with brand, creator, and measurement tools; the named tools are examples, not individually required.",
+        "source_quote": "Familiarity with brand, creator, and measurement tools — e.g., CreatorIQ, Nectar Social, Dash Hudson, ShopMy, and brand-health trackers like Qualtrics.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week."
+      ]
+    },
+    "soft_requirements": [
+      "Customer-obsessed approach.",
+      "Strong executive presence and stakeholder management; clear, calm communication that earns trust.",
+      "Passion for prestige skincare and haircare categories."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "4422f2934be0609c1dcd6b06c3171561981f2fa6e94d7719c1208bcf3b22f4a0",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:07.134272+00:00",
+    "response_id": "chatcmpl-ETyVI9kjrN0RKiWmRPG4PQuU27GYE",
+    "usage": {
+      "prompt_tokens": 3533,
+      "completion_tokens": 1443,
+      "total_tokens": 4976,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 2287,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 56,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ce70eab74c38b357109a43a4074830c0e0c910c5162ff49edc34c9ac71c9118c",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid position based out of the Williamsburg office, with an expectation of three days per week in the office. Present residence in New York is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Williamsburg, New York office"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.",
+        "effective_requirement": "10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "58a15a4d00485e38294a1043e04312ffb5274d67a33b3befd88da746b6682087",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M10",
+          "requirement": "Active, daily use of AI tools in the current workflow for analysis, reporting, research, or creative thinking.",
+          "source_quote": "Active, daily use of AI tools in your current workflow — for analysis, reporting, research, or creative thinking.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M11": "M10"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "716f14fee3bc860d5f8a30622938d5d8eada2602311fd954098e90da3585274a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Proven measurable results building holistic brand awareness across earned, social, community, and partnerships.",
+          "source_quote": "Proven track record building holistic brand awareness across earned, social, community, and partnerships — with measurable results.",
+          "verification": "profile",
+          "reason": "Measurable results are a quantified outcome rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience leading integrated 360° campaigns, creative, and content development across channels.",
+          "source_quote": "Experience leading integrated 360° campaigns, creative, and content development across channels.",
+          "verification": "profile",
+          "reason": "Campaign practice largely implied by M1 but rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience using customer insight, emerging trends, and data to shape brand messaging and decisions.",
+          "source_quote": "fluent in using insight, emerging trends, and data to shape brand messaging and decisions.",
+          "verification": "profile",
+          "reason": "Insight-driven practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience owning a brand budget and measuring brand health and ROI, including awareness, consideration, share of voice, sentiment, and MMM.",
+          "source_quote": "Experience owning a brand budget and measuring brand health and ROI (awareness, consideration, share of voice, sentiment, MMM).",
+          "verification": "profile",
+          "reason": "Budget and brand-health measurement practices rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience leading PR, communications, corporate/internal communications, and crisis through in-house teams and external agencies.",
+          "source_quote": "Experience leading PR, communications, corporate/internal communications, and crisis through in-house teams and external agencies.",
+          "verification": "profile",
+          "reason": "PR/crisis leadership breadth rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Experience leading influencer/creator advocacy and community/social programs.",
+          "source_quote": "Experience leading influencer/creator advocacy and community/social programs.",
+          "verification": "profile",
+          "reason": "Creator/community program leadership rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M8",
+          "requirement": "Familiarity with brand, creator, and measurement tools; the named tools are examples, not individually required.",
+          "source_quote": "Familiarity with brand, creator, and measurement tools — e.g., CreatorIQ, Nectar Social, Dash Hudson, ShopMy, and brand-health trackers like Qualtrics.",
+          "verification": "profile",
+          "reason": "Tool familiarity rarely listed."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M9": "M2",
+        "M10": "M3"
+      },
+      "demoted_preference_ids": {
+        "M2": "P4",
+        "M3": "P5",
+        "M4": "P6",
+        "M5": "P7",
+        "M6": "P8",
+        "M7": "P9",
+        "M8": "P10"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "dd503c3fc66d8ab31942717bee3efc36f9921779a444a5f3e2abe77d5fdf1b85",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "db0b754151ad41c5dfc6668c1c5ae6a4b6dc9cfd77e99abf0237476400c6cf4f",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This role will be a hybrid position based out of our Williamsburg office and the expectation is that this person will be in the office 3 days per week.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.",
+      "effective_requirement": "10+ years in brand, communications, or marketing, including senior leadership of brand strategy at a consumer brand.",
+      "kind": "mandatory"
+    }
+  ]
+}

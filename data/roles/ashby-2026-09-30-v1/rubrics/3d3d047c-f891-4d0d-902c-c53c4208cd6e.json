@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "role_id": "3d3d047c-f891-4d0d-902c-c53c4208cd6e",
+  "snapshot_sha256": "99c2c337f5a9ddbc49aff4098aab72eebf372c7becbfc6c3fa0910b53374516a",
+  "input_sha256": "878cd576e8b3218a1bc45d01b8b105ef986f0956e44bf8c6ba5013c46bca38ba",
+  "rubric_sha256": "ca3efa4a7a5f482784a1bbd420c312846ea3e31d40003aac547e3025a1a74560",
+  "rubric": {
+    "role_summary": "Remote U.S. analyst role supporting ultra-high-net-worth advisory clients through investment performance reporting, data integrity, transaction reporting, and portfolio data management, including private equity and alternative investments.",
+    "search_query": "Find candidates for this role:\nRemote U.S. analyst role supporting ultra-high-net-worth advisory clients through investment performance reporting, data integrity, transaction reporting, and portfolio data management, including private equity and alternative investments.\nMandatory professional qualifications:\n- Bachelor’s degree.\n- 3 years of experience in financial services.\nPreferred, not mandatory:\n- Background in performance reporting software.\n- Located in the Pacific or Mountain time zone.\n- Advanced Excel and PowerPoint skills.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor’s degree.",
+        "source_quote": "Bachelor’s degree",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "3 years of experience in financial services.",
+        "source_quote": "3 years of experience in financial services",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Background in performance reporting software.",
+        "source_quote": "Background in performance reporting software preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Located in the Pacific or Mountain time zone.",
+        "source_quote": "Pacific and Mountain Time Zones preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Advanced Excel and PowerPoint skills.",
+        "source_quote": "Advanced Excel and PowerPoint skills",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Pacific and Mountain Time Zones preferred"
+      ]
+    },
+    "soft_requirements": [
+      "Ability to manage multiple tasks while maintaining attention to detail.",
+      "Strong verbal and written communication, organization, and analytical skills.",
+      "Self-motivation, independence, teamwork, willingness to learn and accept coaching, and a proactive approach to client service."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "99c2c337f5a9ddbc49aff4098aab72eebf372c7becbfc6c3fa0910b53374516a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:46.956826+00:00",
+    "response_id": "chatcmpl-ETyT75dUeaj2J6vyFWDfkVEE7ZIMV",
+    "usage": {
+      "prompt_tokens": 1901,
+      "completion_tokens": 428,
+      "total_tokens": 2329,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 655,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "dd7cb65a47faa4096ec2fd524054fc592f94c236cafa4815284508720f55ed44",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role listed in the United States; Pacific and Mountain time zones are preferred, not required.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Pacific and Mountain Time Zones preferred"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "3 years of experience in financial services",
+        "effective_requirement": "3 years of experience in financial services.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "908015c3421483f84c9e9ef0af93a50ea992f943f77e4374ead7197e347648c2",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "908015c3421483f84c9e9ef0af93a50ea992f943f77e4374ead7197e347648c2",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Advanced Excel and PowerPoint skills.",
+          "source_quote": "Advanced Excel and PowerPoint skills",
+          "verification": "profile",
+          "reason": "Advanced Excel/PowerPoint proficiency is a generic tool skill rarely stated at a verifiable level."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P3"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "600a7d435a5146bbc2e09d332e7cd8dbcba725d22e574f5c78dff6931682684b",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "4ac2a328d21a21ac88a20889ec4b54098a77c4b156070e816f920381efc44522",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "3 years of experience in financial services",
+      "effective_requirement": "3 years of experience in financial services.",
+      "kind": "mandatory"
+    }
+  ]
+}

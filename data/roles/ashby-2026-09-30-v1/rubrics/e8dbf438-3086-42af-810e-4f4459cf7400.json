@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "role_id": "e8dbf438-3086-42af-810e-4f4459cf7400",
+  "snapshot_sha256": "4abbd1be0f3511254f5a0df1f63a8aebf5a287c5976c430e0cb3dc5b5b9a7e28",
+  "input_sha256": "eb46879f084679056a299a43ed1bac43b708231aaa55974bb5d7d10f01e99919",
+  "rubric_sha256": "9ec9b3c41f60595782ea8814efc3763b76a0aaa410df5a96aad729658e303d9e",
+  "rubric": {
+    "role_summary": "Legal Engineer working with law firms and legal teams on litigation and regulatory use cases, including discovery, demonstrations, onboarding, and tailored AI workflows across pre-sales and post-sales.",
+    "search_query": "Find candidates for this role:\nLegal Engineer working with law firms and legal teams on litigation and regulatory use cases, including discovery, demonstrations, onboarding, and tailored AI workflows across pre-sales and post-sales.\nMandatory professional qualifications:\n- JD or equivalent legal qualification.\n- 3+ years practicing law in-house, at a law firm, or advising a corporate legal team.\n- Experience working at or with law firms.\nPreferred, not mandatory:\n- Cross-functional experience in business, operations, compliance, or product.\n- Sales or customer-facing experience, such as law-firm business development or secondment.\n- Hands-on experience using AI tools in legal practice.\n- Understanding of law-firm workflows, challenges, and demands, including balancing legal risk with business priorities.\n- Track record of partnering with senior stakeholders to drive results.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "JD or equivalent legal qualification.",
+        "source_quote": "JD or equivalent legal qualification.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "3+ years practicing law in-house, at a law firm, or advising a corporate legal team.",
+        "source_quote": "3 + years of practicing law in-house, at a top-tier law firm, or advising a sophisticated corporate legal team.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience working at or with law firms.",
+        "source_quote": "Strong understanding of the workflows, challenges, and demands of law firms, including balancing legal risk with business priorities.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Cross-functional experience in business, operations, compliance, or product.",
+        "source_quote": "Cross-functional experience (business, ops, compliance, product), sales/customer-facing experience (law firm BD, secondment), and/or hands-on experience using AI tools in legal practice are all pluses.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Sales or customer-facing experience, such as law-firm business development or secondment.",
+        "source_quote": "Cross-functional experience (business, ops, compliance, product), sales/customer-facing experience (law firm BD, secondment), and/or hands-on experience using AI tools in legal practice are all pluses.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Hands-on experience using AI tools in legal practice.",
+        "source_quote": "Cross-functional experience (business, ops, compliance, product), sales/customer-facing experience (law firm BD, secondment), and/or hands-on experience using AI tools in legal practice are all pluses.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Understanding of law-firm workflows, challenges, and demands, including balancing legal risk with business priorities.",
+        "source_quote": "Strong understanding of the workflows, challenges, and demands of law firms, including balancing legal risk with business priorities.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Track record of partnering with senior stakeholders to drive results.",
+        "source_quote": "Track record partnering with senior stakeholders to drive results, with curiosity for testing approaches and optimizing for customer outcomes.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Executive presence and ability to build credibility and relationships with legal and business stakeholders.",
+      "Communication and presentation skills, including comfort with live demos, workshops, and strategic customer conversations.",
+      "Curiosity about AI in legal work; a practical, solutions-oriented mindset and bias toward action.",
+      "Curiosity for testing approaches and optimizing customer outcomes."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "4abbd1be0f3511254f5a0df1f63a8aebf5a287c5976c430e0cb3dc5b5b9a7e28",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:16.550691+00:00",
+    "response_id": "chatcmpl-ETyUV0BmYrdpWS1CdxMP2y7Zvmeeg",
+    "usage": {
+      "prompt_tokens": 2728,
+      "completion_tokens": 928,
+      "total_tokens": 3656,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1482,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 74,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated_with_documented_correction"
+  },
+  "curation": {
+    "corrected_at": "2026-10-01T00:05:19.451623+00:00",
+    "original_rubric_sha256": "cabcefc5014b2f2b59dbd5a8c6ddd6167701bbb33f03f82bae6dcdac737a5b2c",
+    "criterion_id": "M2",
+    "original_requirement": "3+ years practicing law in-house, at a law firm, or advising a corporate legal team; firm prestige is not a gate.",
+    "fields": [
+      "must_haves.M2.requirement"
+    ],
+    "reason": "Applied the frozen extraction policy: separate subjective prestige/quality language from objective conditions, and keep reviewer instructions out of search query text. Original source quotation retained."
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "26bdb614d7ff99046f0f8ff0bb91509362861735951287afe4677bf407e00eba",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role in New York; present residence in New York is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "New York"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "3 + years of practicing law in-house, at a top-tier law firm, or advising a sophisticated corporate legal team.",
+        "effective_requirement": "3+ years practicing law in-house, at a law firm, or advising a corporate legal team.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "eab5c9d770347eb43a83a2685d867d86476fcb11ab0f4c58c853cd008042c4e1",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "eab5c9d770347eb43a83a2685d867d86476fcb11ab0f4c58c853cd008042c4e1",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Track record of partnering with senior stakeholders to drive results.",
+          "source_quote": "Track record partnering with senior stakeholders to drive results, with curiosity for testing approaches and optimizing for customer outcomes.",
+          "verification": "profile",
+          "reason": "Stakeholder partnership track record is unstated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Understanding of law-firm workflows, challenges, and demands, including balancing legal risk with business priorities.",
+          "after": "Experience working at or with law firms.",
+          "reason": "Law-firm exposure observable; nuanced understanding is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P4",
+        "M4": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "2198a9ab07f6667edace35c53ea5b866f06758fbdd4c6f9f7be5b859428f75ac",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "d63f1fb3da6d903125127df9ba8c4bed07f0d3c99e5ac311dfca9e5c91e9fcbe",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "3 + years of practicing law in-house, at a top-tier law firm, or advising a sophisticated corporate legal team.",
+      "effective_requirement": "3+ years practicing law in-house, at a law firm, or advising a corporate legal team.",
+      "kind": "mandatory"
+    }
+  ]
+}

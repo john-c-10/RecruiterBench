@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "4a19c452-2ff1-45c4-9c25-a601dcd23ec1",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/flipper/4a19c452-2ff1-45c4-9c25-a601dcd23ec1",
+    "board_url": "https://jobs.ashbyhq.com/flipper",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/flipper",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "4a19c452-2ff1-45c4-9c25-a601dcd23ec1",
+    "title": "Linux Test Engineer | Senior",
+    "department": "Research and Development",
+    "team": "QA Software",
+    "employmentType": "FullTime",
+    "location": "London Office",
+    "secondaryLocations": [],
+    "publishedAt": "2026-07-14T08:26:07.960+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "London",
+        "addressCountry": "United Kingdom",
+        "addressLocality": "London"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/flipper/4a19c452-2ff1-45c4-9c25-a601dcd23ec1",
+    "applyUrl": "https://jobs.ashbyhq.com/flipper/4a19c452-2ff1-45c4-9c25-a601dcd23ec1/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Hi! This is the <strong>Flipper</strong> team.</p><p style=\"min-height:1.5em\">We are the creators of <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://flipper.net\"><strong>Flipper Zero</strong></a> — a portable device for tech enthusiasts and engineers. It's a gadget with an awesome community that brings together millions of people around the world.</p><p style=\"min-height:1.5em\">We're building a new product — <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://blog.flipper.net/flipper-one-we-need-your-help/\"><strong>Flipper One</strong></a>. It's a full-featured ARM-based computer running Linux in a compact form factor, powered by the Rockchip RK3576 SoC.</p><p style=\"min-height:1.5em\">We're looking for a <strong>Linux Test Engineer</strong> to ensure the quality of <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://blog.flipper.net/flipper-one-we-need-your-help/\"><strong>Flipper One</strong></a> by combining automated and hands-on hardware testing. You'll work closely with the firmware team to build reliable test automation while validating the product on real devices in our London office.</p><p style=\"min-height:1.5em\"><strong>Responsibilities:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Validate firmware and software functionality on real hardware, identifying defects and ensuring reliable product behavior</p></li><li><p style=\"min-height:1.5em\">Investigate Linux system behavior, collect logs, analyze failures, and help engineers reproduce and resolve issues</p></li><li><p style=\"min-height:1.5em\">Design, develop, and maintain test suites for Flipper One using Python-based testing frameworks</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Deep practical experience with Linux: shell, systemd/services, logs, permissions, networking, processes, cron, SSH, package managers</p></li><li><p style=\"min-height:1.5em\">Ability to write Bash scripts and use standard Linux tools: <code>grep</code>, <code>awk</code>, <code>sed</code>, <code>curl</code>, <code>journalctl</code>, <code>netstat/ss</code>, <code>top/htop</code>, <code>ps</code>, <code>lsof</code>, <code>tcpdump</code> or similar</p></li><li><p style=\"min-height:1.5em\">Understanding of networking stack at TCP/IP level: Ethernet, IP, TCP/UDP, routing, sockets, ports, DNS, DHCP, ARP, MTU, packet loss, retransmissions, latency, timeouts, and connection states</p></li><li><p style=\"min-height:1.5em\">Ability to work from our London office, especially during the initial stage of the project</p></li></ul><p style=\"min-height:1.5em\"><strong>Nice-to-haves:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with IoT, embedded, networking, telecom, infrastructure, cloud, or device-related systems</p></li><li><p style=\"min-height:1.5em\">Experience with tools such as ModemManager, NetworkManager, <code>mmcli</code>, <code>nmcli</code>, QMI/MBIM, or AT commands</p></li></ul><p style=\"min-height:1.5em\"><strong>What we offer:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Workplace in our own stand-alone office located in Design District, London, near North Greenwich Station (Jubilee line).</p></li><li><p style=\"min-height:1.5em\">You will be provided with all the necessary equipment for a comfortable working environment.</p></li><li><p style=\"min-height:1.5em\">Benefits such as VHI, corporate sports, foreign language courses, and therapy sessions.</p></li><li><p style=\"min-height:1.5em\">A five-day workweek with a flexible start of the working day.</p></li></ul>",
+    "descriptionPlain": "Hi! This is the Flipper team.\n\nWe are the creators of Flipper Zero https://flipper.net — a portable device for tech enthusiasts and engineers. It's a gadget with an awesome community that brings together millions of people around the world.\n\nWe're building a new product — Flipper One https://blog.flipper.net/flipper-one-we-need-your-help/. It's a full-featured ARM-based computer running Linux in a compact form factor, powered by the Rockchip RK3576 SoC.\n\nWe're looking for a Linux Test Engineer to ensure the quality of Flipper One https://blog.flipper.net/flipper-one-we-need-your-help/ by combining automated and hands-on hardware testing. You'll work closely with the firmware team to build reliable test automation while validating the product on real devices in our London office.\n\nResponsibilities:\n\n - Validate firmware and software functionality on real hardware, identifying defects and ensuring reliable product behavior\n\n - Investigate Linux system behavior, collect logs, analyze failures, and help engineers reproduce and resolve issues\n\n - Design, develop, and maintain test suites for Flipper One using Python-based testing frameworks\n\nRequirements:\n\n - Deep practical experience with Linux: shell, systemd/services, logs, permissions, networking, processes, cron, SSH, package managers\n\n - Ability to write Bash scripts and use standard Linux tools: grep, awk, sed, curl, journalctl, netstat/ss, top/htop, ps, lsof, tcpdump or similar\n\n - Understanding of networking stack at TCP/IP level: Ethernet, IP, TCP/UDP, routing, sockets, ports, DNS, DHCP, ARP, MTU, packet loss, retransmissions, latency, timeouts, and connection states\n\n - Ability to work from our London office, especially during the initial stage of the project\n\nNice-to-haves:\n\n - Experience with IoT, embedded, networking, telecom, infrastructure, cloud, or device-related systems\n\n - Experience with tools such as ModemManager, NetworkManager, mmcli, nmcli, QMI/MBIM, or AT commands\n\nWhat we offer:\n\n - Workplace in our own stand-alone office located in Design District, London, near North Greenwich Station (Jubilee line).\n\n - You will be provided with all the necessary equipment for a comfortable working environment.\n\n - Benefits such as VHI, corporate sports, foreign language courses, and therapy sessions.\n\n - A five-day workweek with a flexible start of the working day."
+  }
+}

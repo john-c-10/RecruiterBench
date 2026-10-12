@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0d000633-4a69-4dae-ab5f-da19b5ab8cc0",
+  "snapshot_sha256": "2f3c9415076fec8b8df043331d849b95f712ce1421a9ad5dd5363398fb0a1cae",
+  "input_sha256": "e63e437881fc1a52f739cfbfdcc98ddee564782357e93a46180cc1bfe93d091e",
+  "rubric_sha256": "551e9502e4b2030764f3b29d349c0b10c087f8daf90a8d97fd443235942ad6bb",
+  "rubric": {
+    "role_summary": "Business operations and strategy role partnering primarily with Engineering, Product, and Design leaders on strategic analysis, business cases, quantitative models, and business performance.",
+    "search_query": "Find candidates for this role:\nBusiness operations and strategy role partnering primarily with Engineering, Product, and Design leaders on strategic analysis, business cases, quantitative models, and business performance.\nMandatory professional qualifications:\n- 5+ years of strategy experience, including 2+ years in management consulting or a related field.\n- Quantitative and financial modeling skills.\n- Working knowledge of SQL.\nPreferred, not mandatory:\n- Prior strategy and operations experience in B2B SaaS businesses.\n- Experience with pricing and packaging, especially for AI products.\n- Hands-on proficiency with modern AI tools such as Notion AI, Claude, ChatGPT, or similar.\n- Working knowledge of SQL and ability to access, assess, and synthesize relevant data independently.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of strategy experience, including 2+ years in management consulting or a related field.",
+        "source_quote": "5+ years of strategy experience, including 2+ years of experience in management consulting or a related field",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Quantitative and financial modeling skills.",
+        "source_quote": "Excellent quantitative and financial modeling skills",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Working knowledge of SQL.",
+        "source_quote": "Data self-sufficiency, including working knowledge of SQL and the ability to access, assess, and synthesize relevant data without relying on outside support",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Prior strategy and operations experience in B2B SaaS businesses.",
+        "source_quote": "Prior experience in strategy and operations in B2B SaaS businesses",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with pricing and packaging, especially for AI products.",
+        "source_quote": "Experience with pricing & packaging, especially for AI products",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Hands-on proficiency with modern AI tools such as Notion AI, Claude, ChatGPT, or similar.",
+        "source_quote": "Hands-on fluency with modern AI tools such as Notion AI, Claude, ChatGPT, or similar",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Working knowledge of SQL and ability to access, assess, and synthesize relevant data independently.",
+        "source_quote": "Data self-sufficiency, including working knowledge of SQL and the ability to access, assess, and synthesize relevant data without relying on outside support",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco, California",
+        "This role is based in San Francisco, CA. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person."
+      ]
+    },
+    "soft_requirements": [
+      "Executive-level written and verbal communication; ability to work with senior stakeholders and manage relationships, deliverables, and timelines with minimal supervision.",
+      "Enthusiasm for AI tools, experimentation with new models and workflows, and judgment in applying them responsibly.",
+      "Comfort in a high-growth, changing environment; passion and enthusiasm."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "2f3c9415076fec8b8df043331d849b95f712ce1421a9ad5dd5363398fb0a1cae",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:19.972188+00:00",
+    "response_id": "chatcmpl-ETyVXmpd7c5zXgIAzCycLuc70YwpG",
+    "usage": {
+      "prompt_tokens": 2660,
+      "completion_tokens": 834,
+      "total_tokens": 3494,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1414,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 59,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "3db0c98961d1b7e78defbf3c44e9b64135a230f3d2b81ab8c79f075d62310d64",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Role based in San Francisco, CA, with office attendance on Mondays, Tuesdays, and Thursdays. Present residence in San Francisco is not specified.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco, California",
+        "This role is based in San Francisco, CA. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years of strategy experience, including 2+ years of experience in management consulting or a related field",
+        "effective_requirement": "5+ years of strategy experience, including 2+ years in management consulting or a related field.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "6a7f3941eb6ca2c5b97edf40b21f66ff022b43816b854fbd31ce012e8a7874c6",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "6a7f3941eb6ca2c5b97edf40b21f66ff022b43816b854fbd31ce012e8a7874c6",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Hands-on proficiency with modern AI tools such as Notion AI, Claude, ChatGPT, or similar.",
+          "source_quote": "Hands-on fluency with modern AI tools such as Notion AI, Claude, ChatGPT, or similar",
+          "verification": "profile",
+          "reason": "AI tool proficiency is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Working knowledge of SQL and ability to access, assess, and synthesize relevant data independently.",
+          "after": "Working knowledge of SQL.",
+          "reason": "SQL is a commonly listed skill; independent synthesis ability is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3"
+      },
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "fb39cf5a26455ecb81f1b722bdd5e61b8553e99d6879d9867d141e922162bee7",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "a2763e3e9583980ed4095fdea5fd7b8df0eff11b676ab6549adc59b6eaa0f1ac",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years of strategy experience, including 2+ years of experience in management consulting or a related field",
+      "effective_requirement": "5+ years of strategy experience, including 2+ years in management consulting or a related field.",
+      "kind": "mandatory"
+    }
+  ]
+}

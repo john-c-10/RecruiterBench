@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0a3fddcc-2aa2-481a-aa1e-97393cdee36f",
+  "snapshot_sha256": "14ada76f21a376f88a902365df0cc9258a554967e1fbb418c4c1f729b469900e",
+  "input_sha256": "1aa2500cca4acd3f1335bfd551bdc9d27518d264aa636536802b1c168da1fb97",
+  "rubric_sha256": "ac974107e0a492f5d8cfa39409c94ac34337e3740b87f41ea1c0f939057e2e92",
+  "rubric": {
+    "role_summary": "Senior automotive reconditioning technician responsible for inspecting, diagnosing, and repairing used electric vehicles, establishing reconditioning procedures, coordinating vendors, and eventually guiding junior technicians.",
+    "search_query": "Find candidates for this role:\nSenior automotive reconditioning technician responsible for inspecting, diagnosing, and repairing used electric vehicles, establishing reconditioning procedures, coordinating vendors, and eventually guiding junior technicians.\nMandatory professional qualifications:\n- 3+ years of automotive technician experience, including hands-on diagnostic work.\n- Experience using OEM or aftermarket diagnostic software and scan tools.\n- Ability to read wiring diagrams, service manuals, and technical knowledgebases.\nPreferred, not mandatory:\n- Previous EV OEM experience, such as Tesla, Rivian, or Lucid.\n- Powertrain experience involving HV batteries or drive units.\n- ASE A-series A4–A8 certifications plus L1 and/or L3 advanced certification and L4 ADAS certification.\n- Experience independently owning a broad scope spanning hands-on diagnostics, inspections, repairs, on-site operations, and SOP development.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of automotive technician experience, including hands-on diagnostic work.",
+        "source_quote": "3+ years of automotive technician experience, hands-on diagnostic work required",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience using OEM or aftermarket diagnostic software and scan tools.",
+        "source_quote": "Strong diagnostic instincts and experience with OEM/aftermarket software and scan tools",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Ability to read wiring diagrams, service manuals, and technical knowledgebases.",
+        "source_quote": "Ability to read wiring diagrams, service manuals, and technical knowledgebases",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Previous EV OEM experience, such as Tesla, Rivian, or Lucid.",
+        "source_quote": "Previous EV OEM experience (e.g., Tesla, Rivian, Lucid, etc.) strongly preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Powertrain experience involving HV batteries or drive units.",
+        "source_quote": "powertrain (HV battery / drive unit) experience a plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "ASE A-series A4–A8 certifications plus L1 and/or L3 advanced certification and L4 ADAS certification.",
+        "source_quote": "ASE certifications strongly preferred: A-series (A4-A8) plus L1 and/or L3 advanced and L4 (ADAS)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience independently owning a broad scope spanning hands-on diagnostics, inspections, repairs, on-site operations, and SOP development.",
+        "source_quote": "Experience owning a wide scope using various skill sets – e.g., hands-on diagnostics, inspections, and repair to on-site operations to SOP development – on your own until we expand the team",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Los Angeles area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Los Angeles area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Los Angeles",
+        "OnSite",
+        "Location: On-site - Norwalk, CA"
+      ]
+    },
+    "soft_requirements": [
+      "Strong diagnostic instincts.",
+      "Comfort working independently while defining team processes.",
+      "Curiosity and willingness to experiment with process improvements."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "14ada76f21a376f88a902365df0cc9258a554967e1fbb418c4c1f729b469900e",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:27.089566+00:00",
+    "response_id": "chatcmpl-ETyRlXOEVk2Bubslh67mDG4KYWfwx",
+    "usage": {
+      "prompt_tokens": 6411,
+      "completion_tokens": 1017,
+      "total_tokens": 7428,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 5165,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "51ee162f8562721757cbdfbe61f42dedc715b14c9e04f8a10ab06dc732c6e4d1",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Full-time, on-site work in Norwalk, California, within the Los Angeles area; current residence is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Norwalk, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Los Angeles",
+        "OnSite",
+        "Location: On-site - Norwalk, CA"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years of automotive technician experience, hands-on diagnostic work required",
+        "effective_requirement": "3+ years of automotive technician experience, including hands-on diagnostic work.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "d6f6bca61deae2ea3d6c197a9c1afdc431635f3c9bbc6f2c7100f2d888c66448",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Valid driver's license with a clean record.",
+          "source_quote": "Valid driver's license with a clean record",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Able to meet the stated physical requirements, including extended standing and walking, lifting up to 50 pounds, working beneath vehicles, operating shop equipment, and safely road-testing vehicles.",
+          "source_quote": "Stand and walk for extended periods\n\n - Lift up to 50 pounds\n\n - Bend, kneel, squat, and work underneath vehicles\n\n - Operate lifts, power tools, and diagnostic equipment\n\n - Comfortable working indoors and outdoors around moving vehicles and shop equipment\n\n - Safely drive and road-test vehicles",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "3ea85fb27f1355c9b5125fdab0b73109fa3c334dc86dee771e3bfc75ed3ed68f",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience independently owning a broad scope spanning hands-on diagnostics, inspections, repairs, on-site operations, and SOP development.",
+          "source_quote": "Experience owning a wide scope using various skill sets – e.g., hands-on diagnostics, inspections, and repair to on-site operations to SOP development – on your own until we expand the team",
+          "verification": "profile",
+          "reason": "Broad independent scope including SOP development is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "790cd6122677e6cae0e8f6ea11c86bbbbe7ad74ffaedf2fdeee75b7c60f006c6",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "54bb24107b454eae3585c17f63b541dfd0c9c67c529febc55224ad14a3ef555f",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Los Angeles area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Los Angeles area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years of automotive technician experience, hands-on diagnostic work required",
+      "effective_requirement": "3+ years of automotive technician experience, including hands-on diagnostic work.",
+      "kind": "mandatory"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "role_id": "e323b789-8bd4-4051-a8c0-b22096bdd51e",
+  "snapshot_sha256": "336832c7f79e353ce85e16401d76f1951b500e6d814a8e1e345d4464132da249",
+  "input_sha256": "3b87770ade12012c215d68d3565e99cd52f63bf16d56f999b9eeda6c085662e7",
+  "rubric_sha256": "642b46d627144877c1426505f7b8ed2c38d7ceb1955649c9df39956b8c007bac",
+  "rubric": {
+    "role_summary": "Senior in-house employment counsel advising on employee relations, policies, investigations, and employment litigation while contributing to compliance and risk management at a technology company.",
+    "search_query": "Find candidates for this role:\nSenior in-house employment counsel advising on employee relations, policies, investigations, and employment litigation while contributing to compliance and risk management at a technology company.\nMandatory professional qualifications:\n- 8+ years of legal experience, including at least 3+ years in-house in tech.\n- Employment law experience.\n- Experience with employment-related litigation or disputes.\nPreferred, not mandatory:\n- Experience in a high-growth B2B company.\n- Prior exposure to regulatory matters or compliance programs.\n- Employment law experience covering employee relations, leave administration, pay equity, workplace investigations, performance management and policy development.\n- Experience managing or supporting employment-related litigation, pre-litigation disputes and government inquiries, including demand letters, agency charges, subpoenas and litigation holds.\n- Project management experience building and scaling programs, including internationally, and leading cross-functional initiatives and change management efforts.\n- Understanding of the modern Legal tech stack and surrounding LegalTech ecosystem.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This is a hybrid role based out of our San Francisco office. Office attendance is required at least twice a week on Tuesdays and Thursdays for collaboration and connection. There may be additional in-office days for team or company events.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "8+ years of legal experience, including at least 3+ years in-house in tech.",
+        "source_quote": "8+ years of legal experience, with at least 3+ years in-house in tech",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Employment law experience.",
+        "source_quote": "Proven track record in employment law matters, including employee relations issues, leave administration, pay equity, workplace investigations, performance management and policy development.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience with employment-related litigation or disputes.",
+        "source_quote": "Experience managing or supporting employment-related litigation, pre-litigation disputes, and government inquiries, including demand letters, agency charges, subpoenas, and litigation holds",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in a high-growth B2B company.",
+        "source_quote": "strong preference for experience in high growth B2B company.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Prior exposure to regulatory matters or compliance programs.",
+        "source_quote": "(Nice to have) Prior exposure to regulatory matters or compliance programs.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Employment law experience covering employee relations, leave administration, pay equity, workplace investigations, performance management and policy development.",
+        "source_quote": "Proven track record in employment law matters, including employee relations issues, leave administration, pay equity, workplace investigations, performance management and policy development.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience managing or supporting employment-related litigation, pre-litigation disputes and government inquiries, including demand letters, agency charges, subpoenas and litigation holds.",
+        "source_quote": "Experience managing or supporting employment-related litigation, pre-litigation disputes, and government inquiries, including demand letters, agency charges, subpoenas, and litigation holds",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Project management experience building and scaling programs, including internationally, and leading cross-functional initiatives and change management efforts.",
+        "source_quote": "Strong project management skills and a demonstrated ability to build and scale programs (including internationally) and lead cross-functional initiatives (including having led change management efforts).",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Understanding of the modern Legal tech stack and surrounding LegalTech ecosystem.",
+        "source_quote": "Deep understanding of the modern Legal tech stack and surrounding LegalTech ecosystem.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "This is a hybrid role based out of our San Francisco office. Office attendance is required at least twice a week on Tuesdays and Thursdays for collaboration and connection. There may be additional in-office days for team or company events."
+      ]
+    },
+    "soft_requirements": [
+      "Comfort coordinating with outside litigation counsel on active matters.",
+      "Intellectual curiosity and willingness to work in evolving areas of law.",
+      "Positive, business-focused attitude, judgment, integrity and ability to prioritize competing work.",
+      "Ability to assess business challenges and provide timely, pragmatic recommendations.",
+      "Effective communication, collaboration and relationship-building.",
+      "Ability to explain complex legal issues clearly and understand their organizational impact."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "336832c7f79e353ce85e16401d76f1951b500e6d814a8e1e345d4464132da249",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:17.188808+00:00",
+    "response_id": "chatcmpl-ETyUWFP64qZswgq1MPMzIb5Zi08bn",
+    "usage": {
+      "prompt_tokens": 2843,
+      "completion_tokens": 1026,
+      "total_tokens": 3869,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1597,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "b55fb5e4f75a406afc1c8e8903758703555a7de0290535be1f3191e2bc6a2464",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role based out of the San Francisco office; office attendance required at least twice weekly on Tuesdays and Thursdays, with possible additional days for team or company events. Present residence in San Francisco is not specified.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco office"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "This is a hybrid role based out of our San Francisco office. Office attendance is required at least twice a week on Tuesdays and Thursdays for collaboration and connection. There may be additional in-office days for team or company events."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "8+ years of legal experience, with at least 3+ years in-house in tech",
+        "effective_requirement": "8+ years of legal experience, including at least 3+ years in-house in tech.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "c198c9ae379b85ec7d2d31c3cc9dd29e7e7b3050c941538679d069c3a0593347",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "requirement": "JD from an accredited law school and admission to the CA Bar.",
+          "source_quote": "JD from an accredited law school and admission to the CA Bar.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M2": "M1",
+        "M3": "M2",
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c52954bb93b0ea45b4b1e1ea3ca21e68fbfcd678bef5e6f5848a4af166e62b2a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Project management experience building and scaling programs, including internationally, and leading cross-functional initiatives and change management efforts.",
+          "source_quote": "Strong project management skills and a demonstrated ability to build and scale programs (including internationally) and lead cross-functional initiatives (including having led change management efforts).",
+          "verification": "profile",
+          "reason": "Program-building and change management rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Understanding of the modern Legal tech stack and surrounding LegalTech ecosystem.",
+          "source_quote": "Deep understanding of the modern Legal tech stack and surrounding LegalTech ecosystem.",
+          "verification": "profile",
+          "reason": "Legal tech stack understanding is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Employment law experience covering employee relations, leave administration, pay equity, workplace investigations, performance management and policy development.",
+          "after": "Employment law experience.",
+          "reason": "Employment law practice observable; full topic list is not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Experience managing or supporting employment-related litigation, pre-litigation disputes and government inquiries, including demand letters, agency charges, subpoenas and litigation holds.",
+          "after": "Experience with employment-related litigation or disputes.",
+          "reason": "Employment litigation observable; specific instruments are not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M3": "P4",
+        "M4": "P5",
+        "M5": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "5b531526bc5c5132b98b0e3de59944268bb6e56c38ea1f3765cc2da0674f1714",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "a58647e01ef5aac11cf37b09e160a0b0af5fda775ca15ec83a2064c465a60446",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This is a hybrid role based out of our San Francisco office. Office attendance is required at least twice a week on Tuesdays and Thursdays for collaboration and connection. There may be additional in-office days for team or company events.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "8+ years of legal experience, with at least 3+ years in-house in tech",
+      "effective_requirement": "8+ years of legal experience, including at least 3+ years in-house in tech.",
+      "kind": "mandatory"
+    }
+  ]
+}

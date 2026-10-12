@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "role_id": "fe95800f-2d69-4d34-947a-b7e33ca93cd3",
+  "snapshot_sha256": "a6f4dbba07ba4e37640151d79bae061c607e0b576e33eb87d8dffb582fecc85a",
+  "input_sha256": "6e90adad95cc7a12cc6d089d36bf4bf42a805b0e5cd861814ad589fbc77fe8bc",
+  "rubric_sha256": "a2158c7651ad2ef80f9599734ca4b2f783bbbab983a1bbef32aacba9caf5eb12",
+  "rubric": {
+    "role_summary": "Manager responsible for strategic delivery-provider partnerships, integration performance, operational improvements, and growth at a logistics platform.",
+    "search_query": "Find candidates for this role:\nManager responsible for strategic delivery-provider partnerships, integration performance, operational improvements, and growth at a logistics platform.\nMandatory professional qualifications:\n- 5+ years in a customer-facing and technical role.\n- Technical fluency with APIs and integrations.\nPreferred, not mandatory:\n- Experience with carriers or delivery partners.\n- Experience in last-mile logistics, supply chain, or complex B2B SaaS systems.\n- Experience in high-growth startups or enterprise retail environments.\n- Familiarity with API docs, observability platforms, SQL, Python, or engineering workflows.\n- Background in consultative roles involving both technical depth and commercial accountability.\n- Proven success owning strategic relationships and driving growth and operational excellence.\n- Technical fluency with APIs, integrations, and debugging workflows, including collaboration with engineering.\n- Experience advising product or engineering leaders and translating technical concepts into business outcomes.\n- Analytical and problem-solving skills applied to diagnosing root causes in complex systems.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years in a customer-facing and technical role.",
+        "source_quote": "5+ years in a customer-facing and technical role",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Technical fluency with APIs and integrations.",
+        "source_quote": "Strong technical fluency — comfortable with APIs, integrations, debugging workflows, and collaborating with engineering.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with carriers or delivery partners.",
+        "source_quote": "experience with carriers/delivery partners is a plus",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience in last-mile logistics, supply chain, or complex B2B SaaS systems.",
+        "source_quote": "Experience in last-mile logistics, supply chain, or complex B2B SaaS systems.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience in high-growth startups or enterprise retail environments.",
+        "source_quote": "Experience in high-growth startups or enterprise retail environments.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with API docs, observability platforms, SQL, Python, or engineering workflows.",
+        "source_quote": "Familiarity with API docs, observability platforms, SQL, Python, or engineering workflows.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Background in consultative roles involving both technical depth and commercial accountability.",
+        "source_quote": "Background in consultative roles involving both technical depth and commercial accountability.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Proven success owning strategic relationships and driving growth and operational excellence.",
+        "source_quote": "Proven success owning strategic relationships and driving growth and operational excellence",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Technical fluency with APIs, integrations, and debugging workflows, including collaboration with engineering.",
+        "source_quote": "Strong technical fluency — comfortable with APIs, integrations, debugging workflows, and collaborating with engineering.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience advising product or engineering leaders and translating technical concepts into business outcomes.",
+        "source_quote": "Experience advising product/engineering leaders and translating technical concepts into business outcomes.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Analytical and problem-solving skills applied to diagnosing root causes in complex systems.",
+        "source_quote": "Strong analytical and problem-solving skills with the ability to diagnose root causes in complex systems.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": "No geographic filter",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote HQ",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Ability to rapidly master a product and use that knowledge to guide customers and shape feedback.",
+      "Excellent communication and executive presence."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "a6f4dbba07ba4e37640151d79bae061c607e0b576e33eb87d8dffb582fecc85a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:23.027377+00:00",
+    "response_id": "chatcmpl-ETyTdotazsfSSRf2LUO69FseUukkU",
+    "usage": {
+      "prompt_tokens": 2299,
+      "completion_tokens": 955,
+      "total_tokens": 3254,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1053,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 88,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "7ae4d01a152dce79c00cd0935843ea69e3fa1cdb3a49d28cfe3f3965a55919c6",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": false,
+      "requirement_text": "Listed as Remote HQ; no geographic eligibility boundary or required current residence is specified.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote HQ",
+        "Remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years in a customer-facing and technical role",
+        "effective_requirement": "5+ years in a customer-facing and technical role.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "d9f022c4ff75d0bb32211b3f42a292cc6ebf8356fc516f6b305564218587fe9e",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d9f022c4ff75d0bb32211b3f42a292cc6ebf8356fc516f6b305564218587fe9e",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Proven success owning strategic relationships and driving growth and operational excellence.",
+          "source_quote": "Proven success owning strategic relationships and driving growth and operational excellence",
+          "verification": "profile",
+          "reason": "Proven success and operational excellence are outcome claims."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience advising product or engineering leaders and translating technical concepts into business outcomes.",
+          "source_quote": "Experience advising product/engineering leaders and translating technical concepts into business outcomes.",
+          "verification": "profile",
+          "reason": "Advising product/engineering leaders is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Analytical and problem-solving skills applied to diagnosing root causes in complex systems.",
+          "source_quote": "Strong analytical and problem-solving skills with the ability to diagnose root causes in complex systems.",
+          "verification": "profile",
+          "reason": "Analytical problem-solving is a soft-skill claim."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Technical fluency with APIs, integrations, and debugging workflows, including collaboration with engineering.",
+          "after": "Technical fluency with APIs and integrations.",
+          "reason": "API/integration work is implied by technical customer-facing roles; debugging workflows and collaboration are not."
+        }
+      ],
+      "criterion_id_map": {
+        "M3": "M2"
+      },
+      "demoted_preference_ids": {
+        "M2": "P6",
+        "M3": "P7",
+        "M4": "P8",
+        "M5": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "a2158c7651ad2ef80f9599734ca4b2f783bbbab983a1bbef32aacba9caf5eb12",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": false
+    },
+    "single_location": {
+      "parent_rubric_sha256": "a2158c7651ad2ef80f9599734ca4b2f783bbbab983a1bbef32aacba9caf5eb12",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged.",
+      "previous_allowed_locations": [],
+      "previous_requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "location_requirement_changed": false
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years in a customer-facing and technical role",
+      "effective_requirement": "5+ years in a customer-facing and technical role.",
+      "kind": "mandatory"
+    }
+  ]
+}

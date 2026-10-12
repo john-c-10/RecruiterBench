@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9747412d-a23d-48ba-bddd-ad1247c360f5",
+  "snapshot_sha256": "fe54da784fbdf8abec5bf4f0918f08ce10db0d5ea57cb4bd7bcedb7bd245d6b1",
+  "input_sha256": "961963ddc225b5b3c45e2861917412bbc2fea51ea0bfcad58390f5b3c38ce6a2",
+  "rubric_sha256": "58167fdd76febb08790fd533bdbc628f6bbbcb5133873fa25b74cd4619cb14f7",
+  "rubric": {
+    "role_summary": "Senior support strategy and operations role driving programs, systems, process improvements, and scaling initiatives for customer support operations.",
+    "search_query": "Find candidates for this role:\nSenior support strategy and operations role driving programs, systems, process improvements, and scaling initiatives for customer support operations.\nMandatory professional qualifications:\n- 8+ years of experience in operations, strategy, and consulting, including at least 5 years building and leading customer-facing operations.\nPreferred, not mandatory:\n- Extensive experience taking end-to-end ownership of large, ambiguous problems and turning them into actionable plans.\n- Direct experience engaging executives and senior leaders to influence strategic decisions.\n- Skills in data modeling and operational forecasting.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "8+ years of experience in operations, strategy, and consulting, including at least 5 years building and leading customer-facing operations.",
+        "source_quote": "Have 8+ years of experience in operations, strategy, and consulting, with at least 5 years of experience building and  leading customer-facing operations.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Extensive experience taking end-to-end ownership of large, ambiguous problems and turning them into actionable plans.",
+        "source_quote": "Have extensive experience in taking end-to-end ownership of large, ambiguous problems, and breaking them down into clear, actionable plans.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Direct experience engaging executives and senior leaders to influence strategic decisions.",
+        "source_quote": "Have direct experience engaging with executives and senior leaders to influence and drive strategic decisions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Skills in data modeling and operational forecasting.",
+        "source_quote": "strong skills in data modeling and operational forecasting to drive insights and decision-making.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort operating at both executive-strategy and individual-contributor operational levels.",
+      "Communication, collaboration, and ability to influence stakeholders across the organization.",
+      "Ability to bring structure to chaotic situations.",
+      "Interest in technology, AI, and customer service, including AI’s broader impact.",
+      "Willingness to work with emerging technology and concepts."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "fe54da784fbdf8abec5bf4f0918f08ce10db0d5ea57cb4bd7bcedb7bd245d6b1",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:23.025088+00:00",
+    "response_id": "chatcmpl-ETyVcBnqBBccKAoeosB8YxLdLCQ7m",
+    "usage": {
+      "prompt_tokens": 2620,
+      "completion_tokens": 545,
+      "total_tokens": 3165,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1374,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 61,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "40d4ce0993d5075a183326d0a8ef3f620869a6359636d279e9ab9a79477fc104",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "San Francisco is the listed work location; the posting does not specify an onsite, hybrid, or remote arrangement or require current residence there.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Have 8+ years of experience in operations, strategy, and consulting, with at least 5 years of experience building and  leading customer-facing operations.",
+        "effective_requirement": "8+ years of experience in operations, strategy, and consulting, including at least 5 years building and leading customer-facing operations.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "a7b08d61ad50649f6e8e053a0ec7ea6c86cb2efce9785b0cb23ae4bd07d12bf7",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "a7b08d61ad50649f6e8e053a0ec7ea6c86cb2efce9785b0cb23ae4bd07d12bf7",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Extensive experience taking end-to-end ownership of large, ambiguous problems and turning them into actionable plans.",
+          "source_quote": "Have extensive experience in taking end-to-end ownership of large, ambiguous problems, and breaking them down into clear, actionable plans.",
+          "verification": "profile",
+          "reason": "Ownership of ambiguous problems is a work-style trait."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Direct experience engaging executives and senior leaders to influence strategic decisions.",
+          "source_quote": "Have direct experience engaging with executives and senior leaders to influence and drive strategic decisions.",
+          "verification": "profile",
+          "reason": "Executive influence is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Skills in data modeling and operational forecasting.",
+          "source_quote": "strong skills in data modeling and operational forecasting to drive insights and decision-making.",
+          "verification": "profile",
+          "reason": "Forecasting/data modeling skills are rarely stated by ops leaders."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P1",
+        "M3": "P2",
+        "M4": "P3"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "cc48386075a11e8483cab69d7913e0a3cf097fd4bc932a523acb330636401269",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "a99390ce1bab10a6e6a26fb9f6f47d389660ab7ee9f9049104d0151f49ea8bfc",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Have 8+ years of experience in operations, strategy, and consulting, with at least 5 years of experience building and  leading customer-facing operations.",
+      "effective_requirement": "8+ years of experience in operations, strategy, and consulting, including at least 5 years building and leading customer-facing operations.",
+      "kind": "mandatory"
+    }
+  ]
+}

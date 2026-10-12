@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f63c2d2f-4488-44ca-b605-996dc73bb4d7",
+  "snapshot_sha256": "515991614330adb2d7639294482248e4d5be1068c5df552e678296221feaeb9a",
+  "input_sha256": "f55c608d7a6e888ca4b8ed2e1774f6075a27f0c707bf692396d0f70e0d6139e6",
+  "rubric_sha256": "fc7b2c48c9f0cdb499a5b80afee96e68665bbc821a410bc50949bf68721c254e",
+  "rubric": {
+    "role_summary": "Senior operating partner supporting deep-tech portfolio companies with later-stage fundraising, lead-investor relationships, commercial positioning, and strategic transactions.",
+    "search_query": "Find candidates for this role:\nSenior operating partner supporting deep-tech portfolio companies with later-stage fundraising, lead-investor relationships, commercial positioning, and strategic transactions.\nMandatory professional qualifications:\n- 10+ years of experience leading capital-raising efforts for technology companies.\nPreferred, not mandatory:\n- Experience from an investment banking, corporate development, or venture capital background.\n- 10+ years of relevant experience leading capital-raising efforts for technology companies from initial outreach through due diligence, valuation, and structuring.\n- Track record of identifying and closing lead investors at later-stage technology companies.\n- Network and ability to maintain connections with investors, acquirers, and advisors.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "10+ years of experience leading capital-raising efforts for technology companies.",
+        "source_quote": "You have 10+ years of relevant experience showcasing expertise in leading capital-raising efforts from initial outreach through due diligence, valuation, and structuring for technology companies.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience from an investment banking, corporate development, or venture capital background.",
+        "source_quote": "Ideal experience can be derived from investment banking, corporate development, or venture capital backgrounds.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "10+ years of relevant experience leading capital-raising efforts for technology companies from initial outreach through due diligence, valuation, and structuring.",
+        "source_quote": "You have 10+ years of relevant experience showcasing expertise in leading capital-raising efforts from initial outreach through due diligence, valuation, and structuring for technology companies.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Track record of identifying and closing lead investors at later-stage technology companies.",
+        "source_quote": "You have a track record of successfully identifying and closing lead investors at later-stage technology companies.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Network and ability to maintain connections with investors, acquirers, and advisors.",
+        "source_quote": "You have a strong network and the ability to build and maintain connectivity with investors, acquirers, and advisors.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Palo Alto, CA",
+        "Hybrid",
+        "The job is based in Palo Alto, California, and is not eligible for remote status."
+      ]
+    },
+    "soft_requirements": [
+      "Strong written and verbal communication, independent execution, collaboration, and project management.",
+      "Creative thinking and innovative approaches to complex deals.",
+      "Commitment to supporting portfolio-company success."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "515991614330adb2d7639294482248e4d5be1068c5df552e678296221feaeb9a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:39.987050+00:00",
+    "response_id": "chatcmpl-ETySyKZNJamBTm5wP6rOC7yuiu1EY",
+    "usage": {
+      "prompt_tokens": 2487,
+      "completion_tokens": 912,
+      "total_tokens": 3399,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1241,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 55,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "fa6aa8332a1ca145d68f1f49ba9f84af5762ce6fe2c20a3e96363bc1bf5916bc",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role based in Palo Alto, California; not eligible for remote status. Current residence in Palo Alto is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Palo Alto, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Palo Alto, CA",
+        "Hybrid",
+        "The job is based in Palo Alto, California, and is not eligible for remote status."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "You have 10+ years of relevant experience showcasing expertise in leading capital-raising efforts from initial outreach through due diligence, valuation, and structuring for technology companies.",
+        "effective_requirement": "10+ years of relevant experience leading capital-raising efforts for technology companies from initial outreach through due diligence, valuation, and structuring.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "76a86981be79c40d5ca7d5d45371466d05d2c3bd188eea862f65d47d32fe7a1c",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Able to travel an average of 20% of the time per quarter.",
+          "source_quote": "Travel is required for this position, on average 20% of the time a quarter.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Currently authorized to work in the United States on a full-time basis.",
+          "source_quote": "Applicants must be currently authorized to work in the United States on a full-time basis.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Requires employment visa sponsorship or transfer, now or in the future.",
+          "source_quote": "The company will not sponsor applicants for work visas, nor will it transfer existing visas, for this position now or in the future.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "979ea12554e301fd99cddd18fd64602eb94bd59fc2cadbdf10fc3c972e45c446",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Track record of identifying and closing lead investors at later-stage technology companies.",
+          "source_quote": "You have a track record of successfully identifying and closing lead investors at later-stage technology companies.",
+          "verification": "profile",
+          "reason": "Track record of closing lead investors is an outcome claim rarely stated on profiles."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Network and ability to maintain connections with investors, acquirers, and advisors.",
+          "source_quote": "You have a strong network and the ability to build and maintain connectivity with investors, acquirers, and advisors.",
+          "verification": "profile",
+          "reason": "Network strength is not observable on a profile."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "10+ years of relevant experience leading capital-raising efforts for technology companies from initial outreach through due diligence, valuation, and structuring.",
+          "after": "10+ years of experience leading capital-raising efforts for technology companies.",
+          "reason": "Core fundraising function and years are observable from IB/VC/corp-dev titles; deal-process steps are rarely listed."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P2",
+        "M2": "P3",
+        "M3": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "b5396a18bd2322ea188b07137eb7fb16af93347a750c04610986e583cd010f01",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "eaf55578488e43aa6624d422e5966fa539ad9c9a97ed8a8c43a02e22986d885d",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "You have 10+ years of relevant experience showcasing expertise in leading capital-raising efforts from initial outreach through due diligence, valuation, and structuring for technology companies.",
+      "effective_requirement": "10+ years of experience leading capital-raising efforts for technology companies.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "You have 10+ years of relevant experience showcasing expertise in leading capital-raising efforts from initial outreach through due diligence, valuation, and structuring for technology companies.",
+      "effective_requirement": "10+ years of relevant experience leading capital-raising efforts for technology companies from initial outreach through due diligence, valuation, and structuring.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

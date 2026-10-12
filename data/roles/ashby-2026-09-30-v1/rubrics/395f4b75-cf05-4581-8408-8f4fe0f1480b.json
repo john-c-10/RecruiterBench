@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "role_id": "395f4b75-cf05-4581-8408-8f4fe0f1480b",
+  "snapshot_sha256": "5b1a6c51f3e67573bceca8e0aa054efcc1c2487337b111ec80f97652bb60a03e",
+  "input_sha256": "09b51fd7269d4f78263acbdd32b7a17d1c1c632431982ad37e262a6c00b45457",
+  "rubric_sha256": "13e6561c1bf7b506cf6185571ba61aa6d44bc9cf2cb4823c7808698c93ed135e",
+  "rubric": {
+    "role_summary": "Backend software engineer for a commercial property and casualty insurance platform spanning data collection, automated underwriting, and policy administration. The role leads major product initiatives, makes technical decisions, and works across the stack.",
+    "search_query": "Find candidates for this role:\nBackend software engineer for a commercial property and casualty insurance platform spanning data collection, automated underwriting, and policy administration. The role leads major product initiatives, makes technical decisions, and works across the stack.\nPreferred, not mandatory:\n- Experience leading or making a major contribution to significant projects.\n- Some insurance experience, either in an InsurTech or actuarial role.\n- Experience with JavaScript/TypeScript in backend and/or frontend work.\n- At least 5+ years of working experience delivering products; full-stack engineering experience is preferred.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience leading or making a major contribution to significant projects.",
+        "source_quote": "you've led or been a major contributor on significant projects",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Some insurance experience, either in an InsurTech or actuarial role.",
+        "source_quote": "You have some experience with insurance – either from a prior InsurTech role or actuarial role",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with JavaScript/TypeScript in backend and/or frontend work.",
+        "source_quote": "You have experience working with Javascript/Typescript (backend and/or frontend)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "At least 5+ years of working experience delivering products; full-stack engineering experience is preferred.",
+        "source_quote": "You have at least 5+ years of working experience (preferably as a full-stack engineer) with a track record of delivering high-impact products",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort with ambiguity, frequent shipping, varied responsibilities, and end-to-end ownership.",
+      "Interest in the built world, construction safety, and productivity.",
+      "Willingness to mentor other engineers and adapt views when presented with better solutions.",
+      "Ability to communicate technical concepts to technical and non-technical stakeholders.",
+      "Passion for the work and attention to technical quality and customer impact."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "5b1a6c51f3e67573bceca8e0aa054efcc1c2487337b111ec80f97652bb60a03e",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:58.527153+00:00",
+    "response_id": "chatcmpl-ETyTGEh1oqVPlfRRxRXbiGosOBJxx",
+    "usage": {
+      "prompt_tokens": 2790,
+      "completion_tokens": 592,
+      "total_tokens": 3382,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1544,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 83,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "15a6a5da10a222dea36829f0f16921ee4dd97b159377172d5572c31878729062",
+    "resolved_ambiguities": [
+      "The HOW WE WORK section refers to “the first PM,” although the posting is for a backend software engineer."
+    ],
+    "resolution": "Ignore the copied 'first PM' phrase; retain the backend engineering work and requirements.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite in San Francisco. The posting does not require candidates to currently reside there or state a relocation policy.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "P4",
+        "source_quote": "You have at least 5+ years of working experience (preferably as a full-stack engineer) with a track record of delivering high-impact products",
+        "effective_requirement": "At least 5+ years of working experience delivering products; full-stack engineering experience is preferred.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "048c8616cea38fdcba3927608553843d67ca4666d37ad87b9270532dc78360a8",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "048c8616cea38fdcba3927608553843d67ca4666d37ad87b9270532dc78360a8",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "048c8616cea38fdcba3927608553843d67ca4666d37ad87b9270532dc78360a8",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "1f8ce028d4394e290b896f5e6d118417e88c534db58532296bba07d0f34dffee",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "P4",
+      "source_quote": "You have at least 5+ years of working experience (preferably as a full-stack engineer) with a track record of delivering high-impact products",
+      "effective_requirement": "At least 5+ years of working experience delivering products; full-stack engineering experience is preferred.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

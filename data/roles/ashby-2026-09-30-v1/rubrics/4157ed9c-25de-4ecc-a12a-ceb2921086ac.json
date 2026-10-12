@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "role_id": "4157ed9c-25de-4ecc-a12a-ceb2921086ac",
+  "snapshot_sha256": "cdb465639698964dc1a32ed9e9c0884c5a20b479e17b703991dd092feb6f56d4",
+  "input_sha256": "d48c109a2167faafe48e38b6427d22e8ad1612cfae0623babed79d2fef98a105",
+  "rubric_sha256": "9106662f6a95febb08b1214fc9932cc5b440032991fca86f8dbc50c37beae876",
+  "rubric": {
+    "role_summary": "Remote US marketing data analyst on an analytics team, using marketing and media data to measure TV and streaming campaign effectiveness, validate analyses, and explain results to clients and internal teams.",
+    "search_query": "Find candidates for this role:\nRemote US marketing data analyst on an analytics team, using marketing and media data to measure TV and streaming campaign effectiveness, validate analyses, and explain results to clients and internal teams.\nMandatory professional qualifications:\n- 2+ years of experience in marketing analytics, media analytics, or a related quantitative field.\n- Degree in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing, or similar.\n- Proficiency in Excel.\n- Experience using BI or data tools, such as Domo, Databricks, SQL, or similar environments, to explore and troubleshoot data; no particular named platform is required.\nPreferred, not mandatory:\n- Experience supporting campaign measurement.\n- 3.5 GPA or equivalent academic performance in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing, or similar.\n- Ability to interpret performance data, identify trends, and connect insights to defined KPIs.\n- Excel skills using formulas, pivot tables, and structured analysis to organize, validate, and analyze large datasets.\n- Experience building client-ready slides explaining campaign results or analytical findings.\n- Experience using AI tools to improve workflows, explore data, or enhance analysis, with an understanding of their strengths and limitations.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States, excluding California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "2+ years of experience in marketing analytics, media analytics, or a related quantitative field.",
+        "source_quote": "2–5 years of experience in marketing analytics, media analytics or a related quantitative field",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Degree in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing, or similar.",
+        "source_quote": "3.5 GPA or equivalent academic performance in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing or similar.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Proficiency in Excel.",
+        "source_quote": "Comfortable using formulas, pivots tables and structured analysis to organize, validate and analyze large datasets.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience using BI or data tools, such as Domo, Databricks, SQL, or similar environments, to explore and troubleshoot data; no particular named platform is required.",
+        "source_quote": "You’ve worked in platforms like Domo, Databricks, SQL or similar environments to explore and troubleshoot data.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience supporting campaign measurement.",
+        "source_quote": "ideally supporting campaign measurement.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "3.5 GPA or equivalent academic performance in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing, or similar.",
+        "source_quote": "3.5 GPA or equivalent academic performance in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing or similar.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Ability to interpret performance data, identify trends, and connect insights to defined KPIs.",
+        "source_quote": "You interpret performance data, identify trends, and connect insights back to defined KPIs to inform decisions.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Excel skills using formulas, pivot tables, and structured analysis to organize, validate, and analyze large datasets.",
+        "source_quote": "Comfortable using formulas, pivots tables and structured analysis to organize, validate and analyze large datasets.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience building client-ready slides explaining campaign results or analytical findings.",
+        "source_quote": "You’ve built clear, client-ready slides that explain campaign results or analytical findings in a logical way",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience using AI tools to improve workflows, explore data, or enhance analysis, with an understanding of their strengths and limitations.",
+        "source_quote": "You use AI tools to improve workflows, explore data or enhance analysis and you understand their strengths and limitations.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States, excluding California (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States, excluding California"
+      ],
+      "remote_scope": "United States, excluding California",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Fully remote within the US",
+        "Our remote-friendly work model supports flexibility across the US, however we are currently unable to support employment in California. We are unable to consider applicants who live outside of the US."
+      ]
+    },
+    "soft_requirements": [
+      "Present analytical findings confidently and explain them clearly to clients and internal teams.",
+      "Explain analytical methodology, assumptions, and calculations without relying on AI output; exercise judgment about unreliable results."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "cdb465639698964dc1a32ed9e9c0884c5a20b479e17b703991dd092feb6f56d4",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:09.189002+00:00",
+    "response_id": "chatcmpl-ETyUMRfB6NlHaocslaThUck8RVLMr",
+    "usage": {
+      "prompt_tokens": 2630,
+      "completion_tokens": 1127,
+      "total_tokens": 3757,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1384,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 58,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "2c00bd06ab6856690cb5891daf70b68311af6e47f4e02e98dd4ceadf8b8d3788",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote work within the US, excluding employment in California. Applicants must currently live in the US.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States, excluding California"
+      ],
+      "remote_scope": "Within the US; employment in California is not supported.",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "United States",
+        "Remote",
+        "Fully remote within the US",
+        "Our remote-friendly work model supports flexibility across the US, however we are currently unable to support employment in California. We are unable to consider applicants who live outside of the US."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "2–5 years of experience in marketing analytics, media analytics or a related quantitative field",
+        "effective_requirement": "2+ years of experience in marketing analytics, media analytics, or a related quantitative field.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "cd46f6cf44228848f0a2b16ffeebd42f4f02ace55f52bb2b919f2dc8a4dfb5d9",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Needs any type of immigration sponsorship, for additional or permanent work authorization, now or in the future.",
+          "source_quote": "At this time, we're not considering candidates that need any type of immigration sponsorship (additional work authorization or permanent work authorization) now or in the future.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "b004bbd5b4797ca38cc2f7b1c3bdd149337753f19d98a266cde26fe1a7e26c5a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Ability to interpret performance data, identify trends, and connect insights to defined KPIs.",
+          "source_quote": "You interpret performance data, identify trends, and connect insights back to defined KPIs to inform decisions.",
+          "verification": "profile",
+          "reason": "Interpretation ability is unstated beyond the analyst role."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Experience building client-ready slides explaining campaign results or analytical findings.",
+          "source_quote": "You’ve built clear, client-ready slides that explain campaign results or analytical findings in a logical way",
+          "verification": "profile",
+          "reason": "Slide-building is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Experience using AI tools to improve workflows, explore data, or enhance analysis, with an understanding of their strengths and limitations.",
+          "source_quote": "You use AI tools to improve workflows, explore data or enhance analysis and you understand their strengths and limitations.",
+          "verification": "profile",
+          "reason": "AI tool use is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "3.5 GPA or equivalent academic performance in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing, or similar.",
+          "after": "Degree in a quantitative field such as business, economics, statistics, mathematics, computer science, marketing, or similar.",
+          "reason": "Degree field observable; GPA rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Excel skills using formulas, pivot tables, and structured analysis to organize, validate, and analyze large datasets.",
+          "after": "Proficiency in Excel.",
+          "reason": "Excel is commonly listed; specific techniques are not."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3",
+        "M5": "M4"
+      },
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4",
+        "M6": "P5",
+        "M7": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "c36b415c0cd070280d3d9b4edde360cda7c1e2574bc279d4bc633abf98df7015",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "95af6fec7a4cb375436bb904783c08d24044fb827af1fdf18cc3f2056af0fabd",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States, excluding California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States, excluding California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "2–5 years of experience in marketing analytics, media analytics or a related quantitative field",
+      "effective_requirement": "2+ years of experience in marketing analytics, media analytics, or a related quantitative field.",
+      "kind": "mandatory"
+    }
+  ]
+}

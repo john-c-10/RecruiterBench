@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c152fd1d-1f53-468b-923c-d29a3afaec0c",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/Mutiny/c152fd1d-1f53-468b-923c-d29a3afaec0c",
+    "board_url": "https://jobs.ashbyhq.com/Mutiny",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/Mutiny",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "c152fd1d-1f53-468b-923c-d29a3afaec0c",
+    "title": "AI Strategist",
+    "department": "Go to Market",
+    "team": "Go to Market",
+    "employmentType": "FullTime",
+    "location": "In person in New York City",
+    "secondaryLocations": [],
+    "publishedAt": "2026-04-28T22:12:24.759+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "New York",
+        "streetAddress": "50 W 17th St Fl, 11",
+        "addressCountry": "United States",
+        "addressLocality": "New York City"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/Mutiny/c152fd1d-1f53-468b-923c-d29a3afaec0c",
+    "applyUrl": "https://jobs.ashbyhq.com/Mutiny/c152fd1d-1f53-468b-923c-d29a3afaec0c/application",
+    "descriptionHtml": "<h2>What we're building</h2><p style=\"min-height:1.5em\">Mutiny is the self-improving AI infrastructure for GTM teams to execute faster and close more revenue. Our ambition is to do for revenue velocity what Cursor and Claude Code did for engineering velocity. With Mutiny, everyone in sales and marketing gets a bench of GTM athletes that handle any work across their revenue motion and learn from what's actually moved their deals.</p><p style=\"min-height:1.5em\">In April we re-launched the product as an agent-first platform. Anthropic showcased us as a leader in AI GTM. MRR is growing more than 70% month-over-month, with customers like Uber, Rippling, and Snowflake. We're backed by Sequoia, YC, and Insight, and we're building a generational company.</p><p style=\"min-height:1.5em\"></p><h2>The opportunity</h2><p style=\"min-height:1.5em\">Most CS roles are graded on how few problems the customer has. You'll be graded on how much they grow. As a growth strategist at Mutiny, you'll own a book of managed accounts and become the reason teams at customers like Rippling, Uber, and Snowflake get more out of AI than their peers. CS isn't a support function here. It's how we turn early traction into the customer base that defines a category. You'll build the playbooks as you go and shape what customer success looks like at an AI-native company from the ground up. This role is in person in New York City, five days a week.</p><p style=\"min-height:1.5em\"></p><h2>What you'll own</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Your book.</strong> Onboarding, adoption, retention, and expansion across your managed accounts. Every customer outcome runs through you.</p></li><li><p style=\"min-height:1.5em\"><strong>Customer expertise.</strong> Become the expert on how each customer's business works and where Mutiny fits in. Translate that into \"aha\" moments that move their roadmap.</p></li><li><p style=\"min-height:1.5em\"><strong>The AI motion.</strong> Teach customers how to use our agent-first platform to create assets that actually move the needle for their sales and marketing teams. Their team uses Mutiny because you made it obvious how.</p></li><li><p style=\"min-height:1.5em\"><strong>EBRs that move things.</strong> Run business reviews that tell a real story and drive action. Follow-ups that are crisp and lead somewhere.</p></li><li><p style=\"min-height:1.5em\"><strong>Renewals and expansion.</strong> Build the case six months before it comes up. Adoption and customer health are the leading indicators. Revenue is the lagging one.</p></li><li><p style=\"min-height:1.5em\"><strong>The shared playbook.</strong> When you find a better onboarding flow, a sharper EBR, or a new play that's working, you document it. The next growth strategist starts where you ended.</p></li></ul><p style=\"min-height:1.5em\"></p><h2>Who you are</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Customer outcomes are personal.</strong> Seeing a customer hit a milestone is what gets you out of bed. Their goals are your goals. You don't celebrate the renewal, you celebrate the result that made it inevitable.</p></li><li><p style=\"min-height:1.5em\"><strong>The expert in the room.</strong> You dig into how the product works, how the customer's business works, and how to connect the two. You create \"aha\" moments by tailoring advice to what each customer actually needs.</p></li><li><p style=\"min-height:1.5em\"><strong>Trust comes quickly.</strong> Customers feel like you're genuinely in their corner. You're empathetic, direct, and you always bring context and a clear ask when you need something from them.</p></li><li><p style=\"min-height:1.5em\"><strong>Precision communicator.</strong> Crisp follow-up emails. EBRs that tell a real story. Complex concepts in simple terms, with no jargon to hide behind.</p></li><li><p style=\"min-height:1.5em\"><strong>Scrappy and resourceful.</strong> You don't wait for a perfect process. You figure things out, document what works, and leave it easier for the next person.</p></li><li><p style=\"min-height:1.5em\"><strong>Renewal mindset.</strong> You're building the case for why a customer should stay and grow, not scrambling when it comes up. Adoption and health are the leading indicators you watch.</p></li></ul>",
+    "descriptionPlain": "WHAT WE'RE BUILDING\n\nMutiny is the self-improving AI infrastructure for GTM teams to execute faster and close more revenue. Our ambition is to do for revenue velocity what Cursor and Claude Code did for engineering velocity. With Mutiny, everyone in sales and marketing gets a bench of GTM athletes that handle any work across their revenue motion and learn from what's actually moved their deals.\n\nIn April we re-launched the product as an agent-first platform. Anthropic showcased us as a leader in AI GTM. MRR is growing more than 70% month-over-month, with customers like Uber, Rippling, and Snowflake. We're backed by Sequoia, YC, and Insight, and we're building a generational company.\n\n\n\n\nTHE OPPORTUNITY\n\nMost CS roles are graded on how few problems the customer has. You'll be graded on how much they grow. As a growth strategist at Mutiny, you'll own a book of managed accounts and become the reason teams at customers like Rippling, Uber, and Snowflake get more out of AI than their peers. CS isn't a support function here. It's how we turn early traction into the customer base that defines a category. You'll build the playbooks as you go and shape what customer success looks like at an AI-native company from the ground up. This role is in person in New York City, five days a week.\n\n\n\n\nWHAT YOU'LL OWN\n\n - Your book. Onboarding, adoption, retention, and expansion across your managed accounts. Every customer outcome runs through you.\n\n - Customer expertise. Become the expert on how each customer's business works and where Mutiny fits in. Translate that into \"aha\" moments that move their roadmap.\n\n - The AI motion. Teach customers how to use our agent-first platform to create assets that actually move the needle for their sales and marketing teams. Their team uses Mutiny because you made it obvious how.\n\n - EBRs that move things. Run business reviews that tell a real story and drive action. Follow-ups that are crisp and lead somewhere.\n\n - Renewals and expansion. Build the case six months before it comes up. Adoption and customer health are the leading indicators. Revenue is the lagging one.\n\n - The shared playbook. When you find a better onboarding flow, a sharper EBR, or a new play that's working, you document it. The next growth strategist starts where you ended.\n\n\n\n\nWHO YOU ARE\n\n - Customer outcomes are personal. Seeing a customer hit a milestone is what gets you out of bed. Their goals are your goals. You don't celebrate the renewal, you celebrate the result that made it inevitable.\n\n - The expert in the room. You dig into how the product works, how the customer's business works, and how to connect the two. You create \"aha\" moments by tailoring advice to what each customer actually needs.\n\n - Trust comes quickly. Customers feel like you're genuinely in their corner. You're empathetic, direct, and you always bring context and a clear ask when you need something from them.\n\n - Precision communicator. Crisp follow-up emails. EBRs that tell a real story. Complex concepts in simple terms, with no jargon to hide behind.\n\n - Scrappy and resourceful. You don't wait for a perfect process. You figure things out, document what works, and leave it easier for the next person.\n\n - Renewal mindset. You're building the case for why a customer should stay and grow, not scrambling when it comes up. Adoption and health are the leading indicators you watch."
+  }
+}

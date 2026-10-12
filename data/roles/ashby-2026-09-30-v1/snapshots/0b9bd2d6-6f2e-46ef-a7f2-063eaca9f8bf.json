@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0b9bd2d6-6f2e-46ef-a7f2-063eaca9f8bf",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/maca/0b9bd2d6-6f2e-46ef-a7f2-063eaca9f8bf",
+    "board_url": "https://jobs.ashbyhq.com/maca",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/maca",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "0b9bd2d6-6f2e-46ef-a7f2-063eaca9f8bf",
+    "title": "Investment Banking Analyst",
+    "department": "Investment Banking",
+    "team": "Investment Banking",
+    "employmentType": "FullTime",
+    "location": "Mexico City",
+    "secondaryLocations": [
+      {
+        "location": "Panama",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Panama",
+            "addressLocality": "Panama"
+          }
+        }
+      },
+      {
+        "location": "Bogotá",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Bogotá",
+            "addressCountry": "Colombia",
+            "addressLocality": "Bogotá"
+          }
+        }
+      },
+      {
+        "location": "Lima",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Lima Province",
+            "addressCountry": "Peru",
+            "addressLocality": "Lima"
+          }
+        }
+      },
+      {
+        "location": "Chile",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Chile",
+            "addressLocality": "Chile"
+          }
+        }
+      },
+      {
+        "location": "Buenos Aires",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Buenos Aires",
+            "addressCountry": "Argentina",
+            "addressLocality": "Buenos Aires"
+          }
+        }
+      },
+      {
+        "location": "Guatemala",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Guatemala",
+            "addressLocality": "Guatemala"
+          }
+        }
+      },
+      {
+        "location": "Dominican Republic",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "Dominican Republic",
+            "addressLocality": "Dominican Republic"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2025-10-27T16:52:00.616+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Remote",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Mexico",
+        "addressCountry": "Mexico",
+        "addressLocality": "Mexico City"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/maca/0b9bd2d6-6f2e-46ef-a7f2-063eaca9f8bf",
+    "applyUrl": "https://jobs.ashbyhq.com/maca/0b9bd2d6-6f2e-46ef-a7f2-063eaca9f8bf/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About MACA Advisors</strong></p><p style=\"min-height:1.5em\">MACA Advisors is a boutique investment bank advising market leaders and institutional investors across Latin America and the Caribbean. We deliver senior-led execution, cross-border expertise, and rigorous financial analysis through a nimble platform rooted in client alignment, transparency, and trust.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Role Summary</strong></p><p style=\"min-height:1.5em\">We are seeking a highly motivated <strong>Analyst </strong>to join our advisory team. This is an entry-level role ideal for candidates looking to start a career in investment banking. As an Analyst, you will support the execution of M&amp;A and capital advisory transactions across various industries, while working closely with senior team members and gaining exposure to high-profile clients.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Key Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Build and maintain detailed financial models and valuation analyses</p></li><li><p style=\"min-height:1.5em\">Assist in preparing client presentations, information memorandums, teasers, and other deliverables</p></li><li><p style=\"min-height:1.5em\">Conduct market research, company analysis, and industry benchmarking</p></li><li><p style=\"min-height:1.5em\">Support deal execution through due diligence, data room management, and stakeholder coordination</p></li><li><p style=\"min-height:1.5em\">Collaborate with Analysts, Associates, and senior leadership on active mandates</p></li><li><p style=\"min-height:1.5em\">Demonstrate curiosity and initiative in learning core investment banking skills</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>Required Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Strong academic background in finance, economics, business, or related field</p></li><li><p style=\"min-height:1.5em\">Excellent analytical, quantitative, and problem-solving skills</p></li><li><p style=\"min-height:1.5em\">Proficiency in Microsoft Excel and PowerPoint</p></li><li><p style=\"min-height:1.5em\">Clear and effective communication skills (Spanish and English fluency required)</p></li><li><p style=\"min-height:1.5em\">Located in Latin America</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Preferred Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Internship experience in investment banking, private equity, consulting, or related fields</p></li><li><p style=\"min-height:1.5em\">Familiarity with the Latin America and Caribbean markets</p></li><li><p style=\"min-height:1.5em\">Interest in sectors such as infrastructure, consumer, TMT, financial services, or industrials</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What We Offer</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Hands-on learning and mentorship from experienced bankers</p></li><li><p style=\"min-height:1.5em\">Exposure to live deals and cross-border transactions</p></li><li><p style=\"min-height:1.5em\">Accelerated development within a lean, entrepreneurial team</p></li><li><p style=\"min-height:1.5em\">Competitive compensation with performance-based incentives</p></li><li><p style=\"min-height:1.5em\">Remote-first flexibility with strong regional integration</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Application Process</strong></p><p style=\"min-height:1.5em\">We evaluate candidates through a structured multi-round process, including:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Case-based assessment</p></li><li><p style=\"min-height:1.5em\">Fit interviews with team members</p></li><li><p style=\"min-height:1.5em\">Final round with senior leadership</p></li></ul><h3></h3>",
+    "descriptionPlain": "About MACA Advisors\n\nMACA Advisors is a boutique investment bank advising market leaders and institutional investors across Latin America and the Caribbean. We deliver senior-led execution, cross-border expertise, and rigorous financial analysis through a nimble platform rooted in client alignment, transparency, and trust.\n\n\n\nRole Summary\n\nWe are seeking a highly motivated Analyst to join our advisory team. This is an entry-level role ideal for candidates looking to start a career in investment banking. As an Analyst, you will support the execution of M&A and capital advisory transactions across various industries, while working closely with senior team members and gaining exposure to high-profile clients.\n\n\n\nKey Responsibilities\n\n - Build and maintain detailed financial models and valuation analyses\n\n - Assist in preparing client presentations, information memorandums, teasers, and other deliverables\n\n - Conduct market research, company analysis, and industry benchmarking\n\n - Support deal execution through due diligence, data room management, and stakeholder coordination\n\n - Collaborate with Analysts, Associates, and senior leadership on active mandates\n\n - Demonstrate curiosity and initiative in learning core investment banking skills\n   \n   \n\nRequired Qualifications\n\n - Strong academic background in finance, economics, business, or related field\n\n - Excellent analytical, quantitative, and problem-solving skills\n\n - Proficiency in Microsoft Excel and PowerPoint\n\n - Clear and effective communication skills (Spanish and English fluency required)\n\n - Located in Latin America\n\n\n\nPreferred Qualifications\n\n - Internship experience in investment banking, private equity, consulting, or related fields\n\n - Familiarity with the Latin America and Caribbean markets\n\n - Interest in sectors such as infrastructure, consumer, TMT, financial services, or industrials\n\n\n\nWhat We Offer\n\n - Hands-on learning and mentorship from experienced bankers\n\n - Exposure to live deals and cross-border transactions\n\n - Accelerated development within a lean, entrepreneurial team\n\n - Competitive compensation with performance-based incentives\n\n - Remote-first flexibility with strong regional integration\n\n\n\nApplication Process\n\nWe evaluate candidates through a structured multi-round process, including:\n\n - Case-based assessment\n\n - Fit interviews with team members\n\n - Final round with senior leadership\n\n\n"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "role_id": "affd3040-91e4-4e0c-bd2f-4b022c613f91",
+  "snapshot_sha256": "16d32f681a385dda5aa48523bc2f295c62050b0f2d55ed16c6534f7aefc54673",
+  "input_sha256": "fc18db5d5b971010f60964e71625a2eed947ae36a724f42c0e87d4fdbb20bf3c",
+  "rubric_sha256": "f7e8e0dbb0ee02b5b7aa0366ce4beaf0349e0d28dccf56ec6c053f24937cce3b",
+  "rubric": {
+    "role_summary": "Experienced ML engineer building production recommendation, ranking, and personalization systems, including user modeling and LLM-integrated pipelines for an AI product.",
+    "search_query": "Find candidates for this role:\nExperienced ML engineer building production recommendation, ranking, and personalization systems, including user modeling and LLM-integrated pipelines for an AI product.\nMandatory professional qualifications:\n- Hands-on experience building production recommendation, ranking, or personalization systems.\n- Strong machine learning fundamentals.\n- Experience integrating LLMs into ranking, retrieval, or personalization pipelines.\nPreferred, not mandatory:\n- Experience with large-scale ranking and training infrastructure, such as multi-stage retrieval and ranking, feature stores, or real-time serving.\n- Background in user understanding, feed ranking, notifications, growth, or lifecycle modeling.\n- Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.\n- Strong ML fundamentals covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.\n- For tech leadership roles only: prior experience setting technical direction for recommendation or ranking projects.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Hands-on experience building production recommendation, ranking, or personalization systems.",
+        "source_quote": "Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Strong machine learning fundamentals.",
+        "source_quote": "Strong ML fundamentals, covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience integrating LLMs into ranking, retrieval, or personalization pipelines.",
+        "source_quote": "Experience integrating LLMs into ranking, retrieval, or personalization pipelines.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with large-scale ranking and training infrastructure, such as multi-stage retrieval and ranking, feature stores, or real-time serving.",
+        "source_quote": "Experience with large-scale ranking and training infrastructure (multi-stage retrieval and ranking, feature stores, real-time serving).",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Background in user understanding, feed ranking, notifications, growth, or lifecycle modeling.",
+        "source_quote": "Background in user understanding, feed ranking, notifications, growth, or lifecycle modeling.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.",
+        "source_quote": "Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Strong ML fundamentals covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.",
+        "source_quote": "Strong ML fundamentals, covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "For tech leadership roles only: prior experience setting technical direction for recommendation or ranking projects.",
+        "source_quote": "For tech leadership roles, we will also look for prior experience setting technical direction for recommendation/ranking projects.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Palo Alto"
+      ]
+    },
+    "soft_requirements": [
+      "Taste and judgment for how personalization should work in an LLM-native product, and curiosity about reimagining it from first principles."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "16d32f681a385dda5aa48523bc2f295c62050b0f2d55ed16c6534f7aefc54673",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:54:57.668154+00:00",
+    "response_id": "chatcmpl-ETyQMG5Ku1vZitjL3BjK5pFTJ23hk",
+    "usage": {
+      "prompt_tokens": 2180,
+      "completion_tokens": 821,
+      "total_tokens": 3001,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2177,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 67,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "24cc622932c96a067c67c12b93729f378de4d6b827f71a2bfebb47c46a77f696",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Listed work locations are San Francisco and Palo Alto, California. The posting does not specify an onsite, hybrid, or remote arrangement or require current residence.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco, California, United States",
+        "Palo Alto, California, United States"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Palo Alto"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "18f138c224ab79e912ba7e1edf546ab84249835d4abbcadae52976dc9399b3c4",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "18f138c224ab79e912ba7e1edf546ab84249835d4abbcadae52976dc9399b3c4",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "For tech leadership roles only: prior experience setting technical direction for recommendation or ranking projects.",
+          "source_quote": "For tech leadership roles, we will also look for prior experience setting technical direction for recommendation/ranking projects.",
+          "verification": "profile",
+          "reason": "Conditional on tech-lead roles only, so it cannot gate all candidates."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Deep, hands-on experience building production recommendation, ranking, or personalization systems at scale.",
+          "after": "Hands-on experience building production recommendation, ranking, or personalization systems.",
+          "reason": "Core recsys experience is observable; depth and scale qualifiers are not."
+        },
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Strong ML fundamentals covering areas such as engagement modeling, model calibration, offline and online metrics, and online experimentation.",
+          "after": "Strong machine learning fundamentals.",
+          "reason": "ML fundamentals are implied by ML roles/degrees; the specific sub-areas listed are rarely stated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P3",
+        "M2": "P4",
+        "M4": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "e8ab1cfa6bb91e56c6be1ba5ec1dc6907d8cff6f82e1d2ea498b9cb9d67ba039",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "8d1e4b7b8911ac8c3c571011db143ee4f8a8f98ade1203b55a58c449a2fa6fdf",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

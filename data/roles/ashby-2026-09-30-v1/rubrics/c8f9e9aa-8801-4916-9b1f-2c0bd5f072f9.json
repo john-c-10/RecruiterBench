@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9",
+  "snapshot_sha256": "e068f2ca165d32fdb175623c38d6252f349c02e9e92fec9c5d5d4aed2dace92b",
+  "input_sha256": "c60d292c6091bb78d5df958aa8a9377fe75670b7eb634aae7fda00647bf5672b",
+  "rubric_sha256": "c2391ea8c8557681774dfe100cbcf4d7785c000d5c58078bf506c439f2bc421f",
+  "rubric": {
+    "role_summary": "Controls Engineer designing and tuning model-based and real-time control systems for robots, including simulation, hardware integration, and electromechanical debugging.",
+    "search_query": "Find candidates for this role:\nControls Engineer designing and tuning model-based and real-time control systems for robots, including simulation, hardware integration, and electromechanical debugging.\nMandatory professional qualifications:\n- Experience with control algorithms.\n- Proficiency in Python and C++.\n- Skill in writing and tuning real-time control loops.\n- Hands-on experience with electromechanical systems.\n- Familiarity with embedded communication protocols; CAN, SPI, I2C, and Ethernet are listed examples, not an all-protocol requirement.\nPreferred, not mandatory:\n- Background in manipulation or mobile robotic platforms.\n- Exposure to robot learning or integrating learned policies into control stacks.\n- Ability to design or refine custom actuator or sensor hardware.\n- Deep understanding of model-based control algorithms and inverse dynamics.\n- Ability to validate control approaches in simulation and translate them to real hardware.\n- Proficiency in Python and C++, including firmware-adjacent development.\n- Hands-on capability to debug electromechanical systems end-to-end.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Experience with control algorithms.",
+        "source_quote": "Deep understanding of model-based control algorithms and inverse dynamics",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Proficiency in Python and C++.",
+        "source_quote": "Proficiency in Python and C++, including firmware-adjacent development",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Skill in writing and tuning real-time control loops.",
+        "source_quote": "Skill in writing and tuning real-time control loops",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Hands-on experience with electromechanical systems.",
+        "source_quote": "Hands-on capability to debug electromechanical systems end-to-end",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Familiarity with embedded communication protocols; CAN, SPI, I2C, and Ethernet are listed examples, not an all-protocol requirement.",
+        "source_quote": "Familiarity with embedded communication protocols (CAN, SPI, I2C, Ethernet)",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Background in manipulation or mobile robotic platforms.",
+        "source_quote": "Background in manipulation or mobile robotic platforms",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Exposure to robot learning or integrating learned policies into control stacks.",
+        "source_quote": "Exposure to robot learning or integrating learned policies into control stacks",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Ability to design or refine custom actuator or sensor hardware.",
+        "source_quote": "Ability to design or refine custom actuator or sensor hardware",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Deep understanding of model-based control algorithms and inverse dynamics.",
+        "source_quote": "Deep understanding of model-based control algorithms and inverse dynamics",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Ability to validate control approaches in simulation and translate them to real hardware.",
+        "source_quote": "Ability to validate control approaches in simulation and translate them to real hardware",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Proficiency in Python and C++, including firmware-adjacent development.",
+        "source_quote": "Proficiency in Python and C++, including firmware-adjacent development",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Hands-on capability to debug electromechanical systems end-to-end.",
+        "source_quote": "Hands-on capability to debug electromechanical systems end-to-end",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Clear communication with researchers, hardware teams, and operators.",
+      "A structured, collaborative approach to solving complex system issues."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e068f2ca165d32fdb175623c38d6252f349c02e9e92fec9c5d5d4aed2dace92b",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:39.249714+00:00",
+    "response_id": "chatcmpl-ETyR1rc8JqTsju6WRmUiTTkhyiWGF",
+    "usage": {
+      "prompt_tokens": 1831,
+      "completion_tokens": 838,
+      "total_tokens": 2669,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 585,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "32576711cd115a301ddc3c1aaa6968961baa978ef47db9a2cefdd58a8205f4a3",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in San Francisco; current residence there is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "OnSite"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "3baefc1418fde4cc741238969ae442909c4fbfd8d2f6e504b23ee3bbd062e724",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "3baefc1418fde4cc741238969ae442909c4fbfd8d2f6e504b23ee3bbd062e724",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Ability to validate control approaches in simulation and translate them to real hardware.",
+          "source_quote": "Ability to validate control approaches in simulation and translate them to real hardware",
+          "verification": "profile",
+          "reason": "Sim-to-hardware validation is a specific practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Deep understanding of model-based control algorithms and inverse dynamics.",
+          "after": "Experience with control algorithms.",
+          "reason": "Controls work is observable from titles; model-based control and inverse dynamics depth is rarely stated (0.97 strict fail)."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Proficiency in Python and C++, including firmware-adjacent development.",
+          "after": "Proficiency in Python and C++.",
+          "reason": "Python and C++ are commonly listed; firmware-adjacent work is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Hands-on capability to debug electromechanical systems end-to-end.",
+          "after": "Hands-on experience with electromechanical systems.",
+          "reason": "Electromechanical hardware experience is observable; end-to-end debugging is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M3": "M2",
+        "M4": "M3",
+        "M5": "M4",
+        "M6": "M5"
+      },
+      "demoted_preference_ids": {
+        "M1": "P4",
+        "M2": "P5",
+        "M3": "P6",
+        "M5": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "6a95ee2d746ff43a4816f787061ea02f155c9fa5a117b300bcaa87b6e91547a7",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "528c45d407a84641b4deb1178fb11cbdc74d61f79a15362ea55c4d8e70cde5f7",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

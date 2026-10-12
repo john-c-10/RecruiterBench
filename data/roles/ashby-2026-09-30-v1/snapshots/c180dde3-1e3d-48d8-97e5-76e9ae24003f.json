@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c180dde3-1e3d-48d8-97e5-76e9ae24003f",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/earlymedia/c180dde3-1e3d-48d8-97e5-76e9ae24003f",
+    "board_url": "https://jobs.ashbyhq.com/earlymedia",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/earlymedia",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "c180dde3-1e3d-48d8-97e5-76e9ae24003f",
+    "title": "Scripted Producer",
+    "department": "Production",
+    "team": "Production",
+    "employmentType": "FullTime",
+    "location": "Austin, TX",
+    "secondaryLocations": [],
+    "publishedAt": "2026-08-06T20:56:49.733+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "postalCode": "78703",
+        "addressRegion": "Texas",
+        "streetAddress": "835 W. 6th Street",
+        "addressCountry": "United States",
+        "addressLocality": "Austin"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/earlymedia/c180dde3-1e3d-48d8-97e5-76e9ae24003f",
+    "applyUrl": "https://jobs.ashbyhq.com/earlymedia/c180dde3-1e3d-48d8-97e5-76e9ae24003f/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Early Media</strong></p><p style=\"min-height:1.5em\">Early Media is a media company creating and distributing groundbreaking digital series. We craft narratives with real viral potential and mass appeal while preserving the heart of indie production, telling meaningful stories audiences actually care about. Every creative decision is sharpened by a proprietary testing and marketing engine that collapses the distance between producer and consumer into the tightest iteration loop in the industry.</p><p style=\"min-height:1.5em\">We're hiring a Scripted Producer to own individual series from pre-production through final delivery, while simultaneously helping build the infrastructure and standards that will power our scripted department. The playbook doesn't exist yet. You'll be doing real producing work while helping write it. If you've ever wanted to shape a production department, not just operate within one, this is that opportunity.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What you'll own</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Your assigned series from kickoff through delivery; timelines, budgets, crew, and day-to-day logistics with minimal oversight.</p></li><li><p style=\"min-height:1.5em\">Pre-production: breakdowns, scheduling, budgeting, location scouting, crew and vendor coordination.</p></li><li><p style=\"min-height:1.5em\">The relationship between your creative team and Production leadership.</p></li><li><p style=\"min-height:1.5em\">Department infrastructure: workflows, templates, and systems that can scale as the slate grows.</p></li><li><p style=\"min-height:1.5em\">Talent relationships: writers, directors, and crew members worth building long-term connections with.</p></li><li><p style=\"min-height:1.5em\">A creative perspective on your projects.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Must-haves</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>A builder, not just a producer. </strong>You're energized by creating the infrastructure, not just running it. If you need the playbook to already exist, this isn't the role.</p></li><li><p style=\"min-height:1.5em\">4-7 years of producing experience in scripted television, film, or high-volume digital/streaming content.</p></li><li><p style=\"min-height:1.5em\">Track record taking scripted projects from development through delivery independently, across multiple formats or lengths.</p></li><li><p style=\"min-height:1.5em\">Strong budget management; you know where costs hide.</p></li><li><p style=\"min-height:1.5em\">Comfort with ambiguity. You create structure where there isn't any.</p></li><li><p style=\"min-height:1.5em\">Experience managing junior production staff including coordinators and assistants.</p></li><li><p style=\"min-height:1.5em\">Experience producing multiple simultaneous projects.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Nice to Have</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience at an early-stage or startup production company where you've built infrastructure alongside producing.</p></li><li><p style=\"min-height:1.5em\">Background producing content in social-first, short-form, or digital formats.</p></li><li><p style=\"min-height:1.5em\">Existing relationships with writers, directors, or department heads in the scripted space.</p></li><li><p style=\"min-height:1.5em\">Familiarity with production management tools (Wrapbook, Movie Magic Budgeting and Scheduling).</p></li><li><p style=\"min-height:1.5em\">Understanding of how vertical, social-first content goes viral.</p></li></ul>",
+    "descriptionPlain": "About Early Media\n\nEarly Media is a media company creating and distributing groundbreaking digital series. We craft narratives with real viral potential and mass appeal while preserving the heart of indie production, telling meaningful stories audiences actually care about. Every creative decision is sharpened by a proprietary testing and marketing engine that collapses the distance between producer and consumer into the tightest iteration loop in the industry.\n\nWe're hiring a Scripted Producer to own individual series from pre-production through final delivery, while simultaneously helping build the infrastructure and standards that will power our scripted department. The playbook doesn't exist yet. You'll be doing real producing work while helping write it. If you've ever wanted to shape a production department, not just operate within one, this is that opportunity.\n\n\n\nWhat you'll own\n\n - Your assigned series from kickoff through delivery; timelines, budgets, crew, and day-to-day logistics with minimal oversight.\n\n - Pre-production: breakdowns, scheduling, budgeting, location scouting, crew and vendor coordination.\n\n - The relationship between your creative team and Production leadership.\n\n - Department infrastructure: workflows, templates, and systems that can scale as the slate grows.\n\n - Talent relationships: writers, directors, and crew members worth building long-term connections with.\n\n - A creative perspective on your projects.\n\n\n\nMust-haves\n\n - A builder, not just a producer. You're energized by creating the infrastructure, not just running it. If you need the playbook to already exist, this isn't the role.\n\n - 4-7 years of producing experience in scripted television, film, or high-volume digital/streaming content.\n\n - Track record taking scripted projects from development through delivery independently, across multiple formats or lengths.\n\n - Strong budget management; you know where costs hide.\n\n - Comfort with ambiguity. You create structure where there isn't any.\n\n - Experience managing junior production staff including coordinators and assistants.\n\n - Experience producing multiple simultaneous projects.\n\n\n\nNice to Have\n\n - Experience at an early-stage or startup production company where you've built infrastructure alongside producing.\n\n - Background producing content in social-first, short-form, or digital formats.\n\n - Existing relationships with writers, directors, or department heads in the scripted space.\n\n - Familiarity with production management tools (Wrapbook, Movie Magic Budgeting and Scheduling).\n\n - Understanding of how vertical, social-first content goes viral."
+  }
+}

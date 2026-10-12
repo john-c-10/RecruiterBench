@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9376684b-98b1-4e9f-b250-af22e1a92f22",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/saronic/9376684b-98b1-4e9f-b250-af22e1a92f22",
+    "board_url": "https://jobs.ashbyhq.com/saronic",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/saronic",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "9376684b-98b1-4e9f-b250-af22e1a92f22",
+    "title": "Shipyard Industrial Engineer",
+    "department": "Port Alpha",
+    "team": "Port Alpha",
+    "employmentType": "FullTime",
+    "location": "Brownsville, TX",
+    "secondaryLocations": [
+      {
+        "location": "Austin, TX",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Texas",
+            "addressCountry": "United States",
+            "addressLocality": "Austin"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-02-17T17:50:02.446+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Texas",
+        "addressCountry": "United States",
+        "addressLocality": "Brownsville"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/saronic/9376684b-98b1-4e9f-b250-af22e1a92f22",
+    "applyUrl": "https://jobs.ashbyhq.com/saronic/9376684b-98b1-4e9f-b250-af22e1a92f22/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.</p><p style=\"min-height:1.5em\"></p><h1>Job Overview</h1><p style=\"min-height:1.5em\">Saronic Technologies is seeking an Industrial Engineer (IE) to design and validate the physical manufacturing system of the shipyard. This role is responsible for developing building layouts, process flow paths, square footage requirements, and capacity models across all major shipyard functions.</p><p style=\"min-height:1.5em\"></p><h1><strong>Key Responsibilities </strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Develop end-to-end shipyard layouts based on throughput, product mix, and block construction strategy</p></li><li><p style=\"min-height:1.5em\">Define building footprints, clear heights, bay sizing, and crane coverage</p></li><li><p style=\"min-height:1.5em\">Establish square footage requirements for panel fabrication, sub-assembly, block assembly, and pre-outfitting</p></li><li><p style=\"min-height:1.5em\">Develop capacity and throughput models</p></li><li><p style=\"min-height:1.5em\">Ensure layouts support automation-first processes</p></li><li><p style=\"min-height:1.5em\">Collaborate cross-functionally with engineering, operations, and finance</p><p style=\"min-height:1.5em\"></p></li></ul><h1><strong>Required Qualifications</strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelor’s degree in Industrial Engineering, Manufacturing Engineering, Systems Engineering, or similar</p></li><li><p style=\"min-height:1.5em\">5+ years of experience in industrial facility layout or manufacturing system design</p></li><li><p style=\"min-height:1.5em\">Strong understanding of material flow optimization and bottleneck analysis</p></li></ul><p style=\"min-height:1.5em\"></p><h1><strong>Preferred Experience</strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Heavy manufacturing experience</p></li><li><p style=\"min-height:1.5em\">Greenfield facility design exposure</p></li><li><p style=\"min-height:1.5em\">Experience in 3D Facility modeling</p></li><li><p style=\"min-height:1.5em\">Familiarity with automation-enabled production systems</p></li><li><p style=\"min-height:1.5em\">Experience working closely with both design teams and shop-floor operations</p></li></ul><p style=\"min-height:1.5em\"></p><h1><strong>Benefits </strong></h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Medical Insurance:</strong> Comprehensive health insurance plans covering a range of services</p></li><li><p style=\"min-height:1.5em\"><strong>Dental and Vision Insurance:</strong> Coverage for routine dental check-ups, orthodontics, and vision care</p></li><li><p style=\"min-height:1.5em\">Saronic pays 100% of the premium for employees and 80% for dependents</p></li><li><p style=\"min-height:1.5em\"><strong>Time Off:</strong> Generous PTO and Holidays</p></li><li><p style=\"min-height:1.5em\"><strong>Parental Leave:</strong> Paid maternity and paternity leave to support new parents</p></li><li><p style=\"min-height:1.5em\"><strong>Competitive Salary:</strong> Industry-standard salaries with opportunities for performance-based bonuses</p></li><li><p style=\"min-height:1.5em\"><strong>Retirement Plan:</strong> 401(k) plan</p></li><li><p style=\"min-height:1.5em\"><strong>Stock Options:</strong> Equity options to give employees a stake in the company’s success</p></li><li><p style=\"min-height:1.5em\"><strong>Life and Disability Insurance:</strong> Basic life insurance and short- and long-term disability coverage</p></li><li><p style=\"min-height:1.5em\"><strong>Additional Perks:</strong> Free lunch benefit and unlimited free drinks and snacks in the office </p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://saronic-assets-public.s3.us-east-2.amazonaws.com/Saronic%20CCPA%20Notice%20for%20Candidates%20and%20California%20Employees.pdf\"><em>Saronic CCPA Notice for Candidates and California Employees</em></a></p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><em>If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in </em><a target=\"_blank\" rel=\"noopener noreferrer\" class=\"postings-link\" href=\"https://www.govinfo.gov/link/uscode/8/1324b\"><em>8 U.S.C. 1324b(a)(3)</em></a><em>.</em><br /><br />Saronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. <em><u>We are also committed to providing reasonable accommodations for qualified individuals with disabilities.</u></em></p>",
+    "descriptionPlain": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.\n\n\n\n\nJOB OVERVIEW\n\nSaronic Technologies is seeking an Industrial Engineer (IE) to design and validate the physical manufacturing system of the shipyard. This role is responsible for developing building layouts, process flow paths, square footage requirements, and capacity models across all major shipyard functions.\n\n\n\n\nKEY RESPONSIBILITIES \n\n - Develop end-to-end shipyard layouts based on throughput, product mix, and block construction strategy\n\n - Define building footprints, clear heights, bay sizing, and crane coverage\n\n - Establish square footage requirements for panel fabrication, sub-assembly, block assembly, and pre-outfitting\n\n - Develop capacity and throughput models\n\n - Ensure layouts support automation-first processes\n\n - Collaborate cross-functionally with engineering, operations, and finance\n   \n   \n\n\nREQUIRED QUALIFICATIONS\n\n - Bachelor’s degree in Industrial Engineering, Manufacturing Engineering, Systems Engineering, or similar\n\n - 5+ years of experience in industrial facility layout or manufacturing system design\n\n - Strong understanding of material flow optimization and bottleneck analysis\n\n\n\n\nPREFERRED EXPERIENCE\n\n - Heavy manufacturing experience\n\n - Greenfield facility design exposure\n\n - Experience in 3D Facility modeling\n\n - Familiarity with automation-enabled production systems\n\n - Experience working closely with both design teams and shop-floor operations\n\n\n\n\nBENEFITS \n\n - Medical Insurance: Comprehensive health insurance plans covering a range of services\n\n - Dental and Vision Insurance: Coverage for routine dental check-ups, orthodontics, and vision care\n\n - Saronic pays 100% of the premium for employees and 80% for dependents\n\n - Time Off: Generous PTO and Holidays\n\n - Parental Leave: Paid maternity and paternity leave to support new parents\n\n - Competitive Salary: Industry-standard salaries with opportunities for performance-based bonuses\n\n - Retirement Plan: 401(k) plan\n\n - Stock Options: Equity options to give employees a stake in the company’s success\n\n - Life and Disability Insurance: Basic life insurance and short- and long-term disability coverage\n\n - Additional Perks: Free lunch benefit and unlimited free drinks and snacks in the office \n\n\n\nSaronic CCPA Notice for Candidates and California Employees https://saronic-assets-public.s3.us-east-2.amazonaws.com/Saronic%20CCPA%20Notice%20for%20Candidates%20and%20California%20Employees.pdf\n\n \n\nIf this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.\n\nSaronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. We are also committed to providing reasonable accommodations for qualified individuals with disabilities."
+  }
+}

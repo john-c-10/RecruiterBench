@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "role_id": "f40a7b70-71c0-49f6-ba9f-1df2de9b46d9",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/temporal/f40a7b70-71c0-49f6-ba9f-1df2de9b46d9",
+    "board_url": "https://jobs.ashbyhq.com/temporal",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/temporal",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "f40a7b70-71c0-49f6-ba9f-1df2de9b46d9",
+    "title": "Staff Software Engineer, Open Source Server",
+    "department": "Engineering",
+    "team": "Open Source Server",
+    "employmentType": "FullTime",
+    "location": "Seattle, Washington",
+    "secondaryLocations": [
+      {
+        "location": "United States (Remote)",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States"
+          }
+        }
+      },
+      {
+        "location": "San Francisco, California",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2023-12-28T21:54:00.422+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Remote",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Washington",
+        "addressCountry": "United States",
+        "addressLocality": "Seattle"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/temporal/f40a7b70-71c0-49f6-ba9f-1df2de9b46d9",
+    "applyUrl": "https://jobs.ashbyhq.com/temporal/f40a7b70-71c0-49f6-ba9f-1df2de9b46d9/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">We are currently hiring <strong>Staff Software Engineers</strong> across multiple back-end systems teams. The work you will do as a Staff Engineer is key to developing features without complicating Temporal, as the increasing complexity of our systems creates additional challenges. You will design, build, and maintain significant portions of our backend functionality for highly scalable, multi-tenant services. <em><strong>Examples of the key distributed systems aspects you can impact include (but not limited to) latency, scale, reliability, multi-region failover, and availability. </strong></em></p><p style=\"min-height:1.5em\">Working in a highly collaborative team, we’ll look to build a new enterprise offering that will involve both on-premise and dedicated cloud offerings.</p><p style=\"min-height:1.5em\"><em>To see more details about projects the OSS team is working on and demo videos, click </em><a target=\"_blank\" rel=\"noopener\" href=\"https://temporalio.notion.site/Join-the-OSS-Team-at-Temporal-2058fc567738803c86e7f42ea0353cee\"><em>here</em></a><em>.</em></p><h2><strong>What You'll Do</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and implement core backend service features</p></li><li><p style=\"min-height:1.5em\">Provide appropriate test coverage for unit, integration, and performance for your feature ownership area</p></li><li><p style=\"min-height:1.5em\">Clearly document design choices and operational knowledge to successfully deploy and run service with those features</p></li><li><p style=\"min-height:1.5em\">Provide appropriate service level logs and metrics to make features operational for cloud service setup</p></li><li><p style=\"min-height:1.5em\">Provide appropriate alerts, dashboards, and runbooks for production</p></li></ul><h2><strong>What You'll Bring</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Rich experience as an \"Arranger\" and/or \"Builder/Enhancer\" in large-scale distributed systems design (reliability, scalability). <em>see </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://temporalio.notion.site/Distributed-Systems-Concurrency-2526e6dfce4947d39fd3a40f9f07652a\"><em>HERE </em></a><em>for more info re: \"Arranger\" and/or \"Builder/Enhancer\"</em></p></li><li><p style=\"min-height:1.5em\">Operational experience in large-scale distributed systems environments</p></li><li><p style=\"min-height:1.5em\">Experience developing highly concurrent systems</p></li><li><p style=\"min-height:1.5em\">Demonstrated experience writing concurrent code in production as Advanced or Expert levels. <em>see </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://temporalio.notion.site/Distributed-Systems-Concurrency-2526e6dfce4947d39fd3a40f9f07652a\"><em>HERE </em></a><em>for more info re: Advanced or Expert levels</em></p></li><li><p style=\"min-height:1.5em\">Knowledge and experience of reliability so you can further ensure the high reliability of the Temporal system</p></li><li><p style=\"min-height:1.5em\">Experience with Elastic Search or Clickhouse</p></li><li><p style=\"min-height:1.5em\">Ideas and actions to improve the velocity of the team</p></li></ul><h2><strong>Nice to Have</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Familiarity with Go, other similar languages great too</p></li><li><p style=\"min-height:1.5em\">Experience with infrastructure environments (strong plus)</p></li></ul><p style=\"min-height:1.5em\">Temporal Technologies is an Equal Opportunity Employer. Temporal Technologies does not discriminate on the basis of race, religion, color, sex, gender identity, sexual orientation, age, non-disqualifying physical or mental disability, national origin, veteran status, or any other basis covered by appropriate law. All employment is decided on the basis of qualifications, merit, and business need. We embrace and celebrate differences and diversity.</p><p style=\"min-height:1.5em\">Temporal is committed to providing access, equal opportunity, and reasonable accommodation for individuals with disabilities in employment, its services, programs, and activities. If you need to request a reasonable accommodation, please let your Recruiter know so we can assist.</p>",
+    "descriptionPlain": "We are currently hiring Staff Software Engineers across multiple back-end systems teams. The work you will do as a Staff Engineer is key to developing features without complicating Temporal, as the increasing complexity of our systems creates additional challenges. You will design, build, and maintain significant portions of our backend functionality for highly scalable, multi-tenant services. Examples of the key distributed systems aspects you can impact include (but not limited to) latency, scale, reliability, multi-region failover, and availability. \n\nWorking in a highly collaborative team, we’ll look to build a new enterprise offering that will involve both on-premise and dedicated cloud offerings.\n\nTo see more details about projects the OSS team is working on and demo videos, click here https://temporalio.notion.site/Join-the-OSS-Team-at-Temporal-2058fc567738803c86e7f42ea0353cee.\n\n\nWHAT YOU'LL DO\n\n - Design and implement core backend service features\n\n - Provide appropriate test coverage for unit, integration, and performance for your feature ownership area\n\n - Clearly document design choices and operational knowledge to successfully deploy and run service with those features\n\n - Provide appropriate service level logs and metrics to make features operational for cloud service setup\n\n - Provide appropriate alerts, dashboards, and runbooks for production\n\n\nWHAT YOU'LL BRING\n\n - Rich experience as an \"Arranger\" and/or \"Builder/Enhancer\" in large-scale distributed systems design (reliability, scalability). see HERE  https://temporalio.notion.site/Distributed-Systems-Concurrency-2526e6dfce4947d39fd3a40f9f07652afor more info re: \"Arranger\" and/or \"Builder/Enhancer\"\n\n - Operational experience in large-scale distributed systems environments\n\n - Experience developing highly concurrent systems\n\n - Demonstrated experience writing concurrent code in production as Advanced or Expert levels. see HERE  https://temporalio.notion.site/Distributed-Systems-Concurrency-2526e6dfce4947d39fd3a40f9f07652afor more info re: Advanced or Expert levels\n\n - Knowledge and experience of reliability so you can further ensure the high reliability of the Temporal system\n\n - Experience with Elastic Search or Clickhouse\n\n - Ideas and actions to improve the velocity of the team\n\n\nNICE TO HAVE\n\n - Familiarity with Go, other similar languages great too\n\n - Experience with infrastructure environments (strong plus)\n\nTemporal Technologies is an Equal Opportunity Employer. Temporal Technologies does not discriminate on the basis of race, religion, color, sex, gender identity, sexual orientation, age, non-disqualifying physical or mental disability, national origin, veteran status, or any other basis covered by appropriate law. All employment is decided on the basis of qualifications, merit, and business need. We embrace and celebrate differences and diversity.\n\nTemporal is committed to providing access, equal opportunity, and reasonable accommodation for individuals with disabilities in employment, its services, programs, and activities. If you need to request a reasonable accommodation, please let your Recruiter know so we can assist."
+  }
+}

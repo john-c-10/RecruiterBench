@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "role_id": "36bc1c45-abbf-47dc-8fcb-11570da920bb",
+  "snapshot_sha256": "6232927c081fbe9239a410909abfd79a9c6f00591ee4b0e6c16af9443b7c3a1b",
+  "input_sha256": "866ffb20d458c0415493a31a3f4f3a4e53f67dbe87ad267fe5aaa8dcd537041a",
+  "rubric_sha256": "1608a99abbf912e53ee8a96e7dba5fe98150bf9f74dfef7199ed191a67089243",
+  "rubric": {
+    "role_summary": "Entry-, senior-, or staff-level perception engineering for autonomous surface vessels, developing sensing and navigation models, performance metrics, and data systems for model training and evaluation.",
+    "search_query": "Find candidates for this role:\nEntry-, senior-, or staff-level perception engineering for autonomous surface vessels, developing sensing and navigation models, performance metrics, and data systems for model training and evaluation.\nMandatory professional qualifications:\n- Extensive professional programming experience.\n- General understanding of operating systems or similar large-scale systems.\n- Understanding of basic computer architecture.\nPreferred, not mandatory:\n- Familiarity with deep learning frameworks, such as TensorFlow or PyTorch.\n- Understanding of various filters and their applications.\n- Proficiency in Rust.\n- Experience with maritime or autonomous vehicle projects.\n- Experience with signal processing or sensor fusion.\n- Experience with low-latency inference and tracking pipelines.\n- Experience with path planning algorithms.\n- Experience training and deploying multimodal models.\n- Experience with sensors including radar, cameras, and lidar.\n- Experience developing and optimizing deployed ML systems.\n- Strong programming fundamentals, with extensive programming experience and demonstrated ability to work on large systems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Extensive professional programming experience.",
+        "source_quote": "Strong programming fundamentals\n   \n   - Extensive programming experience and demonstrated ability to work on large systems",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "General understanding of operating systems or similar large-scale systems.",
+        "source_quote": "A general understanding of operating systems and or similar large scale systems",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Understanding of basic computer architecture.",
+        "source_quote": "An understanding of basic computer architecture",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Familiarity with deep learning frameworks, such as TensorFlow or PyTorch.",
+        "source_quote": "Familiarity with deep learning frameworks (e.g., TensorFlow, PyTorch)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Understanding of various filters and their applications.",
+        "source_quote": "Understanding of various filters and their applications",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Proficiency in Rust.",
+        "source_quote": "Proficiency in Rust",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience with maritime or autonomous vehicle projects.",
+        "source_quote": "Experience with maritime or autonomous vehicle projects",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience with signal processing or sensor fusion.",
+        "source_quote": "Experience with signals processing or sensor fusion",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience with low-latency inference and tracking pipelines.",
+        "source_quote": "Experience with low latency inference and tracking pipelines",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Experience with path planning algorithms.",
+        "source_quote": "Experience with path planning algorithms",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience training and deploying multimodal models.",
+        "source_quote": "Experience training and deploying multi modal models",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Experience with sensors including radar, cameras, and lidar.",
+        "source_quote": "Experience with various sensors including radar, cameras, and lidar",
+        "verification": "profile"
+      },
+      {
+        "id": "P10",
+        "requirement": "Experience developing and optimizing deployed ML systems.",
+        "source_quote": "Experience developing and optimizing deployed ML systems",
+        "verification": "profile"
+      },
+      {
+        "id": "P11",
+        "requirement": "Strong programming fundamentals, with extensive programming experience and demonstrated ability to work on large systems.",
+        "source_quote": "Strong programming fundamentals\n   \n   - Extensive programming experience and demonstrated ability to work on large systems",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Austin, TX",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Demonstrated willingness to learn and pivot based on new information."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "6232927c081fbe9239a410909abfd79a9c6f00591ee4b0e6c16af9443b7c3a1b",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:21.265947+00:00",
+    "response_id": "chatcmpl-ETyRf4NdFs68UhQbXr1F5a6k6uQct",
+    "usage": {
+      "prompt_tokens": 2205,
+      "completion_tokens": 1244,
+      "total_tokens": 3449,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 959,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 40,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "bab9e37266a9bc78f977fbaf709a7fb17d6298697d166da96f0b419cc3a2ed64",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Austin, TX; current residence in Austin is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Austin, TX"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Austin, TX",
+        "OnSite"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "52afe2555e5eba3b00ef1c0bfb4b024b8a69d986cd0e718901bc9150d7cd0cbb",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "For this US-based role, have U.S. Person status as defined in the posting for access to export-controlled information or items; qualifying alternatives are U.S. citizenship, legal permanent residence, or a qualifying protected asylee or refugee status.",
+          "source_quote": "If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "9b3bc0a4c88d9168de91d1d9733805492975e245217d963866d3b31f1584d1d7",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Strong programming fundamentals, with extensive programming experience and demonstrated ability to work on large systems.",
+          "after": "Extensive professional programming experience.",
+          "reason": "Programming experience is observable; \"demonstrated ability on large systems\" is not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M1": "P11"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d2cc473b8a933cd7af44b8e4e519c69a54ec0fbff146b9ed67ad97e8eddd6ebc",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "d4c9f4e32f43693e8627d75d5f93848f16589a64c52d363a93edfcbf157a75e9",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "e3af64b3-8300-4b6b-8118-7c3ad73c6744",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/grounded/e3af64b3-8300-4b6b-8118-7c3ad73c6744",
+    "board_url": "https://jobs.ashbyhq.com/grounded",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/grounded",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "e3af64b3-8300-4b6b-8118-7c3ad73c6744",
+    "title": "Fleet Sales Account Manager",
+    "department": "Sales",
+    "team": "Sales",
+    "employmentType": "FullTime",
+    "location": "Detroit Factory HQ",
+    "secondaryLocations": [],
+    "publishedAt": "2026-06-22T20:52:16.646+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "Michigan",
+        "addressCountry": "United States",
+        "addressLocality": "Detroit"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/grounded/e3af64b3-8300-4b6b-8118-7c3ad73c6744",
+    "applyUrl": "https://jobs.ashbyhq.com/grounded/e3af64b3-8300-4b6b-8118-7c3ad73c6744/application",
+    "descriptionHtml": "<h2>Fleet Sales Account Manager — Grounded</h2><p style=\"min-height:1.5em\">Detroit, MI (in-person)</p><h3>About Grounded</h3><p style=\"min-height:1.5em\">Grounded is a 25-person Detroit-based startup building modular electric platforms for specialty vehicles. We take cab chassis from OEMs like Ford and Harbinger and build configurable vehicle systems on top, serving mobile healthcare, RVs, command centers, food and beverage, pet care, and more. Our customers include Colgate, Nokia, the AIDS Healthcare Foundation, and Portland PD. We've raised ~$5M in VC funding and are shipping vehicles in market today.</p><p style=\"min-height:1.5em\">We also build our own software: a mobile app, fleet dashboard, and onboard computer system that lets customers monitor and control vehicle systems remotely. We design, fabricate, and assemble everything in-house at our facility in Corktown.</p><h3>The Role</h3><p style=\"min-height:1.5em\">We're hiring a Fleet Sales Account Manager to own deals end to end — from qualified opportunity through close and beyond. Grounded sells modular electric vehicles to organizations that often need more than one: mobile healthcare networks, service companies, government, and brands. You'll be the person who understands what a customer needs, configures the right vehicle solution with them, and gets the deal done.</p><p style=\"min-height:1.5em\">Because our vehicles are configurable and serve so many verticals, this is a consultative, solution-oriented sale. You'll work closely with our sales engineer and the engineering team to scope what's possible, and with the customer to land on the right configuration, timeline, and price.</p><h3>What you'd actually do</h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own a pipeline of fleet and enterprise opportunities from qualification through close</p></li><li><p style=\"min-height:1.5em\">Run discovery to understand customer use cases, then configure vehicle solutions with them</p></li><li><p style=\"min-height:1.5em\">Build proposals and quotes; manage pricing, negotiation, and contracts</p></li><li><p style=\"min-height:1.5em\">Partner with the sales engineer and engineering team to scope feasibility and timelines</p></li><li><p style=\"min-height:1.5em\">Manage customer relationships through delivery and pursue fleet expansion and repeat business</p></li><li><p style=\"min-height:1.5em\">Forecast accurately and keep the CRM current (HubSpot)</p></li><li><p style=\"min-height:1.5em\">Feed market and customer signals back to product and leadership</p></li></ul><h3>What we're looking for</h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years in B2B sales / account management, ideally selling considered, higher-ACV products</p></li><li><p style=\"min-height:1.5em\">Track record owning deals end to end and hitting quota</p></li><li><p style=\"min-height:1.5em\">Strong consultative selling skills; comfortable with technical products and multi-stakeholder deals</p></li><li><p style=\"min-height:1.5em\">Experience selling to fleets, enterprises, or the public sector is a strong plus</p></li><li><p style=\"min-height:1.5em\">Self-directed and comfortable with a young, evolving sales process</p></li><li><p style=\"min-height:1.5em\">Excellent communication and relationship-building</p></li></ul><h3>Nice-to-haves</h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience selling vehicles, capital equipment, or fleet/commercial products</p></li><li><p style=\"min-height:1.5em\">Familiarity with HubSpot</p></li><li><p style=\"min-height:1.5em\">Interest in EVs and specialty vehicles</p></li></ul><h3>Compensation</h3><p style=\"min-height:1.5em\">Competitive base salary + meaningful equity in Grounded + comprehensive health insurance</p><h3>Why this role is different</h3><p style=\"min-height:1.5em\">You'll sell a genuinely differentiated product, to customers across industries, with real ownership of your deals — not a narrow slice of a rigid process. You'll shape how Grounded sells as we scale, work hand-in-hand with engineering on real solutions, and have direct access to leadership. The variety alone — one deal a mobile clinic, the next a command center — makes this unlike any single-product sales job.</p>",
+    "descriptionPlain": "FLEET SALES ACCOUNT MANAGER — GROUNDED\n\nDetroit, MI (in-person)\n\n\nABOUT GROUNDED\n\nGrounded is a 25-person Detroit-based startup building modular electric platforms for specialty vehicles. We take cab chassis from OEMs like Ford and Harbinger and build configurable vehicle systems on top, serving mobile healthcare, RVs, command centers, food and beverage, pet care, and more. Our customers include Colgate, Nokia, the AIDS Healthcare Foundation, and Portland PD. We've raised ~$5M in VC funding and are shipping vehicles in market today.\n\nWe also build our own software: a mobile app, fleet dashboard, and onboard computer system that lets customers monitor and control vehicle systems remotely. We design, fabricate, and assemble everything in-house at our facility in Corktown.\n\n\nTHE ROLE\n\nWe're hiring a Fleet Sales Account Manager to own deals end to end — from qualified opportunity through close and beyond. Grounded sells modular electric vehicles to organizations that often need more than one: mobile healthcare networks, service companies, government, and brands. You'll be the person who understands what a customer needs, configures the right vehicle solution with them, and gets the deal done.\n\nBecause our vehicles are configurable and serve so many verticals, this is a consultative, solution-oriented sale. You'll work closely with our sales engineer and the engineering team to scope what's possible, and with the customer to land on the right configuration, timeline, and price.\n\n\nWHAT YOU'D ACTUALLY DO\n\n - Own a pipeline of fleet and enterprise opportunities from qualification through close\n\n - Run discovery to understand customer use cases, then configure vehicle solutions with them\n\n - Build proposals and quotes; manage pricing, negotiation, and contracts\n\n - Partner with the sales engineer and engineering team to scope feasibility and timelines\n\n - Manage customer relationships through delivery and pursue fleet expansion and repeat business\n\n - Forecast accurately and keep the CRM current (HubSpot)\n\n - Feed market and customer signals back to product and leadership\n\n\nWHAT WE'RE LOOKING FOR\n\n - 5+ years in B2B sales / account management, ideally selling considered, higher-ACV products\n\n - Track record owning deals end to end and hitting quota\n\n - Strong consultative selling skills; comfortable with technical products and multi-stakeholder deals\n\n - Experience selling to fleets, enterprises, or the public sector is a strong plus\n\n - Self-directed and comfortable with a young, evolving sales process\n\n - Excellent communication and relationship-building\n\n\nNICE-TO-HAVES\n\n - Experience selling vehicles, capital equipment, or fleet/commercial products\n\n - Familiarity with HubSpot\n\n - Interest in EVs and specialty vehicles\n\n\nCOMPENSATION\n\nCompetitive base salary + meaningful equity in Grounded + comprehensive health insurance\n\n\nWHY THIS ROLE IS DIFFERENT\n\nYou'll sell a genuinely differentiated product, to customers across industries, with real ownership of your deals — not a narrow slice of a rigid process. You'll shape how Grounded sells as we scale, work hand-in-hand with engineering on real solutions, and have direct access to leadership. The variety alone — one deal a mobile clinic, the next a command center — makes this unlike any single-product sales job."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d6d2797c-0201-4d7c-98cd-0317649dc78b",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/NormalComputing/d6d2797c-0201-4d7c-98cd-0317649dc78b",
+    "board_url": "https://jobs.ashbyhq.com/NormalComputing",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/NormalComputing",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "d6d2797c-0201-4d7c-98cd-0317649dc78b",
+    "title": "Design Verification Engineer",
+    "department": "Engineering",
+    "team": "Silicon Hardware",
+    "employmentType": "FullTime",
+    "location": "New York City",
+    "secondaryLocations": [
+      {
+        "location": "London",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "England",
+            "addressCountry": "United Kingdom",
+            "addressLocality": "London"
+          }
+        }
+      },
+      {
+        "location": "Silicon Valley",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "Palo Alto"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-07-15T20:47:39.513+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "postalCode": "10011",
+        "addressRegion": "New York",
+        "addressCountry": "USA",
+        "addressLocality": "New York City"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/NormalComputing/d6d2797c-0201-4d7c-98cd-0317649dc78b",
+    "applyUrl": "https://jobs.ashbyhq.com/NormalComputing/d6d2797c-0201-4d7c-98cd-0317649dc78b/application",
+    "descriptionHtml": "<h2><strong>Normal Computing | Build with Us</strong></h2><p style=\"min-height:1.5em\">Normal is an applied AI company solving the hardest problems in AI and silicon. We build foundational hardware and software for the semiconductor industry, critical AI infrastructure, and the broader systems that power our world, in partnership with the world's most advanced institutions. We work as one team across New York City, Silicon Valley (Mountain View), London, Copenhagen, and Seoul.</p><h2><strong>The Role</strong></h2><p style=\"min-height:1.5em\">As a Design Verification Engineer at Normal, you will verify our own physics-inspired ASICs on the road to tapeout, and set the quality bar for what our AI learns: reviewing generated verification collateral and shaping the standards our models train against. From time to time, you may also be tapped to support a customer deployment alongside our forward-deployed team, where your verification credibility helps our AI platform land inside real DV flows. The through-line is your DV expertise, applied to silicon that computes differently than anything you've verified before, and to the AI that is changing how verification gets done. This is a seat for a verification engineer who wants their craft to compound rather than repeat.</p><p style=\"min-height:1.5em\"></p><h2><strong>What You Will Own</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Thermodynamic ASIC Verification:</strong> Own design verification for Normal's internal silicon: testbench environments, assertions, and coverage from design documents through functional coverage and closure, supporting the program to tapeout.</p></li><li><p style=\"min-height:1.5em\"><strong>AI Product Refinement:</strong> Review AI-generated verification collateral to shape product strategy and tool usability in collaboration with the ML and product teams.</p></li><li><p style=\"min-height:1.5em\"><strong>Data Quality Bar:</strong> Set the quality standard for verification training data: define rubrics, curate golden examples, and partner with our Data team, who own the pipelines, so our models learn from verification artifacts a real DV engineer would sign off on.</p></li><li><p style=\"min-height:1.5em\"><strong>Deployment Support:</strong> When needed, support customer engagements alongside our forward-deployed team: validating AI-generated collateral against real customer specifications and lending DV credibility to deployments.</p></li><li><p style=\"min-height:1.5em\"><strong>Tooling:</strong> Set up and evaluate EDA tools, ensuring usability and effective deployment on shared computing resources internally and in customer environments.</p></li></ul><h2><strong>What Makes You a Great Fit</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of experience in digital verification at a major semiconductor or EDA tool company</p></li><li><p style=\"min-height:1.5em\">Advanced proficiency in SystemVerilog, UVM methodology, and EDA verification tools (vManager, Xcelium, Jasper), with strong Python or Perl scripting</p></li><li><p style=\"min-height:1.5em\">Proven expertise in end-to-end design verification, including test plan creation, stimulus generation, and feature extraction</p></li><li><p style=\"min-height:1.5em\">Willingness to occasionally support customer-facing deployment work, including some travel</p></li><li><p style=\"min-height:1.5em\">Excellent written and spoken communication skills: you can hold the room with a customer's verification lead as credibly as you hold a debug session</p></li></ul><h2><strong>Bonus Points</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience in a customer-facing, field-application, or forward-deployed engineering role at a semiconductor or EDA company</p></li><li><p style=\"min-height:1.5em\">Hands-on use of LLMs or agentic tools in verification workflows</p></li><li><p style=\"min-height:1.5em\">Exposure to analog, mixed-signal, or unconventional compute verification</p></li></ul><p style=\"min-height:1.5em\"><em><strong>Equal Employment Opportunity Statement</strong></em></p><p style=\"min-height:1.5em\"><em>Normal Computing is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or any other legally protected status.</em></p><p style=\"min-height:1.5em\"><em><strong>Accessibility Accommodations</strong></em></p><p style=\"min-height:1.5em\"><em>Normal Computing is committed to providing reasonable accommodations to individuals with disabilities. If you need assistance or an accommodation due to a disability, please let us know at accommodations@normalcomputing.com.</em></p><p style=\"min-height:1.5em\"><em><strong>Privacy Notice</strong></em></p><p style=\"min-height:1.5em\"><em>By submitting your application, you agree that Normal Computing may collect, use, and store your personal information for employment-related purposes in accordance with our Privacy Policy.</em></p>",
+    "descriptionPlain": "NORMAL COMPUTING | BUILD WITH US\n\nNormal is an applied AI company solving the hardest problems in AI and silicon. We build foundational hardware and software for the semiconductor industry, critical AI infrastructure, and the broader systems that power our world, in partnership with the world's most advanced institutions. We work as one team across New York City, Silicon Valley (Mountain View), London, Copenhagen, and Seoul.\n\n\nTHE ROLE\n\nAs a Design Verification Engineer at Normal, you will verify our own physics-inspired ASICs on the road to tapeout, and set the quality bar for what our AI learns: reviewing generated verification collateral and shaping the standards our models train against. From time to time, you may also be tapped to support a customer deployment alongside our forward-deployed team, where your verification credibility helps our AI platform land inside real DV flows. The through-line is your DV expertise, applied to silicon that computes differently than anything you've verified before, and to the AI that is changing how verification gets done. This is a seat for a verification engineer who wants their craft to compound rather than repeat.\n\n\n\n\nWHAT YOU WILL OWN\n\n - Thermodynamic ASIC Verification: Own design verification for Normal's internal silicon: testbench environments, assertions, and coverage from design documents through functional coverage and closure, supporting the program to tapeout.\n\n - AI Product Refinement: Review AI-generated verification collateral to shape product strategy and tool usability in collaboration with the ML and product teams.\n\n - Data Quality Bar: Set the quality standard for verification training data: define rubrics, curate golden examples, and partner with our Data team, who own the pipelines, so our models learn from verification artifacts a real DV engineer would sign off on.\n\n - Deployment Support: When needed, support customer engagements alongside our forward-deployed team: validating AI-generated collateral against real customer specifications and lending DV credibility to deployments.\n\n - Tooling: Set up and evaluate EDA tools, ensuring usability and effective deployment on shared computing resources internally and in customer environments.\n\n\nWHAT MAKES YOU A GREAT FIT\n\n - 5+ years of experience in digital verification at a major semiconductor or EDA tool company\n\n - Advanced proficiency in SystemVerilog, UVM methodology, and EDA verification tools (vManager, Xcelium, Jasper), with strong Python or Perl scripting\n\n - Proven expertise in end-to-end design verification, including test plan creation, stimulus generation, and feature extraction\n\n - Willingness to occasionally support customer-facing deployment work, including some travel\n\n - Excellent written and spoken communication skills: you can hold the room with a customer's verification lead as credibly as you hold a debug session\n\n\nBONUS POINTS\n\n - Experience in a customer-facing, field-application, or forward-deployed engineering role at a semiconductor or EDA company\n\n - Hands-on use of LLMs or agentic tools in verification workflows\n\n - Exposure to analog, mixed-signal, or unconventional compute verification\n\nEqual Employment Opportunity Statement\n\nNormal Computing is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or any other legally protected status.\n\nAccessibility Accommodations\n\nNormal Computing is committed to providing reasonable accommodations to individuals with disabilities. If you need assistance or an accommodation due to a disability, please let us know at accommodations@normalcomputing.com.\n\nPrivacy Notice\n\nBy submitting your application, you agree that Normal Computing may collect, use, and store your personal information for employment-related purposes in accordance with our Privacy Policy."
+  }
+}

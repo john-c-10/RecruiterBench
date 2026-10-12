@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "role_id": "50c0e4f2-f0f3-4027-9122-d35d6f41cfc8",
+  "snapshot_sha256": "1425051e0476e053f3f779c4be62c665936c37c08c2663a373056dd7ccd017cb",
+  "input_sha256": "98a043dd6d60d73e93eeee96b1b85aa7a0f55d3296eb51178b18b8462512b16c",
+  "rubric_sha256": "c49ff9e9eafb65f2e34b16178050f79aec9a20ee582684f587bb7f8c41b09444",
+  "rubric": {
+    "role_summary": "City operations manager responsible for New Jersey robot-delivery fleet operations, merchant relationships, frontline staff, and operational performance.",
+    "search_query": "Find candidates for this role:\nCity operations manager responsible for New Jersey robot-delivery fleet operations, merchant relationships, frontline staff, and operational performance.\nMandatory professional qualifications:\n- 3+ years of experience managing a hands-on, physical-world operation.\n- Experience managing a direct labor workforce, in-house or contract.\nPreferred, not mandatory:\n- Experience in restaurants, food delivery, autonomous vehicles, micro-mobility, logistics, or adjacent industries.\n- Experience scaling a market from early-stage to mature operations.\n- Background in account management or B2B sales, particularly with restaurant or retail partners.\n- Familiarity with operational tooling such as Excel/Google Sheets, Notion, Slack, or data dashboards.\n- Track record managing a direct labor workforce, in-house or contract, including hiring, scheduling, performance management, and accountability to standards.\n- Experience setting and rigorously tracking KPIs.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of experience managing a hands-on, physical-world operation.",
+        "source_quote": "3+ years of experience managing a hands-on, physical-world operation",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience managing a direct labor workforce, in-house or contract.",
+        "source_quote": "Proven track record managing a direct labor workforce—whether in-house or contract—including hiring, scheduling, performance management, and holding people accountable to standards.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in restaurants, food delivery, autonomous vehicles, micro-mobility, logistics, or adjacent industries.",
+        "source_quote": "Experience in restaurants, food delivery, autonomous vehicles, micro-mobility, logistics, or adjacent industries.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience scaling a market from early-stage to mature operations.",
+        "source_quote": "Experience scaling a market from early-stage to mature operations.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Background in account management or B2B sales, particularly with restaurant or retail partners.",
+        "source_quote": "Background in account management or B2B sales, particularly with restaurant or retail partners.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with operational tooling such as Excel/Google Sheets, Notion, Slack, or data dashboards.",
+        "source_quote": "Comfort with operational tooling (Excel/Google Sheets, Notion, Slack, data dashboards).",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Track record managing a direct labor workforce, in-house or contract, including hiring, scheduling, performance management, and accountability to standards.",
+        "source_quote": "Proven track record managing a direct labor workforce—whether in-house or contract—including hiring, scheduling, performance management, and holding people accountable to standards.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience setting and rigorously tracking KPIs.",
+        "source_quote": "you set KPIs, track them rigorously",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Jersey City",
+        "OnSite",
+        "City Manager, New Jersey"
+      ]
+    },
+    "soft_requirements": [
+      "Self-motivated, metrics-driven operating style.",
+      "Attention to detail and commitment to operational standards.",
+      "Relationship management and comfort working with restaurant operators, platform partners, and city officials.",
+      "Organization and ability to manage competing priorities."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "1425051e0476e053f3f779c4be62c665936c37c08c2663a373056dd7ccd017cb",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:30.816448+00:00",
+    "response_id": "chatcmpl-ETyTn2zcrjXolZGZrbr0ULG2VyvZi",
+    "usage": {
+      "prompt_tokens": 2090,
+      "completion_tokens": 884,
+      "total_tokens": 2974,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 844,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "3b79d0caa5c066500e68789e4604fef52f813b07984e5bac39dc7eaf6d607b02",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Jersey City for New Jersey operations; current residence in Jersey City is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Jersey City, New Jersey"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Jersey City",
+        "OnSite",
+        "City Manager, New Jersey"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years of experience managing a hands-on, physical-world operation",
+        "effective_requirement": "3+ years of experience managing a hands-on, physical-world operation.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "8ecfdcf4c6502d9b92db22c60e007193e15b8b5a94a7e8db4746f31ef0a23b15",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Willingness to work non-standard hours when operations require.",
+          "source_quote": "Willingness to work non-standard hours when the operation requires it",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "fc626346f0978075c086c9f32df99907c50a7d4d5264f7e0941353ba1b7523fb",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience setting and rigorously tracking KPIs.",
+          "source_quote": "you set KPIs, track them rigorously",
+          "verification": "profile",
+          "reason": "Rigorous KPI tracking is a practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Track record managing a direct labor workforce, in-house or contract, including hiring, scheduling, performance management, and accountability to standards.",
+          "after": "Experience managing a direct labor workforce, in-house or contract.",
+          "reason": "Managing frontline workforces is visible from ops titles; specific hiring/scheduling practices are not."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P5",
+        "M3": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "ee874e4e52d58769f70c1b45988f1570ebe802d9db26588a0df4f23d5a17fe99",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "81ceabb9d878d7ed2d79c7549bf84238787974a8c81767b041a7751a64773a01",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years of experience managing a hands-on, physical-world operation",
+      "effective_requirement": "3+ years of experience managing a hands-on, physical-world operation.",
+      "kind": "mandatory"
+    }
+  ]
+}

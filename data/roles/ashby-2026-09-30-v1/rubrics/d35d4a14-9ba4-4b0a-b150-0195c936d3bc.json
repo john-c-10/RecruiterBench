@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d35d4a14-9ba4-4b0a-b150-0195c936d3bc",
+  "snapshot_sha256": "624e3bb0c0da0038f9960b2423207cc96d333e856ec08c667ece5b1f5cf44b75",
+  "input_sha256": "6685dfb8c9d93e90a4f106b7e2fe63aac30d26a18248cfde579c64266df02f7c",
+  "rubric_sha256": "1b642e4205ec15f283c5a941e8d43019183212afc0877b547e7e296a53fa0307",
+  "rubric": {
+    "role_summary": "Staff-level electrical engineering role overseeing the design, construction, and commissioning of electrical utilities and distribution infrastructure for a large-scale manufacturing facility.",
+    "search_query": "Find candidates for this role:\nStaff-level electrical engineering role overseeing the design, construction, and commissioning of electrical utilities and distribution infrastructure for a large-scale manufacturing facility.\nMandatory professional qualifications:\n- Bachelor's degree in electrical engineering or equivalent experience.\n- 7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.\n- Knowledge of electrical construction practices, codes, and safety protocols.\n- Experience managing projects in large manufacturing facilities, industrial plants, or similar sectors.\n- Understanding of photovoltaic systems or power electronics.\n- Experience with electrical design software, such as AutoCAD Electrical, PSpice, or ETAP; the named tools are examples, not an all-tools requirement.\n- Familiarity with PLCs or SCADA systems.\n- Knowledge of relevant electrical codes and standards; NEC, UL 1703, and IEC 61215 are examples.\nPreferred, not mandatory:\n- Experience with large-scale EPC/EPCI projects.\n- Professional Engineer (PE) license.\n- Understanding of photovoltaic systems, inverters, and power electronics.\n- Familiarity with PLCs, SCADA systems, and automatic technologies.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Bachelor's degree in electrical engineering or equivalent experience.",
+        "source_quote": "Bachelor's Degree in Electrical Engineering or equivalent experience.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.",
+        "source_quote": "7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Knowledge of electrical construction practices, codes, and safety protocols.",
+        "source_quote": "Strong knowledge of electrical construction practices, codes, and safety protocols.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience managing projects in large manufacturing facilities, industrial plants, or similar sectors.",
+        "source_quote": "Experience managing projects in large manufacturing facilities, industrial plants, or similar sectors.",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Understanding of photovoltaic systems or power electronics.",
+        "source_quote": "Strong understanding of photovoltaic systems, inverters, and power electronics.",
+        "verification": "profile"
+      },
+      {
+        "id": "M6",
+        "requirement": "Experience with electrical design software, such as AutoCAD Electrical, PSpice, or ETAP; the named tools are examples, not an all-tools requirement.",
+        "source_quote": "Experience with electrical design software such as AutoCAD Electrical, PSpice, or ETAP.",
+        "verification": "profile"
+      },
+      {
+        "id": "M7",
+        "requirement": "Familiarity with PLCs or SCADA systems.",
+        "source_quote": "Familiarity with PLCs, SCADA systems, and automatic technologies.",
+        "verification": "profile"
+      },
+      {
+        "id": "M8",
+        "requirement": "Knowledge of relevant electrical codes and standards; NEC, UL 1703, and IEC 61215 are examples.",
+        "source_quote": "Knowledge of relevant electrical codes and standards (NEC, UL 1703, IEC 61215, etc.)",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with large-scale EPC/EPCI projects.",
+        "source_quote": "Experience with large scale EPC/EPCI projects preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Professional Engineer (PE) license.",
+        "source_quote": "Professional Engineer (PE) license is a plus.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Understanding of photovoltaic systems, inverters, and power electronics.",
+        "source_quote": "Strong understanding of photovoltaic systems, inverters, and power electronics.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with PLCs, SCADA systems, and automatic technologies.",
+        "source_quote": "Familiarity with PLCs, SCADA systems, and automatic technologies.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Austin, TX area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Austin, TX",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Ability to solve complex problems, multitask, and drive execution under aggressive schedules.",
+      "Collaborative communication with internal teams, contractors, and utility providers.",
+      "Accountability and respectful conduct; the posting says it does not tolerate big egos, bad behavior, or a \"that's not my job attitude\"."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "624e3bb0c0da0038f9960b2423207cc96d333e856ec08c667ece5b1f5cf44b75",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:56:43.705332+00:00",
+    "response_id": "chatcmpl-ETyS0okaqJt8s1s56hPkbdo25tSWS",
+    "usage": {
+      "prompt_tokens": 2128,
+      "completion_tokens": 1192,
+      "total_tokens": 3320,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 882,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 193,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ac961fe4f4bcfa0363f33354b42314e09784ca6871e34e4b03151a9edc518764",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work location in Austin, TX; the posting does not require candidates to currently reside there.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Austin, TX"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Austin, TX",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.",
+        "effective_requirement": "7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "741f629f742ee3fee2681c7082a49748f01f61ddc50a36a325583543e311bef3",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "741f629f742ee3fee2681c7082a49748f01f61ddc50a36a325583543e311bef3",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "before": "Understanding of photovoltaic systems, inverters, and power electronics.",
+          "after": "Understanding of photovoltaic systems or power electronics.",
+          "reason": "Domain is observable; full conjunctive list is unrealistic."
+        },
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "before": "Familiarity with PLCs, SCADA systems, and automatic technologies.",
+          "after": "Familiarity with PLCs or SCADA systems.",
+          "reason": "Controls exposure is observable; full list is unrealistic."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M5": "P3",
+        "M7": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "ab35e571f78214180f1c9a508ac5ed6c29e29a63ee3a3c25d19a3a89336218aa",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "e090182aac6ebff04074e944571a36058aadce8ae6f27867ff60003e6220e5dc",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Austin, TX area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Austin, TX area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.",
+      "effective_requirement": "7+ years of experience in electrical engineering, facilities/utilities projects, or industrial construction.",
+      "kind": "mandatory"
+    }
+  ]
+}

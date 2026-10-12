@@ -1,0 +1,21 @@
+# Runtime artifacts contain candidate profiles and provider responses.
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/runs/
+data/private/
+dist/
+build/
+*.egg-info/
+venv/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.vscode/
+.idea/

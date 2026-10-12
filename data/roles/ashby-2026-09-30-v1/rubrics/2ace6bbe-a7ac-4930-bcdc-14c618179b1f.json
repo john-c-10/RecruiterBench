@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "role_id": "2ace6bbe-a7ac-4930-bcdc-14c618179b1f",
+  "snapshot_sha256": "b94ed1c75b62c2f20e0b134b8c4d2cf4a3c45757834fb7d6b0adc26b285bc829",
+  "input_sha256": "c8186c2bae5b313ac5e58a6ee2ec85569f6b7bddf063c6d464c7f7f7ec8a612d",
+  "rubric_sha256": "71d0dc556f825af50c2f3c8cad5a29ed6289dbcc3d0e8442b569c065a2b3154d",
+  "rubric": {
+    "role_summary": "Senior product design role leading a company-wide accessibility program, combining accessibility strategy and design-system work with hands-on visual and interaction design across product platforms.",
+    "search_query": "Find candidates for this role:\nSenior product design role leading a company-wide accessibility program, combining accessibility strategy and design-system work with hands-on visual and interaction design across product platforms.\nPreferred, not mandatory:\n- Accessibility expertise paired with interaction design, visual design, systems thinking, and prototyping skills.\n- Experience leading accessibility or inclusive-design work across multiple teams, products, or platforms.\n- Practical knowledge of WCAG, assistive technologies, accessible interaction design, and platform-specific standards.\n- Experience embedding accessibility into design systems, reusable components, and engineering workflows.\n- Experience working directly with disabled people and applying their experiences to product and organizational decisions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+    "must_haves": [],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Accessibility expertise paired with interaction design, visual design, systems thinking, and prototyping skills.",
+        "source_quote": "Pair deep accessibility expertise with a very high bar for design craft: strong interaction design, visual design, systems thinking, and prototyping skills",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience leading accessibility or inclusive-design work across multiple teams, products, or platforms.",
+        "source_quote": "Have led accessibility or inclusive-design work across multiple teams, products, or platforms.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Practical knowledge of WCAG, assistive technologies, accessible interaction design, and platform-specific standards.",
+        "source_quote": "Have deep practical knowledge of WCAG, assistive technologies, accessible interaction design, and platform-specific standards.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience embedding accessibility into design systems, reusable components, and engineering workflows.",
+        "source_quote": "Have embedded accessibility into design systems, reusable components, and engineering workflows.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience working directly with disabled people and applying their experiences to product and organizational decisions.",
+        "source_quote": "Have worked directly with disabled people and translated their experiences into meaningful product and organizational decisions.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States. The role is hybrid in San Francisco, and relocation is provided, so candidates anywhere in the United States qualify; current residence near the office is not required. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "This role is based in our San Francisco HQ. We offer relocation assistance to new employees."
+      ]
+    },
+    "soft_requirements": [
+      "High bar for design craft.",
+      "Understanding of the relationship between accessibility, usability, and inclusive design, including when to go beyond standards.",
+      "Ability to identify exclusion within product journeys and develop more flexible interactions.",
+      "Effectiveness in setting strategy, designing detailed experiences, and collaborating with engineers.",
+      "Ability to influence across disciplines without direct authority and create shared accountability."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "b94ed1c75b62c2f20e0b134b8c4d2cf4a3c45757834fb7d6b0adc26b285bc829",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:10.440513+00:00",
+    "response_id": "chatcmpl-ETyVPFX5EgbO7DXZW6bCtm8wzEkYl",
+    "usage": {
+      "prompt_tokens": 2635,
+      "completion_tokens": 602,
+      "total_tokens": 3237,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1389,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "c5dd7e0df46fd8bd0efd8480bdd8f37ceafe09bb0c362d442f2351d2086fc791",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role based at the San Francisco HQ; relocation assistance is offered to new employees. Current San Francisco residence is not specified as required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, California"
+      ],
+      "remote_scope": null,
+      "relocation": "offered",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "Hybrid",
+        "This role is based in our San Francisco HQ. We offer relocation assistance to new employees."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "bc23832bf69fb404d3b449ddb02fd7698e8a338986dabd64090ef0f1fcf81f24",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "bc23832bf69fb404d3b449ddb02fd7698e8a338986dabd64090ef0f1fcf81f24",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "bc23832bf69fb404d3b449ddb02fd7698e8a338986dabd64090ef0f1fcf81f24",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "cf8b907f44c3ce9fc73fc7bf5bdcb3df481aa036c0ff5244a9c7172be23932c2",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "country",
+      "reason": "Relocation to the office is offered, so a hire from anywhere in the country is realistic.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Relocation is offered; candidates outside these areas may qualify with explicit evidence of willingness to relocate. Current residence in the area is not mandatory.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

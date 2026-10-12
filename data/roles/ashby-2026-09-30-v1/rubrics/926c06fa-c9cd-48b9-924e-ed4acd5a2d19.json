@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "role_id": "926c06fa-c9cd-48b9-924e-ed4acd5a2d19",
+  "snapshot_sha256": "81195d8a084d0937acbeb31cdfe2427c7edef0e83cf261c09597f09790db3c4f",
+  "input_sha256": "0c790aa6ff3ad5b463a2d52afdf36e2bcc2ddd57628de556bff48995b8c0aec6",
+  "rubric_sha256": "0324b0c51bb491ffcd974884f9719295fda57d1a66e18b852af63ad523501082",
+  "rubric": {
+    "role_summary": "Associate-level investment banking role advising on public-private partnership (PPP) transactions, including financial modeling, due diligence, client presentations, and business development.",
+    "search_query": "Find candidates for this role:\nAssociate-level investment banking role advising on public-private partnership (PPP) transactions, including financial modeling, due diligence, client presentations, and business development.\nMandatory professional qualifications:\n- A minimum of 2+ years of experience in PPP transactions, including financial modeling.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Vancouver, British Columbia, Canada area; Greater Toronto, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "A minimum of 2+ years of experience in PPP transactions, including financial modeling.",
+        "source_quote": "A minimum of 2-3 years of experience in PPP transactions, including financial modeling",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Toronto, Canada area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater Toronto, Canada area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Location: Vancouver or Toronto",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Communicates complex concepts concisely, verbally and in writing.",
+      "Takes initiative and works independently with minimal supervision.",
+      "Seeks increasing responsibility and solutions to complex problems.",
+      "Produces accurate, thorough work under tight deadlines.",
+      "Learns quickly and adapts in a fast-paced environment.",
+      "Shows resilience and works effectively in a team."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "81195d8a084d0937acbeb31cdfe2427c7edef0e83cf261c09597f09790db3c4f",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:33.112782+00:00",
+    "response_id": "chatcmpl-ETySuSjyTGW0IzaLqdlRQOfzgQBLg",
+    "usage": {
+      "prompt_tokens": 2632,
+      "completion_tokens": 414,
+      "total_tokens": 3046,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1386,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 41,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 2,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "8d1df0f86e0a09803c041739d09a7971a5efdba169e9adb0a8d60cb7ed04458a",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite in Vancouver or Toronto; current residence in either city is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Vancouver, British Columbia, Canada",
+        "Toronto, Canada"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Location: Vancouver or Toronto",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "A minimum of 2-3 years of experience in PPP transactions, including financial modeling",
+        "effective_requirement": "A minimum of 2+ years of experience in PPP transactions, including financial modeling.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "de471554de260e127c82c9a551ae6fff27dae82e8f47c90397039a8d3d755a14",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Ability to work beyond a normal workday or workweek when required.",
+          "source_quote": "there will be times where you will be required to work beyond a normal workday or workweek to fulfill the responsibilities of the role.",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "0522405e755db88d0d204adc3c7ca4bc25e3c922408c431e9eee3eb441dde36c",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "0522405e755db88d0d204adc3c7ca4bc25e3c922408c431e9eee3eb441dde36c",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "3f17dc778c87b9748102fc8270cc6f4606925728d1c343ffba9c21017ad5337c",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "Greater Vancouver, British Columbia, Canada area",
+        "Greater Toronto, Canada area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Vancouver, British Columbia, Canada area; Greater Toronto, Canada area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "A minimum of 2-3 years of experience in PPP transactions, including financial modeling",
+      "effective_requirement": "A minimum of 2+ years of experience in PPP transactions, including financial modeling.",
+      "kind": "mandatory"
+    }
+  ]
+}

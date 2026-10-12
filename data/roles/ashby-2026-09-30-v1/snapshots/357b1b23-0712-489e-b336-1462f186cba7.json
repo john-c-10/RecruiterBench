@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "357b1b23-0712-489e-b336-1462f186cba7",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/dyna-robotics/357b1b23-0712-489e-b336-1462f186cba7",
+    "board_url": "https://jobs.ashbyhq.com/dyna-robotics",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/dyna-robotics",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "357b1b23-0712-489e-b336-1462f186cba7",
+    "title": "Research Scientist",
+    "department": "Research",
+    "team": "Research",
+    "employmentType": "FullTime",
+    "location": "Redwood City, CA",
+    "secondaryLocations": [],
+    "publishedAt": "2025-08-22T00:37:39.535+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California ",
+        "addressCountry": "United States",
+        "addressLocality": "Redwood City"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/dyna-robotics/357b1b23-0712-489e-b336-1462f186cba7",
+    "applyUrl": "https://jobs.ashbyhq.com/dyna-robotics/357b1b23-0712-489e-b336-1462f186cba7/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>Dyna Robotics</strong> builds general-purpose robots powered by a proprietary embodied AI foundation model with top-in-industry generalization and real-world performance. Already deployed with customers across multiple industries, our robots do commercial-grade work in the physical world. Our team comes from Google DeepMind, Meta, and Cruise, and we're backed by CRV, First Round, and other leading investors.</p><h2><strong>The Role</strong></h2><p style=\"min-height:1.5em\">As a <strong>Research Scientist</strong> on the AI Research team, you will own the end-to-end loop of Embodied AI. You will leverage our massive, \"in-the-wild\" multimodal datasets to develop models that don’t just move - they generalize, self-improve, and redefine what is possible in unstructured human environments.</p><p style=\"min-height:1.5em\"></p><h2><strong>What You’ll Do</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Advance the Frontier:</strong> Design and implement state-of-the-art robot learning algorithms (RL, Imitation Learning, Diffusion) for complex, high-DOF manipulation tasks.</p></li><li><p style=\"min-height:1.5em\"><strong>VLA &amp; Video Generation:</strong> Architect and scale multi-modal foundation models (VLMs/VLAs) and leverage generative video architectures to enhance world-modeling and robot foresight.</p></li><li><p style=\"min-height:1.5em\"><strong>End-to-End Ownership:</strong> Own the full research-to-production pipeline: from task definition and data curation to large-scale training and real-time deployment on physical hardware.</p></li><li><p style=\"min-height:1.5em\"><strong>Physical-World Evaluation:</strong> Move beyond the benchmark. You will evaluate and iterate on models using our expanding robot fleet, ensuring commercial-grade performance in dynamic customer environments.</p></li><li><p style=\"min-height:1.5em\"><strong>Collaborative Leadership:</strong> Work at the intersection of AI, Hardware, and Teleop teams to enhance the \"Intelligence-per-Watt\" of our robotic systems.</p><p style=\"min-height:1.5em\"></p></li></ul><h2><strong>What You’ll Bring</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Research Excellence:</strong> A PhD (preferred) or Master’s in CS/Robotics with a significant publication record in top-tier conferences (RSS, CoRL, ICRA, NeurIPS, CVPR, or ICLR).</p></li><li><p style=\"min-height:1.5em\"><strong>5+ Years of Mastery:</strong> Deep experience in AI and robotics research, specifically in deploying deep learning models onto physical robots (not just simulation).</p></li><li><p style=\"min-height:1.5em\"><strong>Generative AI Expertise:</strong> Hands-on experience with Vision-Language-Action (VLA) models, Video Generation, or large-scale transformer architectures.</p></li><li><p style=\"min-height:1.5em\"><strong>Technical Stack:</strong> Mastery of Python and PyTorch (or JAX). Familiarity with simulation stacks like MuJoCo, Isaac, or Drake.</p></li><li><p style=\"min-height:1.5em\"><strong>High-Quality Code:</strong> The ability to write maintainable, production-ready research code that scales across GPU clusters.</p></li></ul><h2><strong>Bonus Points For</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with founding-stage startups or leading small, elite research teams.</p></li><li><p style=\"min-height:1.5em\">Deep understanding of classical robotics (controls, state estimation) to complement learning-based approaches.</p></li><li><p style=\"min-height:1.5em\">Experience profiling and optimizing foundation models for low-latency inference on edge devices.</p></li></ul><p style=\"min-height:1.5em\"><em>At<strong> Dyna Robotics</strong>, we build technology for the real world, which requires a team as diverse as the environments our robots inhabit. We are an equal opportunity employer committed to technical rigor and mutual respect.</em></p><p style=\"min-height:1.5em\"><em><strong>Don’t let a checklist stop you.</strong> Data shows that underrepresented groups often only apply if they meet 100% of the criteria. We value problem-solving and grit over keyword matching. If you’re passionate about robotics, no matter your discipline, we want to hear from you, even if you don't check every box.</em></p>",
+    "descriptionPlain": "Dyna Robotics builds general-purpose robots powered by a proprietary embodied AI foundation model with top-in-industry generalization and real-world performance. Already deployed with customers across multiple industries, our robots do commercial-grade work in the physical world. Our team comes from Google DeepMind, Meta, and Cruise, and we're backed by CRV, First Round, and other leading investors.\n\n\nTHE ROLE\n\nAs a Research Scientist on the AI Research team, you will own the end-to-end loop of Embodied AI. You will leverage our massive, \"in-the-wild\" multimodal datasets to develop models that don’t just move - they generalize, self-improve, and redefine what is possible in unstructured human environments.\n\n\n\n\nWHAT YOU’LL DO\n\n - Advance the Frontier: Design and implement state-of-the-art robot learning algorithms (RL, Imitation Learning, Diffusion) for complex, high-DOF manipulation tasks.\n\n - VLA & Video Generation: Architect and scale multi-modal foundation models (VLMs/VLAs) and leverage generative video architectures to enhance world-modeling and robot foresight.\n\n - End-to-End Ownership: Own the full research-to-production pipeline: from task definition and data curation to large-scale training and real-time deployment on physical hardware.\n\n - Physical-World Evaluation: Move beyond the benchmark. You will evaluate and iterate on models using our expanding robot fleet, ensuring commercial-grade performance in dynamic customer environments.\n\n - Collaborative Leadership: Work at the intersection of AI, Hardware, and Teleop teams to enhance the \"Intelligence-per-Watt\" of our robotic systems.\n   \n   \n\n\nWHAT YOU’LL BRING\n\n - Research Excellence: A PhD (preferred) or Master’s in CS/Robotics with a significant publication record in top-tier conferences (RSS, CoRL, ICRA, NeurIPS, CVPR, or ICLR).\n\n - 5+ Years of Mastery: Deep experience in AI and robotics research, specifically in deploying deep learning models onto physical robots (not just simulation).\n\n - Generative AI Expertise: Hands-on experience with Vision-Language-Action (VLA) models, Video Generation, or large-scale transformer architectures.\n\n - Technical Stack: Mastery of Python and PyTorch (or JAX). Familiarity with simulation stacks like MuJoCo, Isaac, or Drake.\n\n - High-Quality Code: The ability to write maintainable, production-ready research code that scales across GPU clusters.\n\n\nBONUS POINTS FOR\n\n - Experience with founding-stage startups or leading small, elite research teams.\n\n - Deep understanding of classical robotics (controls, state estimation) to complement learning-based approaches.\n\n - Experience profiling and optimizing foundation models for low-latency inference on edge devices.\n\nAt Dyna Robotics, we build technology for the real world, which requires a team as diverse as the environments our robots inhabit. We are an equal opportunity employer committed to technical rigor and mutual respect.\n\nDon’t let a checklist stop you. Data shows that underrepresented groups often only apply if they meet 100% of the criteria. We value problem-solving and grit over keyword matching. If you’re passionate about robotics, no matter your discipline, we want to hear from you, even if you don't check every box."
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "role_id": "7e1a1cb9-f192-4c6c-90f6-aefcb932a178",
+  "snapshot_sha256": "1174e1dbe55159e180f8bb16b38e7c814b6a53bdf55b5397110c86bc3e015522",
+  "input_sha256": "58f579eeb7eff91cb0b5e07d2690657e6d6d3247545adce12b8b67eb045a99ab",
+  "rubric_sha256": "65d780559a1285f59ba8a18bc16e2344e37e9e9b8bea6fd3608a762f65ef6729",
+  "rubric": {
+    "role_summary": "Mid-level editorial and communications role producing social, editorial, and owned-channel content for a legal technology company, including LinkedIn posts, customer stories, campaign assets, and thought leadership.",
+    "search_query": "Find candidates for this role:\nMid-level editorial and communications role producing social, editorial, and owned-channel content for a legal technology company, including LinkedIn posts, customer stories, campaign assets, and thought leadership.\nMandatory professional qualifications:\n- 3+ years of experience in editorial, communications, content marketing, journalism, social media, or a related field.\n- Experience creating social media content.\nPreferred, not mandatory:\n- Experience working in a high-growth technology company.\n- Experience writing for legal, professional services, SaaS, AI, or enterprise audiences.\n- Familiarity with content calendars, social scheduling tools, analytics platforms, or CMS workflows.\n- Basic understanding of employer brand, executive communications, or media relations.\n- Writing and editing skills, including producing clear, polished copy quickly.\n- Experience creating social media content, especially LinkedIn content.\n- Ability to translate complex or technical topics into accessible content.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater London area; Greater Stockholm area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of experience in editorial, communications, content marketing, journalism, social media, or a related field.",
+        "source_quote": "3–5 years of experience in editorial, communications, content marketing, journalism, social media, or a related field.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience creating social media content.",
+        "source_quote": "Experience creating content for social media, especially LinkedIn.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience working in a high-growth technology company.",
+        "source_quote": "Experience working in a high-growth technology company.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience writing for legal, professional services, SaaS, AI, or enterprise audiences.",
+        "source_quote": "Experience writing for legal, professional services, SaaS, AI, or enterprise audiences.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Familiarity with content calendars, social scheduling tools, analytics platforms, or CMS workflows.",
+        "source_quote": "Familiarity with content calendars, social scheduling tools, analytics platforms, or CMS workflows.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Basic understanding of employer brand, executive communications, or media relations.",
+        "source_quote": "Basic understanding of employer brand, executive communications, or media relations.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Writing and editing skills, including producing clear, polished copy quickly.",
+        "source_quote": "Excellent writing and editing skills, with the ability to produce clear, polished copy quickly.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Experience creating social media content, especially LinkedIn content.",
+        "source_quote": "Experience creating content for social media, especially LinkedIn.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Ability to translate complex or technical topics into accessible content.",
+        "source_quote": "Ability to translate complex or technical topics into accessible, engaging content.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater London, United Kingdom area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Greater London, United Kingdom area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "OnSite",
+        "This role is based in London or Stockholm and is part of Legora’s Communications team."
+      ]
+    },
+    "soft_requirements": [
+      "Strong editorial judgment and attention to detail.",
+      "Comfort working with stakeholders across teams and seniority levels.",
+      "Organization and ability to manage multiple content pieces and deadlines.",
+      "Proactive, collaborative mindset and willingness to work in a fast-moving environment.",
+      "Interest in legal technology, AI, professional services, or B2B communications."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "1174e1dbe55159e180f8bb16b38e7c814b6a53bdf55b5397110c86bc3e015522",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:20.091633+00:00",
+    "response_id": "chatcmpl-ETyUaSwyVAP6oU0oJ4X3iNpGtkVG2",
+    "usage": {
+      "prompt_tokens": 2478,
+      "completion_tokens": 708,
+      "total_tokens": 3186,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1232,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 64,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "e8344a5b89364053082be3679fd974d0dd75e19cbc043f2dd748aa1799835d46",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite role based in London or Stockholm; current residence is not specified as a requirement.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "London",
+        "Stockholm"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "OnSite",
+        "This role is based in London or Stockholm and is part of Legora’s Communications team."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3–5 years of experience in editorial, communications, content marketing, journalism, social media, or a related field.",
+        "effective_requirement": "3+ years of experience in editorial, communications, content marketing, journalism, social media, or a related field.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "306b7904f0aa6a3be0b3b82ae7a1bb708b260e1c276d5f9bcc725db0e114f11c",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "306b7904f0aa6a3be0b3b82ae7a1bb708b260e1c276d5f9bcc725db0e114f11c",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Writing and editing skills, including producing clear, polished copy quickly.",
+          "source_quote": "Excellent writing and editing skills, with the ability to produce clear, polished copy quickly.",
+          "verification": "profile",
+          "reason": "Writing quality/speed is unstated beyond the editorial role."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Ability to translate complex or technical topics into accessible content.",
+          "source_quote": "Ability to translate complex or technical topics into accessible, engaging content.",
+          "verification": "profile",
+          "reason": "Translation ability is unstated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Experience creating social media content, especially LinkedIn content.",
+          "after": "Experience creating social media content.",
+          "reason": "Social content creation observable; LinkedIn emphasis is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M3": "M2"
+      },
+      "demoted_preference_ids": {
+        "M2": "P5",
+        "M3": "P6",
+        "M4": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "2feb9e43d0a488fedc2946cfb56ba798e753953dd72b12a52d0837ef8c57e2ea",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "5067540518467cd6dd09b9fa00f718f14dbdfc958b782f81b3755eb9ba40553e",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "Greater London area",
+        "Greater Stockholm area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater London area; Greater Stockholm area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3–5 years of experience in editorial, communications, content marketing, journalism, social media, or a related field.",
+      "effective_requirement": "3+ years of experience in editorial, communications, content marketing, journalism, social media, or a related field.",
+      "kind": "mandatory"
+    }
+  ]
+}

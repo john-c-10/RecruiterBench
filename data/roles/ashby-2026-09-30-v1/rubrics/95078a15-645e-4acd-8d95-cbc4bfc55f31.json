@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0",
+  "role_id": "95078a15-645e-4acd-8d95-cbc4bfc55f31",
+  "snapshot_sha256": "e2a40bff6bfb6e99f48f11aa52397c290296ced9c5670190c6d076875f0e18f9",
+  "input_sha256": "fa7e66ab2dd6ebde3301e068e456d219ce0797250fb52c424027a22636195961",
+  "rubric_sha256": "94152b87d8f3aab7d5b6be0f90f8e3488e06145817946f6dc01b26c9b2ff6d15",
+  "rubric": {
+    "role_summary": "Product designer for a sleep and health mobile app, responsible for end-to-end UX and UI design, validation, and iteration. The role includes collaboration across product and engineering and coaching junior designers.",
+    "search_query": "Find candidates for this role:\nProduct designer for a sleep and health mobile app, responsible for end-to-end UX and UI design, validation, and iteration. The role includes collaboration across product and engineering and coaching junior designers.\nMandatory professional qualifications:\n- 4+ years of UX and UI experience.\n- Bachelor’s degree in a related design field or equivalent experience.\nPreferred, not mandatory:\n- Experience building consumer-facing mobile apps at small or mid-size tech startups, supported by data and reviews.\n- Experience designing Android mobile apps.\n- Experience shipping designs to public users and having data showing their success or failure.\n- Ability to consider technical implications of design decisions and balance new-user value against technical effort.\n- Experience coaching junior designers and collaborating closely with product managers and engineers.\n- Ability to manage the design process end to end.\n- Ability to write clear agendas and decks and present design evolutions to C-suite leadership.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "4+ years of UX and UI experience.",
+        "source_quote": "4+ years experience in UX and UI, with a strong portfolio including live mobile examples",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Bachelor’s degree in a related design field or equivalent experience.",
+        "source_quote": "You have a Bachelor’s degree in a related design field or equivalent experience",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience building consumer-facing mobile apps at small or mid-size tech startups, supported by data and reviews.",
+        "source_quote": "Having built iconic, consumer-facing mobile apps at small and mid-size tech startups (with the data & reviews to prove it)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience designing Android mobile apps.",
+        "source_quote": "Experience designing mobile apps for Android",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience shipping designs to public users and having data showing their success or failure.",
+        "source_quote": "You’ve shipped your designs to public users and have data that proves either success or failure",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Ability to consider technical implications of design decisions and balance new-user value against technical effort.",
+        "source_quote": "You are able to consider the technical implications of design decisions and have the ability to find the right balance between new user value and technical effort",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience coaching junior designers and collaborating closely with product managers and engineers.",
+        "source_quote": "You have experience coaching junior designers and collaborating closely with Product Managers and Engineers",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Ability to manage the design process end to end.",
+        "source_quote": "can manage the design process from end to end even in open-ended ambiguous environments",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Ability to write clear agendas and decks and present design evolutions to C-suite leadership.",
+        "source_quote": "You are confident in writing clear agendas and decks, and presenting design evolutions to C-Suite leadership",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: New York metropolitan area. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "New York City",
+        "OnSite",
+        "Your are open to occasional travel to other office locations (San Francisco, Milan) to work with other teams in-person"
+      ]
+    },
+    "soft_requirements": [
+      "Passion for the company’s mission and excitement about building its brand.",
+      "Attention to simplicity and visual aesthetics.",
+      "Independent thinking and comfort with ambiguity.",
+      "Flexibility to iterate quickly and often.",
+      "Confidence and clarity in written materials and presentations."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e2a40bff6bfb6e99f48f11aa52397c290296ced9c5670190c6d076875f0e18f9",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:36.724479+00:00",
+    "response_id": "chatcmpl-ETyQx2N6x0BquIPopxFZoH5i7XrA7",
+    "usage": {
+      "prompt_tokens": 3174,
+      "completion_tokens": 1068,
+      "total_tokens": 4242,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1928,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "0518a8342bbc00f953bcfc031efb598267dbb7de2667d4ed008aa8d26115749d",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in New York City; occasional travel to other offices in San Francisco or Milan. Present residence in New York City is not explicitly required.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "New York City"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "New York City",
+        "OnSite",
+        "Your are open to occasional travel to other office locations (San Francisco, Milan) to work with other teams in-person"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "4+ years experience in UX and UI, with a strong portfolio including live mobile examples",
+        "effective_requirement": "4+ years of UX and UI experience, with a portfolio including live mobile examples.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "46cca83bcd6378bf5d7733f66255bbb539d2282c7423f6b4659751622f146ab1",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M7",
+          "requirement": "Openness to occasional travel to other offices in San Francisco or Milan.",
+          "source_quote": "Your are open to occasional travel to other office locations (San Francisco, Milan) to work with other teams in-person",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "4+ years of UX and UI experience, with a portfolio including live mobile examples.",
+          "after": "4+ years of UX and UI experience.",
+          "reason": "Requires a portfolio, which is not among the judged profile fields."
+        }
+      ],
+      "criterion_id_map": {
+        "M8": "M7"
+      }
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c795433af3283f6931bbef14ced3c97241a9ad92695c138ffb1b45e30c90e7bc",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Experience shipping designs to public users and having data showing their success or failure.",
+          "source_quote": "You’ve shipped your designs to public users and have data that proves either success or failure",
+          "verification": "profile",
+          "reason": "Having data on design success/failure is an outcome claim rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Ability to consider technical implications of design decisions and balance new-user value against technical effort.",
+          "source_quote": "You are able to consider the technical implications of design decisions and have the ability to find the right balance between new user value and technical effort",
+          "verification": "profile",
+          "reason": "Balancing technical effort is a judgment ability not observable."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience coaching junior designers and collaborating closely with product managers and engineers.",
+          "source_quote": "You have experience coaching junior designers and collaborating closely with Product Managers and Engineers",
+          "verification": "profile",
+          "reason": "Coaching juniors and collaboration are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to manage the design process end to end.",
+          "source_quote": "can manage the design process from end to end even in open-ended ambiguous environments",
+          "verification": "profile",
+          "reason": "End-to-end design process management is an ability rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M6",
+          "requirement": "Ability to write clear agendas and decks and present design evolutions to C-suite leadership.",
+          "source_quote": "You are confident in writing clear agendas and decks, and presenting design evolutions to C-Suite leadership",
+          "verification": "profile",
+          "reason": "Writing agendas and presenting to the C-suite is a communication skill not observable."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M7": "M2"
+      },
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M3": "P4",
+        "M4": "P5",
+        "M5": "P6",
+        "M6": "P7"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "7cf5b0fcae3a427dd8c83a9c9af8af55b1ace171f0a88bef9f8087c42af77d17",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "10a1acf2be786b7192458acab0c7dd7d8334ae36cccd7a9c0a3679f52f3b4df5",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "4+ years experience in UX and UI, with a strong portfolio including live mobile examples",
+      "effective_requirement": "4+ years of UX and UI experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

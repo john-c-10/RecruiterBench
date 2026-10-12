@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "role_id": "0820cc79-9305-43d3-836e-2c9654afb39e",
+  "snapshot_sha256": "62b6ba1b9d35641121354d3aa2d11f461c64b6742100e6f59d46a4e166255c8d",
+  "input_sha256": "766e82146829137fac3c34c5020404a39719f313a04ed1b5533ea730341438a2",
+  "rubric_sha256": "853c134bc8e7661db66a7e90c58894d713cc943c80bd80b5131f57aba6fc62a9",
+  "rubric": {
+    "role_summary": "Hands-on mechatronics hardware engineering for industrial robot autonomy and learning. Integrate and improve commercially available robots, develop reproducible retrofit kits, and troubleshoot and document physical systems.",
+    "search_query": "Find candidates for this role:\nHands-on mechatronics hardware engineering for industrial robot autonomy and learning. Integrate and improve commercially available robots, develop reproducible retrofit kits, and troubleshoot and document physical systems.\nMandatory professional qualifications:\n- Hands-on experience designing and building mechatronic or robotic hardware.\n- Hands-on mechanical design experience using CAD.\n- Hands-on experience with electrical wiring, harnesses, or electrical troubleshooting.\nPreferred, not mandatory:\n- Experience integrating industrial arms, mobile manipulators, force and torque sensors, grippers, or dexterous hands.\n- Experience with robot-cell safeguarding, safety-rated components, or machinery risk assessment.\n- Experience designing teleoperation devices, camera calibration fixtures, or data collection hardware.\n- Familiarity with Python, ROS 2, or CAD-to-URDF workflows for working with software teammates.\n- Designed, assembled, and deployed mechatronic or robotic hardware that operated reliably beyond a CAD model or bench test.\n- Strong CAD skills and hands-on experience with rapid prototyping, machining or fabrication vendors, mechanical assembly, and design iteration.\n- Practical understanding of loads, stiffness, tolerances, fasteners, cable routing, and mounting tradeoffs for sensors and actuators.\n- Experience with low-voltage power, connectors, harnesses, and electrical troubleshooting using a multimeter and oscilloscope.\n- Experience writing test procedures, bills of materials, assembly instructions, and maintenance documentation for physical systems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home before heading to the office, or leaving earlier when needed to accommodate family commitments.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Hands-on experience designing and building mechatronic or robotic hardware.",
+        "source_quote": "Designed, assembled, and deployed mechatronic or robotic hardware that has operated reliably outside a CAD model or a bench test.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Hands-on mechanical design experience using CAD.",
+        "source_quote": "Strong CAD skills and hands-on experience with rapid prototyping, machining or fabrication vendors, mechanical assembly, and design iteration.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Hands-on experience with electrical wiring, harnesses, or electrical troubleshooting.",
+        "source_quote": "Experience with low-voltage power, connectors, harnesses, and electrical troubleshooting with a multimeter and oscilloscope.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience integrating industrial arms, mobile manipulators, force and torque sensors, grippers, or dexterous hands.",
+        "source_quote": "Experience integrating industrial arms, mobile manipulators, force and torque sensors, grippers, or dexterous hands.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with robot-cell safeguarding, safety-rated components, or machinery risk assessment.",
+        "source_quote": "Experience with robot-cell safeguarding, safety-rated components, or machinery risk assessment.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience designing teleoperation devices, camera calibration fixtures, or data collection hardware.",
+        "source_quote": "Experience designing teleoperation devices, camera calibration fixtures, or data collection hardware.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Familiarity with Python, ROS 2, or CAD-to-URDF workflows for working with software teammates.",
+        "source_quote": "Familiarity with Python, ROS 2, or CAD-to-URDF workflows for working effectively with software teammates.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Designed, assembled, and deployed mechatronic or robotic hardware that operated reliably beyond a CAD model or bench test.",
+        "source_quote": "Designed, assembled, and deployed mechatronic or robotic hardware that has operated reliably outside a CAD model or a bench test.",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Strong CAD skills and hands-on experience with rapid prototyping, machining or fabrication vendors, mechanical assembly, and design iteration.",
+        "source_quote": "Strong CAD skills and hands-on experience with rapid prototyping, machining or fabrication vendors, mechanical assembly, and design iteration.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Practical understanding of loads, stiffness, tolerances, fasteners, cable routing, and mounting tradeoffs for sensors and actuators.",
+        "source_quote": "Practical understanding of loads, stiffness, tolerances, fasteners, cable routing, and the tradeoffs in mounting sensors and actuators.",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience with low-voltage power, connectors, harnesses, and electrical troubleshooting using a multimeter and oscilloscope.",
+        "source_quote": "Experience with low-voltage power, connectors, harnesses, and electrical troubleshooting with a multimeter and oscilloscope.",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Experience writing test procedures, bills of materials, assembly instructions, and maintenance documentation for physical systems.",
+        "source_quote": "Experience writing test procedures, bills of materials, assembly instructions, and maintenance documentation for physical systems.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Sunnyvale",
+        "OnSite",
+        "We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home before heading to the office, or leaving earlier when needed to accommodate family commitments."
+      ]
+    },
+    "soft_requirements": [
+      "Careful judgment around robot hazards and comfort working across mechanical, electrical, controls, and software boundaries."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "62b6ba1b9d35641121354d3aa2d11f461c64b6742100e6f59d46a4e166255c8d",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:49.056952+00:00",
+    "response_id": "chatcmpl-ETyR9UlVrZV5B0PtLDmSXwJQl2o6X",
+    "usage": {
+      "prompt_tokens": 2829,
+      "completion_tokens": 1128,
+      "total_tokens": 3957,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1583,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "a720359e6b9cb15095077d2462f19d1b4aeae4d417ccffdab20f7170896d93e6",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Primarily work from the Sunnyvale office five days a week; occasional remote-work flexibility is described.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Sunnyvale, California"
+      ],
+      "remote_scope": "Occasional remote work may be possible, but the full-time role is primarily in-office.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Sunnyvale",
+        "OnSite",
+        "We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home before heading to the office, or leaving earlier when needed to accommodate family commitments."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "d5664813c434b9a16be8bafba726d9d1fd18d4882d125f1aea97c8883c442a89",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d5664813c434b9a16be8bafba726d9d1fd18d4882d125f1aea97c8883c442a89",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Practical understanding of loads, stiffness, tolerances, fasteners, cable routing, and mounting tradeoffs for sensors and actuators.",
+          "source_quote": "Practical understanding of loads, stiffness, tolerances, fasteners, cable routing, and the tradeoffs in mounting sensors and actuators.",
+          "verification": "profile",
+          "reason": "Specific mechanical design know-how list rarely appears on profiles."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience writing test procedures, bills of materials, assembly instructions, and maintenance documentation for physical systems.",
+          "source_quote": "Experience writing test procedures, bills of materials, assembly instructions, and maintenance documentation for physical systems.",
+          "verification": "profile",
+          "reason": "Documentation practices are rarely stated on profiles."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "Designed, assembled, and deployed mechatronic or robotic hardware that operated reliably beyond a CAD model or bench test.",
+          "after": "Hands-on experience designing and building mechatronic or robotic hardware.",
+          "reason": "Core hardware-building identity is observable; reliability-beyond-bench qualifier is unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Strong CAD skills and hands-on experience with rapid prototyping, machining or fabrication vendors, mechanical assembly, and design iteration.",
+          "after": "Hands-on mechanical design experience using CAD.",
+          "reason": "CAD/mechanical design is observable; vendor management and iteration specifics are rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Experience with low-voltage power, connectors, harnesses, and electrical troubleshooting using a multimeter and oscilloscope.",
+          "after": "Hands-on experience with electrical wiring, harnesses, or electrical troubleshooting.",
+          "reason": "Basic electrical hands-on work can be implied; specific instruments and conjunctive list are unstated."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M3"
+      },
+      "demoted_preference_ids": {
+        "M1": "P5",
+        "M2": "P6",
+        "M3": "P7",
+        "M4": "P8",
+        "M5": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "2b69a4567d87f082764ef136a1812df8d671ea76825b9038f892e8ceaa206f3e",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "dfc649b459556ec3778c035a719cee39f1700768df70b0988164a728e4a4f7bf",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home before heading to the office, or leaving earlier when needed to accommodate family commitments.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

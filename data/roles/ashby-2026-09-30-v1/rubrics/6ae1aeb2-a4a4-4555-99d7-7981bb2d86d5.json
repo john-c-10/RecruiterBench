@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "role_id": "6ae1aeb2-a4a4-4555-99d7-7981bb2d86d5",
+  "snapshot_sha256": "ea2c876063b93500ebdb64a7f5b0d6c84d1aaa42d5993ac26f347acd77619aed",
+  "input_sha256": "341ccf492c9373d2ff4b83ecc86af8f5bd8ffa54658c729359a22cc1ab7df8d9",
+  "rubric_sha256": "c49db29ed2fdbaa7534e0d825df52111c31c329d45ecf6486f297095e4d708f5",
+  "rubric": {
+    "role_summary": "Senior electrical engineer owning the electrical system of a surgical robot, from PCB design and board bring-up through production handoff, including motor control, sensing, and system integration.",
+    "search_query": "Find candidates for this role:\nSenior electrical engineer owning the electrical system of a surgical robot, from PCB design and board bring-up through production handoff, including motor control, sensing, and system integration.\nMandatory professional qualifications:\n- ~5+ years of professional experience designing and bringing up PCBs\n- Fundamentals in schematic capture and circuit analysis.\n- Hands-on board bring-up and debugging skills\n- Experience with motor drive circuits\n- BS or MS in Electrical Engineering or equivalent\nPreferred, not mandatory:\n- BLDC motor drive experience\n- Medical device development experience\n- PCB layout skills or fluency reviewing and guiding layout\n- Soldering and rework ability for prototype iterations\n- Experience with flex or rigid-flex PCB design\n- Familiarity with EMC pre-compliance testing\n- Startup or small-team experience owning a subsystem end-to-end\n- Fundamentals in schematic capture, circuit analysis, EMI/EMC, and power design\n- Experience working across domains with mechanical, firmware, and software teams\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "~5+ years of professional experience designing and bringing up PCBs",
+        "source_quote": "~5+ years of experience designing and bringing up PCBs in a professional setting",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Fundamentals in schematic capture and circuit analysis.",
+        "source_quote": "Strong fundamentals in schematic capture, circuit analysis, EMI/EMC, and power design",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Hands-on board bring-up and debugging skills",
+        "source_quote": "Hands-on board bring-up and debugging skills (oscilloscope, logic analyzer, bench supply are second nature)",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Experience with motor drive circuits",
+        "source_quote": "Experience with motor drive circuits (BLDC preferred)",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "BS or MS in Electrical Engineering or equivalent",
+        "source_quote": "BS or MS in Electrical Engineering or equivalent",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "BLDC motor drive experience",
+        "source_quote": "BLDC preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Medical device development experience",
+        "source_quote": "Experience in medical device development (IEC 60601, ISO 13485 environment)",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "PCB layout skills or fluency reviewing and guiding layout",
+        "source_quote": "PCB layout skills (or enough fluency to review and guide layout)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Soldering and rework ability for prototype iterations",
+        "source_quote": "Soldering and rework ability for prototype iterations",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience with flex or rigid-flex PCB design",
+        "source_quote": "Experience with flex or rigid-flex PCB design",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Familiarity with EMC pre-compliance testing",
+        "source_quote": "Familiarity with EMC pre-compliance testing",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "Startup or small-team experience owning a subsystem end-to-end",
+        "source_quote": "Previous startup or small-team experience where you owned a subsystem end-to-end",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Fundamentals in schematic capture, circuit analysis, EMI/EMC, and power design",
+        "source_quote": "Strong fundamentals in schematic capture, circuit analysis, EMI/EMC, and power design",
+        "verification": "profile"
+      },
+      {
+        "id": "P9",
+        "requirement": "Experience working across domains with mechanical, firmware, and software teams",
+        "source_quote": "Comfort working across domains with ME, FW, and SW teams in a fast-moving environment",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco"
+      ]
+    },
+    "soft_requirements": [
+      "Comfort working in a fast-moving environment",
+      "Clear, proactive communication; closing loops and flagging risks early"
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "ea2c876063b93500ebdb64a7f5b0d6c84d1aaa42d5993ac26f347acd77619aed",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:16.020590+00:00",
+    "response_id": "chatcmpl-ETySZa4IG8faE2XicRFzdUubiWDbY",
+    "usage": {
+      "prompt_tokens": 1995,
+      "completion_tokens": 1041,
+      "total_tokens": 3036,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 749,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "da0608af8474e847168e6488e9fb28280aed12a8362ee30f706762d2fd3eb95d",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Work location listed as San Francisco; the posting does not specify an onsite schedule or require current residence there.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "~5+ years of experience designing and bringing up PCBs in a professional setting",
+        "effective_requirement": "~5+ years of professional experience designing and bringing up PCBs",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "2a580203d57c0b26f86f236670b1bb6b918db735a35cbe5d764175c9a6a33ae8",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "2a580203d57c0b26f86f236670b1bb6b918db735a35cbe5d764175c9a6a33ae8",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience working across domains with mechanical, firmware, and software teams",
+          "source_quote": "Comfort working across domains with ME, FW, and SW teams in a fast-moving environment",
+          "verification": "profile",
+          "reason": "Cross-domain collaboration is a working practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "Fundamentals in schematic capture, circuit analysis, EMI/EMC, and power design",
+          "after": "Fundamentals in schematic capture and circuit analysis.",
+          "reason": "Schematic/circuit fundamentals are implied by EE design roles; EMI/EMC and power design together are overly conjunctive."
+        }
+      ],
+      "criterion_id_map": {
+        "M6": "M5"
+      },
+      "demoted_preference_ids": {
+        "M2": "P8",
+        "M5": "P9"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "2afd339dd634a91c93a07332cd7c2dde04f28eae771c2b0f9719b14d9ed2a39b",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2f0ef27948da7cc343f45611bc63f74aaf5425dd483d99b7176cc51c5e813ec3",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "~5+ years of experience designing and bringing up PCBs in a professional setting",
+      "effective_requirement": "~5+ years of professional experience designing and bringing up PCBs",
+      "kind": "mandatory"
+    }
+  ]
+}

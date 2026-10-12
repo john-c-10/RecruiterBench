@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0",
+  "role_id": "63de8203-aa71-40d5-9f59-424716295c8d",
+  "snapshot_sha256": "22dd46b3cd1e224a4984aa12ae3941252817af32dc781f192387dc7383c08367",
+  "input_sha256": "b934f9db7cb6be9ddb641c2856ec4e659a26b0d35abbeaf99566fe7d53aa4893",
+  "rubric_sha256": "03cca302dc3df116ba008f0de73c40dc1be40ca8991fe474b901941618d52ed3",
+  "rubric": {
+    "role_summary": "Customer Success Manager for a biotech R&D software platform, focused on customer adoption, deployment health, value realization, and data-informed customer strategies.",
+    "search_query": "Find candidates for this role:\nCustomer Success Manager for a biotech R&D software platform, focused on customer adoption, deployment health, value realization, and data-informed customer strategies.\nMandatory professional qualifications:\n- BS or M.Sc in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering, or a similar Life Science field; OR 2+ years of work experience with Life Sciences or Healthcare companies.\n- 4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment.\n- Project management skills.\nPreferred, not mandatory:\n- Life Sciences or Healthcare work experience in a lab or research setting.\n- Hands-on implementation experience.\n- Experience working with or supporting the Benchling platform.\n- Understanding of Life Sciences R&D, process development, or manufacturing processes and scientific concepts.\n- Experience interfacing with practitioners and Director- or VP-level Business and IT leaders at Biotech and Pharma companies.\n- Proficiency with CS tools such as Gainsight, Salesforce, and analytics/BI tools; comfort using AI tools for productivity and customer insights.\n- GxP experience or familiarity with validation activities at a life sciences, biotech, or vertical SaaS company.\n- Experience leveraging data insights to drive decisions, diagnose customer deployment health, and develop targeted adoption strategies.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Boston area, Massachusetts. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "BS or M.Sc in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering, or a similar Life Science field; OR 2+ years of work experience with Life Sciences or Healthcare companies.",
+        "source_quote": "BS or M.Sc http://M.Sc. in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering or similar Life Science field, OR 2+ years work experience with Life Sciences or Healthcare companies, ideally in a lab or research setting",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment.",
+        "source_quote": "4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment with the ability to forge relationships with users, decision makers, and influential stakeholders",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Project management skills.",
+        "source_quote": "Strong project management skills and the ability to influence without authority, hands on implementation experience preferred.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Life Sciences or Healthcare work experience in a lab or research setting.",
+        "source_quote": "ideally in a lab or research setting",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Hands-on implementation experience.",
+        "source_quote": "hands on implementation experience preferred.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience working with or supporting the Benchling platform.",
+        "source_quote": "Experience working with or supporting the Benchling platform",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Understanding of Life Sciences R&D, process development, or manufacturing processes and scientific concepts.",
+        "source_quote": "Understanding of Life Sciences R&D, process development, or manufacturing processes, and scientific concepts.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience interfacing with practitioners and Director- or VP-level Business and IT leaders at Biotech and Pharma companies.",
+        "source_quote": "Demonstrated ability to immediately interface and build trust with practitioners, as well as Director & VP-level Business and IT leaders, in Biotech and Pharma companies",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Proficiency with CS tools such as Gainsight, Salesforce, and analytics/BI tools; comfort using AI tools for productivity and customer insights.",
+        "source_quote": "Proficiency with CS tool stacks such as Gainsight, Salesforce, and analytics/BI tools (e.g., Sigma); comfort leveraging AI tools like Claude for productivity and customer insights.",
+        "verification": "profile"
+      },
+      {
+        "id": "P7",
+        "requirement": "GxP experience or familiarity with validation activities at a life sciences, biotech, or vertical SaaS company.",
+        "source_quote": "GxP experience or familiarity with validation activities at a life sciences or biotech company and/or vertical SaaS software company",
+        "verification": "profile"
+      },
+      {
+        "id": "P8",
+        "requirement": "Experience leveraging data insights to drive decisions, diagnose customer deployment health, and develop targeted adoption strategies.",
+        "source_quote": "Strong analytical skills with experience leveraging data insights to drive decision-making, diagnose customer deployment health, and develop targeted adoption strategies.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Boston area, Massachusetts. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater Boston area, Massachusetts"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Boston, MA",
+        "Hybrid",
+        "We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday)."
+      ]
+    },
+    "soft_requirements": [
+      "Ability to forge relationships with users, decision makers, and influential stakeholders.",
+      "Strong analytical judgment and ability to influence without authority.",
+      "Confident, concise verbal, written, and presentation communication for varied audiences.",
+      "Self-motivation, independence, adaptability, and ability to thrive in a fast-paced startup environment.",
+      "Ability to build trust quickly with practitioners and senior leaders."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "22dd46b3cd1e224a4984aa12ae3941252817af32dc781f192387dc7383c08367",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-10-01T00:00:20.655088+00:00",
+    "response_id": "chatcmpl-ETyVVdLr48bVurSh68mi7sEJJ3kem",
+    "usage": {
+      "prompt_tokens": 2621,
+      "completion_tokens": 1328,
+      "total_tokens": 3949,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1375,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 57,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "7ba86b896803d6eede4b0dc2839ad2e8de1277b0080a79a66cfe3d0f74a3aa9f",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in Boston, MA, with on-site attendance three days per week: Monday, Tuesday, and Thursday. Present residence in Boston is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Boston, MA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Boston, MA",
+        "Hybrid",
+        "We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday)."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "BS or M.Sc http://M.Sc. in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering or similar Life Science field, OR 2+ years work experience with Life Sciences or Healthcare companies, ideally in a lab or research setting",
+        "effective_requirement": "BS or M.Sc in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering, or a similar Life Science field; OR 2+ years of work experience with Life Sciences or Healthcare companies.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "M2",
+        "source_quote": "4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment with the ability to forge relationships with users, decision makers, and influential stakeholders",
+        "effective_requirement": "4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "dd98425ee459a24bb6f1bc154716f56da3236e0e9a5b5d94698b32dff7dc2575",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Ability to travel 20–30% based on customer needs.",
+          "source_quote": "Ability to travel 20-30% based on customer needs",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "fafd00709235135867cd5971543bfa9e647908e41fbcd658e69d56827a7f7e46",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience leveraging data insights to drive decisions, diagnose customer deployment health, and develop targeted adoption strategies.",
+          "source_quote": "Strong analytical skills with experience leveraging data insights to drive decision-making, diagnose customer deployment health, and develop targeted adoption strategies.",
+          "verification": "profile",
+          "reason": "Data-driven practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {
+        "M4": "M3"
+      },
+      "demoted_preference_ids": {
+        "M3": "P8"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "f9426c6bf1465b70ea5435158ca7dc0f719f61b5cde5e2b68d06e00bf890bbaa",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "97db25d07f61b8da8810e9b91607f8d05208bc5ed16f96f168748b3a346ee387",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Boston area, Massachusetts"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Boston area, Massachusetts. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "BS or M.Sc http://M.Sc. in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering or similar Life Science field, OR 2+ years work experience with Life Sciences or Healthcare companies, ideally in a lab or research setting",
+      "effective_requirement": "BS or M.Sc in Biology, Molecular Biology, Genetics, Biotechnology, Bioengineering, or a similar Life Science field; OR 2+ years of work experience with Life Sciences or Healthcare companies.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "M2",
+      "source_quote": "4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment with the ability to forge relationships with users, decision makers, and influential stakeholders",
+      "effective_requirement": "4+ years of Customer Success, Professional Services, or Consulting experience in a SaaS software environment.",
+      "kind": "mandatory"
+    }
+  ]
+}

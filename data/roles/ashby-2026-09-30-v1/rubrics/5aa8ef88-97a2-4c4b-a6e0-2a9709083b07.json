@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "role_id": "5aa8ef88-97a2-4c4b-a6e0-2a9709083b07",
+  "snapshot_sha256": "e655ca9ee4f7a3a460f155d9de19b58da086e5d8414b58c4215c47d1e3dc3750",
+  "input_sha256": "b82b7ed3c8281ae60d6b9cf602510954576465c05dc5705599ad8f436a89bdd8",
+  "rubric_sha256": "5ba6bb433444b5294486f05eb5c5d1fa36d3f8c113667585be30660cc016103a",
+  "rubric": {
+    "role_summary": "Senior estate planning specialist for Canadian wealth management clients, reviewing wills, trusts, insurance policies, and complex estate plans, advising on gaps and next steps, and building an estate review process.",
+    "search_query": "Find candidates for this role:\nSenior estate planning specialist for Canadian wealth management clients, reviewing wills, trusts, insurance policies, and complex estate plans, advising on gaps and next steps, and building an estate review process.\nMandatory professional qualifications:\n- 5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function.\n- A legal background.\n- Demonstrated understanding of trust structures, taxation, and use cases across complex estates.\nPreferred, not mandatory:\n- TEP designation.\n- Bilingual English/French capability.\n- A legal background with hands-on experience reviewing or drafting wills, trusts, and related estate documents.\n- Working understanding of insurance policies, including how to read them and assess their role in an estate plan.\n- Experience identifying gaps in existing estate plans and translating them into actionable next steps for clients.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function.",
+        "source_quote": "5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "A legal background.",
+        "source_quote": "A legal background, with hands-on experience reviewing or drafting wills, trusts, and related estate documents",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Demonstrated understanding of trust structures, taxation, and use cases across complex estates.",
+        "source_quote": "Deep, demonstrated understanding of trusts — structures, taxation, and use cases across complex estates",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "TEP designation.",
+        "source_quote": "TEP designation strongly preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Bilingual English/French capability.",
+        "source_quote": "Bilingual (English/French) capability is a significant asset",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "A legal background with hands-on experience reviewing or drafting wills, trusts, and related estate documents.",
+        "source_quote": "A legal background, with hands-on experience reviewing or drafting wills, trusts, and related estate documents",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Working understanding of insurance policies, including how to read them and assess their role in an estate plan.",
+        "source_quote": "A solid working understanding of insurance policies and how to read them, with the ability to assess their role in an estate plan",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience identifying gaps in existing estate plans and translating them into actionable next steps for clients.",
+        "source_quote": "Proven experience identifying gaps in existing estate plans and translating them into clear, actionable next steps for clients",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Canada (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Canada"
+      ],
+      "remote_scope": "Canada",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote (Canada)",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Ability to explain complex legal and estate concepts clearly to advisors and clients.",
+      "Comfort building a process without an established playbook.",
+      "Client-first mentality.",
+      "Enthusiasm for using AI tools to improve work."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "e655ca9ee4f7a3a460f155d9de19b58da086e5d8414b58c4215c47d1e3dc3750",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:49.406366+00:00",
+    "response_id": "chatcmpl-ETyT8ZllB22ilzU2xf4keHlQDjfJS",
+    "usage": {
+      "prompt_tokens": 2937,
+      "completion_tokens": 838,
+      "total_tokens": 3775,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1691,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "f834b6a2dda8c6c11245bed1cbd3a4ea88add39201148ac7c63f920a96a115cb",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role based in Canada; the posting does not explicitly require current residence in Canada.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Canada"
+      ],
+      "remote_scope": "Canada",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote (Canada)",
+        "Remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function",
+        "effective_requirement": "5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "f3a9d258e25fa586b40b2b734ce4d7a7b0e609e5512c14584e6ab3f127566d0a",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "f3a9d258e25fa586b40b2b734ce4d7a7b0e609e5512c14584e6ab3f127566d0a",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Working understanding of insurance policies, including how to read them and assess their role in an estate plan.",
+          "source_quote": "A solid working understanding of insurance policies and how to read them, with the ability to assess their role in an estate plan",
+          "verification": "profile",
+          "reason": "Insurance-policy reading is a specific skill rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Experience identifying gaps in existing estate plans and translating them into actionable next steps for clients.",
+          "source_quote": "Proven experience identifying gaps in existing estate plans and translating them into clear, actionable next steps for clients",
+          "verification": "profile",
+          "reason": "Identifying plan gaps is a practice rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "before": "A legal background with hands-on experience reviewing or drafting wills, trusts, and related estate documents.",
+          "after": "A legal background.",
+          "reason": "Legal training/practice is visible; specific drafting of wills and trusts is often unstated."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M4": "P4",
+        "M5": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "03ad4ead015bc8d9aada40fd486df49ec2de6723eaeeb800810a03db826c46f5",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "130808c41c6bd651db140fdcc63754e05c92746917210974762d4dcc8c760cef",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Canada"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Canada. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function",
+      "effective_requirement": "5+ years of experience in estate planning, trusts and estates law, or a related wealth management advisory function.",
+      "kind": "mandatory"
+    }
+  ]
+}

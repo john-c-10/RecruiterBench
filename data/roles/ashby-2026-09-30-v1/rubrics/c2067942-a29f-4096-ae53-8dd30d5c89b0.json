@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "role_id": "c2067942-a29f-4096-ae53-8dd30d5c89b0",
+  "snapshot_sha256": "6ea573b7be9f97a18f35ed82a8b5315f9097a84f1f2551f57fa1a7ee819010af",
+  "input_sha256": "d4f74849baca5ff52c189590e7942517630611d4328a2de5b56c3df8a9cedadc",
+  "rubric_sha256": "d5749c5ab2a727b07fd2f6cd05c86f0226757db045219f19214075b2011c9b50",
+  "rubric": {
+    "role_summary": "Staff-level deep learning compiler engineering for edge AI hardware, focused on compiler optimization, neural network lowering, and performance across the hardware–software boundary.",
+    "search_query": "Find candidates for this role:\nStaff-level deep learning compiler engineering for edge AI hardware, focused on compiler optimization, neural network lowering, and performance across the hardware–software boundary.\nMandatory professional qualifications:\n- BS, MS, or Ph.D. in Computer Science, Computer Engineering, Electrical Engineering, or a related field.\n- 8+ years of hands-on experience developing deep learning compilers or compiler infrastructures; named infrastructures are examples, not a requirement to know all of them.\n- Proficiency in C++ and Python.\n- Familiarity with modern AI/ML frameworks and deep learning operator representations; the named frameworks are examples, not an all-framework requirement.\n- Understanding of computer systems, memory hierarchies, parallel processing, and CPU/GPU/NPU instruction execution.\nPreferred, not mandatory:\n- Experience with low-level kernel optimization, SIMD/vector programming, and memory allocation strategy development.\n- Knowledge of model quantization methodologies and post-training/QAT optimization techniques.\n- Prior experience with software stacks for custom AI accelerators, DSPs, or embedded architectures.\n- Experience with FPGA bring-up, hardware emulation, or cycle-accurate simulator development.\n- Strong proficiency in C++ and Python, with fundamentals in data structures, algorithms, and object-oriented design.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "BS, MS, or Ph.D. in Computer Science, Computer Engineering, Electrical Engineering, or a related field.",
+        "source_quote": "BS, MS, or Ph.D. in Computer Science, Computer Engineering, Electrical Engineering, or a related field.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "8+ years of hands-on experience developing deep learning compilers or compiler infrastructures; named infrastructures are examples, not a requirement to know all of them.",
+        "source_quote": "8+ years Hands-on experience developing deep learning compilers or compiler infrastructures (e.g., MLIR, Apache TVM, LLVM, XLA, TensorRT, or Glow).",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Proficiency in C++ and Python.",
+        "source_quote": "Strong proficiency in C++ (14/17/20) and Python, with solid fundamentals in data structures, algorithms, and object-oriented design.",
+        "verification": "profile"
+      },
+      {
+        "id": "M4",
+        "requirement": "Familiarity with modern AI/ML frameworks and deep learning operator representations; the named frameworks are examples, not an all-framework requirement.",
+        "source_quote": "Familiarity with modern AI/ML frameworks (PyTorch, TensorFlow, ONNX) and deep learning operator representations.",
+        "verification": "profile"
+      },
+      {
+        "id": "M5",
+        "requirement": "Understanding of computer systems, memory hierarchies, parallel processing, and CPU/GPU/NPU instruction execution.",
+        "source_quote": "Solid understanding of computer systems, memory hierarchies, parallel processing, and CPU/GPU/NPU instruction execution.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience with low-level kernel optimization, SIMD/vector programming, and memory allocation strategy development.",
+        "source_quote": "Experience with low-level kernel optimization, SIMD/vector programming, and memory allocation strategy development.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Knowledge of model quantization methodologies and post-training/QAT optimization techniques.",
+        "source_quote": "Knowledge of model quantization methodologies (INT8, FP8, mixed-precision) and post-training/QAT optimization techniques.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Prior experience with software stacks for custom AI accelerators, DSPs, or embedded architectures.",
+        "source_quote": "Prior experience working on software stacks for custom AI accelerators, DSPs, or embedded architectures.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience with FPGA bring-up, hardware emulation, or cycle-accurate simulator development.",
+        "source_quote": "Experience with FPGA bring-up, hardware emulation, or cycle-accurate simulator development.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Strong proficiency in C++ and Python, with fundamentals in data structures, algorithms, and object-oriented design.",
+        "source_quote": "Strong proficiency in C++ (14/17/20) and Python, with solid fundamentals in data structures, algorithms, and object-oriented design.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Burlingame, CA (HQ)"
+      ]
+    },
+    "soft_requirements": [],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "6ea573b7be9f97a18f35ed82a8b5315f9097a84f1f2551f57fa1a7ee819010af",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:51.154584+00:00",
+    "response_id": "chatcmpl-ETyRCTlA2YIUWNUOovNlqlkeVIVie",
+    "usage": {
+      "prompt_tokens": 2874,
+      "completion_tokens": 1094,
+      "total_tokens": 3968,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1628,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 57,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "86d96ad71a9a0aa73cb16c115b93513284bf2149215e5b6e98d30435a7d99701",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "The listed work location is Burlingame, California (HQ). The posting does not specify an onsite schedule, remote eligibility, a current-residence requirement, or a relocation policy.",
+      "workplace_type": "unspecified",
+      "allowed_locations": [
+        "Burlingame, CA"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Burlingame, CA (HQ)"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "8+ years Hands-on experience developing deep learning compilers or compiler infrastructures (e.g., MLIR, Apache TVM, LLVM, XLA, TensorRT, or Glow).",
+        "effective_requirement": "8+ years of hands-on experience developing deep learning compilers or compiler infrastructures; named infrastructures are examples, not a requirement to know all of them.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "7e32a36a683f85aac536241e5c2b3e8cad574679cfe6834fb1553bb591ccfa28",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "7e32a36a683f85aac536241e5c2b3e8cad574679cfe6834fb1553bb591ccfa28",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Strong proficiency in C++ and Python, with fundamentals in data structures, algorithms, and object-oriented design.",
+          "after": "Proficiency in C++ and Python.",
+          "reason": "Languages are commonly listed/implied; CS fundamentals add nothing observable."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "4886c649521d0b2fe9a9997eae809b85ab3c8f47258ac4808943bce73a0f8493",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "ff649d15ae03e40e8df52b0410886dde2925f574cc9348e2c172c863a0d14826",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "8+ years Hands-on experience developing deep learning compilers or compiler infrastructures (e.g., MLIR, Apache TVM, LLVM, XLA, TensorRT, or Glow).",
+      "effective_requirement": "8+ years of hands-on experience developing deep learning compilers or compiler infrastructures; named infrastructures are examples, not a requirement to know all of them.",
+      "kind": "mandatory"
+    }
+  ]
+}

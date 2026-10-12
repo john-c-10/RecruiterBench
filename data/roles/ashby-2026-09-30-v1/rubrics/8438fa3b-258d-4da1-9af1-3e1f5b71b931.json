@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "role_id": "8438fa3b-258d-4da1-9af1-3e1f5b71b931",
+  "snapshot_sha256": "a3e8d273c6f359ae05decf66de5929ad5a3c007b824f57b02da5898d8d4d0d55",
+  "input_sha256": "9f9fdb20e1ed764de3363b7487beedd50e7edc58c0cb041c439cc3fd9cdf9cc0",
+  "rubric_sha256": "bff2cd01786f2dd926de48368bf82c4dbaba6a81e247e84ac6ac3a02825f892d",
+  "rubric": {
+    "role_summary": "Senior product design role focused on rapidly prototyping interactive experiences, building front-end UI, and maintaining a scalable design system for a Web3 developer platform.",
+    "search_query": "Find candidates for this role:\nSenior product design role focused on rapidly prototyping interactive experiences, building front-end UI, and maintaining a scalable design system for a Web3 developer platform.\nMandatory professional qualifications:\n- Strong front-end fundamentals and comfort building interactive UI using React and TypeScript or an equivalent stack.\n- Experience shipping and maintaining component libraries or design systems.\n- Prototyping experience.\nPreferred, not mandatory:\n- Accessibility fluency, experience with Storybook or similar tooling, motion or animation experience, or experience scaling design systems across multiple product surfaces.\n- Demonstrated ability to prototype quickly.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Strong front-end fundamentals and comfort building interactive UI using React and TypeScript or an equivalent stack.",
+        "source_quote": "Strong front-end fundamentals and comfort building interactive UI (e.g., React + TypeScript; equivalent stacks welcome).",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience shipping and maintaining component libraries or design systems.",
+        "source_quote": "you’ve shipped and maintained component libraries / design systems (tokens, components, documentation, adoption).",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Prototyping experience.",
+        "source_quote": "Proven ability to prototype quickly without sacrificing craft—and to choose the right fidelity for the question at hand.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Accessibility fluency, experience with Storybook or similar tooling, motion or animation experience, or experience scaling design systems across multiple product surfaces.",
+        "source_quote": "Bonus: accessibility fluency, Storybook (or similar), motion/animation experience, and experience scaling design systems across multiple product surfaces.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Demonstrated ability to prototype quickly.",
+        "source_quote": "Proven ability to prototype quickly without sacrificing craft—and to choose the right fidelity for the question at hand.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco",
+        "New York",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "A designer’s eye for hierarchy, spacing, typography, interaction details, and visual polish.",
+      "Prototype without sacrificing craft and choose an appropriate level of fidelity.",
+      "Operate in ambiguity, move quickly, and take ownership.",
+      "Communicate clearly across disciplines and translate between design intent and technical constraints."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "a3e8d273c6f359ae05decf66de5929ad5a3c007b824f57b02da5898d8d4d0d55",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:07.445548+00:00",
+    "response_id": "chatcmpl-ETyTQUIpgaTekrJRONxLLjDUAq4Mi",
+    "usage": {
+      "prompt_tokens": 2330,
+      "completion_tokens": 516,
+      "total_tokens": 2846,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1084,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 25,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "d7842751ab375c0da41a8ae8fe6324067f803dc49f697c94e5c7a9b24281e949",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work in San Francisco or New York; the posting does not specify office attendance frequency or require current residence in either city.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco",
+        "New York"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco",
+        "New York",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "d4ad30b9e6f11e0289f7986b61d2d2978b2c6379885ea8b99ad7db683c9e078d",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d4ad30b9e6f11e0289f7986b61d2d2978b2c6379885ea8b99ad7db683c9e078d",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "before": "Demonstrated ability to prototype quickly.",
+          "after": "Prototyping experience.",
+          "reason": "Prototyping is a commonly listed skill; speed is unobservable."
+        }
+      ],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P2"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "55c417af231abf78e8741651adf5a67d73c8b07ff1dfd1707f4f3a0aa3a2bbec",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "3fe4b1ae18396d47e810cb48e31278377232e02ccd57e2a193fce3f231493286",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California",
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}

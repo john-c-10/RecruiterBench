@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "role_id": "92cccf95-5548-44f5-8044-8b2d926b766a",
+  "snapshot_sha256": "babfa05ed185b3ff70e11850cd69c0889cd5ef9a15aa6e5dfa4b2a073c9b3353",
+  "input_sha256": "a42b0513f126b5ccc564d5462ab32e0673d13474e685aec0cf351950989659bf",
+  "rubric_sha256": "16556b45e805a3a519c4c12bc9b8d9f3bf7fd9c3de08b1bc638b2bf1200abf70",
+  "rubric": {
+    "role_summary": "Remote, hands-on implementation consultant for US law firms, building and deploying CRM, project-management, analytics, low-code/no-code automation, and AI solutions while analyzing operations and working directly with clients.",
+    "search_query": "Find candidates for this role:\nRemote, hands-on implementation consultant for US law firms, building and deploying CRM, project-management, analytics, low-code/no-code automation, and AI solutions while analyzing operations and working directly with clients.\nMandatory professional qualifications:\n- Proven track record deploying and configuring one or more of CRMs, project-management systems, analytics dashboards, low-code/no-code automation tools, and AI applications; experience with every category is not required.\nPreferred, not mandatory:\n- 2+ years of experience in similar roles.\n- Client-facing and/or consulting experience, especially with SMEs.\n- Experience with CRMs, project-management/ERP systems, automation/iPaaS tools, GenAI, data analysis, and/or REST API integrations; the listed tools are examples, not a requirement to know them all.\n- Portfolio showing projects that demonstrate a systematic problem-solving approach.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Proven track record deploying and configuring one or more of CRMs, project-management systems, analytics dashboards, low-code/no-code automation tools, and AI applications; experience with every category is not required.",
+        "source_quote": "Proven track record of deploying & configuring CRMs, Project Management systems, Analytics Dashboards, Automation tools (Low-Code/No-Code), and/or AI applications",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "2+ years of experience in similar roles.",
+        "source_quote": "2-5 years of experience in similar roles",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Client-facing and/or consulting experience, especially with SMEs.",
+        "source_quote": "Experience in client-facing roles and/or consulting, especially for SMEs",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience with CRMs, project-management/ERP systems, automation/iPaaS tools, GenAI, data analysis, and/or REST API integrations; the listed tools are examples, not a requirement to know them all.",
+        "source_quote": "Note: we DON'T expect candidates to have ALL the above skills and tool knowledge.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Portfolio showing projects that demonstrate a systematic problem-solving approach.",
+        "source_quote": "Portfolio preferred - showcase projects that demonstrate your systematic problem-solving approach.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": false,
+      "requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "workplace_type": "remote",
+      "allowed_locations": [],
+      "remote_scope": "No geographic filter",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote",
+        "Fully Remote, with quarterly in-person meetups in locations all over the globe chosen by popular vote of team members (potential lineup for next year: USA, Tokyo, Dubai, Bangkok)",
+        "Flexible Schedule, but availability needed for client meetings Mon - Fri, morning US hours (afternoon-evening Eastern European Time)"
+      ]
+    },
+    "soft_requirements": [
+      "Communicate technical concepts effectively to nontechnical law-firm staff and executives.",
+      "Use systems thinking to connect technical solutions with business outcomes and solve problems autonomously.",
+      "Enjoy building and refining systems with attention to detail.",
+      "Take ownership of work and client outcomes; learn new tools quickly and remain coachable.",
+      "Be comfortable with an intense, dynamic work environment rather than seeking a predictable, low-intensity schedule.",
+      "Align with the stated values of excellence, integrity, and care."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "babfa05ed185b3ff70e11850cd69c0889cd5ef9a15aa6e5dfa4b2a073c9b3353",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:31.284586+00:00",
+    "response_id": "chatcmpl-ETyUf2p8TuOUCfpepm5AGGNqnXzea",
+    "usage": {
+      "prompt_tokens": 3337,
+      "completion_tokens": 1316,
+      "total_tokens": 4653,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 2091,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 90,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "f5bea1b179c53adfb8041059a66c00d547c30333cbc746408980acdb4ad37354",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Fully remote; no country or region restriction is specified. Client-meeting availability is required Monday–Friday during morning US hours. Quarterly in-person meetups are described, but attendance is not explicitly required.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "Remote; geographic eligibility unspecified"
+      ],
+      "remote_scope": "No country or region boundary specified",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote",
+        "Fully Remote, with quarterly in-person meetups in locations all over the globe chosen by popular vote of team members (potential lineup for next year: USA, Tokyo, Dubai, Bangkok)",
+        "Flexible Schedule, but availability needed for client meetings Mon - Fri, morning US hours (afternoon-evening Eastern European Time)"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "P1",
+        "source_quote": "2-5 years of experience in similar roles",
+        "effective_requirement": "2+ years of experience in similar roles.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "dropped_location_options": [
+      "Remote; geographic eligibility unspecified"
+    ],
+    "dropped_location_note": "Dropped non-geographic location options: Remote; geographic eligibility unspecified. No named geography remains, so no location gate applies.",
+    "observability": {
+      "parent_rubric_sha256": "0c1784ceb28ee48040c5b3e723076daece7f69a15fe1ce16e5acf9ba2e91994e",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Professional English fluency of at least B2.",
+          "source_quote": "Professional English fluency - You'll advise successful US-based law firms, B2 level at a minimum",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Availability for client meetings Monday through Friday during morning US hours.",
+          "source_quote": "Flexible Schedule, but availability needed for client meetings Mon - Fri, morning US hours (afternoon-evening Eastern European Time)",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D1",
+          "requirement": "Seeking a primarily managerial role rather than hands-on systems deployment and client interaction.",
+          "source_quote": "You prefer to work in a managerial capacity, this role requires HANDS-ON building & deployment of systems and interacting with clients, you will own your projects end-to-end",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D2",
+          "requirement": "Seeking purely technical implementation without operational analysis or direct client collaboration.",
+          "source_quote": "You prefer pure technical implementation without business interaction, this role requires operational analysis skills and direct client COLLABORATION as well as technical execution",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        },
+        {
+          "field": "red_flags",
+          "id": "D3",
+          "requirement": "Seeking hands-on coding opportunities rather than exclusively low-code/no-code work.",
+          "source_quote": "You're looking for hands-on coding opportunities, our team works exclusively with low-code and NO-CODE platforms rather than traditional development",
+          "verification": "candidate_confirmation",
+          "reason": "Requires candidate confirmation (authorization, citizenship, clearance, travel, schedule, or similar); not observable in a profile."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "16556b45e805a3a519c4c12bc9b8d9f3bf7fd9c3de08b1bc638b2bf1200abf70",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "16556b45e805a3a519c4c12bc9b8d9f3bf7fd9c3de08b1bc638b2bf1200abf70",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": false
+    },
+    "single_location": {
+      "parent_rubric_sha256": "16556b45e805a3a519c4c12bc9b8d9f3bf7fd9c3de08b1bc638b2bf1200abf70",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "no_filter",
+      "reason": "No geographic filter; unchanged.",
+      "previous_allowed_locations": [],
+      "previous_requirement_text": "No geographic filter: no concrete eligible location is stated; use the less restrictive interpretation.",
+      "location_requirement_changed": false
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "P1",
+      "source_quote": "2-5 years of experience in similar roles",
+      "effective_requirement": "2+ years of experience in similar roles.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "59104d2e-52d4-458c-be62-42b16fa2a01c",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/equal1/59104d2e-52d4-458c-be62-42b16fa2a01c",
+    "board_url": "https://jobs.ashbyhq.com/equal1",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/equal1",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "59104d2e-52d4-458c-be62-42b16fa2a01c",
+    "title": "Cryogenic Systems Engineer",
+    "department": "Cryo-Systems",
+    "team": "Cryo-Systems",
+    "employmentType": "FullTime",
+    "location": "California",
+    "secondaryLocations": [],
+    "publishedAt": "2026-07-05T16:42:57.991+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Jose"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/equal1/59104d2e-52d4-458c-be62-42b16fa2a01c",
+    "applyUrl": "https://jobs.ashbyhq.com/equal1/59104d2e-52d4-458c-be62-42b16fa2a01c/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">We are seeking an experienced Cryogenic Systems Engineer to join Equal1’s cryomechanical and quantum system integration team. In this role, you will oversee the development of compact mK cryocooler systems from concept through design, assembly, testing, certification, and customer delivery.</p><p style=\"min-height:1.5em\">You will work with absorption and GM coolers, and support the development of Joule-Thomson cryogenic turbocompressor systems with compression cycles at the 4K / 30K temperature stages. The role requires strong cryogenic system design experience, thermodynamic and gas-flow modelling capability, and practical knowledge of vacuum systems, helium handling, CAD, assembly, and temperature control.</p><p style=\"min-height:1.5em\"></p><h2><strong>Main Duties and Responsibilities</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Develop thermodynamic and gas-flow concepts for cryogenic cooling systems, including He-4 and He-3 cycles.</p></li><li><p style=\"min-height:1.5em\">Simulate and analyse cooling cycles, gas flows, thermal performance, and system behaviour.</p></li><li><p style=\"min-height:1.5em\">Define concepts and requirements for cryogenic components and work with CAD/mechanical teams to realise the designs.</p></li><li><p style=\"min-height:1.5em\">Support the design and integration of Joule-Thomson cryogenic turbocompressor systems.</p></li><li><p style=\"min-height:1.5em\">Oversee manufacturing, assembly, integration, and testing of cryogenic systems and subsystems.</p></li><li><p style=\"min-height:1.5em\">Work with vacuum systems, helium handling, temperature control systems, sensors, and cryogenic instrumentation.</p></li><li><p style=\"min-height:1.5em\">Support certification and delivery of cryocooler systems to internal and external customers.</p></li></ul><h2><strong>Experience and Qualifications</strong></h2><p style=\"min-height:1.5em\"><strong>Required</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">10+ years’ experience in cryogenic system design.</p></li><li><p style=\"min-height:1.5em\">Experience with sub-4K cryostat design and low-temperature system integration.</p></li><li><p style=\"min-height:1.5em\">Experience with GM, pulse tube, and/or Joule-Thomson cryocoolers.</p></li><li><p style=\"min-height:1.5em\">Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.</p></li><li><p style=\"min-height:1.5em\">CFD and/or thermal modelling experience.</p></li><li><p style=\"min-height:1.5em\">Knowledge of CAD systems, including basic 3D CAD for component design.</p></li><li><p style=\"min-height:1.5em\">Practical understanding of vacuum systems, helium systems, assembly methodologies, and temperature control.</p></li><li><p style=\"min-height:1.5em\">Strong communication skills and ability to work across multidisciplinary engineering teams.</p></li></ul><p style=\"min-height:1.5em\"><strong>Preferred</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with turbo pumps and/or cryogenic turbocompressor design.</p></li><li><p style=\"min-height:1.5em\">Experience with CTE analysis and cooling cycle design.</p></li><li><p style=\"min-height:1.5em\">Experience supporting certification of complex technical equipment.</p></li></ul>",
+    "descriptionPlain": "We are seeking an experienced Cryogenic Systems Engineer to join Equal1’s cryomechanical and quantum system integration team. In this role, you will oversee the development of compact mK cryocooler systems from concept through design, assembly, testing, certification, and customer delivery.\n\nYou will work with absorption and GM coolers, and support the development of Joule-Thomson cryogenic turbocompressor systems with compression cycles at the 4K / 30K temperature stages. The role requires strong cryogenic system design experience, thermodynamic and gas-flow modelling capability, and practical knowledge of vacuum systems, helium handling, CAD, assembly, and temperature control.\n\n\n\n\nMAIN DUTIES AND RESPONSIBILITIES\n\n - Develop thermodynamic and gas-flow concepts for cryogenic cooling systems, including He-4 and He-3 cycles.\n\n - Simulate and analyse cooling cycles, gas flows, thermal performance, and system behaviour.\n\n - Define concepts and requirements for cryogenic components and work with CAD/mechanical teams to realise the designs.\n\n - Support the design and integration of Joule-Thomson cryogenic turbocompressor systems.\n\n - Oversee manufacturing, assembly, integration, and testing of cryogenic systems and subsystems.\n\n - Work with vacuum systems, helium handling, temperature control systems, sensors, and cryogenic instrumentation.\n\n - Support certification and delivery of cryocooler systems to internal and external customers.\n\n\nEXPERIENCE AND QUALIFICATIONS\n\nRequired\n\n - 10+ years’ experience in cryogenic system design.\n\n - Experience with sub-4K cryostat design and low-temperature system integration.\n\n - Experience with GM, pulse tube, and/or Joule-Thomson cryocoolers.\n\n - Knowledge of the He-4 / He-3 phase diagram and cryogenic cooling cycles.\n\n - CFD and/or thermal modelling experience.\n\n - Knowledge of CAD systems, including basic 3D CAD for component design.\n\n - Practical understanding of vacuum systems, helium systems, assembly methodologies, and temperature control.\n\n - Strong communication skills and ability to work across multidisciplinary engineering teams.\n\nPreferred\n\n - Experience with turbo pumps and/or cryogenic turbocompressor design.\n\n - Experience with CTE analysis and cooling cycle design.\n\n - Experience supporting certification of complex technical equipment."
+  }
+}

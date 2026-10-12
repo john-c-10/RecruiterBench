@@ -1,0 +1,188 @@
+{
+  "type": "object",
+  "properties": {
+    "role_summary": {
+      "type": "string"
+    },
+    "search_query": {
+      "type": "string"
+    },
+    "must_haves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "requirement": {
+            "type": "string"
+          },
+          "source_quote": {
+            "type": "string"
+          },
+          "verification": {
+            "type": "string",
+            "enum": [
+              "profile",
+              "candidate_confirmation"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "requirement",
+          "source_quote",
+          "verification"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "red_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "requirement": {
+            "type": "string"
+          },
+          "source_quote": {
+            "type": "string"
+          },
+          "verification": {
+            "type": "string",
+            "enum": [
+              "profile",
+              "candidate_confirmation"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "requirement",
+          "source_quote",
+          "verification"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "preferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "requirement": {
+            "type": "string"
+          },
+          "source_quote": {
+            "type": "string"
+          },
+          "verification": {
+            "type": "string",
+            "enum": [
+              "profile",
+              "candidate_confirmation"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "requirement",
+          "source_quote",
+          "verification"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "requirement_text": {
+          "type": "string"
+        },
+        "workplace_type": {
+          "type": "string",
+          "enum": [
+            "onsite",
+            "hybrid",
+            "remote",
+            "unspecified",
+            "mixed"
+          ]
+        },
+        "allowed_locations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "remote_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relocation": {
+          "type": "string",
+          "enum": [
+            "offered",
+            "not_offered",
+            "unspecified"
+          ]
+        },
+        "current_residence_required": {
+          "type": "boolean"
+        },
+        "source_quotes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "required",
+        "requirement_text",
+        "workplace_type",
+        "allowed_locations",
+        "remote_scope",
+        "relocation",
+        "current_residence_required",
+        "source_quotes"
+      ],
+      "additionalProperties": false
+    },
+    "soft_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ambiguities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "role_summary",
+    "search_query",
+    "must_haves",
+    "red_flags",
+    "preferences",
+    "location",
+    "soft_requirements",
+    "ambiguities"
+  ],
+  "additionalProperties": false
+}

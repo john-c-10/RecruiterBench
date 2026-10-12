@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "role_id": "ad9abb20-370b-4fc0-961b-2b345a51421c",
+  "snapshot_sha256": "d59e6f9e9b17fbdb8c38c0af428aad317414734738a7357be1f37a16cad04014",
+  "input_sha256": "76f9698afd6a836bcd623bda12d7dd542de73ace0d0ba0df3e899092078e90d9",
+  "rubric_sha256": "e74435d7780f9658ea210a3c9b9911fbe27bc2a8791fb949bc3bf63b2e5827b6",
+  "rubric": {
+    "role_summary": "Demand planner for a product manufacturer, responsible for forecasting, inventory planning, S&OP process improvement, cross-functional coordination, and mentoring junior team members.",
+    "search_query": "Find candidates for this role:\nDemand planner for a product manufacturer, responsible for forecasting, inventory planning, S&OP process improvement, cross-functional coordination, and mentoring junior team members.\nMandatory professional qualifications:\n- 2+ years of experience in demand planning or supply chain management.\n- A bachelor's degree in Supply Chain Management, Business Administration, or a related field.\n- Experience working with ERP systems.\nPreferred, not mandatory:\n- Experience in supplements, aromatherapy, cosmetics, wellness, or a similar product-driven environment.\n- At least 2+ years of experience in demand planning or supply chain management, with a track record of improving forecast accuracy in a manufacturing or FMCG environment.\n- Experience translating forecasts into efficient operations, aligning with stakeholders, and managing product availability without overstock or shortages.\n- Experience working with ERP systems and high proficiency with forecasting and inventory planning tools; Odoo, SAP, and Oracle are examples, not jointly required systems.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We believe great things happen when we meet in person, which is why we embrace a hybrid model with one home office day per week – up to two depending on the area you are working in – and up to two weeks per year working from abroad",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "2+ years of experience in demand planning or supply chain management.",
+        "source_quote": "You have at least 2+ years of experience in demand planning or supply chain management, with a proven track record of improving forecast accuracy in a manufacturing or FMCG environment - this is a must-have for the role.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "A bachelor's degree in Supply Chain Management, Business Administration, or a related field.",
+        "source_quote": "You hold a bachelor's degree in Supply Chain Management, Business Administration, or a related field.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience working with ERP systems.",
+        "source_quote": "You're confident working with ERP systems like Odoo, SAP. Oracle and you're highly proficient with forecasting and inventory planning tools.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience in supplements, aromatherapy, cosmetics, wellness, or a similar product-driven environment.",
+        "source_quote": "It's a big plus if you have worked in the supplement, aromatherapy, cosmetics, wellness, or a similar product-driven environment.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "At least 2+ years of experience in demand planning or supply chain management, with a track record of improving forecast accuracy in a manufacturing or FMCG environment.",
+        "source_quote": "You have at least 2+ years of experience in demand planning or supply chain management, with a proven track record of improving forecast accuracy in a manufacturing or FMCG environment - this is a must-have for the role.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience translating forecasts into efficient operations, aligning with stakeholders, and managing product availability without overstock or shortages.",
+        "source_quote": "You're an expert at translating forecasts into efficient operations, aligning with key stakeholders, and ensuring products are available at the right time without overstock or shortages.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience working with ERP systems and high proficiency with forecasting and inventory planning tools; Odoo, SAP, and Oracle are examples, not jointly required systems.",
+        "source_quote": "You're confident working with ERP systems like Odoo, SAP. Oracle and you're highly proficient with forecasting and inventory planning tools.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Berlin area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater Berlin area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Berlin",
+        "OnSite",
+        "We believe great things happen when we meet in person, which is why we embrace a hybrid model with one home office day per week – up to two depending on the area you are working in – and up to two weeks per year working from abroad"
+      ]
+    },
+    "soft_requirements": [
+      "Strategic, highly analytical approach.",
+      "Leadership and comfort making decisions amid ambiguity and uncertainty.",
+      "Collaborative approach to building data-driven processes and working relationships."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "d59e6f9e9b17fbdb8c38c0af428aad317414734738a7357be1f37a16cad04014",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:28.417109+00:00",
+    "response_id": "chatcmpl-ETyTj8VpIt5VURV6DpVoLH2G3QS8v",
+    "usage": {
+      "prompt_tokens": 2322,
+      "completion_tokens": 918,
+      "total_tokens": 3240,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1076,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "d1e6a371e965fce308cea401ae0c1cb840f56fa69d94ae2c4151f6211d711763",
+    "resolved_ambiguities": [
+      "The workplaceType metadata says \"OnSite\", while the benefits text explicitly describes a hybrid model with home-office days."
+    ],
+    "resolution": "Use Berlin general-area hybrid work with the stated home-office arrangement; text wins over OnSite metadata.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Berlin office-based role with a described hybrid schedule: one home-office day per week, potentially two depending on the area of work, and up to two weeks per year working from abroad. Present residence in Berlin is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Berlin"
+      ],
+      "remote_scope": "One home-office day per week, up to two depending on the area of work; up to two weeks per year working from abroad.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Berlin",
+        "OnSite",
+        "We believe great things happen when we meet in person, which is why we embrace a hybrid model with one home office day per week – up to two depending on the area you are working in – and up to two weeks per year working from abroad"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "You have at least 2+ years of experience in demand planning or supply chain management, with a proven track record of improving forecast accuracy in a manufacturing or FMCG environment - this is a must-have for the role.",
+        "effective_requirement": "At least 2+ years of experience in demand planning or supply chain management, with a track record of improving forecast accuracy in a manufacturing or FMCG environment.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "c521f7429966f6d21beb58ecd692ddf85118904fa4b659a6ee1fcf2cf6a43f89",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "c521f7429966f6d21beb58ecd692ddf85118904fa4b659a6ee1fcf2cf6a43f89",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Experience translating forecasts into efficient operations, aligning with stakeholders, and managing product availability without overstock or shortages.",
+          "source_quote": "You're an expert at translating forecasts into efficient operations, aligning with key stakeholders, and ensuring products are available at the right time without overstock or shortages.",
+          "verification": "profile",
+          "reason": "Translating forecasts into operations and availability outcomes is rarely stated."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M1",
+          "before": "At least 2+ years of experience in demand planning or supply chain management, with a track record of improving forecast accuracy in a manufacturing or FMCG environment.",
+          "after": "2+ years of experience in demand planning or supply chain management.",
+          "reason": "Planning/supply chain roles are visible; forecast-accuracy improvement track record is an outcome claim."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Experience working with ERP systems and high proficiency with forecasting and inventory planning tools; Odoo, SAP, and Oracle are examples, not jointly required systems.",
+          "after": "Experience working with ERP systems.",
+          "reason": "ERP systems are commonly listed by planners; high proficiency with planning tools is unobservable."
+        }
+      ],
+      "criterion_id_map": {
+        "M3": "M2",
+        "M4": "M3"
+      },
+      "demoted_preference_ids": {
+        "M1": "P2",
+        "M2": "P3",
+        "M4": "P4"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "fde47d380ffb24542c8ed0f03c0f4fa2532d98fa33b598c738aed38b1c8e3e8e",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "631c57e5b69c4cfe874a07ead329eb27c49293946ec0fba7462788faf27c0b56",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Berlin area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Berlin area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We believe great things happen when we meet in person, which is why we embrace a hybrid model with one home office day per week – up to two depending on the area you are working in – and up to two weeks per year working from abroad",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "You have at least 2+ years of experience in demand planning or supply chain management, with a proven track record of improving forecast accuracy in a manufacturing or FMCG environment - this is a must-have for the role.",
+      "effective_requirement": "2+ years of experience in demand planning or supply chain management.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "You have at least 2+ years of experience in demand planning or supply chain management, with a proven track record of improving forecast accuracy in a manufacturing or FMCG environment - this is a must-have for the role.",
+      "effective_requirement": "At least 2+ years of experience in demand planning or supply chain management, with a track record of improving forecast accuracy in a manufacturing or FMCG environment.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

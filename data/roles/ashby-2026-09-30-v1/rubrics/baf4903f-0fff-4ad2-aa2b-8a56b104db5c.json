@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "role_id": "baf4903f-0fff-4ad2-aa2b-8a56b104db5c",
+  "snapshot_sha256": "883fbad06ee24cbdc8581bea51bb969540915aef2934077853ba4de21a92d69e",
+  "input_sha256": "cd182990b1a1011eee77b09bdb9fdc6d776f3413def95addcc230179e0de8d00",
+  "rubric_sha256": "eb986e29f474b6bf2caf5fb0fbc6b72ed683bad1641a055c94d58d08cc2375b6",
+  "rubric": {
+    "role_summary": "Staff-level analog-mixed-signal IC design for AI inference accelerators, owning circuits for an in-memory-compute engine and a die-to-die serial interface from schematic through silicon bring-up.",
+    "search_query": "Find candidates for this role:\nStaff-level analog-mixed-signal IC design for AI inference accelerators, owning circuits for an in-memory-compute engine and a die-to-die serial interface from schematic through silicon bring-up.\nMandatory professional qualifications:\n- BS, MS, or PhD in Electrical Engineering AND 5+ years of related professional experience in high-speed circuit design.\n- Experience with schematic capture, SPICE simulation, and Monte Carlo simulation.\n- Experience with circuit layout, extraction, and back-annotated simulation.\nPreferred, not mandatory:\n- Deep expertise in SerDes verification and characterization, including analog verification infrastructure, process-node migration, or reliability analysis.\n- Deep expertise in clocking and CDR, including ownership of a low-jitter PLL, phase interpolator, or CDR loop through silicon at 25 Gbps+ per lane.\n- Deep expertise in TX/RX datapath design, equalization, or PAM4/DSP-based receiver architectures.\n- Deep expertise in die-to-die interconnect, familiarity with relevant specifications, or standards body participation.\n- Experience with channel modeling using MATLAB or similar tools.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "BS, MS, or PhD in Electrical Engineering AND 5+ years of related professional experience in high-speed circuit design.",
+        "source_quote": "BS, MS, or PhD in Electrical Engineering with 5+ years of related professional experience in high-speed circuit design (e.g., phase interpolators, clocking, PLL design)",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience with schematic capture, SPICE simulation, and Monte Carlo simulation.",
+        "source_quote": "Experience with schematic capture, SPICE simulation, and Monte Carlo simulation",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Experience with circuit layout, extraction, and back-annotated simulation.",
+        "source_quote": "Experience with circuit layout, extraction, and back-annotated simulation",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Deep expertise in SerDes verification and characterization, including analog verification infrastructure, process-node migration, or reliability analysis.",
+        "source_quote": "SerDes verification & characterization — building/maintaining analog verification infrastructure (testbenches, regressions, Monte Carlo campaigns), migrating blocks across process nodes, or reliability analysis (EM, IR drop, ESD/latch-up)",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Deep expertise in clocking and CDR, including ownership of a low-jitter PLL, phase interpolator, or CDR loop through silicon at 25 Gbps+ per lane.",
+        "source_quote": "Clocking & CDR — ownership of a low-jitter PLL, phase interpolator, or CDR loop through silicon at 25 Gbps+ per lane, including bang-bang/baud-rate/DSP-assisted CDR architectures",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Deep expertise in TX/RX datapath design, equalization, or PAM4/DSP-based receiver architectures.",
+        "source_quote": "TX/RX datapath — high-speed driver or receive front-end design (CTLE, VGA, samplers), DFE/FFE equalization, or PAM4/DSP-based receiver architectures",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Deep expertise in die-to-die interconnect, familiarity with relevant specifications, or standards body participation.",
+        "source_quote": "Die-to-die interconnect experience (UCIe, BoW, or proprietary D2D PHY), familiarity with relevant specs (OIF CEI-112G/224G, IEEE 802.3, PCIe Gen6/7), or standards body participation",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience with channel modeling using MATLAB or similar tools.",
+        "source_quote": "Experience with channel modeling using MATLAB or similar tools",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Santa Clara",
+        "Hybrid"
+      ]
+    },
+    "soft_requirements": [
+      "Strong cross-functional communication and collaboration across distributed, cross-site teams.",
+      "Strong analytical and problem-solving skills and ability to manage multiple priorities in a fast-paced environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "883fbad06ee24cbdc8581bea51bb969540915aef2934077853ba4de21a92d69e",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:55:47.838398+00:00",
+    "response_id": "chatcmpl-ETyR9hIrB2baKkR03v06Bx9OKFNxn",
+    "usage": {
+      "prompt_tokens": 2296,
+      "completion_tokens": 1042,
+      "total_tokens": 3338,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1050,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "b39c2cb5410a3b36bd9a0063cad255930b67183cc3e2a36d01d1d2f54d964930",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work associated with Santa Clara; present residence in Santa Clara is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Santa Clara"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Santa Clara",
+        "Hybrid"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "BS, MS, or PhD in Electrical Engineering with 5+ years of related professional experience in high-speed circuit design (e.g., phase interpolators, clocking, PLL design)",
+        "effective_requirement": "BS, MS, or PhD in Electrical Engineering AND 5+ years of related professional experience in high-speed circuit design.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "12b348cd37000bf28bdacd2d6c08e7ccc2d02e76a24d6fecb84ea39e73a770e9",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "12b348cd37000bf28bdacd2d6c08e7ccc2d02e76a24d6fecb84ea39e73a770e9",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience with channel modeling using MATLAB or similar tools.",
+          "source_quote": "Experience with channel modeling using MATLAB or similar tools",
+          "verification": "profile",
+          "reason": "Channel modeling is a niche practice rarely stated on profiles."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M4": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "fce5cb6f644b39a56aa0dcd67add8e4ac002c2c5074153cf41db3711ba3ba89b",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "fcb33ce0886e39b0d0e0db0fef16f3dd0c884f711ec38a33187fbccce1e123ab",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "BS, MS, or PhD in Electrical Engineering with 5+ years of related professional experience in high-speed circuit design (e.g., phase interpolators, clocking, PLL design)",
+      "effective_requirement": "BS, MS, or PhD in Electrical Engineering AND 5+ years of related professional experience in high-speed circuit design.",
+      "kind": "mandatory"
+    }
+  ]
+}

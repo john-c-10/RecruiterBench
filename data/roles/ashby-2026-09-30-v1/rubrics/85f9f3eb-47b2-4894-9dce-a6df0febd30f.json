@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "role_id": "85f9f3eb-47b2-4894-9dce-a6df0febd30f",
+  "snapshot_sha256": "68b022c1a917e9d1cdecec9370583cb19a93195a939cf5e25ecfe154291b1d06",
+  "input_sha256": "6d807c9f0a3737c7a8ed22ed55ddb79175d8501b464a93f74349c0bc0cb75484",
+  "rubric_sha256": "92a1f885554f107b77a95a2f1505a016b62b27852e57271d40a9c050bd353a8c",
+  "rubric": {
+    "role_summary": "Creative director for performance video advertising, leading paid-social creative strategy, concepts, scripts, testing, and a creative team, with AI-assisted production and client-facing work.",
+    "search_query": "Find candidates for this role:\nCreative director for performance video advertising, leading paid-social creative strategy, concepts, scripts, testing, and a creative team, with AI-assisted production and client-facing work.\nMandatory professional qualifications:\n- 3+ years in creative direction, paid social advertising, or agency-side performance creative.\n- Experience managing creative teams.\n- Proficiency with Premiere, After Effects, CapCut, or equivalent.\nPreferred, not mandatory:\n- Former creative agency owner or co-founder.\n- Fluency in social-first ad formats and user behavior on major platforms.\n- Experience using metrics to guide creative decisions.\n- Experience managing creative teams in fast-paced, deadline-driven environments.\n- Hands-on experience with AI creative tools, such as Veo3, Sora2, Kling, or similar, and skill turning them into repeatable production workflows.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years in creative direction, paid social advertising, or agency-side performance creative.",
+        "source_quote": "3+ years in creative direction, paid social advertising, or agency-side performance creative.",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Experience managing creative teams.",
+        "source_quote": "Experience managing creative teams in fast-paced, deadline-driven environments.",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Proficiency with Premiere, After Effects, CapCut, or equivalent.",
+        "source_quote": "Proficient with Premiere, After Effects, CapCut, or equivalent.",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Former creative agency owner or co-founder.",
+        "source_quote": "Bonus: ex-creative agency owner or co-founder—you know what it takes to build a creative operation from the ground up.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Fluency in social-first ad formats and user behavior on major platforms.",
+        "source_quote": "Deep fluency in social-first ad formats and real user behavior on major platforms.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience using metrics to guide creative decisions.",
+        "source_quote": "Data-aware: you use metrics to guide creative decisions, not just gut instinct.",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience managing creative teams in fast-paced, deadline-driven environments.",
+        "source_quote": "Experience managing creative teams in fast-paced, deadline-driven environments.",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Hands-on experience with AI creative tools, such as Veo3, Sora2, Kling, or similar, and skill turning them into repeatable production workflows.",
+        "source_quote": "Hands-on with AI creative tools (Veo3, Sora2, Kling, or similar) and skilled at turning them into repeatable production workflows.",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Onsite work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Mountain View",
+        "OnSite"
+      ]
+    },
+    "soft_requirements": [
+      "Hands-on, builder-oriented creative leadership.",
+      "Strong conceptual thinking about hooks and messaging.",
+      "Systems thinking and ability to design scalable frameworks.",
+      "Communication skills for client presentations and team leadership.",
+      "AI prompting intuition for producing usable creative results."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "68b022c1a917e9d1cdecec9370583cb19a93195a939cf5e25ecfe154291b1d06",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:59:03.304255+00:00",
+    "response_id": "chatcmpl-ETyUKpCOmnuTvz76ihEgLUdPudcs8",
+    "usage": {
+      "prompt_tokens": 2284,
+      "completion_tokens": 810,
+      "total_tokens": 3094,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1038,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "6630fac7cc9e40a2e1990519949a2af69d9ce2927574dbaddc1fa8af0bb92cf7",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Onsite work in Mountain View; present residence there is not specified.",
+      "workplace_type": "onsite",
+      "allowed_locations": [
+        "Mountain View"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Mountain View",
+        "OnSite"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3+ years in creative direction, paid social advertising, or agency-side performance creative.",
+        "effective_requirement": "3+ years in creative direction, paid social advertising, or agency-side performance creative.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "4db539c4da2f4138bffae6132d9b78ed4dc1af8d8201c3b84833f0023dc02661",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "4db539c4da2f4138bffae6132d9b78ed4dc1af8d8201c3b84833f0023dc02661",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Fluency in social-first ad formats and user behavior on major platforms.",
+          "source_quote": "Deep fluency in social-first ad formats and real user behavior on major platforms.",
+          "verification": "profile",
+          "reason": "Fluency in formats/user behavior is unstated (0.96 strict fail)."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience using metrics to guide creative decisions.",
+          "source_quote": "Data-aware: you use metrics to guide creative decisions, not just gut instinct.",
+          "verification": "profile",
+          "reason": "Data-driven practice is rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Hands-on experience with AI creative tools, such as Veo3, Sora2, Kling, or similar, and skill turning them into repeatable production workflows.",
+          "source_quote": "Hands-on with AI creative tools (Veo3, Sora2, Kling, or similar) and skilled at turning them into repeatable production workflows.",
+          "verification": "profile",
+          "reason": "Specific AI creative tool use and workflows rarely stated (0.91 strict fail)."
+        }
+      ],
+      "reduced_criteria": [
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "before": "Experience managing creative teams in fast-paced, deadline-driven environments.",
+          "after": "Experience managing creative teams.",
+          "reason": "Creative team management observable from titles; environment qualifier is not."
+        }
+      ],
+      "criterion_id_map": {
+        "M4": "M2",
+        "M6": "M3"
+      },
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3",
+        "M4": "P4",
+        "M5": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "3f058774504b87c358925af8debc87497a3e89eb1fb9cb5859c8704b3ef2fd06",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "669de9becbffbba1903f900f507980983d0052e5b0dc24fa74c4a648c1940234",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Onsite work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3+ years in creative direction, paid social advertising, or agency-side performance creative.",
+      "effective_requirement": "3+ years in creative direction, paid social advertising, or agency-side performance creative.",
+      "kind": "mandatory"
+    }
+  ]
+}

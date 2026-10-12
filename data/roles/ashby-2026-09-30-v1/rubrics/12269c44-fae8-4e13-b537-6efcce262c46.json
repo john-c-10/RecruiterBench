@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "role_id": "12269c44-fae8-4e13-b537-6efcce262c46",
+  "snapshot_sha256": "994d6e664f57d7e117154eee1ceee5f277dbb748f204ca6b39f64e3bb62d119f",
+  "input_sha256": "7e59069f74677b5347c118cdd59956141c27b07ffa38ecc28be879750c999b19",
+  "rubric_sha256": "dc88f823b8f57e7556219fea878964fe905210e5a57b1f4bfccce056b89f42ca",
+  "rubric": {
+    "role_summary": "Mid-level individual contributor in medical affairs for non-invasive neuromonitoring, managing projects, developing scientific communications, and engaging healthcare and academic stakeholders.",
+    "search_query": "Find candidates for this role:\nMid-level individual contributor in medical affairs for non-invasive neuromonitoring, managing projects, developing scientific communications, and engaging healthcare and academic stakeholders.\nMandatory professional qualifications:\n- Registered Nurse (RN) or equivalent nursing degree and/or a PhD in a relevant field.\n- 3+ years of clinical experience, including at least 2 years in clinical operations leadership, clinician education, or a related healthcare role.\nPreferred, not mandatory:\n- BSN or MSN preferred within the nursing qualification alternative.\n- At least 2 years in the medical device or pharmaceutical industry preferred.\n- Organizational and project management skills, including managing multiple projects simultaneously.\n- Knowledge of regulatory requirements and compliance standards in healthcare or medical affairs.\n- Proficiency with Google Workspace and Slack.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Registered Nurse (RN) or equivalent nursing degree and/or a PhD in a relevant field.",
+        "source_quote": "Registered Nurse (RN) or equivalent nursing degree (BSN, MSN preferred) and/or PhD in relevant field",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "3+ years of clinical experience, including at least 2 years in clinical operations leadership, clinician education, or a related healthcare role.",
+        "source_quote": "3-7 years of clinical  experience, with at least 2 years in clinical operations leadership, clinician education, or related healthcare role",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "BSN or MSN preferred within the nursing qualification alternative.",
+        "source_quote": "BSN, MSN preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "At least 2 years in the medical device or pharmaceutical industry preferred.",
+        "source_quote": "at least 2 years in medical device or pharmaceutical industry preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Organizational and project management skills, including managing multiple projects simultaneously.",
+        "source_quote": "Strong organizational and project management skills with ability to manage multiple projects simultaneously",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Knowledge of regulatory requirements and compliance standards in healthcare or medical affairs.",
+        "source_quote": "Knowledge of regulatory requirements and compliance standards in healthcare/medical affairs",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Proficiency with Google Workspace and Slack.",
+        "source_quote": "Proficiency with Google Workspace, Slack, and ability to quickly learn new software systems",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: United States (remote). This is the role's single location rule: candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "United States"
+      ],
+      "remote_scope": "United States",
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "Remote, US",
+        "Remote"
+      ]
+    },
+    "soft_requirements": [
+      "Excellent written and verbal communication, including presenting complex scientific information clearly to diverse audiences.",
+      "Ability to build professional relationships and work effectively with cross-functional teams.",
+      "Ability to quickly learn new software systems.",
+      "Comfort using AI tools such as Claude or ChatGPT to assist with tasks without replacing independent thought."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "994d6e664f57d7e117154eee1ceee5f277dbb748f204ca6b39f64e3bb62d119f",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:15.128995+00:00",
+    "response_id": "chatcmpl-ETySXAtbWVKHmYAKgOtj0lmIkvbqT",
+    "usage": {
+      "prompt_tokens": 2184,
+      "completion_tokens": 796,
+      "total_tokens": 2980,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 938,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 127,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "7b83b72553e98d7e199fc2f45c5a4caa405ef16201def1cd27580427445088f6",
+    "resolved_ambiguities": [
+      "The role is labeled “Remote, US,” but a general benefit lists “one week of remote working per quarter”; clarify whether that benefit applies to this role."
+    ],
+    "resolution": "US remote remains the less restrictive role arrangement; generic remote-week benefits do not add an office requirement.",
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Remote role in the US; the posting does not require current US residence or specify a relocation policy.",
+      "workplace_type": "remote",
+      "allowed_locations": [
+        "US"
+      ],
+      "remote_scope": "US",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "Remote, US",
+        "Remote"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M2",
+        "source_quote": "3-7 years of clinical  experience, with at least 2 years in clinical operations leadership, clinician education, or related healthcare role",
+        "effective_requirement": "3+ years of clinical experience, including at least 2 years in clinical operations leadership, clinician education, or a related healthcare role.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "P2",
+        "source_quote": "at least 2 years in medical device or pharmaceutical industry preferred",
+        "effective_requirement": "At least 2 years in the medical device or pharmaceutical industry preferred.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "01956e2e4ecac5cf59ffdf21584f9915ee5574ef2479d58ccb2fcb8cabc6ffa1",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "01956e2e4ecac5cf59ffdf21584f9915ee5574ef2479d58ccb2fcb8cabc6ffa1",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Organizational and project management skills, including managing multiple projects simultaneously.",
+          "source_quote": "Strong organizational and project management skills with ability to manage multiple projects simultaneously",
+          "verification": "profile",
+          "reason": "Organizational and multitasking skills are soft skills."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Knowledge of regulatory requirements and compliance standards in healthcare or medical affairs.",
+          "source_quote": "Knowledge of regulatory requirements and compliance standards in healthcare/medical affairs",
+          "verification": "profile",
+          "reason": "Regulatory knowledge in healthcare is rarely stated on clinical profiles."
+        },
+        {
+          "field": "must_haves",
+          "id": "M5",
+          "requirement": "Proficiency with Google Workspace and Slack.",
+          "source_quote": "Proficiency with Google Workspace, Slack, and ability to quickly learn new software systems",
+          "verification": "profile",
+          "reason": "Specific office tools are rarely listed and trivially learned."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M3": "P3",
+        "M4": "P4",
+        "M5": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "4e7797307446fe4fe31528b1916ae5ffcf909611b5bc2c9fe020c93bc83b4cb5",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "6e5e7270e37c6a84aa585a5586f2ab76dd1009b137f4a821a88e0b14e30fd91d",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "region",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "United States"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): United States. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Remote candidates must currently be located in one of these areas; remote work does not remove this geographic condition.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M2",
+      "source_quote": "3-7 years of clinical  experience, with at least 2 years in clinical operations leadership, clinician education, or related healthcare role",
+      "effective_requirement": "3+ years of clinical experience, including at least 2 years in clinical operations leadership, clinician education, or a related healthcare role.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P2",
+      "source_quote": "at least 2 years in medical device or pharmaceutical industry preferred",
+      "effective_requirement": "At least 2 years in the medical device or pharmaceutical industry preferred.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

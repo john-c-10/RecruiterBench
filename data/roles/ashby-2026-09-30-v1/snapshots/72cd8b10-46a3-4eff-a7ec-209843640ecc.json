@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "role_id": "72cd8b10-46a3-4eff-a7ec-209843640ecc",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/sei-labs/72cd8b10-46a3-4eff-a7ec-209843640ecc",
+    "board_url": "https://jobs.ashbyhq.com/sei-labs",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/sei-labs",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "72cd8b10-46a3-4eff-a7ec-209843640ecc",
+    "title": "Protocol Software Engineer - Consensus",
+    "department": "Engineering",
+    "team": "Engineering",
+    "employmentType": "FullTime",
+    "location": "New York City",
+    "secondaryLocations": [],
+    "publishedAt": "2025-05-27T14:24:44.934+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "New York",
+        "addressCountry": "United States",
+        "addressLocality": "New York"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/sei-labs/72cd8b10-46a3-4eff-a7ec-209843640ecc",
+    "applyUrl": "https://jobs.ashbyhq.com/sei-labs/72cd8b10-46a3-4eff-a7ec-209843640ecc/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sei Labs</strong></p><p style=\"min-height:1.5em\">Sei Labs builds open sourced technology for the high-performance Sei Blockchain, the first parallelized EVM Layer 1 blockchain designed to scale with the industry. The unique optimizations built into Sei enable Web3 applications to reach Web2 level scale and performance, driving the mass adoption of digital assets.</p><p style=\"min-height:1.5em\">Our teams are comprised of former Google, Goldman Sachs, Robinhood, Nvidia, and Databricks veterans dedicated to onboarding the next billion users onto a vibrant ecosystem of applications.</p><p style=\"min-height:1.5em\">Sei Labs has raised over $30M from top investors including Jump Crypto, Multicoin Capital, Coinbase Ventures, Distributed Global, Hudson River Trading, and Flow Traders.</p><p style=\"min-height:1.5em\">Check out our <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"postings-link\" href=\"https://www.sei.io/\">website</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"postings-link\" href=\"https://www.docs.sei.io/dev-intro\">docs</a> for more details.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Protocol Engineering at Sei</strong></p><p style=\"min-height:1.5em\">Sei Labs is looking for a<strong> Protocol Engineer</strong> to lead the development of core components of the Sei Blockchain. You'll work at the forefront of blockchain infrastructure, designing and optimizing the foundational layers of a high-performance, scalable decentralized network. You'll collaborate closely with our engineering team and ecosystem partners, constantly innovating to push the boundaries of blockchain technology. If you're passionate about low-level systems design, performance optimization, and shaping the future of decentralized networks, this is a rare opportunity to make a lasting impact in Web3.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Write code to build the core sei blockchain (consensus, state management, etc.)</p></li><li><p style=\"min-height:1.5em\">Proactively identify and drive optimizations and improvements to the product.</p></li><li><p style=\"min-height:1.5em\">Collaborate with our frontend team to fine tune our REST API to support our customers.</p></li><li><p style=\"min-height:1.5em\">Take ownership over your work and the work of the team.</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><strong>Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of infrastructure engineering experience.</p></li><li><p style=\"min-height:1.5em\">Proven results in building or scaling Layer 1 blockchains performance.</p></li><li><p style=\"min-height:1.5em\">A proven tech lead with experience planning and leading large projects with long-term impact on a single system or team.</p></li><li><p style=\"min-height:1.5em\">Strong technical grasp and excellent judgment on task prioritizations.</p></li><li><p style=\"min-height:1.5em\">Able to tackle complex engineering problems that deliver results.</p></li><li><p style=\"min-height:1.5em\">History of creating and applying new processes and tooling to increase engineering efficiency.</p></li></ul><p style=\"min-height:1.5em\"></p>",
+    "descriptionPlain": "About Sei Labs\n\nSei Labs builds open sourced technology for the high-performance Sei Blockchain, the first parallelized EVM Layer 1 blockchain designed to scale with the industry. The unique optimizations built into Sei enable Web3 applications to reach Web2 level scale and performance, driving the mass adoption of digital assets.\n\nOur teams are comprised of former Google, Goldman Sachs, Robinhood, Nvidia, and Databricks veterans dedicated to onboarding the next billion users onto a vibrant ecosystem of applications.\n\nSei Labs has raised over $30M from top investors including Jump Crypto, Multicoin Capital, Coinbase Ventures, Distributed Global, Hudson River Trading, and Flow Traders.\n\nCheck out our website https://www.sei.io/ and docs https://www.docs.sei.io/dev-intro for more details.\n\n\n\nProtocol Engineering at Sei\n\nSei Labs is looking for a Protocol Engineer to lead the development of core components of the Sei Blockchain. You'll work at the forefront of blockchain infrastructure, designing and optimizing the foundational layers of a high-performance, scalable decentralized network. You'll collaborate closely with our engineering team and ecosystem partners, constantly innovating to push the boundaries of blockchain technology. If you're passionate about low-level systems design, performance optimization, and shaping the future of decentralized networks, this is a rare opportunity to make a lasting impact in Web3.\n\n\n\nResponsibilities\n\n - Write code to build the core sei blockchain (consensus, state management, etc.)\n\n - Proactively identify and drive optimizations and improvements to the product.\n\n - Collaborate with our frontend team to fine tune our REST API to support our customers.\n\n - Take ownership over your work and the work of the team.\n\n \n\nQualifications\n\n - 5+ years of infrastructure engineering experience.\n\n - Proven results in building or scaling Layer 1 blockchains performance.\n\n - A proven tech lead with experience planning and leading large projects with long-term impact on a single system or team.\n\n - Strong technical grasp and excellent judgment on task prioritizations.\n\n - Able to tackle complex engineering problems that deliver results.\n\n - History of creating and applying new processes and tooling to increase engineering efficiency.\n\n"
+  }
+}

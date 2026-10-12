@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "role_id": "cbb8f47d-b787-4f28-908a-20cda4d1530d",
+  "snapshot_sha256": "ea74a5e74e22fec6b59ad485d45e9a09dd5f4069abc8b3f95dd7794a49dffc78",
+  "input_sha256": "e26b66c37de7edbcfef115bf7d1e8bba9c0e6b1cca50f601cd7abb4132bc646e",
+  "rubric_sha256": "17242a5a0d1d9c4033c4a643c267a7e52a5fe9e7c880a506627c8c7d05edc57a",
+  "rubric": {
+    "role_summary": "Senior fund accounting role supporting the accounting and financial reporting of a private equity firm’s investment funds and related entities, including review of fund administrator reporting, investment transactions, cash activity, and investor reporting.",
+    "search_query": "Find candidates for this role:\nSenior fund accounting role supporting the accounting and financial reporting of a private equity firm’s investment funds and related entities, including review of fund administrator reporting, investment transactions, cash activity, and investor reporting.\nMandatory professional qualifications:\n- 3+ years of public and/or private accounting experience.\n- Exposure to fund accounting within private equity, venture capital, hedge funds, or similar investment vehicles.\n- Bachelors degree.\nPreferred, not mandatory:\n- CPA, active or inactive, is a plus.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "3+ years of public and/or private accounting experience.",
+        "source_quote": "3-4+ years of experience of public and/or private accounting experience",
+        "verification": "profile"
+      },
+      {
+        "id": "M2",
+        "requirement": "Exposure to fund accounting within private equity, venture capital, hedge funds, or similar investment vehicles.",
+        "source_quote": "Exposure to fund accounting within private equity, venture capital, hedge funds, or similar investment vehicles",
+        "verification": "profile"
+      },
+      {
+        "id": "M3",
+        "requirement": "Bachelors degree.",
+        "source_quote": "Bachelors degree",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "CPA, active or inactive, is a plus.",
+        "source_quote": "CPA (active or inactive) a plus",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco, CA",
+        "San Francisco, hybrid work model.",
+        "Work from home Monday & Friday"
+      ]
+    },
+    "soft_requirements": [
+      "Strong and demonstrated interest in accounting.",
+      "Highly organized with exceptional attention to detail.",
+      "Ability to manage and prioritize multiple workstreams in a deadline-driven environment.",
+      "Proactive, adaptable, and hands-on, team-first mentality.",
+      "Strong work ethic and commitment to quality.",
+      "Thinks ahead, anticipates needs, and proactively identifies opportunities for improvement."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "ea74a5e74e22fec6b59ad485d45e9a09dd5f4069abc8b3f95dd7794a49dffc78",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:31.606513+00:00",
+    "response_id": "chatcmpl-ETySreCGs2Z8K0ktgNT4grPVCi4VJ",
+    "usage": {
+      "prompt_tokens": 2244,
+      "completion_tokens": 638,
+      "total_tokens": 2882,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 998,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "9594f73bcf426987c445d2e3337e3722e2ce0624fdcefa7891ec6cb7bde89386",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid work model in San Francisco, CA. The posting describes work from home on Monday and Friday; it does not require candidates to already reside in San Francisco.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA"
+      ],
+      "remote_scope": "Work from home Monday and Friday within the San Francisco hybrid model; no broader remote eligibility stated.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco, CA",
+        "San Francisco, hybrid work model.",
+        "Work from home Monday & Friday"
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "3-4+ years of experience of public and/or private accounting experience",
+        "effective_requirement": "3+ years of public and/or private accounting experience.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "2a480372720d46da94faba25cc5fc7777a80471ec77a9ad7df9e35f62c34fd5e",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "2a480372720d46da94faba25cc5fc7777a80471ec77a9ad7df9e35f62c34fd5e",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {}
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "2a480372720d46da94faba25cc5fc7777a80471ec77a9ad7df9e35f62c34fd5e",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "2c3e099fb6cb932506d4cfc5647d148f14773d911c8b23a87d119ef0081028be",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "3-4+ years of experience of public and/or private accounting experience",
+      "effective_requirement": "3+ years of public and/or private accounting experience.",
+      "kind": "mandatory"
+    }
+  ]
+}

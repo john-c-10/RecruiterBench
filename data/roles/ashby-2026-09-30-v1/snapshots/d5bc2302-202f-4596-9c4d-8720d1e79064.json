@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d5bc2302-202f-4596-9c4d-8720d1e79064",
+  "source": {
+    "provider": "ashby",
+    "job_url": "https://jobs.ashbyhq.com/perplexity/d5bc2302-202f-4596-9c4d-8720d1e79064",
+    "board_url": "https://jobs.ashbyhq.com/perplexity",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
+    "verified_at": "2026-09-30T19:12:16.321769+00:00",
+    "imported_at": "2026-09-30T23:49:28.613190+00:00",
+    "page_check": {
+      "http_status": "200",
+      "deadline_values": [
+        "null"
+      ],
+      "expired_deadlines": [],
+      "error": null,
+      "deadline_field_found": true
+    }
+  },
+  "job": {
+    "id": "d5bc2302-202f-4596-9c4d-8720d1e79064",
+    "title": "Product Marketing Manager, Partnerships",
+    "department": "Marketing & Communications",
+    "team": "Marketing & Communications",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "secondaryLocations": [
+      {
+        "location": "New York City",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "New York",
+            "addressCountry": "United States",
+            "addressLocality": "New York City"
+          }
+        }
+      }
+    ],
+    "publishedAt": "2026-07-30T21:04:56.462+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/perplexity/d5bc2302-202f-4596-9c4d-8720d1e79064",
+    "applyUrl": "https://jobs.ashbyhq.com/perplexity/d5bc2302-202f-4596-9c4d-8720d1e79064/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\">Perplexity is revolutionizing how the world gets work done, and we do it alongside some of the most important companies in the world. We are seeking a PMM focused on Partnerships to formally build that function from the ground up. You will become the face that some of Perplexity's most important partners rely on, and the person who makes our joint moments land.</p><p style=\"min-height:1.5em\">This is a 0&gt;1 role with executive exposure from day one. It has two sides. You are the relationship owner who partners trust and internal teams turn to, and you are the program manager who keeps every joint launch, event, and campaign on the rails. You'll work directly with teams across comms, product marketing, sales, and product, owning how Perplexity and its partners show up to the world together.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">If you learn fast, thrive in ambiguity, and build trust with the biggest companies in the world instinctively, this role is for you.</p><p style=\"min-height:1.5em\"></p><h2>Responsibilities</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own Perplexity's partner marketing function end to end, from joint strategy through campaign execution and reporting</p></li><li><p style=\"min-height:1.5em\">Build annual joint marketing plans with our most important partners, with committed pipeline and revenue targets, and run the QBR cadence that keeps both sides accountable to them</p></li><li><p style=\"min-height:1.5em\">Ensure Perplexity and our partners are both accountable. Execute, driving joint marketing ideas from concept to shipped and following through so commitments turn into real activity, not slideware</p></li><li><p style=\"min-height:1.5em\">Own the joint value proposition and narrative, crafting the \"better together\" story so it is aligned across both companies, resonates with buyers, and is mutually beneficial</p></li><li><p style=\"min-height:1.5em\">Execute full-funnel co-marketing with and through partners, including joint webinars, events, ABM, content syndication, email, and digital campaigns</p></li><li><p style=\"min-height:1.5em\">Build partner enablement assets, including co-branded content, solution briefs, pitch decks, joint case studies, and campaign-in-a-box kits, so partner teams can sell and market with us at scale</p></li><li><p style=\"min-height:1.5em\">Coordinate launch moments and joint announcements, amplifying Perplexity product launches and major industry moments through the ecosystem</p></li><li><p style=\"min-height:1.5em\">Instrument measurement and attribution, tracking partner-sourced and partner-influenced pipeline in CRM, and reporting ecosystem impact to leadership.</p></li><li><p style=\"min-height:1.5em\">Align the field, making sure Perplexity sales and Customer Success know about, trust, and activate partner programs so they stick</p></li><li><p style=\"min-height:1.5em\">Act as connective tissue between Partnerships and BD, PMM, Demand Generation, Sales, and Comms, and serve as the primary marketing counterpart to our partners' marketing teams</p></li><li><p style=\"min-height:1.5em\">Maintain strong relationships in partner organizations and Perplexity across diverse organizations</p></li></ul><p style=\"min-height:1.5em\"></p><h2>What we're looking for</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years in B2B marketing, preferably in partner, alliance, or ecosystem marketing</p></li><li><p style=\"min-height:1.5em\">Proven track record running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated real pipeline</p></li><li><p style=\"min-height:1.5em\">A closer on accountability, with the operating discipline to build a plan, hold two organizations to it, and drive follow-through when commitments slip</p></li><li><p style=\"min-height:1.5em\">Strong storyteller who can craft a joint narrative that is crisp, differentiated, and credible to buyers and executives on both sides</p></li><li><p style=\"min-height:1.5em\">Full-funnel campaign operator fluent across webinars, events, ABM, content, and digital, comfortable executing hands-on rather than only directing</p></li><li><p style=\"min-height:1.5em\">Analytically rigorous, with experience setting up attribution and reporting partner-sourced and influenced pipeline; comfortable in CRM and revenue operation tools</p></li><li><p style=\"min-height:1.5em\">Excellent relationship builder who can be trusted while representing Perplexity's interests to partners</p></li><li><p style=\"min-height:1.5em\">Autonomous self-starter who thrives in ambiguity, builds the playbook rather than waiting for one, and operates with urgency in a high-growth environment</p></li></ul>",
+    "descriptionPlain": "Perplexity is revolutionizing how the world gets work done, and we do it alongside some of the most important companies in the world. We are seeking a PMM focused on Partnerships to formally build that function from the ground up. You will become the face that some of Perplexity's most important partners rely on, and the person who makes our joint moments land.\n\nThis is a 0>1 role with executive exposure from day one. It has two sides. You are the relationship owner who partners trust and internal teams turn to, and you are the program manager who keeps every joint launch, event, and campaign on the rails. You'll work directly with teams across comms, product marketing, sales, and product, owning how Perplexity and its partners show up to the world together.\n\n\n\nIf you learn fast, thrive in ambiguity, and build trust with the biggest companies in the world instinctively, this role is for you.\n\n\n\n\nRESPONSIBILITIES\n\n - Own Perplexity's partner marketing function end to end, from joint strategy through campaign execution and reporting\n\n - Build annual joint marketing plans with our most important partners, with committed pipeline and revenue targets, and run the QBR cadence that keeps both sides accountable to them\n\n - Ensure Perplexity and our partners are both accountable. Execute, driving joint marketing ideas from concept to shipped and following through so commitments turn into real activity, not slideware\n\n - Own the joint value proposition and narrative, crafting the \"better together\" story so it is aligned across both companies, resonates with buyers, and is mutually beneficial\n\n - Execute full-funnel co-marketing with and through partners, including joint webinars, events, ABM, content syndication, email, and digital campaigns\n\n - Build partner enablement assets, including co-branded content, solution briefs, pitch decks, joint case studies, and campaign-in-a-box kits, so partner teams can sell and market with us at scale\n\n - Coordinate launch moments and joint announcements, amplifying Perplexity product launches and major industry moments through the ecosystem\n\n - Instrument measurement and attribution, tracking partner-sourced and partner-influenced pipeline in CRM, and reporting ecosystem impact to leadership.\n\n - Align the field, making sure Perplexity sales and Customer Success know about, trust, and activate partner programs so they stick\n\n - Act as connective tissue between Partnerships and BD, PMM, Demand Generation, Sales, and Comms, and serve as the primary marketing counterpart to our partners' marketing teams\n\n - Maintain strong relationships in partner organizations and Perplexity across diverse organizations\n\n\n\n\nWHAT WE'RE LOOKING FOR\n\n - 5+ years in B2B marketing, preferably in partner, alliance, or ecosystem marketing\n\n - Proven track record running joint go-to-market with technology and ISV partners, cloud providers, or system integrators, and shipping campaigns that generated real pipeline\n\n - A closer on accountability, with the operating discipline to build a plan, hold two organizations to it, and drive follow-through when commitments slip\n\n - Strong storyteller who can craft a joint narrative that is crisp, differentiated, and credible to buyers and executives on both sides\n\n - Full-funnel campaign operator fluent across webinars, events, ABM, content, and digital, comfortable executing hands-on rather than only directing\n\n - Analytically rigorous, with experience setting up attribution and reporting partner-sourced and influenced pipeline; comfortable in CRM and revenue operation tools\n\n - Excellent relationship builder who can be trusted while representing Perplexity's interests to partners\n\n - Autonomous self-starter who thrives in ambiguity, builds the playbook rather than waiting for one, and operates with urgency in a high-growth environment"
+  }
+}

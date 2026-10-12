@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "role_id": "9d35e8ab-4222-4008-a262-cfc2bac61426",
+  "snapshot_sha256": "04a29f1bfb0aaf0f356dcd4e1170e64a3f46571f3d7914fd97d7271ba8aa4db1",
+  "input_sha256": "a2173e01e5894246c675a00422946707f62745f58a21fa6afd24db20ceb2a7d5",
+  "rubric_sha256": "dfa3ca53492e42f41221d21323d5c7d211fc60e27d2ea5c29f12aa01ed417e88",
+  "rubric": {
+    "role_summary": "Embedded, interim founding GTM role supporting 3–5 early-stage portfolio companies at once. Builds and iterates outbound sales motions, from ICP and prospect lists through campaigns, meeting generation, reporting, and handoff to a company's first sales hire.",
+    "search_query": "Find candidates for this role:\nEmbedded, interim founding GTM role supporting 3–5 early-stage portfolio companies at once. Builds and iterates outbound sales motions, from ICP and prospect lists through campaigns, meeting generation, reporting, and handoff to a company's first sales hire.\nMandatory professional qualifications:\n- 1+ years successfully doing outbound/BDR motions at a startup.\nPreferred, not mandatory:\n- Founding or early BDR experience building a pipeline engine.\n- Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.\n- Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "1+ years successfully doing outbound/BDR motions at a startup.",
+        "source_quote": "Have 1–3 years in a high performance environment successfully doing outbound/BDR motions at a startup",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Founding or early BDR experience building a pipeline engine.",
+        "source_quote": "ideally as a founding or early BDR who built the pipeline engine, not someone who worked inside one someone else built.",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.",
+        "source_quote": "Deep fluency in AI-native prospecting — signal/intent-based targeting, enrichment waterfalls, and using LLMs to research an account or persona in minutes, not hours.",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.",
+        "source_quote": "Fluency in all modern outreach tools and approaches including Claude, Clay, LinkedIn Sales Navigator, Instantly/Lemlist/Apollo, Ploy.ai http://Ploy.ai, HubSpot/Salesforce or similar CRM).",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: San Francisco Bay Area, California. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco Bay Area, California"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Hybrid",
+        "This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site."
+      ]
+    },
+    "soft_requirements": [
+      "Comfort with ambiguity, continuous iteration, imperfection, and fast context-switching.",
+      "Judgment in matching channels, prospects, and messaging hooks to improve conversion.",
+      "Urgency, autonomy, and ability to execute an outbound campaign without hand-holding.",
+      "Strong written communication, adaptability across company voices, and editorial judgment about AI-generated copy.",
+      "Organization across 3–5 concurrent outbound engagements.",
+      "Genuine excitement about working with early-stage startups."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "04a29f1bfb0aaf0f356dcd4e1170e64a3f46571f3d7914fd97d7271ba8aa4db1",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:57:42.273899+00:00",
+    "response_id": "chatcmpl-ETySzqva3QpnI2AJe08cuJiUNhXVK",
+    "usage": {
+      "prompt_tokens": 3058,
+      "completion_tokens": 844,
+      "total_tokens": 3902,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1812,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 64,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "88ef6c9db10afcc7c849f51048ddeadc228d2149926e0de8ace3f01fa1500990",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role based in either the San Francisco or New York office, with 3 days per week on-site. Present residence in either city is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "San Francisco, CA",
+        "New York, NY"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Hybrid",
+        "This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "Have 1–3 years in a high performance environment successfully doing outbound/BDR motions at a startup",
+        "effective_requirement": "1+ years successfully doing outbound/BDR motions at a startup.",
+        "kind": "mandatory"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "681b76d3d360550ab731a71440b8bd6781021b59ead2d9be80c89644349c7b76",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "681b76d3d360550ab731a71440b8bd6781021b59ead2d9be80c89644349c7b76",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Fluency in AI-native prospecting, including signal/intent-based targeting, enrichment waterfalls, and using LLMs for account or persona research.",
+          "source_quote": "Deep fluency in AI-native prospecting — signal/intent-based targeting, enrichment waterfalls, and using LLMs to research an account or persona in minutes, not hours.",
+          "verification": "profile",
+          "reason": "Specific AI-native prospecting techniques are rarely listed and not implied by a BDR title."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Fluency in modern outreach tools and approaches; the named products are examples, not a requirement to know every product.",
+          "source_quote": "Fluency in all modern outreach tools and approaches including Claude, Clay, LinkedIn Sales Navigator, Instantly/Lemlist/Apollo, Ploy.ai http://Ploy.ai, HubSpot/Salesforce or similar CRM).",
+          "verification": "profile",
+          "reason": "Generic tooling fluency is largely unstated and adds little beyond the BDR requirement."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P2",
+        "M3": "P3"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "d232f4900f399a733a68a25fe018de8b6792f0be2f188767a0cd4a031c2ed555",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "8320d15375bb9762a2bd88e84a43eeb56270566122a2944431c4b58e591dc9d0",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Multiple office alternatives; kept the posting's primary office.",
+      "previous_allowed_locations": [
+        "San Francisco Bay Area, California",
+        "New York metropolitan area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): San Francisco Bay Area, California; New York metropolitan area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): This is a hybrid role based in either our San Francisco or New York office, with 3 days per week on-site.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "Have 1–3 years in a high performance environment successfully doing outbound/BDR motions at a startup",
+      "effective_requirement": "1+ years successfully doing outbound/BDR motions at a startup.",
+      "kind": "mandatory"
+    }
+  ]
+}

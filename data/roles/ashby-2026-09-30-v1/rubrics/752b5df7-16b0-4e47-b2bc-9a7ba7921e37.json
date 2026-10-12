@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "role_id": "752b5df7-16b0-4e47-b2bc-9a7ba7921e37",
+  "snapshot_sha256": "80be434215b3a5317d2fa76db085f173da495f45b6c9c3ef1bb51c75d50d9f5a",
+  "input_sha256": "12397eb553a729df0d78649251a0923accf75924666142681970e963d56f0432",
+  "rubric_sha256": "d939ad3f963995fa2e18a2d4e3e71d9f2846a24c3e9360515d1ba1d9fd57e207",
+  "rubric": {
+    "role_summary": "Senior customer support role serving rental property owners and tenants throughout the lease lifecycle, handling high-volume, multichannel inquiries about payments, ledgers, lease changes, and platform issues.",
+    "search_query": "Find candidates for this role:\nSenior customer support role serving rental property owners and tenants throughout the lease lifecycle, handling high-volume, multichannel inquiries about payments, ledgers, lease changes, and platform issues.\nMandatory professional qualifications:\n- 2+ years of experience in customer service, customer support, onboarding, or real estate.\nPreferred, not mandatory:\n- 2+ years of experience in property management.\n- Experience with Hubspot and Appfolio.\n- Ability to handle high-volume customer interactions across phone (60%), email, SMS, and ticketing systems (40%).\n- Experience using AI to draft responses, identify patterns in customer data, and build efficient workflows.\n- Experience with CRMs and Google Suite.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater Denver, Colorado area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Support team members work from the office 3 days a week and enjoy flexibility to work from wherever they choose twice a week.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "2+ years of experience in customer service, customer support, onboarding, or real estate.",
+        "source_quote": "2+ years experience in customer service, customer support, onboarding, or real estate",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "2+ years of experience in property management.",
+        "source_quote": "2+ years of experience in Property Management",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "Experience with Hubspot and Appfolio.",
+        "source_quote": "Hubspot and Appfolio experience strongly preferred",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Ability to handle high-volume customer interactions across phone (60%), email, SMS, and ticketing systems (40%).",
+        "source_quote": "Multi-channel communication skills: Strong phone presence and ability to handle high-volume customer interactions across phone (60%), email, SMS, and ticketing systems (40%)",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Experience using AI to draft responses, identify patterns in customer data, and build efficient workflows.",
+        "source_quote": "AI proficiency: You leverage AI to draft responses, identify patterns in customer data, and build efficient workflows",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Experience with CRMs and Google Suite.",
+        "source_quote": "Experience with CRMs and Google Suite required",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater Denver, Colorado area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater Denver, Colorado area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "This is a hybrid role based in beautiful Denver, Colorado.",
+        "Support team members work from the office 3 days a week and enjoy flexibility to work from wherever they choose twice a week."
+      ]
+    },
+    "soft_requirements": [
+      "Takes ownership of problems through resolution.",
+      "Strong phone presence and clear communication.",
+      "Learns new tools and systems quickly.",
+      "Spots trends and intervenes before issues escalate.",
+      "Builds rapport and understands customer blockers."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "80be434215b3a5317d2fa76db085f173da495f45b6c9c3ef1bb51c75d50d9f5a",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:15.220684+00:00",
+    "response_id": "chatcmpl-ETyTX1CQUaG1KQW82r1ClijhcxA2y",
+    "usage": {
+      "prompt_tokens": 2605,
+      "completion_tokens": 669,
+      "total_tokens": 3274,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1359,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "ff505acb67ac09bb4a8dbafde2d6ab9d98e0b87e1a92593111e3ae7f8e74c4c6",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role based in Denver, Colorado; support team members work from the office 3 days a week and may work from elsewhere twice a week. Present residence in Denver is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Denver, Colorado"
+      ],
+      "remote_scope": "Two flexible work-from-elsewhere days per week; no geographic scope specified for those days.",
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "This is a hybrid role based in beautiful Denver, Colorado.",
+        "Support team members work from the office 3 days a week and enjoy flexibility to work from wherever they choose twice a week."
+      ]
+    },
+    "experience_context": [
+      {
+        "criterion_id": "M1",
+        "source_quote": "2+ years experience in customer service, customer support, onboarding, or real estate",
+        "effective_requirement": "2+ years of experience in customer service, customer support, onboarding, or real estate.",
+        "kind": "mandatory"
+      },
+      {
+        "criterion_id": "P1",
+        "source_quote": "2+ years of experience in Property Management",
+        "effective_requirement": "2+ years of experience in property management.",
+        "kind": "preferred_not_a_gate"
+      }
+    ],
+    "observability": {
+      "parent_rubric_sha256": "7b56e1ae072c9f2a0c819de453f1cdd68aa47c9ad44ee794fda504f3afff48cf",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "7b56e1ae072c9f2a0c819de453f1cdd68aa47c9ad44ee794fda504f3afff48cf",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Ability to handle high-volume customer interactions across phone (60%), email, SMS, and ticketing systems (40%).",
+          "source_quote": "Multi-channel communication skills: Strong phone presence and ability to handle high-volume customer interactions across phone (60%), email, SMS, and ticketing systems (40%)",
+          "verification": "profile",
+          "reason": "Channel-mix volume handling is rarely stated and redundant with M1."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Experience using AI to draft responses, identify patterns in customer data, and build efficient workflows.",
+          "source_quote": "AI proficiency: You leverage AI to draft responses, identify patterns in customer data, and build efficient workflows",
+          "verification": "profile",
+          "reason": "AI use in support workflows is largely unstated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Experience with CRMs and Google Suite.",
+          "source_quote": "Experience with CRMs and Google Suite required",
+          "verification": "profile",
+          "reason": "Generic CRM/Google Suite proficiency is rarely stated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P3",
+        "M3": "P4",
+        "M4": "P5"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "46c4441b70f2649c5c87f824e222d2ce0140093f6be7c21cf345854f1667f627",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "5338bd2b05c9991db853361ad4d8c53046d08176c809b0bddb963acf61a03bf5",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater Denver, Colorado area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater Denver, Colorado area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): Support team members work from the office 3 days a week and enjoy flexibility to work from wherever they choose twice a week.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": [
+    {
+      "criterion_id": "M1",
+      "source_quote": "2+ years experience in customer service, customer support, onboarding, or real estate",
+      "effective_requirement": "2+ years of experience in customer service, customer support, onboarding, or real estate.",
+      "kind": "mandatory"
+    },
+    {
+      "criterion_id": "P1",
+      "source_quote": "2+ years of experience in Property Management",
+      "effective_requirement": "2+ years of experience in property management.",
+      "kind": "preferred_not_a_gate"
+    }
+  ]
+}

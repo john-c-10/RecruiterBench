@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "role_id": "d413c272-7ac8-4868-a8e7-171238a88728",
+  "snapshot_sha256": "dd8a57cfe63bdb556ad951121830c9e67ea0062c6a337ce1a0aa424f64bf6d8e",
+  "input_sha256": "29f7826ac179969b7767538b876e4d6adbb5b3a5eff4440c5a5a2198b59ef108",
+  "rubric_sha256": "8b926ea47c2c4d1672922d2f58f699f9f6cb1e3237d29cca200504f3381bc1c4",
+  "rubric": {
+    "role_summary": "Senior motor fleet insurance underwriting role managing a business portfolio, assessing risk, working with brokers, supporting portfolio analysis, and mentoring underwriting colleagues.",
+    "search_query": "Find candidates for this role:\nSenior motor fleet insurance underwriting role managing a business portfolio, assessing risk, working with brokers, supporting portfolio analysis, and mentoring underwriting colleagues.\nMandatory professional qualifications:\n- Extensive experience underwriting motor fleet insurance.\nPreferred, not mandatory:\n- Experience dealing with large corporate customers.\n- ACII qualified or working towards it.\n- Experience working closely with product teams on product, process and customer-journey enhancements for a product roadmap.\n- Track record of building strong and supportive relationships with insurance brokers.\n- Ability to collate data to support monitoring and analysis of an underwriting portfolio.\n- Comfort using AI in underwriting work while retaining personal judgment on decisions.\nWork location and geographic eligibility:\nAccept any one of these geographic alternatives (OR): Greater London, UK area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We work hybrid, typically three days a week in our Central London office (fewer office days can be accommodated for longer commute times), a few minutes from Moorgate and Liverpool Street. Visits to client sites, conferences and broker offices count towards office days.",
+    "must_haves": [
+      {
+        "id": "M1",
+        "requirement": "Extensive experience underwriting motor fleet insurance.",
+        "source_quote": "Extensive experience underwriting motor fleet insurance",
+        "verification": "profile"
+      }
+    ],
+    "red_flags": [],
+    "preferences": [
+      {
+        "id": "P1",
+        "requirement": "Experience dealing with large corporate customers.",
+        "source_quote": "Experience in dealing with large corporate customers",
+        "verification": "profile"
+      },
+      {
+        "id": "P2",
+        "requirement": "ACII qualified or working towards it.",
+        "source_quote": "ACII qualified or working towards",
+        "verification": "profile"
+      },
+      {
+        "id": "P3",
+        "requirement": "Experience working closely with product teams on product, process and customer-journey enhancements for a product roadmap.",
+        "source_quote": "Experience of working closely with product teams to ensure product, process and customer journey enhancements are included within the product roadmap",
+        "verification": "profile"
+      },
+      {
+        "id": "P4",
+        "requirement": "Track record of building strong and supportive relationships with insurance brokers.",
+        "source_quote": "Track record of building strong and supportive relationships with insurance brokers",
+        "verification": "profile"
+      },
+      {
+        "id": "P5",
+        "requirement": "Ability to collate data to support monitoring and analysis of an underwriting portfolio.",
+        "source_quote": "The ability to collate data and provide support to our Head of Underwriting to enable them to monitor and analyse the portfolio",
+        "verification": "profile"
+      },
+      {
+        "id": "P6",
+        "requirement": "Comfort using AI in underwriting work while retaining personal judgment on decisions.",
+        "source_quote": "Comfortable using AI in underwriting work, for example extracting and checking risk information or speeding up quoting, while keeping your own judgement on every decision",
+        "verification": "profile"
+      }
+    ],
+    "location": {
+      "required": true,
+      "requirement_text": "Location: Greater London, UK area. Hybrid work is based in this area, and candidates must currently be located in it. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Greater London, UK area"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": true,
+      "source_quotes": [
+        "London",
+        "Hybrid",
+        "We work hybrid, typically three days a week in our Central London office (fewer office days can be accommodated for longer commute times), a few minutes from Moorgate and Liverpool Street. Visits to client sites, conferences and broker offices count towards office days."
+      ]
+    },
+    "soft_requirements": [
+      "Stays curious about AI and is inclined to use it to improve their work.",
+      "Comfort with a dynamic startup environment."
+    ],
+    "ambiguities": []
+  },
+  "extraction": {
+    "snapshot_sha256": "dd8a57cfe63bdb556ad951121830c9e67ea0062c6a337ce1a0aa424f64bf6d8e",
+    "prompt_sha256": "91c5654c8d96414ee1d024ee349cada40c8a529052f32735a71dae746c7840fe",
+    "schema_sha256": "7b003ecd27aa48be67d03f9df66520f86b40cd42c02c8d9cc820262ed6f5f1c6",
+    "model": "gpt-6-sol",
+    "reasoning_effort": "low",
+    "returned_model": "gpt-6-sol",
+    "generated_at": "2026-09-30T23:58:01.526597+00:00",
+    "response_id": "chatcmpl-ETyTI6NgFJOQsylOwV0W8KIRRWqD0",
+    "usage": {
+      "prompt_tokens": 2335,
+      "completion_tokens": 863,
+      "total_tokens": 3198,
+      "prompt_tokens_details": {
+        "cached_tokens": 1243,
+        "cache_write_tokens": 1089,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 58,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "attempt_count": 1,
+    "review_status": "machine_extracted_source_quotes_validated"
+  },
+  "interpretation": {
+    "policy": {
+      "version": "role-interpretation-v1",
+      "single_location": "one_primary_office_area_or_one_remote_eligibility_region",
+      "relocation_offered": "widened_to_the_country_or_no_filter_when_hiring_from_anywhere_is_realistic",
+      "specific_cities": "within_100_miles_of_city_or_metropolitan_area",
+      "remote_with_named_geography": "candidate_must_be_in_named_geography",
+      "source_precedence": "role_text_before_metadata",
+      "experience_ranges": "lower_bound_only_no_hard_upper_bound",
+      "remaining_ambiguity": "less_restrictive_source_supported_interpretation",
+      "unknown_candidate_evidence": "stated_or_reasonably_implied_passes_otherwise_fail_hard_gate",
+      "obvious_overqualification": "fail_final_experience_fit",
+      "candidate_confirmation_criteria": "removed",
+      "criteria_outside_judged_profile_fields": "removed_or_reduced_to_observable_part",
+      "red_flags": "fail_only_when_stated_or_reasonably_implied",
+      "experience_fit_evidence": "stated_or_reasonably_implied",
+      "largely_unstated_must_haves": "demoted_to_preferences_or_reduced_to_observable_core"
+    },
+    "user_instruction": "for multiple locations, accept either one, broaden the area to the general area if it's a specific city, if remote + a location, please force them into the location, follow the text rather than the metadata, for x-y years exp, unbound the top but evaluate obviously overqualified candidates as failures in the final fit eval, other than that, assume the less strict of interpretations (eg masters required versus masters or phd, eval as if masters or phd)",
+    "parent_rubric_sha256": "6c1c34be3b24d4ecb7ad6a5047eac375c7cd3c8959b648ee3fba1923b9c40cf2",
+    "resolved_ambiguities": [],
+    "resolution": null,
+    "source_location_rubric": {
+      "required": true,
+      "requirement_text": "Hybrid role based around a Central London office, typically three days per week. Fewer office days can be accommodated for longer commutes; visits to client sites, conferences and broker offices count toward office days. Present residence in London is not explicitly required.",
+      "workplace_type": "hybrid",
+      "allowed_locations": [
+        "Central London, UK"
+      ],
+      "remote_scope": null,
+      "relocation": "unspecified",
+      "current_residence_required": false,
+      "source_quotes": [
+        "London",
+        "Hybrid",
+        "We work hybrid, typically three days a week in our Central London office (fewer office days can be accommodated for longer commute times), a few minutes from Moorgate and Liverpool Street. Visits to client sites, conferences and broker offices count towards office days."
+      ]
+    },
+    "experience_context": [],
+    "observability": {
+      "parent_rubric_sha256": "d126a28428e443e3a7236b3a10c28bd3a5ac71e8207a5db33607631e1fa70549",
+      "user_instruction": "Remove unverifiable candidate-confirmation criteria (work authorization, citizenship, travel, schedule) from all roles, and remove criteria whose evidence is not in the fields passed to the evaluators.",
+      "removed_criteria": [],
+      "reduced_criteria": [],
+      "criterion_id_map": {}
+    },
+    "implied_evidence": {
+      "parent_rubric_sha256": "d126a28428e443e3a7236b3a10c28bd3a5ac71e8207a5db33607631e1fa70549",
+      "user_instruction": "Change the scoring such that for must-have criteria, it can still score as a pass if this is implied. Change any impossible or largely unstated must haves to preferences rather than must-haves. On the secondary reviewer, we should also score implied experience/competence as a pass. Make these changes to every role.",
+      "demoted_to_preferences": [
+        {
+          "field": "must_haves",
+          "id": "M2",
+          "requirement": "Track record of building strong and supportive relationships with insurance brokers.",
+          "source_quote": "Track record of building strong and supportive relationships with insurance brokers",
+          "verification": "profile",
+          "reason": "Strength of broker relationships is a quality claim rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M3",
+          "requirement": "Ability to collate data to support monitoring and analysis of an underwriting portfolio.",
+          "source_quote": "The ability to collate data and provide support to our Head of Underwriting to enable them to monitor and analyse the portfolio",
+          "verification": "profile",
+          "reason": "Portfolio data collation is a specific practice rarely stated."
+        },
+        {
+          "field": "must_haves",
+          "id": "M4",
+          "requirement": "Comfort using AI in underwriting work while retaining personal judgment on decisions.",
+          "source_quote": "Comfortable using AI in underwriting work, for example extracting and checking risk information or speeding up quoting, while keeping your own judgement on every decision",
+          "verification": "profile",
+          "reason": "Comfort with AI in underwriting is largely unstated."
+        }
+      ],
+      "reduced_criteria": [],
+      "criterion_id_map": {},
+      "demoted_preference_ids": {
+        "M2": "P4",
+        "M3": "P5",
+        "M4": "P6"
+      }
+    },
+    "metro_radius": {
+      "parent_rubric_sha256": "257fd652d77acc2fbb19b2b156ff9d9acf8f1fb8793cf3f2ba0b5e21edb0f853",
+      "user_instruction": "Make location validation accept nearby metros within 100 miles as correct.",
+      "location_requirement_changed": true
+    },
+    "single_location": {
+      "parent_rubric_sha256": "0a1808b70c8e7a0653d28d87e6c8acb30315cee732d0bd5a077f9e4a9ccb5b06",
+      "user_instruction": "change all roles on this benchmark location settings for both the post-evaluators and for the role brief: if a role says relocation offered and realistically they'd hire anyone from the us, then eval on this and have it in the brief. There should NEVER be contradictory location filtering in the role (eg sf or remote), evaluated against sf. It should always PICK ONE. Make your best judgment for htis but repair all roles in this way to be 1 location or remote in the role + evaluator.",
+      "decision": "metro",
+      "reason": "Already one location rule; requirement text restated in the single-location form.",
+      "previous_allowed_locations": [
+        "Greater London, UK area"
+      ],
+      "previous_requirement_text": "Accept any one of these geographic alternatives (OR): Greater London, UK area. Specific cities and metropolitan areas also include any location within about 100 miles (160 km) of them; states, countries, and regions require a location inside them. Hybrid work is based in one of these areas. Explicit work-attendance terms (city labels use the area interpretation above): We work hybrid, typically three days a week in our Central London office (fewer office days can be accommodated for longer commute times), a few minutes from Moorgate and Liverpool Street. Visits to client sites, conferences and broker offices count towards office days.",
+      "location_requirement_changed": true
+    }
+  },
+  "experience_context": []
+}
