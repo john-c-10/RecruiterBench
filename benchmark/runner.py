@@ -208,7 +208,7 @@ def rescore(envelope: dict, dataset: Path, runs_root: Path, run_id: str, source_
     if (root / "replay.json").exists() and read_json(root / "replay.json") != record:
         raise ValueError("Run ID already replays a different source")
     atomic_json(root / "replay.json", record)
-    fallback = provider_client(plan["provider"], plan["api_base_url"]) if missing else None
+    fallback = provider_client(plan["provider"], plan["api_base_url"], state_root=root / "provider-state") if missing else None
     return run(envelope, dataset, runs_root, run_id, search_client=ReplaySearch(results, fallback),
                **({} if missing else {"interval_seconds": 0}), **options)
 
@@ -217,14 +217,17 @@ def search_client_missing_key(provider: str) -> bool:
     return not os.environ.get(search_provider(provider).API_KEY_ENV)
 
 
-def run(envelope: dict, dataset: Path, runs_root: Path, run_id: str, *, workers=8, parallel=1, interval_seconds=300 / 45,
-        retry_failed=(), retry_uncertain=(), search_client=None, judge=None, progress=print) -> dict:
+def run(envelope: dict, dataset: Path, runs_root: Path, run_id: str, *, workers=8, parallel=1, judge_parallel=None,
+        interval_seconds=300 / 45, retry_failed=(), retry_uncertain=(), search_client=None, judge=None, progress=print) -> dict:
     plan = validate_plan(envelope, dataset)
     retry_failed, retry_uncertain = retry_stages(retry_failed), retry_stages(retry_uncertain)
-    if type(workers) is not int or not 1 <= workers <= 16:
-        raise ValueError("Judge workers must be 1 through 16")
+    judge_parallel = parallel if judge_parallel is None else judge_parallel
+    if type(workers) is not int or not 1 <= workers <= 32:
+        raise ValueError("Judge workers must be 1 through 32")
     if type(parallel) is not int or not 1 <= parallel <= 16:
-        raise ValueError("Parallel roles must be 1 through 16")
+        raise ValueError("Parallel searches must be 1 through 16")
+    if type(judge_parallel) is not int or not 1 <= judge_parallel <= 16:
+        raise ValueError("Parallel judged roles must be 1 through 16")
     if search_client is None and search_client_missing_key(plan["provider"]):
         raise ValueError(f"Set {search_provider(plan['provider']).API_KEY_ENV} before executing searches")
     if judge is None and not os.environ.get("OPENAI_API_KEY"):
@@ -237,14 +240,16 @@ def run(envelope: dict, dataset: Path, runs_root: Path, run_id: str, *, workers=
             raise ValueError("Run ID already belongs to a different plan")
         if not plan_path.exists():
             atomic_json(plan_path, envelope)
-        searcher = search_client or provider_client(plan["provider"], plan["api_base_url"])
+        searcher = search_client or provider_client(plan["provider"], plan["api_base_url"], state_root=root / "provider-state")
         reviewer = Evaluator(judge or OpenAIJudge(model=JUDGE_MODEL, reasoning_effort=JUDGE_REASONING_EFFORT), root, plan["as_of"],
                              retry_failed="judge" in retry_failed, retry_uncertain="judge" in retry_uncertain)
         retries = {"retry_failed": "search" in retry_failed, "retry_uncertain": "search" in retry_uncertain}
         stop = Event()
 
-        def process(role, repeat):
-            # Returns False when this role's failure should stop admitting new roles.
+        def searched(role, repeat):
+            # Returns the search to judge, or None when it failed; a failure stops new work.
+            if stop.is_set():
+                return None
             key = search_key(role["role_id"], repeat)
             result_path = root / "results" / f"{key}.json"
             inputs = {"plan_sha256": envelope["plan_sha256"], "role_id": role["role_id"], "repeat": repeat,
@@ -253,14 +258,18 @@ def run(envelope: dict, dataset: Path, runs_root: Path, run_id: str, *, workers=
                 pacer.wait()
                 # No provider promises server-side deduplication for this key.
                 # Local state, not this key, prevents replays.
-                return searcher.search(role["search_body"], digest({"inputs": inputs, "attempt": attempt}))
+                # Metaview checkpoints the asynchronous job under a stable local
+                # unit key, so explicit retries poll it instead of creating it again.
+                request_key = key if plan["provider"] == "metaview" else digest({"inputs": inputs, "attempt": attempt})
+                return searcher.search(role["search_body"], request_key)
             try:
                 result = execute_unit(root, "search", key, inputs, action, **retries)
             except Exception:
                 failed = {"search_status": "failed_or_uncertain", "judgments": []}
                 atomic_json(result_path, {"plan_sha256": envelope["plan_sha256"], "result_sha256": digest(failed), "result": failed})
                 progress(f"{key}: search failed or uncertain; inspect private unit state")
-                return False
+                stop.set()
+                return None
             coverage = field_coverage_counts(result["candidates"])
             if result["returned_count"] and not coverage["experiences"]:
                 # Every profile lacking experience means the response contract
@@ -269,7 +278,14 @@ def run(envelope: dict, dataset: Path, runs_root: Path, run_id: str, *, workers=
                             "field_coverage_counts": coverage, "judgments": []}
                 atomic_json(result_path, {"plan_sha256": envelope["plan_sha256"], "result_sha256": digest(rejected), "result": rejected})
                 progress(f"{key}: no returned profile has experience evidence; check profile field normalization")
-                return False
+                stop.set()
+                return None
+            return role, key, result_path, result, coverage
+
+        def judged(role, key, result_path, result, coverage):
+            # A search completed before a failure is left unjudged; resume judges it.
+            if stop.is_set():
+                return
             judgments = []
             with ThreadPoolExecutor(max_workers=workers) as pool:
                 futures = {pool.submit(reviewer.evaluate, role, role["rubric"], candidate): candidate for candidate in result["candidates"]}
@@ -292,20 +308,19 @@ def run(envelope: dict, dataset: Path, runs_root: Path, run_id: str, *, workers=
                          "judgments": judgments}
             atomic_json(result_path, {"plan_sha256": envelope["plan_sha256"], "result_sha256": digest(evaluated), "result": evaluated})
             progress(f"{key}: {len(judgments)} ranks reviewed; {sum(r['status'] == 'error' for r in judgments)} errors")
-            return not any(row["status"] == "error" for row in judgments)
-
-        def admitted(role, repeat):
-            # Roles not yet started are skipped once any role stops the run.
-            if stop.is_set():
-                return
-            if not process(role, repeat):
+            if any(row["status"] == "error" for row in judgments):
                 stop.set()
 
+        # Searches never wait for judging: each finished search is handed to a
+        # separate judging pool while the search pool moves on to the next role.
         for repeat in range(1, plan["repeats"] + 1):
             if stop.is_set():
                 break
-            with ThreadPoolExecutor(max_workers=parallel) as roles:
-                for future in [roles.submit(admitted, role, repeat) for role in plan["roles"]]:
+            with ThreadPoolExecutor(max_workers=parallel) as searches, ThreadPoolExecutor(max_workers=judge_parallel) as judging:
+                pending = [judging.submit(judged, *done.result())
+                           for done in as_completed([searches.submit(searched, role, repeat) for role in plan["roles"]])
+                           if done.result() is not None]
+                for future in pending:
                     future.result()
         report = build_report(root, plan, envelope["plan_sha256"])
         atomic_json(root / "summary.json", report)

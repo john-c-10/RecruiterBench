@@ -46,7 +46,8 @@ class RunnerTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary); data, plan = self.setup_run(root)
             search, judge = Search(), Judge()
-            result = run(plan, data, root / "runs", "fixture", search_client=search, judge=judge, parallel=4, interval_seconds=0, progress=lambda _: None)
+            result = run(plan, data, root / "runs", "fixture", search_client=search, judge=judge, parallel=4, judge_parallel=2, workers=32,
+                         interval_seconds=0, progress=lambda _: None)
             self.assertEqual(len(search.calls), 1)
             self.assertEqual(result["status"], "complete")
             self.assertEqual(result["overall"]["metrics"]["p@200"], .005)
@@ -85,7 +86,7 @@ class RunnerTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "search-missing"):
                 rescore(plan, data, root / "runs", "again", "source", judge=Judge(), progress=lambda _: None)
             live = Search()
-            with unittest.mock.patch("benchmark.runner.provider_client", lambda *_: live), \
+            with unittest.mock.patch("benchmark.runner.provider_client", lambda *_, **__: live), \
                  unittest.mock.patch.dict("os.environ", {"WRANGLE_API_KEY": "test-only", "OPENAI_API_KEY": "test-only"}):
                 result = rescore(plan, data, root / "runs", "again", "source", search_missing=True, judge=Judge(),
                                  interval_seconds=0, progress=lambda _: None)

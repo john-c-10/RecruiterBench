@@ -26,7 +26,17 @@ The search brief is rendered deterministically from the role summary, hard condi
 
 Both judge stages see only four professional fields from the search response: location, education history, experience history, and listed skills. This is a provider's projection of profile data, not a live scrape or credential check. Providers differ in coverage: Exa's public people search returns location, work history, and education but no listed skills or role descriptions. Every report includes per-field coverage counts. Top-level headlines and summaries are not substituted for experience, provider-generated evaluations are excluded, and a profile over 120 KB after normalization is rejected rather than truncated.
 
-Duplicates are detected within each search by person ID and canonical LinkedIn URL. A duplicate keeps its rank and earns zero. A result with neither identifier invalidates the search.
+Duplicates are detected within each search by person ID and canonical LinkedIn URL. A duplicate keeps its rank and earns zero. An Exa result that is only an Exa person page counts its page ID as the person ID and is judged on an empty profile. A result with no identifier at all invalidates the search.
+
+## Providers
+
+Wrangle and Exa run through this harness's API adapters. The other providers were collected by their own launchers, then judged by the same two-stage judge on the same four fields:
+
+- **Metaview** runs through its MCP endpoint. Each role sends the frozen brief requesting up to 200 candidates; results keep MCP list order, which is not a documented relevance ranking, and Metaview's own match summaries are excluded. Latency includes asynchronous generation, polling, and profile retrieval.
+- **Treg** runs through its `parallel.people.search` endpoint with a 100-result limit, the most it accepts. Its profile descriptions are capped at 1,000 characters and are not enriched.
+- **Juicebox** has no public search API, so its results were collected through its Sourcing UI: LinkedIn URLs from result cards were enriched through Wrangle before judging. Its scores therefore reflect Juicebox's ranking and selection judged on Wrangle's profile data, and no latency is reported.
+
+A provider failure that persists after recovery scores zero for that role and stays in every quality denominator; it is excluded only from candidate-count and latency averages. For every provider, Lite scores reuse the 58-role subset of its Hard searches and judgments.
 
 ## Two-stage judge
 
@@ -59,7 +69,7 @@ For the candidate at rank i:
 
 `P@K = sum(y_i for i = 1..K) / K` for K = 10, 50, 100, 200. Because credit can be fractional, this is graded precision. The denominator is always K. Top-1 relevance is `y_1`: precision at rank 1, not recall.
 
-Zero-padding to 200 is deliberate: the benchmark asks for 200 candidates, and missing slots earn nothing. Exa's public search returns at most 100 results, which caps its P@200 at 0.5. Reports show `returned_count` per search and `avg_candidates_returned` per aggregate so a low P@200 can be read as few results or poor ones.
+Zero-padding to 200 is deliberate: the benchmark asks for 200 candidates, and missing slots earn nothing. Reports show `returned_count` per search and `avg_candidates_returned` per aggregate, so a low P@200 can be read as few results or poor ones. When a provider cannot return K results at all (Exa caps at 100; Treg rejects requests for 200), the README marks that P@K as not reported rather than publishing a padded value.
 
 Headline quality means are published only when every planned role is scoreable. Overall quality is the mean across role-searches, which equals the macro mean over roles when repetitions are equal. Per-role and per-category results remain visible in incomplete reports.
 

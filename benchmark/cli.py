@@ -43,7 +43,8 @@ def main(argv=None) -> int:
             command.add_argument("--run-id", required=True)
         if name in ("run", "rescore"):
             command.add_argument("--plan", type=Path, required=True)
-            command.add_argument("--parallel", type=int, default=1, help="Roles searched and judged concurrently")
+            command.add_argument("--parallel", type=int, default=1, help="Searches in flight at once")
+            command.add_argument("--judge-parallel", type=int, help="Searched roles judged at once (default: --parallel)")
         if name == "run":
             command.add_argument("--search-interval-seconds", type=float, default=300 / 45)
         if name == "rescore":
@@ -88,12 +89,13 @@ def main(argv=None) -> int:
             return int(bool(result["failed"]))
         elif args.command == "run":
             result = run(read_json(args.plan), args.dataset, args.runs_root, args.run_id, workers=args.workers, parallel=args.parallel,
+                         judge_parallel=args.judge_parallel,
                          interval_seconds=args.search_interval_seconds, retry_failed=args.retry_failed, retry_uncertain=args.retry_uncertain)
             print(json.dumps({"status": result["status"], "overall": result["overall"]}, indent=2))
             return int(result["status"] != "complete")
         elif args.command == "rescore":
             result = rescore(read_json(args.plan), args.dataset, args.runs_root, args.run_id, args.source_run, search_missing=args.search_missing, workers=args.workers,
-                             parallel=args.parallel, retry_failed=args.retry_failed, retry_uncertain=args.retry_uncertain)
+                             parallel=args.parallel, judge_parallel=args.judge_parallel, retry_failed=args.retry_failed, retry_uncertain=args.retry_uncertain)
             print(json.dumps({"status": result["status"], "overall": result["overall"]}, indent=2))
             return int(result["status"] != "complete")
         elif args.command == "report":

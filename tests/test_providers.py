@@ -67,6 +67,15 @@ class ProviderTests(unittest.TestCase):
         self.assertEqual(second["duplicate_of_rank"], 1)
 
     @patch.dict(os.environ, {"EXA_API_KEY": "test-only"})
+    def test_exa_library_page_without_entity_keeps_its_slot(self):
+        result = {"url": "https://exa.ai/library/person/yhdd9gc6rfj", "entities": []}
+        client = httpx.Client(transport=httpx.MockTransport(lambda _: httpx.Response(200, json={"results": [result]})))
+        value = exa.ExaSearch(client=client).search(exa.search_body("Bookkeeper", "auto"), "fixture")
+        self.assertEqual(value["returned_count"], 1)
+        self.assertEqual(value["candidates"][0]["identity_keys"], ["person:exa-library:yhdd9gc6rfj"])
+        self.assertFalse(any(value["candidates"][0]["field_coverage"].values()))
+
+    @patch.dict(os.environ, {"EXA_API_KEY": "test-only"})
     def test_exa_rejects_unidentifiable_results_and_unknown_modes(self):
         client = httpx.Client(transport=httpx.MockTransport(lambda _: httpx.Response(200, json={"results": [{"url": "https://example.test/page"}]})))
         with self.assertRaisesRegex(ProviderError, "CONTRACT_REJECTED"):

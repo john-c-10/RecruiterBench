@@ -7,6 +7,7 @@ those profile surfaces stay empty; report per-field coverage alongside scores.
 from __future__ import annotations
 
 import os
+import re
 import time
 
 import certifi
@@ -37,11 +38,17 @@ def dates(value) -> dict:
     return {"start_date": value.get("from"), "end_date": value.get("to")}
 
 
+LIBRARY_PERSON = re.compile(r"^https://exa\.ai/library/person/([A-Za-z0-9_-]+)/?$")
+
+
 def candidate(result: dict) -> dict:
     """Map one Exa result to the fields profiles.normalize_profile reads."""
     person = next((entity for entity in result.get("entities") or [] if entity.get("type") == "person"), {})
     properties = person.get("properties") or {}
-    return {"id": person.get("id"), "linkedinUrl": result.get("url"),
+    # Some results are only an Exa person page with no entity; its slug is a
+    # stable ID, so the slot keeps its rank and is judged on an empty profile.
+    library = LIBRARY_PERSON.match(result.get("url") or "")
+    return {"id": person.get("id") or (f"exa-library:{library[1]}" if library else None), "linkedinUrl": result.get("url"),
             "location": properties.get("location"),
             "experiences": [{"title": role.get("title"), "company": (role.get("company") or {}).get("name"),
                              "location": role.get("location"), **dates(role.get("dates"))}
